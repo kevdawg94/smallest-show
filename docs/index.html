@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smallest Show</title>
+<meta name="description" content="Tonight at America's independent cinemas, on your iPhone home screen: what's playing, what's sold out, a tap to tickets.">
+<style>
+  :root { --paper: #fbf8f2; --ink: #1c1b19; --muted: #8a8680; --faint: #d9d4ca; --chip: #efe9df; --accent: #b4482b; }
+  @media (prefers-color-scheme: dark) { :root { --paper: #141311; --ink: #f2efe8; --muted: #8f8b84; --faint: #3a3834; --chip: #2a2825; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  main { max-width: 34rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+  h1 { font-size: 2.2rem; letter-spacing: -0.02em; margin: 0 0 0.25rem; }
+  h1 small { display: block; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin-bottom: 0.5rem; }
+  .lede { color: var(--muted); margin: 0 0 2rem; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+  .button { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; padding: 0.8rem 1.3rem; border-radius: 0.6rem; }
+  .button.secondary { background: var(--chip); color: var(--ink); }
+  .button:active { opacity: 0.85; }
+  .button small { display: block; font-weight: 400; font-size: 0.75rem; opacity: 0.8; }
+  .note { font-size: 0.9rem; color: var(--muted); margin: 0.6rem 0 2.5rem; }
+  h2 { font-size: 1.05rem; margin: 2rem 0 0.5rem; }
+  ol { padding-left: 1.3rem; margin: 0; }
+  li { margin: 0.4rem 0; }
+  li b { font-weight: 600; }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.4rem 0 0.9rem; padding: 0; list-style: none; }
+  .chips li { margin: 0; background: var(--chip); border-radius: 0.4rem; padding: 0.2rem 0.6rem; font-size: 0.9rem; }
+  .chips li span { color: var(--muted); }
+  .region { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 0.9rem 0 0; }
+  .city { font-size: 1rem; font-weight: 600; margin: 1.4rem 0 0; }
+  .shot { display: block; width: 100%; max-width: 17rem; margin: 0 0 1.75rem; border-radius: 1.6rem; box-shadow: 0 1px 2px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.10); }
+  .shots { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1rem 0 0.5rem; }
+  .shots figure { flex: 1 1 13rem; max-width: 17rem; margin: 0; }
+  .shots img { display: block; width: 100%; border-radius: 1rem; border: 1px solid var(--faint); }
+  .shots figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.4rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--faint); font-size: 0.85rem; color: var(--muted); }
+  footer a, p a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1><small>iPhone widget</small>Smallest Show</h1>
+  <p class="lede">Tonight at the independent cinemas of <span id="city-count">dozens of</span> American cities: what's playing, what's sold out, a tap to tickets. Pick your city, then the theaters you go to.</p>
+
+  <img class="shot" src="img/home.png" alt="An iPhone home screen with the large Smallest Show widget at the top: TONIGHT, Fri Oct 23, then four theaters, each with its films and tappable showtimes, sold-out times greyed; the dock below">
+
+  <div class="buttons">
+    <a class="button secondary" href="https://apps.apple.com/us/app/scriptable/id1405459188">1. Get Scriptable <small>free, on the App Store</small></a>
+    <a class="button" href="SmallestShow.scriptable" download="SmallestShow.scriptable">2. Add to Scriptable <small>the Smallest Show script</small></a>
+  </div>
+  <p class="note">Already have Scriptable? Just the second button. Nothing to edit; the script keeps itself up to date.</p>
+
+  <h2>Three steps</h2>
+  <ol>
+    <li>With Scriptable installed, tap <b>Add to Scriptable</b> above. Safari downloads <i>SmallestShow.scriptable</i>; open it from the Downloads arrow (or Files) and Scriptable asks to add it. Tap <b>Add</b>, then run it once: it asks <b>which theaters you go to</b>; tick yours and close the sheet. The <b>Theaters ›</b> row at the top of the list changes them any time.
+      <div class="shots">
+        <figure><img src="img/theaters-sheet-2.png" alt="The Theaters sheet in Scriptable: a list of Bay Area theaters with a check beside the followed ones, each with its area and how many films it has this week"><figcaption>Tick the theaters you go to.</figcaption></figure>
+        <figure><img src="img/list-2.png" alt="The in-app list: earlier and later buttons, the Theaters row, then each theater's shows for tonight with a tickets link, one marked sold out"><figcaption>The list, with the Theaters row at the top.</figcaption></figure>
+      </div>
+    </li>
+    <li>On the home screen, long-press, <b>Edit › Add Widget</b>, search <b>Scriptable</b>, pick the <b>large</b> size.</li>
+    <li>Long-press the new widget, <b>Edit Widget</b>: Script <b>Smallest Show</b>, When Interacting <b>Run Script</b>.</li>
+  </ol>
+  <p class="note">A time taps to that show's ticket page, a theater's name to its site, the title to the full list. Sold-out times are greyed. After the last show the widget rolls to tomorrow.</p>
+
+  <h2>Theaters you can follow</h2>
+  <div id="theaters"><ul class="chips"><li>loading…</li></ul></div>
+  <p class="note">Listings are rebuilt every three hours through the day from each theater's own ticketing.</p>
+
+  <footer>Made by Kevin Celustka for his own Friday nights, and named for <i>The Smallest Show on Earth</i> (1957), where a young couple inherit a run-down cinema between two railway bridges. The widget and its listings are at <a href="https://github.com/kevdawg94/smallest-show">github.com/kevdawg94/smallest-show</a>; no accounts, no tracking, the widget reads a public file.</footer>
+</main>
+<script>
+  fetch("https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/index.json?t=" + Math.floor(Date.now() / 300000))
+    .then(r => r.json())
+    .then(idx => {
+      const box = document.getElementById("theaters");
+      box.innerHTML = "";
+      const cityName = Object.fromEntries((idx.cities || []).map(c => [c.id, c.name]));
+      const served = new Set(idx.theaters.map(t => t.city)); // a city in the catalog with no theaters yet doesn't count
+      document.getElementById("city-count").textContent = (idx.cities || []).filter(c => served.has(c.id)).length;
+      const manyCities = (idx.cities || []).length > 1;
+      let city = null, region = null, ul = null;
+      for (const t of idx.theaters) {
+        if (manyCities && t.city && t.city !== city) {
+          city = t.city; region = null;
+          const h = document.createElement("div");
+          h.className = "city";
+          h.textContent = cityName[city] || city;
+          box.appendChild(h);
+        }
+        if (!ul || (t.region && t.region !== region)) {
+          region = t.region;
+          if (region) {
+            const h = document.createElement("div");
+            h.className = "region";
+            h.textContent = region;
+            box.appendChild(h);
+          }
+          ul = document.createElement("ul");
+          ul.className = "chips";
+          box.appendChild(ul);
+        }
+        const li = document.createElement("li");
+        li.textContent = t.name + " ";
+        const s = document.createElement("span");
+        s.textContent = t.area;
+        li.appendChild(s);
+        ul.appendChild(li);
+      }
+    })
+    .catch(() => { document.getElementById("theaters").innerHTML = "<ul class='chips'><li>the list didn't load; try again in a minute</li></ul>"; });
+</script>
+</body>
+</html>
