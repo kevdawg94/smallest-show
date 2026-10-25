@@ -5,7 +5,7 @@ tap to tickets. It's a widget for [Scriptable](https://apps.apple.com/us/app/scr
 named for *The Smallest Show on Earth* (1957), where a young couple inherit a run-down cinema between
 two railway bridges.
 
-**Install:** [kevdawg94.github.io/smallest-show](https://kevdawg94.github.io/smallest-show/). Get
+**Install:** [smallest.show](https://smallest.show/). Get
 Scriptable, tap *Add to Scriptable*, run the script once to pick your city and the theaters you go to,
 then add a large Scriptable widget to the home screen.
 
