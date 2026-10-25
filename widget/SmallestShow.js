@@ -2,7 +2,7 @@
 // These must be at the very top of the file. Do not edit.
 // icon-color: deep-purple; icon-glyph: film;
 //
-// Marquee — tonight at your Bay Area cinemas.
+// Smallest Show — tonight at your independent cinemas.
 //
 // As a widget (large is the one to use; medium fits a few rows; small shows a count): the films
 // playing tonight at the theaters you picked, each time a tap target that opens its ticket page,
@@ -11,12 +11,16 @@
 //
 // Which theaters: the widget's parameter (long-press › Edit Widget › Parameter) as a comma list of
 // ids, e.g. "elmwood,roxie"; otherwise the set picked in the app; otherwise the feed's default.
-// The ids are in feeds/index.json. The data is rebuilt every three hours by this repo's Action:
-//   https://github.com/kevdawg94/marquee
+// The ids are in index.json on the feeds branch, rebuilt every three hours:
+//   https://github.com/kevdawg94/smallest-show
+//
+// This was Marquee until 2026.10.25. A copy installed under that name keeps it (renaming a script
+// unbinds its widgets), and the Keychain keys and cache files keep the marquee prefix, so an
+// update changes nothing on the phone but the code.
 
-const VERSION = "2026.10.24.4"; // YYYY.MM.DD[.n], later than the published one; package.py reads it
-const BASE = "https://raw.githubusercontent.com/kevdawg94/marquee/main/feeds/";
-const VERSION_URL = "https://raw.githubusercontent.com/kevdawg94/marquee/main/docs/version.json";
+const VERSION = "2026.10.25"; // YYYY.MM.DD[.n], later than the published one; package.py reads it
+const BASE = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+const VERSION_URL = "https://raw.githubusercontent.com/kevdawg94/smallest-show/main/docs/version.json";
 const PICKED_KEY = "marquee.theaters"; // Keychain: shared between the app and its widgets
 const CITY_KEY = "marquee.city"; // the city the Theaters sheet opens on
 const UPDATE_KEY = "marquee.updateCheck";
@@ -79,7 +83,7 @@ async function chooseCity(index, current) {
     const head = new UITableRow();
     head.isHeader = true;
     head.height = 50;
-    const t = head.addText("Where do you go to the movies?", "Marquee lists independent cinemas in these cities. Switch any time from the Theaters sheet.");
+    const t = head.addText("Where do you go to the movies?", "Smallest Show lists independent cinemas in these cities. Switch any time from the Theaters sheet.");
     t.titleFont = Font.boldSystemFont(16);
     t.subtitleFont = Font.systemFont(11);
     t.subtitleColor = Color.gray();
@@ -312,7 +316,7 @@ function buildWidget(data, offline, family) {
 
   if (!data.theaters.length) {
     w.addSpacer();
-    const z = w.addText("No theaters picked. Open Marquee and tap Theaters.");
+    const z = w.addText(`No theaters picked. Open ${Script.name()} and tap Theaters.`); // the name it has on this phone
     z.font = Font.systemFont(12);
     z.textColor = MUTED;
     w.addSpacer();
@@ -402,7 +406,7 @@ async function pickTheaters(index, current) {
     const head = new UITableRow();
     head.isHeader = true;
     head.height = 50;
-    const t = head.addText("Which theaters do you go to?", `Tap to follow or unfollow; the widget shows the ticked ones. Close the sheet when done. Marquee ${VERSION}`);
+    const t = head.addText("Which theaters do you go to?", `Tap to follow or unfollow; the widget shows the ticked ones. Close the sheet when done. Smallest Show ${VERSION}`);
     t.titleFont = Font.boldSystemFont(16);
     t.subtitleFont = Font.systemFont(11);
     t.subtitleColor = Color.gray();
@@ -602,7 +606,7 @@ async function main() {
     if (config.runsInWidget) {
       const w = new ListWidget();
       w.backgroundColor = PAPER;
-      const t = w.addText("Marquee can't load the listings.");
+      const t = w.addText("Smallest Show can't load the listings.");
       t.textColor = MUTED;
       t.font = Font.systemFont(12);
       Script.setWidget(w);
@@ -625,14 +629,16 @@ async function main() {
     const updated = await selfUpdate(true);
     if (updated) {
       const a = new Alert();
-      a.title = `Marquee updated to ${updated}`;
+      a.title = `Smallest Show updated to ${updated}`;
       a.message = "The new version runs from the next time it opens.";
       a.addAction("OK");
       await a.present();
     }
     if (!Array.isArray(readPicked())) { // first run: the city, then its theaters, before anything else
-      await chooseCity(loaded.index, null);
-      await pickTheaters(loaded.index, loaded.ids);
+      const city = await chooseCity(loaded.index, null);
+      // ticked to start with: the default's theaters in that city, so a pick elsewhere doesn't carry them
+      const here = new Set(loaded.index.theaters.filter(t => t.city === city).map(t => t.id));
+      await pickTheaters(loaded.index, loaded.ids.filter(id => here.has(id)));
       loaded = await loadAll(null);
     }
     await showTable(loaded);

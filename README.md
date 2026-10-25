@@ -19,4 +19,10 @@ then add a large Scriptable widget to the home screen.
   local time. The listings are rebuilt every three hours from 9 am to 9 pm Pacific, and the branch
   holds only the latest: it is replaced on every rebuild.
 
+## License
+
+The code is MIT-licensed; see `LICENSE`. The showtimes belong to the theaters: the feeds are read from
+each theater's own public listings and come as-is, with no promise that they're complete or current.
+Check the theater's site before you go.
+
 This repo is published automatically; a change made here directly is overwritten by the next publish.
