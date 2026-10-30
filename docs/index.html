@@ -24,11 +24,9 @@
   ol { padding-left: 1.3rem; margin: 0; }
   li { margin: 0.4rem 0; }
   li b { font-weight: 600; }
-  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.4rem 0 0.9rem; padding: 0; list-style: none; }
-  .chips li { margin: 0; background: var(--chip); border-radius: 0.4rem; padding: 0.2rem 0.6rem; font-size: 0.9rem; }
-  .chips li span { color: var(--muted); }
-  .region { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 0.9rem 0 0; }
-  .city { font-size: 1rem; font-weight: 600; margin: 1.4rem 0 0; }
+  .stats { display: flex; gap: 0.5rem; margin: 0.6rem 0 0; padding: 0; list-style: none; }
+  .stats li { flex: 1 1 0; margin: 0; background: var(--chip); border-radius: 0.6rem; padding: 0.6rem 0.7rem; font-size: 0.8rem; color: var(--muted); line-height: 1.3; }
+  .stats b { display: block; font-size: 1.35rem; font-weight: 650; color: var(--ink); letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
   .shot { display: block; width: 100%; max-width: 17rem; margin: 0 0 1.75rem; border-radius: 1.6rem; box-shadow: 0 1px 2px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.10); }
   .shots { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1rem 0 0.5rem; }
   .shots figure { flex: 1 1 13rem; max-width: 17rem; margin: 0; }
@@ -65,51 +63,30 @@
   <p class="note">A time taps to that show's ticket page, a theater's name to its site, the title to the full list. Sold-out times are greyed. After the last show the widget rolls to tomorrow.</p>
 
   <h2>Theaters you can follow</h2>
-  <div id="theaters"><ul class="chips"><li>loading…</li></ul></div>
-  <p class="note">Listings are rebuilt every three hours through the day from each theater's own ticketing. <a href="map/">All of them on a map</a>.</p>
+  <ul class="stats" id="stats">
+    <li><b id="n-theaters">…</b>theaters</li>
+    <li><b id="n-cities">…</b>cities</li>
+    <li><b id="n-shows">…</b>showtimes this week</li>
+  </ul>
+  <div class="buttons" style="margin-top: 0.9rem"><a class="button secondary" href="map/">See them on a map <small>with a list by state and a search</small></a></div>
+  <p class="note">Listings are rebuilt every three hours through the day from each theater's own ticketing.</p>
 
-  <footer>Made by Kevin Celustka for his own Friday nights, and named for <i>The Smallest Show on Earth</i> (1957), where a young couple inherit a run-down cinema between two railway bridges. The widget and its listings are at <a href="https://github.com/kevdawg94/smallest-show">github.com/kevdawg94/smallest-show</a>; no accounts, no tracking, the widget reads a public file.</footer>
+  <footer>Made by Kevin Celustka for his own Friday nights, and named for <i>The Smallest Show on Earth</i> (1957), where a young couple inherit a run-down cinema between two railway bridges. The widget and its listings are at <a href="https://github.com/kevdawg94/smallest-show">github.com/kevdawg94/smallest-show</a>; no accounts, no tracking, the widget reads a public file. Run a cinema? <a href="theaters/">For theaters</a>: what we read, how often, and how to reach us.</footer>
 </main>
 <script>
   fetch("https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/index.json?t=" + Math.floor(Date.now() / 300000))
     .then(r => r.json())
     .then(idx => {
-      const box = document.getElementById("theaters");
-      box.innerHTML = "";
-      const cityName = Object.fromEntries((idx.cities || []).map(c => [c.id, c.name]));
       const served = new Set(idx.theaters.map(t => t.city)); // a city in the catalog with no theaters yet doesn't count
-      document.getElementById("city-count").textContent = (idx.cities || []).filter(c => served.has(c.id)).length;
-      const manyCities = (idx.cities || []).length > 1;
-      let city = null, region = null, ul = null;
-      for (const t of idx.theaters) {
-        if (manyCities && t.city && t.city !== city) {
-          city = t.city; region = null;
-          const h = document.createElement("div");
-          h.className = "city";
-          h.textContent = cityName[city] || city;
-          box.appendChild(h);
-        }
-        if (!ul || (t.region && t.region !== region)) {
-          region = t.region;
-          if (region) {
-            const h = document.createElement("div");
-            h.className = "region";
-            h.textContent = region;
-            box.appendChild(h);
-          }
-          ul = document.createElement("ul");
-          ul.className = "chips";
-          box.appendChild(ul);
-        }
-        const li = document.createElement("li");
-        li.textContent = t.name + " ";
-        const s = document.createElement("span");
-        s.textContent = t.area;
-        li.appendChild(s);
-        ul.appendChild(li);
-      }
+      const cities = (idx.cities || []).filter(c => served.has(c.id)).length;
+      const shows = idx.theaters.reduce((n, t) => n + (t.shows || 0), 0); // each theater's next seven days
+      const n = x => x.toLocaleString("en-US");
+      document.getElementById("city-count").textContent = cities;
+      document.getElementById("n-theaters").textContent = n(idx.theaters.length);
+      document.getElementById("n-cities").textContent = n(cities);
+      document.getElementById("n-shows").textContent = n(shows);
     })
-    .catch(() => { document.getElementById("theaters").innerHTML = "<ul class='chips'><li>the list didn't load; try again in a minute</li></ul>"; });
+    .catch(() => { document.getElementById("stats").remove(); });
 </script>
 </body>
 </html>

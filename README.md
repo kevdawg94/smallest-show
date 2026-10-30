@@ -13,7 +13,8 @@ then add a large Scriptable widget to the home screen.
 
 - `widget/SmallestShow.js` is the script. Installed copies check `docs/version.json` once a day and
   update themselves; there's nothing to paste again.
-- `docs/` is the install page (GitHub Pages), the one-tap `SmallestShow.scriptable` and `version.json`.
+- `docs/` is the install page (GitHub Pages), the page for theaters (`docs/theaters/`), the one-tap
+  `SmallestShow.scriptable` and `version.json`.
 - The `feeds` branch is what the widget reads: `index.json` (the cities and their theaters) and one
   `<theater id>.json` per theater with the next seven days of shows. Times are each theater's own
   local time. The listings are rebuilt every three hours from 9 am to 9 pm Pacific, and the branch
@@ -23,6 +24,7 @@ then add a large Scriptable widget to the home screen.
 
 The code is MIT-licensed; see `LICENSE`. The showtimes belong to the theaters: the feeds are read from
 each theater's own public listings and come as-is, with no promise that they're complete or current.
-Check the theater's site before you go.
+Check the theater's site before you go. A theater that wants a change, or to be left out: see
+[smallest.show/theaters](https://smallest.show/theaters/).
 
 This repo is published automatically; a change made here directly is overwritten by the next publish.
