@@ -18,7 +18,7 @@
 // unbinds its widgets), and the Keychain keys and cache files keep the marquee prefix, so an
 // update changes nothing on the phone but the code.
 
-const VERSION = "2026.10.25"; // YYYY.MM.DD[.n], later than the published one; package.py reads it
+const VERSION = "2026.10.29"; // YYYY.MM.DD[.n], later than the published one; package.py reads it
 const BASE = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
 const VERSION_URL = "https://raw.githubusercontent.com/kevdawg94/smallest-show/main/docs/version.json";
 const PICKED_KEY = "marquee.theaters"; // Keychain: shared between the app and its widgets
@@ -70,43 +70,6 @@ function readCity(index) {
 }
 
 function saveCity(id) { Keychain.set(CITY_KEY, id); }
-
-// A list of cities to choose from; resolves to the chosen id (the current one if the sheet is
-// just closed). Used on the first run and from the Theaters sheet's city row.
-async function chooseCity(index, current) {
-  const list = cities(index);
-  if (list.length < 2) return list[0] ? list[0].id : null;
-  return new Promise(resolve => {
-    let chosen = null;
-    const table = new UITable();
-    table.showSeparators = true;
-    const head = new UITableRow();
-    head.isHeader = true;
-    head.height = 50;
-    const t = head.addText("Where do you go to the movies?", "Smallest Show lists independent cinemas in these cities. Switch any time from the Theaters sheet.");
-    t.titleFont = Font.boldSystemFont(16);
-    t.subtitleFont = Font.systemFont(11);
-    t.subtitleColor = Color.gray();
-    table.addRow(head);
-    for (const c of list) {
-      const row = new UITableRow();
-      row.height = 50;
-      row.dismissOnSelect = true;
-      const mark = row.addText(c.id === current ? "✓" : "");
-      mark.widthWeight = 10;
-      mark.titleFont = Font.semiboldSystemFont(17);
-      mark.titleColor = ACCENT;
-      const cell = row.addText(c.name, `${c.count} theater${c.count === 1 ? "" : "s"}`);
-      cell.widthWeight = 90;
-      cell.titleFont = Font.systemFont(16);
-      cell.subtitleFont = Font.systemFont(11);
-      cell.subtitleColor = Color.gray();
-      row.onSelect = () => { chosen = c.id; saveCity(c.id); };
-      table.addRow(row);
-    }
-    table.present(false).then(() => resolve(chosen || current || list[0].id));
-  });
-}
 
 // The theaters to show, in the catalog's order: the widget parameter, else the app's pick, else
 // the catalog's default. Unknown ids are dropped; an empty result falls back a level.
@@ -393,14 +356,173 @@ function buildWidget(data, offline, family) {
 
 // ---------- in the app ----------
 
-// The picker: one city's theaters by region, a check on the followed ones; a row at the top
-// switches city (a followed set may span cities). Resolves to the new list when the sheet closes.
-async function pickTheaters(index, current) {
-  const picked = new Set(current);
+// The states the index gives each city (the census's, the main one first), by name for the picker.
+const STATE_NAMES = {AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California", CO: "Colorado",
+  CT: "Connecticut", DE: "Delaware", DC: "District of Columbia", FL: "Florida", GA: "Georgia", HI: "Hawaii",
+  ID: "Idaho", IL: "Illinois", IN: "Indiana", IA: "Iowa", KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine",
+  MD: "Maryland", MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi", MO: "Missouri",
+  MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey", NM: "New Mexico",
+  NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio", OK: "Oklahoma", OR: "Oregon",
+  PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina", SD: "South Dakota", TN: "Tennessee", TX: "Texas",
+  UT: "Utah", VT: "Vermont", VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming"};
+const stateName = s => STATE_NAMES[s] || s;
+
+function words(...parts) { // lower case, accents and punctuation gone
+  return parts.filter(Boolean).join(" ").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+    .split(/[^a-z0-9]+/).filter(Boolean);
+}
+
+// A theater's words for a search: its name, town, region, city and the city's states.
+function theaterWords(th, city) {
+  const states = (city && city.states) || [];
+  return words(th.name, th.area, th.region, city && city.name, ...states, ...states.map(stateName));
+}
+
+// Whether every word typed starts one of these: "kirks" finds Kirksville, "grand lake" the Grand Lake.
+function found(query, ws) { return words(query).every(q => ws.some(w => w.startsWith(q))); }
+
+// Asks what to look for; resolves to the text typed, or null when cancelled or left empty.
+async function askQuery(title) {
+  const a = new Alert();
+  a.title = title;
+  a.message = "A theater's name, a town, a city or a state.";
+  a.addTextField("Roxie, Kirksville, Oregon…", "");
+  a.addAction("Search");
+  a.addCancelAction("Cancel");
+  if (await a.present() === -1) return null;
+  return a.textFieldValue(0).trim() || null;
+}
+
+// Rows the sheets share. A row's tap closes its sheet unless it says otherwise (dismissOnSelect is
+// Scriptable's, true by default), and closing the app's list ends the run, so every row that
+// changes a sheet rather than finishing with it sets it false.
+function sectionRow(title) {
+  const r = new UITableRow();
+  r.isHeader = true;
+  r.height = 34;
+  const c = r.addText(title.toUpperCase());
+  c.titleFont = Font.semiboldSystemFont(12);
+  c.titleColor = Color.gray();
+  return r;
+}
+
+function actionRow(title, subtitle, onSelect) {
+  const r = new UITableRow();
+  r.height = 48;
+  r.dismissOnSelect = false;
+  const c = r.addText(title, subtitle);
+  c.titleFont = Font.semiboldSystemFont(14);
+  c.titleColor = ACCENT;
+  c.subtitleFont = Font.systemFont(11);
+  c.subtitleColor = Color.gray();
+  r.onSelect = onSelect;
+  return r;
+}
+
+function markedRow(mark, title, subtitle, height) { // a mark column, then the title over its subtitle
+  const r = new UITableRow();
+  r.height = height;
+  const m = r.addText(mark);
+  m.widthWeight = 10;
+  m.titleFont = Font.semiboldSystemFont(17);
+  m.titleColor = ACCENT;
+  const c = r.addText(title, subtitle);
+  c.widthWeight = 90;
+  c.titleFont = Font.systemFont(height > 50 ? 15 : 16);
+  c.subtitleFont = Font.systemFont(11);
+  c.subtitleColor = Color.gray();
+  return r;
+}
+
+// A list of cities to choose from; resolves to the chosen id (the current one if the sheet is
+// just closed). Used on the first run and from the Theaters sheet's city row. It opens on yours
+// (the current city and any in `mine`), then the states, each tapped open to its cities (a city
+// across a state line is under each); a search finds a city by its name, a town or a theater in it.
+async function chooseCity(index, current, mine = []) {
   const list = cities(index);
-  let city = readCity(index);
+  if (list.length < 2) return list[0] ? list[0].id : null;
+  const byState = {};
+  for (const c of list) for (const s of c.states || []) (byState[s] = byState[s] || []).push(c);
+  const states = Object.keys(byState).sort((a, b) => stateName(a).localeCompare(stateName(b)));
+  const open = new Set();
+  let chosen = null, query = null;
   const table = new UITable();
   table.showSeparators = true;
+  const city = (c, sub) => {
+    const n = `${c.count} theater${c.count === 1 ? "" : "s"}`;
+    const row = markedRow(c.id === current ? "✓" : "", c.name, sub || [(c.states || []).join(", "), n].filter(Boolean).join(" · "), 50);
+    row.onSelect = () => { chosen = c.id; saveCity(c.id); }; // and the sheet closes: the choice is made
+    table.addRow(row);
+  };
+  const render = () => {
+    table.removeAllRows();
+    const head = new UITableRow();
+    head.isHeader = true;
+    head.height = 50;
+    const t = head.addText("Where do you go to the movies?", "Smallest Show lists independent cinemas in these cities. Switch any time from the Theaters sheet.");
+    t.titleFont = Font.boldSystemFont(16);
+    t.subtitleFont = Font.systemFont(11);
+    t.subtitleColor = Color.gray();
+    table.addRow(head);
+    table.addRow(query
+      ? actionRow(`Search: “${query}” ✕`, "Tap to clear.", () => { query = null; render(); })
+      : actionRow("Search by town or theater ›", "Or find your city under its state below.",
+        async () => { query = await askQuery("Find a city"); render(); }));
+    if (query) {
+      const hits = list.map(c => ({c, ths: index.theaters.filter(t => t.city === c.id && found(query, theaterWords(t, c)))}))
+        .filter(x => x.ths.length);
+      table.addRow(sectionRow(hits.length ? `${hits.length} cit${hits.length === 1 ? "y" : "ies"}` : "Nothing matches"));
+      for (const {c, ths} of hits) city(c, ths.length === c.count ? null : ths.map(t => t.name).join(", "));
+    } else {
+      const yours = list.filter(c => c.id === current || mine.includes(c.id));
+      if (yours.length) table.addRow(sectionRow("Yours"));
+      yours.forEach(c => city(c));
+      if (states.length) table.addRow(sectionRow("By state"));
+      for (const s of states) {
+        const n = byState[s].length;
+        const row = markedRow(open.has(s) ? "▾" : "▸", stateName(s), `${n} cit${n === 1 ? "y" : "ies"}`, 44);
+        row.dismissOnSelect = false;
+        row.onSelect = () => { if (open.has(s)) open.delete(s); else open.add(s); render(); };
+        table.addRow(row);
+        if (open.has(s)) [...byState[s]].sort((a, b) => a.name.localeCompare(b.name)).forEach(c => city(c));
+      }
+      const rest = list.filter(c => !(c.states || []).length); // all of them, on an index from before states
+      if (rest.length) table.addRow(sectionRow(states.length ? "Elsewhere" : "Cities"));
+      rest.forEach(c => city(c));
+    }
+    table.reload();
+  };
+  render();
+  await table.present(false);
+  return chosen || current || list[0].id;
+}
+
+// The picker: one city's theaters by region, a check on the followed ones; a row at the top
+// switches city, one under it searches every city, and the theaters followed in other cities
+// come last (a followed set may span cities). Every tick is saved as it's made, and the sheet stays
+// open until it's closed; resolves to the new list then.
+async function pickTheaters(index, current) {
+  const picked = new Set(current);
+  const seen = new Set(current); // the followed elsewhere stay listed once unticked, to tick again
+  const list = cities(index);
+  const byId = Object.fromEntries(list.map(c => [c.id, c]));
+  let city = readCity(index), query = null;
+  const table = new UITable();
+  table.showSeparators = true;
+  const save = () => { const ids = index.theaters.map(t => t.id).filter(id => picked.has(id)); savePicked(ids); return ids; };
+  const theater = (th, where) => {
+    const on = picked.has(th.id);
+    const sub = [where || th.area, th.films ? `${th.films} films this week` : "nothing listed",
+                 th.error ? "not reachable" : th.warning ? "fallback" : null].filter(Boolean).join(" · ");
+    const row = markedRow(on ? "✓" : "", th.name, sub, 52);
+    row.dismissOnSelect = false; // the next tick, or another city: closing the sheet is what finishes
+    row.onSelect = () => {
+      if (on) picked.delete(th.id); else { picked.add(th.id); seen.add(th.id); }
+      save();
+      render();
+    };
+    table.addRow(row);
+  };
   const render = () => {
     table.removeAllRows();
     const head = new UITableRow();
@@ -412,57 +534,47 @@ async function pickTheaters(index, current) {
     t.subtitleColor = Color.gray();
     table.addRow(head);
     if (list.length > 1) { // which city this sheet shows; tap to change
-      const sw = new UITableRow();
-      sw.height = 48;
-      const name = (list.find(c => c.id === city) || list[0]).name;
-      const cell = sw.addText(`City: ${name} ›`, "Tap to switch city. Theaters you follow elsewhere stay followed.");
-      cell.titleFont = Font.semiboldSystemFont(14);
-      cell.titleColor = ACCENT;
-      cell.subtitleFont = Font.systemFont(11);
-      cell.subtitleColor = Color.gray();
-      sw.onSelect = async () => { city = await chooseCity(index, city); render(); };
-      table.addRow(sw);
+      const name = (byId[city] || list[0]).name;
+      table.addRow(actionRow(`City: ${name} ›`, "Tap to switch city. Theaters you follow elsewhere stay followed.", async () => {
+        const mine = [...new Set(index.theaters.filter(th => picked.has(th.id)).map(th => th.city))];
+        city = await chooseCity(index, city, mine);
+        query = null;
+        render();
+      }));
+      table.addRow(query
+        ? actionRow(`Search: “${query}” ✕`, `Tap to clear and go back to ${name}.`, () => { query = null; render(); })
+        : actionRow("Search every city ›", "A theater's name, a town, a city or a state.",
+          async () => { query = await askQuery("Find a theater"); render(); }));
+    }
+    if (query) {
+      const hits = index.theaters.filter(th => found(query, theaterWords(th, byId[th.city])));
+      table.addRow(sectionRow(hits.length ? `${hits.length} theater${hits.length === 1 ? "" : "s"}` : "Nothing matches"));
+      let at = null;
+      for (const th of hits.slice(0, 150)) {
+        if (th.city !== at) { at = th.city; if (byId[at]) table.addRow(sectionRow(byId[at].name)); }
+        theater(th);
+      }
+      if (hits.length > 150) table.addRow(sectionRow(`and ${hits.length - 150} more: add a word to narrow it`));
+      table.reload();
+      return;
     }
     let region = null;
     for (const th of index.theaters) {
       if (city && th.city && th.city !== city) continue;
       if (th.region && th.region !== region) { // the catalog comes grouped by region, alphabetical within
         region = th.region;
-        const r = new UITableRow();
-        r.isHeader = true;
-        r.height = 34;
-        const c = r.addText(region.toUpperCase());
-        c.titleFont = Font.semiboldSystemFont(12);
-        c.titleColor = Color.gray();
-        table.addRow(r);
+        table.addRow(sectionRow(region));
       }
-      const row = new UITableRow();
-      row.height = 52;
-      const on = picked.has(th.id);
-      const mark = row.addText(on ? "✓" : "");
-      mark.widthWeight = 10;
-      mark.titleFont = Font.semiboldSystemFont(17);
-      mark.titleColor = ACCENT;
-      const sub = [th.area, th.films ? `${th.films} films this week` : "nothing listed",
-                   th.error ? "not reachable" : th.warning ? "fallback" : null].filter(Boolean).join(" · ");
-      const cell = row.addText(th.name, sub);
-      cell.widthWeight = 90;
-      cell.titleFont = Font.systemFont(15);
-      cell.subtitleFont = Font.systemFont(11);
-      cell.subtitleColor = Color.gray();
-      row.onSelect = () => {
-        if (on) picked.delete(th.id); else picked.add(th.id);
-        render();
-      };
-      table.addRow(row);
+      theater(th);
     }
+    const elsewhere = index.theaters.filter(th => seen.has(th.id) && th.city && th.city !== city);
+    if (elsewhere.length) table.addRow(sectionRow("Followed in other cities"));
+    for (const th of elsewhere) theater(th, [th.area, byId[th.city] && byId[th.city].name].filter(Boolean).join(", "));
     table.reload();
   };
   render();
   await table.present(false);
-  const ids = index.theaters.map(t => t.id).filter(id => picked.has(id));
-  savePicked(ids);
-  return ids;
+  return save();
 }
 
 async function showTable(loaded) {
@@ -506,6 +618,7 @@ async function showTable(loaded) {
     pick.titleColor = ACCENT;
     pick.subtitleFont = Font.systemFont(12);
     pick.subtitleColor = Color.gray();
+    tools.dismissOnSelect = false; // the list stays under the sheet: closing it would end the run
     tools.onSelect = async () => {
       await pickTheaters(index, data.theaters.map(t => t.id));
       const again = await loadAll(null);
@@ -552,6 +665,7 @@ async function showTable(loaded) {
         st.rightAligned();
         st.titleFont = Font.systemFont(12);
         st.titleColor = s.sold_out ? Color.gray() : ACCENT;
+        row.dismissOnSelect = false; // still here on the way back from the ticket page
         row.onSelect = () => Safari.open(s.url);
         table.addRow(row);
       }
