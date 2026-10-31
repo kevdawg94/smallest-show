@@ -1,0 +1,85 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "roxy-lock-haven",
+ "name": "Roxy Theatre",
+ "city": "statecollege",
+ "area": "Lock Haven",
+ "region": "Lock Haven",
+ "url": "https://roxymovie.com/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 110,
+   "url": "https://roxymovie.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://roxymovie.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

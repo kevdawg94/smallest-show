@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "delchar",
+ "name": "Delchar Theater",
+ "city": "fargo",
+ "area": "Mayville",
+ "region": "Grand Forks & East Grand Forks",
+ "url": "https://delcharmovies.com/",
+ "films": [
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=124s0wfxjrz48e7mgrvmskk6kg",
+   "shows": [
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1264?siteToken=124s0wfxjrz48e7mgrvmskk6kg"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1265?siteToken=124s0wfxjrz48e7mgrvmskk6kg"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=124s0wfxjrz48e7mgrvmskk6kg",
+   "shows": [
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1263?siteToken=124s0wfxjrz48e7mgrvmskk6kg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

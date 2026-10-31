@@ -1,0 +1,91 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "mv-film-center",
+ "name": "MV Film Center",
+ "city": "capecod",
+ "area": "Vineyard Haven",
+ "region": "Martha's Vineyard",
+ "url": "https://mvfilmsociety.com/",
+ "films": [
+  {
+   "title": "Ha-Chan, Shake Your Booty",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://app.arts-people.com/index.php?show=370148",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=936536"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://app.arts-people.com/index.php?show=370772",
+   "shows": [
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=936075"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=936076"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=936540"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=936541"
+    }
+   ]
+  },
+  {
+   "title": "Colors of Time",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://app.arts-people.com/index.php?show=370147",
+   "shows": [
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=936537"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=936538"
+    }
+   ]
+  },
+  {
+   "title": "JAMES McNEILL WHISTLER",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://app.arts-people.com/index.php?show=360612",
+   "shows": [
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=936539"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

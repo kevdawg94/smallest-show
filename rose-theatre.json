@@ -1,0 +1,138 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "rose-theatre",
+ "name": "Rose Theatre",
+ "city": "olympic",
+ "area": "Port Townsend",
+ "region": "Port Townsend",
+ "url": "https://www.rosetheatre.com/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://www.rosetheatre.com/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wicker/4173497"
+    },
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wicker/4173496"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wicker/4173495"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wicker/4173505"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wicker/4173504"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wicker/4173503"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wicker/4225320"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wicker/4225317"
+    },
+    {
+     "at": "2026-11-05T15:45",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wicker/4225321"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wicker/4225322"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.rosetheatre.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/you-can-see-everything/4173499"
+    },
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/you-can-see-everything/4173498"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/you-can-see-everything/4225316"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/you-can-see-everything/4225315"
+    },
+    {
+     "at": "2026-11-04T15:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/you-can-see-everything/4225319"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/you-can-see-everything/4225318"
+    },
+    {
+     "at": "2026-11-05T15:15",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/you-can-see-everything/4225324"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/you-can-see-everything/4225323"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": 130,
+   "url": "https://www.rosetheatre.com/movie/the-rocky-horror-picture-show/",
+   "shows": [
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": true,
+     "url": "https://www.rosetheatre.com/checkout/showing/the-rocky-horror-picture-show/4087357"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

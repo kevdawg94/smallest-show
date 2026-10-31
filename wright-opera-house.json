@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "wright-opera-house",
+ "name": "Wright Opera House",
+ "city": "montrose",
+ "area": "Ouray",
+ "region": "Ouray & Ridgway",
+ "url": "https://thewrightoperahouse.org/events/movies",
+ "films": [
+  {
+   "title": "Casper",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://thewrightoperahouse.org/events/movies/casper",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://thewrightoperahouse.org/events/movies/casper"
+    }
+   ]
+  },
+  {
+   "title": "The Furious",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://thewrightoperahouse.org/events/movies/the-furious",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://thewrightoperahouse.org/events/movies/the-furious"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,830 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "alamo-mountain-view",
+ "name": "Alamo Mountain View",
+ "city": "bay",
+ "area": "Mountain View",
+ "region": "Peninsula & South Bay",
+ "url": "https://drafthouse.com/sf/theater/mountain-view",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/you-can-see-everything?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T11:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20432"
+    },
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20429"
+    },
+    {
+     "at": "2026-10-31T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20433"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20430"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20434"
+    },
+    {
+     "at": "2026-10-31T20:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20431"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20459"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20457"
+    },
+    {
+     "at": "2026-11-01T17:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20460"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20458"
+    },
+    {
+     "at": "2026-11-03T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20481"
+    },
+    {
+     "at": "2026-11-03T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20479"
+    },
+    {
+     "at": "2026-11-03T17:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20482"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20480"
+    },
+    {
+     "at": "2026-11-04T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20503"
+    },
+    {
+     "at": "2026-11-04T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20501"
+    },
+    {
+     "at": "2026-11-04T17:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20504"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/you-can-see-everything/0803/20502"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/wildwood?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20435"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20436"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20437"
+    },
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20438"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20461"
+    },
+    {
+     "at": "2026-11-01T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20462"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20463"
+    },
+    {
+     "at": "2026-11-03T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20483"
+    },
+    {
+     "at": "2026-11-03T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20484"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20485"
+    },
+    {
+     "at": "2026-11-04T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20505"
+    },
+    {
+     "at": "2026-11-04T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20521"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wildwood/0803/20507"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/clayface?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20451"
+    },
+    {
+     "at": "2026-10-31T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20441"
+    },
+    {
+     "at": "2026-10-31T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20442"
+    },
+    {
+     "at": "2026-10-31T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20443"
+    },
+    {
+     "at": "2026-11-01T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20472"
+    },
+    {
+     "at": "2026-11-01T15:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20465"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20466"
+    },
+    {
+     "at": "2026-11-03T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20487"
+    },
+    {
+     "at": "2026-11-03T16:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20492"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20493"
+    },
+    {
+     "at": "2026-11-04T12:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20520"
+    },
+    {
+     "at": "2026-11-04T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20510"
+    },
+    {
+     "at": "2026-11-04T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20522"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/clayface/0803/20524"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter (2026)",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/street-fighter-2026?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T12:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20440"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20448"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20449"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20450"
+    },
+    {
+     "at": "2026-11-01T12:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20464"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20468"
+    },
+    {
+     "at": "2026-11-03T13:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20491"
+    },
+    {
+     "at": "2026-11-03T15:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20488"
+    },
+    {
+     "at": "2026-11-03T18:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20489"
+    },
+    {
+     "at": "2026-11-04T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20519"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/street-fighter-2026/0803/20511"
+    }
+   ]
+  },
+  {
+   "title": "A Talent For Murder",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/a-talent-for-murder?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/a-talent-for-murder/0803/20439"
+    },
+    {
+     "at": "2026-11-01T12:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/a-talent-for-murder/0803/20469"
+    },
+    {
+     "at": "2026-11-03T14:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/a-talent-for-murder/0803/20515"
+    },
+    {
+     "at": "2026-11-04T13:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/a-talent-for-murder/0803/20518"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility (2026)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/sense-and-sensibility-2026?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T12:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20444"
+    },
+    {
+     "at": "2026-10-31T15:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20452"
+    },
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20453"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20454"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20470"
+    },
+    {
+     "at": "2026-11-01T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20473"
+    },
+    {
+     "at": "2026-11-03T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20498"
+    },
+    {
+     "at": "2026-11-03T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20497"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20490"
+    },
+    {
+     "at": "2026-11-04T12:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20508"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/sense-and-sensibility-2026/0803/20516"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/wicker?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20474"
+    },
+    {
+     "at": "2026-10-31T15:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20445"
+    },
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20446"
+    },
+    {
+     "at": "2026-10-31T21:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20447"
+    },
+    {
+     "at": "2026-11-01T13:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20475"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20476"
+    },
+    {
+     "at": "2026-11-03T12:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20500"
+    },
+    {
+     "at": "2026-11-03T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20494"
+    },
+    {
+     "at": "2026-11-03T19:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20495"
+    },
+    {
+     "at": "2026-11-04T12:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20517"
+    },
+    {
+     "at": "2026-11-04T15:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20509"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wicker/0803/20514"
+    }
+   ]
+  },
+  {
+   "title": "Scream (1996)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/scream?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/scream/0803/19995"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/the-only-living-pickpocket-in-new-york?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19796"
+    },
+    {
+     "at": "2026-10-31T16:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19798"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19797"
+    },
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19799"
+    },
+    {
+     "at": "2026-11-01T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19801"
+    },
+    {
+     "at": "2026-11-01T16:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19803"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19802"
+    },
+    {
+     "at": "2026-11-03T13:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/20499"
+    },
+    {
+     "at": "2026-11-03T17:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19806"
+    },
+    {
+     "at": "2026-11-03T19:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19807"
+    },
+    {
+     "at": "2026-11-04T13:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19812"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19810"
+    },
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-only-living-pickpocket-in-new-york/0803/19811"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/fjord?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/fjord/0803/19749"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/fjord/0803/19748"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/fjord/0803/19752"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/fjord/0803/19753"
+    },
+    {
+     "at": "2026-11-03T13:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/fjord/0803/19756"
+    },
+    {
+     "at": "2026-11-03T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/fjord/0803/19755"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/fjord/0803/19754"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/fjord/0803/19758"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/fjord/0803/19759"
+    }
+   ]
+  },
+  {
+   "title": "Halloween (1978)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/halloween-1978?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/halloween-1978/0803/18629"
+    }
+   ]
+  },
+  {
+   "title": "Ken Russell's The Devils",
+   "rating": "NC-17",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/ken-russells-the-devils?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T18:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/ken-russells-the-devils/0803/20456"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/the-rocky-horror-picture-show?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-rocky-horror-picture-show/0803/19787"
+    }
+   ]
+  },
+  {
+   "title": "Naza",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/naza?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-10-31T22:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/naza/0803/20455"
+    },
+    {
+     "at": "2026-11-01T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/naza/0803/20477"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/naza/0803/20523"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla vs. Mechagodzilla",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/godzilla-vs-mechagodzilla?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/godzilla-vs-mechagodzilla/0803/18798"
+    }
+   ]
+  },
+  {
+   "title": "Swingers",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/swingers?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/swingers/0803/20039"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/swingers/0803/20486"
+    }
+   ]
+  },
+  {
+   "title": "Wild at Heart",
+   "rating": "R",
+   "runtime_min": 128,
+   "url": "https://drafthouse.com/sf/show/special-event-wild-at-heart-unrated?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/special-event-wild-at-heart-unrated/0803/19273"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/special-event-wild-at-heart-unrated/0803/19274"
+    }
+   ]
+  },
+  {
+   "title": "Ramayana",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/ramayana?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-11-04T18:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/ramayana/0803/20012"
+    },
+    {
+     "at": "2026-11-05T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/ramayana/0803/20370"
+    },
+    {
+     "at": "2026-11-05T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/ramayana/0803/20365"
+    }
+   ]
+  },
+  {
+   "title": "The Last Temptation of Becky",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/the-last-temptation-of-becky?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-last-temptation-of-becky/0803/20309"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-last-temptation-of-becky/0803/20310"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat (2026)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/the-cat-in-the-hat-2026?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-11-05T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/the-cat-in-the-hat-2026/0803/20056"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/wild-horse-nine?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-11-05T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wild-horse-nine/0803/19814"
+    },
+    {
+     "at": "2026-11-05T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/wild-horse-nine/0803/19813"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/sf/show/godzilla-minus-zero?cinemaId=0803",
+   "shows": [
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/godzilla-minus-zero/0803/19535"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/sf/tickets/godzilla-minus-zero/0803/19536"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

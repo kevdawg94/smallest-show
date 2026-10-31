@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "utah-theatre",
+ "name": "Utah Theatre",
+ "city": "logan",
+ "area": "Downtown",
+ "region": "Logan",
+ "url": "https://theutahtheatre.org/",
+ "films": [
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.strideevents.com/events/utah-theatre/2026/tickets",
+   "shows": [
+    {
+     "at": "2026-10-31T23:59",
+     "sold_out": false,
+     "url": "https://www.strideevents.com/events/utah-theatre/2026/tickets?et=233842"
+    }
+   ]
+  },
+  {
+   "title": "Toy Story",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.strideevents.com/events/utah-theatre/2026/tickets",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.strideevents.com/events/utah-theatre/2026/tickets?et=244505"
+    }
+   ]
+  },
+  {
+   "title": "Toy Story 2",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.strideevents.com/events/utah-theatre/2026/tickets",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.strideevents.com/events/utah-theatre/2026/tickets?et=244506"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "stone-drive-in",
+ "name": "Stone Drive-In",
+ "city": "searcy",
+ "area": "Mountain View",
+ "region": "Mountain View & Stone County",
+ "url": "https://www.stonedrivein.net/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://www.stonedrivein.net/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.stonedrivein.net/"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.stonedrivein.net/"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.stonedrivein.net/"
+    }
+   ]
+  },
+  {
+   "title": "How the Grinch Stole Christmas",
+   "rating": "PG",
+   "runtime_min": 105,
+   "url": "https://www.stonedrivein.net/",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://www.stonedrivein.net/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

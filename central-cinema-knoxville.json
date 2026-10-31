@@ -1,0 +1,96 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "central-cinema-knoxville",
+ "name": "Central Cinema",
+ "city": "knoxville",
+ "area": "Happy Holler, Knoxville",
+ "region": "North Knoxville & Downtown",
+ "url": "https://centralcinema865.com/",
+ "films": [
+  {
+   "title": "Trick 'r Treat",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=brd5cq6qy5qwkt64vvy66s0ca8",
+   "shows": [
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6041?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    }
+   ]
+  },
+  {
+   "title": "Halloween (1978)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=brd5cq6qy5qwkt64vvy66s0ca8",
+   "shows": [
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6042?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    }
+   ]
+  },
+  {
+   "title": "NAZA",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=brd5cq6qy5qwkt64vvy66s0ca8",
+   "shows": [
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6046?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6047?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6048?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    },
+    {
+     "at": "2026-11-02T20:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6049?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6050?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6057?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    }
+   ]
+  },
+  {
+   "title": "Sanjuro",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=brd5cq6qy5qwkt64vvy66s0ca8",
+   "shows": [
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6051?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

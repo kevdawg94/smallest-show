@@ -1,0 +1,553 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "lot-liberty-station",
+ "name": "Lot Liberty Station",
+ "city": "sandiego",
+ "area": "Point Loma",
+ "region": "City",
+ "url": "https://www.thelotent.com/movie-theater/libertystation",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://www.thelotent.com/movie/LibertyStation/Clayface",
+   "shows": [
+    {
+     "at": "2026-10-31T11:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-231930"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-231924"
+    },
+    {
+     "at": "2026-10-31T18:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-231925"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-231926"
+    },
+    {
+     "at": "2026-11-01T11:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-231953"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-231950"
+    },
+    {
+     "at": "2026-11-01T18:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-231951"
+    },
+    {
+     "at": "2026-11-01T21:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-231952"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-231992"
+    },
+    {
+     "at": "2026-11-02T21:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-231987"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-232003"
+    },
+    {
+     "at": "2026-11-03T21:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-232002"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-232015"
+    },
+    {
+     "at": "2026-11-04T21:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-232014"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-232025"
+    },
+    {
+     "at": "2026-11-05T21:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Clayface/HO00002206-232024"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://www.thelotent.com/movie/LibertyStation/Wicker",
+   "shows": [
+    {
+     "at": "2026-10-31T11:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232114"
+    },
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-231935"
+    },
+    {
+     "at": "2026-10-31T14:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232113"
+    },
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-231923"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-231922"
+    },
+    {
+     "at": "2026-10-31T22:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-231921"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-231949"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232115"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-231947"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-231948"
+    },
+    {
+     "at": "2026-11-02T16:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-231986"
+    },
+    {
+     "at": "2026-11-02T17:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232116"
+    },
+    {
+     "at": "2026-11-02T20:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-231991"
+    },
+    {
+     "at": "2026-11-03T16:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232000"
+    },
+    {
+     "at": "2026-11-03T17:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232117"
+    },
+    {
+     "at": "2026-11-03T20:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232001"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232012"
+    },
+    {
+     "at": "2026-11-04T17:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232118"
+    },
+    {
+     "at": "2026-11-04T20:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232013"
+    },
+    {
+     "at": "2026-11-05T16:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232022"
+    },
+    {
+     "at": "2026-11-05T20:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wicker/HO00002213-232023"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 114,
+   "url": "https://www.thelotent.com/movie/LibertyStation/Verity",
+   "shows": [
+    {
+     "at": "2026-10-31T11:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231933"
+    },
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231914"
+    },
+    {
+     "at": "2026-10-31T17:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231913"
+    },
+    {
+     "at": "2026-10-31T20:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231912"
+    },
+    {
+     "at": "2026-11-01T11:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231936"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231937"
+    },
+    {
+     "at": "2026-11-01T17:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231938"
+    },
+    {
+     "at": "2026-11-01T20:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231939"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231982"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231989"
+    },
+    {
+     "at": "2026-11-03T15:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231994"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-231995"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-232006"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-232007"
+    },
+    {
+     "at": "2026-11-05T15:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Verity/HO00002180-232018"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.thelotent.com/movie/LibertyStation/You-Can-See-Everything",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-231934"
+    },
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-231927"
+    },
+    {
+     "at": "2026-10-31T17:45",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-231928"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-231929"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-231946"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-231954"
+    },
+    {
+     "at": "2026-11-01T17:45",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-231955"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-232142"
+    },
+    {
+     "at": "2026-11-01T21:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-231956"
+    },
+    {
+     "at": "2026-11-02T15:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-231993"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-231988"
+    },
+    {
+     "at": "2026-11-03T15:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-232005"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-232004"
+    },
+    {
+     "at": "2026-11-04T15:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-232017"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-232016"
+    },
+    {
+     "at": "2026-11-05T15:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-232027"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/You-Can-See-Everything/HO00002201-232026"
+    }
+   ]
+  },
+  {
+   "title": "The Mosquito Bowl",
+   "rating": "R",
+   "runtime_min": 127,
+   "url": "https://www.thelotent.com/movie/LibertyStation/The-Mosquito-Bowl",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231932"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231917"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231916"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231915"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231940"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231941"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231942"
+    },
+    {
+     "at": "2026-11-01T20:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231981"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231990"
+    },
+    {
+     "at": "2026-11-02T19:45",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231983"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231997"
+    },
+    {
+     "at": "2026-11-03T19:45",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-231996"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-232009"
+    },
+    {
+     "at": "2026-11-04T19:45",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-232008"
+    },
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-232021"
+    },
+    {
+     "at": "2026-11-05T19:45",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Mosquito-Bowl/HO00002217-232020"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 139,
+   "url": "https://www.thelotent.com/movie/LibertyStation/Wildwood",
+   "shows": [
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wildwood/HO00002214-231919"
+    },
+    {
+     "at": "2026-10-31T20:15",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wildwood/HO00002214-231920"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wildwood/HO00002214-231945"
+    },
+    {
+     "at": "2026-11-02T20:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wildwood/HO00002214-231984"
+    },
+    {
+     "at": "2026-11-03T20:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wildwood/HO00002214-231999"
+    },
+    {
+     "at": "2026-11-04T20:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wildwood/HO00002214-232011"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.thelotent.com/movie/LibertyStation/The-Cat-in-the-Hat",
+   "shows": [
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Cat-in-the-Hat/HO00002215-231772"
+    },
+    {
+     "at": "2026-11-05T20:00",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/The-Cat-in-the-Hat/HO00002215-231773"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.thelotent.com/movie/LibertyStation/Wild-Horse-Nine",
+   "shows": [
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://www.thelotent.com/movies/LibertyStation/Wild-Horse-Nine/HO00002204-232029"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,81 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "midwest-theater",
+ "name": "Midwest Theater",
+ "city": "scottsbluff",
+ "area": "Scottsbluff",
+ "region": "Scottsbluff, Gering & Mitchell",
+ "url": "https://midwesttheater.com/movie-theater-events/",
+ "films": [
+  {
+   "title": "Carrie – 50th Anniversary",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://midwesttheater.com/events/carrie-50th-anniversary/?occurrence=2026-10-31&time=1793473200",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://midwesttheater.com/events/carrie-50th-anniversary/?occurrence=2026-10-31&time=1793473200"
+    }
+   ]
+  },
+  {
+   "title": "WILDWOOD",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://midwesttheater.com/events/wildwood-543-435/?occurrence=2026-11-01&time=1793539800",
+   "shows": [
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://midwesttheater.com/events/wildwood-543-435/?occurrence=2026-11-01&time=1793539800"
+    }
+   ]
+  },
+  {
+   "title": "Winters, Nebraska",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://midwesttheater.com/events/winters-nebraska/?occurrence=2026-11-04",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://midwesttheater.com/events/winters-nebraska/?occurrence=2026-11-04"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://midwesttheater.com/events/jimmy/?occurrence=2026-11-05&time=1793905200",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://midwesttheater.com/events/jimmy/?occurrence=2026-11-05&time=1793905200"
+    },
+    {
+     "at": "2026-11-06T13:30",
+     "sold_out": false,
+     "url": "https://midwesttheater.com/events/jimmy/?occurrence=2026-11-06&time=1793971800"
+    },
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://midwesttheater.com/events/jimmy/?occurrence=2026-11-06&time=1793991600"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

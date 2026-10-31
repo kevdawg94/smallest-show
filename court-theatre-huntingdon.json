@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "court-theatre-huntingdon",
+ "name": "Court Theatre",
+ "city": "jacksontn",
+ "area": "Huntingdon",
+ "region": "Huntingdon",
+ "url": "http://www.courttheatretn.com/",
+ "films": [
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 119,
+   "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261030",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261101"
+    }
+   ]
+  },
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 107,
+   "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261105",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261105"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

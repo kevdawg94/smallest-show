@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "moonlite-abingdon",
+ "name": "Moonlite Drive-In",
+ "city": "bristol",
+ "area": "Abingdon, VA",
+ "region": "Abingdon",
+ "url": "https://www.moonliteabingdon.com/events-showtimes",
+ "films": [
+  {
+   "title": "The Twilight Saga Breaking Da",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/start?film=1261",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/book?perfcode=51109"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/start?film=1264",
+   "shows": [
+    {
+     "at": "2026-11-06T18:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/book?perfcode=51111"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,76 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "eveningstar",
+ "name": "Eveningstar",
+ "city": "portlandme",
+ "area": "Brunswick",
+ "region": "Brunswick–Freeport",
+ "url": "https://www.eveningstarcinema.com/",
+ "films": [
+  {
+   "title": "Misty Green",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=698jb7tt2hsr90r79h91t22zec",
+   "shows": [
+    {
+     "at": "2026-10-31T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4656?siteToken=698jb7tt2hsr90r79h91t22zec"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show: 50th Anniversary",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=698jb7tt2hsr90r79h91t22zec",
+   "shows": [
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4597?siteToken=698jb7tt2hsr90r79h91t22zec"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4598?siteToken=698jb7tt2hsr90r79h91t22zec"
+    }
+   ]
+  },
+  {
+   "title": "Never After Dark",
+   "rating": "TBC",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=698jb7tt2hsr90r79h91t22zec",
+   "shows": [
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4657?siteToken=698jb7tt2hsr90r79h91t22zec"
+    }
+   ]
+  },
+  {
+   "title": "The Metropolitan Opera: Macbeth Encore",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=698jb7tt2hsr90r79h91t22zec",
+   "shows": [
+    {
+     "at": "2026-11-04T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4640?siteToken=698jb7tt2hsr90r79h91t22zec"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

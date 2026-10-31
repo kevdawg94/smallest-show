@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "zoetropolis",
+ "name": "Zoetropolis",
+ "city": "centralpa",
+ "area": "Downtown Lancaster",
+ "region": "Lancaster & Lititz",
+ "url": "https://zoetropolis.com/",
+ "films": [
+  {
+   "title": "Primetime",
+   "rating": null,
+   "runtime_min": 109,
+   "url": "https://zoetropolis.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/479699/"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/479701/"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/479703/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

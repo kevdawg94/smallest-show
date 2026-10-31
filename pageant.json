@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "pageant",
+ "name": "Pageant Theatre",
+ "city": "chico",
+ "area": "Chico",
+ "region": "Chico",
+ "url": "http://www.pageantchico.com/",
+ "films": [
+  {
+   "title": "American Doctor",
+   "rating": "NR",
+   "runtime_min": 93,
+   "url": "http://www.pageantchico.com/comingSoon.html#doctor",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/comingSoon.html#doctor"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

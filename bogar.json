@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "bogar",
+ "name": "Bogar Theatre",
+ "city": "kalamazoo",
+ "area": "Marshall",
+ "region": "Battle Creek & Marshall",
+ "url": "https://www.marshallmovies.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4xn7002xerv3psqtnkqa4xqjc0",
+   "shows": [
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7945?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7949?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7946?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7947?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7948?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

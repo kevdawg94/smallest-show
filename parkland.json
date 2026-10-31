@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "parkland",
+ "name": "Parkland",
+ "city": "cincinnati",
+ "area": "Sayler Park",
+ "region": "West Side & Indiana",
+ "url": "https://parklandtheater.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cq4hd4nk3yjnn3036dm0x98s6r",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4765?siteToken=cq4hd4nk3yjnn3036dm0x98s6r"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4766?siteToken=cq4hd4nk3yjnn3036dm0x98s6r"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4767?siteToken=cq4hd4nk3yjnn3036dm0x98s6r"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cq4hd4nk3yjnn3036dm0x98s6r",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4768?siteToken=cq4hd4nk3yjnn3036dm0x98s6r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

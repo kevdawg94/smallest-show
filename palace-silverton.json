@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "palace-silverton",
+ "name": "Palace Theatre",
+ "city": "salem",
+ "area": "Silverton",
+ "region": "Silverton & Stayton",
+ "url": "https://palacesilverton.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 145,
+   "url": "https://app.formovietickets.com/index.html?chain=palace&rtn=384841&page=picktitle&showTitle=WILDWOOD",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=palace&rtn=384841&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=palace&rtn=384841&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=palace&rtn=384841&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=palace&rtn=384841&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=palace&rtn=384841&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=palace&rtn=384841&page=picktitle&showTitle=WILDWOOD"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

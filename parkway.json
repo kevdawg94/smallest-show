@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "parkway",
+ "name": "Parkway",
+ "city": "msp",
+ "area": "South Minneapolis",
+ "region": "Minneapolis",
+ "url": "https://theparkwaytheater.com/",
+ "films": [
+  {
+   "title": "The Nightmare Before Christmas (1993)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/nightmare-before-christmas-26",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://link.dice.fm/lbfa4ab00c6f"
+    }
+   ]
+  },
+  {
+   "title": "Halloween (1978)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/halloween-26",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://link.dice.fm/ga035f020552"
+    }
+   ]
+  },
+  {
+   "title": "Halloween Night! The Rocky Horror Picture Show (1975)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/rocky-horror-transvestite-soup-halloween-2026",
+   "shows": [
+    {
+     "at": "2026-10-31T23:30",
+     "sold_out": true,
+     "url": "https://link.dice.fm/wfd910f1d43e"
+    }
+   ]
+  },
+  {
+   "title": "Superbad (2007) w/ pre-movie trivia hosted by Jeff Pariseau",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/superbad-26",
+   "shows": [
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://link.dice.fm/Fe9130b35ab0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

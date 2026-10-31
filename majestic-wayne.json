@@ -1,0 +1,89 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "majestic-wayne",
+ "name": "Majestic Theatre",
+ "city": "siouxcity",
+ "area": "Wayne, NE",
+ "region": "Wayne",
+ "url": "https://majesticonmain.org/",
+ "films": [
+  {
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    }
+   ]
+  },
+  {
+   "title": "Primetime",
+   "rating": "R",
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    }
+   ]
+  },
+  {
+   "title": "Carrie",
+   "rating": "R",
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    }
+   ]
+  },
+  {
+   "title": "Forgotten Island",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

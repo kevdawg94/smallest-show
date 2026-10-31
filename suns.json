@@ -1,0 +1,107 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "suns",
+ "name": "Suns Cinema",
+ "city": "dc",
+ "area": "Mount Pleasant",
+ "region": "DC",
+ "url": "https://sunscinema.com/",
+ "films": [
+  {
+   "title": "HALLOWEEN",
+   "rating": null,
+   "runtime_min": 91,
+   "url": "https://sunscinema.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://sunscinema.com/purchase/427497/"
+    },
+    {
+     "at": "2026-10-31T20:15",
+     "sold_out": false,
+     "url": "https://sunscinema.com/purchase/427498/"
+    }
+   ]
+  },
+  {
+   "title": "THE DRAMA",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://sunscinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://sunscinema.com/purchase/437460/"
+    },
+    {
+     "at": "2026-11-03T21:30",
+     "sold_out": false,
+     "url": "https://sunscinema.com/purchase/437461/"
+    }
+   ]
+  },
+  {
+   "title": "THE PEOPLE UNDER THE STAIRS",
+   "rating": null,
+   "runtime_min": 102,
+   "url": "https://sunscinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://sunscinema.com/purchase/437462/"
+    }
+   ]
+  },
+  {
+   "title": "BARBARIAN",
+   "rating": null,
+   "runtime_min": 103,
+   "url": "https://sunscinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-04T21:30",
+     "sold_out": false,
+     "url": "https://sunscinema.com/purchase/437463/"
+    }
+   ]
+  },
+  {
+   "title": "THE LAIR OF THE WHITE WORM",
+   "rating": null,
+   "runtime_min": 93,
+   "url": "https://sunscinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://sunscinema.com/purchase/437464/"
+    }
+   ]
+  },
+  {
+   "title": "ALTERED STATES",
+   "rating": null,
+   "runtime_min": 102,
+   "url": "https://sunscinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-05T21:20",
+     "sold_out": false,
+     "url": "https://sunscinema.com/purchase/437465/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

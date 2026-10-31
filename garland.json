@@ -1,0 +1,89 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "garland",
+ "name": "Garland Theater",
+ "city": "spokane",
+ "area": "Garland District",
+ "region": "Garland & North Spokane",
+ "url": "https://garlandtheater.org/showtimes/",
+ "films": [
+  {
+   "title": "Corpse Bride",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://garlandtheater.org/showtimes/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://garlandtheater.org/event/corpse-bride-free-admission/"
+    }
+   ]
+  },
+  {
+   "title": "Kiki’s Delivery Service (dubbed)",
+   "rating": "G",
+   "runtime_min": null,
+   "url": "https://garlandtheater.org/showtimes/",
+   "shows": [
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://square.link/u/tJMmbLUf"
+    }
+   ]
+  },
+  {
+   "title": "Scream",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://garlandtheater.org/showtimes/",
+   "shows": [
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://square.link/u/KcPLEDEw"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://garlandtheater.org/showtimes/",
+   "shows": [
+    {
+     "at": "2026-10-31T23:45",
+     "sold_out": false,
+     "url": "https://square.link/u/aQ389w6Y"
+    }
+   ]
+  },
+  {
+   "title": "Warren Miller’s “Days Off”",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://garlandtheater.org/showtimes/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://events.humanitix.com/warren-miller-s-days-off-spokane-wa-7-00-pm-thursday"
+    },
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://events.humanitix.com/warren-miller-s-days-off-spokane-wa-7-00-pm-friday"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

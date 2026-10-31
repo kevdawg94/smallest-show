@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "green-light",
+ "name": "Green Light Cinema",
+ "city": "tampa",
+ "area": "Downtown St. Petersburg",
+ "region": "St. Petersburg & the beaches",
+ "url": "https://greenlightstpete.com/",
+ "films": [
+  {
+   "title": "Hot Tonic Orchestra (Halloween Extravaganza)",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=kegxkyy004b7bm6apwhtgcm274",
+   "shows": [
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3685?siteToken=kegxkyy004b7bm6apwhtgcm274"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

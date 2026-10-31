@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "eagles-theatre",
+ "name": "Eagles Theatre",
+ "city": "fortwayne",
+ "area": "Wabash",
+ "region": "Columbia City & Wabash",
+ "url": "https://honeywellarts.org/eagles-theatre",
+ "films": [
+  {
+   "title": "Seniors",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eggmkrgh8ehvdqdjrydrpj51br",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3646?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3649?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3647?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3650?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

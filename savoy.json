@@ -1,0 +1,110 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "savoy",
+ "name": "Savoy",
+ "city": "burlington",
+ "area": "Montpelier",
+ "region": "Montpelier & Barre",
+ "url": "https://savoytheater.com/",
+ "films": [
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://savoytheater.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:15",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/418900/"
+    },
+    {
+     "at": "2026-10-31T16:20",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/418901/"
+    },
+    {
+     "at": "2026-10-31T19:25",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/418903/"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/418911/"
+    },
+    {
+     "at": "2026-11-01T17:30",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/418912/"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/418915/"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/418916/"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/418917/"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://savoytheater.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/415718/"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/415717/"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/415721/"
+    },
+    {
+     "at": "2026-11-01T16:50",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/415722/"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/415714/"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/415715/"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/415716/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

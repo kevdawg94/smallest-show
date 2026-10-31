@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "montello-theater",
+ "name": "Montello Theater",
+ "city": "madison",
+ "area": "Montello",
+ "region": "Elsewhere",
+ "url": "https://www.montellotheater.com/",
+ "films": [
+  {
+   "title": "Angel and the Badman",
+   "rating": "PG-13",
+   "runtime_min": 98,
+   "url": "https://www.montellotheater.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.montellotheater.com/"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://www.montellotheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

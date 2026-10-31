@@ -1,0 +1,839 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "sonora-arvada",
+ "name": "Sonora Cinemas",
+ "city": "denver",
+ "area": "Arvada",
+ "region": "Denver",
+ "url": "https://www.sonoracinemas.com/",
+ "films": [
+  {
+   "title": "La Caída de la Ballena",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://www.sonoracinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Localization.Language.English,Format.Projection.Digital&perfd=20261031&perft=12:00&code=Eng"
+    },
+    {
+     "at": "2026-10-31T14:15",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=14:15&code=Dub"
+    },
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=16:30&code=Dub"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-10-31T21:10",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=21:10&code=Dub"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Localization.Language.English,Format.Projection.Digital&perfd=20261101&perft=12:00&code=Eng"
+    },
+    {
+     "at": "2026-11-01T14:15",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=14:15&code=Dub"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=16:30&code=Dub"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-01T21:10",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=21:10&code=Dub"
+    },
+    {
+     "at": "2026-11-02T16:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Localization.Language.English,Format.Projection.Digital&perfd=20261102&perft=16:55&code=Eng"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-02T21:10",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=21:10&code=Dub"
+    },
+    {
+     "at": "2026-11-03T16:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Localization.Language.English,Format.Projection.Digital&perfd=20261103&perft=16:55&code=Eng"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-03T21:10",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=21:10&code=Dub"
+    },
+    {
+     "at": "2026-11-04T16:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Localization.Language.English,Format.Projection.Digital&perfd=20261104&perft=16:55&code=Eng"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-04T21:10",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.318791&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=21:10&code=Dub"
+    }
+   ]
+  },
+  {
+   "title": "La Isla Olvidada",
+   "rating": "PG",
+   "runtime_min": 108,
+   "url": "https://www.sonoracinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.296642&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=12:00&code=Dub"
+    },
+    {
+     "at": "2026-10-31T16:50",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.296642&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=16:50&code=Dub"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.296642&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=12:00&code=Dub"
+    },
+    {
+     "at": "2026-11-01T16:50",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.296642&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=16:50&code=Dub"
+    },
+    {
+     "at": "2026-11-02T18:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.296642&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=18:55&code=Dub"
+    },
+    {
+     "at": "2026-11-03T18:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.296642&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=18:55&code=Dub"
+    },
+    {
+     "at": "2026-11-04T18:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.296642&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=18:55&code=Dub"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.sonoracinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261031&perft=12:00&code=Sub"
+    },
+    {
+     "at": "2026-10-31T14:20",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=14:20&code=Dub"
+    },
+    {
+     "at": "2026-10-31T16:40",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=16:40&code=Dub"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=21:00&code=Dub"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261101&perft=12:00&code=Sub"
+    },
+    {
+     "at": "2026-11-01T14:20",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=14:20&code=Dub"
+    },
+    {
+     "at": "2026-11-01T16:40",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=16:40&code=Dub"
+    },
+    {
+     "at": "2026-11-01T18:50",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=18:50&code=Dub"
+    },
+    {
+     "at": "2026-11-01T20:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=20:55&code=Dub"
+    },
+    {
+     "at": "2026-11-02T16:40",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261102&perft=16:40&code=Sub"
+    },
+    {
+     "at": "2026-11-02T18:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=18:55&code=Dub"
+    },
+    {
+     "at": "2026-11-02T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=21:00&code=Dub"
+    },
+    {
+     "at": "2026-11-03T16:40",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261103&perft=16:40&code=Sub"
+    },
+    {
+     "at": "2026-11-03T18:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=18:55&code=Dub"
+    },
+    {
+     "at": "2026-11-03T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=21:00&code=Dub"
+    },
+    {
+     "at": "2026-11-04T16:40",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261104&perft=16:40&code=Sub"
+    },
+    {
+     "at": "2026-11-04T18:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=18:55&code=Dub"
+    },
+    {
+     "at": "2026-11-04T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.314939&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=21:00&code=Dub"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://www.sonoracinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261031&perft=12:30&code=Sub"
+    },
+    {
+     "at": "2026-10-31T14:40",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261031&perft=14:40&code=Sub"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261031&perft=17:00&code=Sub"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261031&perft=19:00&code=Sub"
+    },
+    {
+     "at": "2026-10-31T21:15",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261031&perft=21:15&code=Sub"
+    },
+    {
+     "at": "2026-11-01T12:20",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261101&perft=12:20&code=Sub"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261101&perft=14:30&code=Sub"
+    },
+    {
+     "at": "2026-11-01T16:50",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261101&perft=16:50&code=Sub"
+    },
+    {
+     "at": "2026-11-01T18:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261101&perft=18:55&code=Sub"
+    },
+    {
+     "at": "2026-11-01T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261101&perft=21:00&code=Sub"
+    },
+    {
+     "at": "2026-11-02T16:50",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261102&perft=16:50&code=Sub"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261102&perft=19:00&code=Sub"
+    },
+    {
+     "at": "2026-11-02T21:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261102&perft=21:05&code=Sub"
+    },
+    {
+     "at": "2026-11-03T16:50",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261103&perft=16:50&code=Sub"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261103&perft=19:00&code=Sub"
+    },
+    {
+     "at": "2026-11-03T21:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261103&perft=21:05&code=Sub"
+    },
+    {
+     "at": "2026-11-04T16:50",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261104&perft=16:50&code=Sub"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261104&perft=19:00&code=Sub"
+    },
+    {
+     "at": "2026-11-04T21:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.322884&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261104&perft=21:05&code=Sub"
+    }
+   ]
+  },
+  {
+   "title": "El Corazón de la Bestia",
+   "rating": "PG-13",
+   "runtime_min": 101,
+   "url": "https://www.sonoracinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:40",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261031&perft=12:40&code=Sub"
+    },
+    {
+     "at": "2026-10-31T14:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=14:55&code=Dub"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=17:00&code=Dub"
+    },
+    {
+     "at": "2026-10-31T19:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=19:05&code=Dub"
+    },
+    {
+     "at": "2026-10-31T21:10",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=21:10&code=Dub"
+    },
+    {
+     "at": "2026-11-01T12:35",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261101&perft=12:35&code=Sub"
+    },
+    {
+     "at": "2026-11-01T14:40",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=14:40&code=Dub"
+    },
+    {
+     "at": "2026-11-01T16:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=16:55&code=Dub"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-01T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=21:00&code=Dub"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261102&perft=16:00&code=Sub"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-02T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=21:00&code=Dub"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261103&perft=16:00&code=Sub"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-03T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=21:00&code=Dub"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261104&perft=16:00&code=Sub"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-04T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000000085&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=21:00&code=Dub"
+    }
+   ]
+  },
+  {
+   "title": "Madre Sinestra",
+   "rating": "R",
+   "runtime_min": 94,
+   "url": "https://www.sonoracinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261031&perft=12:55&code=Sub"
+    },
+    {
+     "at": "2026-10-31T14:50",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=14:50&code=Dub"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=17:00&code=Dub"
+    },
+    {
+     "at": "2026-10-31T19:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=19:05&code=Dub"
+    },
+    {
+     "at": "2026-10-31T21:20",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=21:20&code=Dub"
+    },
+    {
+     "at": "2026-11-01T12:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261101&perft=12:55&code=Sub"
+    },
+    {
+     "at": "2026-11-01T14:50",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=14:50&code=Dub"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=17:00&code=Dub"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-01T21:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=21:05&code=Dub"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261102&perft=17:00&code=Sub"
+    },
+    {
+     "at": "2026-11-02T19:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=19:05&code=Dub"
+    },
+    {
+     "at": "2026-11-02T21:15",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=21:15&code=Dub"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261103&perft=17:00&code=Sub"
+    },
+    {
+     "at": "2026-11-03T19:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=19:05&code=Dub"
+    },
+    {
+     "at": "2026-11-03T21:15",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=21:15&code=Dub"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261104&perft=17:00&code=Sub"
+    },
+    {
+     "at": "2026-11-04T19:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=19:05&code=Dub"
+    },
+    {
+     "at": "2026-11-04T21:15",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000023068&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=21:15&code=Dub"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 109,
+   "url": "https://www.sonoracinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261031&perft=13:00&code=Sub"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=15:00&code=Dub"
+    },
+    {
+     "at": "2026-10-31T17:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=17:05&code=Dub"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=19:10&code=Dub"
+    },
+    {
+     "at": "2026-10-31T21:15",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=21:15&code=Dub"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261101&perft=12:30&code=Sub"
+    },
+    {
+     "at": "2026-11-01T14:45",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=14:45&code=Dub"
+    },
+    {
+     "at": "2026-11-01T16:45",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=16:45&code=Dub"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-01T21:10",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=21:10&code=Dub"
+    },
+    {
+     "at": "2026-11-02T16:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261102&perft=16:55&code=Sub"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-02T21:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=21:05&code=Dub"
+    },
+    {
+     "at": "2026-11-03T16:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261103&perft=16:55&code=Sub"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-03T21:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=21:05&code=Dub"
+    },
+    {
+     "at": "2026-11-04T16:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Subtitled,Format.Projection.Digital&perfd=20261104&perft=16:55&code=Sub"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-04T21:05",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000016901&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=21:05&code=Dub"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil: Noche cero",
+   "rating": "R",
+   "runtime_min": 97,
+   "url": "https://www.sonoracinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:20",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=14:20&code=Dub"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261031&perft=21:00&code=Dub"
+    },
+    {
+     "at": "2026-11-01T14:20",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=14:20&code=Dub"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=19:00&code=Dub"
+    },
+    {
+     "at": "2026-11-01T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261101&perft=21:00&code=Dub"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=17:00&code=Dub"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261102&perft=18:00&code=Dub"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=17:00&code=Dub"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261103&perft=18:00&code=Dub"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=17:00&code=Dub"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000018854&tags=Showtime.Accessibility.Dubbed,Format.Projection.Digital&perfd=20261104&perft=18:00&code=Dub"
+    }
+   ]
+  },
+  {
+   "title": "Perla",
+   "rating": "NR",
+   "runtime_min": 101,
+   "url": "https://www.sonoracinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:40",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000039540&tags=Localization.Language.Spanish,Format.Projection.Digital&perfd=20261031&perft=14:40&code=Esp"
+    },
+    {
+     "at": "2026-11-01T14:40",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000039540&tags=Localization.Language.Spanish,Format.Projection.Digital&perfd=20261101&perft=14:40&code=Esp"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000039540&tags=Localization.Language.Spanish,Format.Projection.Digital&perfd=20261102&perft=17:00&code=Esp"
+    },
+    {
+     "at": "2026-11-02T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000039540&tags=Localization.Language.Spanish,Format.Projection.Digital&perfd=20261102&perft=21:00&code=Esp"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000039540&tags=Localization.Language.Spanish,Format.Projection.Digital&perfd=20261103&perft=17:00&code=Esp"
+    },
+    {
+     "at": "2026-11-03T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000039540&tags=Localization.Language.Spanish,Format.Projection.Digital&perfd=20261103&perft=21:00&code=Esp"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000039540&tags=Localization.Language.Spanish,Format.Projection.Digital&perfd=20261104&perft=17:00&code=Esp"
+    },
+    {
+     "at": "2026-11-04T21:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000039540&tags=Localization.Language.Spanish,Format.Projection.Digital&perfd=20261104&perft=21:00&code=Esp"
+    }
+   ]
+  },
+  {
+   "title": "Avengers Endgame: Encore",
+   "rating": "PG-13",
+   "runtime_min": 185,
+   "url": "https://www.sonoracinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000036867&tags=Showtime.Accessibility.Dubbed,Localization.Language.English,Format.Projection.Digital&perfd=20261031&perft=16:30&code=Dub"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000036867&tags=Showtime.Accessibility.Dubbed,Localization.Language.English,Format.Projection.Digital&perfd=20261031&perft=20:00&code=Dub"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000036867&tags=Showtime.Accessibility.Dubbed,Localization.Language.English,Format.Projection.Digital&perfd=20261101&perft=16:15&code=Dub"
+    },
+    {
+     "at": "2026-11-01T19:50",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000036867&tags=Showtime.Accessibility.Dubbed,Localization.Language.English,Format.Projection.Digital&perfd=20261101&perft=19:50&code=Dub"
+    },
+    {
+     "at": "2026-11-02T19:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000036867&tags=Showtime.Accessibility.Dubbed,Localization.Language.English,Format.Projection.Digital&perfd=20261102&perft=19:55&code=Dub"
+    },
+    {
+     "at": "2026-11-03T19:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000036867&tags=Showtime.Accessibility.Dubbed,Localization.Language.English,Format.Projection.Digital&perfd=20261103&perft=19:55&code=Dub"
+    },
+    {
+     "at": "2026-11-04T19:55",
+     "sold_out": false,
+     "url": "https://relay.mvtx.us/ticketing/dbz?code_theater=G01Y0&gid_entity=movie.movie._.1000036867&tags=Showtime.Accessibility.Dubbed,Localization.Language.English,Format.Projection.Digital&perfd=20261104&perft=19:55&code=Dub"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

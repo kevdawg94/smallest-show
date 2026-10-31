@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "egyptian",
+ "name": "Egyptian",
+ "city": "la",
+ "area": "Hollywood",
+ "region": "Hollywood & Los Feliz",
+ "url": "https://www.americancinematheque.com/now-showing/",
+ "films": [
+  {
+   "title": "The Birds",
+   "rating": null,
+   "runtime_min": 119,
+   "url": "https://www.americancinematheque.com/now-showing/the-birds-10-31-2026/",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/the-birds-10-31-2026/"
+    }
+   ]
+  },
+  {
+   "title": "Altered States",
+   "rating": null,
+   "runtime_min": 102,
+   "url": "https://www.americancinematheque.com/now-showing/altered-states-11-01-2026/",
+   "shows": [
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/altered-states-11-01-2026/"
+    }
+   ]
+  },
+  {
+   "title": "The Twelve Chairs",
+   "rating": null,
+   "runtime_min": 94,
+   "url": "https://www.americancinematheque.com/now-showing/the-twelve-chairs-11-01-2026/",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/the-twelve-chairs-11-01-2026/"
+    }
+   ]
+  },
+  {
+   "title": "Blue Velvet",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://www.americancinematheque.com/now-showing/blue-velvet-11-06-2026/",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/blue-velvet-11-06-2026/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

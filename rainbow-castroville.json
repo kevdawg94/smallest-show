@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "rainbow-castroville",
+ "name": "Rainbow Theater",
+ "city": "sanantonio",
+ "area": "Castroville",
+ "region": "Castroville & Hondo",
+ "url": "https://www.rainbowtheatercastroville.com/",
+ "films": [
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=f6g4q9vchxk1fsz088qs91jkvr",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/984?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/985?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/986?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

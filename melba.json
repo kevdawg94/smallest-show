@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "melba",
+ "name": "Melba Theater",
+ "city": "searcy",
+ "area": "Batesville",
+ "region": "Batesville & Independence County",
+ "url": "https://www.melbatheater.com/",
+ "films": [
+  {
+   "title": "Boo! A Madea Halloween",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/start?film=1118",
+   "shows": [
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/book?perfcode=51638"
+    }
+   ]
+  },
+  {
+   "title": "Back to the Future",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/start?film=1119",
+   "shows": [
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/book?perfcode=51639"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/book?perfcode=51640"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/start?film=1120",
+   "shows": [
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/book?perfcode=51641"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

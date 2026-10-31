@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "bay-theatre-suttons",
+ "name": "Bay Theatre",
+ "city": "traversecity",
+ "area": "Suttons Bay",
+ "region": "Leelanau",
+ "url": "https://thebaytheatre.org/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": null,
+   "runtime_min": 132,
+   "url": "https://thebaytheatre.org/movie/sense-and-sensibility/",
+   "shows": [
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/sense-and-sensibility/4181637"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/sense-and-sensibility/4181638"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/sense-and-sensibility/4181639"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/sense-and-sensibility/4181640"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/sense-and-sensibility/4181641"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/sense-and-sensibility/4181642"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/sense-and-sensibility/4181643"
+    }
+   ]
+  },
+  {
+   "title": "Formula 1: Mexico City Grand Prix",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://thebaytheatre.org/movie/formula-1-mexico-city-grand-prix/",
+   "shows": [
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/formula-1-mexico-city-grand-prix/3774214"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

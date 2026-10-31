@@ -1,0 +1,803 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "cinelux-plaza",
+ "name": "CineLux Plaza",
+ "city": "bay",
+ "area": "Campbell",
+ "region": "Peninsula & South Bay",
+ "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 182,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/27426",
+   "shows": [
+    {
+     "at": "2026-10-31T11:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113891000048"
+    },
+    {
+     "at": "2026-10-31T11:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113895000045"
+    },
+    {
+     "at": "2026-10-31T14:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113892000048"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113894000045"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113890000048"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113893000045"
+    },
+    {
+     "at": "2026-11-01T12:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113921000047"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113924000042"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113923000048"
+    },
+    {
+     "at": "2026-11-02T12:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113954000048"
+    },
+    {
+     "at": "2026-11-02T13:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113969000042"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113955000048"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113970000042"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113956000045"
+    },
+    {
+     "at": "2026-11-03T12:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113977000048"
+    },
+    {
+     "at": "2026-11-03T13:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113990000042"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113978000048"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113991000042"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113979000045"
+    },
+    {
+     "at": "2026-11-04T12:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113999000048"
+    },
+    {
+     "at": "2026-11-04T14:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114012000042"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114000000048"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114001000045"
+    },
+    {
+     "at": "2026-11-05T12:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114023000045"
+    },
+    {
+     "at": "2026-11-05T13:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114035000042"
+    },
+    {
+     "at": "2026-11-05T15:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114022000048"
+    },
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114034000042"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114021000048"
+    }
+   ]
+  },
+  {
+   "title": "Goonies",
+   "rating": "PG",
+   "runtime_min": 124,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/25346",
+   "shows": [
+    {
+     "at": "2026-10-31T11:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113916000042"
+    },
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113915000042"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113945000042"
+    },
+    {
+     "at": "2026-11-02T14:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113971000047"
+    },
+    {
+     "at": "2026-11-02T16:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113972000047"
+    },
+    {
+     "at": "2026-11-03T14:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113992000047"
+    },
+    {
+     "at": "2026-11-03T16:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113993000047"
+    },
+    {
+     "at": "2026-11-04T14:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114014000047"
+    },
+    {
+     "at": "2026-11-04T16:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114015000047"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/27389",
+   "shows": [
+    {
+     "at": "2026-10-31T11:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113904000044"
+    },
+    {
+     "at": "2026-10-31T14:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113903000044"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113902000044"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113900000044"
+    },
+    {
+     "at": "2026-10-31T22:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113901000048"
+    },
+    {
+     "at": "2026-11-01T11:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113934000044"
+    },
+    {
+     "at": "2026-11-01T14:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113933000044"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113932000044"
+    },
+    {
+     "at": "2026-11-01T19:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113930000044"
+    },
+    {
+     "at": "2026-11-02T13:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113965000044"
+    },
+    {
+     "at": "2026-11-02T16:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113964000044"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113963000044"
+    },
+    {
+     "at": "2026-11-03T13:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113988000044"
+    },
+    {
+     "at": "2026-11-03T16:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113987000044"
+    },
+    {
+     "at": "2026-11-03T19:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113986000044"
+    },
+    {
+     "at": "2026-11-04T13:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114010000044"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114009000044"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114008000044"
+    },
+    {
+     "at": "2026-11-05T12:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114033000047"
+    },
+    {
+     "at": "2026-11-05T14:40",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114032000047"
+    },
+    {
+     "at": "2026-11-05T17:20",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114031000047"
+    },
+    {
+     "at": "2026-11-05T20:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114030000047"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 150,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/26937",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113907000043"
+    },
+    {
+     "at": "2026-10-31T15:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113906000043"
+    },
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114066000046"
+    },
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113905000043"
+    },
+    {
+     "at": "2026-10-31T19:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114065000042"
+    },
+    {
+     "at": "2026-11-01T11:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113937000043"
+    },
+    {
+     "at": "2026-11-01T15:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113936000043"
+    },
+    {
+     "at": "2026-11-01T18:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113935000043"
+    },
+    {
+     "at": "2026-11-02T12:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113962000049"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113961000049"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113960000049"
+    },
+    {
+     "at": "2026-11-03T12:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113985000049"
+    },
+    {
+     "at": "2026-11-03T15:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113984000049"
+    },
+    {
+     "at": "2026-11-03T18:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113983000049"
+    },
+    {
+     "at": "2026-11-04T12:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114007000049"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114006000049"
+    },
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114005000049"
+    },
+    {
+     "at": "2026-11-05T13:05",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114027000049"
+    },
+    {
+     "at": "2026-11-05T15:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114029000043"
+    },
+    {
+     "at": "2026-11-05T18:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114028000043"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 142,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/27179",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113953000049"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113914000049"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114064000049"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113952000046"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113943000046"
+    },
+    {
+     "at": "2026-11-02T12:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113976000046"
+    },
+    {
+     "at": "2026-11-02T15:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113973000046"
+    },
+    {
+     "at": "2026-11-03T12:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113998000046"
+    },
+    {
+     "at": "2026-11-03T15:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113996000046"
+    },
+    {
+     "at": "2026-11-04T12:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114019000046"
+    },
+    {
+     "at": "2026-11-04T15:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114018000046"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 135,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/26980",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113912000047"
+    },
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113911000047"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113909000047"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113910000047"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113940000047"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113949000047"
+    },
+    {
+     "at": "2026-11-02T13:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113968000043"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113967000043"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113966000047"
+    },
+    {
+     "at": "2026-11-03T13:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113994000043"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113995000043"
+    },
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113989000047"
+    },
+    {
+     "at": "2026-11-04T13:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114016000043"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114017000043"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114011000047"
+    }
+   ]
+  },
+  {
+   "title": "Mosquito Bowl",
+   "rating": "R",
+   "runtime_min": 137,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/27767",
+   "shows": [
+    {
+     "at": "2026-10-31T13:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113899000046"
+    },
+    {
+     "at": "2026-10-31T16:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113913000042"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113897000049"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113929000049"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113928000049"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113926000049"
+    },
+    {
+     "at": "2026-11-02T12:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113959000045"
+    },
+    {
+     "at": "2026-11-02T15:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113958000045"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113975000046"
+    },
+    {
+     "at": "2026-11-02T19:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113957000048"
+    },
+    {
+     "at": "2026-11-03T12:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113982000045"
+    },
+    {
+     "at": "2026-11-03T15:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113981000045"
+    },
+    {
+     "at": "2026-11-03T19:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113980000048"
+    },
+    {
+     "at": "2026-11-04T12:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114004000045"
+    },
+    {
+     "at": "2026-11-04T15:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114003000045"
+    },
+    {
+     "at": "2026-11-04T19:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114002000048"
+    },
+    {
+     "at": "2026-11-05T12:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114024000048"
+    },
+    {
+     "at": "2026-11-05T16:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114026000049"
+    },
+    {
+     "at": "2026-11-05T19:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114025000049"
+    }
+   ]
+  },
+  {
+   "title": "Shawshank Redemption",
+   "rating": "R",
+   "runtime_min": 157,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/26610",
+   "shows": [
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113951000045"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113950000045"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/114020000042"
+    }
+   ]
+  },
+  {
+   "title": "Pygmalion Effect",
+   "rating": "NR",
+   "runtime_min": 95,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/27449",
+   "shows": [
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113851000048"
+    }
+   ]
+  },
+  {
+   "title": "(Subbed) the Irregular at Magic High School the Movie Yotsuba Succession Arc",
+   "rating": "NR",
+   "runtime_min": 113,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/27699",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113845000046"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113846000046"
+    }
+   ]
+  },
+  {
+   "title": "(Dubbed) the Irregular at Magic High School the Movie Yotsuba Succession Arc",
+   "rating": "NR",
+   "runtime_min": 113,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/27698",
+   "shows": [
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113847000046"
+    }
+   ]
+  },
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 125,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/27516",
+   "shows": [
+    {
+     "at": "2026-11-05T14:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113593000044"
+    },
+    {
+     "at": "2026-11-05T16:45",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113594000044"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113595000044"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 145,
+   "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/movie/27345",
+   "shows": [
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113212000045"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://www.cineluxtheatres.com/cinelux-plaza-cafe-lounge/tickets/113213000045"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

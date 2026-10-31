@@ -1,0 +1,99 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "siskel",
+ "name": "Siskel Film Center",
+ "city": "chicago",
+ "area": "Loop",
+ "region": "Loop & Near North",
+ "url": "https://www.siskelfilmcenter.org/",
+ "films": [
+  {
+   "title": "FJORD",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.siskelfilmcenter.org/fjord",
+   "shows": [
+    {
+     "at": "2026-10-31T11:30",
+     "sold_out": false,
+     "url": "https://www.siskelfilmcenter.org/fjord"
+    },
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://www.siskelfilmcenter.org/fjord"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://www.siskelfilmcenter.org/fjord"
+    },
+    {
+     "at": "2026-10-31T19:45",
+     "sold_out": false,
+     "url": "https://www.siskelfilmcenter.org/fjord"
+    }
+   ]
+  },
+  {
+   "title": "BRIDE OF FRANKENSTEIN",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.siskelfilmcenter.org/bride-frankenstein",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://www.siskelfilmcenter.org/bride-frankenstein"
+    }
+   ]
+  },
+  {
+   "title": "WILD RIVER",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.siskelfilmcenter.org/wild-river",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://www.siskelfilmcenter.org/wild-river"
+    }
+   ]
+  },
+  {
+   "title": "LADY",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.siskelfilmcenter.org/lady",
+   "shows": [
+    {
+     "at": "2026-10-31T17:30",
+     "sold_out": false,
+     "url": "https://www.siskelfilmcenter.org/lady"
+    }
+   ]
+  },
+  {
+   "title": "THE THING",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.siskelfilmcenter.org/thing",
+   "shows": [
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://www.siskelfilmcenter.org/thing"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

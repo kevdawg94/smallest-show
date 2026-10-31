@@ -1,0 +1,72 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "cameo",
+ "name": "Cameo",
+ "city": "bay",
+ "area": "St. Helena",
+ "region": "North Bay",
+ "url": "https://www.cameocinema.com/",
+ "films": [
+  {
+   "title": "A Talent for Murder",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ngdcybs2pe7aqsn3zewdgzctjm",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6851?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6854?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6855?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6858?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-04T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6860?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6861?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-04T19:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6862?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6864?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-05T19:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6865?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

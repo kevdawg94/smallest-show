@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "speed-cinema",
+ "name": "Speed Cinema",
+ "city": "louisville",
+ "area": "Old Louisville, Louisville",
+ "region": "Old Louisville & Downtown",
+ "url": "https://www.speedmuseum.org/cinema/",
+ "films": [
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/fjord-at-speed-cinema-2/",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=14bf183d-b223-4ad1-b574-da31d84f7a45"
+    },
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=b85df1ab-594f-4634-8663-cdcd3d837909"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=1e9e7497-01cf-423c-b5da-2664308d7aa2"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=f79f0e64-59df-40b1-92da-d47f253503d4"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=c95a3ef4-d599-4fbe-bef4-fb73bf2d68d1"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/fatherland-at-speed-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-06T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=c354344e-d6c1-42e1-9ff7-f6d6eef525b4"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

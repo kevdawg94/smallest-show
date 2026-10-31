@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "max-theatres-sibley",
+ "name": "Max Theatres",
+ "city": "siouxcity",
+ "area": "Sibley",
+ "region": "Sibley",
+ "url": "https://www.maxtheatres.com/",
+ "films": [
+  {
+   "title": "Angel and the Badman",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.angel.com/movies/angel-and-the-badman",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/10/31"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/01"
+    }
+   ]
+  },
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://www.20thcenturystudios.com/movies/whalefall",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/10/31"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/01"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

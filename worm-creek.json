@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "worm-creek",
+ "name": "Worm Creek Opera House",
+ "city": "logan",
+ "area": "Preston",
+ "region": "Preston & Franklin County",
+ "url": "https://wormcreek.org/",
+ "films": [
+  {
+   "title": "The Nightmare Before Christmas",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/the-nightmare-before-christmas-2/",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://boxoffice.adventuretix.com/franklintheatrearts/events"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://boxoffice.adventuretix.com/franklintheatrearts/events"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

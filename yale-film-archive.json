@@ -1,0 +1,33 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "yale-film-archive",
+ "name": "Yale Film Archive",
+ "city": "centralct",
+ "area": "Yale, New Haven",
+ "region": "New Haven",
+ "url": "https://web.library.yale.edu/film/screenings",
+ "films": [
+  {
+   "title": "The Murder of Fred Hampton + May Day x 4",
+   "rating": null,
+   "runtime_min": 123,
+   "url": "https://web.library.yale.edu/film/treasures",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://web.library.yale.edu/film/treasures",
+     "venue": "HQ L01, 320 York"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

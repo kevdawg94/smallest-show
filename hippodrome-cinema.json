@@ -1,0 +1,99 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "hippodrome-cinema",
+ "name": "Hippodrome Cinema",
+ "city": "gainesville",
+ "area": "Downtown Gainesville",
+ "region": "Gainesville",
+ "url": "https://thehipp.org/cinema",
+ "films": [
+  {
+   "title": "Suspiria: @HippCinema - Hilda's Letterboxd Picks",
+   "rating": null,
+   "runtime_min": 98,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=97203AKLPPKVPSDMBRCMJSMGLDNDTPVDJ"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=97205ADNGTTTJBNGHCTMCDPQQQJRJTLQS"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=97204ATHMKVHNMHCHMBPBVDGLGSDBVRCJ"
+    }
+   ]
+  },
+  {
+   "title": "It Ends",
+   "rating": null,
+   "runtime_min": 89,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=97002AVGMBQQRVCKMDJDJNVLHLKKBJLJV"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=97003AVJVTPQRLRNKHQPCNNBNLNLJKVQK"
+    }
+   ]
+  },
+  {
+   "title": "Halloween: John Carpenter Fest",
+   "rating": null,
+   "runtime_min": 91,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-10-31T20:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=97601ANGGDVGHNHNKSKTVRHMBMCQRLHVB"
+    }
+   ]
+  },
+  {
+   "title": "The History Of Concrete",
+   "rating": null,
+   "runtime_min": 101,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98401ANRTQBTMRLQLKVRCHBLJPDMMRSCK"
+    }
+   ]
+  },
+  {
+   "title": "Primetime",
+   "rating": null,
+   "runtime_min": 109,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-05T20:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98601ANCGJHQJBCLNRTKRSSHKHVMQSSGP"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

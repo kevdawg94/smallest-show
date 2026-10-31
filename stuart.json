@@ -1,0 +1,85 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "stuart",
+ "name": "Stuart Cinema & Café",
+ "city": "nyc",
+ "area": "Long Island City",
+ "region": "Queens & beyond",
+ "url": "https://www.stuartcinema.com/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7frn1y2mz8ppp12zhy5dsek9a8",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7042?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7043?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7044?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-01T17:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7048?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    }
+   ]
+  },
+  {
+   "title": "Your Mother Your Mother Your Mother",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7frn1y2mz8ppp12zhy5dsek9a8",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7045?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7046?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7047?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-01T11:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7049?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-01T14:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7050?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7051?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "polk-theatre",
+ "name": "Polk Theatre",
+ "city": "lakeland",
+ "area": "Downtown Lakeland",
+ "region": "Lakeland",
+ "url": "https://www.polktheatre.org/",
+ "films": [
+  {
+   "title": "The Rocky Horror Picture Show Experience",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=38646&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=38646&OrganizationID=64"
+    }
+   ]
+  },
+  {
+   "title": "Monty Python: Life of Brian",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39704&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39704&OrganizationID=64"
+    }
+   ]
+  },
+  {
+   "title": "9 to 5",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39712&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39712&OrganizationID=64"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

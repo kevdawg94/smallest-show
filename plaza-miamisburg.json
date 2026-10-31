@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "plaza-miamisburg",
+ "name": "Historic Plaza Theatre",
+ "city": "dayton",
+ "area": "Miamisburg",
+ "region": "South Suburbs",
+ "url": "https://www.myplazatheatre.com/",
+ "films": [
+  {
+   "title": "Psycho",
+   "rating": "R",
+   "runtime_min": 109,
+   "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=PSYCHO",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=PSYCHO"
+    }
+   ]
+  },
+  {
+   "title": "Trick R Treat",
+   "rating": "R",
+   "runtime_min": 82,
+   "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=TRICK%20R%20TREAT",
+   "shows": [
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=TRICK%20R%20TREAT"
+    }
+   ]
+  },
+  {
+   "title": "Pink Floyd the Wall",
+   "rating": "R",
+   "runtime_min": 95,
+   "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=PINK%20FLOYD%20THE%20WALL",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=PINK%20FLOYD%20THE%20WALL"
+    }
+   ]
+  },
+  {
+   "title": "Live: A Night at the Opry!",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=LIVE%3A%20A%20NIGHT%20AT%20THE%20OPRY%21",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=LIVE%3A%20A%20NIGHT%20AT%20THE%20OPRY%21"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

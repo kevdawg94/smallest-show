@@ -1,0 +1,105 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "troy-movie-house",
+ "name": "Troy Movie House",
+ "city": "stl",
+ "area": "Troy",
+ "region": "Washington",
+ "url": "http://www.troymoviehouse.com/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-10-31T19:35",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261101"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261101"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261101"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-10-31T14:45",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-10-31T17:15",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261101"
+    },
+    {
+     "at": "2026-11-01T14:45",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261101"
+    },
+    {
+     "at": "2026-11-01T17:30",
+     "sold_out": false,
+     "url": "https://84299.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261101"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

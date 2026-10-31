@@ -1,0 +1,634 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "landmark-greenwood-village",
+ "name": "The Landmark",
+ "city": "denver",
+ "area": "Greenwood Village",
+ "region": "Denver",
+ "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+ "films": [
+  {
+   "title": "Phantom of the Opera (1943)",
+   "rating": null,
+   "runtime_min": 92,
+   "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/724f5303-a61b-5b8c-ab6f-eecc6184e5f5"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/54ef7252-7afd-5c7d-8a01-761a4e115874"
+    },
+    {
+     "at": "2026-10-31T14:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0653061e-84ab-5c54-8c01-c3347759e15d"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0edf67b2-5f76-56cb-a4af-337d4690b13e"
+    },
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/42b77c7f-7d80-5da5-b2b0-f9c49120cfab"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d245236e-736b-5ed2-a5a4-30f48177ae0c"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/31434a46-bbd1-5694-80e1-722c13c84728"
+    },
+    {
+     "at": "2026-11-01T12:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/59a479d8-0a9f-548b-9075-796d62d743e8"
+    },
+    {
+     "at": "2026-11-01T14:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/7e8b9380-d514-5b5e-b5d7-9d32d362531f"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c32211d8-d1a5-5f89-a4ae-c4d240d1dc25"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/87530766-ca89-5da0-a40c-c6ecd5c090ba"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d4a89af1-b309-525c-aff4-f42bcdab7b40"
+    },
+    {
+     "at": "2026-11-02T12:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3b3b4fb7-75a6-58b5-8e61-ec68e45f9432"
+    },
+    {
+     "at": "2026-11-02T14:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/546b2257-c597-517d-baf7-73b0c39172a0"
+    },
+    {
+     "at": "2026-11-02T15:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/369c3685-a191-5cfd-901b-720dd4e6949d"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/618ce49f-f4c5-51af-9d94-f5e4cd2ef8f8"
+    },
+    {
+     "at": "2026-11-02T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/277502be-2c8b-510d-9cc5-6c3dc419e628"
+    },
+    {
+     "at": "2026-11-03T12:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e7a8f783-a7be-5073-be98-8e5c5813fef2"
+    },
+    {
+     "at": "2026-11-03T14:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4aa22aca-1a01-5566-bc36-8ec90c160082"
+    },
+    {
+     "at": "2026-11-03T15:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/43175d9f-aa3f-5d1a-bcc2-acda61c1a7e1"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/380460a0-130c-53ee-93ef-e3a72272ea1b"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2432159f-a063-5186-ad22-6950536464b2"
+    },
+    {
+     "at": "2026-11-04T12:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/beef8f26-1aa9-5c99-ad3b-4c8e32c0c854"
+    },
+    {
+     "at": "2026-11-04T14:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/39c8cc1f-7c11-50ae-b293-a8acc7107a1b"
+    },
+    {
+     "at": "2026-11-04T15:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/cb384f96-f865-5ea7-9b9f-44e80753f8fb"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3efa0230-87e4-5226-b3ea-2d234f896caa"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2b1f41f5-cc25-5a95-b5df-2cd5cc8db9c3"
+    },
+    {
+     "at": "2026-11-05T12:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/67c613c7-77b2-56e6-82da-f5cd3a9e4fa0"
+    },
+    {
+     "at": "2026-11-05T15:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/1092c648-6616-5607-b061-e6c1a0e16f6c"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/89c8b975-0179-5e90-995d-4a18b9c29b0b"
+    }
+   ]
+  },
+  {
+   "title": "Possible Love",
+   "rating": "R",
+   "runtime_min": 164,
+   "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/1e3acd76-f2dd-5d48-8e82-4e0262bf5175"
+    },
+    {
+     "at": "2026-10-31T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/966783cf-ac53-5a86-9cc1-27db6a2ba5dd"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/cb4bc3e8-e92a-5434-911c-4fbb95b27226"
+    },
+    {
+     "at": "2026-11-01T12:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/34cbb937-bc9e-55af-aa06-47e90864faba"
+    },
+    {
+     "at": "2026-11-01T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/1fc182c3-680b-5a90-bbe4-101b96a3b102"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/9655cf38-519c-558e-92c2-6e1756b570dc"
+    },
+    {
+     "at": "2026-11-02T12:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4534911a-0152-553f-898b-f19634d5a32d"
+    },
+    {
+     "at": "2026-11-02T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2df113cd-377d-51fe-aeb1-141a48f84c30"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/7b9f23ec-eba1-5c16-9082-eb09a3c40e4b"
+    },
+    {
+     "at": "2026-11-03T12:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6203ea71-4288-5c67-8888-888f92d5d31d"
+    },
+    {
+     "at": "2026-11-03T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4547cc7f-5a26-53fe-95d1-7d2a7f2c4d66"
+    },
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ae48fc0a-4563-560d-9dac-d615907f969d"
+    },
+    {
+     "at": "2026-11-04T12:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b42f1ea6-a9d5-53b8-888e-560212c211a4"
+    },
+    {
+     "at": "2026-11-04T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4928e741-b086-54ea-85ec-69de29491cac"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2118df57-3dd5-5f65-af96-2501f9b89d6c"
+    },
+    {
+     "at": "2026-11-05T12:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/31ea18fd-85ad-5bc7-8d5f-d8039948d5ad"
+    },
+    {
+     "at": "2026-11-05T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d7d927a9-5043-5e55-8e68-abe13282657a"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c8cdd1ad-c08e-542b-b900-be07d49a59c3"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3f04cb6c-b176-51bd-b82a-ae96aa3d5315"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2013402b-fefb-580c-9e4f-76bb9c0263a5"
+    },
+    {
+     "at": "2026-11-01T12:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c8065ed1-5ded-507a-a601-b59078efc2d5"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6fde78dc-8b25-52af-b3f4-88e06891d3b3"
+    },
+    {
+     "at": "2026-11-02T12:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/a2825bec-12d6-501a-992c-de896f9a6a71"
+    },
+    {
+     "at": "2026-11-03T12:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/278a5d72-e475-5560-90d5-4be6db934862"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d5b5bb2d-db72-5ea2-af44-b7d30ec2a45c"
+    },
+    {
+     "at": "2026-11-04T12:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3e8159ec-dd76-5e17-b3d6-60d162981524"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/16358a6b-c194-5512-a0fe-7d7c141075fa"
+    }
+   ]
+  },
+  {
+   "title": "Gentle Monster",
+   "rating": "R",
+   "runtime_min": 115,
+   "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/16f719ae-df20-52df-83ae-8847d980eb81"
+    },
+    {
+     "at": "2026-10-31T16:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/96bbda20-e3bf-53b8-b783-827a72d14ccc"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/7e630c68-286f-56f0-99a6-6bf7c721a723"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ede629ea-6973-5422-90ff-95ad161da018"
+    },
+    {
+     "at": "2026-11-01T16:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/532aecfb-96d9-5bc3-939f-ea875faa6a52"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/5d7cb032-7ae1-5305-b8c1-762122ed6058"
+    },
+    {
+     "at": "2026-11-02T13:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/95d5aa7b-9e65-5b20-815b-268ce06aba7e"
+    },
+    {
+     "at": "2026-11-02T16:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/be657bd6-4ed4-51ac-83e9-ecfd4eb29a84"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6338f314-92ae-5b20-ad76-74dbde73eae6"
+    },
+    {
+     "at": "2026-11-03T13:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/f91f405f-75a9-5b8b-921d-9d2523ea68c7"
+    },
+    {
+     "at": "2026-11-03T16:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/60135bd4-c4f2-517b-a8da-902994af5d95"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2a7eac7a-bbae-5d40-bed4-b98215604f46"
+    },
+    {
+     "at": "2026-11-04T13:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/a640b135-7ff3-5090-b178-eac0c9bdf003"
+    },
+    {
+     "at": "2026-11-04T16:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0026fef0-3f1e-5e94-9937-cfb7cd1a083f"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/46f66254-5e0a-5884-aaee-61f4f06261e0"
+    },
+    {
+     "at": "2026-11-05T13:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ff9457ac-b450-5924-b030-b9f3e5d20887"
+    },
+    {
+     "at": "2026-11-05T16:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/94d15c2f-31ac-5250-a0c5-467a28f660e4"
+    },
+    {
+     "at": "2026-11-05T19:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/22b14fd1-a13b-55bd-bad5-38f0bf9b709c"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket In New York",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/beb7896c-2e1a-5bc8-89b6-4da9add45410"
+    },
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/57c33088-321e-5d36-b097-b738a93ef4b8"
+    },
+    {
+     "at": "2026-10-31T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8adb56b4-29e2-5bf2-86cf-7c2532f9cc3f"
+    },
+    {
+     "at": "2026-10-31T21:35",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/9ec04b18-ba13-5895-98ef-2c094f2597d1"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/76be3a80-db49-5745-b04f-d53bae61e999"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/600bc3cf-696d-5d4c-a808-c314812402aa"
+    },
+    {
+     "at": "2026-11-01T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/797257ad-812e-5f4f-a426-bd9a2b61bafa"
+    },
+    {
+     "at": "2026-11-02T14:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2576af3e-082e-5824-ace0-fd60ab073d76"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b83659a9-2b1e-56ac-bfdd-d93a44df87c2"
+    },
+    {
+     "at": "2026-11-02T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/445be298-363d-5883-8d43-1e33a4092eb9"
+    },
+    {
+     "at": "2026-11-03T14:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8a4e06f3-8ada-5525-82f8-3376a2f92cf0"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2cb7b652-e41e-5bca-98f1-d173c5a7e458"
+    },
+    {
+     "at": "2026-11-03T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/704d8ec4-dad9-50ac-bba2-f4b2c561d504"
+    },
+    {
+     "at": "2026-11-04T14:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b44bbf14-26be-5e47-8dc0-0c26f5ad233d"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/746d0c43-915a-58b8-9826-9f8d9d8adee3"
+    },
+    {
+     "at": "2026-11-04T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b765f0e0-f7cd-5ca8-94cc-c2365b7c226d"
+    },
+    {
+     "at": "2026-11-05T13:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6561bb23-b811-59f5-b341-d96fe4cfc1c5"
+    },
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8bf5949b-5e86-5465-b96a-8cadecb94685"
+    },
+    {
+     "at": "2026-11-05T19:25",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0cc0c06d-b0d3-5cd9-8e6c-050e18fd6b33"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 114,
+   "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/1a64e7fd-23c1-5ad7-beb7-0bad8a20d4ec"
+    },
+    {
+     "at": "2026-10-31T21:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6a2fe2ab-92e3-5704-9738-992a5273dd40"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/a8ee5131-c1ab-5d8e-81f7-c8b69095c3f4"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/9f255a55-49f8-5835-8b1b-769cf7ea3969"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/bc8592c5-ffab-59bc-9d66-bd51d7dca8e5"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0cca760e-b90d-5b61-ba3e-7d7237ba671b"
+    }
+   ]
+  },
+  {
+   "title": "$5 Secret Movie 11/2/26",
+   "rating": "PG-13",
+   "runtime_min": 140,
+   "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/a09eeec5-e037-5ff4-8307-78e12f2efe5e"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+   "shows": [
+    {
+     "at": "2026-11-05T14:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/20c488d2-ecb3-5fb3-ba50-323987839e42"
+    },
+    {
+     "at": "2026-11-05T16:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3995eea9-518a-584a-9b2e-880f676ec427"
+    },
+    {
+     "at": "2026-11-05T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2c0d690f-0269-56bb-b06f-777d316dfce5"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.landmarktheatres.com/theaters/x0873-the-landmark-greenwood-village/",
+   "shows": [
+    {
+     "at": "2026-11-05T14:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/db33e8e6-9082-5c5c-a094-bb2374002d15"
+    },
+    {
+     "at": "2026-11-05T16:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8390d024-1e2d-585b-92cd-8c2508d2d9e7"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d2ab762e-2c1b-5807-9dbe-ba3e103a93ba"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

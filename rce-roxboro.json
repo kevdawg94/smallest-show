@@ -1,0 +1,661 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "rce-roxboro",
+ "name": "RCE Roxboro",
+ "city": "triangle",
+ "area": "Roxboro",
+ "region": "Henderson & Roxboro",
+ "url": "https://www.rcetheaters.com/palacepointe",
+ "films": [
+  {
+   "title": "whalefall",
+   "rating": "PG-13",
+   "runtime_min": 98,
+   "url": "https://www.rcetheaters.com/palacepointe/movie/whalefall/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/whalefall/4136691"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/whalefall/4136683"
+    },
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/whalefall/4136684"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/whalefall/4136709"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/whalefall/4136702"
+    },
+    {
+     "at": "2026-11-02T16:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/whalefall/4136720"
+    },
+    {
+     "at": "2026-11-03T16:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/whalefall/4136732"
+    },
+    {
+     "at": "2026-11-04T16:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/whalefall/4136744"
+    },
+    {
+     "at": "2026-11-05T16:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/whalefall/4136756"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 132,
+   "url": "https://www.rcetheaters.com/palacepointe/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136688"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136674"
+    },
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136675"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136676"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136706"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136696"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136697"
+    },
+    {
+     "at": "2026-11-02T16:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136714"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136715"
+    },
+    {
+     "at": "2026-11-03T16:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136726"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136727"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136738"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136739"
+    },
+    {
+     "at": "2026-11-05T16:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136750"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wildwood/4136751"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://www.rcetheaters.com/palacepointe/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/you-can-see-everything/4207136"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/you-can-see-everything/4207134"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/you-can-see-everything/4207135"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/you-can-see-everything/4207130"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/you-can-see-everything/4207129"
+    },
+    {
+     "at": "2026-11-02T17:05",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/you-can-see-everything/4207193"
+    },
+    {
+     "at": "2026-11-03T17:05",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/you-can-see-everything/4207285"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/you-can-see-everything/4207451"
+    },
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/you-can-see-everything/4207452"
+    }
+   ]
+  },
+  {
+   "title": "clayface",
+   "rating": null,
+   "runtime_min": 108,
+   "url": "https://www.rcetheaters.com/palacepointe/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136689"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136677"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136678"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136679"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136707"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136698"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136699"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136716"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136717"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136728"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136729"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136740"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136741"
+    },
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136752"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/clayface/4136753"
+    }
+   ]
+  },
+  {
+   "title": "street fighter",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.rcetheaters.com/palacepointe/movie/street-fighter/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136690"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136680"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136681"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136682"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136708"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136700"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136701"
+    },
+    {
+     "at": "2026-11-02T16:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136718"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136719"
+    },
+    {
+     "at": "2026-11-03T16:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136730"
+    },
+    {
+     "at": "2026-11-03T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136731"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136742"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136743"
+    },
+    {
+     "at": "2026-11-05T16:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136754"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/street-fighter/4136755"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 90,
+   "url": "https://www.rcetheaters.com/palacepointe/movie/resident-evil/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207141"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207138"
+    },
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207139"
+    },
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207140"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207133"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207131"
+    },
+    {
+     "at": "2026-11-01T18:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207132"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207195"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207196"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207287"
+    },
+    {
+     "at": "2026-11-03T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207288"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207448"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207449"
+    },
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207454"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/resident-evil/4207455"
+    }
+   ]
+  },
+  {
+   "title": "Scream 30th Anniversay",
+   "rating": "R",
+   "runtime_min": 111,
+   "url": "https://www.rcetheaters.com/palacepointe/movie/scream-30th-anniversay/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136687"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136671"
+    },
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136672"
+    },
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136673"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136705"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136694"
+    },
+    {
+     "at": "2026-11-01T18:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136695"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136712"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136713"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136724"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136725"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136736"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136737"
+    },
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136748"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/scream-30th-anniversay/4136749"
+    }
+   ]
+  },
+  {
+   "title": "wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://www.rcetheaters.com/palacepointe/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136686"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136668"
+    },
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136669"
+    },
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136670"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136704"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136692"
+    },
+    {
+     "at": "2026-11-01T18:45",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136693"
+    },
+    {
+     "at": "2026-11-02T16:35",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136710"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136711"
+    },
+    {
+     "at": "2026-11-03T16:35",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136722"
+    },
+    {
+     "at": "2026-11-03T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136723"
+    },
+    {
+     "at": "2026-11-04T16:35",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136734"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136735"
+    },
+    {
+     "at": "2026-11-05T16:35",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136746"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/wicker/4136747"
+    }
+   ]
+  },
+  {
+   "title": "other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://www.rcetheaters.com/palacepointe/movie/other-mommy/",
+   "shows": [
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/other-mommy/4207137"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/other-mommy/4207128"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/other-mommy/4207194"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/other-mommy/4207286"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/other-mommy/4207450"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://www.rcetheaters.com/palacepointe/checkout/showing/other-mommy/4207453"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

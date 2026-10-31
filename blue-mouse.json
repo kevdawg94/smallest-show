@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "blue-mouse",
+ "name": "Blue Mouse",
+ "city": "seattle",
+ "area": "Tacoma",
+ "region": "West Seattle & South",
+ "url": "https://bluemousetheatre.com/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 131,
+   "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY",
+   "shows": [
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    }
+   ]
+  },
+  {
+   "title": "Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=ROCKY%20HORROR%20PICTURE%20SHOW",
+   "shows": [
+    {
+     "at": "2026-10-31T22:30",
+     "sold_out": true,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=ROCKY%20HORROR%20PICTURE%20SHOW"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

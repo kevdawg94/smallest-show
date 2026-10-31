@@ -1,0 +1,93 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "kiggins",
+ "name": "Kiggins",
+ "city": "portland",
+ "area": "Vancouver, WA",
+ "region": "Suburbs",
+ "url": "https://www.kigginstheatre.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 140,
+   "url": "https://www.kigginstheatre.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/wildwood/3957827"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/wildwood/3957829"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/wildwood/3957831"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/wildwood/3957832"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/wildwood/3957833"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/wildwood/3957834"
+    }
+   ]
+  },
+  {
+   "title": "Bram Stoker's Dracula",
+   "rating": null,
+   "runtime_min": 128,
+   "url": "https://www.kigginstheatre.com/movie/bram-stokers-dracula/",
+   "shows": [
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/bram-stokers-dracula/3957826"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/bram-stokers-dracula/3957828"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/bram-stokers-dracula/3957830"
+    }
+   ]
+  },
+  {
+   "title": "THE ROCKY HORROR PICTURE SHOW with the Denton Delinquents",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://www.kigginstheatre.com/movie/the-rocky-horror-picture-show-with-the-denton-delinquents/",
+   "shows": [
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/the-rocky-horror-picture-show-with-the-denton-delinquents/2555534"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

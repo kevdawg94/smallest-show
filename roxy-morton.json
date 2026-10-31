@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "roxy-morton",
+ "name": "Roxy Theater",
+ "city": "swwa",
+ "area": "Morton",
+ "region": "Centralia–Chehalis & Lewis County",
+ "url": "https://mortonroxy.org/movies/",
+ "films": [
+  {
+   "title": "Halloween (1978)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://mortonroxy.org/event/halloween-1978/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://mortonroxy.org/event/halloween-1978/"
+    }
+   ]
+  },
+  {
+   "title": "E.T. The Extra Terrestrial",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://mortonroxy.org/event/e-t-the-extra-terrestrial/2026-11-02/1/",
+   "shows": [
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://mortonroxy.org/event/e-t-the-extra-terrestrial/2026-11-02/1/"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://mortonroxy.org/event/e-t-the-extra-terrestrial/2026-11-02/2/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

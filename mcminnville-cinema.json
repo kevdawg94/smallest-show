@@ -1,0 +1,901 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "mcminnville-cinema",
+ "name": "McMinnville Cinema",
+ "city": "portland",
+ "area": "McMinnville",
+ "region": "Suburbs",
+ "url": "https://catheatres.com/mcminnville-cinema/",
+ "films": [
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3272",
+   "shows": [
+    {
+     "at": "2026-10-31T11:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168398"
+    },
+    {
+     "at": "2026-10-31T14:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168399"
+    },
+    {
+     "at": "2026-10-31T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168400"
+    },
+    {
+     "at": "2026-10-31T19:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168401"
+    },
+    {
+     "at": "2026-11-01T11:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168470"
+    },
+    {
+     "at": "2026-11-01T14:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168471"
+    },
+    {
+     "at": "2026-11-01T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168472"
+    },
+    {
+     "at": "2026-11-02T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168475"
+    },
+    {
+     "at": "2026-11-02T19:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168476"
+    },
+    {
+     "at": "2026-11-03T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168510"
+    },
+    {
+     "at": "2026-11-03T19:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168511"
+    },
+    {
+     "at": "2026-11-04T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168530"
+    },
+    {
+     "at": "2026-11-04T19:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168531"
+    },
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168550"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3289",
+   "shows": [
+    {
+     "at": "2026-10-31T11:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168406"
+    },
+    {
+     "at": "2026-10-31T14:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168407"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168408"
+    },
+    {
+     "at": "2026-10-31T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168409"
+    },
+    {
+     "at": "2026-11-01T11:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168441"
+    },
+    {
+     "at": "2026-11-01T14:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168442"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168443"
+    },
+    {
+     "at": "2026-11-01T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168444"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168483"
+    },
+    {
+     "at": "2026-11-02T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168484"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168514"
+    },
+    {
+     "at": "2026-11-03T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168515"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168534"
+    },
+    {
+     "at": "2026-11-04T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168535"
+    },
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168553"
+    },
+    {
+     "at": "2026-11-05T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168554"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3315",
+   "shows": [
+    {
+     "at": "2026-10-31T11:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168413"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168414"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168415"
+    },
+    {
+     "at": "2026-11-01T11:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168448"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168449"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168450"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168489"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168490"
+    },
+    {
+     "at": "2026-11-03T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168518"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168519"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168538"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168539"
+    },
+    {
+     "at": "2026-11-05T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168557"
+    },
+    {
+     "at": "2026-11-05T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168558"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3316",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168420"
+    },
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168421"
+    },
+    {
+     "at": "2026-10-31T16:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168422"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168423"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168455"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168456"
+    },
+    {
+     "at": "2026-11-01T16:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168457"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168458"
+    },
+    {
+     "at": "2026-11-02T16:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168497"
+    },
+    {
+     "at": "2026-11-02T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168498"
+    },
+    {
+     "at": "2026-11-03T16:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168522"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168523"
+    },
+    {
+     "at": "2026-11-04T16:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168542"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168543"
+    },
+    {
+     "at": "2026-11-05T16:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168565"
+    },
+    {
+     "at": "2026-11-05T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168566"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3287",
+   "shows": [
+    {
+     "at": "2026-10-31T12:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168427"
+    },
+    {
+     "at": "2026-10-31T14:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168428"
+    },
+    {
+     "at": "2026-10-31T17:05",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168429"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168430"
+    },
+    {
+     "at": "2026-11-01T12:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168462"
+    },
+    {
+     "at": "2026-11-01T14:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168463"
+    },
+    {
+     "at": "2026-11-01T17:05",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168464"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168465"
+    },
+    {
+     "at": "2026-11-02T17:05",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168504"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168505"
+    },
+    {
+     "at": "2026-11-03T17:05",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168526"
+    },
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168527"
+    },
+    {
+     "at": "2026-11-04T17:05",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168546"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168547"
+    },
+    {
+     "at": "2026-11-05T17:05",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168561"
+    }
+   ]
+  },
+  {
+   "title": "Sight & Sound Presents: JOSHUA-Live!",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3318",
+   "shows": [
+    {
+     "at": "2026-10-31T12:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168410"
+    },
+    {
+     "at": "2026-10-31T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168411"
+    },
+    {
+     "at": "2026-10-31T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168412"
+    },
+    {
+     "at": "2026-11-01T12:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168445"
+    },
+    {
+     "at": "2026-11-01T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168446"
+    },
+    {
+     "at": "2026-11-01T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168447"
+    },
+    {
+     "at": "2026-11-02T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168486"
+    },
+    {
+     "at": "2026-11-02T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168487"
+    },
+    {
+     "at": "2026-11-03T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168516"
+    },
+    {
+     "at": "2026-11-03T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168517"
+    },
+    {
+     "at": "2026-11-04T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168536"
+    },
+    {
+     "at": "2026-11-04T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168537"
+    },
+    {
+     "at": "2026-11-05T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168555"
+    },
+    {
+     "at": "2026-11-05T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168556"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3313",
+   "shows": [
+    {
+     "at": "2026-10-31T12:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168431"
+    },
+    {
+     "at": "2026-10-31T14:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168432"
+    },
+    {
+     "at": "2026-10-31T17:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168433"
+    },
+    {
+     "at": "2026-10-31T19:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168434"
+    },
+    {
+     "at": "2026-11-01T12:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168466"
+    },
+    {
+     "at": "2026-11-01T14:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168467"
+    },
+    {
+     "at": "2026-11-01T17:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168468"
+    },
+    {
+     "at": "2026-11-01T19:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168469"
+    },
+    {
+     "at": "2026-11-02T17:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168508"
+    },
+    {
+     "at": "2026-11-02T19:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168509"
+    },
+    {
+     "at": "2026-11-03T17:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168528"
+    },
+    {
+     "at": "2026-11-03T19:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168529"
+    },
+    {
+     "at": "2026-11-04T17:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168548"
+    },
+    {
+     "at": "2026-11-04T19:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168549"
+    },
+    {
+     "at": "2026-11-05T17:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168563"
+    },
+    {
+     "at": "2026-11-05T19:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168564"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3266",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168416"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168417"
+    },
+    {
+     "at": "2026-10-31T17:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168418"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168419"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168451"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168452"
+    },
+    {
+     "at": "2026-11-01T17:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168453"
+    },
+    {
+     "at": "2026-11-01T20:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168454"
+    },
+    {
+     "at": "2026-11-02T17:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168493"
+    },
+    {
+     "at": "2026-11-02T20:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168494"
+    },
+    {
+     "at": "2026-11-03T17:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168520"
+    },
+    {
+     "at": "2026-11-03T20:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168521"
+    },
+    {
+     "at": "2026-11-04T17:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168540"
+    },
+    {
+     "at": "2026-11-04T20:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168541"
+    },
+    {
+     "at": "2026-11-05T20:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168560"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3286",
+   "shows": [
+    {
+     "at": "2026-10-31T12:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168424"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168425"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168426"
+    },
+    {
+     "at": "2026-11-01T12:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168459"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168460"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168461"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168500"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168501"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168524"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168525"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168544"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168545"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168567"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168568"
+    }
+   ]
+  },
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3308",
+   "shows": [
+    {
+     "at": "2026-10-31T12:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168402"
+    },
+    {
+     "at": "2026-10-31T17:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168403"
+    },
+    {
+     "at": "2026-11-01T11:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168437"
+    },
+    {
+     "at": "2026-11-02T17:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168478"
+    },
+    {
+     "at": "2026-11-03T17:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168512"
+    },
+    {
+     "at": "2026-11-04T17:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168532"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3295",
+   "shows": [
+    {
+     "at": "2026-10-31T15:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168404"
+    },
+    {
+     "at": "2026-10-31T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168405"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168439"
+    },
+    {
+     "at": "2026-11-01T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168440"
+    },
+    {
+     "at": "2026-11-02T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168480"
+    },
+    {
+     "at": "2026-11-03T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168513"
+    },
+    {
+     "at": "2026-11-04T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168533"
+    }
+   ]
+  },
+  {
+   "title": "V for Vendetta 20th Anniversary",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3283",
+   "shows": [
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=166989"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=166990"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=166991"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3307",
+   "shows": [
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=167838"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=167839"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat 2D",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/start?film=3319",
+   "shows": [
+    {
+     "at": "2026-11-05T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168111"
+    },
+    {
+     "at": "2026-11-05T18:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMMCM/book?perfcode=168112"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

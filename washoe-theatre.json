@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "washoe-theatre",
+ "name": "Washoe Theatre",
+ "city": "butte",
+ "area": "Anaconda",
+ "region": "Anaconda",
+ "url": "http://www.washoetheatre.com/schedule.html",
+ "films": [
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "http://www.washoetheatre.com/schedule.html",
+   "shows": [
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "http://www.washoetheatre.com/schedule.html",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-06T21:30",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

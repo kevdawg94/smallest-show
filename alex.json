@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "alex",
+ "name": "Alex Theatre",
+ "city": "la",
+ "area": "Glendale",
+ "region": "Valley & Pasadena",
+ "url": "https://cinema.thealex.com/",
+ "films": [
+  {
+   "title": "Scream (1996)",
+   "rating": "R",
+   "runtime_min": 111,
+   "url": "https://cinema.thealex.com/movie/scream/",
+   "shows": [
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://cinema.thealex.com/checkout/showing/scream/4112856"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://cinema.thealex.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://cinema.thealex.com/checkout/showing/wild-horse-nine/4089495"
+    },
+    {
+     "at": "2026-11-05T21:00",
+     "sold_out": false,
+     "url": "https://cinema.thealex.com/checkout/showing/wild-horse-nine/4089496"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

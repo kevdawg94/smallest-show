@@ -1,0 +1,124 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "syndicated",
+ "name": "Syndicated",
+ "city": "nyc",
+ "area": "Bushwick",
+ "region": "Brooklyn",
+ "url": "https://syndicatedbk.com/",
+ "films": [
+  {
+   "title": "Halloween",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "shows": [
+    {
+     "at": "2026-10-31T15:25",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    },
+    {
+     "at": "2026-10-31T20:15",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    }
+   ]
+  },
+  {
+   "title": "Primetime",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "shows": [
+    {
+     "at": "2026-10-31T17:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6651?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    },
+    {
+     "at": "2026-11-01T15:25",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6665?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    },
+    {
+     "at": "2026-11-03T20:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6676?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    }
+   ]
+  },
+  {
+   "title": "Ju-On: The Grudge",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "shows": [
+    {
+     "at": "2026-10-31T22:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6669?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "shows": [
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    },
+    {
+     "at": "2026-11-02T21:00",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    },
+    {
+     "at": "2026-11-04T21:00",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    }
+   ]
+  },
+  {
+   "title": "American Doctor",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "shows": [
+    {
+     "at": "2026-11-01T20:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6670?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6671?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6672?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

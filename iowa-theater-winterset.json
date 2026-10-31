@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "iowa-theater-winterset",
+ "name": "The Iowa Theater",
+ "city": "desmoines",
+ "area": "Winterset",
+ "region": "Waukee & Dallas County",
+ "url": "https://www.the-iowa.com/",
+ "films": [
+  {
+   "title": "Death on the Brandywine",
+   "rating": "NR",
+   "runtime_min": 98,
+   "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=583478~26c06c96-e7af-4165-ae51-4f03b78aac96&",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://prod1.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=583480~26c06c96-e7af-4165-ae51-4f03b78aac96&"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://prod1.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=583481~26c06c96-e7af-4165-ae51-4f03b78aac96&"
+    }
+   ]
+  },
+  {
+   "title": "Easy Rider",
+   "rating": null,
+   "runtime_min": 95,
+   "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=154181~26c06c96-e7af-4165-ae51-4f03b78aac96&",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://prod1.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=577396~26c06c96-e7af-4165-ae51-4f03b78aac96&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

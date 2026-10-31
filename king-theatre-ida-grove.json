@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "king-theatre-ida-grove",
+ "name": "King Theatre",
+ "city": "siouxcity",
+ "area": "Ida Grove",
+ "region": "Ida Grove",
+ "url": "https://www.idagrovekingtheatre.com/",
+ "films": [
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 117,
+   "url": "https://258391.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://258391.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://258391.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261101"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

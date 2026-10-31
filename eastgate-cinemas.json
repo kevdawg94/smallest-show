@@ -1,0 +1,445 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "eastgate-cinemas",
+ "name": "Eastgate Cinemas",
+ "city": "charlotte",
+ "area": "Albemarle",
+ "region": "Albemarle",
+ "url": "https://www.southeastcinemas.com/movie-theater/eastgatecinemas",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://www.southeastcinemas.com/movie/EastgateCinemas/SENSE-AND-SENSIBILITY",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023254000005/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T15:20",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023239000005/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T18:10",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023240000005/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023251000005/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023270000005/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T15:40",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023259000005/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T18:35",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023260000005/ticket-selection"
+    },
+    {
+     "at": "2026-11-02T15:50",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023279000005/ticket-selection"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023280000005/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T12:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023304000005/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T15:40",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023294000005/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T18:35",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023295000005/ticket-selection"
+    },
+    {
+     "at": "2026-11-04T15:50",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023309000005/ticket-selection"
+    },
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/SENSE-AND-SENSIBILITY/RS190941321045-023310000005/ticket-selection"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 139,
+   "url": "https://www.southeastcinemas.com/movie/EastgateCinemas/WILDWOOD",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023253000004/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T15:20",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023245000004/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T18:10",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023246000004/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023250000004/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023269000004/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T15:40",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023265000004/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T18:35",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023266000004/ticket-selection"
+    },
+    {
+     "at": "2026-11-02T15:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023284000004/ticket-selection"
+    },
+    {
+     "at": "2026-11-02T18:40",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023285000004/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T12:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023303000004/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T15:40",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023299000004/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T18:35",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023300000004/ticket-selection"
+    },
+    {
+     "at": "2026-11-04T15:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023314000004/ticket-selection"
+    },
+    {
+     "at": "2026-11-04T18:40",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/WILDWOOD/RS980989739420-023315000004/ticket-selection"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 103,
+   "url": "https://www.southeastcinemas.com/movie/EastgateCinemas/OTHER-MOMMY",
+   "shows": [
+    {
+     "at": "2026-10-31T12:40",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023255000003/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T14:50",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023256000003/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023247000003/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023242000003/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T21:25",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023249000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T12:40",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023271000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T14:50",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023272000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023267000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023262000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-02T15:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023286000002/ticket-selection"
+    },
+    {
+     "at": "2026-11-02T19:20",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023281000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T12:40",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023305000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T14:50",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023306000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023301000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T19:15",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023296000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-04T15:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023321000002/ticket-selection"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/OTHER-MOMMY/RS990149882856-023316000003/ticket-selection"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.southeastcinemas.com/movie/EastgateCinemas/YOU-CAN-SEE-EVERYTHING",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023257000002/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T16:20",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023248000002/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023241000002/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T13:20",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023275000002/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023268000002/ticket-selection"
+    },
+    {
+     "at": "2026-11-02T15:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023292000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023287000002/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T13:20",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023307000002/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023302000002/ticket-selection"
+    },
+    {
+     "at": "2026-11-04T15:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023322000003/ticket-selection"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/YOU-CAN-SEE-EVERYTHING/RS997632062773-023317000002/ticket-selection"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.southeastcinemas.com/movie/EastgateCinemas/CLAYFACE",
+   "shows": [
+    {
+     "at": "2026-10-31T13:10",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023258000001/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023243000001/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023244000001/ticket-selection"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023252000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T13:10",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023278000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023263000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023264000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-02T16:15",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023282000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023283000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T13:10",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023308000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T15:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023297000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023298000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023312000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CLAYFACE/RS818180383796-023313000001/ticket-selection"
+    }
+   ]
+  },
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 124,
+   "url": "https://www.southeastcinemas.com/movie/EastgateCinemas/CAT-IN-THE-HAT",
+   "shows": [
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CAT-IN-THE-HAT/RS857229757820-023086000001/ticket-selection"
+    },
+    {
+     "at": "2026-11-05T18:45",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/CAT-IN-THE-HAT/RS857229757820-023087000001/ticket-selection"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 119,
+   "url": "https://www.southeastcinemas.com/movie/EastgateCinemas/GODZILLA-MINUS-ZERO",
+   "shows": [
+    {
+     "at": "2026-11-05T16:05",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/GODZILLA-MINUS-ZERO/RS134221373877-022978000002/ticket-selection"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.southeastcinemas.com/movies/EastgateCinemas/GODZILLA-MINUS-ZERO/RS134221373877-022979000002/ticket-selection"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

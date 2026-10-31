@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "getty-drive-in",
+ "name": "Getty 4 Drive-In",
+ "city": "grandrapids",
+ "area": "Muskegon",
+ "region": "Muskegon",
+ "url": "https://www.celebrationcinema.com/cinemas/Getty-Drive-In",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://www.celebrationcinema.com/Films/detail/Clayface",
+   "shows": [
+    {
+     "at": "2026-10-31T18:20",
+     "sold_out": false,
+     "url": "https://www.celebrationcinema.com/showtimes/booking/011-11865"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 90,
+   "url": "https://www.celebrationcinema.com/Films/detail/Resident-Evil",
+   "shows": [
+    {
+     "at": "2026-10-31T18:20",
+     "sold_out": false,
+     "url": "https://www.celebrationcinema.com/showtimes/booking/011-11863"
+    }
+   ]
+  },
+  {
+   "title": "Trunk Or Treat: The Nightmare Before Christmas",
+   "rating": "PG",
+   "runtime_min": 76,
+   "url": "https://www.celebrationcinema.com/Films/detail/Trunk-Or-Treat-The-Nightmare-Before-Christmas",
+   "shows": [
+    {
+     "at": "2026-10-31T18:20",
+     "sold_out": false,
+     "url": "https://www.celebrationcinema.com/showtimes/booking/011-11819"
+    }
+   ]
+  },
+  {
+   "title": "Twilight",
+   "rating": "PG-13",
+   "runtime_min": 122,
+   "url": "https://www.celebrationcinema.com/Films/detail/Twilight",
+   "shows": [
+    {
+     "at": "2026-10-31T18:20",
+     "sold_out": false,
+     "url": "https://www.celebrationcinema.com/showtimes/booking/011-11861"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

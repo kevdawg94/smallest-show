@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "starlite-wichita",
+ "name": "Starlite Drive-In",
+ "city": "wichita",
+ "area": "South Wichita",
+ "region": "Derby",
+ "url": "https://starlitefun.com/",
+ "films": [
+  {
+   "title": "Shining/clockwork Orange",
+   "rating": "R",
+   "runtime_min": 282,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    }
+   ]
+  },
+  {
+   "title": "Clayface/whalefall",
+   "rating": "R",
+   "runtime_min": 214,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031",
+   "shows": [
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    }
+   ]
+  },
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031",
+   "shows": [
+    {
+     "at": "2026-10-31T21:20",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    }
+   ]
+  },
+  {
+   "title": "A Clockwork Orange",
+   "rating": "R",
+   "runtime_min": 136,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031",
+   "shows": [
+    {
+     "at": "2026-10-31T21:35",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

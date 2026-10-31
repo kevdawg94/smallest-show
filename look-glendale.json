@@ -1,0 +1,944 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "look-glendale",
+ "name": "LOOK Glendale",
+ "city": "la",
+ "area": "Glendale",
+ "region": "Valley & Pasadena",
+ "url": "https://lookcinemas.com/glendale",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://lookcinemas.com/glendale/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4193050"
+    },
+    {
+     "at": "2026-10-31T12:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4193042"
+    },
+    {
+     "at": "2026-10-31T13:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4193051"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4193013"
+    },
+    {
+     "at": "2026-10-31T16:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4193019"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4193032"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4193040"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4193004"
+    },
+    {
+     "at": "2026-11-01T12:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192996"
+    },
+    {
+     "at": "2026-11-01T13:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4193005"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192484"
+    },
+    {
+     "at": "2026-11-01T16:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192490"
+    },
+    {
+     "at": "2026-11-01T20:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192502"
+    },
+    {
+     "at": "2026-11-01T22:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192994"
+    },
+    {
+     "at": "2026-11-02T15:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192511"
+    },
+    {
+     "at": "2026-11-02T16:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192517"
+    },
+    {
+     "at": "2026-11-02T18:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192521"
+    },
+    {
+     "at": "2026-11-02T21:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192534"
+    },
+    {
+     "at": "2026-11-03T15:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192405"
+    },
+    {
+     "at": "2026-11-03T16:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192404"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192401"
+    },
+    {
+     "at": "2026-11-03T20:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192403"
+    },
+    {
+     "at": "2026-11-03T21:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192402"
+    },
+    {
+     "at": "2026-11-04T15:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192538"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4193011"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192548"
+    },
+    {
+     "at": "2026-11-04T21:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/you-can-see-everything/4192561"
+    }
+   ]
+  },
+  {
+   "title": "Sense And Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://lookcinemas.com/glendale/movie/sense-and-sensibility/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4193043"
+    },
+    {
+     "at": "2026-10-31T15:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4193014"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4193030"
+    },
+    {
+     "at": "2026-11-01T12:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4192997"
+    },
+    {
+     "at": "2026-11-01T15:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4192485"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4192495"
+    },
+    {
+     "at": "2026-11-02T15:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4192512"
+    },
+    {
+     "at": "2026-11-02T19:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4192522"
+    },
+    {
+     "at": "2026-11-03T15:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4192415"
+    },
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4192413"
+    },
+    {
+     "at": "2026-11-04T15:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4192539"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/sense-and-sensibility/4192549"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://lookcinemas.com/glendale/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4193041"
+    },
+    {
+     "at": "2026-10-31T16:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4193015"
+    },
+    {
+     "at": "2026-10-31T19:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4193026"
+    },
+    {
+     "at": "2026-10-31T22:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4193038"
+    },
+    {
+     "at": "2026-11-01T12:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192995"
+    },
+    {
+     "at": "2026-11-01T16:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192486"
+    },
+    {
+     "at": "2026-11-01T19:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192498"
+    },
+    {
+     "at": "2026-11-01T22:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192508"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192513"
+    },
+    {
+     "at": "2026-11-02T18:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192525"
+    },
+    {
+     "at": "2026-11-02T22:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192535"
+    },
+    {
+     "at": "2026-11-03T15:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192410"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192406"
+    },
+    {
+     "at": "2026-11-03T21:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192408"
+    },
+    {
+     "at": "2026-11-04T15:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192540"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192552"
+    },
+    {
+     "at": "2026-11-04T21:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/clayface/4192562"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket In New York",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://lookcinemas.com/glendale/movie/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4180549"
+    },
+    {
+     "at": "2026-10-31T14:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4180548"
+    },
+    {
+     "at": "2026-10-31T17:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4180547"
+    },
+    {
+     "at": "2026-10-31T18:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4193027"
+    },
+    {
+     "at": "2026-10-31T22:15",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4193039"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4193003"
+    },
+    {
+     "at": "2026-11-01T14:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4193002"
+    },
+    {
+     "at": "2026-11-01T17:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4192492"
+    },
+    {
+     "at": "2026-11-01T18:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4192500"
+    },
+    {
+     "at": "2026-11-01T22:15",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4192509"
+    },
+    {
+     "at": "2026-11-02T15:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4193008"
+    },
+    {
+     "at": "2026-11-02T17:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4192519"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4192527"
+    },
+    {
+     "at": "2026-11-02T22:15",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4193007"
+    },
+    {
+     "at": "2026-11-03T15:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4193009"
+    },
+    {
+     "at": "2026-11-03T17:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4180536"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4180534"
+    },
+    {
+     "at": "2026-11-03T22:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4180535"
+    },
+    {
+     "at": "2026-11-04T17:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4180533"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4192554"
+    },
+    {
+     "at": "2026-11-04T22:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-only-living-pickpocket-in-new-york/4192563"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://lookcinemas.com/glendale/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4193044"
+    },
+    {
+     "at": "2026-10-31T15:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4193017"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4193024"
+    },
+    {
+     "at": "2026-11-01T12:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192998"
+    },
+    {
+     "at": "2026-11-01T15:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192488"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192496"
+    },
+    {
+     "at": "2026-11-02T15:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192515"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192523"
+    },
+    {
+     "at": "2026-11-02T21:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192531"
+    },
+    {
+     "at": "2026-11-03T15:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192422"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192420"
+    },
+    {
+     "at": "2026-11-03T21:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192431"
+    },
+    {
+     "at": "2026-11-04T15:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192542"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192550"
+    },
+    {
+     "at": "2026-11-04T21:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wildwood/4192558"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 119,
+   "url": "https://lookcinemas.com/glendale/movie/street-fighter/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:55",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4193046"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4193020"
+    },
+    {
+     "at": "2026-10-31T18:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4193023"
+    },
+    {
+     "at": "2026-10-31T21:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4193036"
+    },
+    {
+     "at": "2026-11-01T13:15",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4193000"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192491"
+    },
+    {
+     "at": "2026-11-01T18:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192499"
+    },
+    {
+     "at": "2026-11-01T21:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192510"
+    },
+    {
+     "at": "2026-11-02T16:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192518"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4193006"
+    },
+    {
+     "at": "2026-11-02T21:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192537"
+    },
+    {
+     "at": "2026-11-03T16:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192438"
+    },
+    {
+     "at": "2026-11-03T18:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192433"
+    },
+    {
+     "at": "2026-11-03T21:25",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192436"
+    },
+    {
+     "at": "2026-11-04T16:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192545"
+    },
+    {
+     "at": "2026-11-04T18:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192553"
+    },
+    {
+     "at": "2026-11-04T21:25",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/street-fighter/4192564"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://lookcinemas.com/glendale/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4193045"
+    },
+    {
+     "at": "2026-10-31T15:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4193018"
+    },
+    {
+     "at": "2026-10-31T18:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4193025"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4193037"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192999"
+    },
+    {
+     "at": "2026-11-01T15:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192489"
+    },
+    {
+     "at": "2026-11-01T18:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192497"
+    },
+    {
+     "at": "2026-11-01T21:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192506"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192516"
+    },
+    {
+     "at": "2026-11-02T18:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192524"
+    },
+    {
+     "at": "2026-11-02T21:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192533"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192428"
+    },
+    {
+     "at": "2026-11-03T18:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192427"
+    },
+    {
+     "at": "2026-11-03T21:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192424"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192543"
+    },
+    {
+     "at": "2026-11-04T18:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192551"
+    },
+    {
+     "at": "2026-11-04T21:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/wicker/4192560"
+    }
+   ]
+  },
+  {
+   "title": "Forgotten Island",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://lookcinemas.com/glendale/movie/forgotten-island/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/forgotten-island/4210040"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/forgotten-island/4210039"
+    },
+    {
+     "at": "2026-11-01T13:05",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/forgotten-island/4210034"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/forgotten-island/4210033"
+    },
+    {
+     "at": "2026-11-02T15:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/forgotten-island/4210035"
+    },
+    {
+     "at": "2026-11-03T17:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/forgotten-island/4210036"
+    },
+    {
+     "at": "2026-11-04T16:50",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/forgotten-island/4210037"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://lookcinemas.com/glendale/movie/resident-evil/",
+   "shows": [
+    {
+     "at": "2026-10-31T17:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/resident-evil/4193031"
+    },
+    {
+     "at": "2026-11-01T17:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/resident-evil/4192501"
+    },
+    {
+     "at": "2026-11-02T17:30",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/resident-evil/4192528"
+    },
+    {
+     "at": "2026-11-03T17:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/resident-evil/4193010"
+    },
+    {
+     "at": "2026-11-03T19:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/resident-evil/4192443"
+    },
+    {
+     "at": "2026-11-04T19:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/resident-evil/4192555"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://lookcinemas.com/glendale/movie/other-mommy/",
+   "shows": [
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/other-mommy/4193022"
+    },
+    {
+     "at": "2026-10-31T21:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/other-mommy/4193034"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/other-mommy/4192493"
+    },
+    {
+     "at": "2026-11-01T21:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/other-mommy/4192503"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/other-mommy/4192520"
+    },
+    {
+     "at": "2026-11-03T20:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/other-mommy/4192399"
+    },
+    {
+     "at": "2026-11-04T20:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/other-mommy/4192557"
+    }
+   ]
+  },
+  {
+   "title": "Trick 'r Treat",
+   "rating": null,
+   "runtime_min": 82,
+   "url": "https://lookcinemas.com/glendale/movie/trick-r-treat/",
+   "shows": [
+    {
+     "at": "2026-10-31T20:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/trick-r-treat/4193033"
+    },
+    {
+     "at": "2026-11-01T20:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/trick-r-treat/3384243"
+    },
+    {
+     "at": "2026-11-02T20:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/trick-r-treat/3384244"
+    }
+   ]
+  },
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://lookcinemas.com/glendale/movie/whalefall/",
+   "shows": [
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/whalefall/4193035"
+    },
+    {
+     "at": "2026-11-01T21:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/whalefall/4192505"
+    },
+    {
+     "at": "2026-11-02T22:10",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/whalefall/4192532"
+    },
+    {
+     "at": "2026-11-03T21:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/whalefall/4192417"
+    },
+    {
+     "at": "2026-11-04T21:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/whalefall/4192559"
+    }
+   ]
+  },
+  {
+   "title": "Surprise Screening",
+   "rating": "PG-13",
+   "runtime_min": 126,
+   "url": "https://lookcinemas.com/glendale/movie/surprise-screening-26/",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/surprise-screening-26/4121451"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://lookcinemas.com/glendale/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-05T15:20",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-cat-in-the-hat/4131730"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-cat-in-the-hat/4131728"
+    },
+    {
+     "at": "2026-11-05T20:40",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/the-cat-in-the-hat/4131729"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://lookcinemas.com/glendale/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/godzilla-minus-zero/4046317"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/godzilla-minus-zero/4046315"
+    },
+    {
+     "at": "2026-11-05T22:00",
+     "sold_out": false,
+     "url": "https://lookcinemas.com/glendale/checkout/showing/godzilla-minus-zero/4046316"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

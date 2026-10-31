@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "park-city-film",
+ "name": "Park City Film",
+ "city": "slc",
+ "area": "Park City",
+ "region": "Park City",
+ "url": "https://parkcityfilm.org/showtimes/",
+ "films": [
+  {
+   "title": "Ha-Chan, Shake Your Booty!",
+   "rating": null,
+   "runtime_min": 122,
+   "url": "https://parkcityfilm.eventive.org/films/6abdeca3507c0054713b9410",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6abded4258da1797b7699545"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6abded4258da1797b769954f"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://parkcityfilm.eventive.org/films/6abe67a3cd1a507fbad574bf",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6abe690d270d939d17ae6108"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

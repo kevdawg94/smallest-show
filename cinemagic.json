@@ -1,0 +1,142 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "cinemagic",
+ "name": "Cinemagic",
+ "city": "portland",
+ "area": "Hawthorne",
+ "region": "East",
+ "url": "https://www.thecinemagictheater.com/",
+ "films": [
+  {
+   "title": "The Evil Dead (35mm)",
+   "rating": "R",
+   "runtime_min": 85,
+   "url": "https://tickets.thecinemagictheater.com/movie/evil-dead/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead/3774853"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead/3774861"
+    },
+    {
+     "at": "2026-11-05T21:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead/3774922"
+    }
+   ]
+  },
+  {
+   "title": "Army of Darkness",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://tickets.thecinemagictheater.com/movie/army-of-darkness/",
+   "shows": [
+    {
+     "at": "2026-11-01T16:50",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/army-of-darkness/3774856"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/army-of-darkness/3774863"
+    },
+    {
+     "at": "2026-11-04T16:50",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/army-of-darkness/3774860"
+    }
+   ]
+  },
+  {
+   "title": "Evil Dead (2013)",
+   "rating": "R",
+   "runtime_min": 92,
+   "url": "https://tickets.thecinemagictheater.com/movie/evil-dead-2013/",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead-2013/3774857"
+    },
+    {
+     "at": "2026-11-04T21:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead-2013/3774918"
+    }
+   ]
+  },
+  {
+   "title": "Evil Dead Burn",
+   "rating": "R",
+   "runtime_min": 110,
+   "url": "https://tickets.thecinemagictheater.com/movie/evil-dead-burn/",
+   "shows": [
+    {
+     "at": "2026-11-01T21:10",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead-burn/3774921"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead-burn/3774917"
+    }
+   ]
+  },
+  {
+   "title": "Evil Dead 2: Dead by Dawn",
+   "rating": "R",
+   "runtime_min": 85,
+   "url": "https://tickets.thecinemagictheater.com/movie/evil-dead-2/",
+   "shows": [
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead-2/3774862"
+    },
+    {
+     "at": "2026-11-03T21:10",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead-2/3774919"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead-2/3774859"
+    }
+   ]
+  },
+  {
+   "title": "Evil Dead Rise",
+   "rating": "R",
+   "runtime_min": 96,
+   "url": "https://tickets.thecinemagictheater.com/movie/evil-dead-rise/",
+   "shows": [
+    {
+     "at": "2026-11-02T21:10",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead-rise/3774920"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/evil-dead-rise/3774858"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

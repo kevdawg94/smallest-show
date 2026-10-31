@@ -1,0 +1,769 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "harbor-east",
+ "name": "Harbor East",
+ "city": "baltimore",
+ "area": "Harbor East",
+ "region": "City",
+ "url": "https://www.harboreastcinemas.com/",
+ "films": [
+  {
+   "title": "The Shawshank Redemption",
+   "rating": "R",
+   "runtime_min": 142,
+   "url": "https://harboreastcinemas.com/movie/the-shawshank-redemption/",
+   "shows": [
+    {
+     "at": "2026-10-31T10:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/the-shawshank-redemption/3880889"
+    },
+    {
+     "at": "2026-11-01T10:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/the-shawshank-redemption/3880890"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/the-shawshank-redemption/3880891"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/the-shawshank-redemption/3880892"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/the-shawshank-redemption/3880893"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/the-shawshank-redemption/3880894"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://harboreastcinemas.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-10-31T10:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225861"
+    },
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225716"
+    },
+    {
+     "at": "2026-10-31T15:55",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225723"
+    },
+    {
+     "at": "2026-11-01T10:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225856"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225730"
+    },
+    {
+     "at": "2026-11-01T15:55",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225736"
+    },
+    {
+     "at": "2026-11-01T18:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225743"
+    },
+    {
+     "at": "2026-11-01T21:35",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225744"
+    },
+    {
+     "at": "2026-11-02T13:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225757"
+    },
+    {
+     "at": "2026-11-02T15:55",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225764"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225769"
+    },
+    {
+     "at": "2026-11-02T21:35",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225777"
+    },
+    {
+     "at": "2026-11-03T13:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225786"
+    },
+    {
+     "at": "2026-11-03T15:55",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225793"
+    },
+    {
+     "at": "2026-11-03T18:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225798"
+    },
+    {
+     "at": "2026-11-03T21:35",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225808"
+    },
+    {
+     "at": "2026-11-04T13:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225813"
+    },
+    {
+     "at": "2026-11-04T15:55",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225819"
+    },
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225824"
+    },
+    {
+     "at": "2026-11-04T21:35",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wildwood/4225832"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 175,
+   "url": "https://harboreastcinemas.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-10-31T10:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225863"
+    },
+    {
+     "at": "2026-10-31T12:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225712"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225721"
+    },
+    {
+     "at": "2026-11-01T10:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225858"
+    },
+    {
+     "at": "2026-11-01T12:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225726"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225735"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225747"
+    },
+    {
+     "at": "2026-11-02T12:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225754"
+    },
+    {
+     "at": "2026-11-02T15:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225763"
+    },
+    {
+     "at": "2026-11-02T19:20",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225772"
+    },
+    {
+     "at": "2026-11-03T12:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225782"
+    },
+    {
+     "at": "2026-11-03T15:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225791"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225802"
+    },
+    {
+     "at": "2026-11-04T12:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225809"
+    },
+    {
+     "at": "2026-11-04T15:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225818"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/you-can-see-everything/4225827"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 119,
+   "url": "https://harboreastcinemas.com/movie/street-fighter/",
+   "shows": [
+    {
+     "at": "2026-10-31T10:05",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225862"
+    },
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225714"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225719"
+    },
+    {
+     "at": "2026-11-01T10:05",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225857"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225728"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225733"
+    },
+    {
+     "at": "2026-11-01T18:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225748"
+    },
+    {
+     "at": "2026-11-01T21:25",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225749"
+    },
+    {
+     "at": "2026-11-02T12:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225756"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225761"
+    },
+    {
+     "at": "2026-11-02T18:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225768"
+    },
+    {
+     "at": "2026-11-02T21:25",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225775"
+    },
+    {
+     "at": "2026-11-03T12:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225784"
+    },
+    {
+     "at": "2026-11-03T15:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225789"
+    },
+    {
+     "at": "2026-11-03T18:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225797"
+    },
+    {
+     "at": "2026-11-03T21:25",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225806"
+    },
+    {
+     "at": "2026-11-04T12:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225811"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225816"
+    },
+    {
+     "at": "2026-11-04T18:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225823"
+    },
+    {
+     "at": "2026-11-04T21:25",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/street-fighter/4225830"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://harboreastcinemas.com/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-10-31T10:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225859"
+    },
+    {
+     "at": "2026-10-31T12:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225713"
+    },
+    {
+     "at": "2026-10-31T15:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225720"
+    },
+    {
+     "at": "2026-11-01T10:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225854"
+    },
+    {
+     "at": "2026-11-01T12:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225727"
+    },
+    {
+     "at": "2026-11-01T15:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225734"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225739"
+    },
+    {
+     "at": "2026-11-01T21:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225740"
+    },
+    {
+     "at": "2026-11-02T12:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225755"
+    },
+    {
+     "at": "2026-11-02T15:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225762"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225767"
+    },
+    {
+     "at": "2026-11-02T21:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225773"
+    },
+    {
+     "at": "2026-11-03T12:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225783"
+    },
+    {
+     "at": "2026-11-03T15:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225790"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225796"
+    },
+    {
+     "at": "2026-11-03T21:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225804"
+    },
+    {
+     "at": "2026-11-04T12:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225810"
+    },
+    {
+     "at": "2026-11-04T15:40",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225817"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225822"
+    },
+    {
+     "at": "2026-11-04T21:10",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/wicker/4225828"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://harboreastcinemas.com/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-10-31T10:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225860"
+    },
+    {
+     "at": "2026-10-31T13:15",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225717"
+    },
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225725"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225738"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225745"
+    },
+    {
+     "at": "2026-11-01T21:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225746"
+    },
+    {
+     "at": "2026-11-02T13:15",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225758"
+    },
+    {
+     "at": "2026-11-02T16:15",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225766"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225770"
+    },
+    {
+     "at": "2026-11-02T21:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225776"
+    },
+    {
+     "at": "2026-11-03T13:15",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225787"
+    },
+    {
+     "at": "2026-11-03T16:15",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225795"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225800"
+    },
+    {
+     "at": "2026-11-03T21:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225807"
+    },
+    {
+     "at": "2026-11-04T13:15",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225814"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225821"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225825"
+    },
+    {
+     "at": "2026-11-04T21:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/clayface/4225831"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 94,
+   "url": "https://harboreastcinemas.com/movie/resident-evil/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:15",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225715"
+    },
+    {
+     "at": "2026-10-31T15:50",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225722"
+    },
+    {
+     "at": "2026-11-02T12:50",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225759"
+    },
+    {
+     "at": "2026-11-02T15:50",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225778"
+    },
+    {
+     "at": "2026-11-02T18:50",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225779"
+    },
+    {
+     "at": "2026-11-02T21:05",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225780"
+    },
+    {
+     "at": "2026-11-03T12:50",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225785"
+    },
+    {
+     "at": "2026-11-03T15:50",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225792"
+    },
+    {
+     "at": "2026-11-03T18:50",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225799"
+    },
+    {
+     "at": "2026-11-03T21:05",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225803"
+    },
+    {
+     "at": "2026-11-04T12:50",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/resident-evil/4225812"
+    }
+   ]
+  },
+  {
+   "title": "Christmas At The Kringles",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://harboreastcinemas.com/movie/christmas-at-the-kringles/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225718"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225724"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225732"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225737"
+    },
+    {
+     "at": "2026-11-01T19:05",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225741"
+    },
+    {
+     "at": "2026-11-01T21:25",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225742"
+    },
+    {
+     "at": "2026-11-02T13:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225760"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225765"
+    },
+    {
+     "at": "2026-11-02T19:05",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225771"
+    },
+    {
+     "at": "2026-11-02T21:25",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225774"
+    },
+    {
+     "at": "2026-11-03T13:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225788"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225794"
+    },
+    {
+     "at": "2026-11-03T19:05",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225801"
+    },
+    {
+     "at": "2026-11-03T21:25",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225805"
+    },
+    {
+     "at": "2026-11-04T13:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225815"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225820"
+    },
+    {
+     "at": "2026-11-04T19:05",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225826"
+    },
+    {
+     "at": "2026-11-04T21:25",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/christmas-at-the-kringles/4225829"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://harboreastcinemas.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-05T15:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/the-cat-in-the-hat/4174547"
+    },
+    {
+     "at": "2026-11-05T18:45",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/the-cat-in-the-hat/4174545"
+    },
+    {
+     "at": "2026-11-05T21:25",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/the-cat-in-the-hat/4174546"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://harboreastcinemas.com/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/godzilla-minus-zero/4178057"
+    },
+    {
+     "at": "2026-11-05T21:30",
+     "sold_out": false,
+     "url": "https://harboreastcinemas.com/checkout/showing/godzilla-minus-zero/4178058"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

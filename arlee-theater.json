@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "arlee-theater",
+ "name": "Arlee Theater",
+ "city": "peoria",
+ "area": "Mason City",
+ "region": "Lincoln & Mason City",
+ "url": "https://arleetheater.com/",
+ "films": [
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://arleetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://arleetheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

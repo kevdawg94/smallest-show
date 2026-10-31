@@ -1,0 +1,117 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "vista",
+ "name": "Vista",
+ "city": "la",
+ "area": "Los Feliz",
+ "region": "Hollywood & Los Feliz",
+ "url": "https://www.vistatheaterhollywood.com/",
+ "films": [
+  {
+   "title": "The Bride of Frankenstein",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww",
+   "shows": [
+    {
+     "at": "2026-10-31T10:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4160?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww"
+    },
+    {
+     "at": "2026-11-01T10:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4161?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww"
+    }
+   ]
+  },
+  {
+   "title": "Ken Russell's The Devils 35mm",
+   "rating": "NC-17",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4236?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4237?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww"
+    }
+   ]
+  },
+  {
+   "title": "Tales from the Archives",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww"
+    }
+   ]
+  },
+  {
+   "title": "Seven (Original 35mm Silver Retention Print)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww",
+   "shows": [
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4229?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4230?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4233?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww"
+    }
+   ]
+  },
+  {
+   "title": "Trick 'r Treat",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww",
+   "shows": [
+    {
+     "at": "2026-10-31T23:59",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4165?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww"
+    }
+   ]
+  },
+  {
+   "title": "Paper Tiger - Early Access Preview 35mm",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww",
+   "shows": [
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=20xhpa3yt2hhkwt4zjvfcwsaww"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

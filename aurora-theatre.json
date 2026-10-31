@@ -1,0 +1,77 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "aurora-theatre",
+ "name": "Aurora Theatre",
+ "city": "buffalo",
+ "area": "East Aurora",
+ "region": "Southtowns",
+ "url": "https://www.theauroratheatre.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5811?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5815?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5819?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5820?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5821?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5818?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5812?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5816?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5813?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5817?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

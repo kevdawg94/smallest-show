@@ -1,0 +1,99 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "marion-theater-columbia",
+ "name": "Marion Theater",
+ "city": "hattiesburg",
+ "area": "Columbia",
+ "region": "Columbia & Marion County",
+ "url": "https://mariontheater.com/",
+ "films": [
+  {
+   "title": "Practical Magic",
+   "rating": null,
+   "runtime_min": 104,
+   "url": "https://mariontheater.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://mariontheater.com/purchase/280799/"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": null,
+   "runtime_min": 132,
+   "url": "https://mariontheater.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://mariontheater.com/purchase/280802/"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://mariontheater.com/purchase/280805/"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://mariontheater.com/purchase/280803/"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://mariontheater.com/purchase/280804/"
+    }
+   ]
+  },
+  {
+   "title": "Practical Magic 2",
+   "rating": null,
+   "runtime_min": 130,
+   "url": "https://mariontheater.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T17:30",
+     "sold_out": false,
+     "url": "https://mariontheater.com/purchase/280800/"
+    }
+   ]
+  },
+  {
+   "title": "Sinners",
+   "rating": "R",
+   "runtime_min": 138,
+   "url": "https://mariontheater.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T20:30",
+     "sold_out": false,
+     "url": "https://mariontheater.com/purchase/280801/"
+    }
+   ]
+  },
+  {
+   "title": "The Twilight Saga: Eclipse",
+   "rating": "PG-13",
+   "runtime_min": 124,
+   "url": "https://mariontheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://mariontheater.com/purchase/277709/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

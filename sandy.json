@@ -1,0 +1,733 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "sandy",
+ "name": "Sandy Cinema",
+ "city": "portland",
+ "area": "Sandy",
+ "region": "Suburbs",
+ "url": "https://www.sandycinema.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 135,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-01T18:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-02T15:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-03T12:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-03T15:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-03T18:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-04T15:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-05T13:05",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WILDWOOD"
+    }
+   ]
+  },
+  {
+   "title": "Sight and Sound Joshua Live",
+   "rating": "NR",
+   "runtime_min": 135,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE"
+    },
+    {
+     "at": "2026-11-03T13:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE"
+    },
+    {
+     "at": "2026-11-05T13:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SIGHT%20AND%20SOUND%20JOSHUA%20LIVE"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": 100,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST",
+   "shows": [
+    {
+     "at": "2026-10-31T13:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-10-31T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-01T13:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-01T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-02T16:40",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-02T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-03T13:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-03T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-04T16:40",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=HEART%20OF%20THE%20BEAST"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 130,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY",
+   "shows": [
+    {
+     "at": "2026-10-31T13:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-10-31T16:25",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-11-01T16:25",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-11-02T16:25",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-11-03T13:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-11-03T16:25",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-11-04T16:25",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    },
+    {
+     "at": "2026-11-05T13:50",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=SENSE%20AND%20SENSIBILITY"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 110,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-10-31T16:35",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-01T16:35",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-02T16:35",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-03T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-03T16:35",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-04T16:35",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-05T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-05T16:35",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    },
+    {
+     "at": "2026-11-05T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CLAYFACE"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER",
+   "shows": [
+    {
+     "at": "2026-10-31T14:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-10-31T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-01T14:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-01T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-02T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-03T14:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-03T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-03T19:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-04T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-05T14:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-05T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=WICKER"
+    }
+   ]
+  },
+  {
+   "title": "Christmas at the Kringles",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES",
+   "shows": [
+    {
+     "at": "2026-10-31T14:25",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    },
+    {
+     "at": "2026-11-01T14:25",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    },
+    {
+     "at": "2026-11-03T14:25",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    },
+    {
+     "at": "2026-11-04T16:45",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    },
+    {
+     "at": "2026-11-05T16:40",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    },
+    {
+     "at": "2026-11-05T19:20",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CHRISTMAS%20AT%20THE%20KRINGLES"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 175,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=YOU%20CAN%20SEE%20EVERYTHING",
+   "shows": [
+    {
+     "at": "2026-10-31T14:35",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=YOU%20CAN%20SEE%20EVERYTHING"
+    },
+    {
+     "at": "2026-10-31T18:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=YOU%20CAN%20SEE%20EVERYTHING"
+    },
+    {
+     "at": "2026-11-01T14:35",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=YOU%20CAN%20SEE%20EVERYTHING"
+    },
+    {
+     "at": "2026-11-01T18:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=YOU%20CAN%20SEE%20EVERYTHING"
+    },
+    {
+     "at": "2026-11-02T18:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=YOU%20CAN%20SEE%20EVERYTHING"
+    },
+    {
+     "at": "2026-11-03T14:35",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=YOU%20CAN%20SEE%20EVERYTHING"
+    },
+    {
+     "at": "2026-11-03T18:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=YOU%20CAN%20SEE%20EVERYTHING"
+    },
+    {
+     "at": "2026-11-04T18:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=YOU%20CAN%20SEE%20EVERYTHING"
+    }
+   ]
+  },
+  {
+   "title": "The Mongoose",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=THE%20MONGOOSE",
+   "shows": [
+    {
+     "at": "2026-10-31T16:40",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=THE%20MONGOOSE"
+    },
+    {
+     "at": "2026-10-31T19:05",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=THE%20MONGOOSE"
+    },
+    {
+     "at": "2026-11-01T16:40",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=THE%20MONGOOSE"
+    },
+    {
+     "at": "2026-11-01T19:05",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=THE%20MONGOOSE"
+    },
+    {
+     "at": "2026-11-02T19:05",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=THE%20MONGOOSE"
+    },
+    {
+     "at": "2026-11-03T16:40",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=THE%20MONGOOSE"
+    },
+    {
+     "at": "2026-11-03T19:05",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=THE%20MONGOOSE"
+    },
+    {
+     "at": "2026-11-04T19:05",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=THE%20MONGOOSE"
+    },
+    {
+     "at": "2026-11-05T19:05",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=THE%20MONGOOSE"
+    }
+   ]
+  },
+  {
+   "title": "Breeder",
+   "rating": "R",
+   "runtime_min": 95,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=BREEDER",
+   "shows": [
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=BREEDER"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=BREEDER"
+    },
+    {
+     "at": "2026-11-02T19:20",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=BREEDER"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=BREEDER"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=BREEDER"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=DRUMMER%20BOY",
+   "shows": [
+    {
+     "at": "2026-11-05T13:35",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=DRUMMER%20BOY"
+    },
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=DRUMMER%20BOY"
+    }
+   ]
+  },
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CAT%20IN%20THE%20HAT",
+   "shows": [
+    {
+     "at": "2026-11-05T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CAT%20IN%20THE%20HAT"
+    },
+    {
+     "at": "2026-11-05T16:40",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CAT%20IN%20THE%20HAT"
+    },
+    {
+     "at": "2026-11-05T19:20",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=CAT%20IN%20THE%20HAT"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=GODZILLA%20MINUS%20ZERO",
+   "shows": [
+    {
+     "at": "2026-11-05T15:40",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=GODZILLA%20MINUS%20ZERO"
+    },
+    {
+     "at": "2026-11-05T18:40",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=prestige&rtn=16&page=picktitle&showTitle=GODZILLA%20MINUS%20ZERO"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

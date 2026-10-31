@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "old-town-music-hall",
+ "name": "Old Town Music Hall",
+ "city": "la",
+ "area": "El Segundo",
+ "region": "South Bay & Orange County",
+ "url": "https://www.oldtownmusichall.org/",
+ "films": [
+  {
+   "title": "The Phantom of the Opera",
+   "rating": null,
+   "runtime_min": 107,
+   "url": "https://oldtownmusichall.org/movie/the-phantom-of-the-opera/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/the-phantom-of-the-opera/3345473"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/the-phantom-of-the-opera/3345474"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

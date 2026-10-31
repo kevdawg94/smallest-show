@@ -1,0 +1,93 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "marvel-carlinville",
+ "name": "Marvel Theater",
+ "city": "stl",
+ "area": "Carlinville",
+ "region": "Carlinville",
+ "url": "https://bestmoviedeal.com/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/start?film=1046",
+   "shows": [
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/book?perfcode=51531"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/book?perfcode=51529"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/book?perfcode=51536"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/book?perfcode=51534"
+    }
+   ]
+  },
+  {
+   "title": "The Mongoose",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/start?film=1051",
+   "shows": [
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/book?perfcode=51530"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/book?perfcode=51528"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/book?perfcode=51535"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/book?perfcode=51533"
+    },
+    {
+     "at": "2026-11-06T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/book?perfcode=51537"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/start?film=1052",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MARCAR/book?perfcode=51543"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

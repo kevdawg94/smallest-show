@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "castle-manchester",
+ "name": "Castle Theatre",
+ "city": "iowacity",
+ "area": "Manchester",
+ "region": "Vinton & Manchester",
+ "url": "https://castletheatremanchester.org/",
+ "films": [
+  {
+   "title": "Angel in the Badland",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://castletheatremanchester.org/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://castletheatremanchester.org/"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://castletheatremanchester.org/"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://castletheatremanchester.org/"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://castletheatremanchester.org/"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://castletheatremanchester.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "rosendale",
+ "name": "Rosendale Theatre",
+ "city": "hudsonvalley",
+ "area": "Rosendale",
+ "region": "Kingston, Woodstock & New Paltz",
+ "url": "https://rosendaletheatre.org/",
+ "films": [
+  {
+   "title": "Sunday Silents: Waxworks (1924)",
+   "rating": null,
+   "runtime_min": 107,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/35481/"
+    }
+   ]
+  },
+  {
+   "title": "Main Street Matinees: Coco (2017)",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/23999/"
+    }
+   ]
+  },
+  {
+   "title": "Darn Good Docs: The Work in Progress",
+   "rating": null,
+   "runtime_min": 103,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/34282/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

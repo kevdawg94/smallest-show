@@ -1,0 +1,104 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "four-star",
+ "name": "4 Star",
+ "city": "bay",
+ "area": "Richmond",
+ "region": "San Francisco",
+ "url": "https://www.4-star-movies.com/",
+ "films": [
+  {
+   "title": "It's the Great Pumpkin, Charlie Brown",
+   "rating": "G",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20018?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20022?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "The Shining",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-10-31T13:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20019?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-10-31T20:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20021?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20023?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Labyrinth",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-10-31T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20020?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20025?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Runa Simi",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20284?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "LIVE MUSIC: Good Friends, The Lowtimers & more",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-05T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20082?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

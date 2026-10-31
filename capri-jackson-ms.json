@@ -1,0 +1,90 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "capri-jackson-ms",
+ "name": "Capri Theatre",
+ "city": "jacksonms",
+ "area": "Fondren, Jackson",
+ "region": "Jackson",
+ "url": "https://ticketing.useast.veezi.com/sessions/?siteToken=ec9jrhkgwvf72npmrh80fkm4jc",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ec9jrhkgwvf72npmrh80fkm4jc",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5102?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    },
+    {
+     "at": "2026-10-31T16:25",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5103?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    },
+    {
+     "at": "2026-10-31T18:50",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5104?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    },
+    {
+     "at": "2026-10-31T21:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5105?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    },
+    {
+     "at": "2026-11-01T15:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5119?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    },
+    {
+     "at": "2026-11-01T17:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5120?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    },
+    {
+     "at": "2026-11-01T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5121?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    },
+    {
+     "at": "2026-11-04T17:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5123?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    },
+    {
+     "at": "2026-11-04T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5124?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    },
+    {
+     "at": "2026-11-05T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5125?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ec9jrhkgwvf72npmrh80fkm4jc",
+   "shows": [
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5129?siteToken=ec9jrhkgwvf72npmrh80fkm4jc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

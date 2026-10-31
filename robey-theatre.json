@@ -1,0 +1,62 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "robey-theatre",
+ "name": "Robey Theatre",
+ "city": "charlestonwv",
+ "area": "Spencer",
+ "region": "Spencer",
+ "url": "https://www.robeytheatre.com/",
+ "films": [
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=9pjabxw8gaxd0a5vebddc35mmc",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5542?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5548?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5543?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5544?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5545?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5546?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5547?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,682 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "alamo-mueller",
+ "name": "Alamo Mueller",
+ "city": "austin",
+ "area": "Mueller",
+ "region": "Central",
+ "url": "https://drafthouse.com/austin/theater/mueller",
+ "films": [
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/verity?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-10-31T10:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/verity/0008/88688"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/verity/0008/88707"
+    },
+    {
+     "at": "2026-11-02T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/verity/0008/88724"
+    },
+    {
+     "at": "2026-11-04T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/verity/0008/88763"
+    }
+   ]
+  },
+  {
+   "title": "Klara and the Sun",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/klara-and-the-sun?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-10-31T10:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/klara-and-the-sun/0008/88689"
+    },
+    {
+     "at": "2026-11-01T10:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/klara-and-the-sun/0008/88703"
+    },
+    {
+     "at": "2026-11-02T10:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/klara-and-the-sun/0008/88728"
+    },
+    {
+     "at": "2026-11-04T10:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/klara-and-the-sun/0008/88773"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/you-can-see-everything?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-10-31T10:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88638"
+    },
+    {
+     "at": "2026-10-31T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88691"
+    },
+    {
+     "at": "2026-10-31T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88674"
+    },
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88637"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88690"
+    },
+    {
+     "at": "2026-10-31T17:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88675"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88635"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88676"
+    },
+    {
+     "at": "2026-11-01T11:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88639"
+    },
+    {
+     "at": "2026-11-01T13:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88704"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88640"
+    },
+    {
+     "at": "2026-11-01T15:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88708"
+    },
+    {
+     "at": "2026-11-01T17:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88705"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88802"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88642"
+    },
+    {
+     "at": "2026-11-01T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88706"
+    },
+    {
+     "at": "2026-11-01T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88803"
+    },
+    {
+     "at": "2026-11-02T10:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88643"
+    },
+    {
+     "at": "2026-11-02T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88727"
+    },
+    {
+     "at": "2026-11-02T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88644"
+    },
+    {
+     "at": "2026-11-02T15:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88723"
+    },
+    {
+     "at": "2026-11-02T17:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88726"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88646"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88729"
+    },
+    {
+     "at": "2026-11-02T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88725"
+    },
+    {
+     "at": "2026-11-02T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88645"
+    },
+    {
+     "at": "2026-11-04T10:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88654"
+    },
+    {
+     "at": "2026-11-04T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88774"
+    },
+    {
+     "at": "2026-11-04T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88653"
+    },
+    {
+     "at": "2026-11-04T15:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88764"
+    },
+    {
+     "at": "2026-11-04T17:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88761"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88651"
+    },
+    {
+     "at": "2026-11-04T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88762"
+    },
+    {
+     "at": "2026-11-04T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0008/88652"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/wicker?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-10-31T10:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88687"
+    },
+    {
+     "at": "2026-10-31T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88683"
+    },
+    {
+     "at": "2026-10-31T16:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88685"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88681"
+    },
+    {
+     "at": "2026-10-31T22:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88684"
+    },
+    {
+     "at": "2026-11-01T11:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88697"
+    },
+    {
+     "at": "2026-11-01T14:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88701"
+    },
+    {
+     "at": "2026-11-01T17:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88702"
+    },
+    {
+     "at": "2026-11-01T20:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88696"
+    },
+    {
+     "at": "2026-11-01T22:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88695"
+    },
+    {
+     "at": "2026-11-02T11:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88718"
+    },
+    {
+     "at": "2026-11-02T14:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88714"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88713"
+    },
+    {
+     "at": "2026-11-02T19:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88719"
+    },
+    {
+     "at": "2026-11-02T22:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88720"
+    },
+    {
+     "at": "2026-11-04T11:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88768"
+    },
+    {
+     "at": "2026-11-04T14:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88759"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88760"
+    },
+    {
+     "at": "2026-11-04T19:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88767"
+    },
+    {
+     "at": "2026-11-04T22:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0008/88766"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter (2026)",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/street-fighter-2026?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88678"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88679"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88677"
+    },
+    {
+     "at": "2026-10-31T22:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88680"
+    },
+    {
+     "at": "2026-11-01T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88699"
+    },
+    {
+     "at": "2026-11-01T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88700"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88698"
+    },
+    {
+     "at": "2026-11-01T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88709"
+    },
+    {
+     "at": "2026-11-02T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88716"
+    },
+    {
+     "at": "2026-11-02T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88715"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88717"
+    },
+    {
+     "at": "2026-11-02T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88722"
+    },
+    {
+     "at": "2026-11-04T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88757"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88758"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88769"
+    },
+    {
+     "at": "2026-11-04T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0008/88765"
+    }
+   ]
+  },
+  {
+   "title": "Halloween (1978)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/halloween-1978?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-10-31T13:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/halloween-1978/0008/86792"
+    },
+    {
+     "at": "2026-10-31T22:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/halloween-1978/0008/88693"
+    },
+    {
+     "at": "2026-11-01T23:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/halloween-1978/0008/88712"
+    }
+   ]
+  },
+  {
+   "title": "Faust (1926)",
+   "rating": null,
+   "runtime_min": 106,
+   "url": "https://drafthouse.com/austin/show/live-score-faust-1926-w-invincible-czars?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/live-score-faust-1926-w-invincible-czars/0008/85983"
+    }
+   ]
+  },
+  {
+   "title": "Scream (1996)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/scream?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/scream/0008/88692"
+    }
+   ]
+  },
+  {
+   "title": "Nosferatu (1922)",
+   "rating": "NR",
+   "runtime_min": 94,
+   "url": "https://drafthouse.com/austin/show/live-score-nosferatu-1922-w-invincibles-czars?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-10-31T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/live-score-nosferatu-1922-w-invincibles-czars/0008/86181"
+    }
+   ]
+  },
+  {
+   "title": "Trick or Treat (1986)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/trick-or-treat-1986?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-10-31T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/trick-or-treat-1986/0008/88694"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla vs. Mechagodzilla",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/godzilla-vs-mechagodzilla?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-vs-mechagodzilla/0008/87104"
+    },
+    {
+     "at": "2026-11-02T10:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-vs-mechagodzilla/0008/88804"
+    },
+    {
+     "at": "2026-11-02T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-vs-mechagodzilla/0008/88731"
+    },
+    {
+     "at": "2026-11-02T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-vs-mechagodzilla/0008/88732"
+    },
+    {
+     "at": "2026-11-04T10:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-vs-mechagodzilla/0008/88806"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-vs-mechagodzilla/0008/88771"
+    }
+   ]
+  },
+  {
+   "title": "Wild at Heart",
+   "rating": "R",
+   "runtime_min": 128,
+   "url": "https://drafthouse.com/austin/show/special-event-wild-at-heart-unrated?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-11-01T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0008/87454"
+    },
+    {
+     "at": "2026-11-02T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0008/88730"
+    },
+    {
+     "at": "2026-11-04T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0008/88772"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0008/87455"
+    }
+   ]
+  },
+  {
+   "title": "Ken Russell's The Devils",
+   "rating": "NC-17",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/ken-russells-the-devils?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-11-01T19:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/ken-russells-the-devils/0008/88710"
+    },
+    {
+     "at": "2026-11-01T22:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/ken-russells-the-devils/0008/88711"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/ken-russells-the-devils/0008/88721"
+    },
+    {
+     "at": "2026-11-02T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/ken-russells-the-devils/0008/88733"
+    },
+    {
+     "at": "2026-11-04T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/ken-russells-the-devils/0008/88776"
+    },
+    {
+     "at": "2026-11-04T22:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/ken-russells-the-devils/0008/88770"
+    }
+   ]
+  },
+  {
+   "title": "The Last Temptation of Becky",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/the-last-temptation-of-becky?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/the-last-temptation-of-becky/0008/88549"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/wild-horse-nine?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-11-05T16:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wild-horse-nine/0008/87946"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wild-horse-nine/0008/87944"
+    },
+    {
+     "at": "2026-11-05T22:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wild-horse-nine/0008/87945"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/godzilla-minus-zero?cinemaId=0008",
+   "shows": [
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-minus-zero/0008/87640"
+    },
+    {
+     "at": "2026-11-05T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-minus-zero/0008/87639"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

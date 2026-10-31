@@ -1,0 +1,115 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "capitol-olympia",
+ "name": "Capitol Theater",
+ "city": "seattle",
+ "area": "Olympia",
+ "region": "West Seattle & South",
+ "url": "https://www.olympiafilmsociety.org/",
+ "films": [
+  {
+   "title": "Sunn O))) + Black Mountain Duo",
+   "rating": null,
+   "runtime_min": 180,
+   "url": "https://olympiafilmsociety.org/movie/sunn-o/",
+   "shows": [
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/sunn-o/3550750"
+    }
+   ]
+  },
+  {
+   "title": "Ofs Kids Club: Hugo - Free for Children 12 & Under",
+   "rating": "PG",
+   "runtime_min": 126,
+   "url": "https://olympiafilmsociety.org/movie/hugo/",
+   "shows": [
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/hugo/4123581"
+    }
+   ]
+  },
+  {
+   "title": "Olympia Library Film Club Presents: Manhunter: The Final Cut - 4K Restoration",
+   "rating": null,
+   "runtime_min": 122,
+   "url": "https://olympiafilmsociety.org/movie/olympia-library-film-club-presents-manhunter-the-final-cut---4k-restoration/",
+   "shows": [
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/olympia-library-film-club-presents-manhunter-the-final-cut---4k-restoration/3634851"
+    }
+   ]
+  },
+  {
+   "title": "Alien",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://olympiafilmsociety.org/movie/alien/",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/alien/3876132"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/alien/3876133"
+    }
+   ]
+  },
+  {
+   "title": "Animation Tuesdays: Castle in the Sky - 40th Anniversary",
+   "rating": "PG",
+   "runtime_min": 125,
+   "url": "https://olympiafilmsociety.org/movie/animation-tuesdays-castle-in-the-sky---40th-anniversary/",
+   "shows": [
+    {
+     "at": "2026-11-03T20:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/animation-tuesdays-castle-in-the-sky---40th-anniversary/3873272"
+    }
+   ]
+  },
+  {
+   "title": "Reel Oddities: Phenomena: Original Cut",
+   "rating": null,
+   "runtime_min": 110,
+   "url": "https://olympiafilmsociety.org/movie/reel-oddities-phenomena-original-cut/",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/reel-oddities-phenomena-original-cut/4173581"
+    }
+   ]
+  },
+  {
+   "title": "The Reel Rock Film Tour",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://olympiafilmsociety.org/movie/the-reel-rock-film-tour/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/the-reel-rock-film-tour/4001784"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,116 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "stowe-cinema",
+ "name": "Stowe Cinema",
+ "city": "burlington",
+ "area": "Stowe",
+ "region": "Mad River Valley & Stowe",
+ "url": "https://stowecinema.com/",
+ "films": [
+  {
+   "title": "HAVOC AT THE CINEMA",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13074?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13176?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13182?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13185?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13188?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13175?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13181?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13184?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13187?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-01T19:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13177?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-03T19:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13183?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-04T19:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13186?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-05T19:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13189?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

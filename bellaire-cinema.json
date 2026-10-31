@@ -1,0 +1,111 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "bellaire-cinema",
+ "name": "Bellaire Cinema",
+ "city": "traversecity",
+ "area": "Bellaire",
+ "region": "Antrim & Charlevoix",
+ "url": "https://northernmichigancinemas.com/bellaire/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=69gywyrzre2y3vgr5x732hrz4m",
+   "shows": [
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91584?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    },
+    {
+     "at": "2026-11-01T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91586?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91588?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    },
+    {
+     "at": "2026-11-03T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91590?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    },
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91592?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    },
+    {
+     "at": "2026-11-05T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91594?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=69gywyrzre2y3vgr5x732hrz4m",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91583?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=69gywyrzre2y3vgr5x732hrz4m",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91585?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91587?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91589?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91591?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=69gywyrzre2y3vgr5x732hrz4m",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91593?siteToken=69gywyrzre2y3vgr5x732hrz4m"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

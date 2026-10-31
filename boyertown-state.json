@@ -1,0 +1,67 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "boyertown-state",
+ "name": "State Theatre",
+ "city": "philly",
+ "area": "Boyertown",
+ "region": "Suburbs",
+ "url": "https://boyertownstatetheatre.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hfx4gecvzsrqdskf0k519fpgnc",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4728?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4722?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4729?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4723?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4724?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4725?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4726?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4727?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

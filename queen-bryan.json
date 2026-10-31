@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "queen-bryan",
+ "name": "The Queen Theatre",
+ "city": "houston",
+ "area": "Downtown Bryan",
+ "region": "Bryan & College Station",
+ "url": "https://www.bryantxentertainment.com/movie-theater/thequeen",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.bryantxentertainment.com/movie/TheQueen/YOU-CAN-SEE-EVERYTHING",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://www.bryantxentertainment.com/movies/TheQueen/YOU-CAN-SEE-EVERYTHING/RS997632062773-005578000001"
+    },
+    {
+     "at": "2026-10-31T15:40",
+     "sold_out": false,
+     "url": "https://www.bryantxentertainment.com/movies/TheQueen/YOU-CAN-SEE-EVERYTHING/RS997632062773-005579000001"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://www.bryantxentertainment.com/movies/TheQueen/YOU-CAN-SEE-EVERYTHING/RS997632062773-005580000001"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://www.bryantxentertainment.com/movies/TheQueen/YOU-CAN-SEE-EVERYTHING/RS997632062773-005581000001"
+    },
+    {
+     "at": "2026-11-01T15:40",
+     "sold_out": false,
+     "url": "https://www.bryantxentertainment.com/movies/TheQueen/YOU-CAN-SEE-EVERYTHING/RS997632062773-005582000001"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://www.bryantxentertainment.com/movies/TheQueen/YOU-CAN-SEE-EVERYTHING/RS997632062773-005583000001"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://www.bryantxentertainment.com/movies/TheQueen/YOU-CAN-SEE-EVERYTHING/RS997632062773-005584000001"
+    }
+   ]
+  },
+  {
+   "title": "Shawshank Redemption",
+   "rating": "R",
+   "runtime_min": 142,
+   "url": "https://www.bryantxentertainment.com/movie/TheQueen/SHAWSHANK-REDEMPTION",
+   "shows": [
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://www.bryantxentertainment.com/movies/TheQueen/SHAWSHANK-REDEMPTION/RS825891981920-005481000001"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

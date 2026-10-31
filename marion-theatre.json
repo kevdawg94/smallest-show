@@ -1,0 +1,89 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "marion-theatre",
+ "name": "Marion Theatre",
+ "city": "gainesville",
+ "area": "Downtown Ocala",
+ "region": "Ocala & Marion County",
+ "url": "https://www.reillyartscenter.com/mariontickets/",
+ "films": [
+  {
+   "title": "Lo-Fi Theatre Company presents: The Rocky Horror Picture Show Shadowcast",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV10000066qRuMAI",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000003uS1VMAU"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000003uRztMAE"
+    }
+   ]
+  },
+  {
+   "title": "Beetlejuice",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV1000007dPVZMA2",
+   "shows": [
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004Db7VMAS"
+    }
+   ]
+  },
+  {
+   "title": "Coco",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV1000007eLxlMAE",
+   "shows": [
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004EP7VMAW"
+    }
+   ]
+  },
+  {
+   "title": "Little Women",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV10000085GKTMA2",
+   "shows": [
+    {
+     "at": "2026-11-05T17:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TQ9hMAG"
+    }
+   ]
+  },
+  {
+   "title": "Holiday Inn",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV100000855AXMAY",
+   "shows": [
+    {
+     "at": "2026-11-05T20:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TKQrMAO"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,782 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "living-room",
+ "name": "Living Room",
+ "city": "portland",
+ "area": "Downtown",
+ "region": "West & Downtown",
+ "url": "https://pdx.livingroomtheaters.com/",
+ "films": [
+  {
+   "title": "A Talent for Murder",
+   "rating": "R",
+   "runtime_min": 106,
+   "url": "https://pdx.livingroomtheaters.com/movie/a-talent-for-murder/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222689"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222697"
+    },
+    {
+     "at": "2026-10-31T19:35",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222706"
+    },
+    {
+     "at": "2026-11-01T11:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222605"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222613"
+    },
+    {
+     "at": "2026-11-01T19:35",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222621"
+    },
+    {
+     "at": "2026-11-02T11:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222671"
+    },
+    {
+     "at": "2026-11-02T15:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222679"
+    },
+    {
+     "at": "2026-11-02T19:35",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222688"
+    },
+    {
+     "at": "2026-11-03T11:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222792"
+    },
+    {
+     "at": "2026-11-03T15:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222810"
+    },
+    {
+     "at": "2026-11-03T19:35",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222827"
+    },
+    {
+     "at": "2026-11-04T11:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222828"
+    },
+    {
+     "at": "2026-11-04T15:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222842"
+    },
+    {
+     "at": "2026-11-04T19:35",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222865"
+    },
+    {
+     "at": "2026-11-05T11:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222872"
+    },
+    {
+     "at": "2026-11-05T15:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/a-talent-for-murder/4222889"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 147,
+   "url": "https://pdx.livingroomtheaters.com/movie/fjord/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:10",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222690"
+    },
+    {
+     "at": "2026-10-31T15:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222698"
+    },
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222703"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222707"
+    },
+    {
+     "at": "2026-11-01T12:10",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222606"
+    },
+    {
+     "at": "2026-11-01T18:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222618"
+    },
+    {
+     "at": "2026-11-02T12:10",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222672"
+    },
+    {
+     "at": "2026-11-02T15:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222680"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222685"
+    },
+    {
+     "at": "2026-11-03T12:10",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222794"
+    },
+    {
+     "at": "2026-11-03T15:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222811"
+    },
+    {
+     "at": "2026-11-03T18:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222824"
+    },
+    {
+     "at": "2026-11-04T12:10",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222829"
+    },
+    {
+     "at": "2026-11-04T15:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222844"
+    },
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222859"
+    },
+    {
+     "at": "2026-11-05T12:10",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222873"
+    },
+    {
+     "at": "2026-11-05T15:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4222891"
+    },
+    {
+     "at": "2026-11-05T18:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/fjord/4223006"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://pdx.livingroomtheaters.com/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222691"
+    },
+    {
+     "at": "2026-10-31T14:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222695"
+    },
+    {
+     "at": "2026-10-31T16:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222699"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222704"
+    },
+    {
+     "at": "2026-10-31T21:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222709"
+    },
+    {
+     "at": "2026-11-01T12:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222607"
+    },
+    {
+     "at": "2026-11-01T14:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222611"
+    },
+    {
+     "at": "2026-11-01T16:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222614"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222619"
+    },
+    {
+     "at": "2026-11-02T12:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222673"
+    },
+    {
+     "at": "2026-11-02T14:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222677"
+    },
+    {
+     "at": "2026-11-02T16:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222681"
+    },
+    {
+     "at": "2026-11-03T12:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222796"
+    },
+    {
+     "at": "2026-11-03T14:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222806"
+    },
+    {
+     "at": "2026-11-03T16:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222815"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222825"
+    },
+    {
+     "at": "2026-11-04T12:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222831"
+    },
+    {
+     "at": "2026-11-04T14:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222838"
+    },
+    {
+     "at": "2026-11-04T16:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222848"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222861"
+    },
+    {
+     "at": "2026-11-05T12:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222875"
+    },
+    {
+     "at": "2026-11-05T14:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222885"
+    },
+    {
+     "at": "2026-11-05T16:40",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222893"
+    },
+    {
+     "at": "2026-11-05T19:35",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wicker/4222901"
+    }
+   ]
+  },
+  {
+   "title": "Digger",
+   "rating": "R",
+   "runtime_min": 129,
+   "url": "https://pdx.livingroomtheaters.com/movie/digger/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222692"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222705"
+    },
+    {
+     "at": "2026-10-31T21:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222708"
+    },
+    {
+     "at": "2026-11-01T12:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222608"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222620"
+    },
+    {
+     "at": "2026-11-02T12:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222674"
+    },
+    {
+     "at": "2026-11-03T12:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222799"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222826"
+    },
+    {
+     "at": "2026-11-04T12:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222832"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222863"
+    },
+    {
+     "at": "2026-11-05T12:20",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/digger/4222877"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://pdx.livingroomtheaters.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4133637"
+    },
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222694"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4133638"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222701"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4133639"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4133640"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4133641"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222610"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4133642"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222616"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4133643"
+    },
+    {
+     "at": "2026-11-02T12:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222667"
+    },
+    {
+     "at": "2026-11-02T14:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222676"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222668"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222683"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222670"
+    },
+    {
+     "at": "2026-11-03T12:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222801"
+    },
+    {
+     "at": "2026-11-03T14:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222804"
+    },
+    {
+     "at": "2026-11-03T15:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222813"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222818"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222823"
+    },
+    {
+     "at": "2026-11-04T12:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222834"
+    },
+    {
+     "at": "2026-11-04T14:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222837"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222851"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222857"
+    },
+    {
+     "at": "2026-11-05T12:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222879"
+    },
+    {
+     "at": "2026-11-05T14:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222883"
+    },
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222895"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wildwood/4222899"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket In New York",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://pdx.livingroomtheaters.com/movie/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222693"
+    },
+    {
+     "at": "2026-10-31T14:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222696"
+    },
+    {
+     "at": "2026-10-31T16:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222700"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4124016"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222710"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222609"
+    },
+    {
+     "at": "2026-11-01T14:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222612"
+    },
+    {
+     "at": "2026-11-01T16:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222615"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4124018"
+    },
+    {
+     "at": "2026-11-02T12:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222675"
+    },
+    {
+     "at": "2026-11-02T14:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222678"
+    },
+    {
+     "at": "2026-11-02T16:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222682"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222669"
+    },
+    {
+     "at": "2026-11-03T12:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222803"
+    },
+    {
+     "at": "2026-11-03T14:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222808"
+    },
+    {
+     "at": "2026-11-03T16:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222816"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222822"
+    },
+    {
+     "at": "2026-11-04T12:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222836"
+    },
+    {
+     "at": "2026-11-04T14:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222840"
+    },
+    {
+     "at": "2026-11-04T16:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222850"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222855"
+    },
+    {
+     "at": "2026-11-05T12:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222881"
+    },
+    {
+     "at": "2026-11-05T14:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222887"
+    },
+    {
+     "at": "2026-11-05T16:50",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222894"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-only-living-pickpocket-in-new-york/4222897"
+    }
+   ]
+  },
+  {
+   "title": "American Doctor",
+   "rating": null,
+   "runtime_min": 91,
+   "url": "https://pdx.livingroomtheaters.com/movie/american-doctor/",
+   "shows": [
+    {
+     "at": "2026-10-31T17:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/american-doctor/4222702"
+    },
+    {
+     "at": "2026-11-01T17:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/american-doctor/4222617"
+    },
+    {
+     "at": "2026-11-02T17:10",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/american-doctor/4222684"
+    },
+    {
+     "at": "2026-11-03T17:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/american-doctor/4222820"
+    },
+    {
+     "at": "2026-11-04T17:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/american-doctor/4222853"
+    },
+    {
+     "at": "2026-11-05T17:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/american-doctor/4222896"
+    }
+   ]
+  },
+  {
+   "title": "The Love Witch",
+   "rating": null,
+   "runtime_min": 123,
+   "url": "https://pdx.livingroomtheaters.com/movie/the-love-witch/",
+   "shows": [
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-love-witch/4124020"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/the-love-witch/4133644"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 160,
+   "url": "https://pdx.livingroomtheaters.com/movie/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-05T15:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/la-bola-negra/4223465"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 117,
+   "url": "https://pdx.livingroomtheaters.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/wild-horse-nine/4123187"
+    }
+   ]
+  },
+  {
+   "title": "Queen at Sea",
+   "rating": null,
+   "runtime_min": 123,
+   "url": "https://pdx.livingroomtheaters.com/movie/queen-at-sea/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://pdx.livingroomtheaters.com/checkout/showing/queen-at-sea/4171959"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

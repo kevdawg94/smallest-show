@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "slab-cinema",
+ "name": "Slab Cinema ArtHouse",
+ "city": "sanantonio",
+ "area": "Blue Star, Southtown",
+ "region": "Southtown & Downtown",
+ "url": "https://www.slabcinemaarthouse.com/",
+ "films": [
+  {
+   "title": "Party People",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.slabcinemaarthouse.com/event-details/11-01-party-people",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.slabcinemaarthouse.com/event-details/11-01-party-people"
+    }
+   ]
+  },
+  {
+   "title": "The Blues Brothers",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.slabcinemaarthouse.com/event-details/11-02-the-blues-brothers-1980",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.slabcinemaarthouse.com/event-details/11-02-the-blues-brothers-1980"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.slabcinemaarthouse.com/event-details/11-03-the-blues-brothers-1980"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,638 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "mariemont",
+ "name": "Mariemont",
+ "city": "cincinnati",
+ "area": "Mariemont",
+ "region": "Eastside",
+ "url": "https://www.mariemonttheatre.org/",
+ "films": [
+  {
+   "title": "Coco",
+   "rating": "PG",
+   "runtime_min": 105,
+   "url": "https://mariemonttheatre.org/movie/coco/",
+   "shows": [
+    {
+     "at": "2026-10-31T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/coco/4021287"
+    },
+    {
+     "at": "2026-11-01T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/coco/4021288"
+    }
+   ]
+  },
+  {
+   "title": "Sense And Sensibility",
+   "rating": "PG",
+   "runtime_min": 131,
+   "url": "https://mariemonttheatre.org/movie/sense-and-sensibility/",
+   "shows": [
+    {
+     "at": "2026-10-31T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130700"
+    },
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130701"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130702"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130703"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130704"
+    },
+    {
+     "at": "2026-11-01T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130640"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130641"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130642"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130643"
+    },
+    {
+     "at": "2026-11-02T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130650"
+    },
+    {
+     "at": "2026-11-02T13:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130651"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130652"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130653"
+    },
+    {
+     "at": "2026-11-03T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130660"
+    },
+    {
+     "at": "2026-11-03T13:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130661"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130662"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130663"
+    },
+    {
+     "at": "2026-11-04T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130664"
+    },
+    {
+     "at": "2026-11-04T13:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130665"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130666"
+    },
+    {
+     "at": "2026-11-05T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130679"
+    },
+    {
+     "at": "2026-11-05T13:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130680"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/sense-and-sensibility/4130681"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://mariemonttheatre.org/movie/fjord/",
+   "shows": [
+    {
+     "at": "2026-10-31T10:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129516"
+    },
+    {
+     "at": "2026-10-31T13:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129517"
+    },
+    {
+     "at": "2026-10-31T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129518"
+    },
+    {
+     "at": "2026-10-31T19:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129519"
+    },
+    {
+     "at": "2026-11-01T10:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129520"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129521"
+    },
+    {
+     "at": "2026-11-01T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129522"
+    },
+    {
+     "at": "2026-11-01T19:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129523"
+    },
+    {
+     "at": "2026-11-02T10:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129524"
+    },
+    {
+     "at": "2026-11-02T13:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129525"
+    },
+    {
+     "at": "2026-11-02T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129526"
+    },
+    {
+     "at": "2026-11-02T19:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129527"
+    },
+    {
+     "at": "2026-11-03T10:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129528"
+    },
+    {
+     "at": "2026-11-03T13:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129529"
+    },
+    {
+     "at": "2026-11-03T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129530"
+    },
+    {
+     "at": "2026-11-03T19:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129531"
+    },
+    {
+     "at": "2026-11-04T10:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129532"
+    },
+    {
+     "at": "2026-11-04T13:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129533"
+    },
+    {
+     "at": "2026-11-04T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129534"
+    },
+    {
+     "at": "2026-11-04T19:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129535"
+    },
+    {
+     "at": "2026-11-05T10:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129536"
+    },
+    {
+     "at": "2026-11-05T13:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129537"
+    },
+    {
+     "at": "2026-11-05T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129538"
+    },
+    {
+     "at": "2026-11-05T19:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/fjord/4129539"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://mariemonttheatre.org/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130697"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130698"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130699"
+    },
+    {
+     "at": "2026-11-01T11:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130637"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130638"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130639"
+    },
+    {
+     "at": "2026-11-02T11:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130647"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130648"
+    },
+    {
+     "at": "2026-11-02T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130649"
+    },
+    {
+     "at": "2026-11-03T11:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130657"
+    },
+    {
+     "at": "2026-11-03T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130658"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130659"
+    },
+    {
+     "at": "2026-11-04T11:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130670"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130671"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130672"
+    },
+    {
+     "at": "2026-11-05T11:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130676"
+    },
+    {
+     "at": "2026-11-05T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130677"
+    },
+    {
+     "at": "2026-11-05T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4130678"
+    }
+   ]
+  },
+  {
+   "title": "Possible Love",
+   "rating": "R",
+   "runtime_min": 164,
+   "url": "https://mariemonttheatre.org/movie/possible-love/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130694"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130695"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130696"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130634"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130635"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130636"
+    },
+    {
+     "at": "2026-11-02T12:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130644"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130645"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130646"
+    },
+    {
+     "at": "2026-11-03T12:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130654"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130655"
+    },
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130656"
+    },
+    {
+     "at": "2026-11-04T12:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130667"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130668"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130669"
+    },
+    {
+     "at": "2026-11-05T12:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/possible-love/4130673"
+    }
+   ]
+  },
+  {
+   "title": "Hocus Pocus",
+   "rating": "PG",
+   "runtime_min": 96,
+   "url": "https://mariemonttheatre.org/movie/hocus-pocus/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/hocus-pocus/4046839"
+    }
+   ]
+  },
+  {
+   "title": "Black Zombie",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://mariemonttheatre.org/movie/black-zombie/",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/black-zombie/4093618"
+    }
+   ]
+  },
+  {
+   "title": "Digger",
+   "rating": "R",
+   "runtime_min": 129,
+   "url": "https://mariemonttheatre.org/movie/digger/",
+   "shows": [
+    {
+     "at": "2026-10-31T18:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/digger/4192367"
+    },
+    {
+     "at": "2026-11-01T12:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/digger/4192355"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/digger/4192356"
+    },
+    {
+     "at": "2026-11-02T12:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/digger/4192357"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/digger/4192358"
+    },
+    {
+     "at": "2026-11-02T18:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/digger/4192359"
+    },
+    {
+     "at": "2026-11-03T12:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/digger/4192360"
+    },
+    {
+     "at": "2026-11-03T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/digger/4192361"
+    }
+   ]
+  },
+  {
+   "title": "Weapons",
+   "rating": null,
+   "runtime_min": 129,
+   "url": "https://mariemonttheatre.org/movie/weapons/",
+   "shows": [
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/weapons/4021290"
+    }
+   ]
+  },
+  {
+   "title": "Mr Smith Goes to Washington",
+   "rating": null,
+   "runtime_min": 130,
+   "url": "https://mariemonttheatre.org/movie/mr-smith-goes-to-washington/",
+   "shows": [
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/mr-smith-goes-to-washington/4197337"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 95,
+   "url": "https://mariemonttheatre.org/movie/jimmy/",
+   "shows": [
+    {
+     "at": "2026-11-05T10:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4193863"
+    },
+    {
+     "at": "2026-11-05T12:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4193864"
+    },
+    {
+     "at": "2026-11-05T14:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4193865"
+    },
+    {
+     "at": "2026-11-05T17:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4193866"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4193867"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 155,
+   "url": "https://mariemonttheatre.org/movie/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4130798"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4130799"
+    }
+   ]
+  },
+  {
+   "title": "The Rise of Vertical Storytelling and Social TV",
+   "rating": null,
+   "runtime_min": 115,
+   "url": "https://mariemonttheatre.org/movie/the-rise-of-vertical-storytelling-and-social-tv/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/the-rise-of-vertical-storytelling-and-social-tv/4102081"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

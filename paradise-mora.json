@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "paradise-mora",
+ "name": "Paradise Theatre",
+ "city": "msp",
+ "area": "Mora",
+ "region": "Central Minnesota",
+ "url": "http://www.moratheater.com/",
+ "films": [
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "http://www.moratheater.com/movies-now-playing/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "http://www.moratheater.com/movies-now-playing/"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "http://www.moratheater.com/movies-now-playing/"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "http://www.moratheater.com/movies-now-playing/"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "http://www.moratheater.com/movies-now-playing/"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "http://www.moratheater.com/movies-now-playing/",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "http://www.moratheater.com/movies-now-playing/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

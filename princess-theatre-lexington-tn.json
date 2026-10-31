@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "princess-theatre-lexington-tn",
+ "name": "Princess Theatre",
+ "city": "jacksontn",
+ "area": "Lexington",
+ "region": "Lexington & Bolivar",
+ "url": "https://princesstheatrelexington.net/",
+ "films": [
+  {
+   "title": "The Asylum",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://princesstheatrelexington.net/event-details/the-asylum-nr-lexington-2026-10-31-19-00",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://princesstheatrelexington.net/event-details/the-asylum-nr-lexington-2026-10-31-19-00"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://princesstheatrelexington.net/event-details/the-asylum-nr-lexington-2026-11-01-18-00"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://princesstheatrelexington.net/event-details/the-asylum-nr-lexington-2026-11-05-19-00"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://princesstheatrelexington.net/event-details/the-cat-in-the-hat-pg-lexington-2026-11-06-19-00",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://princesstheatrelexington.net/event-details/the-cat-in-the-hat-pg-lexington-2026-11-06-19-00"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

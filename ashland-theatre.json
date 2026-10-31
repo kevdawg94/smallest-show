@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "ashland-theatre",
+ "name": "Ashland Theatre",
+ "city": "richmond",
+ "area": "Ashland",
+ "region": "Ashland",
+ "url": "https://www.ashlandtheatre.org/",
+ "films": [
+  {
+   "title": "Hocus Pocus",
+   "rating": "PG",
+   "runtime_min": 96,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=231378~5314ae15-9abf-478b-934a-9eb1a9f033ad&",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=661004~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

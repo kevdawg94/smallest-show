@@ -1,0 +1,90 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "ball-theatre",
+ "name": "The Ball Theatre",
+ "city": "charlotte",
+ "area": "Pageland, SC",
+ "region": "Pageland & Cheraw",
+ "url": "http://www.theballtheatre.com/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=jwtbh82zxvx3n8z8jxn3aemke8",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10529?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10530?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10521?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10531?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10532?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10522?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10523?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10524?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10525?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=jwtbh82zxvx3n8z8jxn3aemke8",
+   "shows": [
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10533?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/10534?siteToken=jwtbh82zxvx3n8z8jxn3aemke8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

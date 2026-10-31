@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "mars-theatre",
+ "name": "Mars Theatre",
+ "city": "savannah",
+ "area": "Springfield",
+ "region": "Springfield",
+ "url": "https://marstheatre.com/",
+ "films": [
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 114,
+   "url": "https://marstheatre.com/movie/verity/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/verity/4170601"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/verity/4170602"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

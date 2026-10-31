@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "depere-cinema",
+ "name": "De Pere Cinema",
+ "city": "centralwi",
+ "area": "De Pere",
+ "region": "Green Bay & Fox Valley",
+ "url": "https://www.getreelcinemas.com/de-pere-cinema",
+ "films": [
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.getreelcinemas.com/de-pere-cinema",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://www.getreelcinemas.com/de-pere-cinema"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://www.getreelcinemas.com/de-pere-cinema"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.getreelcinemas.com/de-pere-cinema"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

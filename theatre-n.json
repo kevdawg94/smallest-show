@@ -1,0 +1,91 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "theatre-n",
+ "name": "Theatre N",
+ "city": "philly",
+ "area": "Wilmington, DE",
+ "region": "Suburbs",
+ "url": "https://www.theatren.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=nzv2efxdjy25pd8sekv153jg80",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3597?siteToken=nzv2efxdjy25pd8sekv153jg80"
+    },
+    {
+     "at": "2026-11-01T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3622?siteToken=nzv2efxdjy25pd8sekv153jg80"
+    }
+   ]
+  },
+  {
+   "title": "Silver Screamers",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=nzv2efxdjy25pd8sekv153jg80",
+   "shows": [
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3620?siteToken=nzv2efxdjy25pd8sekv153jg80"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3621?siteToken=nzv2efxdjy25pd8sekv153jg80"
+    }
+   ]
+  },
+  {
+   "title": "Idiocracy",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=nzv2efxdjy25pd8sekv153jg80",
+   "shows": [
+    {
+     "at": "2026-11-01T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3643?siteToken=nzv2efxdjy25pd8sekv153jg80"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3644?siteToken=nzv2efxdjy25pd8sekv153jg80"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3645?siteToken=nzv2efxdjy25pd8sekv153jg80"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": "TBC",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=nzv2efxdjy25pd8sekv153jg80",
+   "shows": [
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3625?siteToken=nzv2efxdjy25pd8sekv153jg80"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,84 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "vip-star-lite",
+ "name": "VIP Star-Lite Drive-In",
+ "city": "montgomery",
+ "area": "Newton",
+ "region": "Dothan & Enterprise",
+ "url": "https://vipcinemas.com/star-lite-drive-in",
+ "films": [
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 119,
+   "url": "https://vipcinemas.com/star-lite-drive-in/movie/26920",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/star-lite-drive-in/tickets/2136"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "NR",
+   "runtime_min": 140,
+   "url": "https://vipcinemas.com/star-lite-drive-in/movie/26759",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/star-lite-drive-in/tickets/2142"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://vipcinemas.com/star-lite-drive-in/movie/27204",
+   "shows": [
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/star-lite-drive-in/tickets/2140"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://vipcinemas.com/star-lite-drive-in/movie/26734",
+   "shows": [
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/star-lite-drive-in/tickets/2133"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://vipcinemas.com/star-lite-drive-in/movie/27672",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/star-lite-drive-in/tickets/2113"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

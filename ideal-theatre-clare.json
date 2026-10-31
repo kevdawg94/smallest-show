@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "ideal-theatre-clare",
+ "name": "Ideal Theatre",
+ "city": "saginaw",
+ "area": "Clare",
+ "region": "Clare & Gladwin",
+ "url": "https://idealtheatre.com/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/start?film=137",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1372"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1373"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1374"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1375"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1376"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1377"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

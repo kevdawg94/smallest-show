@@ -1,0 +1,133 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "hiway",
+ "name": "Hiway",
+ "city": "philly",
+ "area": "Jenkintown",
+ "region": "Suburbs",
+ "url": "https://hiwaytheater.org/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hiwaytheater.org/film?id=wicker",
+   "shows": [
+    {
+     "at": "2026-10-31T13:30",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163889"
+    },
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163890"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163891"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163892"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163893"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163894"
+    },
+    {
+     "at": "2026-11-02T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163895"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163896"
+    },
+    {
+     "at": "2026-11-03T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163897"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163898"
+    },
+    {
+     "at": "2026-11-04T13:30",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163899"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163900"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/wicker/4163901"
+    }
+   ]
+  },
+  {
+   "title": "Scream",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hiwaytheater.org/film?id=scream",
+   "shows": [
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/scream/3821020"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hiwaytheater.org/film?id=godzilla-minus-zero",
+   "shows": [
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088127"
+    },
+    {
+     "at": "2026-11-05T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088128"
+    },
+    {
+     "at": "2026-11-06T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088138"
+    },
+    {
+     "at": "2026-11-06T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088140"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

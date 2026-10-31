@@ -1,0 +1,119 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "salem-twin-cinema",
+ "name": "Salem Twin Cinema",
+ "city": "youngstown",
+ "area": "Salem",
+ "region": "Salem & Columbiana County",
+ "url": "http://www.salemtwincinema.com/movies",
+ "films": [
+  {
+   "title": "The Shining",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/start?film=913",
+   "shows": [
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61797"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61799"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/start?film=911",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61789"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61790"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61791"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61792"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61793"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61794"
+    }
+   ]
+  },
+  {
+   "title": "Halloween",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/start?film=916",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61798"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61800"
+    }
+   ]
+  },
+  {
+   "title": "The Evil Dead",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/start?film=917",
+   "shows": [
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61801"
+    }
+   ]
+  },
+  {
+   "title": "The Exorcist",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/start?film=915",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61802"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

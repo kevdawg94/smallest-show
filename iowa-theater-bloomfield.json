@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "iowa-theater-bloomfield",
+ "name": "Iowa Theater",
+ "city": "fairfieldia",
+ "area": "Bloomfield",
+ "region": "Bloomfield & Davis County",
+ "url": "https://dcfineartscouncil.com/",
+ "films": [
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://dcfineartscouncil.com/event/street-fighter-pg-13-2-hrs-2",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://dcfineartscouncil.com/event/street-fighter-pg-13-2-hrs-2"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://dcfineartscouncil.com/event/street-fighter-pg-13-2-hrs-3"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 90,
+   "url": "https://dcfineartscouncil.com/event/the-cat-in-the-hat-pg-1-1-2-hrs",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://dcfineartscouncil.com/event/the-cat-in-the-hat-pg-1-1-2-hrs"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

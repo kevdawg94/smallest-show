@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "jefferson-theatre-beaumont",
+ "name": "Jefferson Theatre",
+ "city": "beaumont",
+ "area": "Downtown Beaumont",
+ "region": "Beaumont",
+ "url": "https://beaumonteventstx.com/jefferson-theatre-info/",
+ "films": [
+  {
+   "title": "Halloween",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://beaumonteventstx.com/event/13-nights-of-halloween-halloween/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://beaumonteventstx.com/event/13-nights-of-halloween-halloween/"
+    }
+   ]
+  },
+  {
+   "title": "Lone Star",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://beaumonteventstx.com/event/movie-night-lone-star/",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://beaumonteventstx.com/event/movie-night-lone-star/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

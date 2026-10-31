@@ -1,0 +1,110 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "cornell-cinema",
+ "name": "Cornell Cinema",
+ "city": "ithaca",
+ "area": "Cornell (Willard Straight Hall)",
+ "region": "Ithaca",
+ "url": "https://cinema.cornell.edu/",
+ "films": [
+  {
+   "title": "Black Zombie",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://cornellcinema.eventive.org/films/6a6ca821dc9364ea93cb0cb9",
+   "shows": [
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a71f100cdbcd5421e3aa938"
+    }
+   ]
+  },
+  {
+   "title": "Carrie",
+   "rating": null,
+   "runtime_min": 98,
+   "url": "https://cornellcinema.eventive.org/films/6a70b308e331059299fbdaaa",
+   "shows": [
+    {
+     "at": "2026-10-31T20:30",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a71f11ebfc392076b8fde00"
+    }
+   ]
+  },
+  {
+   "title": "The Night of the Hunter",
+   "rating": null,
+   "runtime_min": 93,
+   "url": "https://cornellcinema.eventive.org/films/6a6cadea748598aac25e5a8e",
+   "shows": [
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a70f22ab6f2c2e8ef1e920f"
+    }
+   ]
+  },
+  {
+   "title": "Crash",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://cornellcinema.eventive.org/films/6a6ca8b119f5d254f9b4fd22",
+   "shows": [
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a71fe53afac742f61d28d54"
+    }
+   ]
+  },
+  {
+   "title": "Under the Shadow",
+   "rating": null,
+   "runtime_min": 84,
+   "url": "https://cornellcinema.eventive.org/films/6a6cae7ca4fc8256e027cb26",
+   "shows": [
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a720057025e91bc2b2d4c4b"
+    }
+   ]
+  },
+  {
+   "title": "Arts Unplugged: Deaf President Now!",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://cornellcinema.eventive.org/films/6a6ca8ea0b8c327e8aa0172a",
+   "shows": [
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a720093457a5069f2233c7f"
+    }
+   ]
+  },
+  {
+   "title": "Arts Unplugged: Fancy Dance",
+   "rating": null,
+   "runtime_min": 91,
+   "url": "https://cornellcinema.eventive.org/films/6a6caad8962892ca0c1fc980",
+   "shows": [
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a74c01adbe04ae2549a0148"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

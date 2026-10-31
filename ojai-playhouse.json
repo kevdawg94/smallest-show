@@ -1,0 +1,122 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "ojai-playhouse",
+ "name": "Ojai Playhouse",
+ "city": "santabarbara",
+ "area": "Ojai",
+ "region": "Ojai",
+ "url": "https://www.ojaiplayhouse.com/",
+ "films": [
+  {
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=0zv2d2xep31txszrx28cn3r0t4",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1179?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    }
+   ]
+  },
+  {
+   "title": "The Night of the Hunter",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=0zv2d2xep31txszrx28cn3r0t4",
+   "shows": [
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1180?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=0zv2d2xep31txszrx28cn3r0t4",
+   "shows": [
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1135?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1136?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": "TBC",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=0zv2d2xep31txszrx28cn3r0t4",
+   "shows": [
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1171?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1230?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=0zv2d2xep31txszrx28cn3r0t4",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1185?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    },
+    {
+     "at": "2026-11-03T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1229?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1186?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=0zv2d2xep31txszrx28cn3r0t4",
+   "shows": [
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1225?siteToken=0zv2d2xep31txszrx28cn3r0t4"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

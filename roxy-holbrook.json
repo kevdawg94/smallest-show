@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "roxy-holbrook",
+ "name": "Roxy Theater",
+ "city": "showlow",
+ "area": "Holbrook",
+ "region": "Holbrook & Winslow",
+ "url": "https://roxyroute66.com/showtimes/",
+ "films": [
+  {
+   "title": "Verity",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://roxyroute66.com/event/verity/",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/verity-2/"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/verity-2/"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/verity/"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/verity/"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://roxyroute66.com/event/street-fighter/",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/street-fighter/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

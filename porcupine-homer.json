@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "porcupine-homer",
+ "name": "The Porcupine Theater",
+ "city": "kenai",
+ "area": "Homer",
+ "region": "Homer",
+ "url": "https://porcupinetheater.com/",
+ "films": [
+  {
+   "title": "Apollo 13",
+   "rating": null,
+   "runtime_min": 140,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/299807/"
+    }
+   ]
+  },
+  {
+   "title": "Teton Gravity Research Presents: Actually, It Is Rocket Science",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/296071/"
+    }
+   ]
+  },
+  {
+   "title": "V for Vendetta",
+   "rating": null,
+   "runtime_min": 132,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/299810/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

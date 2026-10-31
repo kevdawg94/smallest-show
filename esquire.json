@@ -1,0 +1,705 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "esquire",
+ "name": "Esquire",
+ "city": "cincinnati",
+ "area": "Clifton",
+ "region": "Clifton & Downtown",
+ "url": "https://www.esquiretheatre.com/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 106,
+   "url": "https://esquiretheatre.com/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206992"
+    },
+    {
+     "at": "2026-10-31T13:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206993"
+    },
+    {
+     "at": "2026-10-31T16:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206994"
+    },
+    {
+     "at": "2026-10-31T18:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206995"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206996"
+    },
+    {
+     "at": "2026-11-01T12:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206948"
+    },
+    {
+     "at": "2026-11-01T14:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206949"
+    },
+    {
+     "at": "2026-11-01T17:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206950"
+    },
+    {
+     "at": "2026-11-01T19:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206951"
+    },
+    {
+     "at": "2026-11-02T12:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4210781"
+    },
+    {
+     "at": "2026-11-02T14:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4210785"
+    },
+    {
+     "at": "2026-11-02T17:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4210790"
+    },
+    {
+     "at": "2026-11-02T19:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4210798"
+    },
+    {
+     "at": "2026-11-03T12:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206970"
+    },
+    {
+     "at": "2026-11-03T14:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206971"
+    },
+    {
+     "at": "2026-11-03T17:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206972"
+    },
+    {
+     "at": "2026-11-03T20:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206973"
+    },
+    {
+     "at": "2026-11-04T12:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206981"
+    },
+    {
+     "at": "2026-11-04T14:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206982"
+    },
+    {
+     "at": "2026-11-04T17:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wicker/4206983"
+    }
+   ]
+  },
+  {
+   "title": "Everest: The Other Side",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://esquiretheatre.com/movie/everest-the-other-side/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176855"
+    },
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176856"
+    },
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176857"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176858"
+    },
+    {
+     "at": "2026-10-31T21:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176859"
+    },
+    {
+     "at": "2026-11-01T11:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176764"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176765"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176766"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176767"
+    },
+    {
+     "at": "2026-11-02T11:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4210777"
+    },
+    {
+     "at": "2026-11-02T14:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4210782"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4210787"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4210793"
+    },
+    {
+     "at": "2026-11-03T11:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176798"
+    },
+    {
+     "at": "2026-11-03T14:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176799"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176800"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176801"
+    },
+    {
+     "at": "2026-11-04T14:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176819"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176820"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/everest-the-other-side/4176821"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 109,
+   "url": "https://esquiretheatre.com/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206985"
+    },
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206986"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206987"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206988"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206989"
+    },
+    {
+     "at": "2026-11-01T11:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206944"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206945"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206946"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206947"
+    },
+    {
+     "at": "2026-11-02T11:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4210779"
+    },
+    {
+     "at": "2026-11-02T14:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4210784"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4210789"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4210796"
+    },
+    {
+     "at": "2026-11-03T12:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206966"
+    },
+    {
+     "at": "2026-11-03T15:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206967"
+    },
+    {
+     "at": "2026-11-03T17:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206968"
+    },
+    {
+     "at": "2026-11-03T19:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206969"
+    },
+    {
+     "at": "2026-11-04T11:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206977"
+    },
+    {
+     "at": "2026-11-04T14:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206978"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206979"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/clayface/4206980"
+    }
+   ]
+  },
+  {
+   "title": "Halloween (1978)",
+   "rating": "R",
+   "runtime_min": 91,
+   "url": "https://esquiretheatre.com/movie/halloween-1978/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/halloween-1978/4154601"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/halloween-1978/4154600"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/halloween-1978/4082512"
+    }
+   ]
+  },
+  {
+   "title": "The Scout",
+   "rating": null,
+   "runtime_min": 89,
+   "url": "https://esquiretheatre.com/movie/the-scout/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177704"
+    },
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177705"
+    },
+    {
+     "at": "2026-10-31T16:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177706"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177707"
+    },
+    {
+     "at": "2026-10-31T21:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177708"
+    },
+    {
+     "at": "2026-11-01T12:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4206940"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4206941"
+    },
+    {
+     "at": "2026-11-01T16:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4206942"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4206943"
+    },
+    {
+     "at": "2026-11-02T11:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4210780"
+    },
+    {
+     "at": "2026-11-02T13:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4210783"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4210788"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4210794"
+    },
+    {
+     "at": "2026-11-03T11:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177687"
+    },
+    {
+     "at": "2026-11-03T14:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177688"
+    },
+    {
+     "at": "2026-11-03T16:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177689"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177690"
+    },
+    {
+     "at": "2026-11-04T12:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177691"
+    },
+    {
+     "at": "2026-11-04T14:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177692"
+    },
+    {
+     "at": "2026-11-04T16:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177693"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/the-scout/4177694"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://esquiretheatre.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206990"
+    },
+    {
+     "at": "2026-10-31T16:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206991"
+    },
+    {
+     "at": "2026-10-31T19:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206997"
+    },
+    {
+     "at": "2026-11-01T11:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206937"
+    },
+    {
+     "at": "2026-11-01T15:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206938"
+    },
+    {
+     "at": "2026-11-01T18:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206939"
+    },
+    {
+     "at": "2026-11-02T11:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4210778"
+    },
+    {
+     "at": "2026-11-02T15:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4210786"
+    },
+    {
+     "at": "2026-11-02T18:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4210791"
+    },
+    {
+     "at": "2026-11-03T11:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206963"
+    },
+    {
+     "at": "2026-11-03T15:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206964"
+    },
+    {
+     "at": "2026-11-03T18:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206965"
+    },
+    {
+     "at": "2026-11-04T11:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206974"
+    },
+    {
+     "at": "2026-11-04T15:10",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206975"
+    },
+    {
+     "at": "2026-11-04T18:50",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/you-can-see-everything/4206976"
+    }
+   ]
+  },
+  {
+   "title": "Ken Russell's The Devils",
+   "rating": "NC-17",
+   "runtime_min": 114,
+   "url": "https://esquiretheatre.com/movie/ken-russells-the-devils/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4154599"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4154598"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4210775"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4154607"
+    },
+    {
+     "at": "2026-11-01T16:55",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4210927"
+    },
+    {
+     "at": "2026-11-02T13:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4154606"
+    },
+    {
+     "at": "2026-11-03T13:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4154603"
+    },
+    {
+     "at": "2026-11-03T16:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4154602"
+    },
+    {
+     "at": "2026-11-03T20:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4222553"
+    },
+    {
+     "at": "2026-11-04T13:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4154605"
+    },
+    {
+     "at": "2026-11-04T16:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ken-russells-the-devils/4154604"
+    }
+   ]
+  },
+  {
+   "title": "Harold and Maude (1971)",
+   "rating": null,
+   "runtime_min": 92,
+   "url": "https://esquiretheatre.com/movie/harold-and-maude-1971/",
+   "shows": [
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/harold-and-maude-1971/4210926"
+    }
+   ]
+  },
+  {
+   "title": "Play Misty for Me (1971)",
+   "rating": null,
+   "runtime_min": 102,
+   "url": "https://esquiretheatre.com/movie/play-misty-for-me-1971/",
+   "shows": [
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/play-misty-for-me-1971/4125614"
+    }
+   ]
+  },
+  {
+   "title": "Kaïros (2026)",
+   "rating": null,
+   "runtime_min": 96,
+   "url": "https://esquiretheatre.com/movie/karos-2026/",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/karos-2026/3865364"
+    }
+   ]
+  },
+  {
+   "title": "Ishtar (1987)",
+   "rating": "PG-13",
+   "runtime_min": 107,
+   "url": "https://esquiretheatre.com/movie/ishtar-1987/",
+   "shows": [
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/ishtar-1987/4223806"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://esquiretheatre.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-05T14:00",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wild-horse-nine/4177036"
+    },
+    {
+     "at": "2026-11-05T16:40",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wild-horse-nine/4177037"
+    },
+    {
+     "at": "2026-11-05T19:20",
+     "sold_out": false,
+     "url": "https://esquiretheatre.com/checkout/showing/wild-horse-nine/4177035"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,134 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "wilmette",
+ "name": "Wilmette",
+ "city": "chicago",
+ "area": "Wilmette",
+ "region": "Suburbs",
+ "url": "https://www.wilmettetheatre.com/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eym1b8zj89qyb17se01zmgtfww",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23328?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-10-31T19:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23319?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23325?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-01T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23326?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23327?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eym1b8zj89qyb17se01zmgtfww",
+   "shows": [
+    {
+     "at": "2026-10-31T13:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23315?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-10-31T15:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23316?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-10-31T17:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23320?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-10-31T19:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23318?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23324?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-01T15:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23323?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23322?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    }
+   ]
+  },
+  {
+   "title": "American Doctor",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eym1b8zj89qyb17se01zmgtfww",
+   "shows": [
+    {
+     "at": "2026-10-31T15:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23329?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    }
+   ]
+  },
+  {
+   "title": "The Work in Progress",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eym1b8zj89qyb17se01zmgtfww",
+   "shows": [
+    {
+     "at": "2026-10-31T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23321?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    }
+   ]
+  },
+  {
+   "title": "Horror of Dracula",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eym1b8zj89qyb17se01zmgtfww",
+   "shows": [
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23331?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

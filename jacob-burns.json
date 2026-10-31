@@ -1,0 +1,676 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "jacob-burns",
+ "name": "Jacob Burns Film Center",
+ "city": "nyc",
+ "area": "Pleasantville",
+ "region": "Queens & beyond",
+ "url": "https://burnsfilmcenter.org/",
+ "films": [
+  {
+   "title": "The Witches",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/the-witches/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/71643/71651"
+    },
+    {
+     "at": "2026-11-01T11:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/71643/71652"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/fatherland/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:05",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72827"
+    },
+    {
+     "at": "2026-10-31T15:25",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72830"
+    },
+    {
+     "at": "2026-10-31T17:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72828"
+    },
+    {
+     "at": "2026-10-31T19:35",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72829"
+    },
+    {
+     "at": "2026-11-01T11:05",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72834"
+    },
+    {
+     "at": "2026-11-01T15:25",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72831"
+    },
+    {
+     "at": "2026-11-01T17:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72832"
+    },
+    {
+     "at": "2026-11-01T20:10",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72833"
+    },
+    {
+     "at": "2026-11-02T17:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72835"
+    },
+    {
+     "at": "2026-11-02T19:25",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72836"
+    },
+    {
+     "at": "2026-11-03T15:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72839"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72840"
+    },
+    {
+     "at": "2026-11-04T15:05",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72837"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72838"
+    },
+    {
+     "at": "2026-11-04T19:40",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72841"
+    },
+    {
+     "at": "2026-11-05T13:45",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72844"
+    },
+    {
+     "at": "2026-11-05T15:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72842"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72673/72843"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/fjord/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:05",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72906"
+    },
+    {
+     "at": "2026-10-31T16:40",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72907"
+    },
+    {
+     "at": "2026-10-31T20:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72905"
+    },
+    {
+     "at": "2026-11-01T13:25",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72908"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72909"
+    },
+    {
+     "at": "2026-11-01T19:45",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72910"
+    },
+    {
+     "at": "2026-11-02T19:45",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72911"
+    },
+    {
+     "at": "2026-11-03T16:35",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72913"
+    },
+    {
+     "at": "2026-11-03T20:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72914"
+    },
+    {
+     "at": "2026-11-04T13:25",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72912"
+    },
+    {
+     "at": "2026-11-04T16:35",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72915"
+    },
+    {
+     "at": "2026-11-05T13:25",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72917"
+    },
+    {
+     "at": "2026-11-05T20:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72514/72916"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/once-upon-a-time-in-harlem/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:15",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72863"
+    },
+    {
+     "at": "2026-10-31T13:05",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72860"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72862"
+    },
+    {
+     "at": "2026-10-31T19:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72861"
+    },
+    {
+     "at": "2026-11-01T11:15",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72870"
+    },
+    {
+     "at": "2026-11-01T13:05",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72864"
+    },
+    {
+     "at": "2026-11-01T16:25",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72868"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72869"
+    },
+    {
+     "at": "2026-11-02T16:40",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72871"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72872"
+    },
+    {
+     "at": "2026-11-03T15:55",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72873"
+    },
+    {
+     "at": "2026-11-03T19:45",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72874"
+    },
+    {
+     "at": "2026-11-04T15:10",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72875"
+    },
+    {
+     "at": "2026-11-04T17:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72876"
+    },
+    {
+     "at": "2026-11-04T19:45",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72877"
+    },
+    {
+     "at": "2026-11-05T13:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72879"
+    },
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72880"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72798/72878"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72881"
+    },
+    {
+     "at": "2026-10-31T13:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72882"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72883"
+    },
+    {
+     "at": "2026-10-31T18:10",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72884"
+    },
+    {
+     "at": "2026-11-01T11:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72891"
+    },
+    {
+     "at": "2026-11-01T13:35",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72888"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72889"
+    },
+    {
+     "at": "2026-11-01T18:10",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72890"
+    },
+    {
+     "at": "2026-11-02T15:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72892"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72893"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72901"
+    },
+    {
+     "at": "2026-11-03T18:10",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72895"
+    },
+    {
+     "at": "2026-11-04T13:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72894"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72896"
+    },
+    {
+     "at": "2026-11-04T18:10",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72897"
+    },
+    {
+     "at": "2026-11-05T13:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72898"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72899"
+    },
+    {
+     "at": "2026-11-05T18:10",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72800/72900"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72808"
+    },
+    {
+     "at": "2026-10-31T16:35",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72809"
+    },
+    {
+     "at": "2026-10-31T20:15",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72810"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72811"
+    },
+    {
+     "at": "2026-11-01T16:35",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72812"
+    },
+    {
+     "at": "2026-11-01T19:35",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72813"
+    },
+    {
+     "at": "2026-11-02T15:45",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72814"
+    },
+    {
+     "at": "2026-11-02T19:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72815"
+    },
+    {
+     "at": "2026-11-03T15:45",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72817"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72818"
+    },
+    {
+     "at": "2026-11-04T12:45",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72816"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72819"
+    },
+    {
+     "at": "2026-11-04T19:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72820"
+    },
+    {
+     "at": "2026-11-05T12:45",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72821"
+    },
+    {
+     "at": "2026-11-05T16:15",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72822"
+    },
+    {
+     "at": "2026-11-05T19:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72358/72823"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/wicker/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:25",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72847"
+    },
+    {
+     "at": "2026-10-31T20:25",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72846"
+    },
+    {
+     "at": "2026-11-01T11:10",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72852"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72850"
+    },
+    {
+     "at": "2026-11-01T20:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72849"
+    },
+    {
+     "at": "2026-11-02T16:35",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72855"
+    },
+    {
+     "at": "2026-11-02T20:05",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72853"
+    },
+    {
+     "at": "2026-11-03T20:15",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72856"
+    },
+    {
+     "at": "2026-11-04T12:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72854"
+    },
+    {
+     "at": "2026-11-04T20:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72857"
+    },
+    {
+     "at": "2026-11-05T16:35",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72859"
+    },
+    {
+     "at": "2026-11-05T20:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72208/72858"
+    }
+   ]
+  },
+  {
+   "title": "The Fury",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/the-fury/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72332/72349"
+    }
+   ]
+  },
+  {
+   "title": "Carrie",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/carrie/",
+   "shows": [
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72226/72228"
+    }
+   ]
+  },
+  {
+   "title": "Closure",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/closure/",
+   "shows": [
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72309/72310"
+    }
+   ]
+  },
+  {
+   "title": "Exhibition on Screen: James McNeill Whistler",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/exhibition-on-screen-james-mcneill-whistler/",
+   "shows": [
+    {
+     "at": "2026-11-04T13:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/71532/71533"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/71532/71534"
+    }
+   ]
+  },
+  {
+   "title": "My Night at Maud's",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/my-night-at-mauds/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/71632/71633"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-06T13:00",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72224/72313"
+    },
+    {
+     "at": "2026-11-06T16:20",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72224/72316"
+    },
+    {
+     "at": "2026-11-06T19:40",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72224/72317"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://burnsfilmcenter.org/booking/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-06T13:50",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72561/72562"
+    },
+    {
+     "at": "2026-11-06T16:40",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72561/72565"
+    },
+    {
+     "at": "2026-11-06T19:30",
+     "sold_out": false,
+     "url": "https://shop.burnsfilmcenter.org/72561/72568"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

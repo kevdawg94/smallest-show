@@ -1,0 +1,922 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "rc-reading",
+ "name": "R/C Reading Movies 11",
+ "city": "philly",
+ "area": "Reading",
+ "region": "Suburbs",
+ "url": "https://www.rctheatres.com/theaters/x08fj-rc-reading-movies-11-and-imax",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105029"
+    },
+    {
+     "at": "2026-10-31T17:20",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105030"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105037"
+    },
+    {
+     "at": "2026-11-01T13:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105114"
+    },
+    {
+     "at": "2026-11-01T17:20",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105206"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105263"
+    },
+    {
+     "at": "2026-11-03T13:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105186"
+    },
+    {
+     "at": "2026-11-03T17:20",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105187"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105235"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105035"
+    },
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105021"
+    },
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105036"
+    },
+    {
+     "at": "2026-10-31T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105022"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105042"
+    },
+    {
+     "at": "2026-10-31T21:55",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105043"
+    },
+    {
+     "at": "2026-11-01T13:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105120"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105106"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105121"
+    },
+    {
+     "at": "2026-11-01T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105203"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105127"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105269"
+    },
+    {
+     "at": "2026-11-02T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105255"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105275"
+    },
+    {
+     "at": "2026-11-03T14:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105178"
+    },
+    {
+     "at": "2026-11-03T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105179"
+    },
+    {
+     "at": "2026-11-03T19:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105194"
+    },
+    {
+     "at": "2026-11-04T16:20",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105221"
+    },
+    {
+     "at": "2026-11-04T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105242"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105232"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 131,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105031"
+    },
+    {
+     "at": "2026-10-31T16:35",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105032"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105015"
+    },
+    {
+     "at": "2026-10-31T21:50",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105054"
+    },
+    {
+     "at": "2026-11-01T13:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105116"
+    },
+    {
+     "at": "2026-11-01T16:35",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105207"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105100"
+    },
+    {
+     "at": "2026-11-02T16:35",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105265"
+    },
+    {
+     "at": "2026-11-02T19:20",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105248"
+    },
+    {
+     "at": "2026-11-03T13:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105188"
+    },
+    {
+     "at": "2026-11-03T16:35",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105189"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105172"
+    },
+    {
+     "at": "2026-11-04T16:35",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105245"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105236"
+    }
+   ]
+  },
+  {
+   "title": "SCREAM (1996) 30th Anniversary",
+   "rating": "R",
+   "runtime_min": 111,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:50",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105023"
+    },
+    {
+     "at": "2026-10-31T16:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105024"
+    },
+    {
+     "at": "2026-10-31T19:25",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105046"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105047"
+    },
+    {
+     "at": "2026-11-01T13:50",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105108"
+    },
+    {
+     "at": "2026-11-01T16:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105320"
+    },
+    {
+     "at": "2026-11-01T19:25",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105131"
+    },
+    {
+     "at": "2026-11-02T16:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105257"
+    },
+    {
+     "at": "2026-11-02T19:25",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105279"
+    },
+    {
+     "at": "2026-11-03T13:50",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105180"
+    },
+    {
+     "at": "2026-11-03T16:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105181"
+    },
+    {
+     "at": "2026-11-03T19:25",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105196"
+    },
+    {
+     "at": "2026-11-04T16:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105321"
+    },
+    {
+     "at": "2026-11-04T19:25",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105322"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 109,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:55",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105025"
+    },
+    {
+     "at": "2026-10-31T16:50",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105026"
+    },
+    {
+     "at": "2026-10-31T19:35",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105050"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105051"
+    },
+    {
+     "at": "2026-11-01T13:55",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105110"
+    },
+    {
+     "at": "2026-11-01T16:50",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105205"
+    },
+    {
+     "at": "2026-11-01T19:35",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105135"
+    },
+    {
+     "at": "2026-11-02T16:50",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105259"
+    },
+    {
+     "at": "2026-11-02T19:35",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105283"
+    },
+    {
+     "at": "2026-11-03T13:55",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105182"
+    },
+    {
+     "at": "2026-11-03T16:50",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105183"
+    },
+    {
+     "at": "2026-11-03T19:35",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105197"
+    },
+    {
+     "at": "2026-11-04T16:50",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105244"
+    },
+    {
+     "at": "2026-11-04T19:35",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105234"
+    }
+   ]
+  },
+  {
+   "title": "Sight & Sound Presents: JOSHUA Live!",
+   "rating": "NR",
+   "runtime_min": 150,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105014"
+    },
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105016"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105044"
+    },
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105045"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=103795"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105200"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105129"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105249"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105277"
+    },
+    {
+     "at": "2026-11-03T14:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105171"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105173"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105195"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=103807"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105238"
+    }
+   ]
+  },
+  {
+   "title": "Christmas at the Kringles",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:05",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105017"
+    },
+    {
+     "at": "2026-10-31T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105018"
+    },
+    {
+     "at": "2026-10-31T19:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105038"
+    },
+    {
+     "at": "2026-10-31T22:05",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105039"
+    },
+    {
+     "at": "2026-11-01T14:05",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105102"
+    },
+    {
+     "at": "2026-11-01T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105201"
+    },
+    {
+     "at": "2026-11-01T19:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105123"
+    },
+    {
+     "at": "2026-11-02T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105251"
+    },
+    {
+     "at": "2026-11-02T19:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105271"
+    },
+    {
+     "at": "2026-11-03T14:05",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105174"
+    },
+    {
+     "at": "2026-11-03T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105175"
+    },
+    {
+     "at": "2026-11-03T19:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105192"
+    },
+    {
+     "at": "2026-11-04T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105240"
+    },
+    {
+     "at": "2026-11-04T19:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105230"
+    }
+   ]
+  },
+  {
+   "title": "Breeder",
+   "rating": "R",
+   "runtime_min": 97,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:10",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105019"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105020"
+    },
+    {
+     "at": "2026-10-31T19:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105040"
+    },
+    {
+     "at": "2026-10-31T22:10",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105041"
+    },
+    {
+     "at": "2026-11-01T14:10",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105104"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105204"
+    },
+    {
+     "at": "2026-11-01T19:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105125"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105253"
+    },
+    {
+     "at": "2026-11-02T19:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105273"
+    },
+    {
+     "at": "2026-11-03T14:10",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105176"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105177"
+    },
+    {
+     "at": "2026-11-03T19:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105193"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105243"
+    },
+    {
+     "at": "2026-11-04T19:40",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105233"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 97,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105033"
+    },
+    {
+     "at": "2026-10-31T17:05",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105034"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105048"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105055"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105049"
+    },
+    {
+     "at": "2026-10-31T22:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105056"
+    },
+    {
+     "at": "2026-11-01T17:05",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105202"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105133"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105140"
+    },
+    {
+     "at": "2026-11-02T16:25",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105291"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105281"
+    },
+    {
+     "at": "2026-11-03T14:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105190"
+    },
+    {
+     "at": "2026-11-03T17:05",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105191"
+    },
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105199"
+    },
+    {
+     "at": "2026-11-04T17:05",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105241"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105231"
+    }
+   ]
+  },
+  {
+   "title": "The Mongoose",
+   "rating": "R",
+   "runtime_min": 96,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105027"
+    },
+    {
+     "at": "2026-10-31T16:55",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105028"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105052"
+    },
+    {
+     "at": "2026-10-31T22:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-10-31&perfix=105053"
+    },
+    {
+     "at": "2026-11-01T14:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105112"
+    },
+    {
+     "at": "2026-11-01T16:55",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105113"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105137"
+    },
+    {
+     "at": "2026-11-02T16:55",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105261"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105285"
+    },
+    {
+     "at": "2026-11-03T14:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105184"
+    },
+    {
+     "at": "2026-11-03T16:55",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105185"
+    },
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=105198"
+    },
+    {
+     "at": "2026-11-04T16:55",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105239"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105217"
+    }
+   ]
+  },
+  {
+   "title": "Forgotten Island",
+   "rating": "PG",
+   "runtime_min": 108,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-01T14:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-01&perfix=105292"
+    }
+   ]
+  },
+  {
+   "title": "R/C Mystery Movie Monday",
+   "rating": "PG-13",
+   "runtime_min": 131,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-02&perfix=105290"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero: Godzilla Day Early Access",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-03T13:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=104186"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=104185"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-03&perfix=103810"
+    }
+   ]
+  },
+  {
+   "title": "Ramayana: Rise of a Legend (English Version)",
+   "rating": null,
+   "runtime_min": 166,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-04&perfix=105011"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-05&perfix=103886"
+    },
+    {
+     "at": "2026-11-05T19:10",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-05&perfix=103887"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://www.rctheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-05&perfix=103811"
+    },
+    {
+     "at": "2026-11-05T16:45",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-05&perfix=103812"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-05&perfix=103885"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://omniwebticketing7.com/rc/reading/?schdate=2026-11-05&perfix=103813"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

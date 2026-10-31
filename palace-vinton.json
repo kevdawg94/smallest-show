@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "palace-vinton",
+ "name": "Vinton Palace Theatre",
+ "city": "iowacity",
+ "area": "Vinton",
+ "region": "Vinton & Manchester",
+ "url": "https://vintonpalace.org/",
+ "films": [
+  {
+   "title": "The Birds (1963)",
+   "rating": "PG-13",
+   "runtime_min": 119,
+   "url": "https://events.vintonpalace.org/events",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://events.vintonpalace.org/event-details/the-birds-1963-oct31-2pm-pg-13-119min"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://events.vintonpalace.org/events",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://events.vintonpalace.org/event-details/verity-oct31-7pm-r-116min"
+    },
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://events.vintonpalace.org/event-details/verity-oct31-930pm-r-116min"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://events.vintonpalace.org/event-details/verity-nov1-7pm-r-116min"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

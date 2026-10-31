@@ -1,0 +1,435 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "varsity-ashland",
+ "name": "Varsity Theatre",
+ "city": "roguevalley",
+ "area": "Ashland",
+ "region": "Ashland",
+ "url": "https://catheatres.com/varsity-theatre/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/start?film=3317",
+   "shows": [
+    {
+     "at": "2026-10-31T11:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101379"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101380"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101381"
+    },
+    {
+     "at": "2026-11-01T11:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101395"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101396"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101397"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101408"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101409"
+    },
+    {
+     "at": "2026-11-03T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101418"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101419"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101428"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101429"
+    },
+    {
+     "at": "2026-11-05T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101437"
+    },
+    {
+     "at": "2026-11-05T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101438"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/start?film=3318",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101372"
+    },
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101373"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101374"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101375"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101388"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101389"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101390"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101391"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101404"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101405"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101414"
+    },
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101415"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101424"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101425"
+    },
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101443"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101444"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/start?film=3288",
+   "shows": [
+    {
+     "at": "2026-10-31T12:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101376"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101377"
+    },
+    {
+     "at": "2026-10-31T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101378"
+    },
+    {
+     "at": "2026-11-01T12:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101392"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101393"
+    },
+    {
+     "at": "2026-11-01T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101394"
+    },
+    {
+     "at": "2026-11-02T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101406"
+    },
+    {
+     "at": "2026-11-02T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101407"
+    },
+    {
+     "at": "2026-11-03T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101416"
+    },
+    {
+     "at": "2026-11-03T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101417"
+    },
+    {
+     "at": "2026-11-04T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101426"
+    },
+    {
+     "at": "2026-11-04T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101427"
+    },
+    {
+     "at": "2026-11-05T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101435"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/start?film=3305",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101382"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101383"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101384"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101398"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101399"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101400"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101410"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101411"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101420"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101421"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101430"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101431"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101439"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/start?film=3330",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101385"
+    },
+    {
+     "at": "2026-10-31T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101386"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101387"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101401"
+    },
+    {
+     "at": "2026-11-01T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101402"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101403"
+    },
+    {
+     "at": "2026-11-02T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101412"
+    },
+    {
+     "at": "2026-11-02T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101413"
+    },
+    {
+     "at": "2026-11-03T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101422"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101423"
+    },
+    {
+     "at": "2026-11-04T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101432"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101433"
+    },
+    {
+     "at": "2026-11-05T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101441"
+    },
+    {
+     "at": "2026-11-05T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101442"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/start?film=3309",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101129"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/start?film=3336",
+   "shows": [
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMVAR/book?perfcode=101447"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,89 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "new-plaza",
+ "name": "New Plaza Cinema",
+ "city": "nyc",
+ "area": "Upper West Side",
+ "region": "Uptown Manhattan",
+ "url": "https://newplazacinema.org/",
+ "films": [
+  {
+   "title": "The Scout",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-10-31T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2759?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Yaniv",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-10-31T14:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2760?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "The Invite",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2761?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "NAZA",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2762?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2763?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Shampoo",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-01T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2724?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

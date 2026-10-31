@@ -1,0 +1,773 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "glendale-drive-in",
+ "name": "West Wind Glendale 9 Drive-In",
+ "city": "phoenix",
+ "area": "Glendale",
+ "region": "West Valley",
+ "url": "https://www.westwinddi.com/locations/glendale",
+ "films": [
+  {
+   "title": "Forgotten Island",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://www.westwinddi.com/movie/forgotten-island",
+   "shows": [
+    {
+     "at": "2026-10-31T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87430"
+    },
+    {
+     "at": "2026-11-01T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87433"
+    },
+    {
+     "at": "2026-11-02T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87436"
+    },
+    {
+     "at": "2026-11-03T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87439"
+    },
+    {
+     "at": "2026-11-04T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87442"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 139,
+   "url": "https://www.westwinddi.com/movie/wildwood-2",
+   "shows": [
+    {
+     "at": "2026-10-31T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87572"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87413"
+    },
+    {
+     "at": "2026-11-01T18:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87415"
+    },
+    {
+     "at": "2026-11-02T18:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87418"
+    },
+    {
+     "at": "2026-11-03T18:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87421"
+    },
+    {
+     "at": "2026-11-04T18:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87424"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.westwinddi.com/movie/you-can-see-everything",
+   "shows": [
+    {
+     "at": "2026-10-31T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87555"
+    },
+    {
+     "at": "2026-11-01T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87557"
+    },
+    {
+     "at": "2026-11-02T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87559"
+    },
+    {
+     "at": "2026-11-03T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87561"
+    },
+    {
+     "at": "2026-11-04T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87563"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://www.westwinddi.com/movie/clayface",
+   "shows": [
+    {
+     "at": "2026-10-31T18:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87502"
+    },
+    {
+     "at": "2026-10-31T20:35",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87503"
+    },
+    {
+     "at": "2026-10-31T22:55",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87504"
+    },
+    {
+     "at": "2026-11-01T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87505"
+    },
+    {
+     "at": "2026-11-01T20:30",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87506"
+    },
+    {
+     "at": "2026-11-01T22:50",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87507"
+    },
+    {
+     "at": "2026-11-02T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87508"
+    },
+    {
+     "at": "2026-11-02T20:30",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87509"
+    },
+    {
+     "at": "2026-11-02T22:50",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87510"
+    },
+    {
+     "at": "2026-11-03T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87511"
+    },
+    {
+     "at": "2026-11-03T20:30",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87512"
+    },
+    {
+     "at": "2026-11-03T22:50",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87513"
+    },
+    {
+     "at": "2026-11-04T18:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87514"
+    },
+    {
+     "at": "2026-11-04T20:30",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87515"
+    },
+    {
+     "at": "2026-11-04T22:50",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87516"
+    }
+   ]
+  },
+  {
+   "title": "The Nightmare Before Christmas",
+   "rating": "PG",
+   "runtime_min": 76,
+   "url": "https://www.westwinddi.com/movie/the-nightmare-before-christmas",
+   "shows": [
+    {
+     "at": "2026-10-31T18:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87412"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://www.westwinddi.com/movie/other-mommy",
+   "shows": [
+    {
+     "at": "2026-10-31T18:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87448"
+    },
+    {
+     "at": "2026-10-31T20:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87449"
+    },
+    {
+     "at": "2026-10-31T22:30",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87450"
+    },
+    {
+     "at": "2026-11-01T18:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87451"
+    },
+    {
+     "at": "2026-11-01T20:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87452"
+    },
+    {
+     "at": "2026-11-01T22:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87453"
+    },
+    {
+     "at": "2026-11-02T18:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87454"
+    },
+    {
+     "at": "2026-11-02T20:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87455"
+    },
+    {
+     "at": "2026-11-02T22:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87456"
+    },
+    {
+     "at": "2026-11-03T18:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87457"
+    },
+    {
+     "at": "2026-11-03T20:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87458"
+    },
+    {
+     "at": "2026-11-03T22:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87459"
+    },
+    {
+     "at": "2026-11-04T18:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87460"
+    },
+    {
+     "at": "2026-11-04T20:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87461"
+    },
+    {
+     "at": "2026-11-04T22:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87462"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 90,
+   "url": "https://www.westwinddi.com/movie/resident-evil",
+   "shows": [
+    {
+     "at": "2026-10-31T18:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87538"
+    },
+    {
+     "at": "2026-10-31T20:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87539"
+    },
+    {
+     "at": "2026-10-31T22:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87540"
+    },
+    {
+     "at": "2026-11-01T18:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87541"
+    },
+    {
+     "at": "2026-11-01T20:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87542"
+    },
+    {
+     "at": "2026-11-01T22:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87543"
+    },
+    {
+     "at": "2026-11-02T18:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87544"
+    },
+    {
+     "at": "2026-11-02T20:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87545"
+    },
+    {
+     "at": "2026-11-02T22:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87546"
+    },
+    {
+     "at": "2026-11-03T18:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87547"
+    },
+    {
+     "at": "2026-11-03T20:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87548"
+    },
+    {
+     "at": "2026-11-03T22:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87549"
+    },
+    {
+     "at": "2026-11-04T18:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87550"
+    },
+    {
+     "at": "2026-11-04T20:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87551"
+    },
+    {
+     "at": "2026-11-04T22:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87552"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 119,
+   "url": "https://www.westwinddi.com/movie/street-fighter",
+   "shows": [
+    {
+     "at": "2026-10-31T18:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87520"
+    },
+    {
+     "at": "2026-10-31T20:55",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87521"
+    },
+    {
+     "at": "2026-10-31T23:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87522"
+    },
+    {
+     "at": "2026-11-01T18:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87523"
+    },
+    {
+     "at": "2026-11-01T20:55",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87524"
+    },
+    {
+     "at": "2026-11-01T23:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87525"
+    },
+    {
+     "at": "2026-11-02T18:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87526"
+    },
+    {
+     "at": "2026-11-02T20:55",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87527"
+    },
+    {
+     "at": "2026-11-02T23:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87528"
+    },
+    {
+     "at": "2026-11-03T18:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87529"
+    },
+    {
+     "at": "2026-11-03T20:55",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87530"
+    },
+    {
+     "at": "2026-11-03T23:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87531"
+    },
+    {
+     "at": "2026-11-04T18:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87532"
+    },
+    {
+     "at": "2026-11-04T20:55",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87533"
+    },
+    {
+     "at": "2026-11-04T23:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87534"
+    }
+   ]
+  },
+  {
+   "title": "Christmas at the Kringles",
+   "rating": "R",
+   "runtime_min": 98,
+   "url": "https://www.westwinddi.com/movie/christmas-at-the-kringles",
+   "shows": [
+    {
+     "at": "2026-10-31T18:40",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87484"
+    },
+    {
+     "at": "2026-10-31T20:50",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87485"
+    },
+    {
+     "at": "2026-10-31T23:00",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87486"
+    },
+    {
+     "at": "2026-11-01T18:05",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87469"
+    },
+    {
+     "at": "2026-11-01T18:35",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87487"
+    },
+    {
+     "at": "2026-11-01T20:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87470"
+    },
+    {
+     "at": "2026-11-01T20:45",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87488"
+    },
+    {
+     "at": "2026-11-01T22:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87471"
+    },
+    {
+     "at": "2026-11-01T22:55",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87489"
+    },
+    {
+     "at": "2026-11-02T18:05",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87472"
+    },
+    {
+     "at": "2026-11-02T18:35",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87490"
+    },
+    {
+     "at": "2026-11-02T20:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87473"
+    },
+    {
+     "at": "2026-11-02T20:45",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87491"
+    },
+    {
+     "at": "2026-11-02T22:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87474"
+    },
+    {
+     "at": "2026-11-02T22:55",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87492"
+    },
+    {
+     "at": "2026-11-03T18:05",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87475"
+    },
+    {
+     "at": "2026-11-03T18:35",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87493"
+    },
+    {
+     "at": "2026-11-03T20:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87476"
+    },
+    {
+     "at": "2026-11-03T20:45",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87494"
+    },
+    {
+     "at": "2026-11-03T22:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87477"
+    },
+    {
+     "at": "2026-11-03T22:55",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87495"
+    },
+    {
+     "at": "2026-11-04T18:05",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87478"
+    },
+    {
+     "at": "2026-11-04T18:35",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87496"
+    },
+    {
+     "at": "2026-11-04T20:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87479"
+    },
+    {
+     "at": "2026-11-04T20:45",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87497"
+    },
+    {
+     "at": "2026-11-04T22:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87480"
+    },
+    {
+     "at": "2026-11-04T22:55",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87498"
+    }
+   ]
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "rating": null,
+   "runtime_min": 145,
+   "url": "https://www.westwinddi.com/movie/spider-man-brand-new-day",
+   "shows": [
+    {
+     "at": "2026-10-31T20:30",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87431"
+    },
+    {
+     "at": "2026-11-01T20:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87434"
+    },
+    {
+     "at": "2026-11-02T20:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87437"
+    },
+    {
+     "at": "2026-11-03T20:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87440"
+    },
+    {
+     "at": "2026-11-04T20:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87443"
+    }
+   ]
+  },
+  {
+   "title": "Halloween 1978",
+   "rating": "R",
+   "runtime_min": 91,
+   "url": "https://www.westwinddi.com/movie/halloween-1978",
+   "shows": [
+    {
+     "at": "2026-10-31T21:10",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87573"
+    },
+    {
+     "at": "2026-10-31T21:40",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87556"
+    },
+    {
+     "at": "2026-10-31T23:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87574"
+    }
+   ]
+  },
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://www.westwinddi.com/movie/whalefall",
+   "shows": [
+    {
+     "at": "2026-10-31T22:45",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87414"
+    },
+    {
+     "at": "2026-11-01T21:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87416"
+    },
+    {
+     "at": "2026-11-01T23:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87417"
+    },
+    {
+     "at": "2026-11-02T21:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87419"
+    },
+    {
+     "at": "2026-11-02T23:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87420"
+    },
+    {
+     "at": "2026-11-03T21:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87422"
+    },
+    {
+     "at": "2026-11-03T23:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87423"
+    },
+    {
+     "at": "2026-11-04T21:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87425"
+    },
+    {
+     "at": "2026-11-04T23:25",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87426"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": 101,
+   "url": "https://www.westwinddi.com/movie/heart-of-the-beast",
+   "shows": [
+    {
+     "at": "2026-10-31T23:20",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87432"
+    },
+    {
+     "at": "2026-11-01T21:30",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87558"
+    },
+    {
+     "at": "2026-11-01T23:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87435"
+    },
+    {
+     "at": "2026-11-02T21:30",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87560"
+    },
+    {
+     "at": "2026-11-02T23:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87438"
+    },
+    {
+     "at": "2026-11-03T21:30",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87562"
+    },
+    {
+     "at": "2026-11-03T23:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87441"
+    },
+    {
+     "at": "2026-11-04T21:30",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87564"
+    },
+    {
+     "at": "2026-11-04T23:15",
+     "sold_out": false,
+     "url": "https://www.westwinddi.com/ticketing/tickets?cinemacode=2040&txtSessionId=87444"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

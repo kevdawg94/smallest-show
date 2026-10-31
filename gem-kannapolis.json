@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "gem-kannapolis",
+ "name": "Gem Theatre",
+ "city": "charlotte",
+ "area": "Downtown Kannapolis",
+ "region": "Kannapolis",
+ "url": "https://www.gem-theatre.com/",
+ "films": [
+  {
+   "title": "E.t. the Extra-Terrestrial",
+   "rating": "PG",
+   "runtime_min": 115,
+   "url": "https://app.formovietickets.com/index.html?chain=gemtheatre&rtn=69901&page=picktitle&showTitle=E.T.%20THE%20EXTRA-TERRESTRIAL",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=gemtheatre&rtn=69901&page=picktitle&showTitle=E.T.%20THE%20EXTRA-TERRESTRIAL"
+    }
+   ]
+  },
+  {
+   "title": "Sinners",
+   "rating": "R",
+   "runtime_min": 137,
+   "url": "https://app.formovietickets.com/index.html?chain=gemtheatre&rtn=69901&page=picktitle&showTitle=SINNERS",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=gemtheatre&rtn=69901&page=picktitle&showTitle=SINNERS"
+    }
+   ]
+  },
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://app.formovietickets.com/index.html?chain=gemtheatre&rtn=69901&page=picktitle&showTitle=CAT%20IN%20THE%20HAT",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=gemtheatre&rtn=69901&page=picktitle&showTitle=CAT%20IN%20THE%20HAT"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

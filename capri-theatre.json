@@ -1,0 +1,91 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "capri-theatre",
+ "name": "Capri Theatre",
+ "city": "montgomery",
+ "area": "Cloverdale, Montgomery",
+ "region": "Montgomery",
+ "url": "https://www.capritheatre.org/",
+ "films": [
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1039553~3d1f8824-9c54-4f29-b6b4-f25903f278d6&",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039555~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039556~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039559~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039557~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039560~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    }
+   ]
+  },
+  {
+   "title": "The Shining",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=748928~3d1f8824-9c54-4f29-b6b4-f25903f278d6&",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036190~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    }
+   ]
+  },
+  {
+   "title": "FC: All the President's Men",
+   "rating": null,
+   "runtime_min": 138,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1028512~3d1f8824-9c54-4f29-b6b4-f25903f278d6&",
+   "shows": [
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028513~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    }
+   ]
+  },
+  {
+   "title": "Pulp Fiction",
+   "rating": null,
+   "runtime_min": 154,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043302~3d1f8824-9c54-4f29-b6b4-f25903f278d6&",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043303~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "liberty-pagosa",
+ "name": "Liberty Theatre",
+ "city": "alamosa",
+ "area": "Pagosa Springs",
+ "region": "Pagosa Springs",
+ "url": "https://libertytheatrepagosa.simpletix.com/",
+ "films": [
+  {
+   "title": "Spa Weekend Movie",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/spa-weekend-movie-calling-all-burned-out-a-tickets-296561",
+   "shows": [
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/spa-weekend-movie-calling-all-burned-out-a-tickets-296561"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/street-fighter-tickets-298597",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/street-fighter-tickets-298597"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

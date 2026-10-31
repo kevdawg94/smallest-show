@@ -1,0 +1,123 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "apollo-princeton",
+ "name": "Apollo Theater",
+ "city": "quadcities",
+ "area": "Princeton",
+ "region": "Sterling & Princeton",
+ "url": "https://apolloprinceton.com/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=qag5g529fjpr8w719hbz5dgwcg",
+   "shows": [
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8922?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8925?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-01T13:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8927?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8923?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8926?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8928?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8929?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8930?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=qag5g529fjpr8w719hbz5dgwcg",
+   "shows": [
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8932?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8935?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8937?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8933?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8936?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-03T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8938?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    },
+    {
+     "at": "2026-11-04T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8939?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=qag5g529fjpr8w719hbz5dgwcg",
+   "shows": [
+    {
+     "at": "2026-11-05T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8940?siteToken=qag5g529fjpr8w719hbz5dgwcg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

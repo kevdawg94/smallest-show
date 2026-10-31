@@ -1,0 +1,955 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "alamo-lakeline",
+ "name": "Alamo Lakeline",
+ "city": "austin",
+ "area": "Lakeline",
+ "region": "North",
+ "url": "https://drafthouse.com/austin/theater/lakeline",
+ "films": [
+  {
+   "title": "Klara and the Sun",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/klara-and-the-sun?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/klara-and-the-sun/0007/232625"
+    },
+    {
+     "at": "2026-11-01T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/klara-and-the-sun/0007/232673"
+    },
+    {
+     "at": "2026-11-02T13:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/klara-and-the-sun/0007/232735"
+    },
+    {
+     "at": "2026-11-04T13:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/klara-and-the-sun/0007/232795"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/you-can-see-everything?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232658"
+    },
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232657"
+    },
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232649"
+    },
+    {
+     "at": "2026-10-31T17:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232635"
+    },
+    {
+     "at": "2026-10-31T18:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232627"
+    },
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232640"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232661"
+    },
+    {
+     "at": "2026-11-01T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232677"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232668"
+    },
+    {
+     "at": "2026-11-01T17:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232662"
+    },
+    {
+     "at": "2026-11-01T18:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232670"
+    },
+    {
+     "at": "2026-11-01T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232669"
+    },
+    {
+     "at": "2026-11-01T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232684"
+    },
+    {
+     "at": "2026-11-02T13:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232697"
+    },
+    {
+     "at": "2026-11-02T13:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232732"
+    },
+    {
+     "at": "2026-11-02T17:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232720"
+    },
+    {
+     "at": "2026-11-02T19:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232721"
+    },
+    {
+     "at": "2026-11-02T21:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232703"
+    },
+    {
+     "at": "2026-11-04T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232798"
+    },
+    {
+     "at": "2026-11-04T17:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232787"
+    },
+    {
+     "at": "2026-11-04T19:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232786"
+    },
+    {
+     "at": "2026-11-04T21:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/you-can-see-everything/0007/232781"
+    }
+   ]
+  },
+  {
+   "title": "Scream (1996)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/scream?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/scream/0007/232070"
+    }
+   ]
+  },
+  {
+   "title": "Everest: The Other Side",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/everest-the-other-side?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232222"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232221"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232220"
+    },
+    {
+     "at": "2026-10-31T22:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232219"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232224"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232225"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232226"
+    },
+    {
+     "at": "2026-11-01T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232227"
+    },
+    {
+     "at": "2026-11-02T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232719"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232810"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232713"
+    },
+    {
+     "at": "2026-11-02T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232717"
+    },
+    {
+     "at": "2026-11-04T13:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232788"
+    },
+    {
+     "at": "2026-11-04T15:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232824"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232793"
+    },
+    {
+     "at": "2026-11-04T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/everest-the-other-side/0007/232790"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/wicker?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232646"
+    },
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232638"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232626"
+    },
+    {
+     "at": "2026-10-31T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232659"
+    },
+    {
+     "at": "2026-11-01T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232705"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232688"
+    },
+    {
+     "at": "2026-11-01T19:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232667"
+    },
+    {
+     "at": "2026-11-01T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232680"
+    },
+    {
+     "at": "2026-11-02T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232822"
+    },
+    {
+     "at": "2026-11-02T16:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232731"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232722"
+    },
+    {
+     "at": "2026-11-02T22:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232724"
+    },
+    {
+     "at": "2026-11-04T14:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232823"
+    },
+    {
+     "at": "2026-11-04T16:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232799"
+    },
+    {
+     "at": "2026-11-04T20:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232785"
+    },
+    {
+     "at": "2026-11-04T22:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wicker/0007/232804"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/wildwood?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232656"
+    },
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232654"
+    },
+    {
+     "at": "2026-10-31T19:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232631"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232645"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232690"
+    },
+    {
+     "at": "2026-11-01T16:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232686"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232665"
+    },
+    {
+     "at": "2026-11-01T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232683"
+    },
+    {
+     "at": "2026-11-02T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232696"
+    },
+    {
+     "at": "2026-11-02T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232714"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232704"
+    },
+    {
+     "at": "2026-11-02T21:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232718"
+    },
+    {
+     "at": "2026-11-04T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232778"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232830"
+    },
+    {
+     "at": "2026-11-04T21:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wildwood/0007/232789"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility (2026)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/sense-and-sensibility-2026?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T13:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232648"
+    },
+    {
+     "at": "2026-10-31T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232647"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232632"
+    },
+    {
+     "at": "2026-10-31T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232642"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232694"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232663"
+    },
+    {
+     "at": "2026-11-01T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232682"
+    },
+    {
+     "at": "2026-11-02T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232709"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232711"
+    },
+    {
+     "at": "2026-11-02T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232725"
+    },
+    {
+     "at": "2026-11-04T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232784"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232782"
+    },
+    {
+     "at": "2026-11-04T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/sense-and-sensibility-2026/0007/232803"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter (2026)",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/street-fighter-2026?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T13:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232651"
+    },
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232650"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232633"
+    },
+    {
+     "at": "2026-10-31T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232641"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232693"
+    },
+    {
+     "at": "2026-11-01T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232692"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232664"
+    },
+    {
+     "at": "2026-11-01T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232681"
+    },
+    {
+     "at": "2026-11-02T13:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232712"
+    },
+    {
+     "at": "2026-11-02T16:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232821"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232716"
+    },
+    {
+     "at": "2026-11-02T22:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232733"
+    },
+    {
+     "at": "2026-11-04T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232794"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232827"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232791"
+    },
+    {
+     "at": "2026-11-04T22:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/street-fighter-2026/0007/232797"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/clayface?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232653"
+    },
+    {
+     "at": "2026-10-31T16:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232652"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232630"
+    },
+    {
+     "at": "2026-10-31T22:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232639"
+    },
+    {
+     "at": "2026-11-01T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232691"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232685"
+    },
+    {
+     "at": "2026-11-01T20:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232666"
+    },
+    {
+     "at": "2026-11-01T23:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232679"
+    },
+    {
+     "at": "2026-11-02T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232734"
+    },
+    {
+     "at": "2026-11-02T15:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232698"
+    },
+    {
+     "at": "2026-11-02T18:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232729"
+    },
+    {
+     "at": "2026-11-02T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232730"
+    },
+    {
+     "at": "2026-11-04T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232825"
+    },
+    {
+     "at": "2026-11-04T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232777"
+    },
+    {
+     "at": "2026-11-04T16:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232816"
+    },
+    {
+     "at": "2026-11-04T18:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232801"
+    },
+    {
+     "at": "2026-11-04T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/clayface/0007/232800"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/verity?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T14:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/verity/0007/232623"
+    },
+    {
+     "at": "2026-11-01T13:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/verity/0007/232674"
+    },
+    {
+     "at": "2026-11-02T16:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/verity/0007/232701"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/verity/0007/232776"
+    }
+   ]
+  },
+  {
+   "title": "Wild at Heart",
+   "rating": "R",
+   "runtime_min": 128,
+   "url": "https://drafthouse.com/austin/show/special-event-wild-at-heart-unrated?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0007/230884"
+    },
+    {
+     "at": "2026-10-31T18:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0007/230885"
+    },
+    {
+     "at": "2026-11-01T15:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0007/230887"
+    },
+    {
+     "at": "2026-11-01T18:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0007/230886"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0007/230888"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0007/230889"
+    },
+    {
+     "at": "2026-11-04T18:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/special-event-wild-at-heart-unrated/0007/230893"
+    }
+   ]
+  },
+  {
+   "title": "Halloween (1978)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/halloween-1978?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/halloween-1978/0007/229909"
+    },
+    {
+     "at": "2026-10-31T20:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/halloween-1978/0007/232636"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/the-rocky-horror-picture-show?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/the-rocky-horror-picture-show/0007/231514"
+    }
+   ]
+  },
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/whalefall?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T22:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/whalefall/0007/232624"
+    },
+    {
+     "at": "2026-11-01T23:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/whalefall/0007/232672"
+    },
+    {
+     "at": "2026-11-02T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/whalefall/0007/232828"
+    },
+    {
+     "at": "2026-11-04T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/whalefall/0007/232829"
+    }
+   ]
+  },
+  {
+   "title": "Trick or Treat (1986)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/trick-or-treat-1986?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-10-31T23:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/trick-or-treat-1986/0007/232655"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla vs. Mechagodzilla",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/godzilla-vs-mechagodzilla?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-vs-mechagodzilla/0007/230207"
+    }
+   ]
+  },
+  {
+   "title": "Breeder",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/breeder?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-11-01T17:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/breeder/0007/232706"
+    },
+    {
+     "at": "2026-11-01T20:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/breeder/0007/232675"
+    },
+    {
+     "at": "2026-11-02T20:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/breeder/0007/232702"
+    }
+   ]
+  },
+  {
+   "title": "Rammstein - Live in Mexico City",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/rammstein-live-in-mexico-city?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/rammstein-live-in-mexico-city/0007/230576"
+    }
+   ]
+  },
+  {
+   "title": "Swingers",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/swingers?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-11-04T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/swingers/0007/232775"
+    },
+    {
+     "at": "2026-11-05T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/swingers/0007/232217"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat (2026)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/the-cat-in-the-hat-2026?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-11-05T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/the-cat-in-the-hat-2026/0007/232032"
+    },
+    {
+     "at": "2026-11-05T18:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/the-cat-in-the-hat-2026/0007/232033"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/godzilla-minus-zero?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-minus-zero/0007/231213"
+    },
+    {
+     "at": "2026-11-05T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/godzilla-minus-zero/0007/231214"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/austin/show/wild-horse-nine?cinemaId=0007",
+   "shows": [
+    {
+     "at": "2026-11-05T18:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wild-horse-nine/0007/231516"
+    },
+    {
+     "at": "2026-11-05T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/austin/tickets/wild-horse-nine/0007/231517"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

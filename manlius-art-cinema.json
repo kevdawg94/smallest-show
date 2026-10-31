@@ -1,0 +1,96 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "manlius-art-cinema",
+ "name": "Manlius Art Cinema",
+ "city": "syracuse",
+ "area": "Manlius",
+ "region": "Syracuse & Manlius",
+ "url": "https://www.manliuscinema.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=mvwmvahhw6238mdza98rhjfkjm",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/889?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/890?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=mvwmvahhw6238mdza98rhjfkjm",
+   "shows": [
+    {
+     "at": "2026-10-31T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/922?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/925?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/887?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/891?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-05T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/888?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=mvwmvahhw6238mdza98rhjfkjm",
+   "shows": [
+    {
+     "at": "2026-10-31T23:59",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/900?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    }
+   ]
+  },
+  {
+   "title": "All the President's Men",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=mvwmvahhw6238mdza98rhjfkjm",
+   "shows": [
+    {
+     "at": "2026-11-03T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/850?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,928 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "sandhills-10",
+ "name": "Sandhills 10",
+ "city": "fayettevillenc",
+ "area": "Southern Pines",
+ "region": "Southern Pines & Moore County",
+ "url": "https://sandhills.carolinacinemas.com/",
+ "films": [
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://sandhills.carolinacinemas.com/movie/whalefall/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4194745"
+    },
+    {
+     "at": "2026-10-31T13:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4193932"
+    },
+    {
+     "at": "2026-10-31T16:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4193940"
+    },
+    {
+     "at": "2026-11-01T11:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4194767"
+    },
+    {
+     "at": "2026-11-01T13:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4194777"
+    },
+    {
+     "at": "2026-11-01T16:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4194786"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4194948"
+    },
+    {
+     "at": "2026-11-02T14:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4195084"
+    },
+    {
+     "at": "2026-11-02T16:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4195085"
+    },
+    {
+     "at": "2026-11-02T19:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4195086"
+    },
+    {
+     "at": "2026-11-03T14:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4195087"
+    },
+    {
+     "at": "2026-11-03T16:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4195096"
+    },
+    {
+     "at": "2026-11-03T19:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4195105"
+    },
+    {
+     "at": "2026-11-04T14:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4195115"
+    },
+    {
+     "at": "2026-11-04T16:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4195124"
+    },
+    {
+     "at": "2026-11-04T19:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/whalefall/4195133"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://sandhills.carolinacinemas.com/movie/sense-and-sensibility/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4193923"
+    },
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4193933"
+    },
+    {
+     "at": "2026-10-31T17:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4193944"
+    },
+    {
+     "at": "2026-10-31T20:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4193955"
+    },
+    {
+     "at": "2026-11-01T11:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4194768"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4194779"
+    },
+    {
+     "at": "2026-11-01T17:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4194791"
+    },
+    {
+     "at": "2026-11-01T20:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4194804"
+    },
+    {
+     "at": "2026-11-02T14:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4194987"
+    },
+    {
+     "at": "2026-11-02T17:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4194999"
+    },
+    {
+     "at": "2026-11-02T20:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4195012"
+    },
+    {
+     "at": "2026-11-03T14:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4195089"
+    },
+    {
+     "at": "2026-11-03T17:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4195101"
+    },
+    {
+     "at": "2026-11-03T20:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4195114"
+    },
+    {
+     "at": "2026-11-04T14:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4195117"
+    },
+    {
+     "at": "2026-11-04T17:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4195129"
+    },
+    {
+     "at": "2026-11-04T20:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/sense-and-sensibility/4195142"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://sandhills.carolinacinemas.com/movie/verity/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4193922"
+    },
+    {
+     "at": "2026-10-31T14:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4194740"
+    },
+    {
+     "at": "2026-11-01T11:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4194769"
+    },
+    {
+     "at": "2026-11-01T14:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4194778"
+    },
+    {
+     "at": "2026-11-01T20:25",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4194803"
+    },
+    {
+     "at": "2026-11-02T14:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4194986"
+    },
+    {
+     "at": "2026-11-02T20:25",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4195011"
+    },
+    {
+     "at": "2026-11-03T14:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4195088"
+    },
+    {
+     "at": "2026-11-03T20:25",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4195113"
+    },
+    {
+     "at": "2026-11-04T14:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4195116"
+    },
+    {
+     "at": "2026-11-04T20:25",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/verity/4195141"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://sandhills.carolinacinemas.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4193924"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4193938"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4193948"
+    },
+    {
+     "at": "2026-11-01T11:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4194770"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4194785"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4194796"
+    },
+    {
+     "at": "2026-11-02T15:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4194993"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4195004"
+    },
+    {
+     "at": "2026-11-03T15:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4195095"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4195106"
+    },
+    {
+     "at": "2026-11-04T15:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4195123"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/you-can-see-everything/4195134"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://sandhills.carolinacinemas.com/movie/street-fighter/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4193926"
+    },
+    {
+     "at": "2026-10-31T14:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4193934"
+    },
+    {
+     "at": "2026-10-31T17:25",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4193942"
+    },
+    {
+     "at": "2026-10-31T20:25",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4193954"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4194771"
+    },
+    {
+     "at": "2026-11-01T14:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4194780"
+    },
+    {
+     "at": "2026-11-01T17:25",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4194790"
+    },
+    {
+     "at": "2026-11-01T20:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4194800"
+    },
+    {
+     "at": "2026-11-02T14:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4194988"
+    },
+    {
+     "at": "2026-11-02T17:25",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4194998"
+    },
+    {
+     "at": "2026-11-02T20:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4195008"
+    },
+    {
+     "at": "2026-11-03T14:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4195090"
+    },
+    {
+     "at": "2026-11-03T17:25",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4195100"
+    },
+    {
+     "at": "2026-11-03T20:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4195110"
+    },
+    {
+     "at": "2026-11-04T14:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4195118"
+    },
+    {
+     "at": "2026-11-04T17:25",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4195128"
+    },
+    {
+     "at": "2026-11-04T20:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/street-fighter/4195138"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": 101,
+   "url": "https://sandhills.carolinacinemas.com/movie/heart-of-the-beast/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4193927"
+    },
+    {
+     "at": "2026-10-31T14:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4193935"
+    },
+    {
+     "at": "2026-10-31T17:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4193943"
+    },
+    {
+     "at": "2026-10-31T19:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4193950"
+    },
+    {
+     "at": "2026-11-01T12:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4194772"
+    },
+    {
+     "at": "2026-11-01T14:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4194781"
+    },
+    {
+     "at": "2026-11-01T17:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4194789"
+    },
+    {
+     "at": "2026-11-01T19:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4194798"
+    },
+    {
+     "at": "2026-11-02T14:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4194989"
+    },
+    {
+     "at": "2026-11-02T17:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4194997"
+    },
+    {
+     "at": "2026-11-02T19:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4195006"
+    },
+    {
+     "at": "2026-11-03T14:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4195091"
+    },
+    {
+     "at": "2026-11-03T17:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4195099"
+    },
+    {
+     "at": "2026-11-03T19:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4195108"
+    },
+    {
+     "at": "2026-11-04T14:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4195119"
+    },
+    {
+     "at": "2026-11-04T17:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4195127"
+    },
+    {
+     "at": "2026-11-04T19:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/heart-of-the-beast/4195136"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://sandhills.carolinacinemas.com/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4193928"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4193936"
+    },
+    {
+     "at": "2026-10-31T17:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4193945"
+    },
+    {
+     "at": "2026-10-31T20:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4193952"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4194773"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4194782"
+    },
+    {
+     "at": "2026-11-01T17:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4194792"
+    },
+    {
+     "at": "2026-11-01T20:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4194802"
+    },
+    {
+     "at": "2026-11-02T15:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4194990"
+    },
+    {
+     "at": "2026-11-02T17:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4195000"
+    },
+    {
+     "at": "2026-11-02T20:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4195010"
+    },
+    {
+     "at": "2026-11-03T15:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4195092"
+    },
+    {
+     "at": "2026-11-03T17:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4195102"
+    },
+    {
+     "at": "2026-11-03T20:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4195112"
+    },
+    {
+     "at": "2026-11-04T15:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4195120"
+    },
+    {
+     "at": "2026-11-04T17:40",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4195130"
+    },
+    {
+     "at": "2026-11-04T20:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/clayface/4195140"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://sandhills.carolinacinemas.com/movie/other-mommy/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4193929"
+    },
+    {
+     "at": "2026-10-31T15:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4193937"
+    },
+    {
+     "at": "2026-10-31T17:45",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4193946"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4193951"
+    },
+    {
+     "at": "2026-11-01T12:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4194774"
+    },
+    {
+     "at": "2026-11-01T15:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4194783"
+    },
+    {
+     "at": "2026-11-01T17:45",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4194793"
+    },
+    {
+     "at": "2026-11-01T20:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4194799"
+    },
+    {
+     "at": "2026-11-02T15:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4194991"
+    },
+    {
+     "at": "2026-11-02T17:45",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4195001"
+    },
+    {
+     "at": "2026-11-02T20:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4195007"
+    },
+    {
+     "at": "2026-11-03T15:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4195093"
+    },
+    {
+     "at": "2026-11-03T17:45",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4195103"
+    },
+    {
+     "at": "2026-11-03T20:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4195109"
+    },
+    {
+     "at": "2026-11-04T15:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4195121"
+    },
+    {
+     "at": "2026-11-04T17:45",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4195131"
+    },
+    {
+     "at": "2026-11-04T20:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/other-mommy/4195137"
+    }
+   ]
+  },
+  {
+   "title": "The Mongoose",
+   "rating": "R",
+   "runtime_min": 99,
+   "url": "https://sandhills.carolinacinemas.com/movie/the-mongoose/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4193930"
+    },
+    {
+     "at": "2026-10-31T15:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4193939"
+    },
+    {
+     "at": "2026-10-31T17:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4193947"
+    },
+    {
+     "at": "2026-10-31T20:15",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4193953"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4194775"
+    },
+    {
+     "at": "2026-11-01T15:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4194784"
+    },
+    {
+     "at": "2026-11-01T17:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4194794"
+    },
+    {
+     "at": "2026-11-01T20:15",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4194801"
+    },
+    {
+     "at": "2026-11-02T15:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4194992"
+    },
+    {
+     "at": "2026-11-02T17:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4195002"
+    },
+    {
+     "at": "2026-11-02T20:15",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4195009"
+    },
+    {
+     "at": "2026-11-03T15:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4195094"
+    },
+    {
+     "at": "2026-11-03T17:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4195104"
+    },
+    {
+     "at": "2026-11-03T20:15",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4195111"
+    },
+    {
+     "at": "2026-11-04T15:20",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4195122"
+    },
+    {
+     "at": "2026-11-04T17:50",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4195132"
+    },
+    {
+     "at": "2026-11-04T20:15",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/the-mongoose/4195139"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://sandhills.carolinacinemas.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4194742"
+    },
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4194743"
+    },
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4194744"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4194776"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4194787"
+    },
+    {
+     "at": "2026-11-01T19:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4194797"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4194995"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4195005"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4195097"
+    },
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4195107"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4195125"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/wildwood/4195135"
+    }
+   ]
+  },
+  {
+   "title": "Shawshank Redemption",
+   "rating": "R",
+   "runtime_min": 142,
+   "url": "https://sandhills.carolinacinemas.com/movie/shawshank-redemption/",
+   "shows": [
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/shawshank-redemption/4193941"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/shawshank-redemption/4194788"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/shawshank-redemption/4194996"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/shawshank-redemption/4195098"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/shawshank-redemption/4195126"
+    }
+   ]
+  },
+  {
+   "title": "Scream 30th Anniversary",
+   "rating": "R",
+   "runtime_min": 111,
+   "url": "https://sandhills.carolinacinemas.com/movie/scream/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/scream/3832287"
+    },
+    {
+     "at": "2026-10-31T20:10",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/scream/4195143"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://sandhills.carolinacinemas.com/movie/jimmy/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://sandhills.carolinacinemas.com/checkout/showing/jimmy/3952932"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

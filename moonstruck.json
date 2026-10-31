@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "moonstruck",
+ "name": "Moonstruck Drive-In",
+ "city": "houston",
+ "area": "EaDo",
+ "region": "Inner Loop",
+ "url": "https://www.moonstruckdrivein.com/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 109,
+   "url": "https://www.moonstruckdrivein.com/",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://square.link/u/Zzay0LYw"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

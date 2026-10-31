@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "bay-theatre-seal-beach",
+ "name": "Bay Theatre",
+ "city": "la",
+ "area": "Seal Beach",
+ "region": "South Bay & Orange County",
+ "url": "https://www.baytheatre.com/",
+ "films": [
+  {
+   "title": "Poltergeist [Presented on 35mm Film]",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/start?film=390",
+   "shows": [
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/book?perfcode=607"
+    }
+   ]
+  },
+  {
+   "title": "The Elephant Man",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/start?film=404",
+   "shows": [
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/book?perfcode=631"
+    }
+   ]
+  },
+  {
+   "title": "The Westerner",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/start?film=410",
+   "shows": [
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/book?perfcode=645"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

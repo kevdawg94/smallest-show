@@ -1,0 +1,95 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "cinema-paradiso",
+ "name": "Cinema Paradiso",
+ "city": "miami",
+ "area": "Hollywood",
+ "region": "Broward",
+ "url": "https://www.cinemahollywood.org/",
+ "films": [
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://www.cinemahollywood.org/movie/the-rocky-horror-picture-show/",
+   "shows": [
+    {
+     "at": "2026-10-31T00:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/the-rocky-horror-picture-show/4181620"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": null,
+   "runtime_min": 132,
+   "url": "https://www.cinemahollywood.org/movie/sense-and-sensibility/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181622"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181623"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181624"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181625"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181626"
+    },
+    {
+     "at": "2026-11-03T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181627"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181628"
+    },
+    {
+     "at": "2026-11-04T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181629"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181630"
+    },
+    {
+     "at": "2026-11-05T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181631"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/sense-and-sensibility/4181632"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "playhouse-randolph",
+ "name": "Playhouse Movie Theatre",
+ "city": "uppervalley",
+ "area": "Randolph",
+ "region": "Randolph",
+ "url": "https://playhouseflicks.com/showtimes/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://playhouseflicks.com/showtime/wildwood-2/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/wildwood-2/"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/wildwood-6/"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/wildwood-4/"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/wildwood-5/"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://playhouseflicks.com/showtime/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-06T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/wicker/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "waynesboro-theatre",
+ "name": "Waynesboro Theatre",
+ "city": "hagerstown",
+ "area": "Waynesboro",
+ "region": "Hagerstown & Waynesboro",
+ "url": "https://www.waynesborotheatre.org/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 132,
+   "url": "https://www.waynesborotheatre.org/now-showing",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/wildwood-week-2-saturday"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/wildwood-week-2-sunday"
+    }
+   ]
+  },
+  {
+   "title": "Halloween",
+   "rating": "R",
+   "runtime_min": 92,
+   "url": "https://www.waynesborotheatre.org/now-showing",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/halloween-7-pm"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 126,
+   "url": "https://www.waynesborotheatre.org/coming-soon",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/drummer-boy-friday"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

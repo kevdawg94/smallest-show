@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "vali-twin",
+ "name": "Vali Twin Cinema",
+ "city": "cody",
+ "area": "Powell",
+ "region": "Powell",
+ "url": "https://www.valitwincinema.com/",
+ "films": [
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 98,
+   "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261101"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261105"
+    }
+   ]
+  },
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": 110,
+   "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031",
+   "shows": [
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261031"
+    },
+    {
+     "at": "2026-11-01T15:15",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261101"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261105"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

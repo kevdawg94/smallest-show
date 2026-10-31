@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "times-cinema",
+ "name": "Times",
+ "city": "milwaukee",
+ "area": "Washington Heights",
+ "region": "South & West",
+ "url": "https://www.ntg-wi.com/times",
+ "films": [
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://www.ntg-wi.com/movies/other-mommy-2026?location=times&locationKey=6",
+   "shows": [
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/other-mommy-2026/showtimes/2026-10-31/times/select-tickets?showtime=OXZ2dktFQmFiMm1yK3dWYjJWRVVGQT09"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/other-mommy-2026/showtimes/2026-10-31/times/select-tickets?showtime=VmR3OEFZdC80WGlqRCtmeFRBK2JJdz09"
+    },
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/other-mommy-2026/showtimes/2026-11-01/times/select-tickets?showtime=R3dSeDc4Z25xRlE4bU1ldHhxbDlsZz09"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/other-mommy-2026/showtimes/2026-11-01/times/select-tickets?showtime=b3owT1RPdVU1UUVIQUNXaGdHTGZZQT09"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/other-mommy-2026/showtimes/2026-11-05/times/select-tickets?showtime=eGxBMUsySmV2anI3N0ZCRFJkTktiZz09"
+    }
+   ]
+  },
+  {
+   "title": "Strange/Found VHS: A Bountiful VHS Harvest",
+   "rating": null,
+   "runtime_min": 85,
+   "url": "https://www.ntg-wi.com/movies/found?location=times&locationKey=6",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/found/showtimes/2026-11-04/times/select-tickets?showtime=QnJ1dmxnQkVMUjZDOFU2TkJJcUFsdz09"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

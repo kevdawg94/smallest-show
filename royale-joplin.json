@@ -1,0 +1,78 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "royale-joplin",
+ "name": "Royale Cinema Lounge",
+ "city": "joplin",
+ "area": "Joplin",
+ "region": "Joplin",
+ "url": "https://royalecinemajoplin.com/",
+ "films": [
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://royalecinemajoplin.com/showtimes",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/3e642850-7679-44ab-aa80-d9db786e48b9"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/acb7eb4b-b1d1-43ea-ae7b-c37f8f1d4cc1"
+    },
+    {
+     "at": "2026-11-02T10:00",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/555f6b86-b9aa-412d-88d6-73bed8da1e26"
+    }
+   ]
+  },
+  {
+   "title": "Breeder",
+   "rating": "R",
+   "runtime_min": 97,
+   "url": "https://royalecinemajoplin.com/showtimes",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/677d08c9-ffd9-4fb1-a314-0e98cb23af66"
+    },
+    {
+     "at": "2026-11-02T14:00",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/1f05e6ef-3727-4f68-8dee-9a8ed5059e4b"
+    }
+   ]
+  },
+  {
+   "title": "A Talent for Murder",
+   "rating": "R",
+   "runtime_min": 106,
+   "url": "https://royalecinemajoplin.com/showtimes",
+   "shows": [
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/d4f92106-202e-4d41-9710-432daaed2763"
+    },
+    {
+     "at": "2026-11-02T12:00",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/79a96637-f2ca-4f15-a8d6-5d0a13f92685"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

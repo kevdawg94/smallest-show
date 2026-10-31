@@ -1,0 +1,89 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "wealthy-theatre",
+ "name": "Wealthy Theatre",
+ "city": "grandrapids",
+ "area": "Uptown",
+ "region": "Grand Rapids",
+ "url": "https://grcmc.org/theatre",
+ "films": [
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://grcmc.org/event/the-rocky-horror-picture-show-1/1749",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://eventmanager.vbotickets.com/tickets.asp?Page=Event&eid=207666"
+    },
+    {
+     "at": "2026-10-31T23:00",
+     "sold_out": false,
+     "url": "https://eventmanager.vbotickets.com/tickets.asp?Page=Event&eid=207666"
+    }
+   ]
+  },
+  {
+   "title": "Community Pick: Barry Lyndon",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://grcmc.org/event/community-pick-barry-lyndon-grand-rapids-film-society/1799",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://grcmc.vbotickets.com/event/Community_Pick_Barry_Lyndon_Grand_Rapids_Film_Society/211031"
+    }
+   ]
+  },
+  {
+   "title": "Clue",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://grcmc.org/event/clue/1762",
+   "shows": [
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://grcmc.vbotickets.com/event/Clue_Tuesday_Night_Movie/207960"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://grcmc.org/event/grfs-presents-the-history-of-concrete/1808",
+   "shows": [
+    {
+     "at": "2026-11-04T20:00",
+     "sold_out": false,
+     "url": "https://grcmc.vbotickets.com/event/GRFS_Presents_The_History_of_Concrete/211639"
+    }
+   ]
+  },
+  {
+   "title": "Survivors 2 & 3 with Q&A",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://grcmc.org/event/survivors-2-3-with-q-a/1814",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://eventmanager.vbotickets.com/tickets.asp?Page=Event&eid=212058"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

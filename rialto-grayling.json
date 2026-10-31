@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "rialto-grayling",
+ "name": "Rialto Theater",
+ "city": "northernmi",
+ "area": "Grayling",
+ "region": "Gaylord & Grayling",
+ "url": "https://www.graylingmovies.com/",
+ "films": [
+  {
+   "title": "Poltergeist (1982)",
+   "rating": "PG",
+   "runtime_min": 115,
+   "url": "https://www.graylingmovies.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/8552a45a-6eb8-5df1-98ad-8d1679ed44ef"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/a4b08bff-71fb-51da-8a4f-0e39705a2350"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/c87fabbb-a890-5d61-a20e-c89af40ef273"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/1cd52c00-42eb-5dca-a27d-63e52bad51db"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/7b6f4387-8654-5e65-846f-54c18fd153de"
+    },
+    {
+     "at": "2026-11-03T14:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/0b2a970e-f2e9-56d8-89d6-af84e5f79435"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/3f2dde35-431c-5cbf-adae-da72d62fe17b"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/57a40685-4d85-5124-bd53-0360732cb880"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.graylingmovies.com/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/e9de8f50-d452-5800-80a1-98ef3bc3b188"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

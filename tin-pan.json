@@ -1,0 +1,89 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "tin-pan",
+ "name": "Tin Pan Theater",
+ "city": "bend",
+ "area": "Downtown Bend",
+ "region": "Bend",
+ "url": "https://tinpantheater.com/",
+ "films": [
+  {
+   "title": "Primetime",
+   "rating": null,
+   "runtime_min": 110,
+   "url": "https://tinpan.eventive.org/films/6ad81a58741933cf643c6868",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6adcf363ab500799f526d204"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6ad927cb77cc7fadb6902d84"
+    }
+   ]
+  },
+  {
+   "title": "NAZA",
+   "rating": null,
+   "runtime_min": 77,
+   "url": "https://tinpan.eventive.org/films/6ace772531520f6dd8f23a15",
+   "shows": [
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6ad65bfdea6813379d8a5747"
+    }
+   ]
+  },
+  {
+   "title": "Mr. Kaplan (2014) | Spanish-Language Cinema with BENDitas!",
+   "rating": null,
+   "runtime_min": 98,
+   "url": "https://tinpan.eventive.org/films/6a9f76d8bc76e3b4babe9f42",
+   "shows": [
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6a9f7760a5a171ec0de7b7b5"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://tinpan.eventive.org/films/6acac0e87addf8b57982cc52",
+   "shows": [
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6adea9877041a7b79742dcb0"
+    }
+   ]
+  },
+  {
+   "title": "Armchair Storyelling: Close Call | ONE NIGHT ONLY!",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tinpan.eventive.org/films/6ab768c18ebe0ac50b08d83b",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6ab7694b917cd9f55e4d1d23"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

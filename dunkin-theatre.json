@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "dunkin-theatre",
+ "name": "The Dunkin Theatre",
+ "city": "okc",
+ "area": "Cushing",
+ "region": "Cushing & Stillwater",
+ "url": "https://www.dunkintheatre.com/",
+ "films": [
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.prekindle.com/event/19248-matinee-other-mommy-r-cushing",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://www.prekindle.com/event/19248-matinee-other-mommy-r-cushing"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.prekindle.com/event/61797-5-monday-movie-mania-other-mommy-r-cushing"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.prekindle.com/event/33386-other-mommy-r-cushing"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.prekindle.com/event/55951-other-mommy-r-cushing"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.prekindle.com/event/53858-other-mommy-r-cushing"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.prekindle.com/event/11947-opening-night-the-cat-in-the-hat-pg-cushing",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://www.prekindle.com/event/11947-opening-night-the-cat-in-the-hat-pg-cushing"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

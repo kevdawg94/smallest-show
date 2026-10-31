@@ -1,0 +1,117 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "dakota-cinema",
+ "name": "Dakota Cinema",
+ "city": "siouxfalls",
+ "area": "Madison",
+ "region": "Dell Rapids & Madison",
+ "url": "https://www.dakotacinema.com/",
+ "films": [
+  {
+   "title": "Jeepers Creepers",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://www.dakotacinema.com/movies/jeepers-creepers-2001?location=dakota_cinema&locationKey=20",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.dakotacinema.com/movies/jeepers-creepers-2001/showtimes/2026-10-31/dakota_cinema/select-tickets?showtime=cUtvZklnR2lrdnhrSXl2WVJnZ2REdz09"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://www.dakotacinema.com/movies/clayface-2026?location=dakota_cinema&locationKey=20",
+   "shows": [
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://www.dakotacinema.com/movies/clayface-2026/showtimes/2026-10-31/dakota_cinema/seat-plan?showtime=K08rd1k5R0VZV2NhZFlUdS81aUorUT09"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://www.dakotacinema.com/movies/clayface-2026/showtimes/2026-11-01/dakota_cinema/seat-plan?showtime=NnVsLzdRUE9jZGlSQlJob285Q2d5Zz09"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://www.dakotacinema.com/movies/clayface-2026/showtimes/2026-11-01/dakota_cinema/seat-plan?showtime=cjdBb2hUdDhyQ1BQdy9SdC82dHYxdz09"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://www.dakotacinema.com/movies/clayface-2026/showtimes/2026-11-02/dakota_cinema/seat-plan?showtime=dzFLb2tqVXFNQVdPYUpsWEd5VW8zQT09"
+    }
+   ]
+  },
+  {
+   "title": "E.T. the Extra-Terrestrial",
+   "rating": null,
+   "runtime_min": 115,
+   "url": "https://www.dakotacinema.com/movies/e-t-the-extra-terrestrial-1982?location=dakota_cinema&locationKey=20",
+   "shows": [
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.dakotacinema.com/movies/e-t-the-extra-terrestrial-1982/showtimes/2026-11-01/dakota_cinema/select-tickets?showtime=VkpLR29FMWJsaERaTXFKdnExaW9xdz09"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.dakotacinema.com/movies/e-t-the-extra-terrestrial-1982/showtimes/2026-11-01/dakota_cinema/select-tickets?showtime=Q1Z4b01RV1JYdVVrUE83aVB2UzNyQT09"
+    }
+   ]
+  },
+  {
+   "title": "The Nightmare Before Christmas",
+   "rating": null,
+   "runtime_min": 76,
+   "url": "https://www.dakotacinema.com/movies/the-nightmare-before-christmas-1993?location=dakota_cinema&locationKey=20",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.dakotacinema.com/movies/the-nightmare-before-christmas-1993/showtimes/2026-11-02/dakota_cinema/select-tickets?showtime=VzA4Wlg3MUxQUWhnK2RpMitSS3lNQT09"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://www.dakotacinema.com/movies/you-can-see-everything-2026?location=dakota_cinema&locationKey=20",
+   "shows": [
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://www.dakotacinema.com/movies/you-can-see-everything-2026/showtimes/2026-11-05/dakota_cinema/seat-plan?showtime=dk85ZkpXU0lMTE1ORUxJTUxyWVh4QT09"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://www.dakotacinema.com/movies/the-cat-in-the-hat-2026?location=dakota_cinema&locationKey=20",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.dakotacinema.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-05/dakota_cinema/select-tickets?showtime=VjBGelBraElodEFBbnJ5MGE3TTdBUT09"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

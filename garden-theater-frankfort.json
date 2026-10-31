@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "garden-theater-frankfort",
+ "name": "Garden Theater",
+ "city": "traversecity",
+ "area": "Frankfort",
+ "region": "Benzie",
+ "url": "https://gardentheater.org/",
+ "films": [
+  {
+   "title": "Practical Magic 2",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=659990~6a3269ca-7978-417d-9903-ca1548ad1f5e&",
+   "shows": [
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=659996~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=660000~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

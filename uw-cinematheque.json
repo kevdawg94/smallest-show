@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "uw-cinematheque",
+ "name": "UW Cinematheque",
+ "city": "madison",
+ "area": "Campus",
+ "region": "Campus & Downtown",
+ "url": "https://cinema.wisc.edu/",
+ "films": [
+  {
+   "title": "Carrie",
+   "rating": null,
+   "runtime_min": 97,
+   "url": "https://cinema.wisc.edu/new-restorations-and-special-presentations-2/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223629"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": null,
+   "runtime_min": 122,
+   "url": "https://cinema.wisc.edu/premieres-2/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223578"
+    }
+   ]
+  },
+  {
+   "title": "Let There Be Light",
+   "rating": null,
+   "runtime_min": 58,
+   "url": "https://cinema.wisc.edu/new-restorations-and-special-presentations-2/",
+   "shows": [
+    {
+     "at": "2026-11-06T18:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223630"
+    }
+   ]
+  },
+  {
+   "title": "Bright Victory",
+   "rating": null,
+   "runtime_min": 97,
+   "url": "https://cinema.wisc.edu/new-restorations-and-special-presentations-2/",
+   "shows": [
+    {
+     "at": "2026-11-06T19:15",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223645"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,70 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "lincoln-damariscotta",
+ "name": "Lincoln",
+ "city": "midcoast",
+ "area": "Damariscotta",
+ "region": "Boothbay & Damariscotta",
+ "url": "https://www.lincolntheater.org/",
+ "films": [
+  {
+   "title": "Weight",
+   "rating": "R",
+   "runtime_min": 115,
+   "url": "https://app.formovietickets.com/index.html?chain=lincolntheater&rtn=307039&page=picktitle&showTitle=WEIGHT",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=lincolntheater&rtn=307039&page=picktitle&showTitle=WEIGHT"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=lincolntheater&rtn=307039&page=picktitle&showTitle=WEIGHT"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=lincolntheater&rtn=307039&page=picktitle&showTitle=WEIGHT"
+    },
+    {
+     "at": "2026-11-04T13:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=lincolntheater&rtn=307039&page=picktitle&showTitle=WEIGHT"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=lincolntheater&rtn=307039&page=picktitle&showTitle=WEIGHT"
+    },
+    {
+     "at": "2026-11-05T13:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=lincolntheater&rtn=307039&page=picktitle&showTitle=WEIGHT"
+    }
+   ]
+  },
+  {
+   "title": "Meet Me in St Louis",
+   "rating": "NR",
+   "runtime_min": 113,
+   "url": "https://app.formovietickets.com/index.html?chain=lincolntheater&rtn=307039&page=picktitle&showTitle=MEET%20ME%20IN%20ST%20LOUIS",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=lincolntheater&rtn=307039&page=picktitle&showTitle=MEET%20ME%20IN%20ST%20LOUIS"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

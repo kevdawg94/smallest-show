@@ -1,0 +1,119 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "fort-wayne-cinema-center",
+ "name": "Cinema Center",
+ "city": "fortwayne",
+ "area": "Downtown Fort Wayne",
+ "region": "Fort Wayne",
+ "url": "https://cinemacenter.org/",
+ "films": [
+  {
+   "title": "Scream (30th Anniversary)",
+   "rating": null,
+   "runtime_min": 112,
+   "url": "https://cinemacenter.eventive.org/films/6abd72c79b96088fd7ca802b",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6abd7d6e143b34cb9d37ffac"
+    },
+    {
+     "at": "2026-11-01T17:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6abd7d80e66ff233ce34a9bd"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://cinemacenter.eventive.org/films/6abd71a7728ef94d009a98ea",
+   "shows": [
+    {
+     "at": "2026-10-31T13:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6abd7cc475282d63989e0bcf"
+    },
+    {
+     "at": "2026-10-31T15:30",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6abd7c42b359af29ec473f12"
+    },
+    {
+     "at": "2026-10-31T16:45",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6abd7cd5ae649cab55b95edb"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6abd7cf50be48d58c5c7e033"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae237e00c51be1abef79698"
+    }
+   ]
+  },
+  {
+   "title": "Lord Blood-Rah's Halloween **NOT** Live!",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://cinemacenter.eventive.org/films/6abe96245262b44e220895c6",
+   "shows": [
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6abe96d5dc7f32cacdf5a6b6"
+    }
+   ]
+  },
+  {
+   "title": "NAZA",
+   "rating": null,
+   "runtime_min": 77,
+   "url": "https://cinemacenter.eventive.org/films/6acfb888a2c9390ac51ea2ef",
+   "shows": [
+    {
+     "at": "2026-10-31T20:30",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6acfb91518165e9ff0366cfe"
+    },
+    {
+     "at": "2026-11-01T14:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6acfb97457ebdd3fab4102bc"
+    },
+    {
+     "at": "2026-11-05T19:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23a9e12e18c2ec2df28df"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything (Subtitles)",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://cinemacenter.eventive.org/films/6abd71a7728ef94d009a98ea",
+   "shows": [
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6abd7c64e66ff233ce34640a"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

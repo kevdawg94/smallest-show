@@ -1,0 +1,888 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "alamo-city-foundry",
+ "name": "Alamo City Foundry",
+ "city": "stl",
+ "area": "Midtown",
+ "region": "City",
+ "url": "https://drafthouse.com/st-louis/theater/city-foundry",
+ "films": [
+  {
+   "title": "Trick or Treat (1986)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/trick-or-treat-1986?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/trick-or-treat-1986/2601/57656"
+    }
+   ]
+  },
+  {
+   "title": "Klara and the Sun",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/klara-and-the-sun?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/klara-and-the-sun/2601/57632"
+    },
+    {
+     "at": "2026-11-01T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/klara-and-the-sun/2601/57661"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/klara-and-the-sun/2601/57702"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/klara-and-the-sun/2601/57719"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/klara-and-the-sun/2601/57760"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/the-only-living-pickpocket-in-new-york?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57304"
+    },
+    {
+     "at": "2026-10-31T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57302"
+    },
+    {
+     "at": "2026-10-31T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57303"
+    },
+    {
+     "at": "2026-10-31T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57301"
+    },
+    {
+     "at": "2026-11-01T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57305"
+    },
+    {
+     "at": "2026-11-01T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57307"
+    },
+    {
+     "at": "2026-11-01T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57306"
+    },
+    {
+     "at": "2026-11-01T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57308"
+    },
+    {
+     "at": "2026-11-02T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57692"
+    },
+    {
+     "at": "2026-11-02T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57693"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57706"
+    },
+    {
+     "at": "2026-11-03T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57710"
+    },
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57735"
+    },
+    {
+     "at": "2026-11-04T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57732"
+    },
+    {
+     "at": "2026-11-05T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57758"
+    },
+    {
+     "at": "2026-11-05T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-only-living-pickpocket-in-new-york/2601/57745"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter (2026)",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/street-fighter-2026?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T12:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57649"
+    },
+    {
+     "at": "2026-10-31T15:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57646"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57629"
+    },
+    {
+     "at": "2026-10-31T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57647"
+    },
+    {
+     "at": "2026-11-01T12:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57683"
+    },
+    {
+     "at": "2026-11-01T15:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57685"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57664"
+    },
+    {
+     "at": "2026-11-01T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57684"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57699"
+    },
+    {
+     "at": "2026-11-02T22:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57698"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57713"
+    },
+    {
+     "at": "2026-11-03T22:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57707"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57729"
+    },
+    {
+     "at": "2026-11-04T22:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57734"
+    },
+    {
+     "at": "2026-11-05T22:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/street-fighter-2026/2601/57759"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/clayface?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57648"
+    },
+    {
+     "at": "2026-10-31T16:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57643"
+    },
+    {
+     "at": "2026-10-31T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57644"
+    },
+    {
+     "at": "2026-10-31T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57645"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57677"
+    },
+    {
+     "at": "2026-11-01T16:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57669"
+    },
+    {
+     "at": "2026-11-01T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57668"
+    },
+    {
+     "at": "2026-11-01T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57667"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57696"
+    },
+    {
+     "at": "2026-11-02T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57697"
+    },
+    {
+     "at": "2026-11-03T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57712"
+    },
+    {
+     "at": "2026-11-03T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57721"
+    },
+    {
+     "at": "2026-11-04T23:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57738"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57747"
+    },
+    {
+     "at": "2026-11-05T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/clayface/2601/57755"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/wicker?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57652"
+    },
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57641"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57642"
+    },
+    {
+     "at": "2026-10-31T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57651"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57680"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57671"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57670"
+    },
+    {
+     "at": "2026-11-01T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57681"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57690"
+    },
+    {
+     "at": "2026-11-02T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57691"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57715"
+    },
+    {
+     "at": "2026-11-03T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57708"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57727"
+    },
+    {
+     "at": "2026-11-04T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57733"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57750"
+    },
+    {
+     "at": "2026-11-05T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/57744"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/you-can-see-everything?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57631"
+    },
+    {
+     "at": "2026-10-31T13:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57640"
+    },
+    {
+     "at": "2026-10-31T14:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57630"
+    },
+    {
+     "at": "2026-10-31T17:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57628"
+    },
+    {
+     "at": "2026-10-31T17:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57653"
+    },
+    {
+     "at": "2026-10-31T18:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57655"
+    },
+    {
+     "at": "2026-10-31T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57627"
+    },
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57637"
+    },
+    {
+     "at": "2026-11-01T12:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57672"
+    },
+    {
+     "at": "2026-11-01T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57663"
+    },
+    {
+     "at": "2026-11-01T14:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57662"
+    },
+    {
+     "at": "2026-11-01T16:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57688"
+    },
+    {
+     "at": "2026-11-01T17:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57679"
+    },
+    {
+     "at": "2026-11-01T17:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57687"
+    },
+    {
+     "at": "2026-11-01T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57665"
+    },
+    {
+     "at": "2026-11-01T18:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57678"
+    },
+    {
+     "at": "2026-11-01T20:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57689"
+    },
+    {
+     "at": "2026-11-01T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57675"
+    },
+    {
+     "at": "2026-11-01T22:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57674"
+    },
+    {
+     "at": "2026-11-01T22:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57666"
+    },
+    {
+     "at": "2026-11-02T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57695"
+    },
+    {
+     "at": "2026-11-02T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57705"
+    },
+    {
+     "at": "2026-11-02T21:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57694"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57724"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57714"
+    },
+    {
+     "at": "2026-11-03T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57716"
+    },
+    {
+     "at": "2026-11-03T21:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57709"
+    },
+    {
+     "at": "2026-11-03T22:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57725"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57737"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57728"
+    },
+    {
+     "at": "2026-11-04T21:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57790"
+    },
+    {
+     "at": "2026-11-04T22:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57736"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57756"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57749"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57762"
+    },
+    {
+     "at": "2026-11-05T22:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/57757"
+    }
+   ]
+  },
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/whalefall?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57650"
+    },
+    {
+     "at": "2026-10-31T16:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57634"
+    },
+    {
+     "at": "2026-10-31T19:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57636"
+    },
+    {
+     "at": "2026-11-01T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57682"
+    },
+    {
+     "at": "2026-11-01T16:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57659"
+    },
+    {
+     "at": "2026-11-01T19:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57676"
+    },
+    {
+     "at": "2026-11-01T22:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57658"
+    },
+    {
+     "at": "2026-11-02T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57700"
+    },
+    {
+     "at": "2026-11-02T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57701"
+    },
+    {
+     "at": "2026-11-03T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57711"
+    },
+    {
+     "at": "2026-11-03T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57720"
+    },
+    {
+     "at": "2026-11-04T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57731"
+    },
+    {
+     "at": "2026-11-04T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57739"
+    },
+    {
+     "at": "2026-11-05T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57746"
+    },
+    {
+     "at": "2026-11-05T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/whalefall/2601/57754"
+    }
+   ]
+  },
+  {
+   "title": "Scream (1996)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/scream?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/scream/2601/57148"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/other-mommy?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T15:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/other-mommy/2601/57633"
+    },
+    {
+     "at": "2026-11-01T15:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/other-mommy/2601/57660"
+    },
+    {
+     "at": "2026-11-02T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/other-mommy/2601/57703"
+    },
+    {
+     "at": "2026-11-03T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/other-mommy/2601/57718"
+    },
+    {
+     "at": "2026-11-04T21:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/other-mommy/2601/57741"
+    },
+    {
+     "at": "2026-11-05T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/other-mommy/2601/57753"
+    }
+   ]
+  },
+  {
+   "title": "Halloween (1978)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/halloween-1978?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/halloween-1978/2601/56882"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/halloween-1978/2601/56883"
+    }
+   ]
+  },
+  {
+   "title": "Ernie & Emma",
+   "rating": "R",
+   "runtime_min": 90,
+   "url": "https://drafthouse.com/st-louis/show/live-q-a-ernie-emma?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": true,
+     "url": "https://drafthouse.com/st-louis/tickets/live-q-a-ernie-emma/2601/54479"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/live-q-a-ernie-emma/2601/57805"
+    }
+   ]
+  },
+  {
+   "title": "Breeder",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/breeder?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-10-31T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/breeder/2601/57639"
+    },
+    {
+     "at": "2026-11-01T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/breeder/2601/57673"
+    },
+    {
+     "at": "2026-11-02T22:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/breeder/2601/57704"
+    },
+    {
+     "at": "2026-11-03T23:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/breeder/2601/57717"
+    },
+    {
+     "at": "2026-11-04T23:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/breeder/2601/57742"
+    },
+    {
+     "at": "2026-11-05T23:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/breeder/2601/57752"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla vs. Mechagodzilla",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/godzilla-vs-mechagodzilla?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-vs-mechagodzilla/2601/57130"
+    }
+   ]
+  },
+  {
+   "title": "Swingers",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/swingers?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-01T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/swingers/2601/57686"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/swingers/2601/57480"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/swingers/2601/57726"
+    }
+   ]
+  },
+  {
+   "title": "Wild at Heart",
+   "rating": "R",
+   "runtime_min": 128,
+   "url": "https://drafthouse.com/st-louis/show/special-event-wild-at-heart-unrated?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/special-event-wild-at-heart-unrated/2601/56878"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/special-event-wild-at-heart-unrated/2601/56879"
+    }
+   ]
+  },
+  {
+   "title": "Ramayana",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/ramayana?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-04T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ramayana/2601/57795"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/la-bola-negra?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/56683"
+    },
+    {
+     "at": "2026-11-05T21:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/57761"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

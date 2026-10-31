@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "wonderland-paullina",
+ "name": "Wonderland Theater",
+ "city": "siouxcity",
+ "area": "Paullina",
+ "region": "Paullina",
+ "url": "https://wonderlandpaullina.com/",
+ "films": [
+  {
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "rating": "PG",
+   "runtime_min": 81,
+   "url": "https://wonderlandpaullina.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://wonderlandpaullina.com/"
+    },
+    {
+     "at": "2026-11-01T17:30",
+     "sold_out": false,
+     "url": "https://wonderlandpaullina.com/"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 117,
+   "url": "https://wonderlandpaullina.com/",
+   "shows": [
+    {
+     "at": "2026-11-06T19:30",
+     "sold_out": false,
+     "url": "https://wonderlandpaullina.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

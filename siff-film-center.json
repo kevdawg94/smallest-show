@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "siff-film-center",
+ "name": "SIFF Film Center",
+ "city": "seattle",
+ "area": "Seattle Center",
+ "region": "Capitol Hill & Downtown",
+ "url": "https://www.siff.net/cinema/cinema-venues/siff-film-center",
+ "films": [
+  {
+   "title": "The Films of Andrzej Wajda: The Wedding",
+   "rating": null,
+   "runtime_min": 103,
+   "url": "https://www.siff.net/programs-and-events/andrzej-wajda/the-wedding",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://www.siff.net/programs-and-events/andrzej-wajda/the-wedding"
+    }
+   ]
+  },
+  {
+   "title": "The Films of Andrzej Wajda: The Birch Wood",
+   "rating": null,
+   "runtime_min": 99,
+   "url": "https://www.siff.net/programs-and-events/andrzej-wajda/the-birch-wood",
+   "shows": [
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://www.siff.net/programs-and-events/andrzej-wajda/the-birch-wood"
+    }
+   ]
+  },
+  {
+   "title": "The Open Road: Two-Lane Blacktop (35mm)",
+   "rating": null,
+   "runtime_min": 102,
+   "url": "https://www.siff.net/programs-and-events/the-open-road/two-lane-blacktop",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.siff.net/programs-and-events/the-open-road/two-lane-blacktop"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.siff.net/programs-and-events/the-open-road/two-lane-blacktop"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

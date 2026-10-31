@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "redford",
+ "name": "Redford",
+ "city": "detroit",
+ "area": "Old Redford",
+ "region": "Detroit",
+ "url": "https://redfordtheatre.com/",
+ "films": [
+  {
+   "title": "Buffy The Vampire Slayer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/97?siteToken=ks2qqa1sp218n79f3jdn2r6qy0"
+    }
+   ]
+  },
+  {
+   "title": "Evil Dead II",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+   "shows": [
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/98?siteToken=ks2qqa1sp218n79f3jdn2r6qy0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

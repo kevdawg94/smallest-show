@@ -1,0 +1,97 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "crest",
+ "name": "Crest Theatre",
+ "city": "sacramento",
+ "area": "Downtown",
+ "region": "Downtown & Midtown",
+ "url": "https://cresttheater.com/",
+ "films": [
+  {
+   "title": "Vampire Hunter D",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketmaster.com/event/1C0065500A0F3797"
+    }
+   ]
+  },
+  {
+   "title": "The Maltese Falcon (1941)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketmaster.com/event/1C0065500ACF3B98"
+    }
+   ]
+  },
+  {
+   "title": "Death Becomes Her",
+   "rating": "PG-13",
+   "runtime_min": 103,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketmaster.com/event/1C006551FD43B03F"
+    }
+   ]
+  },
+  {
+   "title": "Ghost In The Shell",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketmaster.com/event/1C006551D77F3A5D"
+    }
+   ]
+  },
+  {
+   "title": "Sin City",
+   "rating": "R",
+   "runtime_min": 123,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketmaster.com/event/1C006551D9A24268"
+    }
+   ]
+  },
+  {
+   "title": "Blade Runner x Blade Runner 2049 Double Feature",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketmaster.com/event/1C006557252A594C"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

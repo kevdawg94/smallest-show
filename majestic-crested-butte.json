@@ -1,0 +1,143 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "majestic-crested-butte",
+ "name": "Majestic Theater",
+ "city": "roaringfork",
+ "area": "Crested Butte",
+ "region": "Gunnison Valley",
+ "url": "https://cbmajestic.org/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 132,
+   "url": "https://cbmajestic.org/",
+   "shows": [
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587230/"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587232/"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587238/"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587239/"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587241/"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587244/"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587245/"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587243/"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://cbmajestic.org/",
+   "shows": [
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587221/"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587222/"
+    },
+    {
+     "at": "2026-11-03T16:15",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587223/"
+    },
+    {
+     "at": "2026-11-03T19:15",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587225/"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587224/"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587226/"
+    },
+    {
+     "at": "2026-11-05T16:15",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587227/"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587228/"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://cbmajestic.org/",
+   "shows": [
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587229/"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587242/"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587240/"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://cbmajestic.org/purchase/587246/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

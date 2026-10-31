@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "little-art",
+ "name": "Little Art Theatre",
+ "city": "dayton",
+ "area": "Yellow Springs",
+ "region": "Yellow Springs & Greene County",
+ "url": "https://www.littleart.com/",
+ "films": [
+  {
+   "title": "Misty Green",
+   "rating": "R",
+   "runtime_min": 103,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041234~7b829e11-136b-4535-af29-fa29ce9a8a6c&",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1041239~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1041240~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1041242~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1041243~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    }
+   ]
+  },
+  {
+   "title": "American Doctor",
+   "rating": null,
+   "runtime_min": 91,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043190~7b829e11-136b-4535-af29-fa29ce9a8a6c&",
+   "shows": [
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043191~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    }
+   ]
+  },
+  {
+   "title": "My Neighbor Totoro",
+   "rating": "G",
+   "runtime_min": 86,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1044094~7b829e11-136b-4535-af29-fa29ce9a8a6c&",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044108~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

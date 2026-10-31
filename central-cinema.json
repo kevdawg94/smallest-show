@@ -1,0 +1,144 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "central-cinema",
+ "name": "Central Cinema",
+ "city": "seattle",
+ "area": "Central District",
+ "region": "Capitol Hill & Downtown",
+ "url": "https://central-cinema.com/",
+ "films": [
+  {
+   "title": "Hocus Pocus",
+   "rating": "PG",
+   "runtime_min": 96,
+   "url": "https://www.central-cinema.com/movie/hocus-pocus/",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/hocus-pocus/4080463"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/hocus-pocus/4080464"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/hocus-pocus/4080465"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/hocus-pocus/4080466"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/hocus-pocus/4080467"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/hocus-pocus/4080468"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/hocus-pocus/4080469"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/hocus-pocus/4080470"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/hocus-pocus/4080471"
+    }
+   ]
+  },
+  {
+   "title": "A Nightmare on Elm Street",
+   "rating": "R",
+   "runtime_min": 91,
+   "url": "https://www.central-cinema.com/movie/a-nightmare-on-elm-street/",
+   "shows": [
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/a-nightmare-on-elm-street/4080565"
+    },
+    {
+     "at": "2026-11-01T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/a-nightmare-on-elm-street/4080566"
+    },
+    {
+     "at": "2026-11-02T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/a-nightmare-on-elm-street/4080567"
+    },
+    {
+     "at": "2026-11-03T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/a-nightmare-on-elm-street/4080568"
+    },
+    {
+     "at": "2026-11-04T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/a-nightmare-on-elm-street/4080569"
+    }
+   ]
+  },
+  {
+   "title": "Private Rental Event",
+   "rating": null,
+   "runtime_min": 150,
+   "url": "https://www.central-cinema.com/movie/private-rental-event/",
+   "shows": [
+    {
+     "at": "2026-11-01T15:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/private-rental-event/3906771"
+    }
+   ]
+  },
+  {
+   "title": "Cartoon Happy Hour",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://www.central-cinema.com/movie/cartoon-happy-hour/",
+   "shows": [
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/cartoon-happy-hour/4080472"
+    }
+   ]
+  },
+  {
+   "title": "The Room",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://www.central-cinema.com/movie/the-room/",
+   "shows": [
+    {
+     "at": "2026-11-05T20:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/the-room/4080473"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

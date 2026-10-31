@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "tinker-street",
+ "name": "Tinker Street Cinema",
+ "city": "hudsonvalley",
+ "area": "Woodstock",
+ "region": "Kingston, Woodstock & New Paltz",
+ "url": "https://www.tscwoodstock.com/",
+ "films": [
+  {
+   "title": "Return of the Living Dead w editor Barbara Pokras",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg",
+   "shows": [
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1664?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    }
+   ]
+  },
+  {
+   "title": "Twilight Zone: The Movie (1983)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg",
+   "shows": [
+    {
+     "at": "2026-11-01T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1659?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    }
+   ]
+  },
+  {
+   "title": "The Brain That Wouldn't Die (1962)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg",
+   "shows": [
+    {
+     "at": "2026-11-03T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1666?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

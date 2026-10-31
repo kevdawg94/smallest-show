@@ -1,0 +1,891 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "meadowbrook-8",
+ "name": "Meadowbrook 8 Theatres",
+ "city": "joplin",
+ "area": "Pittsburg",
+ "region": "Pittsburg",
+ "url": "https://meadowbrook8.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.meadowbrook8.com/movie/27536",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112910"
+    },
+    {
+     "at": "2026-10-31T15:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112918"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112926"
+    },
+    {
+     "at": "2026-10-31T21:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112934"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112973"
+    },
+    {
+     "at": "2026-11-01T15:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112981"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112989"
+    },
+    {
+     "at": "2026-11-02T12:45",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112997"
+    },
+    {
+     "at": "2026-11-02T15:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113005"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113013"
+    },
+    {
+     "at": "2026-11-03T12:45",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113021"
+    },
+    {
+     "at": "2026-11-03T15:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113029"
+    },
+    {
+     "at": "2026-11-03T18:30",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113037"
+    },
+    {
+     "at": "2026-11-04T12:45",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113045"
+    },
+    {
+     "at": "2026-11-04T15:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113053"
+    },
+    {
+     "at": "2026-11-04T18:30",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113061"
+    },
+    {
+     "at": "2026-11-05T12:45",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113069"
+    },
+    {
+     "at": "2026-11-05T15:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113077"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113085"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://www.meadowbrook8.com/movie/27435",
+   "shows": [
+    {
+     "at": "2026-10-31T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112916"
+    },
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112923"
+    },
+    {
+     "at": "2026-10-31T19:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112931"
+    },
+    {
+     "at": "2026-10-31T22:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112939"
+    },
+    {
+     "at": "2026-11-01T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112976"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112987"
+    },
+    {
+     "at": "2026-11-01T19:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112996"
+    },
+    {
+     "at": "2026-11-02T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113000"
+    },
+    {
+     "at": "2026-11-02T16:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113011"
+    },
+    {
+     "at": "2026-11-02T19:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113020"
+    },
+    {
+     "at": "2026-11-03T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113024"
+    },
+    {
+     "at": "2026-11-03T16:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113035"
+    },
+    {
+     "at": "2026-11-03T19:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113044"
+    },
+    {
+     "at": "2026-11-04T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113048"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113059"
+    },
+    {
+     "at": "2026-11-04T19:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113068"
+    },
+    {
+     "at": "2026-11-05T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113072"
+    },
+    {
+     "at": "2026-11-05T16:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113083"
+    },
+    {
+     "at": "2026-11-05T19:15",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113092"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://www.meadowbrook8.com/movie/27436",
+   "shows": [
+    {
+     "at": "2026-10-31T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112911"
+    },
+    {
+     "at": "2026-10-31T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112919"
+    },
+    {
+     "at": "2026-10-31T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112927"
+    },
+    {
+     "at": "2026-10-31T21:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112937"
+    },
+    {
+     "at": "2026-11-01T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112974"
+    },
+    {
+     "at": "2026-11-01T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112982"
+    },
+    {
+     "at": "2026-11-01T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112990"
+    },
+    {
+     "at": "2026-11-02T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112998"
+    },
+    {
+     "at": "2026-11-02T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113006"
+    },
+    {
+     "at": "2026-11-02T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113014"
+    },
+    {
+     "at": "2026-11-03T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113022"
+    },
+    {
+     "at": "2026-11-03T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113030"
+    },
+    {
+     "at": "2026-11-03T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113038"
+    },
+    {
+     "at": "2026-11-04T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113046"
+    },
+    {
+     "at": "2026-11-04T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113054"
+    },
+    {
+     "at": "2026-11-04T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113062"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 119,
+   "url": "https://www.meadowbrook8.com/movie/27277",
+   "shows": [
+    {
+     "at": "2026-10-31T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112912"
+    },
+    {
+     "at": "2026-10-31T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112920"
+    },
+    {
+     "at": "2026-10-31T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112928"
+    },
+    {
+     "at": "2026-10-31T21:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112938"
+    },
+    {
+     "at": "2026-11-01T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112975"
+    },
+    {
+     "at": "2026-11-01T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112983"
+    },
+    {
+     "at": "2026-11-01T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112991"
+    },
+    {
+     "at": "2026-11-02T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112999"
+    },
+    {
+     "at": "2026-11-02T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113007"
+    },
+    {
+     "at": "2026-11-02T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113015"
+    },
+    {
+     "at": "2026-11-03T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113023"
+    },
+    {
+     "at": "2026-11-03T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113031"
+    },
+    {
+     "at": "2026-11-03T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113039"
+    },
+    {
+     "at": "2026-11-04T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113047"
+    },
+    {
+     "at": "2026-11-04T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113055"
+    },
+    {
+     "at": "2026-11-04T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113063"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 114,
+   "url": "https://www.meadowbrook8.com/movie/27048",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112914"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112921"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112930"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112977"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112984"
+    },
+    {
+     "at": "2026-11-02T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113001"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113008"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113018"
+    },
+    {
+     "at": "2026-11-03T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113025"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113032"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113042"
+    },
+    {
+     "at": "2026-11-04T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113049"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113056"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113066"
+    },
+    {
+     "at": "2026-11-05T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113073"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 139,
+   "url": "https://www.meadowbrook8.com/movie/27535",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112915"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112922"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112933"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112935"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112978"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112985"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112993"
+    },
+    {
+     "at": "2026-11-02T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113002"
+    },
+    {
+     "at": "2026-11-02T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113009"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113017"
+    },
+    {
+     "at": "2026-11-03T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113026"
+    },
+    {
+     "at": "2026-11-03T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113033"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113041"
+    },
+    {
+     "at": "2026-11-04T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113050"
+    },
+    {
+     "at": "2026-11-04T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113057"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113065"
+    },
+    {
+     "at": "2026-11-05T13:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113074"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113081"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113089"
+    }
+   ]
+  },
+  {
+   "title": "Sight & Sound Presents: Joshua Live!",
+   "rating": null,
+   "runtime_min": 135,
+   "url": "https://www.meadowbrook8.com/movie/27534",
+   "shows": [
+    {
+     "at": "2026-10-31T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112913"
+    },
+    {
+     "at": "2026-10-31T16:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112925"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112929"
+    },
+    {
+     "at": "2026-11-01T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112979"
+    },
+    {
+     "at": "2026-11-01T16:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112986"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112994"
+    },
+    {
+     "at": "2026-11-02T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113003"
+    },
+    {
+     "at": "2026-11-02T16:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113010"
+    },
+    {
+     "at": "2026-11-03T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113027"
+    },
+    {
+     "at": "2026-11-03T16:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113034"
+    },
+    {
+     "at": "2026-11-04T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113051"
+    },
+    {
+     "at": "2026-11-04T16:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113058"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://www.meadowbrook8.com/movie/27731",
+   "shows": [
+    {
+     "at": "2026-10-31T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112917"
+    },
+    {
+     "at": "2026-10-31T16:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112924"
+    },
+    {
+     "at": "2026-10-31T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112932"
+    },
+    {
+     "at": "2026-10-31T22:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112940"
+    },
+    {
+     "at": "2026-11-01T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112980"
+    },
+    {
+     "at": "2026-11-01T16:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112988"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112995"
+    },
+    {
+     "at": "2026-11-02T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113004"
+    },
+    {
+     "at": "2026-11-02T16:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113012"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113019"
+    },
+    {
+     "at": "2026-11-03T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113028"
+    },
+    {
+     "at": "2026-11-03T16:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113036"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113043"
+    },
+    {
+     "at": "2026-11-04T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113052"
+    },
+    {
+     "at": "2026-11-04T16:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113060"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113067"
+    },
+    {
+     "at": "2026-11-05T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113076"
+    },
+    {
+     "at": "2026-11-05T16:20",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113084"
+    },
+    {
+     "at": "2026-11-05T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113091"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://www.meadowbrook8.com/movie/27118",
+   "shows": [
+    {
+     "at": "2026-10-31T21:45",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112936"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/112992"
+    },
+    {
+     "at": "2026-11-02T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113016"
+    },
+    {
+     "at": "2026-11-03T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113040"
+    },
+    {
+     "at": "2026-11-04T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113064"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://www.meadowbrook8.com/movie/27335",
+   "shows": [
+    {
+     "at": "2026-10-31T22:30",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/110539"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.meadowbrook8.com/movie/27727",
+   "shows": [
+    {
+     "at": "2026-11-05T12:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113070"
+    },
+    {
+     "at": "2026-11-05T15:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113078"
+    },
+    {
+     "at": "2026-11-05T18:50",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113086"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.meadowbrook8.com/movie/27729",
+   "shows": [
+    {
+     "at": "2026-11-05T13:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113075"
+    },
+    {
+     "at": "2026-11-05T16:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113082"
+    },
+    {
+     "at": "2026-11-05T19:10",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113088"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://www.meadowbrook8.com/movie/27730",
+   "shows": [
+    {
+     "at": "2026-11-05T14:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113071"
+    },
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113079"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113087"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 119,
+   "url": "https://www.meadowbrook8.com/movie/27728",
+   "shows": [
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113080"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://www.meadowbrook8.com/tickets/113090"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

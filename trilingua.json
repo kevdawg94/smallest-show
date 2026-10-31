@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "trilingua",
+ "name": "TriLingua",
+ "city": "msp",
+ "area": "East Side",
+ "region": "St. Paul",
+ "url": "https://trilinguacinema.org/",
+ "films": [
+  {
+   "title": "A Girl Walks Home Alone at Night",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://trilinguacinema.org/",
+   "shows": [
+    {
+     "at": "2026-10-31T16:05",
+     "sold_out": false,
+     "url": "https://trilinguacinema.org/purchase/5267/"
+    }
+   ]
+  },
+  {
+   "title": "Cronos",
+   "rating": null,
+   "runtime_min": 94,
+   "url": "https://trilinguacinema.org/",
+   "shows": [
+    {
+     "at": "2026-10-31T18:20",
+     "sold_out": false,
+     "url": "https://trilinguacinema.org/purchase/5442/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

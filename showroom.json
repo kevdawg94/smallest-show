@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "showroom",
+ "name": "ShowRoom",
+ "city": "jerseyshore",
+ "area": "Asbury Park",
+ "region": "Monmouth Shore",
+ "url": "https://showroomcinemas.com/",
+ "films": [
+  {
+   "title": "Halloween",
+   "rating": null,
+   "runtime_min": 91,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/269124/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,113 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "tahoe-art-haus",
+ "name": "Tahoe Art Haus & Cinema",
+ "city": "reno",
+ "area": "Tahoe City",
+ "region": "Lake Tahoe",
+ "url": "https://www.tahoearthauscinema.com/",
+ "films": [
+  {
+   "title": "Everest: The Other Side",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://tahoearthauscinema.com/movie/everest-the-other-side/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:15",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4005253"
+    },
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4181753"
+    },
+    {
+     "at": "2026-11-01T14:15",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4005256"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": true,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4005263"
+    },
+    {
+     "at": "2026-11-01T20:00",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4181740"
+    },
+    {
+     "at": "2026-11-02T17:00",
+     "sold_out": true,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4005262"
+    },
+    {
+     "at": "2026-11-02T20:00",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4181741"
+    },
+    {
+     "at": "2026-11-03T17:00",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4005261"
+    },
+    {
+     "at": "2026-11-03T20:00",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4181742"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4005260"
+    },
+    {
+     "at": "2026-11-04T20:00",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4181743"
+    },
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/everest-the-other-side/4181744"
+    }
+   ]
+  },
+  {
+   "title": "Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://tahoearthauscinema.com/movie/rocky-horror-picture-show/",
+   "shows": [
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/rocky-horror-picture-show/4064532"
+    }
+   ]
+  },
+  {
+   "title": "Salomon Quality Ski Time Film Tour",
+   "rating": null,
+   "runtime_min": 60,
+   "url": "https://tahoearthauscinema.com/movie/salomon-quality-ski-time-film-tour/",
+   "shows": [
+    {
+     "at": "2026-11-05T20:00",
+     "sold_out": false,
+     "url": "https://tahoearthauscinema.com/checkout/showing/salomon-quality-ski-time-film-tour/4065056"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

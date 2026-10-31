@@ -1,0 +1,97 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "normal-theater",
+ "name": "Normal Theater",
+ "city": "peoria",
+ "area": "Uptown Normal",
+ "region": "Bloomington–Normal",
+ "url": "https://www.normaltheater.com/",
+ "films": [
+  {
+   "title": "Hocus Pocus",
+   "rating": "PG",
+   "runtime_min": 96,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=459560~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=580602~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Beetlejuice",
+   "rating": "PG",
+   "runtime_min": 92,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=519702~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=580889~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Ghostbusters",
+   "rating": "PG",
+   "runtime_min": 107,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=459438~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=581896~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "The Lost Boys",
+   "rating": "R",
+   "runtime_min": 97,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=519661~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-10-31T21:30",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=581890~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Idiocracy",
+   "rating": "R",
+   "runtime_min": 85,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=586783~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586784~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Dead Poets Society",
+   "rating": "PG",
+   "runtime_min": 129,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=586785~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=586796~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

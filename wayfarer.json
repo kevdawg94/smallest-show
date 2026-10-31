@@ -1,0 +1,561 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "wayfarer",
+ "name": "Wayfarer",
+ "city": "chicago",
+ "area": "Highland Park",
+ "region": "Suburbs",
+ "url": "https://wayfarertheaters.com/highlandpark",
+ "films": [
+  {
+   "title": "The Addams Famiy",
+   "rating": "PG-13",
+   "runtime_min": 99,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/the-addams-famiy/",
+   "shows": [
+    {
+     "at": "2026-10-31T10:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-addams-famiy/4081264"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-addams-famiy/4081265"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 132,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wildwood/4235782"
+    },
+    {
+     "at": "2026-11-01T11:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wildwood/4190870"
+    },
+    {
+     "at": "2026-11-02T11:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wildwood/4235779"
+    },
+    {
+     "at": "2026-11-03T11:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wildwood/4190911"
+    },
+    {
+     "at": "2026-11-04T11:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wildwood/4190934"
+    },
+    {
+     "at": "2026-11-05T11:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wildwood/4190954"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190988"
+    },
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190989"
+    },
+    {
+     "at": "2026-10-31T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190990"
+    },
+    {
+     "at": "2026-10-31T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190991"
+    },
+    {
+     "at": "2026-11-01T12:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190866"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190867"
+    },
+    {
+     "at": "2026-11-01T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190868"
+    },
+    {
+     "at": "2026-11-01T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190869"
+    },
+    {
+     "at": "2026-11-02T12:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190885"
+    },
+    {
+     "at": "2026-11-02T15:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190886"
+    },
+    {
+     "at": "2026-11-02T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190887"
+    },
+    {
+     "at": "2026-11-02T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190888"
+    },
+    {
+     "at": "2026-11-03T12:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190905"
+    },
+    {
+     "at": "2026-11-03T15:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190906"
+    },
+    {
+     "at": "2026-11-03T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190908"
+    },
+    {
+     "at": "2026-11-03T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190910"
+    },
+    {
+     "at": "2026-11-04T12:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190927"
+    },
+    {
+     "at": "2026-11-04T15:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190929"
+    },
+    {
+     "at": "2026-11-04T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190931"
+    },
+    {
+     "at": "2026-11-04T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190933"
+    },
+    {
+     "at": "2026-11-05T12:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190950"
+    },
+    {
+     "at": "2026-11-05T15:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190951"
+    },
+    {
+     "at": "2026-11-05T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190952"
+    },
+    {
+     "at": "2026-11-05T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4190953"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/sense-and-sensibility-2/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/sense-and-sensibility-2/4235781"
+    },
+    {
+     "at": "2026-11-01T12:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/sense-and-sensibility-2/4190872"
+    },
+    {
+     "at": "2026-11-04T14:25",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/sense-and-sensibility-2/4235780"
+    },
+    {
+     "at": "2026-11-05T14:25",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/sense-and-sensibility-2/4190956"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-10-31T12:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190995"
+    },
+    {
+     "at": "2026-10-31T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190996"
+    },
+    {
+     "at": "2026-10-31T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190997"
+    },
+    {
+     "at": "2026-11-01T12:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190874"
+    },
+    {
+     "at": "2026-11-01T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190875"
+    },
+    {
+     "at": "2026-11-01T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190876"
+    },
+    {
+     "at": "2026-11-02T12:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190893"
+    },
+    {
+     "at": "2026-11-02T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190894"
+    },
+    {
+     "at": "2026-11-02T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190895"
+    },
+    {
+     "at": "2026-11-03T12:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190915"
+    },
+    {
+     "at": "2026-11-03T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190916"
+    },
+    {
+     "at": "2026-11-03T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190917"
+    },
+    {
+     "at": "2026-11-04T12:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190938"
+    },
+    {
+     "at": "2026-11-04T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190939"
+    },
+    {
+     "at": "2026-11-04T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190940"
+    },
+    {
+     "at": "2026-11-05T12:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190958"
+    },
+    {
+     "at": "2026-11-05T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190959"
+    },
+    {
+     "at": "2026-11-05T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4190960"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4191004"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4191005"
+    },
+    {
+     "at": "2026-10-31T21:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4191006"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190882"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190883"
+    },
+    {
+     "at": "2026-11-01T21:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190884"
+    },
+    {
+     "at": "2026-11-02T14:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190902"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190903"
+    },
+    {
+     "at": "2026-11-02T21:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190904"
+    },
+    {
+     "at": "2026-11-03T14:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190924"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190925"
+    },
+    {
+     "at": "2026-11-03T21:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190926"
+    },
+    {
+     "at": "2026-11-04T14:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190947"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190948"
+    },
+    {
+     "at": "2026-11-04T21:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190949"
+    },
+    {
+     "at": "2026-11-05T14:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190967"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190968"
+    },
+    {
+     "at": "2026-11-05T21:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-only-living-pickpocket-in-new-york/4190969"
+    }
+   ]
+  },
+  {
+   "title": "Burnin' Down The House",
+   "rating": "PG-13",
+   "runtime_min": 80,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/burnin-down-the-house/",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/burnin-down-the-house/4086390"
+    }
+   ]
+  },
+  {
+   "title": "A Talent for Murder",
+   "rating": "R",
+   "runtime_min": 106,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/a-talent-for-murder/",
+   "shows": [
+    {
+     "at": "2026-10-31T16:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4191003"
+    },
+    {
+     "at": "2026-10-31T20:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4191001"
+    },
+    {
+     "at": "2026-11-01T16:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190881"
+    },
+    {
+     "at": "2026-11-01T20:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190879"
+    },
+    {
+     "at": "2026-11-02T16:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190901"
+    },
+    {
+     "at": "2026-11-02T20:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190899"
+    },
+    {
+     "at": "2026-11-03T16:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190923"
+    },
+    {
+     "at": "2026-11-03T20:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190921"
+    },
+    {
+     "at": "2026-11-04T12:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190945"
+    },
+    {
+     "at": "2026-11-04T16:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190946"
+    },
+    {
+     "at": "2026-11-04T20:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190944"
+    },
+    {
+     "at": "2026-11-05T16:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190966"
+    },
+    {
+     "at": "2026-11-05T20:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/a-talent-for-murder/4190964"
+    }
+   ]
+  },
+  {
+   "title": "The Social Reckoning",
+   "rating": "R",
+   "runtime_min": 112,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/the-social-reckoning/",
+   "shows": [
+    {
+     "at": "2026-10-31T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-social-reckoning/4191000"
+    },
+    {
+     "at": "2026-11-01T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-social-reckoning/4190878"
+    },
+    {
+     "at": "2026-11-02T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-social-reckoning/4190898"
+    },
+    {
+     "at": "2026-11-03T15:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-social-reckoning/4190919"
+    },
+    {
+     "at": "2026-11-03T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-social-reckoning/4190920"
+    },
+    {
+     "at": "2026-11-04T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-social-reckoning/4190943"
+    },
+    {
+     "at": "2026-11-05T12:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-social-reckoning/4190961"
+    },
+    {
+     "at": "2026-11-05T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-social-reckoning/4190963"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

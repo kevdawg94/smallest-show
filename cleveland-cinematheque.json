@@ -1,0 +1,107 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "cleveland-cinematheque",
+ "name": "Cinematheque",
+ "city": "cleveland",
+ "area": "University Circle",
+ "region": "East Side",
+ "url": "https://cinematheque.cia.edu/",
+ "films": [
+  {
+   "title": "Mothra vs. Godzilla",
+   "rating": null,
+   "runtime_min": 89,
+   "url": "https://cinematheque.cia.edu/",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://cinematheque.cia.edu/purchase/248805/"
+    },
+    {
+     "at": "2026-11-01T19:10",
+     "sold_out": false,
+     "url": "https://cinematheque.cia.edu/purchase/248814/"
+    }
+   ]
+  },
+  {
+   "title": "Lady",
+   "rating": null,
+   "runtime_min": 95,
+   "url": "https://cinematheque.cia.edu/",
+   "shows": [
+    {
+     "at": "2026-10-31T17:00",
+     "sold_out": false,
+     "url": "https://cinematheque.cia.edu/purchase/248804/"
+    }
+   ]
+  },
+  {
+   "title": "Jigoku",
+   "rating": null,
+   "runtime_min": 99,
+   "url": "https://cinematheque.cia.edu/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://cinematheque.cia.edu/purchase/248806/"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://cinematheque.cia.edu/purchase/248810/"
+    }
+   ]
+  },
+  {
+   "title": "The Devil's Eye",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://cinematheque.cia.edu/",
+   "shows": [
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://cinematheque.cia.edu/purchase/248811/"
+    }
+   ]
+  },
+  {
+   "title": "Atonement",
+   "rating": null,
+   "runtime_min": 118,
+   "url": "https://cinematheque.cia.edu/",
+   "shows": [
+    {
+     "at": "2026-11-05T18:45",
+     "sold_out": false,
+     "url": "https://cinematheque.cia.edu/purchase/275648/"
+    }
+   ]
+  },
+  {
+   "title": "Drive",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://cinematheque.cia.edu/",
+   "shows": [
+    {
+     "at": "2026-11-05T21:15",
+     "sold_out": false,
+     "url": "https://cinematheque.cia.edu/purchase/275649/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

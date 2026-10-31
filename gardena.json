@@ -1,0 +1,96 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "gardena",
+ "name": "Gardena Cinema",
+ "city": "la",
+ "area": "Gardena",
+ "region": "South Bay & Orange County",
+ "url": "https://www.gardenacinema.com/",
+ "films": [
+  {
+   "title": "The Lost Boys",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1310?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-10-31T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1311?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1312?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "Firework Film Festival",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1309?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla, Mothra and King Ghidorah: Giant Monsters",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1328?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-02T21:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1329?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "American Doctor",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-03T20:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1333?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1334?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-05T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1335?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

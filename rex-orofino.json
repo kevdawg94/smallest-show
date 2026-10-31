@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "rex-orofino",
+ "name": "Rex Theater",
+ "city": "palouse",
+ "area": "Orofino",
+ "region": "Orofino",
+ "url": "https://therextheater.com/",
+ "films": [
+  {
+   "title": "Heart of the Beast",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://therextheater.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://events.cocoatickets.com/the-rex-theater/heart-of-the-beast"
+    },
+    {
+     "at": "2026-10-31T18:30",
+     "sold_out": false,
+     "url": "https://events.cocoatickets.com/the-rex-theater/heart-of-the-beast"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://events.cocoatickets.com/the-rex-theater/heart-of-the-beast"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

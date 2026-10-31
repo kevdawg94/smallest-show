@@ -1,0 +1,87 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "state-modesto",
+ "name": "State Theatre",
+ "city": "modesto",
+ "area": "Downtown Modesto",
+ "region": "Modesto",
+ "url": "https://thestate.org/",
+ "films": [
+  {
+   "title": "Casper",
+   "rating": "PG",
+   "runtime_min": 100,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=291261~4e8b4fa5-aaf4-4669-af20-791dec4fd008&",
+   "shows": [
+    {
+     "at": "2026-10-31T10:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=659459~4e8b4fa5-aaf4-4669-af20-791dec4fd008&",
+     "venue": "The State Theatre"
+    }
+   ]
+  },
+  {
+   "title": "Beetlejuice",
+   "rating": "PG",
+   "runtime_min": 92,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=155544~4e8b4fa5-aaf4-4669-af20-791dec4fd008&",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=659460~4e8b4fa5-aaf4-4669-af20-791dec4fd008&",
+     "venue": "The State Theatre"
+    }
+   ]
+  },
+  {
+   "title": "World Without Cows",
+   "rating": null,
+   "runtime_min": 85,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=661333~4e8b4fa5-aaf4-4669-af20-791dec4fd008&",
+   "shows": [
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=662915~4e8b4fa5-aaf4-4669-af20-791dec4fd008&",
+     "venue": "The State Theatre"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=661582~4e8b4fa5-aaf4-4669-af20-791dec4fd008&",
+     "venue": "The State Theatre"
+    },
+    {
+     "at": "2026-11-05T15:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=661583~4e8b4fa5-aaf4-4669-af20-791dec4fd008&",
+     "venue": "The Jewel"
+    }
+   ]
+  },
+  {
+   "title": "You Just Can't See Them From The Road",
+   "rating": null,
+   "runtime_min": 49,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=656178~4e8b4fa5-aaf4-4669-af20-791dec4fd008&",
+   "shows": [
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=656179~4e8b4fa5-aaf4-4669-af20-791dec4fd008&",
+     "venue": "The State Theatre"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

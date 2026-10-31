@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "cactus-theater",
+ "name": "Cactus Theater",
+ "city": "lubbock",
+ "area": "Buddy Holly Avenue",
+ "region": "Lubbock",
+ "url": "https://cactustheater.com/cinema/",
+ "films": [
+  {
+   "title": "Top Gun",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://cactustheater.com/cinema?event_id=148967&su_scroll=1",
+   "shows": [
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://cactustheater.com/cinema?event_id=148967&su_scroll=1"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "marathon-cinema",
+ "name": "Marathon Community Cinema",
+ "city": "keys",
+ "area": "Marathon",
+ "region": "Middle Keys",
+ "url": "https://marathoncinema.com/",
+ "films": [
+  {
+   "title": "The Addams Family",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ww01g7eknyxw3kppmcy6fhej6r",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1531?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1533?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1532?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    }
+   ]
+  },
+  {
+   "title": "A Nightmare on Elm Street",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ww01g7eknyxw3kppmcy6fhej6r",
+   "shows": [
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1530?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

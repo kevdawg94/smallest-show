@@ -1,0 +1,102 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "rodeo",
+ "name": "Rodeo Cinema",
+ "city": "okc",
+ "area": "Stockyards City",
+ "region": "Downtown & Midtown",
+ "url": "https://rodeocinema.org/cinema/",
+ "films": [
+  {
+   "title": "It’s the Great Pumpkin, Charlie Brown",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://rodeocinema.org/events/itsthegreatpumpkincharliebrown/",
+   "shows": [
+    {
+     "at": "2026-10-31T11:00",
+     "sold_out": false,
+     "url": "https://rodeocinema.org/events/itsthegreatpumpkincharliebrown/"
+    }
+   ]
+  },
+  {
+   "title": "Scream",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://rodeocinema.org/events/scream/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://rodeocinema.org/events/scream/"
+    }
+   ]
+  },
+  {
+   "title": "Hansel & Gretel’s Halloween",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://rodeocinema.org/events/hanselgretelshalloween/",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://rodeocinema.org/events/hanselgretelshalloween/"
+    }
+   ]
+  },
+  {
+   "title": "Night of the Living Dead",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://rodeocinema.org/events/nightofthelivingdead/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://rodeocinema.org/events/nightofthelivingdead/"
+    }
+   ]
+  },
+  {
+   "title": "Mouse",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://rodeocinema.org/events/mouse/",
+   "shows": [
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://rodeocinema.org/events/mouse/"
+    }
+   ]
+  },
+  {
+   "title": "Do Us Part",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://rodeocinema.org/events/douspart/",
+   "shows": [
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://rodeocinema.org/events/douspart/"
+    },
+    {
+     "at": "2026-11-06T19:00",
+     "sold_out": false,
+     "url": "https://rodeocinema.org/events/douspart/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "starlight-room",
+ "name": "Starlight Room",
+ "city": "olympic",
+ "area": "Port Townsend",
+ "region": "Port Townsend",
+ "url": "https://www.starlightroomtheatre.com/",
+ "films": [
+  {
+   "title": "The Nightmare Before Christmas",
+   "rating": "PG",
+   "runtime_min": 76,
+   "url": "https://www.starlightroomtheatre.com/movie/the-nightmare-before-christmas/",
+   "shows": [
+    {
+     "at": "2026-10-31T17:30",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/the-nightmare-before-christmas/4086298"
+    },
+    {
+     "at": "2026-11-01T18:30",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/the-nightmare-before-christmas/4086297"
+    }
+   ]
+  },
+  {
+   "title": "Ken Russell's THE DEVILS",
+   "rating": null,
+   "runtime_min": 114,
+   "url": "https://www.starlightroomtheatre.com/movie/ken-russells-the-devils/",
+   "shows": [
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/ken-russells-the-devils/4173981"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/ken-russells-the-devils/4175693"
+    },
+    {
+     "at": "2026-11-02T18:30",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/ken-russells-the-devils/4175694"
+    },
+    {
+     "at": "2026-11-05T18:30",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/ken-russells-the-devils/4175695"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

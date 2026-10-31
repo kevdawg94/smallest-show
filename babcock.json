@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "babcock",
+ "name": "Babcock Theatre",
+ "city": "billings",
+ "area": "Downtown, Billings",
+ "region": "Downtown Billings",
+ "url": "https://arthousebillings.com/babcock/",
+ "films": [
+  {
+   "title": "Scream",
+   "rating": "R",
+   "runtime_min": 112,
+   "url": "https://arthousebillings.com/babcock/",
+   "shows": [
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://arthousebillings.com/babcock/purchase/1094468/"
+    }
+   ]
+  },
+  {
+   "title": "Coco",
+   "rating": "PG",
+   "runtime_min": 105,
+   "url": "https://arthousebillings.com/babcock/",
+   "shows": [
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://arthousebillings.com/babcock/purchase/1094470/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

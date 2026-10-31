@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "embassy-waltham",
+ "name": "Embassy",
+ "city": "boston",
+ "area": "Waltham",
+ "region": "Suburbs",
+ "url": "https://embassywaltham.com/",
+ "films": [
+  {
+   "title": "Nosferatu",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=drawr1230v9sbzsg41qy3xe55m",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5846?siteToken=drawr1230v9sbzsg41qy3xe55m"
+    }
+   ]
+  },
+  {
+   "title": "Idiocracy",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=drawr1230v9sbzsg41qy3xe55m",
+   "shows": [
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5847?siteToken=drawr1230v9sbzsg41qy3xe55m"
+    },
+    {
+     "at": "2026-11-01T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5848?siteToken=drawr1230v9sbzsg41qy3xe55m"
+    },
+    {
+     "at": "2026-11-03T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5849?siteToken=drawr1230v9sbzsg41qy3xe55m"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

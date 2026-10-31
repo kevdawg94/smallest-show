@@ -1,0 +1,78 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "state-theatre-tc",
+ "name": "State Theatre",
+ "city": "traversecity",
+ "area": "Downtown Traverse City",
+ "region": "Traverse City",
+ "url": "https://stateandbijou.org/",
+ "films": [
+  {
+   "title": "Scooby-Doo",
+   "rating": "PG",
+   "runtime_min": 87,
+   "url": "https://secure.traversecityfilmfest.org/websales/pages/info.aspx?evtinfo=1040346~462fdd21-873c-4827-b227-8a36b913e449&",
+   "shows": [
+    {
+     "at": "2026-10-31T10:00",
+     "sold_out": false,
+     "url": "https://secure.traversecityfilmfest.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040347~462fdd21-873c-4827-b227-8a36b913e449&"
+    }
+   ]
+  },
+  {
+   "title": "Naza",
+   "rating": "NR",
+   "runtime_min": 77,
+   "url": "https://secure.traversecityfilmfest.org/websales/pages/info.aspx?evtinfo=1043104~462fdd21-873c-4827-b227-8a36b913e449&",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://secure.traversecityfilmfest.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043248~462fdd21-873c-4827-b227-8a36b913e449&"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://secure.traversecityfilmfest.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043247~462fdd21-873c-4827-b227-8a36b913e449&"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://secure.traversecityfilmfest.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043246~462fdd21-873c-4827-b227-8a36b913e449&"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://secure.traversecityfilmfest.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043249~462fdd21-873c-4827-b227-8a36b913e449&"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": "NR",
+   "runtime_min": 101,
+   "url": "https://secure.traversecityfilmfest.org/websales/pages/info.aspx?evtinfo=1036911~462fdd21-873c-4827-b227-8a36b913e449&",
+   "shows": [
+    {
+     "at": "2026-11-03T13:00",
+     "sold_out": false,
+     "url": "https://secure.traversecityfilmfest.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036912~462fdd21-873c-4827-b227-8a36b913e449&"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://secure.traversecityfilmfest.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036913~462fdd21-873c-4827-b227-8a36b913e449&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

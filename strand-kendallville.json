@@ -1,0 +1,114 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "strand-kendallville",
+ "name": "Strand Theatre",
+ "city": "fortwayne",
+ "area": "Kendallville",
+ "region": "Kendallville & Garrett",
+ "url": "https://www.strand-theatre.com/",
+ "films": [
+  {
+   "title": "Child’s Play",
+   "rating": "R",
+   "runtime_min": 87,
+   "url": "https://www.strand-theatre.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "NR",
+   "runtime_min": 108,
+   "url": "https://www.strand-theatre.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-11-01T13:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-11-01T19:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Shining",
+   "rating": "R",
+   "runtime_min": 146,
+   "url": "https://www.strand-theatre.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T16:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    }
+   ]
+  },
+  {
+   "title": "Halloween",
+   "rating": "R",
+   "runtime_min": 91,
+   "url": "https://www.strand-theatre.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-10-31T22:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://www.strand-theatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-01T00:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

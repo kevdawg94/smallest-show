@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "arena-theater",
+ "name": "Arena Theater",
+ "city": "mendocino",
+ "area": "Point Arena",
+ "region": "Mendocino Coast",
+ "url": "https://arenatheater.org/",
+ "films": [
+  {
+   "title": "Halloween with Orchestra Gold",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://arenatheater.eventive.org/films/6ab1a5279f6f83fe05ebc244",
+   "shows": [
+    {
+     "at": "2026-10-31T19:30",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule/6ab1a5c3e6d35201da461422"
+    }
+   ]
+  },
+  {
+   "title": "The Social Reckoning",
+   "rating": null,
+   "runtime_min": 113,
+   "url": "https://arenatheater.eventive.org/films/6ad64fede13939846002cf43",
+   "shows": [
+    {
+     "at": "2026-11-01T16:00",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule/6ae4aa96eb5a66ea4568ebcf"
+    },
+    {
+     "at": "2026-11-05T19:00",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule/6ae4aacfda06f900f3a31332"
+    }
+   ]
+  },
+  {
+   "title": "Mr. Smith Goes to Washington",
+   "rating": null,
+   "runtime_min": 130,
+   "url": "https://arenatheater.eventive.org/films/6a724159f31a0ea82ca4a118",
+   "shows": [
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule/6a724218ee8f69002864e57d"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

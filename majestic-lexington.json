@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "majestic-lexington",
+ "name": "Majestic Theatre",
+ "city": "kearney",
+ "area": "Lexington",
+ "region": "Lexington, Cozad & Gothenburg",
+ "url": "https://lexmajestic.org/",
+ "films": [
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=zyph7acw9zh8pjz42scke8g7a8",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2382?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2384?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    },
+    {
+     "at": "2026-11-04T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2383?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

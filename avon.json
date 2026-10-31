@@ -1,0 +1,90 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "avon",
+ "name": "Avon Cinema",
+ "city": "providence",
+ "area": "East Side, Providence",
+ "region": "Providence & the East Bay",
+ "url": "https://avoncinema.com/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://avoncinema.com/trailers/?movie_id=648",
+   "shows": [
+    {
+     "at": "2026-10-31T16:05",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    },
+    {
+     "at": "2026-10-31T18:20",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    },
+    {
+     "at": "2026-11-01T16:05",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    },
+    {
+     "at": "2026-11-01T18:20",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    },
+    {
+     "at": "2026-11-02T16:05",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    },
+    {
+     "at": "2026-11-02T18:20",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    },
+    {
+     "at": "2026-11-03T16:05",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    },
+    {
+     "at": "2026-11-03T18:20",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    },
+    {
+     "at": "2026-11-05T16:05",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    },
+    {
+     "at": "2026-11-05T18:20",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    }
+   ]
+  },
+  {
+   "title": "Warren Miller's Days Off",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://avoncinema.com/trailers/?movie_id=660",
+   "shows": [
+    {
+     "at": "2026-11-04T19:30",
+     "sold_out": false,
+     "url": "https://avoncinema.com/now-playing.php"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-31T03:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,171 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "greenbelt-cinema",
+ "name": "Greenbelt Cinema",
+ "city": "dc",
+ "area": "Greenbelt",
+ "region": "Maryland",
+ "url": "https://www.greenbeltcinema.org/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://greenbeltcinema.org/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-10-31T13:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4218876"
+    },
+    {
+     "at": "2026-10-31T17:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4234114"
+    },
+    {
+     "at": "2026-11-01T14:10",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4218954"
+    },
+    {
+     "at": "2026-11-01T17:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4218953"
+    },
+    {
+     "at": "2026-11-02T13:20",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4219032"
+    },
+    {
+     "at": "2026-11-03T14:50",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4234113"
+    },
+    {
+     "at": "2026-11-03T18:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4219036"
+    },
+    {
+     "at": "2026-11-04T17:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4219040"
+    },
+    {
+     "at": "2026-11-05T16:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4219041"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon A Time In Harlem",
+   "rating": "PG-13",
+   "runtime_min": 100,
+   "url": "https://greenbeltcinema.org/movie/once-upon-a-time-in-harlem/",
+   "shows": [
+    {
+     "at": "2026-10-31T14:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/once-upon-a-time-in-harlem/4218874"
+    },
+    {
+     "at": "2026-10-31T19:45",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/once-upon-a-time-in-harlem/4218873"
+    },
+    {
+     "at": "2026-11-01T14:30",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/once-upon-a-time-in-harlem/4218955"
+    },
+    {
+     "at": "2026-11-02T17:05",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/once-upon-a-time-in-harlem/4219033"
+    },
+    {
+     "at": "2026-11-03T16:10",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/once-upon-a-time-in-harlem/4219037"
+    },
+    {
+     "at": "2026-11-04T19:25",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/once-upon-a-time-in-harlem/4219038"
+    },
+    {
+     "at": "2026-11-05T17:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/once-upon-a-time-in-harlem/4219042"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://greenbeltcinema.org/movie/wicker-2/",
+   "shows": [
+    {
+     "at": "2026-10-31T17:20",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wicker-2/4218875"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wicker-2/4218956"
+    },
+    {
+     "at": "2026-11-02T16:45",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wicker-2/4219034"
+    },
+    {
+     "at": "2026-11-03T19:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wicker-2/4219035"
+    },
+    {
+     "at": "2026-11-04T17:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wicker-2/4219039"
+    },
+    {
+     "at": "2026-11-05T19:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wicker-2/4219043"
+    }
+   ]
+  },
+  {
+   "title": "The Maltese Falcon",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://greenbeltcinema.org/movie/the-maltese-falcon/",
+   "shows": [
+    {
+     "at": "2026-11-02T13:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/the-maltese-falcon/4219903"
+    },
+    {
+     "at": "2026-11-05T20:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/the-maltese-falcon/4220924"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "maiden-alley-cinema",
+ "name": "Maiden Alley Cinema",
+ "city": "paducah",
+ "area": "Downtown, Paducah",
+ "region": "Downtown Paducah",
+ "url": "https://maidenalleycinema.org/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=660866~3b7c9544-2d63-4f4a-87f0-344eead928a2&",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=665998~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=665999~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-01T14:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666001~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666002~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-02T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666003~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

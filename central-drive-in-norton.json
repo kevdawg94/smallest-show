@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "central-drive-in-norton",
+ "name": "Central Drive-In",
+ "city": "bristol",
+ "area": "Norton, VA",
+ "region": "Norton",
+ "url": "https://www.nortoncinema.com/theaters/x061v-central-drive-in-norton",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 109,
+   "url": "https://www.nortoncinema.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://internet-ticketing.com/websales/sales/CENNOR/book?perfcode=50898"
+    }
+   ]
+  },
+  {
+   "title": "The Lost Boys (1987)",
+   "rating": "R",
+   "runtime_min": 98,
+   "url": "https://www.nortoncinema.com/",
+   "shows": [
+    {
+     "at": "2026-10-31T19:00",
+     "sold_out": false,
+     "url": "https://internet-ticketing.com/websales/sales/CENNOR/book?perfcode=50898"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}

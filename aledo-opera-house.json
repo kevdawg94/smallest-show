@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-10-31T03:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-10-31",
+  "2026-11-07"
+ ],
+ "id": "aledo-opera-house",
+ "name": "Aledo Opera House",
+ "city": "quadcities",
+ "area": "Aledo",
+ "region": "Aledo & Mercer County",
+ "url": "https://www.aledooperahouse.com/",
+ "films": [
+  {
+   "title": "Coco",
+   "rating": "PG",
+   "runtime_min": 105,
+   "url": "https://www.AledoOperaHouse.com/movie/coco/",
+   "shows": [
+    {
+     "at": "2026-10-31T15:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/coco/3291389"
+    },
+    {
+     "at": "2026-11-01T15:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/coco/3291390"
+    },
+    {
+     "at": "2026-11-03T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/coco/3685786"
+    },
+    {
+     "at": "2026-11-05T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/coco/3685783"
+    }
+   ]
+  },
+  {
+   "title": "Beetlejuice",
+   "rating": "PG",
+   "runtime_min": 92,
+   "url": "https://www.AledoOperaHouse.com/movie/beetlejuice/",
+   "shows": [
+    {
+     "at": "2026-10-31T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/beetlejuice/3291391"
+    },
+    {
+     "at": "2026-10-31T20:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/beetlejuice/3291394"
+    },
+    {
+     "at": "2026-11-01T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/beetlejuice/3291392"
+    },
+    {
+     "at": "2026-11-02T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/beetlejuice/3685784"
+    },
+    {
+     "at": "2026-11-04T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/beetlejuice/3685785"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-10-30T21:23",
+ "error": null,
+ "warning": null
+}
