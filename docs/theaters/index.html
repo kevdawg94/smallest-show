@@ -42,11 +42,12 @@
     <li><b>A ticketing platform</b> that shows what's sold out: five times a day, about every three hours from 9 am to 9 pm Pacific.</li>
     <li><b>A theater's own website</b>, or a platform whose pages don't show what's sold out: twice a day, around 6 am and 6 pm Eastern.</li>
   </ul>
-  <p>Both are an hour earlier in winter. Now and then, when we add a theater or fix how one is read, a person also checks its pages by hand, under the same name.</p>
+  <p>Those are local clock times, the same all year. Now and then, when we add a theater or fix how one is read, a person also checks its pages by hand, under the same name.</p>
 
   <h2>How politely</h2>
   <ul>
     <li>No more than two requests at a time to any one site, and no more than two theaters on the same platform read at once.</li>
+    <li>A site on TheaterToolkit, whose pages come one day at a time, gets a slower pace: after seven requests (one theater's week), one every two seconds, so never more than 37 in a minute however many theaters it hosts.</li>
     <li>Every request asks for gzip, so a page comes over at a fraction of its size.</li>
     <li>A refused request isn't retried. A server error or a timeout gets two more tries, a few seconds apart.</li>
     <li>A 429, or a 503 with Retry-After: we wait the pause you ask for, up to a minute, and try once more. If you ask for longer, send a 429 with no pause, or push back again, we leave that site, and every theater on that platform, alone until the next scheduled read.</li>
