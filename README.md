@@ -13,7 +13,8 @@ then add a large Scriptable widget to the home screen.
 
 - `widget/SmallestShow.js` is the script. Installed copies check `docs/version.json` once a day and
   update themselves; there's nothing to paste again.
-- `docs/` is the install page (GitHub Pages), the page for theaters (`docs/theaters/`), the one-tap
+- `docs/` is the site at smallest.show (GitHub Pages): the install page, the map (`docs/map/`), the
+  About page (`docs/about/`), the page for theaters (`docs/theaters/`), the one-tap
   `SmallestShow.scriptable` and `version.json`.
 - The `feeds` branch is what the widget reads: `index.json` (the cities and their theaters) and one
   `<theater id>.json` per theater with the next seven days of shows. Times are each theater's own

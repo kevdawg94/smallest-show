@@ -5,86 +5,334 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Smallest Show</title>
 <meta name="description" content="Tonight at America's independent cinemas, on your iPhone home screen: what's playing, what's sold out, a tap to tickets.">
+<meta property="og:title" content="Smallest Show">
+<meta property="og:description" content="Tonight at America's independent cinemas, on your iPhone home screen: what's playing, what's sold out, a tap to tickets.">
+<meta property="og:url" content="https://smallest.show/">
+<link rel="stylesheet" href="./site.css">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<meta name="theme-color" content="#fbf8f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131210" media="(prefers-color-scheme: dark)">
+<meta property="og:site_name" content="Smallest Show">
+<meta property="og:image" content="https://smallest.show/img/widget.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script>document.documentElement.classList.add("js")</script>
+
 <style>
-  :root { --paper: #fbf8f2; --ink: #1c1b19; --muted: #8a8680; --faint: #d9d4ca; --chip: #efe9df; --accent: #b4482b; }
-  @media (prefers-color-scheme: dark) { :root { --paper: #141311; --ink: #f2efe8; --muted: #8f8b84; --faint: #3a3834; --chip: #2a2825; } }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  main { max-width: 34rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
-  h1 { font-size: 2.2rem; letter-spacing: -0.02em; margin: 0 0 0.25rem; }
-  h1 small { display: block; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-weight: 600; margin-bottom: 0.5rem; }
-  .lede { color: var(--muted); margin: 0 0 2rem; }
-  .buttons { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
-  .button { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; padding: 0.8rem 1.3rem; border-radius: 0.6rem; }
-  .button.secondary { background: var(--chip); color: var(--ink); }
-  .button:active { opacity: 0.85; }
-  .button small { display: block; font-weight: 400; font-size: 0.75rem; opacity: 0.8; }
-  .note { font-size: 0.9rem; color: var(--muted); margin: 0.6rem 0 2.5rem; }
-  h2 { font-size: 1.05rem; margin: 2rem 0 0.5rem; }
-  ol { padding-left: 1.3rem; margin: 0; }
-  li { margin: 0.4rem 0; }
-  li b { font-weight: 600; }
-  .stats { display: flex; gap: 0.5rem; margin: 0.6rem 0 0; padding: 0; list-style: none; }
-  .stats li { flex: 1 1 0; margin: 0; background: var(--chip); border-radius: 0.6rem; padding: 0.6rem 0.7rem; font-size: 0.8rem; color: var(--muted); line-height: 1.3; }
-  .stats b { display: block; font-size: 1.35rem; font-weight: 650; color: var(--ink); letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
-  .shot { display: block; width: 100%; max-width: 17rem; margin: 0 0 1.75rem; border-radius: 1.6rem; box-shadow: 0 1px 2px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.10); }
-  .shots { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1rem 0 0.5rem; }
-  .shots figure { flex: 1 1 13rem; max-width: 17rem; margin: 0; }
-  .shots img { display: block; width: 100%; border-radius: 1rem; border: 1px solid var(--faint); }
-  .shots figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.4rem; }
-  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--faint); font-size: 0.85rem; color: var(--muted); }
-  footer a, p a { color: inherit; }
+  /* The hero: words and buttons beside the widget; on a phone, the widget between them */
+  .hero { display: grid; gap: 2rem; grid-template-areas: "text" "shot" "cta"; padding-top: clamp(1.5rem, 5vw, 4rem); padding-bottom: clamp(3rem, 7vw, 5.5rem); align-items: center; }
+  .hero-text { grid-area: text; }
+  .hero-text .lede { margin-bottom: 0; }
+  .hero-cta { grid-area: cta; }
+  .hero-shot { grid-area: shot; width: 100%; max-width: 28rem; justify-self: center; }
+  .hero-shot img { border-radius: 1.9rem; }
+  @media (min-width: 54rem) {
+    .hero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); grid-template-areas: "text shot" "cta shot"; column-gap: clamp(3rem, 6vw, 5.5rem); row-gap: 2rem; align-items: end; }
+    .hero-cta { align-self: start; }
+    .hero-shot { justify-self: end; }
+  }
+  .hero h1 { font-size: clamp(3rem, 1.8rem + 4.6vw, 5.2rem); }
+  .hero-cta .note { margin: 0.75rem 0 0; }
+  .scan { display: none; align-items: center; gap: 1rem; margin-top: 2rem; max-width: 24rem; }
+  .scan img { width: 5.5rem; height: 5.5rem; padding: 0.45rem; background: #fff; color: #000; border-radius: 0.6rem; box-shadow: inset 0 0 0 1px var(--faint); flex: none; }
+  .scan p { margin: 0; font-size: 0.9rem; color: var(--muted); }
+  @media (min-width: 54rem) and (hover: hover) and (pointer: fine) { .scan { display: flex; } }
+
+  /* Tonight, somewhere: four theaters, each a small card cut like the widget */
+  .board { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr)); min-height: 11rem; }
+  .ticket { background: var(--card); border-radius: 1.1rem; padding: 1rem 1.1rem 1.15rem; box-shadow: var(--shadow); animation: rise 0.5s ease both; animation-delay: calc(var(--i, 0) * 80ms); }
+  .ticket header { margin-bottom: 0.7rem; }
+  .ticket .name { display: block; font-weight: 650; font-size: 1.08rem; line-height: 1.2; text-decoration: none; }
+  .ticket .name:hover { text-decoration: underline; }
+  .ticket .place { display: block; font-size: 0.8rem; color: var(--muted); margin-top: 0.15rem; }
+  .ticket ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+  .ticket li { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem; font-size: 0.86rem; color: var(--ink-2); line-height: 1.3; }
+  .ticket .film { margin-right: 0.25rem; }
+  .ticket .chip { font-size: 0.86rem; }
+  .ticket .more { font-size: 0.8rem; color: var(--muted); }
+  .ticket.ghost { box-shadow: none; background: color-mix(in srgb, var(--card) 55%, transparent); min-height: 10rem; animation: none; }
+  .ticket.ghost i { display: block; height: 0.8rem; border-radius: 0.3rem; background: var(--chip); margin: 0 0 0.7rem; width: 60%; animation: pulse 1.4s ease-in-out infinite alternate; }
+  .ticket.ghost i:nth-child(2) { width: 40%; margin-bottom: 1.2rem; }
+  .ticket.ghost i:nth-child(n+3) { width: 85%; }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  @keyframes pulse { from { opacity: 0.45; } to { opacity: 1; } }
+  #shuffle[disabled] { opacity: 0.5; cursor: default; transform: none; box-shadow: none; }
+  #shuffle svg { width: 1rem; height: 1rem; vertical-align: -0.15rem; margin-right: 0.35rem; transition: transform 0.4s ease; }
+  #shuffle:hover svg { transform: rotate(180deg); }
+
+  /* Three steps */
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 2.5rem 2rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16.5rem), 1fr)); }
+  .step-n { display: block; font: 600 2.6rem/1 var(--serif); color: var(--accent); margin-bottom: 0.6rem; font-variant-numeric: lining-nums; }
+  .step p { color: var(--ink-2); margin-bottom: 1.25rem; }
+  .step b { font-weight: 600; color: var(--ink); }
+  .fade img { border-radius: 1rem; box-shadow: none; border: 1px solid var(--faint); -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent); mask-image: linear-gradient(to bottom, #000 62%, transparent); max-height: 21rem; object-fit: cover; object-position: top; }
+  .compact .button { padding: 0.55rem 0.95rem; font-size: 0.92rem; }
+  .taps { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--faint); }
+
+  /* What you can follow */
+  .follow { display: grid; gap: 2.5rem; align-items: end; }
+  @media (min-width: 54rem) { .follow { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 4rem; } }
+  .follow p { color: var(--ink-2); }
+  .stats { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+  .stats li { border-top: 1.5px solid var(--ink); padding-top: 0.7rem; color: var(--muted); font-size: 0.85rem; line-height: 1.3; }
+  .stats b { display: block; font: 600 clamp(1.4rem, 0.9rem + 2.4vw, 2.7rem)/1.05 var(--serif); color: var(--ink); font-variant-numeric: tabular-nums lining-nums; letter-spacing: -0.01em; margin-bottom: 0.3rem; }
 </style>
 </head>
 <body>
+<header class="masthead wrap">
+  <a class="wordmark" href="./" data-nav="home" aria-current="page"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--accent)"/><rect x="5" y="11" width="22" height="10" rx="2.5" fill="var(--paper)"/><g fill="var(--accent)"><circle cx="9.5" cy="16" r="1.6"/><circle cx="14" cy="16" r="1.6"/><circle cx="18.5" cy="16" r="1.6"/><circle cx="23" cy="16" r="1.6"/></g></svg>Smallest Show</a>
+  <nav aria-label="Site">
+    <a href="./map/" data-nav="map">Map</a>
+    <a href="./about/" data-nav="about">About</a>
+    <a href="./theaters/" data-nav="theaters">For theaters</a>
+  </nav>
+</header>
+
 <main>
-  <h1><small>iPhone widget</small>Smallest Show</h1>
-  <p class="lede">Tonight at the independent cinemas of <span id="city-count">dozens of</span> American cities: what's playing, what's sold out, a tap to tickets. Pick your city, then the theaters you go to.</p>
-
-  <img class="shot" src="img/home.png" alt="An iPhone home screen with the large Smallest Show widget at the top: TONIGHT, Fri Oct 23, then four theaters, each with its films and tappable showtimes, sold-out times greyed; the dock below">
-
-  <div class="buttons">
-    <a class="button secondary" href="https://apps.apple.com/us/app/scriptable/id1405459188">1. Get Scriptable <small>free, on the App Store</small></a>
-    <a class="button" href="SmallestShow.scriptable" download="SmallestShow.scriptable">2. Add to Scriptable <small>the Smallest Show script</small></a>
-  </div>
-  <p class="note">Already have Scriptable? Just the second button. Nothing to edit; the script keeps itself up to date.</p>
-
-  <h2>Three steps</h2>
-  <ol>
-    <li>With Scriptable installed, tap <b>Add to Scriptable</b> above. Safari downloads <i>SmallestShow.scriptable</i>; open it from the Downloads arrow (or Files) and Scriptable asks to add it. Tap <b>Add</b>, then run it once: it asks <b>which theaters you go to</b>; tick yours and close the sheet. The <b>Theaters ›</b> row at the top of the list changes them any time.
-      <div class="shots">
-        <figure><img src="img/theaters-sheet-2.png" alt="The Theaters sheet in Scriptable: a list of Bay Area theaters with a check beside the followed ones, each with its area and how many films it has this week"><figcaption>Tick the theaters you go to.</figcaption></figure>
-        <figure><img src="img/list-2.png" alt="The in-app list: earlier and later buttons, the Theaters row, then each theater's shows for tonight with a tickets link, one marked sold out"><figcaption>The list, with the Theaters row at the top.</figcaption></figure>
+  <section class="hero wrap">
+    <div class="hero-text">
+      <span class="eyebrow">An iPhone widget</span>
+      <h1>Smallest Show</h1>
+      <p class="lede">Tonight at the independent cinemas of <span id="city-count">nearly 300</span> American cities: what's playing, what's sold out, a tap to tickets. Pick your city, then the theaters you go to.</p>
+    </div>
+    <figure class="print hero-shot">
+      <img src="img/widget.jpg" width="960" height="1019" alt="The large Smallest Show widget on an iPhone home screen: TOMORROW, Thu, Nov 5, then Grand Lake, Piedmont, Rialto Elmwood and the Roxie, each with its films and a row of tappable showtimes">
+    </figure>
+    <div class="hero-cta">
+      <div class="buttons">
+        <a class="button quiet" href="https://apps.apple.com/us/app/scriptable/id1405459188">1. Get Scriptable <small>free, on the App Store</small></a>
+        <a class="button" href="SmallestShow.scriptable" download="SmallestShow.scriptable">2. Add to Scriptable <small>the Smallest Show script</small></a>
       </div>
-    </li>
-    <li>On the home screen, long-press, <b>Edit › Add Widget</b>, search <b>Scriptable</b>, pick the <b>large</b> size.</li>
-    <li>Long-press the new widget, <b>Edit Widget</b>: Script <b>Smallest Show</b>, When Interacting <b>Run Script</b>.</li>
-  </ol>
-  <p class="note">A time taps to that show's ticket page, a theater's name to its site, the title to the full list. Sold-out times are greyed. After the last show the widget rolls to tomorrow.</p>
+      <p class="note">Already have Scriptable? Just the second button. Nothing to edit; the script keeps itself up to date.</p>
+      <div class="scan">
+        <img src="img/qr.svg" alt="A QR code for smallest.show">
+        <p>On a computer? Point your iPhone's camera here to open this page on the phone, where the buttons work.</p>
+      </div>
+    </div>
+  </section>
 
-  <h2>Theaters you can follow</h2>
-  <ul class="stats" id="stats">
-    <li><b id="n-theaters">…</b>theaters</li>
-    <li><b id="n-cities">…</b>cities</li>
-    <li><b id="n-shows">…</b>showtimes this week</li>
-  </ul>
-  <div class="buttons" style="margin-top: 0.9rem"><a class="button secondary" href="map/">See them on a map <small>with a list by state and a search</small></a></div>
-  <p class="note">Listings are rebuilt every three hours through the day from each theater's own ticketing.</p>
+  <section class="section band" id="tonight" hidden>
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">From the listings, live</span>
+          <h2>Tonight, somewhere</h2>
+          <p>Four of the <span id="n-theaters-2">theaters</span> the widget reads, picked at random, with what's still to come today. A time goes to its ticket page.</p>
+        </div>
+        <button class="button quiet" id="shuffle" type="button"><span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M13.5 2.5v3h-3"/></svg>Four more</span></button>
+      </div>
+      <div class="board" id="board" aria-live="polite"></div>
+    </div>
+  </section>
 
-  <footer>Made by Kevin Celustka for his own Friday nights, and named for <i>The Smallest Show on Earth</i> (1957), where a young couple inherit a run-down cinema between two railway bridges. The widget and its listings are at <a href="https://github.com/kevdawg94/smallest-show">github.com/kevdawg94/smallest-show</a>; no accounts, no tracking, the widget reads a public file. Run a cinema? <a href="theaters/">For theaters</a>: what we read, how often, and how to reach us.</footer>
+  <section class="section wrap" id="install">
+    <div class="section-head reveal">
+      <div><span class="eyebrow">Install</span><h2>Three steps</h2></div>
+    </div>
+    <ol class="steps">
+      <li class="step reveal">
+        <span class="step-n">1</span>
+        <h3>Add the script</h3>
+        <p>With Scriptable installed, tap <b>Add to Scriptable</b>. Safari downloads <i>SmallestShow.scriptable</i>; open it from the Downloads arrow (or Files), and Scriptable asks to add it. Tap <b>Add</b>.</p>
+        <div class="buttons compact">
+          <a class="button quiet" href="https://apps.apple.com/us/app/scriptable/id1405459188">Get Scriptable</a>
+          <a class="button" href="SmallestShow.scriptable" download="SmallestShow.scriptable">Add to Scriptable</a>
+        </div>
+      </li>
+      <li class="step reveal">
+        <span class="step-n">2</span>
+        <h3>Pick your theaters</h3>
+        <p>Run it once. It asks where you go to the movies, then <b>which theaters you go to</b>: tick yours and close the sheet. The <b>Theaters ›</b> row at the top of the list changes them any time.</p>
+        <figure class="print fade"><img src="img/theaters-sheet.png" width="600" height="927" loading="lazy" alt="The Theaters sheet: Bay Area theaters, each with its neighborhood and how many films it has this week, a check beside the four followed"></figure>
+      </li>
+      <li class="step reveal">
+        <span class="step-n">3</span>
+        <h3>Add the widget</h3>
+        <p>On the home screen, long-press, <b>Edit › Add Widget</b>, search <b>Scriptable</b> and pick the <b>large</b> size. Long-press it again, <b>Edit Widget</b>: Script <b>Smallest Show</b>, When Interacting <b>Run Script</b>.</p>
+        <figure class="print fade"><img src="img/list.png" width="600" height="719" loading="lazy" alt="The full list the widget opens: tonight's shows by theater, each time beside its film, its rating and running time, a sold-out show greyed"></figure>
+      </li>
+    </ol>
+    <p class="note taps reveal">On the widget, a time taps to that show's ticket page, a theater's name to its site, the title to the full list. Sold-out times are greyed. After the last show it rolls over to tomorrow.</p>
+  </section>
+
+  <section class="section band" id="theaters">
+    <div class="wrap follow reveal">
+      <div>
+        <span class="eyebrow">Theaters you can follow</span>
+        <h2>Every independent cinema we can read</h2>
+        <p>Listings are rebuilt every three hours through the day from each theater's own ticketing, and more theaters join every week.</p>
+        <div class="buttons">
+          <a class="button quiet" href="map/">See them on a map <small>with a list by state and a search</small></a>
+          <a class="button quiet" href="about/">Why we count them <small>about the project</small></a>
+        </div>
+      </div>
+      <ul class="stats" id="stats">
+        <li><b class="count" id="n-theaters">…</b>theaters</li>
+        <li><b class="count" id="n-cities">…</b>cities</li>
+        <li><b class="count" id="n-shows">…</b>showtimes this week</li>
+      </ul>
+    </div>
+  </section>
 </main>
+<footer class="colophon">
+  <div class="wrap">
+    <div>
+      <svg class="bridges" viewBox="0 0 336 86" role="img" aria-label="A line drawing: a small cinema with a lit marquee, between two railway viaducts, a train crossing the left one">
+        <g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 80H334"/>
+          <path d="M0 31H120M0 36H120M8 36V80M44 36V80M80 36V80M116 36V80M8 60A18 18 0 0 1 44 60M44 60A18 18 0 0 1 80 60M80 60A18 18 0 0 1 116 60"/>
+          <path d="M216 31H336M216 36H336M220 36V80M256 36V80M292 36V80M328 36V80M220 60A18 18 0 0 1 256 60M256 60A18 18 0 0 1 292 60M292 60A18 18 0 0 1 328 60"/>
+          <path d="M18 31V22H34V31M24 22V18M38 23H56V31M60 23H78V31M34 27H38M56 27H60"/>
+          <path d="M144 80V48H192V80M158 48V40H178V48M164 40V35H172V40M136 52H200V60H136Z"/>
+          <path d="M163 80V67H173V80M148 76V65H157V76M179 76V65H188V76"/>
+        </g>
+        <g class="bulb"><circle cx="141" cy="56" r="1.25"/><circle cx="148" cy="56" r="1.25"/><circle cx="155" cy="56" r="1.25"/><circle cx="162" cy="56" r="1.25"/><circle cx="169" cy="56" r="1.25"/><circle cx="176" cy="56" r="1.25"/><circle cx="183" cy="56" r="1.25"/><circle cx="190" cy="56" r="1.25"/><circle cx="197" cy="56" r="1.25"/></g>
+      </svg>
+      <p>Made by Kevin Celustka for his own Friday nights, and named for <i>The Smallest Show on Earth</i> (1957), where a young couple inherit a run-down cinema between two railway bridges.</p>
+      <p>No accounts, no ads, no tracking: the widget reads a public file. The showtimes are the theaters'; we only point to them.</p>
+    </div>
+    <ul>
+      <li><a href="./">Put it on your iPhone</a></li>
+      <li><a href="./map/">Every theater, on a map</a></li>
+      <li><a href="./about/">About the project</a></li>
+      <li><a href="./theaters/">For theaters</a></li>
+      <li><a href="https://github.com/kevdawg94/smallest-show">The widget's code, on GitHub</a></li>
+    </ul>
+  </div>
+</footer>
 <script>
-  fetch("https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/index.json?t=" + Math.floor(Date.now() / 300000))
+  // Sections rise into place once, as they come into view (site.css turns this off for reduced motion)
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  } else {
+    document.querySelectorAll(".reveal").forEach(el => el.classList.add("in"));
+  }
+</script>
+
+<script>
+  const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+  const fresh = "?t=" + Math.floor(Date.now() / 300000); // a new copy at most every five minutes
+  const n = x => x.toLocaleString("en-US");
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // A number counts up the first time it comes into view
+  function countTo(el, value) {
+    if (still || !("IntersectionObserver" in window)) { el.textContent = n(value); return; }
+    el.textContent = "0";
+    const io = new IntersectionObserver(([e]) => {
+      if (!e.isIntersecting) return;
+      io.disconnect();
+      const t0 = performance.now(), ms = 1100;
+      const step = t => {
+        const p = Math.min(1, (t - t0) / ms), eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = n(Math.round(value * eased));
+        if (p < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    });
+    io.observe(el);
+  }
+
+  // A theater's wall clock now, as the feeds write times: "2026-11-05T19:30"
+  function wallNow(tz) {
+    const parts = new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date());
+    const p = Object.fromEntries(parts.map(x => [x.type, x.value]));
+    return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+  }
+  // "19:30" as the widget writes it: 7:30pm, 4pm
+  function clock(at) {
+    let [h, m] = at.slice(11, 16).split(":").map(Number);
+    const ap = h < 12 ? "am" : "pm";
+    h = h % 12 || 12;
+    return m ? `${h}:${String(m).padStart(2, "0")}${ap}` : `${h}${ap}`;
+  }
+  function el(tag, cls, text) {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+
+  // One theater's card, or null when nothing's left today
+  function ticket(feed, cityName, i) {
+    const now = wallNow(feed.tz || "America/New_York"), today = now.slice(0, 10);
+    const films = (feed.films || [])
+      .map(f => ({ f, shows: (f.shows || []).filter(s => s.at.slice(0, 10) === today && s.at.slice(0, 16) >= now) }))
+      .filter(x => x.shows.length)
+      .sort((a, b) => a.shows[0].at.localeCompare(b.shows[0].at))
+      .slice(0, 3);
+    if (!films.length) return null;
+    const card = el("article", "ticket");
+    card.style.setProperty("--i", i);
+    const head = el("header");
+    const name = el("a", "name", feed.name);
+    name.href = feed.url;
+    head.append(name, el("span", "place", [feed.area, cityName].filter((v, k, a) => v && a.indexOf(v) === k).join(", ")));
+    const ul = el("ul");
+    for (const { f, shows } of films) {
+      const li = el("li");
+      li.append(el("span", "film", f.title));
+      for (const s of shows.slice(0, 3)) {
+        let chip;
+        if (s.sold_out) { chip = el("span", "chip out", clock(s.at)); chip.title = "Sold out"; }
+        else { chip = el("a", "chip", clock(s.at)); chip.href = s.url || f.url || feed.url; }
+        li.append(chip);
+      }
+      if (shows.length > 3) li.append(el("span", "more", `+${shows.length - 3}`));
+      ul.append(li);
+    }
+    card.append(head, ul);
+    return card;
+  }
+
+  let index = null, busy = false;
+  async function deal() {
+    if (busy || !index) return;
+    busy = true;
+    const board = document.getElementById("board"), button = document.getElementById("shuffle");
+    button.disabled = true;
+    board.replaceChildren(...Array.from({ length: 4 }, () => { const g = el("div", "ticket ghost"); g.append(el("i"), el("i"), el("i"), el("i")); return g; }));
+    const cities = Object.fromEntries((index.cities || []).map(c => [c.id, c.name]));
+    const pool = index.theaters.filter(t => t.shows > 0 && !t.error);
+    for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+    // One theater a city; four feeds asked for at a time, at most sixteen in all
+    const picks = [], used = new Set();
+    for (const t of pool) {
+      if (picks.length === 16) break;
+      if (!used.has(t.city)) { used.add(t.city); picks.push(t); }
+    }
+    const cards = [];
+    for (let k = 0; k < picks.length && cards.length < 4; k += 4) {
+      const feeds = await Promise.all(picks.slice(k, k + 4).map(t =>
+        fetch(FEEDS + encodeURIComponent(t.id) + ".json" + fresh).then(r => r.json()).then(f => [t, f]).catch(() => null)));
+      for (const got of feeds) {
+        if (!got || cards.length === 4) continue; // one theater's feed missing never stops the rest
+        const card = ticket(got[1], cities[got[0].city], cards.length);
+        if (card) cards.push(card);
+      }
+    }
+    if (cards.length) board.replaceChildren(...cards);
+    else document.getElementById("tonight").hidden = true;
+    button.disabled = false;
+    busy = false;
+  }
+  document.getElementById("shuffle").addEventListener("click", deal);
+
+  fetch(FEEDS + "index.json" + fresh)
     .then(r => r.json())
     .then(idx => {
+      index = idx;
       const served = new Set(idx.theaters.map(t => t.city)); // a city in the catalog with no theaters yet doesn't count
       const cities = (idx.cities || []).filter(c => served.has(c.id)).length;
-      const shows = idx.theaters.reduce((n, t) => n + (t.shows || 0), 0); // each theater's next seven days
-      const n = x => x.toLocaleString("en-US");
+      const shows = idx.theaters.reduce((sum, t) => sum + (t.shows || 0), 0); // each theater's next seven days
       document.getElementById("city-count").textContent = cities;
-      document.getElementById("n-theaters").textContent = n(idx.theaters.length);
-      document.getElementById("n-cities").textContent = n(cities);
-      document.getElementById("n-shows").textContent = n(shows);
+      document.getElementById("n-theaters-2").textContent = n(idx.theaters.length) + " theaters";
+      countTo(document.getElementById("n-theaters"), idx.theaters.length);
+      countTo(document.getElementById("n-cities"), cities);
+      countTo(document.getElementById("n-shows"), shows);
+      document.getElementById("tonight").hidden = false;
+      deal();
     })
     .catch(() => { document.getElementById("stats").remove(); });
 </script>
