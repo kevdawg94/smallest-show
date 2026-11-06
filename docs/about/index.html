@@ -81,8 +81,10 @@
 </head>
 <body>
 <header class="masthead wrap">
-  <a class="wordmark" href="../" data-nav="home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--accent)"/><rect x="5" y="11" width="22" height="10" rx="2.5" fill="var(--paper)"/><g fill="var(--accent)"><circle cx="9.5" cy="16" r="1.6"/><circle cx="14" cy="16" r="1.6"/><circle cx="18.5" cy="16" r="1.6"/><circle cx="23" cy="16" r="1.6"/></g></svg>Smallest Show</a>
+  <a class="wordmark" href="../"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--accent)"/><g transform="rotate(-14 16 16)"><path fill="var(--paper)" d="M5.5 10.6h21v3.1a2.3 2.3 0 0 0 0 4.6v3.1h-21v-3.1a2.3 2.3 0 0 0 0-4.6z"/><path d="M11.2 11.4v9.2" stroke="var(--accent)" stroke-width="1" stroke-dasharray="1.1 1.1"/><circle cx="19" cy="16" r="2" fill="var(--accent)"/></g></svg>Smallest Show</a>
   <nav aria-label="Site">
+    <a href="../" data-nav="home">Widget</a>
+    <a href="../tonight/" data-nav="tonight">Tonight</a>
     <a href="../map/" data-nav="map">Map</a>
     <a href="../about/" data-nav="about" aria-current="page">About</a>
     <a href="../theaters/" data-nav="theaters">For theaters</a>
@@ -114,21 +116,17 @@
         </tbody>
       </table>
     </div>
-    <p>We made the last one ourselves. Across 289 survey areas covering 2,041 of the 3,144 US counties, we checked every house that a directory, a map or a listing site names: open or closed, independent or chain, and whether its schedule can be read. <strong>We found 2,730 open independent cinemas, and the widget reads 1,783 of them, 65%.</strong> The rest are missing for reasons we write down:</p>
+    <p>We made the last one ourselves, and it's still growing: county by county, we checked every cinema a directory, a map or a listing names, open or closed, independent or chain, and whether its schedule can be read. <strong>We found 2,730 open independent cinemas, and the widget reads 1,783 of them, 65%.</strong> The rest are missing for reasons we write down:</p>
 
-    <div class="bar reveal" role="img" aria-label="Of 2,730 independent cinemas: 1,783 read, 303 walled, 208 unreadable, 202 seasonal, 176 below the bar, 55 that block our reader, 3 not yet built">
-      <span class="k0" style="flex-grow: 1783"></span><span class="k1" style="flex-grow: 303"></span><span class="k2" style="flex-grow: 208"></span><span class="k3" style="flex-grow: 202"></span><span class="k4" style="flex-grow: 176"></span><span class="k5" style="flex-grow: 55"></span><span class="k6" style="flex-grow: 3"></span>
+    <div class="bar reveal" role="img" aria-label="Of 2,730 independent cinemas: 1,783 read by the widget, 745 whose times it can't read yet, 202 seasonal">
+      <span class="k0" style="flex-grow: 1783"></span><span class="k2" style="flex-grow: 745"></span><span class="k4" style="flex-grow: 202"></span>
     </div>
     <ul class="legend">
       <li><i class="k0"></i><b>1,783</b>read by the widget</li>
-      <li><i class="k1"></i><b>303</b>behind a login or a bot wall</li>
-      <li><i class="k2"></i><b>208</b>times only in a browser, an image or a PDF</li>
-      <li><i class="k3"></i><b>202</b>seasonal, closed part of the year</li>
-      <li><i class="k4"></i><b>176</b>listings online, but not reliably readable</li>
-      <li><i class="k5"></i><b>55</b>refuse the servers our reader runs on</li>
-      <li><i class="k6"></i><b>3</b>readable, not yet built</li>
+      <li><i class="k2"></i><b>745</b>post their times where the widget can't read them yet</li>
+      <li><i class="k4"></i><b>202</b>seasonal, closed part of the year</li>
     </ul>
-    <p class="asof">As of November 5, 2026. The survey also turned up 2,264 listed cinemas that have closed and 1,625 that belong to chains.</p>
+    <p class="asof">As of November 5, 2026. Along the way the survey set aside more than 2,200 listed cinemas that have closed and about 1,600 that belong to chains.</p>
 
     <div class="rule">
       <p><strong>What counts as independent.</strong> A cinema not owned by a national chain. A circuit counts as a chain when investors own it (a public company, private equity, a conglomerate or another exhibitor), when it runs houses in ten or more states, or when it runs more than 50. A family-, founder-, locally-, employee- or nonprofit-owned circuit of 50 or fewer counts house by house, like any independent, and an art house is never a chain, whoever runs it.</p>
@@ -151,7 +149,7 @@
 
     <h2 id="ours">What Smallest Show does about it</h2>
     <p>It counts. Every three hours through the day, it reads the public schedules of every independent cinema it can, politely and under its own name (<a href="../theaters/">what we read, and how often</a>), and puts tonight's shows on your home screen. Behind the widget, it keeps every read, dated: a week-by-week record of what America's independent screens actually show. As far as we can find, no one else keeps such a record.</p>
-    <p>The survey is the denominator: each house it finds is filed with what keeps it out, so the coverage above can be checked and can grow. A theater behind a wall is one to win back by asking, not a dead end. If you run one, <a href="../theaters/">tell us</a>, and if there's a cinema you go to that's missing, ask on <a href="https://github.com/kevdawg94/smallest-show/issues">GitHub</a>.</p>
+    <p>The survey is the denominator: each house it finds is filed with what keeps it out, so the coverage above can be checked and can grow. A theater the widget can't read yet is one to win back by asking, not a dead end. If you run one, <a href="../theaters/">tell us</a>, and if there's a cinema you go to that's missing, ask on <a href="https://github.com/kevdawg94/smallest-show/issues">GitHub</a>.</p>
 
     <h2 id="sources">Sources</h2>
     <ol class="sources">
@@ -201,6 +199,7 @@
     </div>
     <ul>
       <li><a href="../">Put it on your iPhone</a></li>
+      <li><a href="../tonight/">Tonight, across America</a></li>
       <li><a href="../map/">Every theater, on a map</a></li>
       <li><a href="../about/">About the project</a></li>
       <li><a href="../theaters/">For theaters</a></li>
