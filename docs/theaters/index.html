@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>For theaters · Smallest Show</title>
-<meta name="description" content="For cinema operators: what Smallest Show reads from a theater's site or ticketing platform, how often, how politely, and how to ask for a change or to be left out.">
+<meta name="description" content="For cinema operators: what Smallest Show reads from a theater's site or ticketing platform, how often, and how to ask for a change or to be left out.">
 <meta property="og:title" content="For theaters · Smallest Show">
 <meta property="og:url" content="https://smallest.show/theaters/">
 <link rel="stylesheet" href="../site.css">
@@ -35,6 +35,7 @@
     <a href="../tonight/" data-nav="tonight">Tonight</a>
     <a href="../map/" data-nav="map">Map</a>
     <a href="../about/" data-nav="about">About</a>
+    <a href="../resources/" data-nav="resources">Resources</a>
     <a href="../theaters/" data-nav="theaters" aria-current="page">For theaters</a>
   </nav>
 </header>
@@ -49,35 +50,26 @@
   <p>A free iPhone widget that lists tonight's showtimes at independent cinemas across the US. Every showing links to the theater's own ticket page, and every theater's name to its own site, so the sale happens where it always does. It has no ads and no accounts, and sells nothing. <a href="../">The install page</a> shows what it looks like.</p>
 
   <h2>What we read</h2>
-  <p>Only the public schedule pages and feeds that your own website or your ticketing platform already serves to anyone who visits: the listings your customers see. Nothing behind a login, and no browser automation, just plain requests for the same pages and data a browser loads to show your schedule. Each read asks for the next seven days.</p>
+  <p>Only the public schedule pages and feeds that your website or ticketing platform already serves to anyone: the listings your customers see. Nothing behind a login, and no browser automation.</p>
 
   <h2>How often</h2>
-  <ul>
-    <li><b>A ticketing platform</b> that shows what's sold out: five times a day, about every three hours from 9 am to 9 pm Pacific.</li>
-    <li><b>A theater's own website</b>, or a platform whose pages don't show what's sold out: twice a day, around 6 am and 6 pm Eastern.</li>
-  </ul>
-  <p>Those are local clock times, the same all year. Now and then, when we add a theater or fix how one is read, a person also checks its pages by hand, under the same name.</p>
+  <p>A ticketing platform, up to five times a day between 9 am and 9 pm Pacific. A theater's own website, twice a day, around 6 am and 6 pm Eastern.</p>
 
-  <h2>How politely</h2>
+  <h2>Our approach</h2>
   <ul>
-    <li>No more than two requests at a time to any one site, and no more than two theaters on the same platform read at once.</li>
-    <li>A site on TheaterToolkit, whose pages come one day at a time, gets a slower pace: after seven requests (one theater's week), one every two seconds, so never more than 37 in a minute however many theaters it hosts.</li>
-    <li>Every request asks for gzip, so a page comes over at a fraction of its size.</li>
-    <li>A refused request isn't retried. A server error or a timeout gets two more tries, a few seconds apart.</li>
-    <li>A 429, or a 503 with Retry-After: we wait the pause you ask for, up to a minute, and try once more. If you ask for longer, send a 429 with no pause, or push back again, we leave that site, and every theater on that platform, alone until the next scheduled read.</li>
-    <li>Every request names us. The User-Agent is:
+    <li>No more than two requests at a time to any one site, each asking for compressed pages, so a read is light.</li>
+    <li>We back off when asked: a refused request isn't retried, a 429 or Retry-After is honored, and a site that pushes back is left alone until the next scheduled read.</li>
+    <li>Every request names us, the scheduled reads and a person checking by hand alike:
       <code class="ua">smallest-show/1.0 (independent cinema showtimes; https://smallest.show/theaters/)</code></li>
   </ul>
+  <p>If you'd like the details, such as exact times, request pacing, or what we do with each response, ask and we'll send them.</p>
 
-  <h2>What we keep and publish</h2>
-  <p>For each theater, its name, where it is and a link to its site. For each film, its title, rating and running time, and a link to its page. For each showing, its time, whether it's sold out, the screen where you name one, and a link to its ticket page. Every listing carries the time it was read, and the widget says when one is out of date.</p>
-  <p>That's all. No posters or other images, no descriptions, no prices, no seat counts. The current week's listings are published as data files in the public repository the widget reads; nothing older is published there. We keep a private copy of what each read received, to test changes to our code against, and it isn't published.</p>
+  <h2>What we publish and keep</h2>
+  <p>Your theater's name, where it is and a link to its site; each film's title, rating and running time; and each showing's time, whether it's sold out, and a link to its ticket page. No images, descriptions, prices or seat counts. Only the current week is published, as the data files the widget reads. We keep a private copy of each read, which isn't published.</p>
 
   <h2>A change, or leaving us out</h2>
-  <p>If you'd like us to read a different page or feed, read less often, correct a listing, or leave your theater out, tell us and we'll do it. Leaving out means we stop reading your site and your theater drops out of the widget.</p>
-  <!-- Contact: an email address on smallest.show goes here once there is one, ahead of the GitHub
-       issue (which needs an account and is public). -->
-  <p>The way to reach us is an issue on <a href="https://github.com/kevdawg94/smallest-show/issues">github.com/kevdawg94/smallest-show</a>. Say which theater and what you'd like, and we'll answer there. It takes a free GitHub account, and what you write there is public.</p>
+  <p>If you'd like us to read a different page or feed, read less often, correct a listing, or leave your theater out, tell us and we'll do it.</p>
+  <p>Email us at <a href="mailto:info@smallest.show">info@smallest.show</a>. Say which theater and what you'd like, and we'll reply.</p>
 
   <p class="closing">The showtimes are the theaters'; we only point to them. <a href="../about/">About the project</a> says why we read them at all.</p>
  </div>
@@ -104,7 +96,9 @@
       <li><a href="../tonight/">Tonight, across America</a></li>
       <li><a href="../map/">Every theater, on a map</a></li>
       <li><a href="../about/">About the project</a></li>
+      <li><a href="../resources/">Others doing this work</a></li>
       <li><a href="../theaters/">For theaters</a></li>
+      <li><a href="mailto:info@smallest.show">Write to us: info@smallest.show</a></li>
       <li><a href="https://github.com/kevdawg94/smallest-show">The widget's code, on GitHub</a></li>
     </ul>
   </div>

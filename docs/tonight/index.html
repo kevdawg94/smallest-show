@@ -26,7 +26,6 @@
     :root { --bulb: #ffb08a; --halo: 224, 121, 91; --house: rgba(242, 239, 232, 0.17); --ghost: rgba(242, 239, 232, 0.06); }
   }
   .intro { padding-top: clamp(1.5rem, 5vw, 4rem); }
-  .intro .lede { margin-bottom: 0.75rem; }
   .context { color: var(--muted); font-size: 0.95rem; margin: 0; min-height: 1.5em; }
   .tonight { display: grid; gap: 2.5rem; margin-top: clamp(1.5rem, 4vw, 2.75rem); }
   @media (min-width: 62rem) { .tonight { grid-template-columns: minmax(0, 1fr) 18.5rem; gap: 2.75rem; align-items: start; } }
@@ -106,8 +105,7 @@
   .only[hidden] { display: none; }
 
   /* The day's titles, which filter the map */
-  .titles h2 { font-size: 1.35rem; margin: 0 0 0.2rem; }
-  .titles > .note { margin: 0 0 0.9rem; }
+  .titles h2 { font-size: 1.35rem; margin: 0 0 0.9rem; }
   .titles ol { list-style: none; margin: 0 -0.6rem; padding: 0; display: grid; gap: 0.1rem; }
   .pick {
     position: relative;
@@ -129,7 +127,6 @@
   .filtered .pick[aria-pressed="false"] { opacity: 0.5; }
   .filtered .pick[aria-pressed="false"]:hover { opacity: 1; }
   .more { margin-top: 0.75rem; }
-  .titles .after { margin: 1rem 0 0; }
   .closing { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--faint); max-width: 46rem; }
 </style>
 </head>
@@ -141,6 +138,7 @@
     <a href="../tonight/" data-nav="tonight" aria-current="page">Tonight</a>
     <a href="../map/" data-nav="map">Map</a>
     <a href="../about/" data-nav="about">About</a>
+    <a href="../resources/" data-nav="resources">Resources</a>
     <a href="../theaters/" data-nav="theaters">For theaters</a>
   </nav>
 </header>
@@ -149,7 +147,6 @@
   <div class="measure">
     <span class="eyebrow" id="day">Today</span>
     <h1>Tonight, across America</h1>
-    <p class="lede">Every house the widget reads, lit as its screenings start and fading after. The evening opens in the East and rolls west, a time zone an hour.</p>
     <p class="context" id="context"></p>
   </div>
 
@@ -179,14 +176,12 @@
 
     <aside class="titles" id="titles-box">
       <h2>Most screened today</h2>
-      <p class="note">By how many houses show it. Tap one to leave only its houses lit; its × gives you every title again.</p>
       <ol id="titles"></ol>
       <button class="linkish more" id="more" type="button" hidden></button>
-      <p class="note after" id="unplaced" hidden></p>
     </aside>
   </div>
 
-  <p class="note closing">A dot is a house, gathered with the others in its town around the town's point (the Census Bureau's, not the theater's address). It flares with a ring as a screening begins and stays lit until the screening ends (by the film's running time where its theater gives one, an hour and fifty minutes where not), then fades. Nearly every house starts a show in its own seven o'clock hour: that's the band of light crossing the country. The times are each theater's own, from its listings <span id="as-of">today</span>; a show stays on the map once it has started, though most theaters stop listing it then. Titles are grouped across houses with their formats and captions left off. To see your own theaters' times, <a href="../">put the widget on your iPhone</a>.</p>
+  <p class="note closing">To see your own theaters' times, <a href="../">put the widget on your iPhone</a>.</p>
 </main>
 <footer class="colophon">
   <div class="wrap">
@@ -210,7 +205,9 @@
       <li><a href="../tonight/">Tonight, across America</a></li>
       <li><a href="../map/">Every theater, on a map</a></li>
       <li><a href="../about/">About the project</a></li>
+      <li><a href="../resources/">Others doing this work</a></li>
       <li><a href="../theaters/">For theaters</a></li>
+      <li><a href="mailto:info@smallest.show">Write to us: info@smallest.show</a></li>
       <li><a href="https://github.com/kevdawg94/smallest-show">The widget's code, on GitHub</a></li>
     </ul>
   </div>
@@ -291,14 +288,7 @@
     const over = now > hi, ahead = now < lo;
     $("day").textContent = over ? `${day}: the latest listings` : day;
     const open = houses.filter(h => h.shows.length).length;
-    const singles = titles.filter(x => x.houses === 1).length;
-    $("context").textContent = `${n(open)} of the ${n(houses.length)} houses have a showing today: ${n(titles.length)} titles in all, ${n(singles)} of them at only one house.`;
-    $("as-of").textContent = `as of ${clockAt(data.generated_at)} Pacific`;
-    const unplaced = houses.filter(h => !h.town).length;
-    if (unplaced) {
-      $("unplaced").hidden = false;
-      $("unplaced").textContent = `${n(unplaced)} ${unplaced === 1 ? "house isn't" : "houses aren't"} on the map yet (no point for ${unplaced === 1 ? "its" : "their"} town) and ${unplaced === 1 ? "is" : "are"} counted here all the same.`;
-    }
+    $("context").textContent = `${n(open)} of the ${n(houses.length)} houses have a showing today.`;
     listTitles(SHOWN);
 
     range.min = lo; range.max = hi; range.disabled = false; $("play").disabled = false;
@@ -311,13 +301,6 @@
     setInterval(tick, 15000);
     // The page opens at the moment, then, unless asked for stillness, plays the rest of the night and comes back
     if (!still && live) setTimeout(() => { if (!touched && live && !playing) play(); }, 1500);
-  }
-
-  function clockAt(wall) { // "2026-11-06T08:23" -> "8:23am", the wall time as written
-    let [h, m] = wall.slice(11, 16).split(":").map(Number);
-    const ap = h < 12 ? "am" : "pm";
-    h = h % 12 || 12;
-    return `${h}${m ? ":" + String(m).padStart(2, "0") : ""}${ap}`;
   }
 
   function busiest() { // the minute with the most screenings under way, for a day already over
