@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "garden-theater-frankfort",
+ "name": "Garden Theater",
+ "city": "traversecity",
+ "area": "Frankfort",
+ "region": "Benzie",
+ "url": "https://gardentheater.org/",
+ "films": [
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": 101,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=663884~6a3269ca-7978-417d-9903-ca1548ad1f5e&",
+   "shows": [
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663887~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663888~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663889~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    }
+   ]
+  },
+  {
+   "title": "Little Women",
+   "rating": "NR",
+   "runtime_min": 115,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=665195~6a3269ca-7978-417d-9903-ca1548ad1f5e&",
+   "shows": [
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=665196~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 114,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=663885~6a3269ca-7978-417d-9903-ca1548ad1f5e&",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663891~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

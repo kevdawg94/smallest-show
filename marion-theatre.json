@@ -1,0 +1,109 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "marion-theatre",
+ "name": "Marion Theatre",
+ "city": "gainesville",
+ "area": "Downtown Ocala",
+ "region": "Ocala & Marion County",
+ "url": "https://www.reillyartscenter.com/mariontickets/",
+ "films": [
+  {
+   "title": "National Lampoon's Christmas Vacation",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV100000850QzMAI",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TJ3NMAW"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TJ4zMAG"
+    },
+    {
+     "at": "2026-11-12T17:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TJ6bMAG"
+    },
+    {
+     "at": "2026-11-13T17:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TJ8DMAW"
+    }
+   ]
+  },
+  {
+   "title": "Holiday Inn",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV100000855AXMAY",
+   "shows": [
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TKSTMA4"
+    },
+    {
+     "at": "2026-11-12T20:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TKU5MAO"
+    }
+   ]
+  },
+  {
+   "title": "Little Women",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV10000085GKTMA2",
+   "shows": [
+    {
+     "at": "2026-11-07T20:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TRnJMAW"
+    },
+    {
+     "at": "2026-11-13T20:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TRovMAG"
+    }
+   ]
+  },
+  {
+   "title": "Avalon | Ira Holmes International Film Series",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV10000082qqjMAA",
+   "shows": [
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004SQrhMAG"
+    }
+   ]
+  },
+  {
+   "title": "Up",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV10000085EfFMAU",
+   "shows": [
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TP2LMAW"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

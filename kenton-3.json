@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "kenton-3",
+ "name": "Kenton 3 Theatre",
+ "city": "toledo",
+ "area": "Kenton",
+ "region": "Kenton, Ada & Van Wert",
+ "url": "https://kenton3theatre.com/",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://kenton3theatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://kenton3theatre.com/"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://kenton3theatre.com/"
+    },
+    {
+     "at": "2026-11-08T13:30",
+     "sold_out": false,
+     "url": "https://kenton3theatre.com/"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://kenton3theatre.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://kenton3theatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://kenton3theatre.com/"
+    },
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://kenton3theatre.com/"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://kenton3theatre.com/"
+    },
+    {
+     "at": "2026-11-08T16:45",
+     "sold_out": false,
+     "url": "https://kenton3theatre.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

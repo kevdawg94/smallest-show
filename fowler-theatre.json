@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "fowler-theatre",
+ "name": "Fowler Theatre",
+ "city": "indianapolis",
+ "area": "Fowler",
+ "region": "Fowler",
+ "url": "https://fowlertheater.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.xtremeticketing.com/fowlertheater/upcomingevents",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.xtremeticketing.com/fowlertheater/Event/the-cat-in-the-hat-saturday-11-7-26-only-370799"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.xtremeticketing.com/fowlertheater/Event/the-cat-in-the-hat-sunday-11-8-26-only-370800"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-06T20:23",
+ "error": true,
+ "warning": null
+}

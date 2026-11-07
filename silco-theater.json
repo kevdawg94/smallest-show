@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "silco-theater",
+ "name": "Silco Theater",
+ "city": "silvercity",
+ "area": "Silver City",
+ "region": "Silver City",
+ "url": "https://www.thesilcotheater.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1099?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1100?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    }
+   ]
+  },
+  {
+   "title": "East of Eden",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0",
+   "shows": [
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1101?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1102?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0",
+   "shows": [
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1104?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1105?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

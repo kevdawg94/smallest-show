@@ -1,0 +1,142 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "fort-wayne-cinema-center",
+ "name": "Cinema Center",
+ "city": "fortwayne",
+ "area": "Downtown Fort Wayne",
+ "region": "Fort Wayne",
+ "url": "https://cinemacenter.org/",
+ "films": [
+  {
+   "title": "Musk",
+   "rating": null,
+   "runtime_min": 235,
+   "url": "https://cinemacenter.eventive.org/films/6ae23a1d745a2f75177d6c21",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23b4fdf9589b13628c1cc"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23b5e04d0ca52c22e76ee"
+    },
+    {
+     "at": "2026-11-13T15:30",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23b8b64040a99c58899bd"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://cinemacenter.eventive.org/films/6abd71a7728ef94d009a98ea",
+   "shows": [
+    {
+     "at": "2026-11-07T13:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae2385cc2f311deefcb9133"
+    },
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae2386dc2f311deefcb95f5"
+    },
+    {
+     "at": "2026-11-07T20:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23888c2f311deefcb9cfc"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae239c148f0a994bbeb50c8"
+    },
+    {
+     "at": "2026-11-08T17:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae239d848f0a994bbeb5aeb"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae238120eaac54ce2286a10"
+    }
+   ]
+  },
+  {
+   "title": "NAZA",
+   "rating": null,
+   "runtime_min": 77,
+   "url": "https://cinemacenter.eventive.org/films/6acfb888a2c9390ac51ea2ef",
+   "shows": [
+    {
+     "at": "2026-11-07T17:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23ad345d44c82c9b5b26a"
+    },
+    {
+     "at": "2026-11-08T18:50",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23af71c22ec68ee464d0f"
+    }
+   ]
+  },
+  {
+   "title": "Musk (Subtitles)",
+   "rating": null,
+   "runtime_min": 235,
+   "url": "https://cinemacenter.eventive.org/films/6ae23a1d745a2f75177d6c21",
+   "shows": [
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23b74bc536a7a6c165816"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://cinemacenter.eventive.org/films/6ae23a341524eca4bda53ada",
+   "shows": [
+    {
+     "at": "2026-11-12T19:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae3d12943394b166fc3d008"
+    },
+    {
+     "at": "2026-11-13T18:30",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae3d23a151ea6cf9ce5d168"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://cinemacenter.eventive.org/films/6ae23a6348f0a994bbeb68de",
+   "shows": [
+    {
+     "at": "2026-11-13T20:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23bfd263c2ea564e3d2f6"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

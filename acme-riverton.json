@@ -1,0 +1,95 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "acme-riverton",
+ "name": "Acme Theatre",
+ "city": "riverton",
+ "area": "Riverton",
+ "region": "Riverton",
+ "url": "https://barrycinemas.com/acme-theater-riverton",
+ "films": [
+  {
+   "title": "The Bad Guys",
+   "rating": "PG",
+   "runtime_min": 100,
+   "url": "https://barrycinemas.com/acme-theater-riverton/movie/3633",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/5a4707b3-e5d7-f111-bf5b-002248bcb39d"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/5a4707b3-e5d7-f111-bf5b-002248bcb39d"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/5a4707b3-e5d7-f111-bf5b-002248bcb39d"
+    },
+    {
+     "at": "2026-11-12T13:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/5a4707b3-e5d7-f111-bf5b-002248bcb39d"
+    },
+    {
+     "at": "2026-11-13T13:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/5a4707b3-e5d7-f111-bf5b-002248bcb39d"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://barrycinemas.com/acme-theater-riverton/movie/27842",
+   "shows": [
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/574707b3-e5d7-f111-bf5b-002248bcb39d"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/594707b3-e5d7-f111-bf5b-002248bcb39d"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/574707b3-e5d7-f111-bf5b-002248bcb39d"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/564707b3-e5d7-f111-bf5b-002248bcb39d"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/574707b3-e5d7-f111-bf5b-002248bcb39d"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/574707b3-e5d7-f111-bf5b-002248bcb39d"
+    },
+    {
+     "at": "2026-11-13T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/574707b3-e5d7-f111-bf5b-002248bcb39d"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

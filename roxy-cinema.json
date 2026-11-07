@@ -1,0 +1,146 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "roxy-cinema",
+ "name": "Roxy Cinema",
+ "city": "nyc",
+ "area": "Tribeca",
+ "region": "Downtown Manhattan",
+ "url": "https://www.roxycinemanewyork.com/",
+ "films": [
+  {
+   "title": "Personal Problems",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7945?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Tickled (10th Anniversary)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7898?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Tripolar The Movie",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Gorilla Gorilla",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-09T20:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7933?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    },
+    {
+     "at": "2026-11-11T21:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7934?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Salome Learns to Dance",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7913?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Primetime",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-10T21:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7951?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    },
+    {
+     "at": "2026-11-13T16:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7952?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Tracks (4K Restoration)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7915?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Harakiri, I Miss You",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7936?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "The Landlord (35mm)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-13T21:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7937?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

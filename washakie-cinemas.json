@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "washakie-cinemas",
+ "name": "Washakie Cinemas",
+ "city": "cody",
+ "area": "Worland",
+ "region": "Worland",
+ "url": "https://worlandmovies.com/now-playing",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://worlandmovies.com/now-playing",
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://worlandmovies.com/now-playing",
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

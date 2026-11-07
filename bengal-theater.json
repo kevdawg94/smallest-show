@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "bengal-theater",
+ "name": "Bengal Theater",
+ "city": "pocatello",
+ "area": "Idaho State University",
+ "region": "Pocatello",
+ "url": "https://www.isu.edu/bengaltheater",
+ "films": [
+  {
+   "title": "Get Out",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.isu.edu/bengaltheater",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://www.isu.edu/bengaltheater"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.isu.edu/bengaltheater"
+    }
+   ]
+  },
+  {
+   "title": "The Rivals of Amziah King",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.isu.edu/bengaltheater",
+   "shows": [
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://www.isu.edu/bengaltheater"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.isu.edu/bengaltheater"
+    }
+   ]
+  },
+  {
+   "title": "Best in Show",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.isu.edu/bengaltheater",
+   "shows": [
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://www.isu.edu/bengaltheater"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://www.isu.edu/bengaltheater"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

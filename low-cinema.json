@@ -1,0 +1,124 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "low-cinema",
+ "name": "Low Cinema",
+ "city": "nyc",
+ "area": "Ridgewood",
+ "region": "Queens & beyond",
+ "url": "https://lowcinema.com/tickets/",
+ "films": [
+  {
+   "title": "Gail Daughtry and the Celebrity Sex Pass",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/e956a7d7-5fd4-4998-ab4d-f202aac2c5cc/"
+    },
+    {
+     "at": "2026-11-08T20:15",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/d9ca3af8-6486-4f6a-803d-9b781d51a9f4/"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-07T20:15",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/8cbcf0a2-a523-404b-8622-174c5cd6ae0b/"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/6c34affb-f183-4d2a-8f86-258ec885aa09/"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/2a0cae4a-3fef-4c11-a725-e1950649634c/"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/6c0ef2f8-9f96-430a-8c7e-63ca5d9389df/"
+    }
+   ]
+  },
+  {
+   "title": "The Scout",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-09T20:15",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-11-11T20:15",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/c3e955aa-e0d7-487e-baa3-7fd224694b0e/"
+    }
+   ]
+  },
+  {
+   "title": "Muscle Beach",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-10T20:15",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/7e114dea-a9d4-4c12-bf21-8b59f6bfcb05/"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/fcc565a0-e15d-46c5-b9af-a724fdfdb8d9/"
+    }
+   ]
+  },
+  {
+   "title": "American Theater",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-12T20:15",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/1f0e6c77-ac56-46ff-9dbf-50f4737d26cb/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

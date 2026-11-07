@@ -1,0 +1,85 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "washoe-theatre",
+ "name": "Washoe Theatre",
+ "city": "butte",
+ "area": "Anaconda",
+ "region": "Anaconda",
+ "url": "http://www.washoetheatre.com/schedule.html",
+ "films": [
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "http://www.washoetheatre.com/schedule.html",
+   "shows": [
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "http://www.washoetheatre.com/schedule.html",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-13T21:15",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

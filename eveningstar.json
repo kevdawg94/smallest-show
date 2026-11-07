@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "eveningstar",
+ "name": "Eveningstar",
+ "city": "portlandme",
+ "area": "Brunswick",
+ "region": "Brunswick–Freeport",
+ "url": "https://www.eveningstarcinema.com/",
+ "films": [
+  {
+   "title": "Fjord",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=698jb7tt2hsr90r79h91t22zec",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4633?siteToken=698jb7tt2hsr90r79h91t22zec"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4637?siteToken=698jb7tt2hsr90r79h91t22zec"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4669?siteToken=698jb7tt2hsr90r79h91t22zec"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4634?siteToken=698jb7tt2hsr90r79h91t22zec"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4670?siteToken=698jb7tt2hsr90r79h91t22zec"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

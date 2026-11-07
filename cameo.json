@@ -1,0 +1,113 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "cameo",
+ "name": "Cameo",
+ "city": "bay",
+ "area": "St. Helena",
+ "region": "North Bay",
+ "url": "https://www.cameocinema.com/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ngdcybs2pe7aqsn3zewdgzctjm",
+   "shows": [
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6878?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6880?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-10T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6882?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-11T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6884?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-11T19:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6885?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-12T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6887?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ngdcybs2pe7aqsn3zewdgzctjm",
+   "shows": [
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6879?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6881?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-10T19:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6883?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-11T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6886?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-12T19:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6888?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ngdcybs2pe7aqsn3zewdgzctjm",
+   "shows": [
+    {
+     "at": "2026-11-13T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6889?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-13T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6890?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    },
+    {
+     "at": "2026-11-13T19:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6891?siteToken=ngdcybs2pe7aqsn3zewdgzctjm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "showroom",
+ "name": "ShowRoom",
+ "city": "jerseyshore",
+ "area": "Asbury Park",
+ "region": "Monmouth Shore",
+ "url": "https://showroomcinemas.com/",
+ "films": [
+  {
+   "title": "The Devils",
+   "rating": null,
+   "runtime_min": 112,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T20:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271861/"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/272503/"
+    }
+   ]
+  },
+  {
+   "title": "Apocalypse Now",
+   "rating": null,
+   "runtime_min": 147,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/272239/"
+    }
+   ]
+  },
+  {
+   "title": "Altered States",
+   "rating": null,
+   "runtime_min": 103,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-13T20:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271863/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

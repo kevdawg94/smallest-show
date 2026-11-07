@@ -1,0 +1,98 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "bay-theatre-morro",
+ "name": "Bay Theatre",
+ "city": "slo",
+ "area": "Morro Bay",
+ "region": "Coast",
+ "url": "https://www.morrobaymovie.com/",
+ "films": [
+  {
+   "title": "Klara & The Sun",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.morrobaymovie.com/klara-the-sun",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/klara-the-sun"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/klara-the-sun"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/klara-the-sun"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/klara-the-sun"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/klara-the-sun"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/klara-the-sun"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/klara-the-sun"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/klara-the-sun"
+    }
+   ]
+  },
+  {
+   "title": "Hoosiers",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.morrobaymovie.com/hoosiers",
+   "shows": [
+    {
+     "at": "2026-11-09T17:30",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/hoosiers"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 132,
+   "url": "https://www.morrobaymovie.com/wildwood",
+   "shows": [
+    {
+     "at": "2026-11-13T15:45",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/wildwood"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/wildwood"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

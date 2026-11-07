@@ -1,0 +1,115 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "cornell-cinema",
+ "name": "Cornell Cinema",
+ "city": "ithaca",
+ "area": "Cornell (Willard Straight Hall)",
+ "region": "Ithaca",
+ "url": "https://cinema.cornell.edu/",
+ "films": [
+  {
+   "title": "The Hitch-Hiker",
+   "rating": null,
+   "runtime_min": 71,
+   "url": "https://cornellcinema.eventive.org/films/6a6cad2aa7a0926d2b1b79c9",
+   "shows": [
+    {
+     "at": "2026-11-07T17:30",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a72015ef319e3172b96d493"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a7201dba304cbaaa763f46a"
+    }
+   ]
+  },
+  {
+   "title": "The Craft",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://cornellcinema.eventive.org/films/6a71f07f7426db5736fe3ed2",
+   "shows": [
+    {
+     "at": "2026-11-07T20:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a7201a010627c2e41fea7bf"
+    }
+   ]
+  },
+  {
+   "title": "This Beguiling Membrane",
+   "rating": null,
+   "runtime_min": 54,
+   "url": "https://cornellcinema.eventive.org/films/6ad130091b957e11f9f8db7b",
+   "shows": [
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6ad1313c378805b0ea288c93"
+    }
+   ]
+  },
+  {
+   "title": "Blue Velvet",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://cornellcinema.eventive.org/films/6a6ca82fdc9364ea93cb0d6a",
+   "shows": [
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a7201bbf319e3172b96dfb7"
+    }
+   ]
+  },
+  {
+   "title": "One in a Million",
+   "rating": null,
+   "runtime_min": 102,
+   "url": "https://cornellcinema.eventive.org/films/6a6cabb3d712d668fbd65c00",
+   "shows": [
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a7200f4a4ed861cfb237ad5"
+    }
+   ]
+  },
+  {
+   "title": "The Wicker Man",
+   "rating": null,
+   "runtime_min": 93,
+   "url": "https://cornellcinema.eventive.org/films/6a6cae3f2a145a8b5f58f008",
+   "shows": [
+    {
+     "at": "2026-11-12T20:30",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a7202055271f7531c2a6d07"
+    }
+   ]
+  },
+  {
+   "title": "The Sound of Storytelling: Dr. Jekyll & Mr. Hyde at Bailey Hall",
+   "rating": null,
+   "runtime_min": 69,
+   "url": "https://cornellcinema.eventive.org/films/6a6ca9571a863492764bfd38",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a7203535c189121a4af95d2"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

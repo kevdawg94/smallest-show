@@ -1,0 +1,98 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "gigglewaters",
+ "name": "Gigglewaters",
+ "city": "tampa",
+ "area": "Safety Harbor",
+ "region": "Pinellas & Pasco",
+ "url": "https://tickets.gigglewaters.com/movies",
+ "films": [
+  {
+   "title": "The Goonies",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://tickets.gigglewaters.com/movies/the-goonies",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/the-goonies/st/711"
+    },
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": true,
+     "url": "https://tickets.gigglewaters.com/movies/the-goonies/st/712"
+    },
+    {
+     "at": "2026-11-07T20:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/the-goonies/st/713"
+    }
+   ]
+  },
+  {
+   "title": "Back to the Future",
+   "rating": "PG",
+   "runtime_min": 116,
+   "url": "https://tickets.gigglewaters.com/movies/back-to-the-future",
+   "shows": [
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/back-to-the-future/st/661"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/back-to-the-future/st/662"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": true,
+     "url": "https://tickets.gigglewaters.com/movies/back-to-the-future/st/663"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": true,
+     "url": "https://tickets.gigglewaters.com/movies/back-to-the-future/st/664"
+    }
+   ]
+  },
+  {
+   "title": "Friday the 13th",
+   "rating": "R",
+   "runtime_min": 95,
+   "url": "https://tickets.gigglewaters.com/movies/friday-the-13th",
+   "shows": [
+    {
+     "at": "2026-11-13T12:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/friday-the-13th/st/665"
+    },
+    {
+     "at": "2026-11-13T15:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/friday-the-13th/st/666"
+    },
+    {
+     "at": "2026-11-13T18:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/friday-the-13th/st/667"
+    },
+    {
+     "at": "2026-11-13T20:30",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/friday-the-13th/st/668"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

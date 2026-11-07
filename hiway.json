@@ -1,0 +1,128 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "hiway",
+ "name": "Hiway",
+ "city": "philly",
+ "area": "Jenkintown",
+ "region": "Suburbs",
+ "url": "https://hiwaytheater.org/",
+ "films": [
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hiwaytheater.org/film?id=godzilla-minus-zero",
+   "shows": [
+    {
+     "at": "2026-11-07T12:50",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088143"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088141"
+    },
+    {
+     "at": "2026-11-07T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088142"
+    },
+    {
+     "at": "2026-11-08T13:45",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088144"
+    },
+    {
+     "at": "2026-11-08T16:50",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088145"
+    },
+    {
+     "at": "2026-11-08T20:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088146"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088147"
+    },
+    {
+     "at": "2026-11-09T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088148"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088149"
+    },
+    {
+     "at": "2026-11-10T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088150"
+    },
+    {
+     "at": "2026-11-11T12:50",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088153"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088152"
+    },
+    {
+     "at": "2026-11-11T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088151"
+    },
+    {
+     "at": "2026-11-12T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088154"
+    },
+    {
+     "at": "2026-11-12T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/godzilla-minus-zero/4088155"
+    }
+   ]
+  },
+  {
+   "title": "Shampoo",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hiwaytheater.org/film?id=shampoo",
+   "shows": [
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/shampoo/3821022"
+    }
+   ]
+  },
+  {
+   "title": "Jason Goes to Hell: The Final Friday",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hiwaytheater.org/film?id=jason-goes-to-hell",
+   "shows": [
+    {
+     "at": "2026-11-13T21:45",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/jason-goes-to-hell-the-final-friday/3821077"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

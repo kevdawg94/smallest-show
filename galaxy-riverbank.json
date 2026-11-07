@@ -1,0 +1,1886 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "galaxy-riverbank",
+ "name": "Galaxy Riverbank IMAX 12",
+ "city": "modesto",
+ "area": "Riverbank",
+ "region": "Modesto",
+ "url": "https://www.galaxytheatres.com/movie-theater/riverbank",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/DRUMMER-BOY",
+   "shows": [
+    {
+     "at": "2026-11-07T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DRUMMER-BOY/HO00011290-403483"
+    },
+    {
+     "at": "2026-11-07T13:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DRUMMER-BOY/HO00011290-403484"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DRUMMER-BOY/HO00011290-403489"
+    },
+    {
+     "at": "2026-11-08T15:40",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DRUMMER-BOY/HO00011290-403490"
+    },
+    {
+     "at": "2026-11-09T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DRUMMER-BOY/HO00011290-403534"
+    },
+    {
+     "at": "2026-11-09T13:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DRUMMER-BOY/HO00011290-403535"
+    },
+    {
+     "at": "2026-11-10T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DRUMMER-BOY/HO00011290-403580"
+    },
+    {
+     "at": "2026-11-10T13:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DRUMMER-BOY/HO00011290-403581"
+    },
+    {
+     "at": "2026-11-11T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DRUMMER-BOY/HO00011290-403623"
+    },
+    {
+     "at": "2026-11-11T12:55",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DRUMMER-BOY/HO00011290-403624"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/GODZILLA-MINUS-ZERO",
+   "shows": [
+    {
+     "at": "2026-11-07T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400296"
+    },
+    {
+     "at": "2026-11-07T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402011"
+    },
+    {
+     "at": "2026-11-07T13:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400297"
+    },
+    {
+     "at": "2026-11-07T13:40",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402012"
+    },
+    {
+     "at": "2026-11-07T15:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402018"
+    },
+    {
+     "at": "2026-11-07T16:20",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400298"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400294"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400299"
+    },
+    {
+     "at": "2026-11-07T22:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400295"
+    },
+    {
+     "at": "2026-11-07T22:40",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400300"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400305"
+    },
+    {
+     "at": "2026-11-08T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402022"
+    },
+    {
+     "at": "2026-11-08T13:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400306"
+    },
+    {
+     "at": "2026-11-08T13:40",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402023"
+    },
+    {
+     "at": "2026-11-08T15:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402029"
+    },
+    {
+     "at": "2026-11-08T16:20",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400307"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400303"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400308"
+    },
+    {
+     "at": "2026-11-08T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400304"
+    },
+    {
+     "at": "2026-11-08T22:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400309"
+    },
+    {
+     "at": "2026-11-09T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400314"
+    },
+    {
+     "at": "2026-11-09T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402033"
+    },
+    {
+     "at": "2026-11-09T13:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400315"
+    },
+    {
+     "at": "2026-11-09T13:40",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402034"
+    },
+    {
+     "at": "2026-11-09T15:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402040"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400316"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400312"
+    },
+    {
+     "at": "2026-11-09T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400317"
+    },
+    {
+     "at": "2026-11-09T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400313"
+    },
+    {
+     "at": "2026-11-09T22:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400318"
+    },
+    {
+     "at": "2026-11-10T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400323"
+    },
+    {
+     "at": "2026-11-10T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402044"
+    },
+    {
+     "at": "2026-11-10T13:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400324"
+    },
+    {
+     "at": "2026-11-10T13:40",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402045"
+    },
+    {
+     "at": "2026-11-10T15:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402051"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400325"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400321"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400326"
+    },
+    {
+     "at": "2026-11-10T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400322"
+    },
+    {
+     "at": "2026-11-10T22:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400327"
+    },
+    {
+     "at": "2026-11-11T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400332"
+    },
+    {
+     "at": "2026-11-11T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402055"
+    },
+    {
+     "at": "2026-11-11T13:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400333"
+    },
+    {
+     "at": "2026-11-11T13:40",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402056"
+    },
+    {
+     "at": "2026-11-11T15:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-402062"
+    },
+    {
+     "at": "2026-11-11T16:20",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400334"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400335"
+    },
+    {
+     "at": "2026-11-11T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400331"
+    },
+    {
+     "at": "2026-11-11T22:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GODZILLA-MINUS-ZERO/HO00011295-400336"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 119,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/STREET-FIGHTER",
+   "shows": [
+    {
+     "at": "2026-11-07T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403448"
+    },
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403449"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403450"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403451"
+    },
+    {
+     "at": "2026-11-07T22:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403452"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403493"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403494"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403495"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403496"
+    },
+    {
+     "at": "2026-11-08T22:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403497"
+    },
+    {
+     "at": "2026-11-09T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403539"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403540"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403541"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403542"
+    },
+    {
+     "at": "2026-11-09T22:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403543"
+    },
+    {
+     "at": "2026-11-10T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403585"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403586"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403587"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403588"
+    },
+    {
+     "at": "2026-11-10T22:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403589"
+    },
+    {
+     "at": "2026-11-11T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403627"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403628"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403629"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403630"
+    },
+    {
+     "at": "2026-11-11T22:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STREET-FIGHTER/HO00011226-403631"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/THE-CAT-IN-THE-HAT",
+   "shows": [
+    {
+     "at": "2026-11-07T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402019"
+    },
+    {
+     "at": "2026-11-07T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403470"
+    },
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402020"
+    },
+    {
+     "at": "2026-11-07T13:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403471"
+    },
+    {
+     "at": "2026-11-07T16:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403472"
+    },
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402013"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403465"
+    },
+    {
+     "at": "2026-11-07T19:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402014"
+    },
+    {
+     "at": "2026-11-07T21:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403466"
+    },
+    {
+     "at": "2026-11-07T22:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402015"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402030"
+    },
+    {
+     "at": "2026-11-08T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403515"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403523"
+    },
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403520"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402031"
+    },
+    {
+     "at": "2026-11-08T13:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403516"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403524"
+    },
+    {
+     "at": "2026-11-08T16:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403517"
+    },
+    {
+     "at": "2026-11-08T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402024"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403510"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403533"
+    },
+    {
+     "at": "2026-11-08T19:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402025"
+    },
+    {
+     "at": "2026-11-08T21:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403511"
+    },
+    {
+     "at": "2026-11-08T22:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402026"
+    },
+    {
+     "at": "2026-11-09T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402041"
+    },
+    {
+     "at": "2026-11-09T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403561"
+    },
+    {
+     "at": "2026-11-09T11:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403570"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402042"
+    },
+    {
+     "at": "2026-11-09T13:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403562"
+    },
+    {
+     "at": "2026-11-09T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403571"
+    },
+    {
+     "at": "2026-11-09T15:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403567"
+    },
+    {
+     "at": "2026-11-09T16:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403563"
+    },
+    {
+     "at": "2026-11-09T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402035"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403556"
+    },
+    {
+     "at": "2026-11-09T19:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402036"
+    },
+    {
+     "at": "2026-11-09T21:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403557"
+    },
+    {
+     "at": "2026-11-09T22:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402037"
+    },
+    {
+     "at": "2026-11-10T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402052"
+    },
+    {
+     "at": "2026-11-10T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403607"
+    },
+    {
+     "at": "2026-11-10T11:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403613"
+    },
+    {
+     "at": "2026-11-10T11:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403612"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402053"
+    },
+    {
+     "at": "2026-11-10T13:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403608"
+    },
+    {
+     "at": "2026-11-10T16:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403609"
+    },
+    {
+     "at": "2026-11-10T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402046"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403602"
+    },
+    {
+     "at": "2026-11-10T19:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402047"
+    },
+    {
+     "at": "2026-11-10T21:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403603"
+    },
+    {
+     "at": "2026-11-10T22:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402048"
+    },
+    {
+     "at": "2026-11-11T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402063"
+    },
+    {
+     "at": "2026-11-11T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403649"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402064"
+    },
+    {
+     "at": "2026-11-11T13:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403650"
+    },
+    {
+     "at": "2026-11-11T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403655"
+    },
+    {
+     "at": "2026-11-11T16:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403651"
+    },
+    {
+     "at": "2026-11-11T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402057"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403644"
+    },
+    {
+     "at": "2026-11-11T19:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402058"
+    },
+    {
+     "at": "2026-11-11T21:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-403645"
+    },
+    {
+     "at": "2026-11-11T22:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT/HO00011368-402059"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/CLAYFACE",
+   "shows": [
+    {
+     "at": "2026-11-07T10:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403462"
+    },
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403463"
+    },
+    {
+     "at": "2026-11-07T15:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403464"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403473"
+    },
+    {
+     "at": "2026-11-07T22:25",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403474"
+    },
+    {
+     "at": "2026-11-08T10:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403507"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403508"
+    },
+    {
+     "at": "2026-11-08T15:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403509"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403518"
+    },
+    {
+     "at": "2026-11-08T22:25",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403519"
+    },
+    {
+     "at": "2026-11-09T10:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403553"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403554"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403555"
+    },
+    {
+     "at": "2026-11-09T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403564"
+    },
+    {
+     "at": "2026-11-09T22:25",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403565"
+    },
+    {
+     "at": "2026-11-10T10:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403599"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403600"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403601"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403610"
+    },
+    {
+     "at": "2026-11-10T22:25",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403611"
+    },
+    {
+     "at": "2026-11-11T10:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403641"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403642"
+    },
+    {
+     "at": "2026-11-11T15:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403643"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403652"
+    },
+    {
+     "at": "2026-11-11T22:25",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/CLAYFACE/HO00011329-403653"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/YOU-CAN-SEE-EVERYTHING",
+   "shows": [
+    {
+     "at": "2026-11-07T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403453"
+    },
+    {
+     "at": "2026-11-07T14:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403454"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403455"
+    },
+    {
+     "at": "2026-11-07T21:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403456"
+    },
+    {
+     "at": "2026-11-08T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403498"
+    },
+    {
+     "at": "2026-11-08T14:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403499"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403500"
+    },
+    {
+     "at": "2026-11-08T21:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403501"
+    },
+    {
+     "at": "2026-11-09T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403544"
+    },
+    {
+     "at": "2026-11-09T14:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403545"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403546"
+    },
+    {
+     "at": "2026-11-09T21:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403547"
+    },
+    {
+     "at": "2026-11-10T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403590"
+    },
+    {
+     "at": "2026-11-10T14:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403591"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403592"
+    },
+    {
+     "at": "2026-11-10T21:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403593"
+    },
+    {
+     "at": "2026-11-11T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403632"
+    },
+    {
+     "at": "2026-11-11T14:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403633"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403634"
+    },
+    {
+     "at": "2026-11-11T21:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/YOU-CAN-SEE-EVERYTHING/HO00011332-403635"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/WILD-HORSE-NINE",
+   "shows": [
+    {
+     "at": "2026-11-07T10:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401475"
+    },
+    {
+     "at": "2026-11-07T13:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401476"
+    },
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401477"
+    },
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401478"
+    },
+    {
+     "at": "2026-11-07T22:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401479"
+    },
+    {
+     "at": "2026-11-08T10:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401480"
+    },
+    {
+     "at": "2026-11-08T13:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401481"
+    },
+    {
+     "at": "2026-11-08T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401482"
+    },
+    {
+     "at": "2026-11-08T19:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401483"
+    },
+    {
+     "at": "2026-11-08T22:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401484"
+    },
+    {
+     "at": "2026-11-09T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401485"
+    },
+    {
+     "at": "2026-11-09T13:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401486"
+    },
+    {
+     "at": "2026-11-09T16:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401487"
+    },
+    {
+     "at": "2026-11-09T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401488"
+    },
+    {
+     "at": "2026-11-09T22:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401489"
+    },
+    {
+     "at": "2026-11-10T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401490"
+    },
+    {
+     "at": "2026-11-10T13:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401491"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401492"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401493"
+    },
+    {
+     "at": "2026-11-10T22:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401494"
+    },
+    {
+     "at": "2026-11-11T10:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401495"
+    },
+    {
+     "at": "2026-11-11T13:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401496"
+    },
+    {
+     "at": "2026-11-11T16:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401497"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401498"
+    },
+    {
+     "at": "2026-11-11T22:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILD-HORSE-NINE/HO00011351-401499"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/WICKER",
+   "shows": [
+    {
+     "at": "2026-11-07T11:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403457"
+    },
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403458"
+    },
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403459"
+    },
+    {
+     "at": "2026-11-07T19:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403460"
+    },
+    {
+     "at": "2026-11-07T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403461"
+    },
+    {
+     "at": "2026-11-08T11:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403502"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403503"
+    },
+    {
+     "at": "2026-11-08T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403504"
+    },
+    {
+     "at": "2026-11-08T19:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403505"
+    },
+    {
+     "at": "2026-11-08T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403506"
+    },
+    {
+     "at": "2026-11-09T11:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403548"
+    },
+    {
+     "at": "2026-11-09T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403549"
+    },
+    {
+     "at": "2026-11-09T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403550"
+    },
+    {
+     "at": "2026-11-09T19:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403551"
+    },
+    {
+     "at": "2026-11-09T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403552"
+    },
+    {
+     "at": "2026-11-10T11:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403594"
+    },
+    {
+     "at": "2026-11-10T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403595"
+    },
+    {
+     "at": "2026-11-10T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403596"
+    },
+    {
+     "at": "2026-11-10T19:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403597"
+    },
+    {
+     "at": "2026-11-10T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403598"
+    },
+    {
+     "at": "2026-11-11T11:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403636"
+    },
+    {
+     "at": "2026-11-11T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403637"
+    },
+    {
+     "at": "2026-11-11T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403638"
+    },
+    {
+     "at": "2026-11-11T19:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403639"
+    },
+    {
+     "at": "2026-11-11T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WICKER/HO00011260-403640"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 140,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/WILDWOOD",
+   "shows": [
+    {
+     "at": "2026-11-07T11:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403488"
+    },
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403467"
+    },
+    {
+     "at": "2026-11-07T18:25",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403468"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403512"
+    },
+    {
+     "at": "2026-11-08T14:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403532"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403513"
+    },
+    {
+     "at": "2026-11-09T11:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403558"
+    },
+    {
+     "at": "2026-11-09T14:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403559"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403579"
+    },
+    {
+     "at": "2026-11-10T11:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403604"
+    },
+    {
+     "at": "2026-11-10T14:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403605"
+    },
+    {
+     "at": "2026-11-10T19:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403616"
+    },
+    {
+     "at": "2026-11-11T11:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403646"
+    },
+    {
+     "at": "2026-11-11T14:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403647"
+    },
+    {
+     "at": "2026-11-11T19:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/WILDWOOD/HO00011183-403656"
+    }
+   ]
+  },
+  {
+   "title": "Rocky 50th Anniversary",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/ROCKY-50TH-ANNIVERSARY",
+   "shows": [
+    {
+     "at": "2026-11-07T12:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/ROCKY-50TH-ANNIVERSARY/HO00011247-399659"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/ROCKY-50TH-ANNIVERSARY/HO00011247-399660"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/ROCKY-50TH-ANNIVERSARY/HO00011247-399661"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/ROCKY-50TH-ANNIVERSARY/HO00011247-399662"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/ROCKY-50TH-ANNIVERSARY/HO00011247-399663"
+    }
+   ]
+  },
+  {
+   "title": "Stray Kids World Tour 'Run It' Live Viewing",
+   "rating": "NR",
+   "runtime_min": 195,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/STRAY-KIDS-WORLD-TOUR-RUN-IT-LIVE-VIEWING",
+   "shows": [
+    {
+     "at": "2026-11-07T12:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STRAY-KIDS-WORLD-TOUR-RUN-IT-LIVE-VIEWING/HO00011297-401464"
+    }
+   ]
+  },
+  {
+   "title": "Rammstein - Live in Mexico City",
+   "rating": "NR",
+   "runtime_min": 110,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/RAMMSTEIN---LIVE-IN-MEXICO-CITY",
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RAMMSTEIN---LIVE-IN-MEXICO-CITY/HO00011263-399841"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 94,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/RESIDENT-EVIL",
+   "shows": [
+    {
+     "at": "2026-11-07T16:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403485"
+    },
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403486"
+    },
+    {
+     "at": "2026-11-07T21:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403487"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403491"
+    },
+    {
+     "at": "2026-11-08T21:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403492"
+    },
+    {
+     "at": "2026-11-09T16:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403536"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403537"
+    },
+    {
+     "at": "2026-11-09T21:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403538"
+    },
+    {
+     "at": "2026-11-10T16:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403582"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403583"
+    },
+    {
+     "at": "2026-11-10T21:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403584"
+    },
+    {
+     "at": "2026-11-11T15:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403625"
+    },
+    {
+     "at": "2026-11-11T21:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/RESIDENT-EVIL/HO00011182-403626"
+    }
+   ]
+  },
+  {
+   "title": "Stray Kids World Tour 'Run It' Encore",
+   "rating": "NR",
+   "runtime_min": 195,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/STRAY-KIDS-WORLD-TOUR-RUN-IT-ENCORE",
+   "shows": [
+    {
+     "at": "2026-11-07T16:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/STRAY-KIDS-WORLD-TOUR-RUN-IT-ENCORE/HO00011298-401465"
+    }
+   ]
+  },
+  {
+   "title": "Everest: The Other Side",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/EVEREST-THE-OTHER-SIDE",
+   "shows": [
+    {
+     "at": "2026-11-07T18:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EVEREST-THE-OTHER-SIDE/HO00011367-403475"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EVEREST-THE-OTHER-SIDE/HO00011367-403727"
+    },
+    {
+     "at": "2026-11-08T18:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EVEREST-THE-OTHER-SIDE/HO00011367-403521"
+    },
+    {
+     "at": "2026-11-08T21:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EVEREST-THE-OTHER-SIDE/HO00011367-403728"
+    },
+    {
+     "at": "2026-11-09T18:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EVEREST-THE-OTHER-SIDE/HO00011367-403568"
+    },
+    {
+     "at": "2026-11-09T21:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EVEREST-THE-OTHER-SIDE/HO00011367-403729"
+    },
+    {
+     "at": "2026-11-10T13:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EVEREST-THE-OTHER-SIDE/HO00011367-403730"
+    },
+    {
+     "at": "2026-11-10T16:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EVEREST-THE-OTHER-SIDE/HO00011367-403663"
+    },
+    {
+     "at": "2026-11-11T11:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EVEREST-THE-OTHER-SIDE/HO00011367-403731"
+    },
+    {
+     "at": "2026-11-11T16:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EVEREST-THE-OTHER-SIDE/HO00011367-403664"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/OTHER-MOMMY",
+   "shows": [
+    {
+     "at": "2026-11-07T21:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/OTHER-MOMMY/HO00011228-403477"
+    },
+    {
+     "at": "2026-11-08T16:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/OTHER-MOMMY/HO00011228-403525"
+    },
+    {
+     "at": "2026-11-08T21:35",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/OTHER-MOMMY/HO00011228-403526"
+    },
+    {
+     "at": "2026-11-09T16:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/OTHER-MOMMY/HO00011228-403572"
+    },
+    {
+     "at": "2026-11-09T22:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/OTHER-MOMMY/HO00011228-403573"
+    },
+    {
+     "at": "2026-11-10T22:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/OTHER-MOMMY/HO00011228-403617"
+    },
+    {
+     "at": "2026-11-11T22:10",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/OTHER-MOMMY/HO00011228-403657"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 114,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/VERITY",
+   "shows": [
+    {
+     "at": "2026-11-07T21:40",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/VERITY/HO00011204-403469"
+    },
+    {
+     "at": "2026-11-08T21:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/VERITY/HO00011204-403514"
+    },
+    {
+     "at": "2026-11-09T21:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/VERITY/HO00011204-403560"
+    },
+    {
+     "at": "2026-11-10T21:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/VERITY/HO00011204-403606"
+    },
+    {
+     "at": "2026-11-11T21:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/VERITY/HO00011204-403648"
+    }
+   ]
+  },
+  {
+   "title": "Back to the Future",
+   "rating": "PG",
+   "runtime_min": 116,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/BACK-TO-THE-FUTURE",
+   "shows": [
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/BACK-TO-THE-FUTURE/HO00003649-400187"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/BACK-TO-THE-FUTURE/HO00003649-400188"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat (Open Caption)",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/THE-CAT-IN-THE-HAT-OPEN-CAPTION",
+   "shows": [
+    {
+     "at": "2026-11-09T12:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/THE-CAT-IN-THE-HAT-OPEN-CAPTION/HO00011369-403566"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/GHOST-SOLDIER",
+   "shows": [
+    {
+     "at": "2026-11-10T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402597"
+    },
+    {
+     "at": "2026-11-10T16:25",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402598"
+    },
+    {
+     "at": "2026-11-10T18:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402599"
+    },
+    {
+     "at": "2026-11-10T21:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402600"
+    },
+    {
+     "at": "2026-11-11T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402606"
+    },
+    {
+     "at": "2026-11-11T12:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402605"
+    },
+    {
+     "at": "2026-11-11T15:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402601"
+    },
+    {
+     "at": "2026-11-11T17:25",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402602"
+    },
+    {
+     "at": "2026-11-11T19:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402603"
+    },
+    {
+     "at": "2026-11-11T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402604"
+    },
+    {
+     "at": "2026-11-12T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402607"
+    },
+    {
+     "at": "2026-11-12T12:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402608"
+    },
+    {
+     "at": "2026-11-12T15:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402609"
+    },
+    {
+     "at": "2026-11-12T17:25",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402610"
+    },
+    {
+     "at": "2026-11-12T19:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402611"
+    },
+    {
+     "at": "2026-11-12T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402612"
+    },
+    {
+     "at": "2026-11-13T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402613"
+    },
+    {
+     "at": "2026-11-13T12:30",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402614"
+    },
+    {
+     "at": "2026-11-13T15:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402615"
+    },
+    {
+     "at": "2026-11-13T17:25",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402616"
+    },
+    {
+     "at": "2026-11-13T19:50",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402617"
+    },
+    {
+     "at": "2026-11-13T22:15",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/GHOST-SOLDIER/HO00011410-402618"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank - Early Access Screening",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/HOW-TO-ROB-A-BANK---EARLY-ACCESS-SCREENING",
+   "shows": [
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/HOW-TO-ROB-A-BANK---EARLY-ACCESS-SCREENING/HO00011403-402673"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/EBENEZER",
+   "shows": [
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EBENEZER/HO00011393-402561"
+    },
+    {
+     "at": "2026-11-12T16:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EBENEZER/HO00011393-402562"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EBENEZER/HO00011393-402564"
+    },
+    {
+     "at": "2026-11-13T10:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EBENEZER/HO00011393-402571"
+    },
+    {
+     "at": "2026-11-13T13:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EBENEZER/HO00011393-402566"
+    },
+    {
+     "at": "2026-11-13T16:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EBENEZER/HO00011393-402567"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/EBENEZER/HO00011393-402568"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/HOW-TO-ROB-A-BANK",
+   "shows": [
+    {
+     "at": "2026-11-12T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/HOW-TO-ROB-A-BANK/HO00011402-402675"
+    },
+    {
+     "at": "2026-11-12T19:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/HOW-TO-ROB-A-BANK/HO00011402-402676"
+    },
+    {
+     "at": "2026-11-13T16:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/HOW-TO-ROB-A-BANK/HO00011402-402683"
+    },
+    {
+     "at": "2026-11-13T19:45",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/HOW-TO-ROB-A-BANK/HO00011402-402678"
+    }
+   ]
+  },
+  {
+   "title": "Dune: Part One & Dune: Part Two Double Feature",
+   "rating": "PG-13",
+   "runtime_min": 332,
+   "url": "https://www.galaxytheatres.com/movie/Riverbank/DUNE-PART-ONE--DUNE-PART-TWO-DOUBLE-FEATURE",
+   "shows": [
+    {
+     "at": "2026-11-13T18:00",
+     "sold_out": false,
+     "url": "https://www.galaxytheatres.com/movies/Riverbank/DUNE-PART-ONE--DUNE-PART-TWO-DOUBLE-FEATURE/HO00011434-403305"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

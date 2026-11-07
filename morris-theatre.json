@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "morris-theatre",
+ "name": "Morris Theatre",
+ "city": "msp",
+ "area": "Morris",
+ "region": "Western Minnesota",
+ "url": "https://morristheatre.net/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ns6gdetcv1d6wrqwkt0789kgw8",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9056?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9057?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ns6gdetcv1d6wrqwkt0789kgw8",
+   "shows": [
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9053?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9054?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

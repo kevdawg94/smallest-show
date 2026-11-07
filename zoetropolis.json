@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "zoetropolis",
+ "name": "Zoetropolis",
+ "city": "centralpa",
+ "area": "Downtown Lancaster",
+ "region": "Lancaster & Lititz",
+ "url": "https://zoetropolis.com/",
+ "films": [
+  {
+   "title": "Primetime",
+   "rating": null,
+   "runtime_min": 109,
+   "url": "https://zoetropolis.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:30",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/479707/"
+    },
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/479706/"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/479705/"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/485824/"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://zoetropolis.com/",
+   "shows": [
+    {
+     "at": "2026-11-13T15:45",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/484749/"
+    },
+    {
+     "at": "2026-11-13T20:45",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/484751/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

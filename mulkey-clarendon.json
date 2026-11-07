@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "mulkey-clarendon",
+ "name": "Mulkey Theatre",
+ "city": "lubbock",
+ "area": "Clarendon",
+ "region": "Clarendon & Donley County",
+ "url": "https://clarendontx.com/Mulkey/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=647vrv0mmyymkxvfafhdhjjk7r",
+   "shows": [
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1152?siteToken=647vrv0mmyymkxvfafhdhjjk7r"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1153?siteToken=647vrv0mmyymkxvfafhdhjjk7r"
+    },
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1154?siteToken=647vrv0mmyymkxvfafhdhjjk7r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

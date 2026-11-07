@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "gathering-cinema",
+ "name": "The Gathering Cinema",
+ "city": "chico",
+ "area": "Paradise",
+ "region": "Oroville & Paradise",
+ "url": "https://thegatheringcinema.com/",
+ "films": [
+  {
+   "title": "The Little Rascals",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.thegatheringcinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://www.thegatheringcinema.com/"
+    }
+   ]
+  },
+  {
+   "title": "A Christmas Story",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.thegatheringcinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.thegatheringcinema.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

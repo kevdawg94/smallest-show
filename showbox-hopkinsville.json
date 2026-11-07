@@ -1,0 +1,610 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "showbox-hopkinsville",
+ "name": "The Showbox",
+ "city": "nashville",
+ "area": "Hopkinsville, KY",
+ "region": "Clarksville & Bowling Green",
+ "url": "https://www.theshowbox.net/",
+ "films": [
+  {
+   "title": "Ramayana Pt 1",
+   "rating": "PG-13",
+   "runtime_min": 195,
+   "url": "https://www.theshowbox.net/movie/27644",
+   "shows": [
+    {
+     "at": "2026-11-07T10:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102744000015"
+    },
+    {
+     "at": "2026-11-07T14:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102745000015"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102746000015"
+    },
+    {
+     "at": "2026-11-08T10:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103529000015"
+    },
+    {
+     "at": "2026-11-08T14:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103530000015"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103531000015"
+    },
+    {
+     "at": "2026-11-09T15:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103533000016"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103532000016"
+    },
+    {
+     "at": "2026-11-10T14:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103535000016"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103534000016"
+    },
+    {
+     "at": "2026-11-11T14:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103537000016"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103536000016"
+    },
+    {
+     "at": "2026-11-12T15:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103538000016"
+    },
+    {
+     "at": "2026-11-12T19:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103540000016"
+    },
+    {
+     "at": "2026-11-13T12:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103541000016"
+    },
+    {
+     "at": "2026-11-13T15:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103543000016"
+    },
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103542000016"
+    }
+   ]
+  },
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://www.theshowbox.net/movie/27511",
+   "shows": [
+    {
+     "at": "2026-11-07T10:50",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103555000017"
+    },
+    {
+     "at": "2026-11-07T13:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102307000017"
+    },
+    {
+     "at": "2026-11-07T16:35",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102309000017"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102310000017"
+    },
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102315000017"
+    },
+    {
+     "at": "2026-11-08T15:05",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102316000017"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102318000017"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102327000017"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102328000017"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102330000017"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102341000017"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103556000017"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102338000017"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102352000017"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102350000017"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102349000017"
+    },
+    {
+     "at": "2026-11-12T16:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102771000018"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102773000018"
+    },
+    {
+     "at": "2026-11-13T12:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102780000018"
+    },
+    {
+     "at": "2026-11-13T14:50",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/103554000018"
+    },
+    {
+     "at": "2026-11-13T17:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102782000018"
+    },
+    {
+     "at": "2026-11-13T20:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102783000018"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://www.theshowbox.net/movie/27349",
+   "shows": [
+    {
+     "at": "2026-11-07T11:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102738000016"
+    },
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102739000016"
+    },
+    {
+     "at": "2026-11-07T17:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102740000016"
+    },
+    {
+     "at": "2026-11-07T20:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102741000016"
+    },
+    {
+     "at": "2026-11-08T11:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102747000016"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102748000016"
+    },
+    {
+     "at": "2026-11-08T17:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102749000016"
+    },
+    {
+     "at": "2026-11-08T20:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102750000016"
+    },
+    {
+     "at": "2026-11-09T13:40",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102756000015"
+    },
+    {
+     "at": "2026-11-09T16:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102757000015"
+    },
+    {
+     "at": "2026-11-09T19:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102758000015"
+    },
+    {
+     "at": "2026-11-10T13:40",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102759000015"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102760000015"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102761000015"
+    },
+    {
+     "at": "2026-11-11T13:40",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102766000015"
+    },
+    {
+     "at": "2026-11-11T16:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102767000015"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102768000015"
+    }
+   ]
+  },
+  {
+   "title": "Christmas at the Kringles",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://www.theshowbox.net/movie/27570",
+   "shows": [
+    {
+     "at": "2026-11-07T12:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102366000018"
+    },
+    {
+     "at": "2026-11-07T15:20",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102367000018"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102368000018"
+    },
+    {
+     "at": "2026-11-07T20:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102369000018"
+    },
+    {
+     "at": "2026-11-08T11:20",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102370000018"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102371000018"
+    },
+    {
+     "at": "2026-11-08T16:40",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102372000018"
+    },
+    {
+     "at": "2026-11-08T19:20",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102373000018"
+    },
+    {
+     "at": "2026-11-09T13:40",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102331000018"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102332000018"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102333000018"
+    },
+    {
+     "at": "2026-11-10T13:40",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102345000018"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102344000018"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102343000018"
+    },
+    {
+     "at": "2026-11-11T13:40",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102356000018"
+    },
+    {
+     "at": "2026-11-11T16:20",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102355000018"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102354000018"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 145,
+   "url": "https://www.theshowbox.net/movie/27571",
+   "shows": [
+    {
+     "at": "2026-11-07T13:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102312000019"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102313000019"
+    },
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102314000019"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102322000019"
+    },
+    {
+     "at": "2026-11-08T13:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102319000019"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102320000019"
+    },
+    {
+     "at": "2026-11-08T19:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102321000019"
+    },
+    {
+     "at": "2026-11-09T13:05",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102324000019"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102325000019"
+    },
+    {
+     "at": "2026-11-09T19:35",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102326000019"
+    },
+    {
+     "at": "2026-11-10T13:05",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102337000019"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102336000019"
+    },
+    {
+     "at": "2026-11-10T19:35",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102335000019"
+    },
+    {
+     "at": "2026-11-11T13:05",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102348000019"
+    },
+    {
+     "at": "2026-11-11T16:20",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102347000019"
+    },
+    {
+     "at": "2026-11-11T19:35",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102346000019"
+    },
+    {
+     "at": "2026-11-12T15:05",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102769000015"
+    },
+    {
+     "at": "2026-11-12T18:20",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102770000015"
+    },
+    {
+     "at": "2026-11-13T13:45",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102784000015"
+    },
+    {
+     "at": "2026-11-13T17:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102785000015"
+    },
+    {
+     "at": "2026-11-13T20:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102786000015"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 125,
+   "url": "https://www.theshowbox.net/movie/27774",
+   "shows": [
+    {
+     "at": "2026-11-12T15:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102877000017"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102878000017"
+    },
+    {
+     "at": "2026-11-12T20:30",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102879000017"
+    },
+    {
+     "at": "2026-11-13T12:50",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102880000017"
+    },
+    {
+     "at": "2026-11-13T15:15",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102881000017"
+    },
+    {
+     "at": "2026-11-13T17:40",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102882000017"
+    },
+    {
+     "at": "2026-11-13T20:05",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102883000017"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 131,
+   "url": "https://www.theshowbox.net/movie/27831",
+   "shows": [
+    {
+     "at": "2026-11-12T17:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102083000019"
+    },
+    {
+     "at": "2026-11-12T20:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102084000019"
+    },
+    {
+     "at": "2026-11-13T12:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102085000019"
+    },
+    {
+     "at": "2026-11-13T15:05",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102086000019"
+    },
+    {
+     "at": "2026-11-13T18:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102087000019"
+    },
+    {
+     "at": "2026-11-13T21:00",
+     "sold_out": false,
+     "url": "https://www.theshowbox.net/tickets/102088000019"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

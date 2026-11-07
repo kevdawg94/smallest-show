@@ -1,0 +1,105 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "stowe-cinema",
+ "name": "Stowe Cinema",
+ "city": "burlington",
+ "area": "Stowe",
+ "region": "Mad River Valley & Stowe",
+ "url": "https://stowecinema.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-07T15:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13208?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13194?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-08T15:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13209?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13197?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13200?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13203?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13206?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-07T15:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13193?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13195?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-08T15:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13196?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13198?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13201?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13204?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13207?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

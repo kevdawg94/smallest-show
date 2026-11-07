@@ -1,0 +1,102 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "tin-pan",
+ "name": "Tin Pan Theater",
+ "city": "bend",
+ "area": "Downtown Bend",
+ "region": "Bend",
+ "url": "https://tinpantheater.com/",
+ "films": [
+  {
+   "title": "Private Event at Tin Pan",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tinpan.eventive.org/Films/677374a9daf9fb083fc51101",
+   "shows": [
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6aa3013ab423dce0ada6842d"
+    }
+   ]
+  },
+  {
+   "title": "The Cycle of Love",
+   "rating": null,
+   "runtime_min": 98,
+   "url": "https://tinpan.eventive.org/Films/6ad65d9b8217b6d6a46b441c",
+   "shows": [
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6ad65fd6c95665cb45011f1c"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6ae903e707339146db7f2b54"
+    }
+   ]
+  },
+  {
+   "title": "NAZA",
+   "rating": null,
+   "runtime_min": 77,
+   "url": "https://tinpan.eventive.org/Films/6ace772531520f6dd8f23a15",
+   "shows": [
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6adf8f6be12d5bef4dc20abc"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://tinpan.eventive.org/Films/6acac0e87addf8b57982cc52",
+   "shows": [
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6ae903fee1419f3643eca5e7"
+    }
+   ]
+  },
+  {
+   "title": "Primetime",
+   "rating": null,
+   "runtime_min": 110,
+   "url": "https://tinpan.eventive.org/Films/6ad81a58741933cf643c6868",
+   "shows": [
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6ae9041904a1c96898a895dd"
+    }
+   ]
+  },
+  {
+   "title": "Fjord | Opening Night!",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://tinpan.eventive.org/Films/6ad65c7430d8c821d86eede7",
+   "shows": [
+    {
+     "at": "2026-11-13T18:30",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6ad927f3b975ea9375a549ed"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

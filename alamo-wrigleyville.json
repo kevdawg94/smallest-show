@@ -1,0 +1,841 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "alamo-wrigleyville",
+ "name": "Alamo Wrigleyville",
+ "city": "chicago",
+ "area": "Wrigleyville",
+ "region": "North Side",
+ "url": "https://drafthouse.com/chicago/theater/wrigleyville",
+ "films": [
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/the-only-living-pickpocket-in-new-york?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-07T11:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36484"
+    },
+    {
+     "at": "2026-11-07T17:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36480"
+    },
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36475"
+    },
+    {
+     "at": "2026-11-07T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36479"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36488"
+    },
+    {
+     "at": "2026-11-08T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36494"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36503"
+    },
+    {
+     "at": "2026-11-09T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36510"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36538"
+    },
+    {
+     "at": "2026-11-10T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36525"
+    },
+    {
+     "at": "2026-11-11T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36557"
+    },
+    {
+     "at": "2026-11-11T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-only-living-pickpocket-in-new-york/1801/36546"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/you-can-see-everything?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-07T11:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36483"
+    },
+    {
+     "at": "2026-11-07T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36486"
+    },
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36481"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36473"
+    },
+    {
+     "at": "2026-11-07T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36477"
+    },
+    {
+     "at": "2026-11-08T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36498"
+    },
+    {
+     "at": "2026-11-08T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36496"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36495"
+    },
+    {
+     "at": "2026-11-08T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36489"
+    },
+    {
+     "at": "2026-11-08T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36492"
+    },
+    {
+     "at": "2026-11-09T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36516"
+    },
+    {
+     "at": "2026-11-09T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36515"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36504"
+    },
+    {
+     "at": "2026-11-09T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36508"
+    },
+    {
+     "at": "2026-11-10T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36536"
+    },
+    {
+     "at": "2026-11-10T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36535"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36524"
+    },
+    {
+     "at": "2026-11-10T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36527"
+    },
+    {
+     "at": "2026-11-11T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36555"
+    },
+    {
+     "at": "2026-11-11T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36556"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36545"
+    },
+    {
+     "at": "2026-11-11T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/you-can-see-everything/1801/36548"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/wicker?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-07T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36485"
+    },
+    {
+     "at": "2026-11-07T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36482"
+    },
+    {
+     "at": "2026-11-07T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36474"
+    },
+    {
+     "at": "2026-11-07T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36478"
+    },
+    {
+     "at": "2026-11-08T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36497"
+    },
+    {
+     "at": "2026-11-08T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36487"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36491"
+    },
+    {
+     "at": "2026-11-08T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36493"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36519"
+    },
+    {
+     "at": "2026-11-09T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36517"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36502"
+    },
+    {
+     "at": "2026-11-09T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36509"
+    },
+    {
+     "at": "2026-11-10T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36539"
+    },
+    {
+     "at": "2026-11-10T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36537"
+    },
+    {
+     "at": "2026-11-10T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36523"
+    },
+    {
+     "at": "2026-11-10T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36529"
+    },
+    {
+     "at": "2026-11-11T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36560"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36558"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36544"
+    },
+    {
+     "at": "2026-11-11T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wicker/1801/36551"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/wild-horse-nine?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-07T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/35733"
+    },
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/35734"
+    },
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/35735"
+    },
+    {
+     "at": "2026-11-07T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/35736"
+    },
+    {
+     "at": "2026-11-08T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/35737"
+    },
+    {
+     "at": "2026-11-08T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/35738"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/35739"
+    },
+    {
+     "at": "2026-11-08T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/35740"
+    },
+    {
+     "at": "2026-11-09T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36518"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36514"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36501"
+    },
+    {
+     "at": "2026-11-09T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36507"
+    },
+    {
+     "at": "2026-11-10T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36534"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36533"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36522"
+    },
+    {
+     "at": "2026-11-10T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36528"
+    },
+    {
+     "at": "2026-11-11T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36559"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36554"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36543"
+    },
+    {
+     "at": "2026-11-11T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/wild-horse-nine/1801/36550"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/godzilla-minus-zero?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-07T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/35575"
+    },
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/35576"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/35577"
+    },
+    {
+     "at": "2026-11-07T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/35578"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/35579"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/35580"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/35581"
+    },
+    {
+     "at": "2026-11-08T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/35582"
+    },
+    {
+     "at": "2026-11-09T11:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36513"
+    },
+    {
+     "at": "2026-11-09T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36512"
+    },
+    {
+     "at": "2026-11-09T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36500"
+    },
+    {
+     "at": "2026-11-09T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36506"
+    },
+    {
+     "at": "2026-11-10T11:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36532"
+    },
+    {
+     "at": "2026-11-10T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36531"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36521"
+    },
+    {
+     "at": "2026-11-10T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36530"
+    },
+    {
+     "at": "2026-11-11T11:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36553"
+    },
+    {
+     "at": "2026-11-11T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36552"
+    },
+    {
+     "at": "2026-11-11T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36542"
+    },
+    {
+     "at": "2026-11-11T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/godzilla-minus-zero/1801/36549"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/fjord?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-07T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/fjord/1801/36476"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/fjord/1801/36490"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/fjord/1801/36505"
+    },
+    {
+     "at": "2026-11-10T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/fjord/1801/36526"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/fjord/1801/36547"
+    }
+   ]
+  },
+  {
+   "title": "Little Odessa",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/little-odessa?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/little-odessa/1801/35898"
+    }
+   ]
+  },
+  {
+   "title": "Ernie & Emma",
+   "rating": "R",
+   "runtime_min": 90,
+   "url": "https://drafthouse.com/chicago/show/ernie-emma?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": true,
+     "url": "https://drafthouse.com/chicago/tickets/live-q-a-ernie-emma/1801/33831"
+    },
+    {
+     "at": "2026-11-07T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/live-q-a-ernie-emma/1801/33832"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/ernie-emma/1801/33833"
+    },
+    {
+     "at": "2026-11-09T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/ernie-emma/1801/33834"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/ernie-emma/1801/33835"
+    },
+    {
+     "at": "2026-11-11T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/ernie-emma/1801/33836"
+    },
+    {
+     "at": "2026-11-12T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/ernie-emma/1801/33837"
+    }
+   ]
+  },
+  {
+   "title": "We Own the Night",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/we-own-the-night?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/we-own-the-night/1801/35899"
+    }
+   ]
+  },
+  {
+   "title": "Littermates",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/littermates?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/littermates/1801/36181"
+    },
+    {
+     "at": "2026-11-09T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/littermates/1801/36182"
+    },
+    {
+     "at": "2026-11-09T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/littermates/1801/36511"
+    },
+    {
+     "at": "2026-11-10T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/littermates/1801/36541"
+    },
+    {
+     "at": "2026-11-10T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/littermates/1801/36540"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/littermates/1801/36183"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/littermates/1801/36184"
+    },
+    {
+     "at": "2026-11-12T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/littermates/1801/36185"
+    }
+   ]
+  },
+  {
+   "title": "Southland Tales",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/southland-tales?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-08T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/southland-tales/1801/36499"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/southland-tales/1801/35900"
+    },
+    {
+     "at": "2026-11-11T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/southland-tales/1801/36561"
+    }
+   ]
+  },
+  {
+   "title": "Women on the Verge of a Nervous Breakdown",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/women-on-the-verge-of-a-nervous-breakdown?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-09T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/women-on-the-verge-of-a-nervous-breakdown/1801/36520"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/women-on-the-verge-of-a-nervous-breakdown/1801/35902"
+    }
+   ]
+  },
+  {
+   "title": "Henry: Portrait of a Serial Killer",
+   "rating": "NC-17",
+   "runtime_min": 83,
+   "url": "https://drafthouse.com/chicago/show/terror-tuesday-henry-portrait-of-a-serial-killer?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/terror-tuesday-henry-portrait-of-a-serial-killer/1801/36186"
+    }
+   ]
+  },
+  {
+   "title": "Don't Go In The House",
+   "rating": "R",
+   "runtime_min": 92,
+   "url": "https://drafthouse.com/chicago/show/terror-tuesday-dont-go-in-the-house?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-10T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/terror-tuesday-dont-go-in-the-house/1801/36187"
+    }
+   ]
+  },
+  {
+   "title": "The Magnificent Ambersons",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/the-magnificent-ambersons?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/the-magnificent-ambersons/1801/35901"
+    }
+   ]
+  },
+  {
+   "title": "Crocodile Dose",
+   "rating": "NR",
+   "runtime_min": 77,
+   "url": "https://drafthouse.com/chicago/show/weird-wednesday-crocodile-dose-ee?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-11T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/weird-wednesday-crocodile-dose-ee/1801/36188"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/club-kid?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-12T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/club-kid/1801/36247"
+    },
+    {
+     "at": "2026-11-12T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/club-kid/1801/36248"
+    },
+    {
+     "at": "2026-11-12T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/club-kid/1801/36249"
+    },
+    {
+     "at": "2026-11-13T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/club-kid/1801/36253"
+    },
+    {
+     "at": "2026-11-13T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/club-kid/1801/36252"
+    },
+    {
+     "at": "2026-11-13T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/club-kid/1801/36251"
+    },
+    {
+     "at": "2026-11-13T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/club-kid/1801/36250"
+    }
+   ]
+  },
+  {
+   "title": "All About My Mother",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/chicago/show/all-about-my-mother?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/all-about-my-mother/1801/35903"
+    }
+   ]
+  },
+  {
+   "title": "Mystery Voyage",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://drafthouse.com/chicago/show/agfadrome-mystery-voyage-november-2026?cinemaId=1801",
+   "shows": [
+    {
+     "at": "2026-11-13T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/chicago/tickets/agfadrome-mystery-voyage-november-2026/1801/36189"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

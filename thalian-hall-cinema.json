@@ -1,0 +1,129 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "thalian-hall-cinema",
+ "name": "Thalian Hall Cinema",
+ "city": "wilmington",
+ "area": "Downtown Wilmington",
+ "region": "Downtown Wilmington",
+ "url": "https://www.thalianhall.org/cinema",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": null,
+   "runtime_min": 132,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-07T12:45",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=426401ALCSDNHRRDBSBCSQMGBKVMQMQBP"
+    }
+   ]
+  },
+  {
+   "title": "Taxi Driver (1976)",
+   "rating": null,
+   "runtime_min": 114,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=422601AVCTKJGJCTNNKJMTKVPCNCNHNTT"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=422602ACLNCBNPQBPCPCMRNQGRDNMKJBR"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=422603AKBTVMGQBCKSMRBRHBNMBGHMHQV"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=422604AMKHSRKCQDKCMKKTVVTCRSPGDPC"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=422605ATBLHMLNLCBCPRMTMSLTCHDNBMD"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=422606ATSSQGBRPGSGBSVDJTPJSVVMHVR"
+    }
+   ]
+  },
+  {
+   "title": "History of Concrete, The",
+   "rating": null,
+   "runtime_min": 101,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-07T16:15",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=425202APCCHQPJVKRRVDGKDBHGSVNMVBK"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=425601ARNPQTQTBTSDLHNCBTSPDSVHRBC"
+    },
+    {
+     "at": "2026-11-08T13:15",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=425401AGJGTKJNHCVCJMDMBLVMGQVLVSG"
+    },
+    {
+     "at": "2026-11-08T16:15",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=425203AHVVNLBBPHGBKBKSKNQPGMQKRJJ"
+    },
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=425402APTHMQBTPGKNHNCQQQMNHSCDMVM"
+    }
+   ]
+  },
+  {
+   "title": "Saltwater Cinema",
+   "rating": null,
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-09T17:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=416601APJBDLBHTSNGHPJTGLGVMHNPGGT"
+    }
+   ]
+  },
+  {
+   "title": "Friday the 13th Double Feature [2026]",
+   "rating": null,
+   "runtime_min": 179,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=422801ABKGQDVBGRTRJKJCVKMBKKVGPPQ"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

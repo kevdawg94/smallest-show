@@ -1,0 +1,972 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "carmel-cinemas",
+ "name": "Carmel Cinemas",
+ "city": "hudsonvalley",
+ "area": "Carmel",
+ "region": "Mid-Hudson",
+ "url": "https://carmel.boxofficecinemas.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 124,
+   "url": "https://carmel.boxofficecinemas.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256469"
+    },
+    {
+     "at": "2026-11-07T12:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256470"
+    },
+    {
+     "at": "2026-11-07T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256473"
+    },
+    {
+     "at": "2026-11-07T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256474"
+    },
+    {
+     "at": "2026-11-07T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256476"
+    },
+    {
+     "at": "2026-11-07T17:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256478"
+    },
+    {
+     "at": "2026-11-07T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256480"
+    },
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256482"
+    },
+    {
+     "at": "2026-11-07T21:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256484"
+    },
+    {
+     "at": "2026-11-08T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256415"
+    },
+    {
+     "at": "2026-11-08T12:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256416"
+    },
+    {
+     "at": "2026-11-08T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256419"
+    },
+    {
+     "at": "2026-11-08T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256420"
+    },
+    {
+     "at": "2026-11-08T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256422"
+    },
+    {
+     "at": "2026-11-08T17:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256424"
+    },
+    {
+     "at": "2026-11-08T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256426"
+    },
+    {
+     "at": "2026-11-08T19:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256428"
+    },
+    {
+     "at": "2026-11-08T21:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256430"
+    },
+    {
+     "at": "2026-11-09T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256518"
+    },
+    {
+     "at": "2026-11-09T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256521"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256524"
+    },
+    {
+     "at": "2026-11-09T17:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256528"
+    },
+    {
+     "at": "2026-11-09T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256532"
+    },
+    {
+     "at": "2026-11-10T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256538"
+    },
+    {
+     "at": "2026-11-10T12:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256542"
+    },
+    {
+     "at": "2026-11-10T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256545"
+    },
+    {
+     "at": "2026-11-10T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256549"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256552"
+    },
+    {
+     "at": "2026-11-10T17:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256556"
+    },
+    {
+     "at": "2026-11-10T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256560"
+    },
+    {
+     "at": "2026-11-10T19:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256564"
+    },
+    {
+     "at": "2026-11-10T21:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256566"
+    },
+    {
+     "at": "2026-11-11T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256574"
+    },
+    {
+     "at": "2026-11-11T12:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256578"
+    },
+    {
+     "at": "2026-11-11T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256581"
+    },
+    {
+     "at": "2026-11-11T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256584"
+    },
+    {
+     "at": "2026-11-11T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256587"
+    },
+    {
+     "at": "2026-11-11T17:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256591"
+    },
+    {
+     "at": "2026-11-11T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256594"
+    },
+    {
+     "at": "2026-11-12T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256602"
+    },
+    {
+     "at": "2026-11-12T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256605"
+    },
+    {
+     "at": "2026-11-12T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256608"
+    },
+    {
+     "at": "2026-11-12T17:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256612"
+    },
+    {
+     "at": "2026-11-12T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4256616"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 185,
+   "url": "https://carmel.boxofficecinemas.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256500"
+    },
+    {
+     "at": "2026-11-07T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256501"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256502"
+    },
+    {
+     "at": "2026-11-07T21:25",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256503"
+    },
+    {
+     "at": "2026-11-08T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256446"
+    },
+    {
+     "at": "2026-11-08T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256447"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256448"
+    },
+    {
+     "at": "2026-11-08T21:25",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256449"
+    },
+    {
+     "at": "2026-11-09T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256522"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256531"
+    },
+    {
+     "at": "2026-11-10T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256539"
+    },
+    {
+     "at": "2026-11-10T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256550"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256559"
+    },
+    {
+     "at": "2026-11-10T21:25",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256568"
+    },
+    {
+     "at": "2026-11-11T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256575"
+    },
+    {
+     "at": "2026-11-11T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256585"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256593"
+    },
+    {
+     "at": "2026-11-12T14:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256606"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/you-can-see-everything/4256615"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 142,
+   "url": "https://carmel.boxofficecinemas.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/wildwood/4256495"
+    },
+    {
+     "at": "2026-11-08T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/wildwood/4256441"
+    },
+    {
+     "at": "2026-11-09T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/wildwood/4256516"
+    },
+    {
+     "at": "2026-11-10T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/wildwood/4256541"
+    },
+    {
+     "at": "2026-11-11T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/wildwood/4256577"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 145,
+   "url": "https://carmel.boxofficecinemas.com/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256471"
+    },
+    {
+     "at": "2026-11-07T13:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256472"
+    },
+    {
+     "at": "2026-11-07T15:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256475"
+    },
+    {
+     "at": "2026-11-07T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256477"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256479"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256481"
+    },
+    {
+     "at": "2026-11-07T20:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256483"
+    },
+    {
+     "at": "2026-11-07T21:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256485"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256414"
+    },
+    {
+     "at": "2026-11-08T12:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256417"
+    },
+    {
+     "at": "2026-11-08T13:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256418"
+    },
+    {
+     "at": "2026-11-08T15:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256421"
+    },
+    {
+     "at": "2026-11-08T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256423"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256425"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256427"
+    },
+    {
+     "at": "2026-11-08T20:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256429"
+    },
+    {
+     "at": "2026-11-08T21:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256431"
+    },
+    {
+     "at": "2026-11-09T13:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256517"
+    },
+    {
+     "at": "2026-11-09T15:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256523"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256525"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256530"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256533"
+    },
+    {
+     "at": "2026-11-10T11:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256536"
+    },
+    {
+     "at": "2026-11-10T12:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256543"
+    },
+    {
+     "at": "2026-11-10T13:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256544"
+    },
+    {
+     "at": "2026-11-10T15:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256551"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256553"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256558"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256561"
+    },
+    {
+     "at": "2026-11-10T20:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256565"
+    },
+    {
+     "at": "2026-11-10T21:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256571"
+    },
+    {
+     "at": "2026-11-11T11:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256572"
+    },
+    {
+     "at": "2026-11-11T12:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256579"
+    },
+    {
+     "at": "2026-11-11T13:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256580"
+    },
+    {
+     "at": "2026-11-11T15:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256586"
+    },
+    {
+     "at": "2026-11-11T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256588"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256592"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256595"
+    },
+    {
+     "at": "2026-11-12T13:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256601"
+    },
+    {
+     "at": "2026-11-12T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256609"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/godzilla-minus-zero/4256617"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 139,
+   "url": "https://carmel.boxofficecinemas.com/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256491"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256492"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256493"
+    },
+    {
+     "at": "2026-11-07T21:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256494"
+    },
+    {
+     "at": "2026-11-08T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256436"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256437"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256438"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256439"
+    },
+    {
+     "at": "2026-11-08T21:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256440"
+    },
+    {
+     "at": "2026-11-09T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256519"
+    },
+    {
+     "at": "2026-11-09T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256526"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256534"
+    },
+    {
+     "at": "2026-11-10T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256540"
+    },
+    {
+     "at": "2026-11-10T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256546"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256554"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256562"
+    },
+    {
+     "at": "2026-11-10T21:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256570"
+    },
+    {
+     "at": "2026-11-11T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256576"
+    },
+    {
+     "at": "2026-11-11T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256582"
+    },
+    {
+     "at": "2026-11-11T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256589"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256596"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256603"
+    },
+    {
+     "at": "2026-11-12T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256610"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/drummer-boy/4256618"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 120,
+   "url": "https://carmel.boxofficecinemas.com/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256496"
+    },
+    {
+     "at": "2026-11-07T16:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256497"
+    },
+    {
+     "at": "2026-11-07T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256498"
+    },
+    {
+     "at": "2026-11-07T21:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256499"
+    },
+    {
+     "at": "2026-11-08T14:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256442"
+    },
+    {
+     "at": "2026-11-08T16:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256443"
+    },
+    {
+     "at": "2026-11-08T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256444"
+    },
+    {
+     "at": "2026-11-08T21:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256445"
+    },
+    {
+     "at": "2026-11-09T16:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256527"
+    },
+    {
+     "at": "2026-11-09T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256535"
+    },
+    {
+     "at": "2026-11-10T14:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256547"
+    },
+    {
+     "at": "2026-11-10T16:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256555"
+    },
+    {
+     "at": "2026-11-10T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256563"
+    },
+    {
+     "at": "2026-11-10T21:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256569"
+    },
+    {
+     "at": "2026-11-11T14:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256583"
+    },
+    {
+     "at": "2026-11-11T16:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256590"
+    },
+    {
+     "at": "2026-11-11T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/clayface/4256597"
+    }
+   ]
+  },
+  {
+   "title": "Ramayana - Eng",
+   "rating": "PG-13",
+   "runtime_min": 175,
+   "url": "https://carmel.boxofficecinemas.com/movie/ramayana---eng/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:35",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---eng/4256489"
+    },
+    {
+     "at": "2026-11-08T14:35",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---eng/4256435"
+    },
+    {
+     "at": "2026-11-09T14:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---eng/4256520"
+    },
+    {
+     "at": "2026-11-10T14:35",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---eng/4256548"
+    },
+    {
+     "at": "2026-11-11T11:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---eng/4256599"
+    },
+    {
+     "at": "2026-11-12T14:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---eng/4256604"
+    }
+   ]
+  },
+  {
+   "title": "Ramayana - Hindi",
+   "rating": "PG-13",
+   "runtime_min": 205,
+   "url": "https://carmel.boxofficecinemas.com/movie/ramayana---hindi/",
+   "shows": [
+    {
+     "at": "2026-11-07T17:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---hindi/4256487"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---hindi/4256432"
+    },
+    {
+     "at": "2026-11-08T17:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---hindi/4256433"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---hindi/4256529"
+    },
+    {
+     "at": "2026-11-10T11:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---hindi/4256537"
+    },
+    {
+     "at": "2026-11-10T17:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---hindi/4256557"
+    },
+    {
+     "at": "2026-11-11T14:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---hindi/4256573"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---hindi/4256613"
+    }
+   ]
+  },
+  {
+   "title": "Ramayana - Malay",
+   "rating": "PG-13",
+   "runtime_min": 205,
+   "url": "https://carmel.boxofficecinemas.com/movie/ramayana---malay/",
+   "shows": [
+    {
+     "at": "2026-11-07T21:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---malay/4256488"
+    },
+    {
+     "at": "2026-11-08T21:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---malay/4256434"
+    },
+    {
+     "at": "2026-11-10T21:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---malay/4256567"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ramayana---malay/4256598"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 125,
+   "url": "https://carmel.boxofficecinemas.com/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4277833"
+    },
+    {
+     "at": "2026-11-12T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4277834"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4277835"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 131,
+   "url": "https://carmel.boxofficecinemas.com/movie/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-12T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/how-to-rob-a-bank/4277836"
+    },
+    {
+     "at": "2026-11-12T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/how-to-rob-a-bank/4277837"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

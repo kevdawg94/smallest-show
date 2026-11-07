@@ -1,0 +1,105 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "savoy",
+ "name": "Savoy",
+ "city": "burlington",
+ "area": "Montpelier",
+ "region": "Montpelier & Barre",
+ "url": "https://savoytheater.com/",
+ "films": [
+  {
+   "title": "La Bola Negra",
+   "rating": null,
+   "runtime_min": 155,
+   "url": "https://savoytheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422624/"
+    },
+    {
+     "at": "2026-11-07T16:10",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422626/"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422627/"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422635/"
+    },
+    {
+     "at": "2026-11-08T17:15",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422632/"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422639/"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422641/"
+    },
+    {
+     "at": "2026-11-12T18:45",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422643/"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://savoytheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T17:30",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422631/"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422636/"
+    },
+    {
+     "at": "2026-11-08T16:35",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422637/"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422638/"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422640/"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://savoytheater.com/purchase/422642/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

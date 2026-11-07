@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "roseland-onancock",
+ "name": "Roseland Theatre",
+ "city": "delmarva",
+ "area": "Onancock",
+ "region": "Virginia's Eastern Shore",
+ "url": "https://www.roselandonancock.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/start?film=1443",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71695"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71696"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71697"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71698"
+    }
+   ]
+  },
+  {
+   "title": "I Swear",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/start?film=1441",
+   "shows": [
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71677"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

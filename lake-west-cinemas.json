@@ -1,0 +1,600 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "lake-west-cinemas",
+ "name": "VIP Lake West Cinemas",
+ "city": "westplains",
+ "area": "Gravois Mills",
+ "region": "Lake of the Ozarks",
+ "url": "https://www.lakewestcinemas.com/",
+ "films": [
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://vipcinemas.com/lake-west-cinemas/movie/27207",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24095"
+    },
+    {
+     "at": "2026-11-07T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24094"
+    },
+    {
+     "at": "2026-11-07T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24093"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24107"
+    },
+    {
+     "at": "2026-11-08T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24106"
+    },
+    {
+     "at": "2026-11-08T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24105"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24121"
+    },
+    {
+     "at": "2026-11-09T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24120"
+    },
+    {
+     "at": "2026-11-09T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24119"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24135"
+    },
+    {
+     "at": "2026-11-10T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24134"
+    },
+    {
+     "at": "2026-11-10T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24133"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24150"
+    },
+    {
+     "at": "2026-11-11T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24149"
+    },
+    {
+     "at": "2026-11-11T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24148"
+    },
+    {
+     "at": "2026-11-12T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24165"
+    },
+    {
+     "at": "2026-11-12T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24164"
+    },
+    {
+     "at": "2026-11-12T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24163"
+    },
+    {
+     "at": "2026-11-13T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24095"
+    },
+    {
+     "at": "2026-11-13T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24094"
+    },
+    {
+     "at": "2026-11-13T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24093"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://vipcinemas.com/lake-west-cinemas/movie/27672",
+   "shows": [
+    {
+     "at": "2026-11-07T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24090"
+    },
+    {
+     "at": "2026-11-07T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24091"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24092"
+    },
+    {
+     "at": "2026-11-08T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24102"
+    },
+    {
+     "at": "2026-11-08T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24103"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24104"
+    },
+    {
+     "at": "2026-11-09T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24116"
+    },
+    {
+     "at": "2026-11-09T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24117"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24118"
+    },
+    {
+     "at": "2026-11-10T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24130"
+    },
+    {
+     "at": "2026-11-10T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24131"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24132"
+    },
+    {
+     "at": "2026-11-11T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24145"
+    },
+    {
+     "at": "2026-11-11T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24146"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24147"
+    },
+    {
+     "at": "2026-11-12T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24160"
+    },
+    {
+     "at": "2026-11-12T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24161"
+    },
+    {
+     "at": "2026-11-12T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24162"
+    },
+    {
+     "at": "2026-11-13T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24090"
+    },
+    {
+     "at": "2026-11-13T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24091"
+    },
+    {
+     "at": "2026-11-13T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24092"
+    }
+   ]
+  },
+  {
+   "title": "Sight & Sound Presents: JOSHUA-Live!",
+   "rating": "NR",
+   "runtime_min": 144,
+   "url": "https://vipcinemas.com/lake-west-cinemas/movie/27732",
+   "shows": [
+    {
+     "at": "2026-11-07T13:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24101"
+    },
+    {
+     "at": "2026-11-07T16:40",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24100"
+    },
+    {
+     "at": "2026-11-08T13:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24113"
+    },
+    {
+     "at": "2026-11-08T16:40",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24112"
+    },
+    {
+     "at": "2026-11-09T13:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24127"
+    },
+    {
+     "at": "2026-11-09T16:40",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24126"
+    },
+    {
+     "at": "2026-11-10T13:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24141"
+    },
+    {
+     "at": "2026-11-10T16:40",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24140"
+    },
+    {
+     "at": "2026-11-11T13:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24156"
+    },
+    {
+     "at": "2026-11-11T16:40",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24155"
+    },
+    {
+     "at": "2026-11-12T13:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24171"
+    },
+    {
+     "at": "2026-11-12T16:40",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24170"
+    },
+    {
+     "at": "2026-11-13T13:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24101"
+    },
+    {
+     "at": "2026-11-13T16:40",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24100"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://vipcinemas.com/lake-west-cinemas/movie/26749",
+   "shows": [
+    {
+     "at": "2026-11-07T13:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24098"
+    },
+    {
+     "at": "2026-11-07T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24096"
+    },
+    {
+     "at": "2026-11-08T13:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24110"
+    },
+    {
+     "at": "2026-11-08T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24108"
+    },
+    {
+     "at": "2026-11-09T13:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24124"
+    },
+    {
+     "at": "2026-11-09T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24122"
+    },
+    {
+     "at": "2026-11-10T13:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24138"
+    },
+    {
+     "at": "2026-11-10T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24136"
+    },
+    {
+     "at": "2026-11-11T13:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24153"
+    },
+    {
+     "at": "2026-11-11T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24151"
+    },
+    {
+     "at": "2026-11-12T13:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24168"
+    },
+    {
+     "at": "2026-11-12T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24166"
+    },
+    {
+     "at": "2026-11-13T13:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24098"
+    },
+    {
+     "at": "2026-11-13T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24096"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://vipcinemas.com/lake-west-cinemas/movie/27397",
+   "shows": [
+    {
+     "at": "2026-11-07T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23532"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23533"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23534"
+    },
+    {
+     "at": "2026-11-08T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23535"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23536"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23537"
+    },
+    {
+     "at": "2026-11-09T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23538"
+    },
+    {
+     "at": "2026-11-09T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24114"
+    },
+    {
+     "at": "2026-11-09T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24115"
+    },
+    {
+     "at": "2026-11-10T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23541"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24128"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24129"
+    },
+    {
+     "at": "2026-11-11T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24142"
+    },
+    {
+     "at": "2026-11-11T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24143"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24144"
+    },
+    {
+     "at": "2026-11-12T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24157"
+    },
+    {
+     "at": "2026-11-12T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24158"
+    },
+    {
+     "at": "2026-11-12T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24159"
+    },
+    {
+     "at": "2026-11-13T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23532"
+    },
+    {
+     "at": "2026-11-13T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23533"
+    },
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/23534"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": 101,
+   "url": "https://vipcinemas.com/lake-west-cinemas/movie/26223",
+   "shows": [
+    {
+     "at": "2026-11-07T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24097"
+    },
+    {
+     "at": "2026-11-08T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24109"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24123"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24137"
+    },
+    {
+     "at": "2026-11-11T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24152"
+    },
+    {
+     "at": "2026-11-12T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24167"
+    },
+    {
+     "at": "2026-11-13T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24097"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://vipcinemas.com/lake-west-cinemas/movie/27204",
+   "shows": [
+    {
+     "at": "2026-11-07T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24099"
+    },
+    {
+     "at": "2026-11-08T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24111"
+    },
+    {
+     "at": "2026-11-09T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24125"
+    },
+    {
+     "at": "2026-11-10T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24139"
+    },
+    {
+     "at": "2026-11-11T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24154"
+    },
+    {
+     "at": "2026-11-12T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24169"
+    },
+    {
+     "at": "2026-11-13T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/lake-west-cinemas/tickets/24099"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

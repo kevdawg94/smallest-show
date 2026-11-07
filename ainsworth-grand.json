@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "ainsworth-grand",
+ "name": "Ainsworth Grand Theater",
+ "city": "gregory",
+ "area": "Ainsworth",
+ "region": "Ainsworth",
+ "url": "https://ainsworthgrandtheater.com/",
+ "films": [
+  {
+   "title": "Daniel and the Fiery Furnace",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ainsworthgrandtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ainsworthgrandtheater.com/"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://ainsworthgrandtheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

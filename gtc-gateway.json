@@ -1,0 +1,539 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "gtc-gateway",
+ "name": "Gateway Cinemas",
+ "city": "tallahassee",
+ "area": "Thomasville, GA",
+ "region": "Thomasville",
+ "url": "https://www.gtcmovies.com/gateway",
+ "films": [
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://gtcmovies.com/gateway/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822441"
+    },
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822440"
+    },
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822438"
+    },
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1846687"
+    },
+    {
+     "at": "2026-11-07T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822439"
+    },
+    {
+     "at": "2026-11-08T13:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822446"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822447"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1846794"
+    },
+    {
+     "at": "2026-11-08T19:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822448"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822449"
+    },
+    {
+     "at": "2026-11-10T19:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822450"
+    },
+    {
+     "at": "2026-11-11T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822451"
+    },
+    {
+     "at": "2026-11-11T19:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/godzilla-minus-zero/1822452"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://gtcmovies.com/gateway/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1846694"
+    },
+    {
+     "at": "2026-11-07T13:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828612"
+    },
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1846695"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828607"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828610"
+    },
+    {
+     "at": "2026-11-07T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828611"
+    },
+    {
+     "at": "2026-11-08T12:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1846702"
+    },
+    {
+     "at": "2026-11-08T13:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828618"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828620"
+    },
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828623"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828651"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828652"
+    },
+    {
+     "at": "2026-11-11T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828657"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/the-cat-in-the-hat/1828660"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://gtcmovies.com/gateway/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1828613"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1828606"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1828609"
+    },
+    {
+     "at": "2026-11-07T20:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1846789"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1828616"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1828619"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1828622"
+    },
+    {
+     "at": "2026-11-08T20:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1846790"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1828653"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1828654"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1846791"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1828656"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1828659"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/drummer-boy/1846792"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://gtcmovies.com/gateway/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846683"
+    },
+    {
+     "at": "2026-11-07T16:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846690"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846684"
+    },
+    {
+     "at": "2026-11-07T21:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846691"
+    },
+    {
+     "at": "2026-11-08T13:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846696"
+    },
+    {
+     "at": "2026-11-08T16:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846700"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846697"
+    },
+    {
+     "at": "2026-11-10T16:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846707"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846705"
+    },
+    {
+     "at": "2026-11-11T16:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846711"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/clayface/1846709"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://gtcmovies.com/gateway/movie/jimmy/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/jimmy/1828614"
+    },
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/jimmy/1828608"
+    },
+    {
+     "at": "2026-11-08T13:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/jimmy/1828617"
+    },
+    {
+     "at": "2026-11-08T16:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/jimmy/1828621"
+    },
+    {
+     "at": "2026-11-10T16:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/jimmy/1828655"
+    },
+    {
+     "at": "2026-11-11T16:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/jimmy/1828658"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 125,
+   "url": "https://gtcmovies.com/gateway/movie/street-fighter/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/street-fighter/1846685"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/street-fighter/1846692"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/street-fighter/1846686"
+    },
+    {
+     "at": "2026-11-07T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/street-fighter/1846693"
+    },
+    {
+     "at": "2026-11-08T13:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/street-fighter/1846698"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/street-fighter/1846701"
+    },
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/street-fighter/1846699"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/street-fighter/1846708"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/street-fighter/1846706"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/street-fighter/1846710"
+    }
+   ]
+  },
+  {
+   "title": "Back to the Future",
+   "rating": "PG",
+   "runtime_min": 116,
+   "url": "https://gtcmovies.com/gateway/movie/back-to-the-future-40th-anniversary/",
+   "shows": [
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/back-to-the-future-40th-anniversary/1846704"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/back-to-the-future-40th-anniversary/1846712"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://gtcmovies.com/gateway/movie/ghost-soldier/",
+   "shows": [
+    {
+     "at": "2026-11-10T17:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ghost-soldier/1842719"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ghost-soldier/1842720"
+    },
+    {
+     "at": "2026-11-11T17:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ghost-soldier/1842721"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ghost-soldier/1842722"
+    },
+    {
+     "at": "2026-11-12T17:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ghost-soldier/1842723"
+    },
+    {
+     "at": "2026-11-12T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ghost-soldier/1842724"
+    },
+    {
+     "at": "2026-11-13T17:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ghost-soldier/1842856"
+    },
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ghost-soldier/1842857"
+    },
+    {
+     "at": "2026-11-13T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ghost-soldier/1842858"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://gtcmovies.com/gateway/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-12T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ebenezer/1844428"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ebenezer/1844429"
+    },
+    {
+     "at": "2026-11-13T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ebenezer/1842907"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ebenezer/1842908"
+    },
+    {
+     "at": "2026-11-13T21:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/ebenezer/1842909"
+    }
+   ]
+  },
+  {
+   "title": "How To Rob A Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://gtcmovies.com/gateway/movie/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-12T16:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/how-to-rob-a-bank/1843579"
+    },
+    {
+     "at": "2026-11-12T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/how-to-rob-a-bank/1843580"
+    },
+    {
+     "at": "2026-11-13T16:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/how-to-rob-a-bank/1843581"
+    },
+    {
+     "at": "2026-11-13T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/gateway/checkout/showing/how-to-rob-a-bank/1843582"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

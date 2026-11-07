@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "murphy-theatre",
+ "name": "Murphy Theatre & Media Center",
+ "city": "gregory",
+ "area": "Stuart",
+ "region": "Stuart",
+ "url": "http://www.themurphytheatre.com/default.htm",
+ "films": [
+  {
+   "title": "Cat in the Hat 3D",
+   "rating": "PG",
+   "runtime_min": 107,
+   "url": "https://59662.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://59662.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://59662.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261108"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

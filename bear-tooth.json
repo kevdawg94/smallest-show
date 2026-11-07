@@ -1,0 +1,76 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "bear-tooth",
+ "name": "Bear Tooth Theatrepub",
+ "city": "anchorage",
+ "area": "Spenard",
+ "region": "Anchorage",
+ "url": "https://www.beartoothak.com/",
+ "films": [
+  {
+   "title": "Forgotten Island",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://beartooththeatre.filmbot.com/",
+   "shows": [
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://beartooththeatre.filmbot.com/purchase/1751467/"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": "NR",
+   "runtime_min": 102,
+   "url": "https://beartooththeatre.filmbot.com/",
+   "shows": [
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://beartooththeatre.filmbot.com/purchase/1747042/"
+    }
+   ]
+  },
+  {
+   "title": "Remaining Native",
+   "rating": null,
+   "runtime_min": 87,
+   "url": "https://beartooththeatre.filmbot.com/",
+   "shows": [
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://beartooththeatre.filmbot.com/purchase/1741829/"
+    }
+   ]
+  },
+  {
+   "title": "Teton Gravity Research: Actually, It Is Rocket Science ~ Presented by Challenge Alaska",
+   "rating": "NR",
+   "runtime_min": 90,
+   "url": "https://beartooththeatre.filmbot.com/",
+   "shows": [
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://beartooththeatre.filmbot.com/purchase/1709456/"
+    },
+    {
+     "at": "2026-11-12T20:30",
+     "sold_out": false,
+     "url": "https://beartooththeatre.filmbot.com/purchase/1709583/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,83 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "alex-movie-theatre",
+ "name": "Alex Movie Theatre",
+ "city": "indianapolis",
+ "area": "Alexandria",
+ "region": "Suburbs & Johnson County",
+ "url": "https://alexmovietheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://alexmovietheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://alexmovietheatre.com/",
+     "venue": "Large Screen"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://alexmovietheatre.com/",
+     "venue": "Large Screen"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://alexmovietheatre.com/",
+     "venue": "Large Screen"
+    },
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://alexmovietheatre.com/",
+     "venue": "Large Screen"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://alexmovietheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://alexmovietheatre.com/",
+     "venue": "Small Screen"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://alexmovietheatre.com/",
+     "venue": "Small Screen"
+    },
+    {
+     "at": "2026-11-08T16:45",
+     "sold_out": false,
+     "url": "https://alexmovietheatre.com/",
+     "venue": "Small Screen"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://alexmovietheatre.com/",
+     "venue": "Small Screen"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

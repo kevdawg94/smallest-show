@@ -1,0 +1,492 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "yosemite-cinema",
+ "name": "Yosemite Cinema",
+ "city": "fresno",
+ "area": "Oakhurst",
+ "region": "Oakhurst",
+ "url": "https://www.yosemitecinema.com/",
+ "films": [
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 105,
+   "url": "https://www.yosemitecinema.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052120"
+    },
+    {
+     "at": "2026-11-07T14:40",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052121"
+    },
+    {
+     "at": "2026-11-07T17:05",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052122"
+    },
+    {
+     "at": "2026-11-07T20:40",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052123"
+    },
+    {
+     "at": "2026-11-08T13:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052166"
+    },
+    {
+     "at": "2026-11-08T16:35",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052168"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052167"
+    },
+    {
+     "at": "2026-11-09T12:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052202"
+    },
+    {
+     "at": "2026-11-09T15:35",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052207"
+    },
+    {
+     "at": "2026-11-09T18:40",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052212"
+    },
+    {
+     "at": "2026-11-10T15:40",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052245"
+    },
+    {
+     "at": "2026-11-10T18:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052246"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052270"
+    },
+    {
+     "at": "2026-11-11T18:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052281"
+    },
+    {
+     "at": "2026-11-12T12:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052297"
+    },
+    {
+     "at": "2026-11-12T15:35",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052302"
+    },
+    {
+     "at": "2026-11-12T18:40",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/the-cat-in-the-hat/1052307"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.yosemitecinema.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052124"
+    },
+    {
+     "at": "2026-11-07T13:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052125"
+    },
+    {
+     "at": "2026-11-07T17:05",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052126"
+    },
+    {
+     "at": "2026-11-07T19:35",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052127"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052169"
+    },
+    {
+     "at": "2026-11-08T15:35",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052170"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052171"
+    },
+    {
+     "at": "2026-11-09T12:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052198"
+    },
+    {
+     "at": "2026-11-09T15:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052203"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052208"
+    },
+    {
+     "at": "2026-11-10T15:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052247"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052248"
+    },
+    {
+     "at": "2026-11-11T15:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052266"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052280"
+    },
+    {
+     "at": "2026-11-12T12:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052293"
+    },
+    {
+     "at": "2026-11-12T15:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052298"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/you-can-see-everything/1052303"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://www.yosemitecinema.com/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052108"
+    },
+    {
+     "at": "2026-11-07T14:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052109"
+    },
+    {
+     "at": "2026-11-07T17:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052110"
+    },
+    {
+     "at": "2026-11-07T20:05",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052111"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052157"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052158"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052159"
+    },
+    {
+     "at": "2026-11-09T12:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052199"
+    },
+    {
+     "at": "2026-11-09T15:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052204"
+    },
+    {
+     "at": "2026-11-09T18:05",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052209"
+    },
+    {
+     "at": "2026-11-10T15:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052239"
+    },
+    {
+     "at": "2026-11-10T18:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052240"
+    },
+    {
+     "at": "2026-11-11T15:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052268"
+    },
+    {
+     "at": "2026-11-11T18:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052282"
+    },
+    {
+     "at": "2026-11-12T12:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052294"
+    },
+    {
+     "at": "2026-11-12T15:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052299"
+    },
+    {
+     "at": "2026-11-12T18:05",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/godzilla-minus-zero/1052304"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://www.yosemitecinema.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052112"
+    },
+    {
+     "at": "2026-11-07T14:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052113"
+    },
+    {
+     "at": "2026-11-07T17:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052114"
+    },
+    {
+     "at": "2026-11-07T20:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052115"
+    },
+    {
+     "at": "2026-11-08T13:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052160"
+    },
+    {
+     "at": "2026-11-08T16:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052161"
+    },
+    {
+     "at": "2026-11-08T19:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052162"
+    },
+    {
+     "at": "2026-11-09T12:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052200"
+    },
+    {
+     "at": "2026-11-09T15:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052205"
+    },
+    {
+     "at": "2026-11-09T18:15",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052210"
+    },
+    {
+     "at": "2026-11-10T15:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052241"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/wildwood/1052242"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.yosemitecinema.com/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052116"
+    },
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052117"
+    },
+    {
+     "at": "2026-11-07T17:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052118"
+    },
+    {
+     "at": "2026-11-07T20:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052119"
+    },
+    {
+     "at": "2026-11-08T13:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052163"
+    },
+    {
+     "at": "2026-11-08T16:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052164"
+    },
+    {
+     "at": "2026-11-08T19:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052165"
+    },
+    {
+     "at": "2026-11-09T12:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052201"
+    },
+    {
+     "at": "2026-11-09T15:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052206"
+    },
+    {
+     "at": "2026-11-09T18:25",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052211"
+    },
+    {
+     "at": "2026-11-10T15:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052243"
+    },
+    {
+     "at": "2026-11-10T18:40",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052244"
+    },
+    {
+     "at": "2026-11-11T15:10",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052267"
+    },
+    {
+     "at": "2026-11-11T18:40",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052284"
+    },
+    {
+     "at": "2026-11-12T12:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052296"
+    },
+    {
+     "at": "2026-11-12T15:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052301"
+    },
+    {
+     "at": "2026-11-12T18:15",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/drummer-boy/1052306"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://www.yosemitecinema.com/movie/ghost-soldier/",
+   "shows": [
+    {
+     "at": "2026-11-11T15:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/ghost-soldier/1052372"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/ghost-soldier/1052373"
+    },
+    {
+     "at": "2026-11-12T12:00",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/ghost-soldier/1052374"
+    },
+    {
+     "at": "2026-11-12T15:20",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/ghost-soldier/1052375"
+    },
+    {
+     "at": "2026-11-12T18:15",
+     "sold_out": false,
+     "url": "https://www.yosemitecinema.com/checkout/showing/ghost-soldier/1052376"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

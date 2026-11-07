@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "mountaineer-lake-city",
+ "name": "Mountaineer Theatre",
+ "city": "montrose",
+ "area": "Lake City",
+ "region": "Lake City",
+ "url": "https://www.mountaineertheatre.com/",
+ "films": [
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tjcq8sgy53487e492k4rz2tp50",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/619?siteToken=tjcq8sgy53487e492k4rz2tp50"
+    }
+   ]
+  },
+  {
+   "title": "Runner",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tjcq8sgy53487e492k4rz2tp50",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/620?siteToken=tjcq8sgy53487e492k4rz2tp50"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

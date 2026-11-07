@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "flame-wells",
+ "name": "Flame Theatre",
+ "city": "rochestermn",
+ "area": "Wells, MN",
+ "region": "Faribault & Wells",
+ "url": "https://cityofwellsmn.gov/",
+ "films": [
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 117,
+   "url": "https://cityofwellsmn.gov/index.php/8-movies/98-runner-sept-25th-28th",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://cityofwellsmn.gov/index.php/8-movies/98-runner-sept-25th-28th"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://cityofwellsmn.gov/index.php/8-movies/98-runner-sept-25th-28th"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://cityofwellsmn.gov/index.php/8-movies/98-runner-sept-25th-28th"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://cityofwellsmn.gov/index.php/8-movies/98-runner-sept-25th-28th"
+    }
+   ]
+  },
+  {
+   "title": "Angel and the Badman",
+   "rating": "PG-13",
+   "runtime_min": 98,
+   "url": "https://cityofwellsmn.gov/index.php/8-movies/91-mutiny-september-18th-21st",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://cityofwellsmn.gov/index.php/8-movies/91-mutiny-september-18th-21st"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

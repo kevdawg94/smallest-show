@@ -1,0 +1,777 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "flagship-ocean-city",
+ "name": "Flagship Premium Cinemas Ocean City",
+ "city": "delmarva",
+ "area": "West Ocean City",
+ "region": "Ocean City & Berlin",
+ "url": "https://flagshipcinemas.com/oceancity",
+ "films": [
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://flagshipcinemas.com/oceancity/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139534"
+    },
+    {
+     "at": "2026-11-07T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252067"
+    },
+    {
+     "at": "2026-11-07T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139535"
+    },
+    {
+     "at": "2026-11-07T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252070"
+    },
+    {
+     "at": "2026-11-07T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139536"
+    },
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252075"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139537"
+    },
+    {
+     "at": "2026-11-07T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252076"
+    },
+    {
+     "at": "2026-11-07T21:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139538"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252334"
+    },
+    {
+     "at": "2026-11-08T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139539"
+    },
+    {
+     "at": "2026-11-08T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252009"
+    },
+    {
+     "at": "2026-11-08T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139540"
+    },
+    {
+     "at": "2026-11-08T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252011"
+    },
+    {
+     "at": "2026-11-08T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139541"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252014"
+    },
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139542"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139543"
+    },
+    {
+     "at": "2026-11-09T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252018"
+    },
+    {
+     "at": "2026-11-09T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139544"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252021"
+    },
+    {
+     "at": "2026-11-09T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139545"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252026"
+    },
+    {
+     "at": "2026-11-09T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139546"
+    },
+    {
+     "at": "2026-11-10T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139547"
+    },
+    {
+     "at": "2026-11-10T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252033"
+    },
+    {
+     "at": "2026-11-10T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139548"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252036"
+    },
+    {
+     "at": "2026-11-10T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139554"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252041"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139549"
+    },
+    {
+     "at": "2026-11-11T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139550"
+    },
+    {
+     "at": "2026-11-11T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252047"
+    },
+    {
+     "at": "2026-11-11T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139551"
+    },
+    {
+     "at": "2026-11-11T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252050"
+    },
+    {
+     "at": "2026-11-11T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139552"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4252054"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4139553"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://flagshipcinemas.com/oceancity/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wildwood/4252142"
+    },
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wildwood/4252145"
+    },
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wildwood/4252092"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wildwood/4252096"
+    },
+    {
+     "at": "2026-11-09T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wildwood/4252106"
+    },
+    {
+     "at": "2026-11-09T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wildwood/4252109"
+    },
+    {
+     "at": "2026-11-10T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wildwood/4252118"
+    },
+    {
+     "at": "2026-11-10T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wildwood/4252121"
+    },
+    {
+     "at": "2026-11-11T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wildwood/4252130"
+    },
+    {
+     "at": "2026-11-11T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wildwood/4252133"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://flagshipcinemas.com/oceancity/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177416"
+    },
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177417"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4252148"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177418"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4252151"
+    },
+    {
+     "at": "2026-11-07T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177419"
+    },
+    {
+     "at": "2026-11-08T10:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4252335"
+    },
+    {
+     "at": "2026-11-08T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177420"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177421"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4252100"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177422"
+    },
+    {
+     "at": "2026-11-09T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177423"
+    },
+    {
+     "at": "2026-11-09T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177424"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4252112"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177425"
+    },
+    {
+     "at": "2026-11-10T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177426"
+    },
+    {
+     "at": "2026-11-10T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177427"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4252124"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177428"
+    },
+    {
+     "at": "2026-11-11T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177429"
+    },
+    {
+     "at": "2026-11-11T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177430"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4177431"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://flagshipcinemas.com/oceancity/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252069"
+    },
+    {
+     "at": "2026-11-07T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252072"
+    },
+    {
+     "at": "2026-11-07T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252073"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252337"
+    },
+    {
+     "at": "2026-11-08T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252010"
+    },
+    {
+     "at": "2026-11-08T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252012"
+    },
+    {
+     "at": "2026-11-09T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252020"
+    },
+    {
+     "at": "2026-11-09T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252023"
+    },
+    {
+     "at": "2026-11-10T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252034"
+    },
+    {
+     "at": "2026-11-10T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252038"
+    },
+    {
+     "at": "2026-11-11T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252048"
+    },
+    {
+     "at": "2026-11-11T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/drummer-boy/4252051"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://flagshipcinemas.com/oceancity/movie/jimmy/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252143"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252146"
+    },
+    {
+     "at": "2026-11-07T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252149"
+    },
+    {
+     "at": "2026-11-07T21:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252153"
+    },
+    {
+     "at": "2026-11-08T10:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252336"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252093"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252098"
+    },
+    {
+     "at": "2026-11-08T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252101"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252107"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252110"
+    },
+    {
+     "at": "2026-11-09T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252113"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252119"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252122"
+    },
+    {
+     "at": "2026-11-10T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252125"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252131"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252134"
+    },
+    {
+     "at": "2026-11-11T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/jimmy/4252137"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://flagshipcinemas.com/oceancity/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252144"
+    },
+    {
+     "at": "2026-11-07T16:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252147"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252150"
+    },
+    {
+     "at": "2026-11-07T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252152"
+    },
+    {
+     "at": "2026-11-08T13:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252094"
+    },
+    {
+     "at": "2026-11-09T13:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252108"
+    },
+    {
+     "at": "2026-11-09T16:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252111"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252114"
+    },
+    {
+     "at": "2026-11-10T13:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252120"
+    },
+    {
+     "at": "2026-11-10T16:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252123"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252126"
+    },
+    {
+     "at": "2026-11-11T13:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/clayface/4252132"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://flagshipcinemas.com/oceancity/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-07T21:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wicker/4252077"
+    },
+    {
+     "at": "2026-11-08T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wicker/4252016"
+    },
+    {
+     "at": "2026-11-09T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wicker/4252029"
+    },
+    {
+     "at": "2026-11-10T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wicker/4252044"
+    },
+    {
+     "at": "2026-11-11T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wicker/4252338"
+    }
+   ]
+  },
+  {
+   "title": "Back to the Future",
+   "rating": "PG",
+   "runtime_min": 116,
+   "url": "https://flagshipcinemas.com/oceancity/movie/back-to-the-future/",
+   "shows": [
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/back-to-the-future/4043491"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/back-to-the-future/4043492"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/back-to-the-future/4043493"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/back-to-the-future/4043494"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/back-to-the-future/4043495"
+    }
+   ]
+  },
+  {
+   "title": "Little Shop of Horrors",
+   "rating": "PG-13",
+   "runtime_min": 94,
+   "url": "https://flagshipcinemas.com/oceancity/movie/little-shop-of-horrors/",
+   "shows": [
+    {
+     "at": "2026-11-11T21:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/little-shop-of-horrors/4175655"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://flagshipcinemas.com/oceancity/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-12T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4222371"
+    },
+    {
+     "at": "2026-11-12T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4222372"
+    },
+    {
+     "at": "2026-11-13T11:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4222375"
+    },
+    {
+     "at": "2026-11-13T13:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4222376"
+    },
+    {
+     "at": "2026-11-13T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4222377"
+    },
+    {
+     "at": "2026-11-13T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4222378"
+    },
+    {
+     "at": "2026-11-13T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4222379"
+    }
+   ]
+  },
+  {
+   "title": "How To Rob A Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://flagshipcinemas.com/oceancity/movie/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-12T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4229673"
+    },
+    {
+     "at": "2026-11-13T12:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4229681"
+    },
+    {
+     "at": "2026-11-13T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4229682"
+    },
+    {
+     "at": "2026-11-13T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4229683"
+    },
+    {
+     "at": "2026-11-13T21:25",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4229684"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

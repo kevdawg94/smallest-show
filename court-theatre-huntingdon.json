@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "court-theatre-huntingdon",
+ "name": "Court Theatre",
+ "city": "jacksontn",
+ "area": "Huntingdon",
+ "region": "Huntingdon",
+ "url": "http://www.courttheatretn.com/",
+ "films": [
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 107,
+   "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261108"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261112"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261113"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261111",
+   "shows": [
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://799122.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261111"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

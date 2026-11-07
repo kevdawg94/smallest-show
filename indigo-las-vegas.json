@@ -1,0 +1,87 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "indigo-las-vegas",
+ "name": "Indigo Theater",
+ "city": "abq",
+ "area": "Las Vegas",
+ "region": "Las Vegas",
+ "url": "https://www.indigotheater.rocks/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=crpbd49gbz2hhrea57hemf69y8",
+   "shows": [
+    {
+     "at": "2026-11-07T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7338?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7340?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7342?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7344?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-08T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7339?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7341?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-08T16:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7343?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7345?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7346?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7347?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7348?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7349?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

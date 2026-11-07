@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "cass-theatre",
+ "name": "Cass Theatre",
+ "city": "saginaw",
+ "area": "Cass City",
+ "region": "The Thumb",
+ "url": "https://thecasstheatre.com",
+ "films": [
+  {
+   "title": "The Cat In The Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://thecasstheatre.com",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://thecasstheatre.com"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://thecasstheatre.com"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

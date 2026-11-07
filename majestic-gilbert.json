@@ -1,0 +1,753 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "majestic-gilbert",
+ "name": "Majestic Gilbert",
+ "city": "phoenix",
+ "area": "Gilbert",
+ "region": "Chandler, Gilbert & Maricopa",
+ "url": "https://www.majesticphx.com/movie-theater/majesticgilbert8",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 139,
+   "url": "https://www.majesticphx.com/movie/MajesticGilbert8/WILDWOOD",
+   "shows": [
+    {
+     "at": "2026-11-07T11:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILDWOOD/RS980989739420-085729000008"
+    },
+    {
+     "at": "2026-11-07T17:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILDWOOD/RS980989739420-085726000008"
+    },
+    {
+     "at": "2026-11-08T14:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILDWOOD/RS980989739420-085685000008"
+    },
+    {
+     "at": "2026-11-08T17:55",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILDWOOD/RS980989739420-085683000008"
+    },
+    {
+     "at": "2026-11-09T14:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILDWOOD/RS980989739420-085710000008"
+    },
+    {
+     "at": "2026-11-09T17:55",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILDWOOD/RS980989739420-085709000008"
+    },
+    {
+     "at": "2026-11-10T11:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILDWOOD/RS980989739420-085756000008"
+    },
+    {
+     "at": "2026-11-10T17:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILDWOOD/RS980989739420-085753000008"
+    },
+    {
+     "at": "2026-11-11T14:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILDWOOD/RS980989739420-085772000008"
+    },
+    {
+     "at": "2026-11-11T17:55",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILDWOOD/RS980989739420-085771000008"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 125,
+   "url": "https://www.majesticphx.com/movie/MajesticGilbert8/CLAYFACE",
+   "shows": [
+    {
+     "at": "2026-11-07T11:35",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085663000001"
+    },
+    {
+     "at": "2026-11-07T14:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085728000008"
+    },
+    {
+     "at": "2026-11-07T19:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085656000007"
+    },
+    {
+     "at": "2026-11-07T22:10",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085665000002"
+    },
+    {
+     "at": "2026-11-08T11:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085686000001"
+    },
+    {
+     "at": "2026-11-08T16:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085680000007"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085679000007"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085715000001"
+    },
+    {
+     "at": "2026-11-09T16:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085706000007"
+    },
+    {
+     "at": "2026-11-09T19:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085705000007"
+    },
+    {
+     "at": "2026-11-10T11:35",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085755000001"
+    },
+    {
+     "at": "2026-11-10T14:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085754000008"
+    },
+    {
+     "at": "2026-11-10T19:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085738000007"
+    },
+    {
+     "at": "2026-11-10T22:10",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085743000002"
+    },
+    {
+     "at": "2026-11-11T11:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085777000001"
+    },
+    {
+     "at": "2026-11-11T16:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085768000007"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/CLAYFACE/RS818180383796-085767000007"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 119,
+   "url": "https://www.majesticphx.com/movie/MajesticGilbert8/GODZILLA-MINUS-ZERO",
+   "shows": [
+    {
+     "at": "2026-11-07T11:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085670000006"
+    },
+    {
+     "at": "2026-11-07T13:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085655000005"
+    },
+    {
+     "at": "2026-11-07T15:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-084710000003"
+    },
+    {
+     "at": "2026-11-07T17:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085653000005"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-084711000003"
+    },
+    {
+     "at": "2026-11-07T20:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085654000005"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085667000006"
+    },
+    {
+     "at": "2026-11-07T22:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085666000001"
+    },
+    {
+     "at": "2026-11-08T11:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085677000005"
+    },
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085693000006"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085678000005"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-084714000003"
+    },
+    {
+     "at": "2026-11-08T17:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085676000005"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-084715000003"
+    },
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085698000002"
+    },
+    {
+     "at": "2026-11-09T11:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085703000005"
+    },
+    {
+     "at": "2026-11-09T12:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085713000006"
+    },
+    {
+     "at": "2026-11-09T14:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085704000005"
+    },
+    {
+     "at": "2026-11-09T15:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085718000003"
+    },
+    {
+     "at": "2026-11-09T17:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085701000005"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085719000003"
+    },
+    {
+     "at": "2026-11-09T19:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085717000002"
+    },
+    {
+     "at": "2026-11-10T11:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085748000006"
+    },
+    {
+     "at": "2026-11-10T13:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085737000005"
+    },
+    {
+     "at": "2026-11-10T15:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085757000003"
+    },
+    {
+     "at": "2026-11-10T17:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085735000005"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085731000003"
+    },
+    {
+     "at": "2026-11-10T20:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085736000005"
+    },
+    {
+     "at": "2026-11-10T21:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085745000006"
+    },
+    {
+     "at": "2026-11-10T22:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085744000001"
+    },
+    {
+     "at": "2026-11-11T11:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085765000005"
+    },
+    {
+     "at": "2026-11-11T12:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085775000006"
+    },
+    {
+     "at": "2026-11-11T14:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085766000005"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085780000003"
+    },
+    {
+     "at": "2026-11-11T17:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085763000005"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085781000003"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/GODZILLA-MINUS-ZERO/RS134221373877-085779000002"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 130,
+   "url": "https://www.majesticphx.com/movie/MajesticGilbert8/THE-CAT-IN-THE-HAT",
+   "shows": [
+    {
+     "at": "2026-11-07T12:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085669000003"
+    },
+    {
+     "at": "2026-11-07T13:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085650000002"
+    },
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085672000006"
+    },
+    {
+     "at": "2026-11-07T16:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085651000002"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085181000006"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085652000002"
+    },
+    {
+     "at": "2026-11-07T21:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085668000003"
+    },
+    {
+     "at": "2026-11-08T11:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085697000008"
+    },
+    {
+     "at": "2026-11-08T12:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085692000003"
+    },
+    {
+     "at": "2026-11-08T13:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085673000002"
+    },
+    {
+     "at": "2026-11-08T15:10",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085695000006"
+    },
+    {
+     "at": "2026-11-08T16:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085674000002"
+    },
+    {
+     "at": "2026-11-08T18:10",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085182000006"
+    },
+    {
+     "at": "2026-11-09T11:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085716000008"
+    },
+    {
+     "at": "2026-11-09T12:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085712000003"
+    },
+    {
+     "at": "2026-11-09T13:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085699000002"
+    },
+    {
+     "at": "2026-11-09T15:10",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085714000006"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085700000002"
+    },
+    {
+     "at": "2026-11-09T18:10",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085702000006"
+    },
+    {
+     "at": "2026-11-10T12:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085747000003"
+    },
+    {
+     "at": "2026-11-10T13:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085732000002"
+    },
+    {
+     "at": "2026-11-10T15:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085750000006"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085733000002"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085751000006"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085734000002"
+    },
+    {
+     "at": "2026-11-10T21:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085746000003"
+    },
+    {
+     "at": "2026-11-11T11:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085778000008"
+    },
+    {
+     "at": "2026-11-11T12:30",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085774000003"
+    },
+    {
+     "at": "2026-11-11T13:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085761000002"
+    },
+    {
+     "at": "2026-11-11T15:10",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085776000006"
+    },
+    {
+     "at": "2026-11-11T16:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085762000002"
+    },
+    {
+     "at": "2026-11-11T18:10",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-CAT-IN-THE-HAT/TH18781-085764000006"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.majesticphx.com/movie/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING",
+   "shows": [
+    {
+     "at": "2026-11-07T12:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085664000007"
+    },
+    {
+     "at": "2026-11-07T14:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085659000001"
+    },
+    {
+     "at": "2026-11-07T18:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085658000001"
+    },
+    {
+     "at": "2026-11-07T21:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085661000008"
+    },
+    {
+     "at": "2026-11-08T12:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085687000007"
+    },
+    {
+     "at": "2026-11-08T14:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085682000001"
+    },
+    {
+     "at": "2026-11-08T18:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085681000001"
+    },
+    {
+     "at": "2026-11-09T12:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085711000007"
+    },
+    {
+     "at": "2026-11-09T14:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085708000001"
+    },
+    {
+     "at": "2026-11-09T18:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085707000001"
+    },
+    {
+     "at": "2026-11-10T12:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085742000007"
+    },
+    {
+     "at": "2026-11-10T14:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085740000001"
+    },
+    {
+     "at": "2026-11-10T18:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085739000001"
+    },
+    {
+     "at": "2026-11-10T21:15",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085741000008"
+    },
+    {
+     "at": "2026-11-11T12:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085773000007"
+    },
+    {
+     "at": "2026-11-11T14:20",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085770000001"
+    },
+    {
+     "at": "2026-11-11T18:25",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/YOU-CAN-SEE-EVERYTHING/RS997632062773-085769000001"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.majesticphx.com/movie/MajesticGilbert8/WILD-HORSE-NINE",
+   "shows": [
+    {
+     "at": "2026-11-07T12:55",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-084927000004"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-084926000004"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-084924000004"
+    },
+    {
+     "at": "2026-11-07T21:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085671000004"
+    },
+    {
+     "at": "2026-11-08T12:55",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-084931000004"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-084930000004"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-084928000004"
+    },
+    {
+     "at": "2026-11-09T12:55",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085722000004"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085721000004"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085720000004"
+    },
+    {
+     "at": "2026-11-10T12:55",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085760000004"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085759000004"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085758000004"
+    },
+    {
+     "at": "2026-11-10T21:50",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085749000004"
+    },
+    {
+     "at": "2026-11-11T12:55",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085784000004"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085783000004"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/WILD-HORSE-NINE/RS714879769853-085782000004"
+    }
+   ]
+  },
+  {
+   "title": "The Mosquito Bowl",
+   "rating": "R",
+   "runtime_min": 145,
+   "url": "https://www.majesticphx.com/movie/MajesticGilbert8/THE-MOSQUITO-BOWL",
+   "shows": [
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-MOSQUITO-BOWL/RS241408547950-085723000007"
+    },
+    {
+     "at": "2026-11-10T16:45",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/THE-MOSQUITO-BOWL/RS241408547950-085752000007"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://www.majesticphx.com/movie/MajesticGilbert8/EBENEZER",
+   "shows": [
+    {
+     "at": "2026-11-12T19:40",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/EBENEZER/RS266748737225-085549000006"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://www.majesticphx.com/movies/MajesticGilbert8/EBENEZER/RS266748737225-085550000006"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

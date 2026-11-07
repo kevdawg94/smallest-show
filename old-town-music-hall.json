@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "old-town-music-hall",
+ "name": "Old Town Music Hall",
+ "city": "la",
+ "area": "El Segundo",
+ "region": "South Bay & Orange County",
+ "url": "https://www.oldtownmusichall.org/",
+ "films": [
+  {
+   "title": "The Little Mermaid",
+   "rating": "G",
+   "runtime_min": 83,
+   "url": "https://oldtownmusichall.org/movie/the-little-mermaid-2/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": true,
+     "url": "https://oldtownmusichall.org/checkout/showing/the-little-mermaid-2/3343606"
+    }
+   ]
+  },
+  {
+   "title": "Citizen Kane",
+   "rating": null,
+   "runtime_min": 119,
+   "url": "https://oldtownmusichall.org/movie/citizen-kane/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/citizen-kane/3343607"
+    }
+   ]
+  },
+  {
+   "title": "Janet Klein and Her Parlor Boys",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://oldtownmusichall.org/movie/janet-klein-and-her-parlor-boys-2/",
+   "shows": [
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/janet-klein-and-her-parlor-boys-2/3343608"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

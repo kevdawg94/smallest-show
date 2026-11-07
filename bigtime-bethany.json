@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "bigtime-bethany",
+ "name": "BigTime Cinema",
+ "city": "fairfieldia",
+ "area": "Bethany",
+ "region": "Bethany",
+ "url": "https://www.bigtimecinema.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=1gsvgrdvgn087k4bx8ww07p2hg",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2679?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2676?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2680?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2677?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2678?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2681?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

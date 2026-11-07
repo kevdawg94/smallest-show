@@ -1,0 +1,123 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "antioch",
+ "name": "Antioch",
+ "city": "chicago",
+ "area": "Antioch",
+ "region": "Suburbs",
+ "url": "https://www.antiochtheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "TBC",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=k3kmckcywt9az13deg1wcas4d8",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23730?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23729?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23556?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23731?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23732?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23559?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23561?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23563?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=k3kmckcywt9az13deg1wcas4d8",
+   "shows": [
+    {
+     "at": "2026-11-07T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23554?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23555?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23728?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-08T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23557?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23558?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23733?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "TBC",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=k3kmckcywt9az13deg1wcas4d8",
+   "shows": [
+    {
+     "at": "2026-11-12T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23560?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    },
+    {
+     "at": "2026-11-13T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23562?siteToken=k3kmckcywt9az13deg1wcas4d8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

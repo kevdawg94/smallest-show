@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "manlius-art-cinema",
+ "name": "Manlius Art Cinema",
+ "city": "syracuse",
+ "area": "Manlius",
+ "region": "Syracuse & Manlius",
+ "url": "https://www.manliuscinema.com/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=mvwmvahhw6238mdza98rhjfkjm",
+   "shows": [
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/930?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/931?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/932?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/935?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=mvwmvahhw6238mdza98rhjfkjm",
+   "shows": [
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/928?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/929?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/933?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-12T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/934?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

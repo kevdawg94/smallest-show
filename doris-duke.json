@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "doris-duke",
+ "name": "Doris Duke Theatre",
+ "city": "honolulu",
+ "area": "Thomas Square",
+ "region": "Honolulu",
+ "url": "https://honolulumuseum.org/films/",
+ "films": [
+  {
+   "title": "Drowned Land",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://honolulumuseum.org/events/drowned-land-723n",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://secure.honolulumuseum.org/26490/26514"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://secure.honolulumuseum.org/26490/26515"
+    }
+   ]
+  },
+  {
+   "title": "American Doctor",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://honolulumuseum.org/events/american-doctor-yhmc",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://secure.honolulumuseum.org/26489/26510"
+    },
+    {
+     "at": "2026-11-13T14:00",
+     "sold_out": false,
+     "url": "https://secure.honolulumuseum.org/26489/26511"
+    }
+   ]
+  },
+  {
+   "title": "La vita va così (Life Is Life)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://honolulumuseum.org/events/la-vita-va-cosi-life-is-life-5q2d",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://secure.honolulumuseum.org/26494/26495"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

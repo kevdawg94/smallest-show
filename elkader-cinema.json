@@ -1,0 +1,67 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "elkader-cinema",
+ "name": "Elkader Cinema",
+ "city": "madison",
+ "area": "Elkader, IA",
+ "region": "Elkader",
+ "url": "https://www.elkadercinema.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.elkadercinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://3831.formovietickets.com:2235/T.ASP?WCI=BT&Page=PickTickets&SHOWID=6049&PLACEID=1"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://3831.formovietickets.com:2235/T.ASP?WCI=BT&Page=PickTickets&SHOWID=6043&PLACEID=1"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://3831.formovietickets.com:2235/T.ASP?WCI=BT&Page=PickTickets&SHOWID=6050&PLACEID=1"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://3831.formovietickets.com:2235/T.ASP?WCI=BT&Page=PickTickets&SHOWID=6044&PLACEID=1"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://3831.formovietickets.com:2235/T.ASP?WCI=BT&Page=PickTickets&SHOWID=6045&PLACEID=1"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://3831.formovietickets.com:2235/T.ASP?WCI=BT&Page=PickTickets&SHOWID=6046&PLACEID=1"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://3831.formovietickets.com:2235/T.ASP?WCI=BT&Page=PickTickets&SHOWID=6047&PLACEID=1"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://3831.formovietickets.com:2235/T.ASP?WCI=BT&Page=PickTickets&SHOWID=6048&PLACEID=1"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

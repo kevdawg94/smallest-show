@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "delchar",
+ "name": "Delchar Theater",
+ "city": "fargo",
+ "area": "Mayville",
+ "region": "Grand Forks & East Grand Forks",
+ "url": "https://delcharmovies.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=124s0wfxjrz48e7mgrvmskk6kg",
+   "shows": [
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1267?siteToken=124s0wfxjrz48e7mgrvmskk6kg"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1268?siteToken=124s0wfxjrz48e7mgrvmskk6kg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "edina",
+ "name": "Edina",
+ "city": "msp",
+ "area": "Edina",
+ "region": "Suburbs",
+ "url": "https://www.manntheatres.com/?theatre=edina-4",
+ "films": [
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://www.manntheatres.com/movies/244663325?theatre=edina-4",
+   "shows": [
+    {
+     "at": "2026-11-07T11:45",
+     "sold_out": false,
+     "url": "https://www.manntheatres.com/booking/89-24139?theatre=edina-4&day=6&m=244663325"
+    },
+    {
+     "at": "2026-11-07T14:15",
+     "sold_out": false,
+     "url": "https://www.manntheatres.com/booking/89-24140?theatre=edina-4&day=6&m=244663325"
+    },
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://www.manntheatres.com/booking/89-24141?theatre=edina-4&day=6&m=244663325"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://www.manntheatres.com/booking/89-24142?theatre=edina-4&day=6&m=244663325"
+    },
+    {
+     "at": "2026-11-07T21:45",
+     "sold_out": false,
+     "url": "https://www.manntheatres.com/booking/89-24143?theatre=edina-4&day=6&m=244663325"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-01T08:23",
+ "error": true,
+ "warning": null
+}

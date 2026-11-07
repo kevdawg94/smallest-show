@@ -1,0 +1,909 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "pelican-cinema",
+ "name": "Pelican Cinema",
+ "city": "roguevalley",
+ "area": "Klamath Falls",
+ "region": "Klamath Falls",
+ "url": "https://catheatres.com/pelican-cinema/",
+ "films": [
+  {
+   "title": "The Cat in the Hat 2D",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3368",
+   "shows": [
+    {
+     "at": "2026-11-07T11:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170718"
+    },
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170719"
+    },
+    {
+     "at": "2026-11-07T16:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170720"
+    },
+    {
+     "at": "2026-11-07T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170721"
+    },
+    {
+     "at": "2026-11-08T11:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170755"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170756"
+    },
+    {
+     "at": "2026-11-08T16:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170757"
+    },
+    {
+     "at": "2026-11-08T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170758"
+    },
+    {
+     "at": "2026-11-09T16:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170795"
+    },
+    {
+     "at": "2026-11-09T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170796"
+    },
+    {
+     "at": "2026-11-10T16:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170863"
+    },
+    {
+     "at": "2026-11-10T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170864"
+    },
+    {
+     "at": "2026-11-11T16:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170883"
+    },
+    {
+     "at": "2026-11-11T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170884"
+    },
+    {
+     "at": "2026-11-12T16:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170902"
+    },
+    {
+     "at": "2026-11-12T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170903"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3386",
+   "shows": [
+    {
+     "at": "2026-11-07T11:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170714"
+    },
+    {
+     "at": "2026-11-07T14:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170715"
+    },
+    {
+     "at": "2026-11-07T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170716"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170717"
+    },
+    {
+     "at": "2026-11-08T11:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170751"
+    },
+    {
+     "at": "2026-11-08T14:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170752"
+    },
+    {
+     "at": "2026-11-08T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170753"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170754"
+    },
+    {
+     "at": "2026-11-09T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170791"
+    },
+    {
+     "at": "2026-11-09T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170792"
+    },
+    {
+     "at": "2026-11-10T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170861"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170862"
+    },
+    {
+     "at": "2026-11-11T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170881"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170882"
+    },
+    {
+     "at": "2026-11-12T16:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170900"
+    },
+    {
+     "at": "2026-11-12T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170901"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3365",
+   "shows": [
+    {
+     "at": "2026-11-07T11:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170708"
+    },
+    {
+     "at": "2026-11-07T14:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170709"
+    },
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170710"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170711"
+    },
+    {
+     "at": "2026-11-08T11:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170745"
+    },
+    {
+     "at": "2026-11-08T14:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170746"
+    },
+    {
+     "at": "2026-11-08T16:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170747"
+    },
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170748"
+    },
+    {
+     "at": "2026-11-09T16:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170784"
+    },
+    {
+     "at": "2026-11-09T19:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170852"
+    },
+    {
+     "at": "2026-11-10T16:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170858"
+    },
+    {
+     "at": "2026-11-11T16:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170878"
+    },
+    {
+     "at": "2026-11-11T19:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170892"
+    },
+    {
+     "at": "2026-11-12T16:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170897"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3315",
+   "shows": [
+    {
+     "at": "2026-11-07T11:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170712"
+    },
+    {
+     "at": "2026-11-08T11:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170749"
+    },
+    {
+     "at": "2026-11-08T14:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170775"
+    },
+    {
+     "at": "2026-11-09T17:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170787"
+    },
+    {
+     "at": "2026-11-10T17:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170859"
+    },
+    {
+     "at": "2026-11-11T17:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170879"
+    },
+    {
+     "at": "2026-11-12T17:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170898"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3336",
+   "shows": [
+    {
+     "at": "2026-11-07T12:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170733"
+    },
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170734"
+    },
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170735"
+    },
+    {
+     "at": "2026-11-07T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170736"
+    },
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170770"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170771"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170772"
+    },
+    {
+     "at": "2026-11-08T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170773"
+    },
+    {
+     "at": "2026-11-09T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170810"
+    },
+    {
+     "at": "2026-11-09T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170811"
+    },
+    {
+     "at": "2026-11-10T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170870"
+    },
+    {
+     "at": "2026-11-10T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170871"
+    },
+    {
+     "at": "2026-11-11T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170890"
+    },
+    {
+     "at": "2026-11-11T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170891"
+    },
+    {
+     "at": "2026-11-12T17:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170909"
+    },
+    {
+     "at": "2026-11-12T19:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170910"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat 3D",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3369",
+   "shows": [
+    {
+     "at": "2026-11-07T12:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170726"
+    },
+    {
+     "at": "2026-11-07T14:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170727"
+    },
+    {
+     "at": "2026-11-08T12:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170763"
+    },
+    {
+     "at": "2026-11-08T14:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170764"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3362",
+   "shows": [
+    {
+     "at": "2026-11-07T12:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170722"
+    },
+    {
+     "at": "2026-11-07T14:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170723"
+    },
+    {
+     "at": "2026-11-07T17:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170724"
+    },
+    {
+     "at": "2026-11-07T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170725"
+    },
+    {
+     "at": "2026-11-08T12:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170759"
+    },
+    {
+     "at": "2026-11-08T14:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170760"
+    },
+    {
+     "at": "2026-11-08T17:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170761"
+    },
+    {
+     "at": "2026-11-08T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170762"
+    },
+    {
+     "at": "2026-11-09T17:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170799"
+    },
+    {
+     "at": "2026-11-09T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170800"
+    },
+    {
+     "at": "2026-11-10T17:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170865"
+    },
+    {
+     "at": "2026-11-10T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170866"
+    },
+    {
+     "at": "2026-11-11T17:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170885"
+    },
+    {
+     "at": "2026-11-11T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170886"
+    },
+    {
+     "at": "2026-11-12T17:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170904"
+    },
+    {
+     "at": "2026-11-12T20:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170905"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3387",
+   "shows": [
+    {
+     "at": "2026-11-07T12:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170702"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170703"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170704"
+    },
+    {
+     "at": "2026-11-08T12:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170739"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170740"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170741"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170777"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170778"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170854"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170855"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170874"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170875"
+    },
+    {
+     "at": "2026-11-12T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170893"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170894"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3335",
+   "shows": [
+    {
+     "at": "2026-11-07T12:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170705"
+    },
+    {
+     "at": "2026-11-07T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170706"
+    },
+    {
+     "at": "2026-11-07T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170707"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170742"
+    },
+    {
+     "at": "2026-11-08T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170743"
+    },
+    {
+     "at": "2026-11-08T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170744"
+    },
+    {
+     "at": "2026-11-09T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170780"
+    },
+    {
+     "at": "2026-11-09T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170781"
+    },
+    {
+     "at": "2026-11-10T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170856"
+    },
+    {
+     "at": "2026-11-10T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170857"
+    },
+    {
+     "at": "2026-11-11T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170876"
+    },
+    {
+     "at": "2026-11-11T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170877"
+    },
+    {
+     "at": "2026-11-12T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170895"
+    },
+    {
+     "at": "2026-11-12T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170896"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3356",
+   "shows": [
+    {
+     "at": "2026-11-07T12:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170730"
+    },
+    {
+     "at": "2026-11-07T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170731"
+    },
+    {
+     "at": "2026-11-07T17:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170728"
+    },
+    {
+     "at": "2026-11-07T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170732"
+    },
+    {
+     "at": "2026-11-07T20:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170729"
+    },
+    {
+     "at": "2026-11-08T12:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170767"
+    },
+    {
+     "at": "2026-11-08T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170768"
+    },
+    {
+     "at": "2026-11-08T17:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170765"
+    },
+    {
+     "at": "2026-11-08T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170769"
+    },
+    {
+     "at": "2026-11-08T20:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170766"
+    },
+    {
+     "at": "2026-11-09T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170806"
+    },
+    {
+     "at": "2026-11-09T17:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170803"
+    },
+    {
+     "at": "2026-11-09T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170807"
+    },
+    {
+     "at": "2026-11-10T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170868"
+    },
+    {
+     "at": "2026-11-10T17:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170867"
+    },
+    {
+     "at": "2026-11-10T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170869"
+    },
+    {
+     "at": "2026-11-11T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170888"
+    },
+    {
+     "at": "2026-11-11T17:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170887"
+    },
+    {
+     "at": "2026-11-11T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170889"
+    },
+    {
+     "at": "2026-11-12T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170907"
+    },
+    {
+     "at": "2026-11-12T17:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170906"
+    },
+    {
+     "at": "2026-11-12T19:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170908"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3344",
+   "shows": [
+    {
+     "at": "2026-11-07T14:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170737"
+    },
+    {
+     "at": "2026-11-07T19:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170713"
+    },
+    {
+     "at": "2026-11-08T19:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170750"
+    },
+    {
+     "at": "2026-11-09T20:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170788"
+    },
+    {
+     "at": "2026-11-10T20:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170860"
+    },
+    {
+     "at": "2026-11-11T20:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170880"
+    },
+    {
+     "at": "2026-11-12T20:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170899"
+    }
+   ]
+  },
+  {
+   "title": "Rocky 50th Anniversary",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3342",
+   "shows": [
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=169526"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170738"
+    },
+    {
+     "at": "2026-11-09T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=169528"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170853"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170873"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3390",
+   "shows": [
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170915"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3389",
+   "shows": [
+    {
+     "at": "2026-11-12T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170917"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/start?film=3391",
+   "shows": [
+    {
+     "at": "2026-11-12T19:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/COMPEL/book?perfcode=170916"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

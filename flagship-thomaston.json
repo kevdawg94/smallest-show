@@ -1,0 +1,787 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "flagship-thomaston",
+ "name": "Flagship Premium Cinemas Thomaston",
+ "city": "midcoast",
+ "area": "Thomaston",
+ "region": "Rockland & Camden",
+ "url": "https://flagshipcinemas.com/thomaston",
+ "films": [
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://flagshipcinemas.com/thomaston/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137302"
+    },
+    {
+     "at": "2026-11-07T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253533"
+    },
+    {
+     "at": "2026-11-07T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137303"
+    },
+    {
+     "at": "2026-11-07T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253534"
+    },
+    {
+     "at": "2026-11-07T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137305"
+    },
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253535"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137304"
+    },
+    {
+     "at": "2026-11-08T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137306"
+    },
+    {
+     "at": "2026-11-08T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253429"
+    },
+    {
+     "at": "2026-11-08T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137307"
+    },
+    {
+     "at": "2026-11-08T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253430"
+    },
+    {
+     "at": "2026-11-08T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137309"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253431"
+    },
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137308"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137310"
+    },
+    {
+     "at": "2026-11-09T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253445"
+    },
+    {
+     "at": "2026-11-09T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137311"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253446"
+    },
+    {
+     "at": "2026-11-09T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137313"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253447"
+    },
+    {
+     "at": "2026-11-09T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137312"
+    },
+    {
+     "at": "2026-11-10T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137314"
+    },
+    {
+     "at": "2026-11-10T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253463"
+    },
+    {
+     "at": "2026-11-10T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137315"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253464"
+    },
+    {
+     "at": "2026-11-10T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137317"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253465"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137316"
+    },
+    {
+     "at": "2026-11-11T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137318"
+    },
+    {
+     "at": "2026-11-11T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253481"
+    },
+    {
+     "at": "2026-11-11T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137319"
+    },
+    {
+     "at": "2026-11-11T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253482"
+    },
+    {
+     "at": "2026-11-11T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137321"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4253483"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/the-cat-in-the-hat/4137320"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 175,
+   "url": "https://flagshipcinemas.com/thomaston/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253530"
+    },
+    {
+     "at": "2026-11-07T15:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253531"
+    },
+    {
+     "at": "2026-11-07T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253532"
+    },
+    {
+     "at": "2026-11-08T11:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253426"
+    },
+    {
+     "at": "2026-11-08T15:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253427"
+    },
+    {
+     "at": "2026-11-08T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253428"
+    },
+    {
+     "at": "2026-11-09T11:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253442"
+    },
+    {
+     "at": "2026-11-09T15:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253443"
+    },
+    {
+     "at": "2026-11-09T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253444"
+    },
+    {
+     "at": "2026-11-10T11:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253460"
+    },
+    {
+     "at": "2026-11-10T15:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253461"
+    },
+    {
+     "at": "2026-11-10T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253462"
+    },
+    {
+     "at": "2026-11-11T11:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253478"
+    },
+    {
+     "at": "2026-11-11T15:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253479"
+    },
+    {
+     "at": "2026-11-11T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/you-can-see-everything/4253480"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://flagshipcinemas.com/thomaston/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253542"
+    },
+    {
+     "at": "2026-11-07T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178182"
+    },
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253543"
+    },
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178183"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253544"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178184"
+    },
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253438"
+    },
+    {
+     "at": "2026-11-08T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178185"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178186"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178187"
+    },
+    {
+     "at": "2026-11-09T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253454"
+    },
+    {
+     "at": "2026-11-09T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178188"
+    },
+    {
+     "at": "2026-11-09T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253455"
+    },
+    {
+     "at": "2026-11-09T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178189"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253456"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178190"
+    },
+    {
+     "at": "2026-11-10T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253472"
+    },
+    {
+     "at": "2026-11-10T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178191"
+    },
+    {
+     "at": "2026-11-10T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253473"
+    },
+    {
+     "at": "2026-11-10T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178192"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253474"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178193"
+    },
+    {
+     "at": "2026-11-11T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4253490"
+    },
+    {
+     "at": "2026-11-11T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178194"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178195"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/godzilla-minus-zero/4178196"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://flagshipcinemas.com/thomaston/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253536"
+    },
+    {
+     "at": "2026-11-07T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253537"
+    },
+    {
+     "at": "2026-11-08T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253432"
+    },
+    {
+     "at": "2026-11-08T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253433"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253437"
+    },
+    {
+     "at": "2026-11-09T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253448"
+    },
+    {
+     "at": "2026-11-09T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253449"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253453"
+    },
+    {
+     "at": "2026-11-10T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253466"
+    },
+    {
+     "at": "2026-11-10T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253467"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253471"
+    },
+    {
+     "at": "2026-11-11T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253484"
+    },
+    {
+     "at": "2026-11-11T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253485"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/drummer-boy/4253489"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://flagshipcinemas.com/thomaston/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/wildwood/4253539"
+    },
+    {
+     "at": "2026-11-07T15:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/wildwood/4253540"
+    },
+    {
+     "at": "2026-11-08T12:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/wildwood/4253434"
+    },
+    {
+     "at": "2026-11-08T15:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/wildwood/4253435"
+    },
+    {
+     "at": "2026-11-09T12:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/wildwood/4253450"
+    },
+    {
+     "at": "2026-11-09T15:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/wildwood/4253451"
+    },
+    {
+     "at": "2026-11-10T12:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/wildwood/4253468"
+    },
+    {
+     "at": "2026-11-10T15:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/wildwood/4253469"
+    },
+    {
+     "at": "2026-11-11T12:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/wildwood/4253486"
+    },
+    {
+     "at": "2026-11-11T15:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/wildwood/4253487"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://flagshipcinemas.com/thomaston/movie/jimmy/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253545"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253546"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253547"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253439"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253440"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253441"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253457"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253458"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253459"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253475"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253476"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253477"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253491"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253492"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/jimmy/4253493"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 94,
+   "url": "https://flagshipcinemas.com/thomaston/movie/resident-evil/",
+   "shows": [
+    {
+     "at": "2026-11-07T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/resident-evil/4253538"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://flagshipcinemas.com/thomaston/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/clayface/4253541"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/clayface/4253436"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/clayface/4253452"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/clayface/4253470"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/clayface/4253488"
+    }
+   ]
+  },
+  {
+   "title": "Back to the Future",
+   "rating": "PG",
+   "runtime_min": 116,
+   "url": "https://flagshipcinemas.com/thomaston/movie/back-to-the-future/",
+   "shows": [
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/back-to-the-future/4042383"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/back-to-the-future/4042384"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/back-to-the-future/4042385"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/back-to-the-future/4042386"
+    }
+   ]
+  },
+  {
+   "title": "How To Rob A Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://flagshipcinemas.com/thomaston/movie/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-12T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/how-to-rob-a-bank/4228272"
+    },
+    {
+     "at": "2026-11-12T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/how-to-rob-a-bank/4228273"
+    },
+    {
+     "at": "2026-11-13T12:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/how-to-rob-a-bank/4228274"
+    },
+    {
+     "at": "2026-11-13T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/how-to-rob-a-bank/4228275"
+    },
+    {
+     "at": "2026-11-13T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/how-to-rob-a-bank/4228276"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://flagshipcinemas.com/thomaston/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-12T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/ebenezer/4217158"
+    },
+    {
+     "at": "2026-11-12T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/ebenezer/4217159"
+    },
+    {
+     "at": "2026-11-13T11:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/ebenezer/4217165"
+    },
+    {
+     "at": "2026-11-13T13:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/ebenezer/4217166"
+    },
+    {
+     "at": "2026-11-13T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/ebenezer/4217167"
+    },
+    {
+     "at": "2026-11-13T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/thomaston/checkout/showing/ebenezer/4217168"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

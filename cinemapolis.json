@@ -1,0 +1,545 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "cinemapolis",
+ "name": "Cinemapolis",
+ "city": "ithaca",
+ "area": "Downtown Ithaca",
+ "region": "Ithaca",
+ "url": "https://www.cinemapolis.org/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://www.cinemapolis.org/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238459"
+    },
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238464"
+    },
+    {
+     "at": "2026-11-07T20:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238469"
+    },
+    {
+     "at": "2026-11-08T14:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238379"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238384"
+    },
+    {
+     "at": "2026-11-08T20:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238389"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4243463"
+    },
+    {
+     "at": "2026-11-09T14:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238394"
+    },
+    {
+     "at": "2026-11-09T17:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238399"
+    },
+    {
+     "at": "2026-11-09T20:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238404"
+    },
+    {
+     "at": "2026-11-10T14:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238409"
+    },
+    {
+     "at": "2026-11-10T17:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238414"
+    },
+    {
+     "at": "2026-11-10T20:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238419"
+    },
+    {
+     "at": "2026-11-11T14:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238424"
+    },
+    {
+     "at": "2026-11-11T17:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238429"
+    },
+    {
+     "at": "2026-11-11T20:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238434"
+    },
+    {
+     "at": "2026-11-12T14:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238439"
+    },
+    {
+     "at": "2026-11-12T17:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238444"
+    },
+    {
+     "at": "2026-11-12T20:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/you-can-see-everything/4238449"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": null,
+   "runtime_min": 130,
+   "url": "https://www.cinemapolis.org/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238460"
+    },
+    {
+     "at": "2026-11-07T17:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238465"
+    },
+    {
+     "at": "2026-11-07T20:10",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238470"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238380"
+    },
+    {
+     "at": "2026-11-08T17:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238385"
+    },
+    {
+     "at": "2026-11-08T20:10",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238390"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238479"
+    },
+    {
+     "at": "2026-11-09T14:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238395"
+    },
+    {
+     "at": "2026-11-09T17:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238400"
+    },
+    {
+     "at": "2026-11-09T20:10",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238405"
+    },
+    {
+     "at": "2026-11-10T14:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238410"
+    },
+    {
+     "at": "2026-11-10T17:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238415"
+    },
+    {
+     "at": "2026-11-10T20:10",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238420"
+    },
+    {
+     "at": "2026-11-11T14:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238425"
+    },
+    {
+     "at": "2026-11-11T17:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238430"
+    },
+    {
+     "at": "2026-11-11T20:10",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238435"
+    },
+    {
+     "at": "2026-11-12T14:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238440"
+    },
+    {
+     "at": "2026-11-12T20:10",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wildwood/4238450"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": 118,
+   "url": "https://www.cinemapolis.org/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238461"
+    },
+    {
+     "at": "2026-11-07T17:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238466"
+    },
+    {
+     "at": "2026-11-07T20:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238471"
+    },
+    {
+     "at": "2026-11-08T14:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238381"
+    },
+    {
+     "at": "2026-11-08T17:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238386"
+    },
+    {
+     "at": "2026-11-08T20:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238391"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238480"
+    },
+    {
+     "at": "2026-11-09T14:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238396"
+    },
+    {
+     "at": "2026-11-09T17:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238401"
+    },
+    {
+     "at": "2026-11-09T20:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238406"
+    },
+    {
+     "at": "2026-11-10T14:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238411"
+    },
+    {
+     "at": "2026-11-10T17:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238416"
+    },
+    {
+     "at": "2026-11-10T20:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238421"
+    },
+    {
+     "at": "2026-11-11T14:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238426"
+    },
+    {
+     "at": "2026-11-11T17:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238431"
+    },
+    {
+     "at": "2026-11-11T20:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238436"
+    },
+    {
+     "at": "2026-11-12T14:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238441"
+    },
+    {
+     "at": "2026-11-12T17:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238446"
+    },
+    {
+     "at": "2026-11-12T20:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/wild-horse-nine/4238451"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": null,
+   "runtime_min": 135,
+   "url": "https://www.cinemapolis.org/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238462"
+    },
+    {
+     "at": "2026-11-07T17:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238467"
+    },
+    {
+     "at": "2026-11-07T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238472"
+    },
+    {
+     "at": "2026-11-08T14:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238382"
+    },
+    {
+     "at": "2026-11-08T17:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238387"
+    },
+    {
+     "at": "2026-11-08T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238392"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238481"
+    },
+    {
+     "at": "2026-11-09T14:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238397"
+    },
+    {
+     "at": "2026-11-09T17:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238402"
+    },
+    {
+     "at": "2026-11-09T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238407"
+    },
+    {
+     "at": "2026-11-10T14:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238412"
+    },
+    {
+     "at": "2026-11-10T17:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238417"
+    },
+    {
+     "at": "2026-11-10T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238422"
+    },
+    {
+     "at": "2026-11-11T14:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238427"
+    },
+    {
+     "at": "2026-11-11T17:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238432"
+    },
+    {
+     "at": "2026-11-11T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238437"
+    },
+    {
+     "at": "2026-11-12T14:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238442"
+    },
+    {
+     "at": "2026-11-12T17:40",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238447"
+    },
+    {
+     "at": "2026-11-12T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/godzilla-minus-zero/4238452"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://www.cinemapolis.org/movie/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238463"
+    },
+    {
+     "at": "2026-11-07T17:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238468"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238383"
+    },
+    {
+     "at": "2026-11-08T17:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238388"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238478"
+    },
+    {
+     "at": "2026-11-09T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238398"
+    },
+    {
+     "at": "2026-11-09T17:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238403"
+    },
+    {
+     "at": "2026-11-10T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238413"
+    },
+    {
+     "at": "2026-11-10T17:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238418"
+    },
+    {
+     "at": "2026-11-11T17:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238433"
+    },
+    {
+     "at": "2026-11-12T17:50",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/the-only-living-pickpocket-in-new-york/4238448"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://www.cinemapolis.org/movie/fjord/",
+   "shows": [
+    {
+     "at": "2026-11-07T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/fjord/4238473"
+    },
+    {
+     "at": "2026-11-08T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/fjord/4238393"
+    },
+    {
+     "at": "2026-11-09T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/fjord/4238408"
+    },
+    {
+     "at": "2026-11-10T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/fjord/4238423"
+    },
+    {
+     "at": "2026-11-11T14:20",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/fjord/4243813"
+    },
+    {
+     "at": "2026-11-11T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/fjord/4238438"
+    },
+    {
+     "at": "2026-11-12T14:30",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/fjord/4238453"
+    }
+   ]
+  },
+  {
+   "title": "National Theatre Live: Golden Boy",
+   "rating": null,
+   "runtime_min": 180,
+   "url": "https://www.cinemapolis.org/movie/national-theatre-live-golden-boy/",
+   "shows": [
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://www.cinemapolis.org/checkout/showing/national-theatre-live-golden-boy/4001357"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

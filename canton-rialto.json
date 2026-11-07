@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "canton-rialto",
+ "name": "Rialto Theatre",
+ "city": "nepa",
+ "area": "Canton",
+ "region": "Sayre",
+ "url": "https://cantonrialto.org/",
+ "films": [
+  {
+   "title": "Daniel and the Fiery Furnace",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=661vs0s0xs66jpbt8q5ksvc1tc",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/940?siteToken=661vs0s0xs66jpbt8q5ksvc1tc"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/941?siteToken=661vs0s0xs66jpbt8q5ksvc1tc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

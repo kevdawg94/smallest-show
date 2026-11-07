@@ -1,0 +1,89 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "world-kearney",
+ "name": "The World Theatre",
+ "city": "kearney",
+ "area": "Downtown Kearney",
+ "region": "Kearney",
+ "url": "https://www.theworldtheatre.org/",
+ "films": [
+  {
+   "title": "Winters, Nebraska",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theworldtheatre.org/movies/winters-nebraska/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://theworldtheatre.square.site/tickets-to-winters-nebraska"
+    }
+   ]
+  },
+  {
+   "title": "Stand by Me",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theworldtheatre.org/movies/stand-by-me-2/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://theworldtheatre.square.site/tickets-to-stand-by-me"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://theworldtheatre.square.site/tickets-to-stand-by-me"
+    }
+   ]
+  },
+  {
+   "title": "HOPE",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theworldtheatre.org/movies/hope/",
+   "shows": [
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.theworldtheatre.org/movies/hope/"
+    }
+   ]
+  },
+  {
+   "title": "The Princess Bride",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theworldtheatre.org/movies/the-princess-bride-4/",
+   "shows": [
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://www.theworldtheatre.org/movies/the-princess-bride-4/"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theworldtheatre.org/movies/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://theworldtheatre.square.site/tickets-to-the-only-living-pickpocket-in-new-york"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

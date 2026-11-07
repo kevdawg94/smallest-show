@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "stone-drive-in",
+ "name": "Stone Drive-In",
+ "city": "searcy",
+ "area": "Mountain View",
+ "region": "Mountain View & Stone County",
+ "url": "https://www.stonedrivein.net/",
+ "films": [
+  {
+   "title": "How the Grinch Stole Christmas",
+   "rating": "PG",
+   "runtime_min": 105,
+   "url": "https://www.stonedrivein.net/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.stonedrivein.net/"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.stonedrivein.net/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

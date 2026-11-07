@@ -1,0 +1,945 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "sun-ray",
+ "name": "Sun-Ray Cinema",
+ "city": "tampa",
+ "area": "University Mall",
+ "region": "Tampa",
+ "url": "https://sunraycinema.com/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://sunraycinema.com/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229238"
+    },
+    {
+     "at": "2026-11-07T16:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229240"
+    },
+    {
+     "at": "2026-11-07T19:10",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229249"
+    },
+    {
+     "at": "2026-11-07T21:35",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229254"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229268"
+    },
+    {
+     "at": "2026-11-08T16:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229274"
+    },
+    {
+     "at": "2026-11-08T19:10",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229281"
+    },
+    {
+     "at": "2026-11-09T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229353"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229362"
+    },
+    {
+     "at": "2026-11-09T19:10",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229372"
+    },
+    {
+     "at": "2026-11-10T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229388"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229396"
+    },
+    {
+     "at": "2026-11-10T19:10",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229403"
+    },
+    {
+     "at": "2026-11-10T21:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229627"
+    },
+    {
+     "at": "2026-11-11T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229629"
+    },
+    {
+     "at": "2026-11-11T16:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229637"
+    },
+    {
+     "at": "2026-11-11T19:10",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229645"
+    },
+    {
+     "at": "2026-11-11T21:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4229651"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4259493"
+    },
+    {
+     "at": "2026-11-12T16:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4259501"
+    },
+    {
+     "at": "2026-11-12T19:10",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4259509"
+    },
+    {
+     "at": "2026-11-12T21:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/clayface/4259516"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": null,
+   "runtime_min": 135,
+   "url": "https://sunraycinema.com/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4040871"
+    },
+    {
+     "at": "2026-11-07T16:50",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4040872"
+    },
+    {
+     "at": "2026-11-07T19:40",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4040873"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4040874"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4040875"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229352"
+    },
+    {
+     "at": "2026-11-09T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229356"
+    },
+    {
+     "at": "2026-11-09T17:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229367"
+    },
+    {
+     "at": "2026-11-09T19:45",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229369"
+    },
+    {
+     "at": "2026-11-10T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229390"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229400"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229407"
+    },
+    {
+     "at": "2026-11-10T21:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229628"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229631"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229648"
+    },
+    {
+     "at": "2026-11-11T21:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4229652"
+    },
+    {
+     "at": "2026-11-12T15:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4259499"
+    },
+    {
+     "at": "2026-11-12T18:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4259506"
+    },
+    {
+     "at": "2026-11-12T21:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/godzilla-minus-zero/4259514"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 155,
+   "url": "https://sunraycinema.com/movie/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4229348"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4229232"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4229349"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/3960910"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4229311"
+    },
+    {
+     "at": "2026-11-09T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4229358"
+    },
+    {
+     "at": "2026-11-09T19:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4229387"
+    },
+    {
+     "at": "2026-11-10T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4229392"
+    },
+    {
+     "at": "2026-11-10T19:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4229395"
+    },
+    {
+     "at": "2026-11-11T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4229633"
+    },
+    {
+     "at": "2026-11-11T19:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4229647"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra/4259496"
+    }
+   ]
+  },
+  {
+   "title": "Noirvember: The Big Heat (35MM)",
+   "rating": null,
+   "runtime_min": 89,
+   "url": "https://sunraycinema.com/movie/noirvember-the-big-heat-35mm/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/noirvember-the-big-heat-35mm/3870897"
+    }
+   ]
+  },
+  {
+   "title": "The Flick: A Play by Annie Baker",
+   "rating": null,
+   "runtime_min": 180,
+   "url": "https://sunraycinema.com/movie/the-flick-a-play-by-annie-baker/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-flick-a-play-by-annie-baker/4028398"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-flick-a-play-by-annie-baker/4028399"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-flick-a-play-by-annie-baker/4028400"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://sunraycinema.com/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229237"
+    },
+    {
+     "at": "2026-11-07T16:35",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229242"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229250"
+    },
+    {
+     "at": "2026-11-07T21:25",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229253"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229267"
+    },
+    {
+     "at": "2026-11-08T16:35",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229275"
+    },
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4239950"
+    },
+    {
+     "at": "2026-11-09T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229357"
+    },
+    {
+     "at": "2026-11-09T16:35",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229365"
+    },
+    {
+     "at": "2026-11-09T19:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229380"
+    },
+    {
+     "at": "2026-11-10T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229391"
+    },
+    {
+     "at": "2026-11-10T16:35",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229398"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229405"
+    },
+    {
+     "at": "2026-11-11T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229632"
+    },
+    {
+     "at": "2026-11-11T16:35",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229639"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229646"
+    },
+    {
+     "at": "2026-11-11T21:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4229677"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4259495"
+    },
+    {
+     "at": "2026-11-12T16:35",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4259504"
+    },
+    {
+     "at": "2026-11-12T19:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4259511"
+    },
+    {
+     "at": "2026-11-12T21:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wicker/4259517"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 117,
+   "url": "https://sunraycinema.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4239951"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229261"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229246"
+    },
+    {
+     "at": "2026-11-07T21:35",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229255"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229286"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229288"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229279"
+    },
+    {
+     "at": "2026-11-09T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229354"
+    },
+    {
+     "at": "2026-11-09T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229364"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229370"
+    },
+    {
+     "at": "2026-11-10T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229389"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229397"
+    },
+    {
+     "at": "2026-11-10T19:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229402"
+    },
+    {
+     "at": "2026-11-10T21:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229626"
+    },
+    {
+     "at": "2026-11-11T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229630"
+    },
+    {
+     "at": "2026-11-11T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229638"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229644"
+    },
+    {
+     "at": "2026-11-11T21:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4229650"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4259494"
+    },
+    {
+     "at": "2026-11-12T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4259502"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4259508"
+    },
+    {
+     "at": "2026-11-12T21:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4259515"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/wild-horse-nine/4175258"
+    }
+   ]
+  },
+  {
+   "title": "Eda Raa",
+   "rating": "PG",
+   "runtime_min": 140,
+   "url": "https://sunraycinema.com/movie/eda-raa/",
+   "shows": [
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": true,
+     "url": "https://sunraycinema.com/checkout/showing/eda-raa/4000940"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra  (35MM)",
+   "rating": "R",
+   "runtime_min": 155,
+   "url": "https://sunraycinema.com/movie/la-bola-negra-35mm/",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra-35mm/3960908"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra-35mm/4240031"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra-35mm/4240028"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/la-bola-negra-35mm/4259500"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://sunraycinema.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-07T16:45",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4239952"
+    },
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4239953"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4239954"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4239947"
+    },
+    {
+     "at": "2026-11-08T16:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4239948"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4239949"
+    },
+    {
+     "at": "2026-11-09T14:10",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240017"
+    },
+    {
+     "at": "2026-11-09T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240018"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240019"
+    },
+    {
+     "at": "2026-11-10T14:10",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240020"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240021"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240022"
+    },
+    {
+     "at": "2026-11-10T21:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240023"
+    },
+    {
+     "at": "2026-11-11T14:10",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240024"
+    },
+    {
+     "at": "2026-11-11T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240025"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240026"
+    },
+    {
+     "at": "2026-11-11T21:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4240027"
+    },
+    {
+     "at": "2026-11-12T14:10",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4259498"
+    },
+    {
+     "at": "2026-11-12T16:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4259503"
+    },
+    {
+     "at": "2026-11-12T18:45",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4259507"
+    },
+    {
+     "at": "2026-11-12T21:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-cat-in-the-hat/4259513"
+    }
+   ]
+  },
+  {
+   "title": "The History Of Concrete",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://sunraycinema.com/movie/the-history-of-concrete/",
+   "shows": [
+    {
+     "at": "2026-11-07T17:05",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-history-of-concrete/4229244"
+    },
+    {
+     "at": "2026-11-08T17:05",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-history-of-concrete/4229277"
+    },
+    {
+     "at": "2026-11-09T17:05",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-history-of-concrete/4229368"
+    },
+    {
+     "at": "2026-11-10T17:05",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-history-of-concrete/4229401"
+    },
+    {
+     "at": "2026-11-11T17:05",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-history-of-concrete/4229642"
+    },
+    {
+     "at": "2026-11-12T17:05",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-history-of-concrete/4259505"
+    }
+   ]
+  },
+  {
+   "title": "10 Good Men",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://sunraycinema.com/movie/10-good-men/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/10-good-men/4229245"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/10-good-men/4229265"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/10-good-men/4229278"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket In New York",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://sunraycinema.com/movie/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-only-living-pickpocket-in-new-york/4240631"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://sunraycinema.com/movie/fjord/",
+   "shows": [
+    {
+     "at": "2026-11-07T21:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/fjord/4229247"
+    }
+   ]
+  },
+  {
+   "title": "Noirvember: Double Indemnity (35MM)",
+   "rating": null,
+   "runtime_min": 107,
+   "url": "https://sunraycinema.com/movie/noirvember-double-indemnity-35mm/",
+   "shows": [
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/noirvember-double-indemnity-35mm/3870898"
+    }
+   ]
+  },
+  {
+   "title": "Bucaneers vs Bears",
+   "rating": null,
+   "runtime_min": 210,
+   "url": "https://sunraycinema.com/movie/bucaneers-vs-bears/",
+   "shows": [
+    {
+     "at": "2026-11-08T20:20",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/bucaneers-vs-bears/3952004"
+    }
+   ]
+  },
+  {
+   "title": "Closing Night Party of The Flick with 0ptic Sink, Carson Cox, Piper Harrow and Aaron Dilloway",
+   "rating": null,
+   "runtime_min": 180,
+   "url": "https://sunraycinema.com/movie/optic-sink-with-carson-cox-and-piiper-harrow/",
+   "shows": [
+    {
+     "at": "2026-11-08T21:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/optic-sink-with-carson-cox-and-piiper-harrow/4040125"
+    }
+   ]
+  },
+  {
+   "title": "Naza",
+   "rating": null,
+   "runtime_min": 80,
+   "url": "https://sunraycinema.com/movie/naza/",
+   "shows": [
+    {
+     "at": "2026-11-09T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/naza/4229381"
+    },
+    {
+     "at": "2026-11-10T16:40",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/naza/4229394"
+    },
+    {
+     "at": "2026-11-11T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/naza/4240029"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/naza/4259497"
+    }
+   ]
+  },
+  {
+   "title": "Noirvember: Mildred Pierce (35MM)",
+   "rating": null,
+   "runtime_min": 111,
+   "url": "https://sunraycinema.com/movie/noirvember-mildred-pierce-35mm/",
+   "shows": [
+    {
+     "at": "2026-11-09T19:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/noirvember-mildred-pierce-35mm/3870894"
+    }
+   ]
+  },
+  {
+   "title": "Chronovisor",
+   "rating": null,
+   "runtime_min": 99,
+   "url": "https://sunraycinema.com/movie/chronovisor/",
+   "shows": [
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/chronovisor/4169044"
+    },
+    {
+     "at": "2026-11-10T21:30",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/chronovisor/4169045"
+    }
+   ]
+  },
+  {
+   "title": "Noirvember: Out of the Past (35MM)",
+   "rating": null,
+   "runtime_min": 97,
+   "url": "https://sunraycinema.com/movie/noirvember-out-of-the-past-35mm/",
+   "shows": [
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/noirvember-out-of-the-past-35mm/3870895"
+    }
+   ]
+  },
+  {
+   "title": "The Oldest Person in the World",
+   "rating": null,
+   "runtime_min": 87,
+   "url": "https://sunraycinema.com/movie/the-oldest-person-in-the-world/",
+   "shows": [
+    {
+     "at": "2026-11-13T14:00",
+     "sold_out": false,
+     "url": "https://sunraycinema.com/checkout/showing/the-oldest-person-in-the-world/4175305"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

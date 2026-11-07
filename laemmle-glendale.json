@@ -1,0 +1,469 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "laemmle-glendale",
+ "name": "Laemmle Glendale",
+ "city": "la",
+ "area": "Glendale",
+ "region": "Valley & Pasadena",
+ "url": "https://www.laemmle.com/theater/glendale",
+ "films": [
+  {
+   "title": "Naza",
+   "rating": null,
+   "runtime_min": 80,
+   "url": "https://www.laemmle.com/film/naza",
+   "shows": [
+    {
+     "at": "2026-11-07T10:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61838?fm=30573"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61839?fm=30573"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": 116,
+   "url": "https://www.laemmle.com/film/wild-horse-nine",
+   "shows": [
+    {
+     "at": "2026-11-07T10:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61840?fm=29942"
+    },
+    {
+     "at": "2026-11-07T13:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61286?fm=29942"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61287?fm=29942"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61288?fm=29942"
+    },
+    {
+     "at": "2026-11-07T22:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61289?fm=29942"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61841?fm=29942"
+    },
+    {
+     "at": "2026-11-08T13:20",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61290?fm=29942"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61291?fm=29942"
+    },
+    {
+     "at": "2026-11-08T19:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61292?fm=29942"
+    },
+    {
+     "at": "2026-11-09T13:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61293?fm=29942"
+    },
+    {
+     "at": "2026-11-09T16:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61294?fm=29942"
+    },
+    {
+     "at": "2026-11-09T19:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61295?fm=29942"
+    },
+    {
+     "at": "2026-11-10T13:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61296?fm=29942"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61297?fm=29942"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61298?fm=29942"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": 82,
+   "url": "https://www.laemmle.com/film/fatherland",
+   "shows": [
+    {
+     "at": "2026-11-07T10:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61843?fm=30357"
+    },
+    {
+     "at": "2026-11-08T10:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61842?fm=30357"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://www.laemmle.com/film/history-concrete",
+   "shows": [
+    {
+     "at": "2026-11-07T10:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61847?fm=30426"
+    },
+    {
+     "at": "2026-11-08T10:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61846?fm=30426"
+    }
+   ]
+  },
+  {
+   "title": "Who Killed Alex Odeh",
+   "rating": null,
+   "runtime_min": 83,
+   "url": "https://www.laemmle.com/film/who-killed-alex-odeh",
+   "shows": [
+    {
+     "at": "2026-11-07T10:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61844?fm=30382"
+    },
+    {
+     "at": "2026-11-08T10:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61845?fm=30382"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": null,
+   "runtime_min": 160,
+   "url": "https://www.laemmle.com/film/bola-negra",
+   "shows": [
+    {
+     "at": "2026-11-07T12:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60883?fm=30448"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60884?fm=30448"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60885?fm=30448"
+    },
+    {
+     "at": "2026-11-07T21:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60909?fm=30448"
+    },
+    {
+     "at": "2026-11-08T12:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60886?fm=30448"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60887?fm=30448"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60888?fm=30448"
+    },
+    {
+     "at": "2026-11-09T12:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60889?fm=30448"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60890?fm=30448"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60891?fm=30448"
+    },
+    {
+     "at": "2026-11-10T12:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60892?fm=30448"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60893?fm=30448"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60894?fm=30448"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 175,
+   "url": "https://www.laemmle.com/film/you-can-see-everything",
+   "shows": [
+    {
+     "at": "2026-11-07T12:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61766?fm=30694"
+    },
+    {
+     "at": "2026-11-07T15:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61824?fm=30694"
+    },
+    {
+     "at": "2026-11-07T19:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61767?fm=30694"
+    },
+    {
+     "at": "2026-11-08T12:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61768?fm=30694"
+    },
+    {
+     "at": "2026-11-08T15:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61826?fm=30694"
+    },
+    {
+     "at": "2026-11-08T19:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61769?fm=30694"
+    },
+    {
+     "at": "2026-11-09T12:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61771?fm=30694"
+    },
+    {
+     "at": "2026-11-09T15:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61827?fm=30694"
+    },
+    {
+     "at": "2026-11-09T19:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61772?fm=30694"
+    },
+    {
+     "at": "2026-11-10T12:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61773?fm=30694"
+    },
+    {
+     "at": "2026-11-10T15:50",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61828?fm=30694"
+    },
+    {
+     "at": "2026-11-10T19:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61774?fm=30694"
+    }
+   ]
+  },
+  {
+   "title": "Nuisance Bear",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://www.laemmle.com/film/nuisance-bear",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60903?fm=30585"
+    },
+    {
+     "at": "2026-11-07T16:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60916?fm=30585"
+    },
+    {
+     "at": "2026-11-07T19:25",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60904?fm=30585"
+    },
+    {
+     "at": "2026-11-07T22:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60917?fm=30585"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60921?fm=30585"
+    },
+    {
+     "at": "2026-11-08T16:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60918?fm=30585"
+    },
+    {
+     "at": "2026-11-08T19:25",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60920?fm=30585"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60922?fm=30585"
+    },
+    {
+     "at": "2026-11-09T16:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60923?fm=30585"
+    },
+    {
+     "at": "2026-11-09T19:25",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60924?fm=30585"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60926?fm=30585"
+    },
+    {
+     "at": "2026-11-10T16:10",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60929?fm=30585"
+    },
+    {
+     "at": "2026-11-10T19:25",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/60927?fm=30585"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://www.laemmle.com/film/only-living-pickpocket-new-york",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61810?fm=30305"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61811?fm=30305"
+    },
+    {
+     "at": "2026-11-07T21:55",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61812?fm=30305"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61813?fm=30305"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61814?fm=30305"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61815?fm=30305"
+    },
+    {
+     "at": "2026-11-09T19:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61816?fm=30305"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61817?fm=30305"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61818?fm=30305"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://www.laemmle.com/film/fjord",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61832?fm=30583"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61833?fm=30583"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61834?fm=30583"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://tickets.laemmle.com/ticketing/325402/61835?fm=30583"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-04T20:23",
+ "error": true,
+ "warning": null
+}

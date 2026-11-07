@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "historic-state-jackson",
+ "name": "Historic State Theatre",
+ "city": "fairmont",
+ "area": "Jackson",
+ "region": "Southwest Minnesota",
+ "url": "https://historicstate.theater/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "NR",
+   "runtime_min": 91,
+   "url": "https://historicstate.theater/movie/the-cat-in-the-hat-1117898",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://historicstate.theater/movie/the-cat-in-the-hat-1117898"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://historicstate.theater/movie/the-cat-in-the-hat-1117898"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

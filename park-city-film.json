@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "park-city-film",
+ "name": "Park City Film",
+ "city": "slc",
+ "area": "Park City",
+ "region": "Park City",
+ "url": "https://parkcityfilm.org/showtimes/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://parkcityfilm.eventive.org/films/6abe67a3cd1a507fbad574bf",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6abe6954a32a14c5a23ac6d0"
+    }
+   ]
+  },
+  {
+   "title": "Warren Miller's Day's Off",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://parkcityfilm.eventive.org/films/6aa4bc70a24907315bcd358a",
+   "shows": [
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6aa4c246a03a7ae824b0a797"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6aa4c36d7d67b09ba09b1d62"
+    }
+   ]
+  },
+  {
+   "title": "Matchstick Productions Presents: The Way Out - Premiere",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://parkcityfilm.eventive.org/films/6a7ff40d002f1a6952bdad70",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6a7ff4b9aa9d3d0631af1575"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

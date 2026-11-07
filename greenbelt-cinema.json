@@ -1,0 +1,146 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "greenbelt-cinema",
+ "name": "Greenbelt Cinema",
+ "city": "dc",
+ "area": "Greenbelt",
+ "region": "Maryland",
+ "url": "https://www.greenbeltcinema.org/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://greenbeltcinema.org/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4251011"
+    },
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4251023"
+    },
+    {
+     "at": "2026-11-08T13:20",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4261018"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4261019"
+    },
+    {
+     "at": "2026-11-09T17:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4251123"
+    },
+    {
+     "at": "2026-11-10T16:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4251229"
+    },
+    {
+     "at": "2026-11-11T17:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4261587"
+    },
+    {
+     "at": "2026-11-12T17:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4252284"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 159,
+   "url": "https://greenbeltcinema.org/movie/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4251010"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4261016"
+    },
+    {
+     "at": "2026-11-08T16:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4261017"
+    },
+    {
+     "at": "2026-11-09T13:20",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4263418"
+    },
+    {
+     "at": "2026-11-09T16:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4251124"
+    },
+    {
+     "at": "2026-11-10T14:45",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4252269"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4261584"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4261586"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon A Time In Harlem",
+   "rating": "PG-13",
+   "runtime_min": 100,
+   "url": "https://greenbeltcinema.org/movie/once-upon-a-time-in-harlem/",
+   "shows": [
+    {
+     "at": "2026-11-08T10:30",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/once-upon-a-time-in-harlem/4251022"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/once-upon-a-time-in-harlem/4251122"
+    }
+   ]
+  },
+  {
+   "title": "Two Lives, One Legacy",
+   "rating": null,
+   "runtime_min": 58,
+   "url": "https://greenbeltcinema.org/movie/two-lives-one-legacy/",
+   "shows": [
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/two-lives-one-legacy/4260746"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

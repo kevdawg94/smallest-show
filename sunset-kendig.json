@@ -1,0 +1,665 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "sunset-kendig",
+ "name": "Sunset Cinemas",
+ "city": "centralpa",
+ "area": "Willow Street",
+ "region": "Lancaster & Lititz",
+ "url": "https://www.kendigmovies.com/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://www.kendigmovies.com/movie/27407",
+   "shows": [
+    {
+     "at": "2026-11-07T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16629"
+    },
+    {
+     "at": "2026-11-07T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16630"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16631"
+    },
+    {
+     "at": "2026-11-07T20:15",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16632"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16647"
+    },
+    {
+     "at": "2026-11-08T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16648"
+    },
+    {
+     "at": "2026-11-08T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16649"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16650"
+    },
+    {
+     "at": "2026-11-08T20:15",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16651"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16674"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16825"
+    },
+    {
+     "at": "2026-11-11T15:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16837"
+    },
+    {
+     "at": "2026-11-12T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16629"
+    },
+    {
+     "at": "2026-11-12T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16630"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16631"
+    },
+    {
+     "at": "2026-11-12T20:15",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16632"
+    },
+    {
+     "at": "2026-11-13T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16629"
+    },
+    {
+     "at": "2026-11-13T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16630"
+    },
+    {
+     "at": "2026-11-13T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16631"
+    },
+    {
+     "at": "2026-11-13T20:15",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16632"
+    }
+   ]
+  },
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.kendigmovies.com/movie/27599",
+   "shows": [
+    {
+     "at": "2026-11-07T13:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15730"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15729"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15728"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15735"
+    },
+    {
+     "at": "2026-11-08T13:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15734"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15733"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15732"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16666"
+    },
+    {
+     "at": "2026-11-09T15:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16667"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16664"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16828"
+    },
+    {
+     "at": "2026-11-10T15:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16829"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16826"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16840"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16841"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16838"
+    },
+    {
+     "at": "2026-11-12T13:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15730"
+    },
+    {
+     "at": "2026-11-12T16:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15729"
+    },
+    {
+     "at": "2026-11-12T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15728"
+    },
+    {
+     "at": "2026-11-13T13:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15730"
+    },
+    {
+     "at": "2026-11-13T16:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15729"
+    },
+    {
+     "at": "2026-11-13T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15728"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.kendigmovies.com/movie/27600",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15753"
+    },
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16627"
+    },
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16626"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15756"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15757"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16646"
+    },
+    {
+     "at": "2026-11-08T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16645"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16669"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16671"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16670"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16832"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16830"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16833"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16844"
+    },
+    {
+     "at": "2026-11-11T15:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16842"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16845"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15753"
+    },
+    {
+     "at": "2026-11-12T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16627"
+    },
+    {
+     "at": "2026-11-12T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16626"
+    },
+    {
+     "at": "2026-11-13T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15753"
+    },
+    {
+     "at": "2026-11-13T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16627"
+    },
+    {
+     "at": "2026-11-13T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16626"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://www.kendigmovies.com/movie/27996",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16617"
+    },
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16616"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16633"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16636"
+    },
+    {
+     "at": "2026-11-08T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16635"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16655"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16784"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16654"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16834"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16824"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16823"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16846"
+    },
+    {
+     "at": "2026-11-11T15:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16836"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16835"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16617"
+    },
+    {
+     "at": "2026-11-12T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16616"
+    },
+    {
+     "at": "2026-11-13T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16617"
+    },
+    {
+     "at": "2026-11-13T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16616"
+    }
+   ]
+  },
+  {
+   "title": "Sight and Sound Joshua Live",
+   "rating": "NR",
+   "runtime_min": 135,
+   "url": "https://www.kendigmovies.com/movie/27722",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16619"
+    },
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16620"
+    },
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16621"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16637"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16638"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16639"
+    },
+    {
+     "at": "2026-11-08T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16640"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16619"
+    },
+    {
+     "at": "2026-11-12T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16620"
+    },
+    {
+     "at": "2026-11-12T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16621"
+    },
+    {
+     "at": "2026-11-13T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16619"
+    },
+    {
+     "at": "2026-11-13T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16620"
+    },
+    {
+     "at": "2026-11-13T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16621"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 132,
+   "url": "https://www.kendigmovies.com/movie/27530",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16623"
+    },
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16624"
+    },
+    {
+     "at": "2026-11-07T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16625"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16641"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16642"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16643"
+    },
+    {
+     "at": "2026-11-08T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16644"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16661"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16821"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16831"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16827"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16843"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16839"
+    },
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16623"
+    },
+    {
+     "at": "2026-11-12T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16624"
+    },
+    {
+     "at": "2026-11-12T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16625"
+    },
+    {
+     "at": "2026-11-13T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16623"
+    },
+    {
+     "at": "2026-11-13T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16624"
+    },
+    {
+     "at": "2026-11-13T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16625"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": 101,
+   "url": "https://www.kendigmovies.com/movie/26960",
+   "shows": [
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16615"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16634"
+    },
+    {
+     "at": "2026-11-12T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16615"
+    },
+    {
+     "at": "2026-11-13T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16615"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

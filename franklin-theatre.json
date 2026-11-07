@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "franklin-theatre",
+ "name": "Franklin Theatre",
+ "city": "nashville",
+ "area": "Franklin",
+ "region": "Franklin",
+ "url": "https://www.franklintheatre.com/tickets/movies/",
+ "films": [
+  {
+   "title": "How the Grinch Stole Christmas (2000)",
+   "rating": "PG",
+   "runtime_min": 104,
+   "url": "https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=448732~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&",
+   "shows": [
+    {
+     "at": "2026-11-07T10:00",
+     "sold_out": false,
+     "url": "https://secure.franklintheatre.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=568628~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&"
+    }
+   ]
+  },
+  {
+   "title": "Elf (2003)",
+   "rating": "PG",
+   "runtime_min": 97,
+   "url": "https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=508386~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&",
+   "shows": [
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://secure.franklintheatre.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=568630~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&"
+    }
+   ]
+  },
+  {
+   "title": "National Lampoon's Christmas Vacation (1989)",
+   "rating": "PG-13",
+   "runtime_min": 97,
+   "url": "https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=448656~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&",
+   "shows": [
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://secure.franklintheatre.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=587482~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&"
+    }
+   ]
+  },
+  {
+   "title": "First Kiss Friday: When Harry Met Sally... (1989)",
+   "rating": "R",
+   "runtime_min": 96,
+   "url": "https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=508431~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://secure.franklintheatre.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=568633~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

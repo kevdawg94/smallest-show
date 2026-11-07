@@ -1,0 +1,83 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "strand-kendallville",
+ "name": "Strand Theatre",
+ "city": "fortwayne",
+ "area": "Kendallville",
+ "region": "Kendallville & Garrett",
+ "url": "https://www.strand-theatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.strand-theatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 140,
+   "url": "https://www.strand-theatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://www.strand-theatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://www.strand-theatre.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

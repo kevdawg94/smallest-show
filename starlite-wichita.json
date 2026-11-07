@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "starlite-wichita",
+ "name": "Starlite Drive-In",
+ "city": "wichita",
+ "area": "South Wichita",
+ "region": "Derby",
+ "url": "https://starlitefun.com/",
+ "films": [
+  {
+   "title": "Cat in Hat/elf",
+   "rating": "PG",
+   "runtime_min": 204,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107",
+   "shows": [
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107"
+    }
+   ]
+  },
+  {
+   "title": "Clayface/res Evil",
+   "rating": "R",
+   "runtime_min": 198,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107",
+   "shows": [
+    {
+     "at": "2026-11-07T19:25",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107"
+    }
+   ]
+  },
+  {
+   "title": "Elf",
+   "rating": "PG",
+   "runtime_min": 97,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107",
+   "shows": [
+    {
+     "at": "2026-11-07T21:15",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 90,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107",
+   "shows": [
+    {
+     "at": "2026-11-07T21:25",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

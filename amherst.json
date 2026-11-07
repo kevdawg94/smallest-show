@@ -1,0 +1,72 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "amherst",
+ "name": "Amherst Cinema",
+ "city": "cleveland",
+ "area": "Amherst",
+ "region": "West Side",
+ "url": "https://www.amherstcinema.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7yt44pcak8dj26cq9h6xcakg3w",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6149?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6151?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6150?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6152?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6145?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6146?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6147?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6148?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-13T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6154?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

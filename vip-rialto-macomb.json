@@ -1,0 +1,618 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "vip-rialto-macomb",
+ "name": "VIP Rialto Cinemas",
+ "city": "quincy",
+ "area": "Macomb",
+ "region": "Macomb",
+ "url": "https://vipcinemas.com/rialto-cinemas/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://vipcinemas.com/rialto-cinemas/movie/27204",
+   "shows": [
+    {
+     "at": "2026-11-07T11:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32649"
+    },
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32648"
+    },
+    {
+     "at": "2026-11-07T17:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32647"
+    },
+    {
+     "at": "2026-11-07T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32645"
+    },
+    {
+     "at": "2026-11-07T22:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32646"
+    },
+    {
+     "at": "2026-11-08T11:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32672"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32671"
+    },
+    {
+     "at": "2026-11-08T17:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32670"
+    },
+    {
+     "at": "2026-11-08T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32668"
+    },
+    {
+     "at": "2026-11-09T14:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32716"
+    },
+    {
+     "at": "2026-11-09T17:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32715"
+    },
+    {
+     "at": "2026-11-09T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32713"
+    },
+    {
+     "at": "2026-11-10T14:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32732"
+    },
+    {
+     "at": "2026-11-10T17:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32731"
+    },
+    {
+     "at": "2026-11-10T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32730"
+    },
+    {
+     "at": "2026-11-11T14:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32747"
+    },
+    {
+     "at": "2026-11-11T17:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32746"
+    },
+    {
+     "at": "2026-11-11T19:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32745"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "NR",
+   "runtime_min": 140,
+   "url": "https://vipcinemas.com/rialto-cinemas/movie/26759",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32653"
+    },
+    {
+     "at": "2026-11-07T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32650"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32677"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32676"
+    },
+    {
+     "at": "2026-11-08T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32673"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32720"
+    },
+    {
+     "at": "2026-11-09T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32717"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32735"
+    },
+    {
+     "at": "2026-11-10T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32733"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32750"
+    },
+    {
+     "at": "2026-11-11T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32748"
+    },
+    {
+     "at": "2026-11-12T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32759"
+    },
+    {
+     "at": "2026-11-12T18:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32757"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://vipcinemas.com/rialto-cinemas/movie/27672",
+   "shows": [
+    {
+     "at": "2026-11-07T13:05",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32447"
+    },
+    {
+     "at": "2026-11-07T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32448"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32449"
+    },
+    {
+     "at": "2026-11-07T21:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32450"
+    },
+    {
+     "at": "2026-11-08T10:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32658"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32659"
+    },
+    {
+     "at": "2026-11-08T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32660"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32661"
+    },
+    {
+     "at": "2026-11-09T13:05",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32705"
+    },
+    {
+     "at": "2026-11-09T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32706"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32707"
+    },
+    {
+     "at": "2026-11-10T13:05",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32724"
+    },
+    {
+     "at": "2026-11-10T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32725"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32726"
+    },
+    {
+     "at": "2026-11-11T13:05",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32739"
+    },
+    {
+     "at": "2026-11-11T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32740"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32741"
+    },
+    {
+     "at": "2026-11-12T13:05",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32751"
+    },
+    {
+     "at": "2026-11-12T15:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32752"
+    },
+    {
+     "at": "2026-11-12T18:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32753"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://vipcinemas.com/rialto-cinemas/movie/27207",
+   "shows": [
+    {
+     "at": "2026-11-07T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32643"
+    },
+    {
+     "at": "2026-11-07T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32642"
+    },
+    {
+     "at": "2026-11-07T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32640"
+    },
+    {
+     "at": "2026-11-07T22:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32641"
+    },
+    {
+     "at": "2026-11-08T10:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32667"
+    },
+    {
+     "at": "2026-11-08T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32666"
+    },
+    {
+     "at": "2026-11-08T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32665"
+    },
+    {
+     "at": "2026-11-08T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32663"
+    },
+    {
+     "at": "2026-11-09T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32712"
+    },
+    {
+     "at": "2026-11-09T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32711"
+    },
+    {
+     "at": "2026-11-09T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32709"
+    },
+    {
+     "at": "2026-11-10T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32729"
+    },
+    {
+     "at": "2026-11-10T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32728"
+    },
+    {
+     "at": "2026-11-10T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32727"
+    },
+    {
+     "at": "2026-11-11T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32744"
+    },
+    {
+     "at": "2026-11-11T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32743"
+    },
+    {
+     "at": "2026-11-11T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32742"
+    },
+    {
+     "at": "2026-11-12T13:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32756"
+    },
+    {
+     "at": "2026-11-12T16:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32755"
+    },
+    {
+     "at": "2026-11-12T19:10",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32754"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://vipcinemas.com/rialto-cinemas/movie/27397",
+   "shows": [
+    {
+     "at": "2026-11-07T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/31859"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/31860"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/31861"
+    },
+    {
+     "at": "2026-11-07T22:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/31863"
+    },
+    {
+     "at": "2026-11-08T10:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/31868"
+    },
+    {
+     "at": "2026-11-08T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/31864"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32655"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32656"
+    },
+    {
+     "at": "2026-11-09T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32701"
+    },
+    {
+     "at": "2026-11-09T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32702"
+    },
+    {
+     "at": "2026-11-09T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32703"
+    },
+    {
+     "at": "2026-11-10T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32721"
+    },
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32722"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32723"
+    },
+    {
+     "at": "2026-11-11T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32736"
+    },
+    {
+     "at": "2026-11-11T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32737"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32738"
+    },
+    {
+     "at": "2026-11-12T13:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/31875"
+    },
+    {
+     "at": "2026-11-12T16:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/31876"
+    },
+    {
+     "at": "2026-11-12T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/31877"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://vipcinemas.com/rialto-cinemas/movie/26734",
+   "shows": [
+    {
+     "at": "2026-11-07T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32652"
+    },
+    {
+     "at": "2026-11-07T22:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32651"
+    },
+    {
+     "at": "2026-11-08T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32675"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32719"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32734"
+    },
+    {
+     "at": "2026-11-11T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32749"
+    },
+    {
+     "at": "2026-11-12T16:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32758"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://vipcinemas.com/rialto-cinemas/movie/27645",
+   "shows": [
+    {
+     "at": "2026-11-12T14:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32468"
+    },
+    {
+     "at": "2026-11-12T16:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32469"
+    },
+    {
+     "at": "2026-11-12T19:40",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32470"
+    },
+    {
+     "at": "2026-11-13T11:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32309"
+    },
+    {
+     "at": "2026-11-13T13:50",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32310"
+    },
+    {
+     "at": "2026-11-13T16:40",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32311"
+    },
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32312"
+    },
+    {
+     "at": "2026-11-13T22:20",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32313"
+    }
+   ]
+  },
+  {
+   "title": "White Christmas 70th Anniversary",
+   "rating": "NR",
+   "runtime_min": 120,
+   "url": "https://vipcinemas.com/rialto-cinemas/movie/10149",
+   "shows": [
+    {
+     "at": "2026-11-13T10:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/rialto-cinemas/tickets/32766"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

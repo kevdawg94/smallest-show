@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "majestic-wayne",
+ "name": "Majestic Theatre",
+ "city": "siouxcity",
+ "area": "Wayne, NE",
+ "region": "Wayne",
+ "url": "https://majesticonmain.org/",
+ "films": [
+  {
+   "title": "Forgotten Island",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    }
+   ]
+  },
+  {
+   "title": "Tony",
+   "rating": "R",
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

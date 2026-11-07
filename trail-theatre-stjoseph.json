@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "trail-theatre-stjoseph",
+ "name": "Trail Theatre",
+ "city": "nekansas",
+ "area": "St. Joseph, MO",
+ "region": "St. Joseph & Maryville",
+ "url": "https://www.thetrailtheatre.com/",
+ "films": [
+  {
+   "title": "Alice in Wonderland (1951)",
+   "rating": "PG",
+   "runtime_min": 73,
+   "url": "https://www.thetrailtheatre.com/movie/alice-in-wonderland-1951/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://www.thetrailtheatre.com/checkout/showing/alice-in-wonderland-1951/4271075"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://www.thetrailtheatre.com/checkout/showing/alice-in-wonderland-1951/4235164"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.thetrailtheatre.com/checkout/showing/alice-in-wonderland-1951/4235165"
+    }
+   ]
+  },
+  {
+   "title": "Matilda",
+   "rating": "PG",
+   "runtime_min": 98,
+   "url": "https://www.thetrailtheatre.com/movie/matilda/",
+   "shows": [
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.thetrailtheatre.com/checkout/showing/matilda/4235172"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://www.thetrailtheatre.com/checkout/showing/matilda/4235173"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

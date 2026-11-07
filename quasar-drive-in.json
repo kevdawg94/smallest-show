@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "quasar-drive-in",
+ "name": "Quasar Drive-In",
+ "city": "omaha",
+ "area": "Valley",
+ "region": "West Omaha & Sarpy",
+ "url": "https://www.quasardrivein.com/",
+ "films": [
+  {
+   "title": "Addams Family Values / Planes Trains & Automobiles",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=twvewemxv0nx8e2kk9tt2f56c0",
+   "shows": [
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1283?siteToken=twvewemxv0nx8e2kk9tt2f56c0"
+    }
+   ]
+  },
+  {
+   "title": "Grumpy Old Men / Grumpier Old Men",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=twvewemxv0nx8e2kk9tt2f56c0",
+   "shows": [
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1287?siteToken=twvewemxv0nx8e2kk9tt2f56c0"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer / Scrooged",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=twvewemxv0nx8e2kk9tt2f56c0",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1433?siteToken=twvewemxv0nx8e2kk9tt2f56c0"
+    }
+   ]
+  },
+  {
+   "title": "How The Grinch Stole Christmas / Elf",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=twvewemxv0nx8e2kk9tt2f56c0",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1289?siteToken=twvewemxv0nx8e2kk9tt2f56c0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

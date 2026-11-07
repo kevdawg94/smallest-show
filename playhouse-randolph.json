@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "playhouse-randolph",
+ "name": "Playhouse Movie Theatre",
+ "city": "uppervalley",
+ "area": "Randolph",
+ "region": "Randolph",
+ "url": "https://playhouseflicks.com/showtimes/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://playhouseflicks.com/showtime/wicker-2/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/wicker-2/"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/wicker-3/"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/wicker-4/"
+    },
+    {
+     "at": "2026-11-12T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/wicker-5/"
+    }
+   ]
+  },
+  {
+   "title": "Sense & Sensibility",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://playhouseflicks.com/showtime/sense-sensibility/",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/sense-sensibility/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

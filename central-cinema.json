@@ -1,0 +1,175 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "central-cinema",
+ "name": "Central Cinema",
+ "city": "seattle",
+ "area": "Central District",
+ "region": "Capitol Hill & Downtown",
+ "url": "https://central-cinema.com/",
+ "films": [
+  {
+   "title": "True Stories",
+   "rating": null,
+   "runtime_min": 89,
+   "url": "https://www.central-cinema.com/movie/true-stories/",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/true-stories/4180377"
+    },
+    {
+     "at": "2026-11-07T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/true-stories/4180378"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/true-stories/4180380"
+    },
+    {
+     "at": "2026-11-08T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/true-stories/4180381"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/true-stories/4180383"
+    },
+    {
+     "at": "2026-11-09T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/true-stories/4180384"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/true-stories/4180385"
+    },
+    {
+     "at": "2026-11-10T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/true-stories/4180386"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/true-stories/4180388"
+    },
+    {
+     "at": "2026-11-11T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/true-stories/4180389"
+    }
+   ]
+  },
+  {
+   "title": "Tampopo",
+   "rating": null,
+   "runtime_min": 115,
+   "url": "https://www.central-cinema.com/movie/tampopo/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/tampopo/4180379"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/tampopo/4180382"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/tampopo/4180387"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/tampopo/4180390"
+    }
+   ]
+  },
+  {
+   "title": "Garfield Jazz Jam Session",
+   "rating": "G",
+   "runtime_min": 120,
+   "url": "https://www.central-cinema.com/movie/garfield-jazz-jam-session/",
+   "shows": [
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/garfield-jazz-jam-session/3901683"
+    }
+   ]
+  },
+  {
+   "title": "Cartoon Happy Hour",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://www.central-cinema.com/movie/cartoon-happy-hour/",
+   "shows": [
+    {
+     "at": "2026-11-12T17:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/cartoon-happy-hour/4180391"
+    }
+   ]
+  },
+  {
+   "title": "The Texas Chainsaw Massacre Part 2",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://www.central-cinema.com/movie/the-texas-chainsaw-massacre-part-2/",
+   "shows": [
+    {
+     "at": "2026-11-12T20:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/the-texas-chainsaw-massacre-part-2/4180706"
+    }
+   ]
+  },
+  {
+   "title": "My Neighbor Totoro",
+   "rating": "G",
+   "runtime_min": 95,
+   "url": "https://www.central-cinema.com/movie/my-neighbor-totoro/",
+   "shows": [
+    {
+     "at": "2026-11-13T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180745"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180746"
+    }
+   ]
+  },
+  {
+   "title": "Delicatessen",
+   "rating": "R",
+   "runtime_min": 99,
+   "url": "https://www.central-cinema.com/movie/delicatessen/",
+   "shows": [
+    {
+     "at": "2026-11-13T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/delicatessen/4180747"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

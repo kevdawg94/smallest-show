@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "cinema-on-the-square",
+ "name": "Cinema on the Square",
+ "city": "indianapolis",
+ "area": "Greencastle",
+ "region": "Suburbs & Johnson County",
+ "url": "https://cinema.depauw.edu/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/91?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/92?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/90?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/93?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    },
+    {
+     "at": "2026-11-08T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/94?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/95?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

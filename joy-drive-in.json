@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "joy-drive-in",
+ "name": "Joy Drive-In",
+ "city": "austin",
+ "area": "Copperas Cove",
+ "region": "Central Texas",
+ "url": "https://joyrv.org/about/park-events/",
+ "films": [
+  {
+   "title": "Wicked For Good",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://joyrv.org/about/park-events/2026-11-07-wicked-for-good/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://joyrv.org/about/park-events/2026-11-07-wicked-for-good/"
+    }
+   ]
+  },
+  {
+   "title": "The Last Rodeo",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://joyrv.org/about/park-events/2026-11-13-the-last-rodeo/",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://joyrv.org/about/park-events/2026-11-13-the-last-rodeo/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

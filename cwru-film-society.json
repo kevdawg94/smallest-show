@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "cwru-film-society",
+ "name": "CWRU Film Society",
+ "city": "cleveland",
+ "area": "University Circle",
+ "region": "East Side",
+ "url": "https://films.cwru.edu",
+ "films": [
+  {
+   "title": "The Dark Crystal",
+   "rating": "PG",
+   "runtime_min": 93,
+   "url": "https://films.cwru.edu/schedule.php",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://community.case.edu/cwrufs/rsvp_boot?id=2286106"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://community.case.edu/cwrufs/rsvp_boot?id=2286106"
+    }
+   ]
+  },
+  {
+   "title": "Vertigo",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://films.cwru.edu/schedule.php",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://community.case.edu/cwrufs/rsvp_boot?id=2286107"
+    },
+    {
+     "at": "2026-11-13T21:30",
+     "sold_out": false,
+     "url": "https://community.case.edu/cwrufs/rsvp_boot?id=2286107"
+    },
+    {
+     "at": "2026-11-13T23:59",
+     "sold_out": false,
+     "url": "https://community.case.edu/cwrufs/rsvp_boot?id=2286107"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

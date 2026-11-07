@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "vogue",
+ "name": "Vogue",
+ "city": "bay",
+ "area": "Presidio Heights",
+ "region": "San Francisco",
+ "url": "https://www.voguemovies.com/",
+ "films": [
+  {
+   "title": "Jurassic Park",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=qkwymq4me4nthdzzgj9fe08j0r",
+   "shows": [
+    {
+     "at": "2026-11-10T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20354?siteToken=qkwymq4me4nthdzzgj9fe08j0r"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20355?siteToken=qkwymq4me4nthdzzgj9fe08j0r"
+    }
+   ]
+  },
+  {
+   "title": "Cinema Paradiso",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=qkwymq4me4nthdzzgj9fe08j0r",
+   "shows": [
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20352?siteToken=qkwymq4me4nthdzzgj9fe08j0r"
+    },
+    {
+     "at": "2026-11-12T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20353?siteToken=qkwymq4me4nthdzzgj9fe08j0r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

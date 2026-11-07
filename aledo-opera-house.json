@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "aledo-opera-house",
+ "name": "Aledo Opera House",
+ "city": "quadcities",
+ "area": "Aledo",
+ "region": "Aledo & Mercer County",
+ "url": "https://www.aledooperahouse.com/",
+ "films": [
+  {
+   "title": "The Nightmare Before Christmas",
+   "rating": "PG",
+   "runtime_min": 76,
+   "url": "https://www.AledoOperaHouse.com/movie/the-nightmare-before-christmas/",
+   "shows": [
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-nightmare-before-christmas/4132874"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-nightmare-before-christmas/4132877"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-nightmare-before-christmas/4132875"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 95,
+   "url": "https://www.AledoOperaHouse.com/movie/jimmy/",
+   "shows": [
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/jimmy/4132879"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/jimmy/4132876"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/jimmy/4132878"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "melba",
+ "name": "Melba Theater",
+ "city": "searcy",
+ "area": "Batesville",
+ "region": "Batesville & Independence County",
+ "url": "https://www.melbatheater.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/start?film=1120",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/book?perfcode=51643"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/book?perfcode=51644"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MELBAT/book?perfcode=51645"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-01T02:23",
+ "error": true,
+ "warning": null
+}

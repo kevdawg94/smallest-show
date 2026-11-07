@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "mars-theatre",
+ "name": "Mars Theatre",
+ "city": "savannah",
+ "area": "Springfield",
+ "region": "Springfield",
+ "url": "https://marstheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 105,
+   "url": "https://marstheatre.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/the-cat-in-the-hat/4170614"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/the-cat-in-the-hat/4170615"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/the-cat-in-the-hat/4170622"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "palace-vinton",
+ "name": "Vinton Palace Theatre",
+ "city": "iowacity",
+ "area": "Vinton",
+ "region": "Vinton & Manchester",
+ "url": "https://vintonpalace.org/",
+ "films": [
+  {
+   "title": "Sense & Sensibility",
+   "rating": null,
+   "runtime_min": 132,
+   "url": "https://events.vintonpalace.org/events",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://events.vintonpalace.org/event-details/sense--sensibility-nov7-7pm-132min"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://events.vintonpalace.org/event-details/sense--sensibility-nov8-7pm-132min"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

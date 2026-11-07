@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "alex",
+ "name": "Alex Theatre",
+ "city": "la",
+ "area": "Glendale",
+ "region": "Valley & Pasadena",
+ "url": "https://cinema.thealex.com/",
+ "films": [
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://cinema.thealex.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-12T19:20",
+     "sold_out": false,
+     "url": "https://cinema.thealex.com/checkout/showing/wild-horse-nine/4089497"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

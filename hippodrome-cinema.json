@@ -1,0 +1,93 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "hippodrome-cinema",
+ "name": "Hippodrome Cinema",
+ "city": "gainesville",
+ "area": "Downtown Gainesville",
+ "region": "Gainesville",
+ "url": "https://thehipp.org/cinema",
+ "films": [
+  {
+   "title": "The History Of Concrete",
+   "rating": null,
+   "runtime_min": 101,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98403AKQKQBCGNNKVQSSDQVLPLVJLBPKD"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98404AVNCQMVKGCTBPTCGLKDMNPTGJNRV"
+    },
+    {
+     "at": "2026-11-13T20:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98406ANKSCRHMJJHJBTVSQTNGSRMHSPGG"
+    }
+   ]
+  },
+  {
+   "title": "Primetime",
+   "rating": null,
+   "runtime_min": 109,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98603ARPJBVTVTHBBTRHBSGBVBHHRQQDD"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98604AHQSGQQVHLTBLNLQBRQCPHPDMCNH"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98605ADMHDQVMTPTHNSSCBVBMLRLBNBHP"
+    }
+   ]
+  },
+  {
+   "title": "Ha-Chan, Shake Your Booty!",
+   "rating": null,
+   "runtime_min": 122,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-07T20:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98203ARNGRBLMBJCPDPLSCQGGDRMPJKJT"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98204AKBNSMLPPJBJMCTBNMMSBMDSBMQN"
+    },
+    {
+     "at": "2026-11-12T20:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98205ASBDGHBLGKHCRKCNKGBNPKNMHKTM"
+    },
+    {
+     "at": "2026-11-13T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98206ASLRVDTGKQQMJTMJQBNKRRCNVJVH"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

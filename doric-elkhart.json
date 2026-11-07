@@ -1,0 +1,86 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "doric-elkhart",
+ "name": "Doric Theater",
+ "city": "elkhart",
+ "area": "Elkhart",
+ "region": "Elkhart",
+ "url": "https://dorictheatre.com/",
+ "films": [
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=16ahf1hyw4ng07fg4pe56tcmwr",
+   "shows": [
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/311404?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    }
+   ]
+  },
+  {
+   "title": "Closed Today",
+   "rating": "TBC",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=16ahf1hyw4ng07fg4pe56tcmwr",
+   "shows": [
+    {
+     "at": "2026-11-08T20:50",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/311405?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    },
+    {
+     "at": "2026-11-09T21:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/311406?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    },
+    {
+     "at": "2026-11-10T21:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/311407?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    }
+   ]
+  },
+  {
+   "title": "Angel and the Badman",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=16ahf1hyw4ng07fg4pe56tcmwr",
+   "shows": [
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/312831?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    },
+    {
+     "at": "2026-11-12T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/312832?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=16ahf1hyw4ng07fg4pe56tcmwr",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/312833?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

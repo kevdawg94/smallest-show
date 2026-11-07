@@ -1,0 +1,884 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "star-vintage-park",
+ "name": "Star Cinema Grill Vintage Park",
+ "city": "houston",
+ "area": "Vintage Park",
+ "region": "Outside the Loop",
+ "url": "https://www.starcinemagrill.net/movie-theater/vintagepark",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 144,
+   "url": "https://www.starcinemagrill.net/movie/VintagePark/DRUMMER-BOY",
+   "shows": [
+    {
+     "at": "2026-11-07T10:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movie/VintagePark/DRUMMER-BOY"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/DRUMMER-BOY/RS27245267941-127806000019"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/DRUMMER-BOY/RS27245267941-127808000022"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/DRUMMER-BOY/RS27245267941-127807000019"
+    },
+    {
+     "at": "2026-11-09T18:15",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/DRUMMER-BOY/RS27245267941-127809000021"
+    },
+    {
+     "at": "2026-11-09T21:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/DRUMMER-BOY/RS27245267941-127810000021"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/DRUMMER-BOY/RS27245267941-127812000019"
+    },
+    {
+     "at": "2026-11-10T21:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/DRUMMER-BOY/RS27245267941-127811000021"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/DRUMMER-BOY/RS27245267941-127813000022"
+    },
+    {
+     "at": "2026-11-11T21:25",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/DRUMMER-BOY/RS27245267941-127814000020"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 129,
+   "url": "https://www.starcinemagrill.net/movie/VintagePark/THE-CAT-IN-THE-HAT",
+   "shows": [
+    {
+     "at": "2026-11-07T10:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movie/VintagePark/THE-CAT-IN-THE-HAT"
+    },
+    {
+     "at": "2026-11-07T13:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127029000025"
+    },
+    {
+     "at": "2026-11-07T14:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127652000021"
+    },
+    {
+     "at": "2026-11-07T15:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127632000024"
+    },
+    {
+     "at": "2026-11-07T16:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127030000025"
+    },
+    {
+     "at": "2026-11-07T17:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127051000020"
+    },
+    {
+     "at": "2026-11-07T20:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127050000020"
+    },
+    {
+     "at": "2026-11-07T21:15",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127649000021"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127038000025"
+    },
+    {
+     "at": "2026-11-08T13:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127036000025"
+    },
+    {
+     "at": "2026-11-08T14:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127703000021"
+    },
+    {
+     "at": "2026-11-08T15:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127688000024"
+    },
+    {
+     "at": "2026-11-08T16:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127037000025"
+    },
+    {
+     "at": "2026-11-08T17:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127055000020"
+    },
+    {
+     "at": "2026-11-08T20:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127054000020"
+    },
+    {
+     "at": "2026-11-08T21:15",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127702000021"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127733000021"
+    },
+    {
+     "at": "2026-11-09T13:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127737000025"
+    },
+    {
+     "at": "2026-11-09T14:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127730000021"
+    },
+    {
+     "at": "2026-11-09T15:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127715000024"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127738000025"
+    },
+    {
+     "at": "2026-11-09T17:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127711000020"
+    },
+    {
+     "at": "2026-11-09T20:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127710000020"
+    },
+    {
+     "at": "2026-11-10T11:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127765000021"
+    },
+    {
+     "at": "2026-11-10T12:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127769000025"
+    },
+    {
+     "at": "2026-11-10T14:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127762000021"
+    },
+    {
+     "at": "2026-11-10T15:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127747000024"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127770000025"
+    },
+    {
+     "at": "2026-11-10T17:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127743000020"
+    },
+    {
+     "at": "2026-11-10T20:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127742000020"
+    },
+    {
+     "at": "2026-11-11T11:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127793000020"
+    },
+    {
+     "at": "2026-11-11T13:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127797000025"
+    },
+    {
+     "at": "2026-11-11T14:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127781000020"
+    },
+    {
+     "at": "2026-11-11T15:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127784000024"
+    },
+    {
+     "at": "2026-11-11T16:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127798000025"
+    },
+    {
+     "at": "2026-11-11T17:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127792000021"
+    },
+    {
+     "at": "2026-11-11T20:35",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/THE-CAT-IN-THE-HAT/RS435506326118-127775000021"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://www.starcinemagrill.net/movie/VintagePark/WICKER",
+   "shows": [
+    {
+     "at": "2026-11-07T10:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movie/VintagePark/WICKER"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/WICKER/RS735945250540-127639000023"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/WICKER/RS735945250540-127694000023"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/WICKER/RS735945250540-127693000023"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/WICKER/RS735945250540-127752000023"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 150,
+   "url": "https://www.starcinemagrill.net/movie/VintagePark/GODZILLA-MINUS-ZERO",
+   "shows": [
+    {
+     "at": "2026-11-07T10:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127049000020"
+    },
+    {
+     "at": "2026-11-07T11:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127655000024"
+    },
+    {
+     "at": "2026-11-07T13:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127653000022"
+    },
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127052000020"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127641000022"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127630000024"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-126576000025"
+    },
+    {
+     "at": "2026-11-07T21:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127631000024"
+    },
+    {
+     "at": "2026-11-07T22:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-126577000025"
+    },
+    {
+     "at": "2026-11-08T10:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127053000020"
+    },
+    {
+     "at": "2026-11-08T11:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127707000024"
+    },
+    {
+     "at": "2026-11-08T13:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127704000022"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127056000020"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127695000022"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127686000024"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127015000025"
+    },
+    {
+     "at": "2026-11-08T21:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127687000024"
+    },
+    {
+     "at": "2026-11-08T22:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-126580000025"
+    },
+    {
+     "at": "2026-11-09T10:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127708000020"
+    },
+    {
+     "at": "2026-11-09T11:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127734000024"
+    },
+    {
+     "at": "2026-11-09T12:35",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127731000022"
+    },
+    {
+     "at": "2026-11-09T14:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127712000020"
+    },
+    {
+     "at": "2026-11-09T16:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127722000022"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127713000024"
+    },
+    {
+     "at": "2026-11-09T19:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127736000025"
+    },
+    {
+     "at": "2026-11-09T21:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127714000024"
+    },
+    {
+     "at": "2026-11-09T22:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127735000025"
+    },
+    {
+     "at": "2026-11-10T10:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127740000020"
+    },
+    {
+     "at": "2026-11-10T11:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127766000024"
+    },
+    {
+     "at": "2026-11-10T12:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127763000022"
+    },
+    {
+     "at": "2026-11-10T14:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127744000020"
+    },
+    {
+     "at": "2026-11-10T16:20",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127754000022"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127745000024"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127768000025"
+    },
+    {
+     "at": "2026-11-10T21:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127746000024"
+    },
+    {
+     "at": "2026-11-10T22:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127767000025"
+    },
+    {
+     "at": "2026-11-11T10:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127777000021"
+    },
+    {
+     "at": "2026-11-11T11:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127794000024"
+    },
+    {
+     "at": "2026-11-11T12:15",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127779000022"
+    },
+    {
+     "at": "2026-11-11T14:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127778000021"
+    },
+    {
+     "at": "2026-11-11T15:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127780000022"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127782000024"
+    },
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127796000025"
+    },
+    {
+     "at": "2026-11-11T21:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127783000024"
+    },
+    {
+     "at": "2026-11-11T22:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/GODZILLA-MINUS-ZERO/RS134221373877-127795000025"
+    }
+   ]
+  },
+  {
+   "title": "Holiday Classics: DR SEUSS HOW THE GRINCH STOLE CHRISTMAS - Only $8!",
+   "rating": "PG",
+   "runtime_min": 104,
+   "url": "https://www.starcinemagrill.net/movie/VintagePark/Holiday-Classics-DR-SEUSS-HOW-THE-GRINCH-STOLE-CHRISTMAS---Only-8",
+   "shows": [
+    {
+     "at": "2026-11-07T11:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/Holiday-Classics-DR-SEUSS-HOW-THE-GRINCH-STOLE-CHRISTMAS---Only-8/DR9885-123874000019"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/Holiday-Classics-DR-SEUSS-HOW-THE-GRINCH-STOLE-CHRISTMAS---Only-8/DR9885-123875000019"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/Holiday-Classics-DR-SEUSS-HOW-THE-GRINCH-STOLE-CHRISTMAS---Only-8/DR9885-123876000019"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/Holiday-Classics-DR-SEUSS-HOW-THE-GRINCH-STOLE-CHRISTMAS---Only-8/DR9885-123877000019"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.starcinemagrill.net/movie/VintagePark/YOU-CAN-SEE-EVERYTHING",
+   "shows": [
+    {
+     "at": "2026-11-07T11:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/YOU-CAN-SEE-EVERYTHING/RS997632062773-127636000017/ticket-selection"
+    },
+    {
+     "at": "2026-11-07T21:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/YOU-CAN-SEE-EVERYTHING/RS997632062773-127638000019"
+    },
+    {
+     "at": "2026-11-08T11:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/YOU-CAN-SEE-EVERYTHING/RS997632062773-127690000017/ticket-selection"
+    },
+    {
+     "at": "2026-11-08T21:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/YOU-CAN-SEE-EVERYTHING/RS997632062773-127692000019"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/YOU-CAN-SEE-EVERYTHING/RS997632062773-127717000019"
+    },
+    {
+     "at": "2026-11-09T21:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/YOU-CAN-SEE-EVERYTHING/RS997632062773-127719000019"
+    },
+    {
+     "at": "2026-11-10T11:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/YOU-CAN-SEE-EVERYTHING/RS997632062773-127799000019"
+    },
+    {
+     "at": "2026-11-10T22:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/YOU-CAN-SEE-EVERYTHING/RS997632062773-127751000019"
+    },
+    {
+     "at": "2026-11-11T11:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/YOU-CAN-SEE-EVERYTHING/RS997632062773-127785000019"
+    },
+    {
+     "at": "2026-11-11T21:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/YOU-CAN-SEE-EVERYTHING/RS997632062773-127776000019"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 125,
+   "url": "https://www.starcinemagrill.net/movie/VintagePark/STREET-FIGHTER",
+   "shows": [
+    {
+     "at": "2026-11-07T11:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127650000021"
+    },
+    {
+     "at": "2026-11-07T15:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127645000023"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127646000021"
+    },
+    {
+     "at": "2026-11-07T21:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127647000023"
+    },
+    {
+     "at": "2026-11-08T11:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127705000021"
+    },
+    {
+     "at": "2026-11-08T15:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127699000023"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127700000021"
+    },
+    {
+     "at": "2026-11-08T21:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127701000023"
+    },
+    {
+     "at": "2026-11-09T15:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127726000023"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127727000023"
+    },
+    {
+     "at": "2026-11-09T21:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127728000023"
+    },
+    {
+     "at": "2026-11-10T15:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127758000023"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127759000021"
+    },
+    {
+     "at": "2026-11-10T21:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127760000023"
+    },
+    {
+     "at": "2026-11-11T15:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127790000023"
+    },
+    {
+     "at": "2026-11-11T21:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/STREET-FIGHTER/ST12958-127791000023"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": null,
+   "runtime_min": 123,
+   "url": "https://www.starcinemagrill.net/movie/VintagePark/CLAYFACE",
+   "shows": [
+    {
+     "at": "2026-11-07T12:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127644000023"
+    },
+    {
+     "at": "2026-11-07T15:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127637000019"
+    },
+    {
+     "at": "2026-11-07T19:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127642000022"
+    },
+    {
+     "at": "2026-11-07T22:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127643000022"
+    },
+    {
+     "at": "2026-11-08T12:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127698000023"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127691000019"
+    },
+    {
+     "at": "2026-11-08T19:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127696000022"
+    },
+    {
+     "at": "2026-11-08T22:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127697000022"
+    },
+    {
+     "at": "2026-11-09T12:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127725000023"
+    },
+    {
+     "at": "2026-11-09T15:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127718000019"
+    },
+    {
+     "at": "2026-11-09T19:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127723000022"
+    },
+    {
+     "at": "2026-11-09T22:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127724000022"
+    },
+    {
+     "at": "2026-11-10T12:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127757000023"
+    },
+    {
+     "at": "2026-11-10T15:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127750000019"
+    },
+    {
+     "at": "2026-11-10T19:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127755000022"
+    },
+    {
+     "at": "2026-11-10T22:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127756000022"
+    },
+    {
+     "at": "2026-11-11T12:50",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127789000023"
+    },
+    {
+     "at": "2026-11-11T15:40",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127786000019"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127787000023"
+    },
+    {
+     "at": "2026-11-11T22:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/CLAYFACE/CL25199-127788000022"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://www.starcinemagrill.net/movie/VintagePark/EBENEZER-A-CHRISTMAS-CAROL",
+   "shows": [
+    {
+     "at": "2026-11-12T14:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/EBENEZER-A-CHRISTMAS-CAROL/EB24393-127495000024"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/EBENEZER-A-CHRISTMAS-CAROL/EB24393-127496000024"
+    },
+    {
+     "at": "2026-11-12T21:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/EBENEZER-A-CHRISTMAS-CAROL/EB24393-127497000024"
+    },
+    {
+     "at": "2026-11-13T11:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/EBENEZER-A-CHRISTMAS-CAROL/EB24393-127490000024"
+    },
+    {
+     "at": "2026-11-13T14:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/EBENEZER-A-CHRISTMAS-CAROL/EB24393-127491000024"
+    },
+    {
+     "at": "2026-11-13T18:00",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/EBENEZER-A-CHRISTMAS-CAROL/EB24393-127492000024"
+    },
+    {
+     "at": "2026-11-13T21:10",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/EBENEZER-A-CHRISTMAS-CAROL/EB24393-127493000024"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 122,
+   "url": "https://www.starcinemagrill.net/movie/VintagePark/HOW-TO-ROB-A-BANK",
+   "shows": [
+    {
+     "at": "2026-11-12T16:30",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/HOW-TO-ROB-A-BANK/RS431508106539-127567000019"
+    },
+    {
+     "at": "2026-11-12T19:45",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/HOW-TO-ROB-A-BANK/RS431508106539-127568000019"
+    },
+    {
+     "at": "2026-11-12T22:55",
+     "sold_out": false,
+     "url": "https://www.starcinemagrill.net/movies/VintagePark/HOW-TO-ROB-A-BANK/RS431508106539-127569000019"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

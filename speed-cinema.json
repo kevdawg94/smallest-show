@@ -1,0 +1,86 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "speed-cinema",
+ "name": "Speed Cinema",
+ "city": "louisville",
+ "area": "Old Louisville, Louisville",
+ "region": "Old Louisville & Downtown",
+ "url": "https://www.speedmuseum.org/cinema/",
+ "films": [
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/fatherland-at-speed-cinema-2/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=83108514-818c-4a37-97cb-72610c05049c"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=5e2d889a-ec53-496c-8855-eeedd4973dfb"
+    },
+    {
+     "at": "2026-11-08T12:30",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=e8139d38-be42-4739-a894-5064d0e4a41f"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra (Black Ball)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/la-bola-negra-black-ball-at-speed-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=a2a9131f-e6e2-42a8-9297-10662e150f6e"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=7b4f2b8a-ae6f-4950-a835-89372823e9af"
+    }
+   ]
+  },
+  {
+   "title": "Aanikoobijigan",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/aanikoobijigan-at-speed-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=deca2f46-e9c2-4d54-a9eb-36d0132cadcf"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/once-upon-a-time-in-harlem-at-speed-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-13T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=c2200011-a7c1-4f26-b2e1-7dc6f35a6f04"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

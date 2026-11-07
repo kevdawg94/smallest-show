@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "vali-twin",
+ "name": "Vali Twin Cinema",
+ "city": "cody",
+ "area": "Powell",
+ "region": "Powell",
+ "url": "https://www.valitwincinema.com/",
+ "films": [
+  {
+   "title": "Clayface",
+   "rating": "PG-13",
+   "runtime_min": 98,
+   "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261108"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261112"
+    }
+   ]
+  },
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 90,
+   "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107",
+   "shows": [
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107"
+    },
+    {
+     "at": "2026-11-08T15:15",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261108"
+    },
+    {
+     "at": "2026-11-12T19:15",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261112"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "gloria-urbana",
+ "name": "Gloria Theatre",
+ "city": "dayton",
+ "area": "Urbana",
+ "region": "Bellefontaine & Greenville",
+ "url": "https://gloriatheatre.org",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://gloriatheatre.org/upcoming-events?tag=movie",
+   "shows": [
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    },
+    {
+     "at": "2026-11-07T18:15",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    }
+   ]
+  },
+  {
+   "title": "Top Gun",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://gloriatheatre.org/upcoming-events?tag=movie",
+   "shows": [
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

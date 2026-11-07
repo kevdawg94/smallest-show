@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "aurora-grand",
+ "name": "Aurora Grand Theater",
+ "city": "southeastak",
+ "area": "Downtown Juneau",
+ "region": "Juneau",
+ "url": "https://auroragrandtheater.com/",
+ "films": [
+  {
+   "title": "The SpongeBob SquarePants Movie",
+   "rating": null,
+   "runtime_min": 87,
+   "url": "https://auroragrandtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/13856/"
+    }
+   ]
+  },
+  {
+   "title": "The Lord of the Rings: The Fellowship of the Ring (Special Extended Edition)",
+   "rating": null,
+   "runtime_min": 179,
+   "url": "https://auroragrandtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T17:30",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/13857/"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/13870/"
+    }
+   ]
+  },
+  {
+   "title": "The Way Out",
+   "rating": null,
+   "runtime_min": 60,
+   "url": "https://auroragrandtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/14165/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

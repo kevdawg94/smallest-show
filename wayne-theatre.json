@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "wayne-theatre",
+ "name": "The Wayne Theatre",
+ "city": "dayton",
+ "area": "Greenville",
+ "region": "Bellefontaine & Greenville",
+ "url": "https://thewaynetheatre.com/",
+ "films": [
+  {
+   "title": "The Mongoose",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.ticketor.com/thewaynetheatre/tickets",
+   "shows": [
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/the-mongoose-371209"
+    },
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/the-mongoose-371210"
+    },
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/the-mongoose-371211"
+    },
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/the-mongoose-371212"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/the-mongoose-371213"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/the-mongoose-371214"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.ticketor.com/thewaynetheatre/tickets",
+   "shows": [
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/ebenezer-371217"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/ebenezer-371218"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

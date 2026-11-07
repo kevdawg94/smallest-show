@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "emmaus-theatre",
+ "name": "Emmaus Theatre",
+ "city": "lehigh",
+ "area": "Emmaus",
+ "region": "Emmaus & Northampton",
+ "url": "https://www.emmaustheatre.com/",
+ "films": [
+  {
+   "title": "Special Event: Dulce Sloan",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.emmaustheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T20:00",
+     "sold_out": false,
+     "url": "https://DulceSloanEmmaus.eventbrite.com"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.emmaustheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.eventbrite.com/e/jimmy-tickets-2004091158604?aff=oddtdtcreator"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://www.eventbrite.com/e/jimmy-tickets-2004091158604?aff=oddtdtcreator"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://www.eventbrite.com/e/jimmy-tickets-2004091158604?aff=oddtdtcreator"
+    }
+   ]
+  },
+  {
+   "title": "Magic Hunks Live",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.emmaustheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-13T20:00",
+     "sold_out": false,
+     "url": "https://www.eventbrite.com/e/magic-hunks-live-tickets-1990447642480?aff=oddtdtcreator"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

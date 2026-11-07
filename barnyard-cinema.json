@@ -1,0 +1,117 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "barnyard-cinema",
+ "name": "The Barnyard Cinema",
+ "city": "wenatchee",
+ "area": "Winthrop",
+ "region": "Methow Valley",
+ "url": "https://thebarnyardcinema.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6475?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6479?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    },
+    {
+     "at": "2026-11-09T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6480?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6476?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    },
+    {
+     "at": "2026-11-11T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6477?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  },
+  {
+   "title": "Mystery Movie",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6481?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-12T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6478?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-12T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6482?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-13T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6483?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  },
+  {
+   "title": "Everest: The Other Side",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6484?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

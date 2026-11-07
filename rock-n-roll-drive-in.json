@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "rock-n-roll-drive-in",
+ "name": "Rock 'N' Roll Drive-In",
+ "city": "sikeston",
+ "area": "Chaffee",
+ "region": "Cape Girardeau",
+ "url": "https://www.rocknrolldrivein.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://882251.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://882251.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261107"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://882251.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261113"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://882251.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261113",
+   "shows": [
+    {
+     "at": "2026-11-13T21:10",
+     "sold_out": false,
+     "url": "https://882251.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261113"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

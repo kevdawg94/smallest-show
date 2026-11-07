@@ -1,0 +1,61 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "yale-film-archive",
+ "name": "Yale Film Archive",
+ "city": "centralct",
+ "area": "Yale, New Haven",
+ "region": "New Haven",
+ "url": "https://web.library.yale.edu/film/screenings",
+ "films": [
+  {
+   "title": "Titicut Follies",
+   "rating": null,
+   "runtime_min": 84,
+   "url": "https://web.library.yale.edu/film/wisemania",
+   "shows": [
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://web.library.yale.edu/film/wisemania",
+     "venue": "HQ L01, 320 York"
+    }
+   ]
+  },
+  {
+   "title": "Gun Crazy",
+   "rating": null,
+   "runtime_min": 87,
+   "url": "https://web.library.yale.edu/film/treasures",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://web.library.yale.edu/film/treasures",
+     "venue": "HQ L02, 320 York"
+    }
+   ]
+  },
+  {
+   "title": "Bound",
+   "rating": null,
+   "runtime_min": 109,
+   "url": "https://web.library.yale.edu/film/sundance",
+   "shows": [
+    {
+     "at": "2026-11-13T20:50",
+     "sold_out": false,
+     "url": "https://web.library.yale.edu/film/sundance",
+     "venue": "HQ L02, 320 York"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "bellows-falls-opera-house",
+ "name": "Bellows Falls Opera House",
+ "city": "southernvt",
+ "area": "Bellows Falls",
+ "region": "Bellows Falls",
+ "url": "https://www.bellowsfallsoperahouse.com/",
+ "films": [
+  {
+   "title": "Street Fighter",
+   "rating": null,
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/bellowsfallsoperahouse/website/ChooseSeats.aspx?EventInstanceId=218201ALCJHQVDVJDTNMGSVGLKGDHBJTP"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/bellowsfallsoperahouse/website/ChooseSeats.aspx?EventInstanceId=218401ASTMJLTDBDHLGTRLMBRQJMNGGPH"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/bellowsfallsoperahouse/website/ChooseSeats.aspx?EventInstanceId=217603AMQTSGCNNSMPNNMCLRQKHHTDMDJ"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/bellowsfallsoperahouse/website/ChooseSeats.aspx?EventInstanceId=217604AKBCTNRDSJQSNMTTHPKBVVVQGVB"
+    }
+   ]
+  },
+  {
+   "title": "The Lives of Others",
+   "rating": null,
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/bellowsfallsoperahouse/website/ChooseSeats.aspx?EventInstanceId=214801AMHNJGSJHDBNHPDQLVCMBPCGSGD"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

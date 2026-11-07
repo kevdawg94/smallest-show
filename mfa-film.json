@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "mfa-film",
+ "name": "MFA Film Program",
+ "city": "boston",
+ "area": "Fenway",
+ "region": "Brookline & Boston",
+ "url": "https://www.mfa.org/programs/film",
+ "films": [
+  {
+   "title": "The First Lady",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.mfa.org/event/film/the-first-lady?event=179206",
+   "shows": [
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://tnew.mfa.org/0/120926"
+    }
+   ]
+  },
+  {
+   "title": "Night of Blindness (Kör Gece)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.mfa.org/event/film/night-of-blindness-kor-gece?event=181696",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://tnew.mfa.org/0/120934"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

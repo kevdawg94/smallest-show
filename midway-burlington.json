@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "midway-burlington",
+ "name": "Midway Theater",
+ "city": "burlingtonco",
+ "area": "Burlington",
+ "region": "Burlington",
+ "url": "https://www.themidwaytheater.org/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2184?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2186?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2185?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2187?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "paradise-mora",
+ "name": "Paradise Theatre",
+ "city": "msp",
+ "area": "Mora",
+ "region": "Central Minnesota",
+ "url": "http://www.moratheater.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "http://www.moratheater.com/movies-now-playing/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "http://www.moratheater.com/movies-now-playing/"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "http://www.moratheater.com/movies-now-playing/"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "http://www.moratheater.com/movies-now-playing/"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "http://www.moratheater.com/movies-now-playing/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

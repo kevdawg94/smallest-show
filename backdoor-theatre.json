@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "backdoor-theatre",
+ "name": "Backdoor Theatre",
+ "city": "denver",
+ "area": "Nederland",
+ "region": "Boulder & Front Range",
+ "url": "https://thebackdoortheatre.org/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://thebackdoortheatre.org/event/wildwood-2/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://thebackdoortheatre.org/event/wildwood-2/"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://thebackdoortheatre.org/event/wildwood-3/"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://thebackdoortheatre.org/event/sense-and-sensibility/",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://thebackdoortheatre.org/event/sense-and-sensibility/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

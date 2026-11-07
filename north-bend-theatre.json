@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "north-bend-theatre",
+ "name": "North Bend Theatre",
+ "city": "seattle",
+ "area": "North Bend",
+ "region": "West Seattle & South",
+ "url": "https://tix.northbendtheatre.com/",
+ "films": [
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tix.northbendtheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-saturday-nov-7th-3pm"
+    },
+    {
+     "at": "2026-11-13T15:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-friday-nov-13th-3pm"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-friday-nov-13th-7pm"
+    }
+   ]
+  },
+  {
+   "title": "5Point Film Fest 2026 Hosted by Pro Ski and Mountain Service",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tix.northbendtheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/5point-film-fest-2026-hosted-by-pro-ski-and-mountain-service-sunday-november-8th-5pm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

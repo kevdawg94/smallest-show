@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "odeon-mason",
+ "name": "Odeon Theater",
+ "city": "austin",
+ "area": "Mason",
+ "region": "Mason",
+ "url": "https://www.theodeontheater.com/movies",
+ "films": [
+  {
+   "title": "No Movie - It's Concert Night",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theodeontheater.com/movies/2026/11/7/ordinary-elephant",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.theodeontheater.com/movies/2026/11/7/ordinary-elephant"
+    }
+   ]
+  },
+  {
+   "title": "Daniel and the Fiery Furnace",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theodeontheater.com/movies/2026/11/10/daniel-fiery-furnace",
+   "shows": [
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://www.theodeontheater.com/movies/2026/11/8/daniel-fiery-furnace"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.theodeontheater.com/movies/2026/11/9/daniel-fiery-furnace-7cetz"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://www.theodeontheater.com/movies/2026/11/10/daniel-fiery-furnace"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

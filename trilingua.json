@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "trilingua",
+ "name": "TriLingua",
+ "city": "msp",
+ "area": "East Side",
+ "region": "St. Paul",
+ "url": "https://trilinguacinema.org/",
+ "films": [
+  {
+   "title": "American Doctor",
+   "rating": null,
+   "runtime_min": 91,
+   "url": "https://trilinguacinema.org/",
+   "shows": [
+    {
+     "at": "2026-11-07T16:10",
+     "sold_out": false,
+     "url": "https://trilinguacinema.org/purchase/7439/"
+    }
+   ]
+  },
+  {
+   "title": "Bitterroot",
+   "rating": null,
+   "runtime_min": 82,
+   "url": "https://trilinguacinema.org/",
+   "shows": [
+    {
+     "at": "2026-11-07T18:20",
+     "sold_out": false,
+     "url": "https://trilinguacinema.org/purchase/7377/"
+    }
+   ]
+  },
+  {
+   "title": "Over the Garden Wall",
+   "rating": null,
+   "runtime_min": 110,
+   "url": "https://trilinguacinema.org/",
+   "shows": [
+    {
+     "at": "2026-11-13T17:40",
+     "sold_out": false,
+     "url": "https://trilinguacinema.org/purchase/7980/"
+    },
+    {
+     "at": "2026-11-13T20:05",
+     "sold_out": false,
+     "url": "https://trilinguacinema.org/purchase/7982/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

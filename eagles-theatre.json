@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "eagles-theatre",
+ "name": "Eagles Theatre",
+ "city": "fortwayne",
+ "area": "Wabash",
+ "region": "Columbia City & Wabash",
+ "url": "https://honeywellarts.org/eagles-theatre",
+ "films": [
+  {
+   "title": "Seniors",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eggmkrgh8ehvdqdjrydrpj51br",
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3666?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3668?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3667?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3669?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eggmkrgh8ehvdqdjrydrpj51br",
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3653?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3655?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3654?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3656?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-13T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3658?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

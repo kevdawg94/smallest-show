@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "bogar",
+ "name": "Bogar Theatre",
+ "city": "kalamazoo",
+ "area": "Marshall",
+ "region": "Battle Creek & Marshall",
+ "url": "https://www.marshallmovies.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4xn7002xerv3psqtnkqa4xqjc0",
+   "shows": [
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7951?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    },
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7954?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    },
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7952?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7955?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7956?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    },
+    {
+     "at": "2026-11-12T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7957?siteToken=4xn7002xerv3psqtnkqa4xqjc0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

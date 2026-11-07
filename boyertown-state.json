@@ -1,0 +1,98 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "boyertown-state",
+ "name": "State Theatre",
+ "city": "philly",
+ "area": "Boyertown",
+ "region": "Suburbs",
+ "url": "https://boyertownstatetheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hfx4gecvzsrqdskf0k519fpgnc",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4737?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4731?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4738?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4732?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4733?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4734?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4735?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4736?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4739?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    }
+   ]
+  },
+  {
+   "title": "Meat Raffle",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hfx4gecvzsrqdskf0k519fpgnc",
+   "shows": [
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4506?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    }
+   ]
+  },
+  {
+   "title": "A Few Good Men",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hfx4gecvzsrqdskf0k519fpgnc",
+   "shows": [
+    {
+     "at": "2026-11-13T22:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4648?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

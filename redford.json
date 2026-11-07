@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "redford",
+ "name": "Redford",
+ "city": "detroit",
+ "area": "Old Redford",
+ "region": "Detroit",
+ "url": "https://redfordtheatre.com/",
+ "films": [
+  {
+   "title": "The Little Mermaid Live",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+   "shows": [
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/122?siteToken=ks2qqa1sp218n79f3jdn2r6qy0"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/123?siteToken=ks2qqa1sp218n79f3jdn2r6qy0"
+    }
+   ]
+  },
+  {
+   "title": "Star Wars: Episode VI - Return of the Jedi",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+   "shows": [
+    {
+     "at": "2026-11-13T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/99?siteToken=ks2qqa1sp218n79f3jdn2r6qy0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

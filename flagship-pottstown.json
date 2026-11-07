@@ -1,0 +1,863 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "flagship-pottstown",
+ "name": "Flagship Premium Cinemas Pottstown",
+ "city": "philly",
+ "area": "Pottstown",
+ "region": "Suburbs",
+ "url": "https://flagshipcinemas.com/pottstown",
+ "films": [
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://flagshipcinemas.com/pottstown/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138479"
+    },
+    {
+     "at": "2026-11-07T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4264047"
+    },
+    {
+     "at": "2026-11-07T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138480"
+    },
+    {
+     "at": "2026-11-07T14:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4264049"
+    },
+    {
+     "at": "2026-11-07T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138481"
+    },
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4264051"
+    },
+    {
+     "at": "2026-11-07T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138482"
+    },
+    {
+     "at": "2026-11-07T21:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138504"
+    },
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138506"
+    },
+    {
+     "at": "2026-11-08T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138483"
+    },
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4264155"
+    },
+    {
+     "at": "2026-11-08T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138484"
+    },
+    {
+     "at": "2026-11-08T14:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4264157"
+    },
+    {
+     "at": "2026-11-08T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138485"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4264159"
+    },
+    {
+     "at": "2026-11-08T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138486"
+    },
+    {
+     "at": "2026-11-09T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138487"
+    },
+    {
+     "at": "2026-11-09T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4264363"
+    },
+    {
+     "at": "2026-11-09T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138488"
+    },
+    {
+     "at": "2026-11-09T14:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4264366"
+    },
+    {
+     "at": "2026-11-09T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138489"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4264370"
+    },
+    {
+     "at": "2026-11-09T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138490"
+    },
+    {
+     "at": "2026-11-10T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138491"
+    },
+    {
+     "at": "2026-11-10T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4264428"
+    },
+    {
+     "at": "2026-11-10T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138494"
+    },
+    {
+     "at": "2026-11-10T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138496"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138498"
+    },
+    {
+     "at": "2026-11-11T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138499"
+    },
+    {
+     "at": "2026-11-11T12:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4271584"
+    },
+    {
+     "at": "2026-11-11T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138500"
+    },
+    {
+     "at": "2026-11-11T15:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4271579"
+    },
+    {
+     "at": "2026-11-11T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138501"
+    },
+    {
+     "at": "2026-11-11T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/the-cat-in-the-hat/4138502"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 175,
+   "url": "https://flagshipcinemas.com/pottstown/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264036"
+    },
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264056"
+    },
+    {
+     "at": "2026-11-07T18:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264040"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264058"
+    },
+    {
+     "at": "2026-11-08T11:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264146"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264164"
+    },
+    {
+     "at": "2026-11-08T18:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264150"
+    },
+    {
+     "at": "2026-11-09T11:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264339"
+    },
+    {
+     "at": "2026-11-09T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264367"
+    },
+    {
+     "at": "2026-11-09T18:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264347"
+    },
+    {
+     "at": "2026-11-10T11:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264419"
+    },
+    {
+     "at": "2026-11-10T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264432"
+    },
+    {
+     "at": "2026-11-10T18:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264426"
+    },
+    {
+     "at": "2026-11-11T11:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264437"
+    },
+    {
+     "at": "2026-11-11T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264448"
+    },
+    {
+     "at": "2026-11-11T18:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/you-can-see-everything/4264442"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://flagshipcinemas.com/pottstown/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178662"
+    },
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178663"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4264045"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178664"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4264046"
+    },
+    {
+     "at": "2026-11-07T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178665"
+    },
+    {
+     "at": "2026-11-08T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178666"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178667"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4264199"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178668"
+    },
+    {
+     "at": "2026-11-09T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178670"
+    },
+    {
+     "at": "2026-11-09T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178671"
+    },
+    {
+     "at": "2026-11-09T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4264346"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178672"
+    },
+    {
+     "at": "2026-11-10T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178674"
+    },
+    {
+     "at": "2026-11-10T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178675"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4264425"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178676"
+    },
+    {
+     "at": "2026-11-11T12:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178678"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178679"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/godzilla-minus-zero/4178680"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://flagshipcinemas.com/pottstown/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264055"
+    },
+    {
+     "at": "2026-11-07T15:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264038"
+    },
+    {
+     "at": "2026-11-07T18:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264057"
+    },
+    {
+     "at": "2026-11-07T21:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264043"
+    },
+    {
+     "at": "2026-11-08T12:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264163"
+    },
+    {
+     "at": "2026-11-09T12:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264364"
+    },
+    {
+     "at": "2026-11-09T15:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264344"
+    },
+    {
+     "at": "2026-11-09T18:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264369"
+    },
+    {
+     "at": "2026-11-10T12:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264429"
+    },
+    {
+     "at": "2026-11-10T15:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264423"
+    },
+    {
+     "at": "2026-11-10T18:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4264434"
+    },
+    {
+     "at": "2026-11-11T18:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/clayface/4271585"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://flagshipcinemas.com/pottstown/movie/jimmy/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264037"
+    },
+    {
+     "at": "2026-11-07T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264039"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264041"
+    },
+    {
+     "at": "2026-11-07T21:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264042"
+    },
+    {
+     "at": "2026-11-08T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264147"
+    },
+    {
+     "at": "2026-11-08T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264149"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264151"
+    },
+    {
+     "at": "2026-11-09T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264342"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264345"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264348"
+    },
+    {
+     "at": "2026-11-10T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264421"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264424"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264427"
+    },
+    {
+     "at": "2026-11-11T12:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264439"
+    },
+    {
+     "at": "2026-11-11T15:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264441"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/jimmy/4264443"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://flagshipcinemas.com/pottstown/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264048"
+    },
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264050"
+    },
+    {
+     "at": "2026-11-07T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264052"
+    },
+    {
+     "at": "2026-11-08T10:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264154"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264156"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264158"
+    },
+    {
+     "at": "2026-11-08T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264160"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264365"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264368"
+    },
+    {
+     "at": "2026-11-09T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264371"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264430"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264433"
+    },
+    {
+     "at": "2026-11-10T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264436"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264446"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264449"
+    },
+    {
+     "at": "2026-11-11T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/drummer-boy/4264452"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://flagshipcinemas.com/pottstown/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-07T15:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/wildwood/4264044"
+    },
+    {
+     "at": "2026-11-08T12:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/wildwood/4264197"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/wildwood/4264198"
+    },
+    {
+     "at": "2026-11-09T11:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/wildwood/4264341"
+    },
+    {
+     "at": "2026-11-09T14:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/wildwood/4264343"
+    },
+    {
+     "at": "2026-11-10T11:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/wildwood/4264420"
+    },
+    {
+     "at": "2026-11-10T14:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/wildwood/4264422"
+    },
+    {
+     "at": "2026-11-11T11:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/wildwood/4264438"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://flagshipcinemas.com/pottstown/movie/other-mommy/",
+   "shows": [
+    {
+     "at": "2026-11-07T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/other-mommy/4264053"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 114,
+   "url": "https://flagshipcinemas.com/pottstown/movie/verity/",
+   "shows": [
+    {
+     "at": "2026-11-07T21:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/verity/4264054"
+    }
+   ]
+  },
+  {
+   "title": "Back to the Future",
+   "rating": "PG",
+   "runtime_min": 116,
+   "url": "https://flagshipcinemas.com/pottstown/movie/back-to-the-future/",
+   "shows": [
+    {
+     "at": "2026-11-08T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/back-to-the-future/4045023"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/back-to-the-future/4045024"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/back-to-the-future/4045025"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/back-to-the-future/4045026"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/back-to-the-future/4045027"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://flagshipcinemas.com/pottstown/movie/ghost-soldier/",
+   "shows": [
+    {
+     "at": "2026-11-10T16:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ghost-soldier/4271577"
+    },
+    {
+     "at": "2026-11-10T19:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ghost-soldier/4271578"
+    },
+    {
+     "at": "2026-11-11T11:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ghost-soldier/4271580"
+    },
+    {
+     "at": "2026-11-11T13:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ghost-soldier/4271581"
+    },
+    {
+     "at": "2026-11-11T16:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ghost-soldier/4271582"
+    },
+    {
+     "at": "2026-11-11T19:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ghost-soldier/4271583"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://flagshipcinemas.com/pottstown/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-12T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ebenezer/4218890"
+    },
+    {
+     "at": "2026-11-12T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ebenezer/4218891"
+    },
+    {
+     "at": "2026-11-13T11:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ebenezer/4218915"
+    },
+    {
+     "at": "2026-11-13T13:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ebenezer/4218916"
+    },
+    {
+     "at": "2026-11-13T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ebenezer/4218917"
+    },
+    {
+     "at": "2026-11-13T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ebenezer/4218918"
+    },
+    {
+     "at": "2026-11-13T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/ebenezer/4218919"
+    }
+   ]
+  },
+  {
+   "title": "How To Rob A Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://flagshipcinemas.com/pottstown/movie/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-12T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/how-to-rob-a-bank/4228629"
+    },
+    {
+     "at": "2026-11-13T12:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/how-to-rob-a-bank/4228630"
+    },
+    {
+     "at": "2026-11-13T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/how-to-rob-a-bank/4228631"
+    },
+    {
+     "at": "2026-11-13T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/how-to-rob-a-bank/4228632"
+    },
+    {
+     "at": "2026-11-13T21:25",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/pottstown/checkout/showing/how-to-rob-a-bank/4228633"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

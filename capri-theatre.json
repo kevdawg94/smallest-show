@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "capri-theatre",
+ "name": "Capri Theatre",
+ "city": "montgomery",
+ "area": "Cloverdale, Montgomery",
+ "region": "Montgomery",
+ "url": "https://www.capritheatre.org/",
+ "films": [
+  {
+   "title": "The Great Escape",
+   "rating": null,
+   "runtime_min": 172,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1030637~3d1f8824-9c54-4f29-b6b4-f25903f278d6&",
+   "shows": [
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1030638~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    }
+   ]
+  },
+  {
+   "title": "The Big Sleep",
+   "rating": null,
+   "runtime_min": 114,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043399~3d1f8824-9c54-4f29-b6b4-f25903f278d6&",
+   "shows": [
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043400~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    }
+   ]
+  },
+  {
+   "title": "The Devils",
+   "rating": null,
+   "runtime_min": 111,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043403~3d1f8824-9c54-4f29-b6b4-f25903f278d6&",
+   "shows": [
+    {
+     "at": "2026-11-13T16:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043404~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043408~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

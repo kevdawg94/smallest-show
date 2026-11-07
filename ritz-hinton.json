@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "ritz-hinton",
+ "name": "Ritz Theatre",
+ "city": "charlestonwv",
+ "area": "Hinton",
+ "region": "Beckley & Lewisburg",
+ "url": "https://www.ritzwv.com/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://www.ritzwv.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://www.ritzwv.com/"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.ritzwv.com/"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://www.ritzwv.com/"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://www.ritzwv.com/"
+    }
+   ]
+  },
+  {
+   "title": "How to Eat Fried Worms",
+   "rating": "PG",
+   "runtime_min": 98,
+   "url": "https://www.ritzwv.com/",
+   "shows": [
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://www.ritzwv.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

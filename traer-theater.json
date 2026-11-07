@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "traer-theater",
+ "name": "Traer Theater",
+ "city": "desmoines",
+ "area": "Traer",
+ "region": "Traer",
+ "url": "https://thetraertheater.com/",
+ "films": [
+  {
+   "title": "Cat In the Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://thetraertheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://thetraertheater.com/"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://thetraertheater.com/"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://thetraertheater.com/"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://thetraertheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

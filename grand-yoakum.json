@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "grand-yoakum",
+ "name": "The Grand Theater",
+ "city": "austin",
+ "area": "Yoakum",
+ "region": "Yoakum & Lavaca County",
+ "url": "https://www.yoakumgrandtheater.com/",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=akqyqryynxx0dgmcavbe1gw0x0",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5718?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5719?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5720?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5721?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=akqyqryynxx0dgmcavbe1gw0x0",
+   "shows": [
+    {
+     "at": "2026-11-07T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5714?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5715?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5716?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5717?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "alamo-bucksport",
+ "name": "Alamo Theatre",
+ "city": "bangor",
+ "area": "Bucksport",
+ "region": "Bucksport–Ellsworth",
+ "url": "https://oldfilm.org/",
+ "films": [
+  {
+   "title": "A Talent for Murder",
+   "rating": "R",
+   "runtime_min": 145,
+   "url": "https://oldfilm.org/",
+   "shows": [
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    },
+    {
+     "at": "2026-11-08T18:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://oldfilm.org/",
+   "shows": [
+    {
+     "at": "2026-11-13T18:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

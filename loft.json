@@ -1,0 +1,783 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "loft",
+ "name": "Loft",
+ "city": "tucson",
+ "area": "Midtown",
+ "region": "Central",
+ "url": "https://loftcinema.org/showtimes/",
+ "films": [
+  {
+   "title": "Laura",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/laura/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/laura/"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-07T16:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-07T21:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-08T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-08T17:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-09T12:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-09T16:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/",
+     "venue": "Open Air Cinema"
+    },
+    {
+     "at": "2026-11-09T21:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-10T14:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-10T18:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    },
+    {
+     "at": "2026-11-10T20:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-only-living-pickpocket-in-new-york/"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-07T11:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-07T15:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-08T12:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-08T16:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-08T18:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-08T19:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-09T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-09T21:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-10T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-10T15:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-10T19:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-10T20:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-11T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-11T20:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-12T13:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-12T15:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-12T20:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-13T12:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-13T17:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-07T20:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-08T12:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-09T12:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-09T15:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-09T17:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-10T12:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-10T15:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-10T17:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-11T12:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-11T14:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-12T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-12T16:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-12T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-13T13:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-13T15:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-13T20:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/fjord/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fjord/"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fjord/"
+    },
+    {
+     "at": "2026-11-09T12:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fjord/"
+    },
+    {
+     "at": "2026-11-09T14:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fjord/"
+    },
+    {
+     "at": "2026-11-10T12:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fjord/"
+    },
+    {
+     "at": "2026-11-10T16:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fjord/"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fjord/",
+     "venue": "Open Air Cinema"
+    }
+   ]
+  },
+  {
+   "title": "Dolores",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/dolores/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/dolores/"
+    }
+   ]
+  },
+  {
+   "title": "Ken Russell’s The Devils",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/ken-russells-the-devils/",
+   "shows": [
+    {
+     "at": "2026-11-07T18:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/ken-russells-the-devils/"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/ken-russells-the-devils/"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/ken-russells-the-devils/"
+    },
+    {
+     "at": "2026-11-10T19:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/ken-russells-the-devils/"
+    }
+   ]
+  },
+  {
+   "title": "The Crow",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/the-crow/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-crow/",
+     "venue": "Open Air Cinema"
+    },
+    {
+     "at": "2026-11-07T21:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-crow/"
+    },
+    {
+     "at": "2026-11-08T19:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-crow/",
+     "venue": "Open Air Cinema"
+    },
+    {
+     "at": "2026-11-08T21:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-crow/"
+    }
+   ]
+  },
+  {
+   "title": "Cabali And The Tiki Mug Obsession",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/cabali-and-the-tiki-mug-obsession/",
+   "shows": [
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/cabali-and-the-tiki-mug-obsession/"
+    }
+   ]
+  },
+  {
+   "title": "Tales from the Hood",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/tales-from-the-hood/",
+   "shows": [
+    {
+     "at": "2026-11-09T20:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/tales-from-the-hood/"
+    }
+   ]
+  },
+  {
+   "title": "Paper Tiger",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/paper-tiger/",
+   "shows": [
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/paper-tiger/"
+    }
+   ]
+  },
+  {
+   "title": "Soul Patrol",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/soul-patrol/",
+   "shows": [
+    {
+     "at": "2026-11-11T19:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/soul-patrol/"
+    }
+   ]
+  },
+  {
+   "title": "Dao",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/dao/",
+   "shows": [
+    {
+     "at": "2026-11-12T10:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/dao/"
+    }
+   ]
+  },
+  {
+   "title": "Objet a",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/objet-a/",
+   "shows": [
+    {
+     "at": "2026-11-12T12:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/objet-a/"
+    }
+   ]
+  },
+  {
+   "title": "Marie Madeleine",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/marie-madeleine/",
+   "shows": [
+    {
+     "at": "2026-11-12T14:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/marie-madeleine/"
+    }
+   ]
+  },
+  {
+   "title": "Hot Water",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/hot-water/",
+   "shows": [
+    {
+     "at": "2026-11-12T14:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/hot-water/"
+    }
+   ]
+  },
+  {
+   "title": "Everytime",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/everytime/",
+   "shows": [
+    {
+     "at": "2026-11-12T16:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/everytime/"
+    }
+   ]
+  },
+  {
+   "title": "Live Action Shorts",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/live-action-shorts/",
+   "shows": [
+    {
+     "at": "2026-11-12T17:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/live-action-shorts/"
+    }
+   ]
+  },
+  {
+   "title": "Dog of God",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/dog-of-god/",
+   "shows": [
+    {
+     "at": "2026-11-12T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/dog-of-god/",
+     "venue": "Open Air Cinema"
+    },
+    {
+     "at": "2026-11-13T22:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/dog-of-god/"
+    }
+   ]
+  },
+  {
+   "title": "All of a Sudden",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/all-of-a-sudden/",
+   "shows": [
+    {
+     "at": "2026-11-12T19:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/all-of-a-sudden/"
+    }
+   ]
+  },
+  {
+   "title": "Time Warp",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/time-warp/",
+   "shows": [
+    {
+     "at": "2026-11-12T20:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/time-warp/"
+    }
+   ]
+  },
+  {
+   "title": "The Red Hangar",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/the-red-hangar/",
+   "shows": [
+    {
+     "at": "2026-11-13T11:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-red-hangar/"
+    }
+   ]
+  },
+  {
+   "title": "Everything Else is Noise",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/everything-else-is-noise/",
+   "shows": [
+    {
+     "at": "2026-11-13T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/everything-else-is-noise/"
+    }
+   ]
+  },
+  {
+   "title": "The Gymnasts of Fisherman Colony",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/the-gymnasts-of-fisherman-colony/",
+   "shows": [
+    {
+     "at": "2026-11-13T13:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-gymnasts-of-fisherman-colony/"
+    }
+   ]
+  },
+  {
+   "title": "The Blood Countess",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/the-blood-countess/",
+   "shows": [
+    {
+     "at": "2026-11-13T14:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-blood-countess/"
+    }
+   ]
+  },
+  {
+   "title": "Documentary Shorts",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/documentary-shorts/",
+   "shows": [
+    {
+     "at": "2026-11-13T15:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/documentary-shorts/"
+    }
+   ]
+  },
+  {
+   "title": "Downtown",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/downtown/",
+   "shows": [
+    {
+     "at": "2026-11-13T16:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/downtown/"
+    }
+   ]
+  },
+  {
+   "title": "Cheyenne",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/cheyenne/",
+   "shows": [
+    {
+     "at": "2026-11-13T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/cheyenne/",
+     "venue": "Open Air Cinema"
+    }
+   ]
+  },
+  {
+   "title": "Desperately Seeking Susan with Susan Seidelman",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/desperately-seeking-susan-with-susan-seidelman/",
+   "shows": [
+    {
+     "at": "2026-11-13T18:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/desperately-seeking-susan-with-susan-seidelman/"
+    }
+   ]
+  },
+  {
+   "title": "Closure",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/closure/",
+   "shows": [
+    {
+     "at": "2026-11-13T19:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/closure/"
+    }
+   ]
+  },
+  {
+   "title": "Bagworm",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/bagworm/",
+   "shows": [
+    {
+     "at": "2026-11-13T21:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/bagworm/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

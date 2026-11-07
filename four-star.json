@@ -1,0 +1,76 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "four-star",
+ "name": "4 Star",
+ "city": "bay",
+ "area": "Richmond",
+ "region": "San Francisco",
+ "url": "https://www.4-star-movies.com/",
+ "films": [
+  {
+   "title": "LIVE MUSIC: IDAHO, Reed",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-07T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/19695?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Chronovisor",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-08T12:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20287?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20288?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "LIVE MUSIC: Society of Rockets, Amores Vigilantes",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-08T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20202?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Neil Young Celebration: Rust Never Sleeps & more",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-13T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20292?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

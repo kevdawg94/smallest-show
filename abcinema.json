@@ -1,0 +1,95 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "abcinema",
+ "name": "ABCinema",
+ "city": "fortwayne",
+ "area": "Decatur",
+ "region": "Decatur & Adams County",
+ "url": "https://abcinemainc.com",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://abcinemainc.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-07T15:20",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-07T18:10",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-08T16:50",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    }
+   ]
+  },
+  {
+   "title": "Dr. Suess' The Cat in the Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://abcinemainc.com/",
+   "shows": [
+    {
+     "at": "2026-11-07T13:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-07T15:40",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-07T18:20",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-08T14:20",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-08T17:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

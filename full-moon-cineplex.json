@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "full-moon-cineplex",
+ "name": "Full Moon Cineplex",
+ "city": "nashville",
+ "area": "Hermitage",
+ "region": "Nashville",
+ "url": "https://www.fullmooncineplex.com/",
+ "films": [
+  {
+   "title": "Predator",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.fullmooncineplex.com",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://www.fullmooncineplex.com/tickets/p/predator-87-saturday-november-7th-7pm-general-admission"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,62 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "robey-theatre",
+ "name": "Robey Theatre",
+ "city": "charlestonwv",
+ "area": "Spencer",
+ "region": "Spencer",
+ "url": "https://www.robeytheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=9pjabxw8gaxd0a5vebddc35mmc",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5555?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5556?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5549?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5550?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5551?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5552?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5553?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "tryon-theatre",
+ "name": "Tryon Theatre",
+ "city": "asheville",
+ "area": "Tryon",
+ "region": "Hendersonville–Flat Rock–Brevard",
+ "url": "https://tryontheatre.com/",
+ "films": [
+  {
+   "title": "The Weight",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hwhc2662w8gykfq7yqh9wn1hr8",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2511?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    },
+    {
+     "at": "2026-11-08T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2512?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hwhc2662w8gykfq7yqh9wn1hr8",
+   "shows": [
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2513?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    },
+    {
+     "at": "2026-11-12T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2515?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    },
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2514?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2516?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

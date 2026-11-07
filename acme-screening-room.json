@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "acme-screening-room",
+ "name": "ACME Screening Room",
+ "city": "philly",
+ "area": "Lambertville, NJ",
+ "region": "Suburbs",
+ "url": "https://acmescreeningroom.org/",
+ "films": [
+  {
+   "title": "The Family Recipe Plus Director Q&A",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.acmescreeningroom.org/now-playing/the-family-recipe-plus-director-qa",
+   "shows": [
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://ci.ovationtix.com/35991/production/1295194"
+    }
+   ]
+  },
+  {
+   "title": "The 23rd Annual Animation Show of Shows",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.acmescreeningroom.org/now-playing/the-23rd-annual-animation-show-of-shows-aa9re-nm52w",
+   "shows": [
+    {
+     "at": "2026-11-08T14:45",
+     "sold_out": false,
+     "url": "https://ci.ovationtix.com/35991/production/1294512"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.acmescreeningroom.org/now-playing/the-history-of-concrete-5mkfy-kldhe",
+   "shows": [
+    {
+     "at": "2026-11-08T16:30",
+     "sold_out": false,
+     "url": "https://ci.ovationtix.com/35991/production/1294510"
+    }
+   ]
+  },
+  {
+   "title": "Theatre in Theatre: “Clue” with Mask & Zany (New Hope-Solebury High School theatre club) Live Performance and Q&A",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.acmescreeningroom.org/now-playing/theatre-in-theatre",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ci.ovationtix.com/35991/production/1293317"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

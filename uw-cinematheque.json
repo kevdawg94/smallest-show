@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "uw-cinematheque",
+ "name": "UW Cinematheque",
+ "city": "madison",
+ "area": "Campus",
+ "region": "Campus & Downtown",
+ "url": "https://cinema.wisc.edu/",
+ "films": [
+  {
+   "title": "Josie and the Pussycats",
+   "rating": null,
+   "runtime_min": 98,
+   "url": "https://cinema.wisc.edu/new-restorations-and-special-presentations-2/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223631"
+    }
+   ]
+  },
+  {
+   "title": "The Debut",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://cinema.wisc.edu/premieres-2/",
+   "shows": [
+    {
+     "at": "2026-11-12T19:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223579"
+    }
+   ]
+  },
+  {
+   "title": "Eega",
+   "rating": null,
+   "runtime_min": 145,
+   "url": "https://cinema.wisc.edu/rajamouli-myth-spectacle-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223602"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T02:23",
+ "error": null,
+ "warning": null
+}

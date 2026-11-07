@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "majestic-lexington",
+ "name": "Majestic Theatre",
+ "city": "kearney",
+ "area": "Lexington",
+ "region": "Lexington, Cozad & Gothenburg",
+ "url": "https://lexmajestic.org/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=zyph7acw9zh8pjz42scke8g7a8",
+   "shows": [
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2386?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    },
+    {
+     "at": "2026-11-08T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2388?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2387?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    },
+    {
+     "at": "2026-11-13T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2389?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    }
+   ]
+  },
+  {
+   "title": "Full Metal Jacket",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=zyph7acw9zh8pjz42scke8g7a8",
+   "shows": [
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2393?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

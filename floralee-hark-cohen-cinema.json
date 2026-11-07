@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "floralee-hark-cohen-cinema",
+ "name": "Floralee Hark Cohen Cinema",
+ "city": "charlestonwv",
+ "area": "Charleston",
+ "region": "Charleston & South Charleston",
+ "url": "https://wviff.org/",
+ "films": [
+  {
+   "title": "The Scout",
+   "rating": null,
+   "runtime_min": 89,
+   "url": "https://wviff.org/",
+   "shows": [
+    {
+     "at": "2026-11-07T14:30",
+     "sold_out": false,
+     "url": "https://wviff.org/purchase/64792/"
+    },
+    {
+     "at": "2026-11-08T16:15",
+     "sold_out": false,
+     "url": "https://wviff.org/purchase/64797/"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://wviff.org/",
+   "shows": [
+    {
+     "at": "2026-11-07T17:00",
+     "sold_out": false,
+     "url": "https://wviff.org/purchase/64794/"
+    }
+   ]
+  },
+  {
+   "title": "Misty Green",
+   "rating": null,
+   "runtime_min": 103,
+   "url": "https://wviff.org/",
+   "shows": [
+    {
+     "at": "2026-11-07T19:30",
+     "sold_out": false,
+     "url": "https://wviff.org/purchase/64796/"
+    },
+    {
+     "at": "2026-11-08T14:00",
+     "sold_out": false,
+     "url": "https://wviff.org/purchase/64795/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}

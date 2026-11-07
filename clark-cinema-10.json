@@ -1,0 +1,833 @@
+{
+ "generated_at": "2026-11-07T08:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-07",
+  "2026-11-14"
+ ],
+ "id": "clark-cinema-10",
+ "name": "Clark Cinema 10",
+ "city": "montgomery",
+ "area": "Enterprise",
+ "region": "Dothan & Enterprise",
+ "url": "https://enterprise.clarkcinemas.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 108,
+   "url": "https://enterprise.clarkcinemas.com/movie/the-cat-in-the-hat-2/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-2/4260694"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-2/4260696"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-2/4260618"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-2/4260619"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-2/4260620"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-2/4261341"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 131,
+   "url": "https://enterprise.clarkcinemas.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4260720"
+    },
+    {
+     "at": "2026-11-07T15:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4260721"
+    },
+    {
+     "at": "2026-11-07T18:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4260722"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4260723"
+    },
+    {
+     "at": "2026-11-08T13:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4260606"
+    },
+    {
+     "at": "2026-11-08T16:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4260607"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4260608"
+    },
+    {
+     "at": "2026-11-09T13:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4260639"
+    },
+    {
+     "at": "2026-11-09T16:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4260640"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4260641"
+    },
+    {
+     "at": "2026-11-10T13:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4261362"
+    },
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4261363"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4261364"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4261392"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4261393"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wildwood/4261394"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://enterprise.clarkcinemas.com/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/drummer-boy/4260727"
+    },
+    {
+     "at": "2026-11-07T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/drummer-boy/4260728"
+    },
+    {
+     "at": "2026-11-07T18:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/drummer-boy/4260729"
+    },
+    {
+     "at": "2026-11-07T21:05",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/drummer-boy/4260730"
+    },
+    {
+     "at": "2026-11-08T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/drummer-boy/4279144"
+    },
+    {
+     "at": "2026-11-08T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/drummer-boy/4279145"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/drummer-boy/4260617"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://enterprise.clarkcinemas.com/movie/wicker-2/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4260701"
+    },
+    {
+     "at": "2026-11-07T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4260702"
+    },
+    {
+     "at": "2026-11-07T18:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4260703"
+    },
+    {
+     "at": "2026-11-07T20:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4260704"
+    },
+    {
+     "at": "2026-11-08T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4260591"
+    },
+    {
+     "at": "2026-11-08T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4260592"
+    },
+    {
+     "at": "2026-11-08T18:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4260593"
+    },
+    {
+     "at": "2026-11-09T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4260624"
+    },
+    {
+     "at": "2026-11-09T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4260625"
+    },
+    {
+     "at": "2026-11-09T18:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4260626"
+    },
+    {
+     "at": "2026-11-10T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4261347"
+    },
+    {
+     "at": "2026-11-10T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4261348"
+    },
+    {
+     "at": "2026-11-10T18:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4261349"
+    },
+    {
+     "at": "2026-11-11T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4261377"
+    },
+    {
+     "at": "2026-11-11T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4261378"
+    },
+    {
+     "at": "2026-11-11T18:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/wicker-2/4261379"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://enterprise.clarkcinemas.com/movie/jimmy-2/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4260724"
+    },
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4260725"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4260726"
+    },
+    {
+     "at": "2026-11-08T12:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4260609"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4260610"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4260611"
+    },
+    {
+     "at": "2026-11-09T12:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4260642"
+    },
+    {
+     "at": "2026-11-09T15:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4260643"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4260645"
+    },
+    {
+     "at": "2026-11-10T12:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4261365"
+    },
+    {
+     "at": "2026-11-10T15:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4261366"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4261367"
+    },
+    {
+     "at": "2026-11-11T12:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4261395"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4261396"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/jimmy-2/4261397"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat BAS",
+   "rating": "PG",
+   "runtime_min": 108,
+   "url": "https://enterprise.clarkcinemas.com/movie/the-cat-in-the-hat-bas/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4260709"
+    },
+    {
+     "at": "2026-11-07T15:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4260710"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4260711"
+    },
+    {
+     "at": "2026-11-07T21:05",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4279151"
+    },
+    {
+     "at": "2026-11-08T12:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4260597"
+    },
+    {
+     "at": "2026-11-08T15:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4260598"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4260599"
+    },
+    {
+     "at": "2026-11-09T12:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4260630"
+    },
+    {
+     "at": "2026-11-09T15:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4260631"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4260632"
+    },
+    {
+     "at": "2026-11-10T12:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4261353"
+    },
+    {
+     "at": "2026-11-10T15:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4261354"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4261355"
+    },
+    {
+     "at": "2026-11-11T12:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4261383"
+    },
+    {
+     "at": "2026-11-11T15:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4261384"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-bas/4261385"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": "https://enterprise.clarkcinemas.com/movie/clayface/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4260705"
+    },
+    {
+     "at": "2026-11-07T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4260706"
+    },
+    {
+     "at": "2026-11-07T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4260707"
+    },
+    {
+     "at": "2026-11-07T21:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4260708"
+    },
+    {
+     "at": "2026-11-08T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4260594"
+    },
+    {
+     "at": "2026-11-08T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4260595"
+    },
+    {
+     "at": "2026-11-08T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4260596"
+    },
+    {
+     "at": "2026-11-09T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4260627"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4260628"
+    },
+    {
+     "at": "2026-11-09T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4260629"
+    },
+    {
+     "at": "2026-11-10T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4261350"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4261351"
+    },
+    {
+     "at": "2026-11-10T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4261352"
+    },
+    {
+     "at": "2026-11-11T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4261380"
+    },
+    {
+     "at": "2026-11-11T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4261381"
+    },
+    {
+     "at": "2026-11-11T18:30",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/clayface/4261382"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero BAS",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://enterprise.clarkcinemas.com/movie/godzilla-minus-zero-bas/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4260713"
+    },
+    {
+     "at": "2026-11-07T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4260714"
+    },
+    {
+     "at": "2026-11-07T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4260715"
+    },
+    {
+     "at": "2026-11-08T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4260600"
+    },
+    {
+     "at": "2026-11-08T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4260601"
+    },
+    {
+     "at": "2026-11-08T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4260602"
+    },
+    {
+     "at": "2026-11-09T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4260633"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4260634"
+    },
+    {
+     "at": "2026-11-09T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4260635"
+    },
+    {
+     "at": "2026-11-10T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4261356"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4261357"
+    },
+    {
+     "at": "2026-11-10T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4261358"
+    },
+    {
+     "at": "2026-11-11T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4261386"
+    },
+    {
+     "at": "2026-11-11T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4261387"
+    },
+    {
+     "at": "2026-11-11T19:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero-bas/4261388"
+    }
+   ]
+  },
+  {
+   "title": "Heart Of The Beast",
+   "rating": "PG-13",
+   "runtime_min": 101,
+   "url": "https://enterprise.clarkcinemas.com/movie/heart-of-the-beast-2/",
+   "shows": [
+    {
+     "at": "2026-11-07T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/heart-of-the-beast-2/4260697"
+    },
+    {
+     "at": "2026-11-07T18:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/heart-of-the-beast-2/4260698"
+    },
+    {
+     "at": "2026-11-08T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/heart-of-the-beast-2/4260588"
+    },
+    {
+     "at": "2026-11-08T18:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/heart-of-the-beast-2/4260589"
+    },
+    {
+     "at": "2026-11-09T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/heart-of-the-beast-2/4260621"
+    },
+    {
+     "at": "2026-11-09T18:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/heart-of-the-beast-2/4260622"
+    },
+    {
+     "at": "2026-11-10T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/heart-of-the-beast-2/4261344"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/heart-of-the-beast-2/4261345"
+    },
+    {
+     "at": "2026-11-11T12:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/heart-of-the-beast-2/4261374"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/heart-of-the-beast-2/4261375"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat 3D",
+   "rating": "PG",
+   "runtime_min": 108,
+   "url": "https://enterprise.clarkcinemas.com/movie/the-cat-in-the-hat-3d/",
+   "shows": [
+    {
+     "at": "2026-11-07T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4260717"
+    },
+    {
+     "at": "2026-11-08T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4260603"
+    },
+    {
+     "at": "2026-11-08T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4260604"
+    },
+    {
+     "at": "2026-11-08T18:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4260605"
+    },
+    {
+     "at": "2026-11-09T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4260636"
+    },
+    {
+     "at": "2026-11-09T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4260637"
+    },
+    {
+     "at": "2026-11-09T18:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4260638"
+    },
+    {
+     "at": "2026-11-10T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4261359"
+    },
+    {
+     "at": "2026-11-10T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4261360"
+    },
+    {
+     "at": "2026-11-10T18:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4261361"
+    },
+    {
+     "at": "2026-11-11T12:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4261389"
+    },
+    {
+     "at": "2026-11-11T15:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4261390"
+    },
+    {
+     "at": "2026-11-11T18:15",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/the-cat-in-the-hat-3d/4261391"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 108,
+   "url": "https://enterprise.clarkcinemas.com/movie/street-fighter/",
+   "shows": [
+    {
+     "at": "2026-11-07T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/street-fighter/4260699"
+    },
+    {
+     "at": "2026-11-07T21:05",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/street-fighter/4260700"
+    },
+    {
+     "at": "2026-11-08T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/street-fighter/4260590"
+    },
+    {
+     "at": "2026-11-09T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/street-fighter/4260623"
+    },
+    {
+     "at": "2026-11-10T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/street-fighter/4261346"
+    },
+    {
+     "at": "2026-11-11T15:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/street-fighter/4261376"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://enterprise.clarkcinemas.com/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-07T20:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/godzilla-minus-zero/4260693"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://enterprise.clarkcinemas.com/movie/ghost-soldier/",
+   "shows": [
+    {
+     "at": "2026-11-10T16:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/ghost-soldier/4261342"
+    },
+    {
+     "at": "2026-11-10T18:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/ghost-soldier/4261343"
+    },
+    {
+     "at": "2026-11-11T13:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/ghost-soldier/4261371"
+    },
+    {
+     "at": "2026-11-11T16:00",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/ghost-soldier/4261372"
+    },
+    {
+     "at": "2026-11-11T18:45",
+     "sold_out": false,
+     "url": "https://enterprise.clarkcinemas.com/checkout/showing/ghost-soldier/4261373"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-07T08:23",
+ "error": null,
+ "warning": null
+}
