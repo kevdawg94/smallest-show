@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About · Smallest Show</title>
-<meta name="description" content="Independent cinemas are where much of America's film culture lives, yet no one keeps a list of them, and no federal program supports them for what they show. Smallest Show is documenting them.">
-<meta property="og:title" content="Nobody keeps count of America's independent cinemas">
-<meta property="og:description" content="Other countries fund their independent cinemas and keep a record of them. The US does neither. Smallest Show is building that record.">
+<meta name="description" content="Smallest Show is counting America's independent cinemas, house by house: 2,715 so far. No public body keeps such a count.">
+<meta property="og:title" content="No one keeps a complete count of America's independent cinemas">
+<meta property="og:description" content="Smallest Show is counting America's independent cinemas, house by house: 2,715 so far. No public body keeps such a count.">
 <meta property="og:url" content="https://smallest.show/about/">
 <link rel="stylesheet" href="../site.css">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -41,7 +41,7 @@
   .quote p { font: 500 clamp(1.3rem, 1.1rem + 0.8vw, 1.65rem)/1.3 var(--serif); color: var(--ink); letter-spacing: -0.01em; margin: 0 0 0.6rem; }
   .quote cite { font-style: normal; font-size: 0.85rem; color: var(--muted); }
 
-  /* Coverage: one bar for the 2,730, read in rust, the rest in greys by why */
+  /* Coverage: one bar for the cinemas found, read in rust, the rest in greys by why */
   .bar { display: flex; height: 2.1rem; gap: 2px; margin: 1.5rem 0 1rem; border-radius: 0.5rem; overflow: hidden; }
   .bar span { display: block; height: 100%; flex: 1 1 0; min-width: 3px; transform-origin: left; }
   .js .bar span { transform: scaleX(0); transition: transform 0.9s cubic-bezier(.2,.7,.2,1); }
@@ -95,66 +95,68 @@
 <main class="wrap section essay">
   <article class="measure">
     <span class="eyebrow">About the project</span>
-    <h1>Nobody keeps count of America's independent cinemas</h1>
-    <p class="lede">Independent cinemas are where much of America's film culture lives. The United States keeps no list of them, and no federal program supports them for what they show. Smallest Show is building the record that's missing.</p>
+    <h1>No one keeps a complete count of America's independent cinemas</h1>
+    <p class="lede">Independent cinemas are where much of America's film culture lives. No public body counts them, and no federal program supports them as a whole. We're counting them, house by house, and keeping a dated record of what they show.</p>
+    <p>Smallest Show is an independent project, not affiliated with any exhibitor, distributor or ticketing company.</p>
 
-    <h2 id="why">Why independent cinemas matter</h2>
-    <p>An independent cinema chooses its own program, and that choice is how films outside the studio release calendar reach a big screen: foreign-language films, documentaries, first features, restorations, and the repertory that keeps a century of film in front of an audience, often on film and at the size it was made for.</p>
-    <p>They are also local institutions. Many are nonprofits or family businesses, and they host festivals, school screenings, filmmakers' talks and their town's own events. In many small towns, the independent is the only cinema there is.</p>
+    <h2 id="why">What independent cinemas do</h2>
+    <p>An independent cinema books its own program. At art houses and repertory houses, that booking is how films outside the studio release calendar reach a big screen: foreign-language films, documentaries, first features and restorations. It is also how repertory keeps a century of film in front of an audience, often on film and at the size it was made for.</p>
+    <p>They are also local institutions. Many are nonprofits or family businesses. They host festivals, school screenings, filmmakers' talks and their towns' own events. In small towns, the independent is often the only cinema.</p>
 
     <h2 id="list">No national record</h2>
     <blockquote class="quote reveal">
       <p>“There is no single entity that maintains a complete dataset of all independent art house exhibitors.”</p>
       <cite>Art House Convergence, 2025 Landscape Survey<sup><a href="#s1">1</a></sup></cite>
     </blockquote>
-    <p>The counts that do exist disagree by an order of magnitude, because each one counts something different:</p>
+    <p>The figures that exist each count something different: companies, screens, or every cinema, chains included.</p>
     <div class="table-scroll reveal">
       <table>
         <thead><tr><th scope="col">Count</th><th scope="col">What it counts</th></tr></thead>
         <tbody>
-          <tr><td class="n">358</td><td>Independent art-house exhibitors in North America, estimated by the art houses' own association<sup><a href="#s1">1</a></sup></td></tr>
-          <tr><td class="n">~1,600</td><td>Movie theater operators given federal pandemic relief (Shuttered Venue grants), 2021–22<sup><a href="#s2">2</a></sup></td></tr>
-          <tr><td class="n">4,006</td><td>Cinema businesses with paid staff, chains included (Bureau of Labor Statistics, 2024)<sup><a href="#s3">3</a></sup></td></tr>
-          <tr><td class="n">~5,000</td><td>Screens run by the Independent Cinema Alliance's 180 or so member companies, in the US and Canada<sup><a href="#s4">4</a></sup></td></tr>
-          <tr class="ours"><td class="n">2,730</td><td><strong>Open independent cinemas found by Smallest Show's survey, house by house</strong></td></tr>
+          <tr><td class="n">358</td><td>Independent art house exhibitors (companies) in North America, estimated by Art House Convergence, 2025<sup><a href="#s1">1</a></sup></td></tr>
+          <tr><td class="n">~1,600</td><td>Movie theater operators (companies) awarded Shuttered Venue Operators Grants, 2021–22<sup><a href="#s2">2</a></sup></td></tr>
+          <tr><td class="n">4,006</td><td>Movie theater locations with paid staff, chains included, drive-ins excluded (Bureau of Labor Statistics, 2024)<sup><a href="#s3">3</a></sup></td></tr>
+          <tr><td class="n">~5,000</td><td>Screens, not cinemas, run by the Independent Cinema Alliance's about 180 member companies in the US and Canada<sup><a href="#s4">4</a></sup></td></tr>
+          <tr class="ours"><td class="n">2,715</td><td><strong>Open independent cinemas in the US, counted house by house by Smallest Show, November 6, 2026</strong></td></tr>
         </tbody>
       </table>
     </div>
-    <p>We made the last one ourselves, and it's still growing: county by county, we checked every cinema a directory, a map or a listing names, open or closed, independent or chain, and whether its schedule can be read. <strong>We found 2,730 open independent cinemas, and the widget reads 1,783 of them, 65%.</strong> The rest are missing for reasons we write down:</p>
+    <p>We made the last count ourselves. County by county, we check every cinema a directory, a map or a listing names: whether it is open, who owns it and whether its schedule can be read. <strong>As of November 6, 2026, we've found 2,715 open independent cinemas. The widget reads 1,817 of them, or 67%.</strong> The rest are not read yet, for these reasons:</p>
 
-    <div class="bar reveal" role="img" aria-label="Of 2,730 independent cinemas: 1,783 read by the widget, 745 whose times it can't read yet, 202 seasonal">
-      <span class="k0" style="flex-grow: 1783"></span><span class="k2" style="flex-grow: 745"></span><span class="k4" style="flex-grow: 202"></span>
+    <div class="bar reveal" role="img" aria-label="Of 2,715 independent cinemas: 1,817 in the widget, 694 whose times it can't read yet, 204 seasonal">
+      <span class="k0" style="flex-grow: 1817"></span><span class="k2" style="flex-grow: 694"></span><span class="k4" style="flex-grow: 204"></span>
     </div>
     <ul class="legend">
-      <li><i class="k0"></i><b>1,783</b>read by the widget</li>
-      <li><i class="k2"></i><b>745</b>post their times where the widget can't read them yet</li>
-      <li><i class="k4"></i><b>202</b>seasonal, closed part of the year</li>
+      <li><i class="k0"></i><b>1,817</b>in the widget</li>
+      <li><i class="k2"></i><b>694</b>post their times where the widget can't read them yet</li>
+      <li><i class="k4"></i><b>204</b>seasonal, closed part of the year</li>
     </ul>
-    <p class="asof">As of November 5, 2026. Along the way the survey set aside more than 2,200 listed cinemas that have closed and about 1,600 that belong to chains.</p>
+    <p class="asof">Counts as of November 6, 2026. The count also set aside more than 2,200 listed cinemas found closed and about 1,700 run by chains.</p>
 
     <div class="rule">
-      <p><strong>What counts as independent.</strong> A cinema not owned by a national chain. A circuit counts as a chain when investors own it (a public company, private equity, a conglomerate or another exhibitor), when it runs houses in ten or more states, or when it runs more than 50. A family-, founder-, locally-, employee- or nonprofit-owned circuit of 50 or fewer counts house by house, like any independent, and an art house is never a chain, whoever runs it.</p>
+      <p><strong>What counts as independent.</strong> Independent describes who owns a cinema, not what it shows, so the count includes local first-run cinemas and drive-ins as well as art houses. A circuit is a chain if investors own it (a public company, private equity, a conglomerate or another exhibitor), if it runs theaters in 10 or more states, or if it runs more than 50. A circuit of 50 or fewer owned by a family, its founder, local owners, its employees or a nonprofit counts cinema by cinema. An art house counts as independent even when a chain runs it.</p>
     </div>
 
-    <h2 id="abroad">Abroad, cinemas receive public funding and report what they show</h2>
-    <p>Where a government funds cinemas, it needs a test for who qualifies, and the test needs a record of what each screen shows. So the countries that support their art houses know exactly where those houses are and what they play.</p>
+    <h2 id="abroad">Elsewhere, cinemas report what they show</h2>
+    <p>Several countries require every cinema to report what it shows, and several pay cinemas for what they program. Between them, they know where their art houses are and what they play.</p>
     <ul class="countries reveal">
-      <li><h3>France</h3><p>Every cinema reports each screening's admissions and receipts to the national film agency, the CNC, every week, by law.<sup><a href="#s5">5</a></sup> In 2026 it classified 1,357 cinemas and travelling circuits <i>Art et Essai</i> and paid them about €19.6 million, scaled to the share of their screenings that went to recommended films.<sup><a href="#s6">6</a></sup></p></li>
+      <li><h3>France</h3><p>Every cinema reports each screening's admissions and receipts to the national film agency, the CNC, every week, by law.<sup><a href="#s5">5</a></sup> In 2026 it classified 1,357 cinemas and travelling circuits <i>Art et Essai</i> and paid them about €19.6 million, scaled to the share of their screenings that went to films the CNC recommends.<sup><a href="#s6">6</a></sup></p></li>
       <li><h3>Germany</h3><p>The Film Act requires every cinema that sells tickets to report admissions and revenue for each film on each screen to the national film board every month.<sup><a href="#s7">7</a></sup> A federal premium, <i>Liebling Kino</i>, pays cinemas for what they choose to show: its first round paid €6.7 million to 464 of them.<sup><a href="#s8">8</a></sup></p></li>
       <li><h3>United Kingdom</h3><p>The BFI's Film Audience Network gets £10.8 million of National Lottery money for 2026–29 to build audiences for independent film across the country.<sup><a href="#s9">9</a></sup></p></li>
       <li><h3>Europe</h3><p>Europa Cinemas, the EU-backed network of independent cinemas, counts 1,290 members in 39 countries. To keep its support, each one reports its screenings and admissions film by film.<sup><a href="#s10">10</a></sup></p></li>
-      <li><h3>South Korea and Brazil</h3><p>Korea's cinemas send every ticket sold to the national film council's network, compulsory since 2010.<sup><a href="#s11">11</a></sup> Brazil's cinemas report every screening each day, and its film agency publishes each one's attendance as open data.<sup><a href="#s12">12</a></sup></p></li>
-      <li class="us"><h3>United States</h3><p>No federal program pays a cinema for what it shows, and no public body keeps count of the independents.</p></li>
+      <li><h3>South Korea and Brazil</h3><p>Since 2010, Korea's cinemas have been required by law to report every ticket sold to the national film council's network.<sup><a href="#s11">11</a></sup> Brazil's cinemas report every screening each day, and its film agency publishes each screening's attendance as open data.<sup><a href="#s12">12</a></sup></p></li>
+      <li class="us"><h3>United States</h3><p>No federal program supports cinemas as a whole, as France and Germany do, and no public body keeps count of the independents.</p></li>
     </ul>
 
-    <h2 id="us">The US funds none of it</h2>
-    <p>American support for the arts runs mostly through tax deductions for private gifts. In 2004 the National Endowment for the Arts called itself “less than 1 percent of total arts philanthropy in the U.S.,” and admitted: “No one—not even the NEA—has exact statistics on American cultural institutions.”<sup><a href="#s13">13</a></sup> Its whole budget, for every art form in the country, was $207 million in 2026, and the White House's budget for 2027 proposes closing it.<sup><a href="#s14">14</a></sup></p>
-    <p>The one federal program that reached cinemas at scale was pandemic relief, which kept theaters alive without asking what they showed.<sup><a href="#s2">2</a></sup> Abroad, money leads to a test and the test to a record. In the US the chain breaks at its first link, so nobody has a reason to count.</p>
+    <h2 id="us">In the US, no one keeps count</h2>
+    <p>American support for the arts runs mostly through tax deductions for private gifts. In 2004 the National Endowment for the Arts called itself “less than 1 percent of total arts philanthropy in the U.S.” It added: “No one—not even the NEA—has exact statistics on American cultural institutions.”<sup><a href="#s13">13</a></sup> Its whole budget, for every art form in the country, was $207 million in 2026, and the White House's budget for 2027 proposes closing it.<sup><a href="#s14">14</a></sup></p>
+    <p>The one federal program written for cinemas was pandemic relief, the Shuttered Venue Operators Grants, which kept theaters open without asking what they showed.<sup><a href="#s2">2</a></sup> Abroad, money leads to a test and the test to a record. In the US there is no test, so no one has a reason to count.</p>
 
-    <h2 id="ours">Our mission</h2>
-    <p>We're documenting America's independent cinemas, in support of the cinemas themselves: where each one is, what it shows, and how that changes over time. It's the record audiences need to find them, and that funders and advocates need to make the case for them.</p>
-    <p>Every three hours through the day, we read the public schedules of every independent cinema we can, openly and under our own name (<a href="../theaters/">what we read, and how often</a>), and put tonight's shows on your home screen. Behind the widget, we keep every read, dated: a week-by-week record of what America's independent screens actually show. As far as we can find, no one else keeps such a record.</p>
-    <p>The survey is the foundation: each house it finds is filed with what keeps it out of the widget, so the coverage above can be checked and can grow. A theater the widget can't read yet is one to win back by asking, not a dead end. If you run one, or there's a cinema you go to that's missing, write to us at <a href="mailto:info@smallest.show">info@smallest.show</a>.</p>
+    <h2 id="ours">What we do</h2>
+    <p>Smallest Show documents America's independent cinemas: where each one is, what it shows and how that changes over time. Audiences need that record to find them, and the case for supporting them starts with it.</p>
+    <p>Up to five times a day, we read the public schedules of every theater in the widget, <a href="../theaters/">openly and under our own name</a>. The widget puts tonight's showtimes on your home screen. We keep every read, dated, as a week-by-week record of what America's independent cinemas show. As far as we can find, no public record like it exists.</p>
+    <p>The count is the foundation. Each cinema is filed with the reason the widget doesn't read it yet, so the gap can close one theater at a time. If you run one, or a cinema you go to is missing, write to us at <a href="mailto:info@smallest.show">info@smallest.show</a>.</p>
+    <p>Smallest Show is made by Kevin Celustka, for his own Friday nights.</p>
 
     <h2 id="sources">Sources</h2>
     <ol class="sources">
@@ -177,11 +179,11 @@
   <nav class="toc" aria-label="On this page">
     <span class="eyebrow">On this page</span>
     <ol>
-      <li><a href="#why">Why they matter</a></li>
+      <li><a href="#why">What they do</a></li>
       <li><a href="#list">No national record</a></li>
-      <li><a href="#abroad">Public funding abroad</a></li>
-      <li><a href="#us">The US funds none of it</a></li>
-      <li><a href="#ours">Our mission</a></li>
+      <li><a href="#abroad">Elsewhere</a></li>
+      <li><a href="#us">In the US</a></li>
+      <li><a href="#ours">What we do</a></li>
       <li><a href="#sources">Sources</a></li>
     </ol>
   </nav>
@@ -200,17 +202,17 @@
         </g>
         <g class="bulb"><circle cx="141" cy="56" r="1.25"/><circle cx="148" cy="56" r="1.25"/><circle cx="155" cy="56" r="1.25"/><circle cx="162" cy="56" r="1.25"/><circle cx="169" cy="56" r="1.25"/><circle cx="176" cy="56" r="1.25"/><circle cx="183" cy="56" r="1.25"/><circle cx="190" cy="56" r="1.25"/><circle cx="197" cy="56" r="1.25"/></g>
       </svg>
-      <p>Made by Kevin Celustka for his own Friday nights, and named for <i>The Smallest Show on Earth</i> (1957), where a young couple inherit a run-down cinema between two railway bridges.</p>
-      <p>No accounts, no ads, no tracking: the widget reads a public file. The showtimes are the theaters'; we only point to them.</p>
+      <p>Made by Kevin Celustka. Named for <i>The Smallest Show on Earth</i> (1957), in which a young couple inherit a run-down cinema between two railway bridges.</p>
+      <p>Free, with no accounts, ads or tracking.</p>
     </div>
     <ul>
-      <li><a href="../">Put it on your iPhone</a></li>
-      <li><a href="../tonight/">Tonight, across America</a></li>
-      <li><a href="../map/">Every theater, on a map</a></li>
-      <li><a href="../about/">About the project</a></li>
-      <li><a href="../resources/">Others doing this work</a></li>
+      <li><a href="../">Widget</a></li>
+      <li><a href="../tonight/">Tonight</a></li>
+      <li><a href="../map/">Map</a></li>
+      <li><a href="../about/">About</a></li>
+      <li><a href="../resources/">Resources</a></li>
       <li><a href="../theaters/">For theaters</a></li>
-      <li><a href="mailto:info@smallest.show">Write to us: info@smallest.show</a></li>
+      <li><a href="mailto:info@smallest.show">Write to us at info@smallest.show</a></li>
       <li><a href="https://github.com/kevdawg94/smallest-show">The widget's code, on GitHub</a></li>
     </ul>
   </div>

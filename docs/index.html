@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Smallest Show</title>
-<meta name="description" content="Tonight at America's independent cinemas, on your iPhone home screen: what's playing, what's sold out, a tap to tickets.">
+<title>Smallest Show · Tonight at independent cinemas, on your iPhone</title>
+<meta name="description" content="A free iPhone widget with tonight's showtimes at the independent cinemas you go to. See what's sold out, and tap a time for tickets.">
 <meta property="og:title" content="Smallest Show">
-<meta property="og:description" content="Tonight at America's independent cinemas, on your iPhone home screen: what's playing, what's sold out, a tap to tickets.">
+<meta property="og:description" content="A free iPhone widget with tonight's showtimes at the independent cinemas you go to. See what's sold out, and tap a time for tickets.">
 <meta property="og:url" content="https://smallest.show/">
 <link rel="stylesheet" href="./site.css">
 <link rel="icon" href="./favicon.svg" type="image/svg+xml">
@@ -60,8 +60,10 @@
   #shuffle svg { width: 1rem; height: 1rem; vertical-align: -0.15rem; margin-right: 0.35rem; transition: transform 0.4s ease; }
   #shuffle:hover svg { transform: rotate(180deg); }
 
-  /* Three steps */
-  .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 2.5rem 2rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16.5rem), 1fr)); }
+  /* Four steps */
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 2.5rem 2rem; }
+  @media (min-width: 40rem) { .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 66rem) { .steps { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
   .step-n { display: block; font: 600 2.6rem/1 var(--serif); color: var(--accent); margin-bottom: 0.6rem; font-variant-numeric: lining-nums; }
   .step p { color: var(--ink-2); margin-bottom: 1.25rem; }
   .step b { font-weight: 600; color: var(--ink); }
@@ -94,9 +96,9 @@
 <main>
   <section class="hero wrap">
     <div class="hero-text">
-      <span class="eyebrow">An iPhone widget</span>
+      <span class="eyebrow">A free iPhone widget</span>
       <h1>Smallest Show</h1>
-      <p class="lede">Tonight at the independent cinemas of <span id="city-count">nearly 300</span> American cities: what's playing, what's sold out, a tap to tickets. Pick your city, then the theaters you go to.</p>
+      <p class="lede">Tonight's showtimes at the independent cinemas you go to, on your home screen. See what's playing and what's sold out, and tap a time for tickets. Smallest Show covers <span id="city-count">299</span> American cities.</p>
     </div>
     <figure class="print hero-shot">
       <img src="img/widget.jpg" width="960" height="1019" alt="The large Smallest Show widget on an iPhone home screen: TOMORROW, Thu, Nov 5, then Grand Lake, Piedmont, Rialto Elmwood and the Roxie, each with its films and a row of tappable showtimes">
@@ -106,10 +108,10 @@
         <a class="button quiet" href="https://apps.apple.com/us/app/scriptable/id1405459188">1. Get Scriptable <small>free, on the App Store</small></a>
         <a class="button" href="SmallestShow.scriptable" download="SmallestShow.scriptable">2. Add to Scriptable <small>the Smallest Show script</small></a>
       </div>
-      <p class="note">Already have Scriptable? Just the second button. Nothing to edit; the script keeps itself up to date.</p>
+      <p class="note">If you already have Scriptable, tap Add to Scriptable. There's nothing to edit, and Smallest Show updates itself.</p>
       <div class="scan">
         <img src="img/qr.svg" alt="A QR code for smallest.show">
-        <p>On a computer? Point your iPhone's camera here to open this page on the phone, where the buttons work.</p>
+        <p>On a computer, scan this code with your iPhone's camera. The buttons work only on the phone.</p>
       </div>
     </div>
   </section>
@@ -118,11 +120,11 @@
     <div class="wrap">
       <div class="section-head">
         <div>
-          <span class="eyebrow">From the listings, live</span>
-          <h2>Tonight, somewhere</h2>
-          <p>Four of the <span id="n-theaters-2">theaters</span> the widget reads, picked at random.</p>
+          <span class="eyebrow">Live from the listings</span>
+          <h2>Playing tonight</h2>
+          <p>Four theaters in the widget, picked at random. Tap a time for tickets. Gray times are sold out.</p>
         </div>
-        <button class="button quiet" id="shuffle" type="button"><span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M13.5 2.5v3h-3"/></svg>Four more</span></button>
+        <button class="button quiet" id="shuffle" type="button"><span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M13.5 2.5v3h-3"/></svg>Show four more</span></button>
       </div>
       <div class="board" id="board" aria-live="polite"></div>
     </div>
@@ -130,49 +132,56 @@
 
   <section class="section wrap" id="install">
     <div class="section-head reveal">
-      <div><span class="eyebrow">Install</span><h2>Three steps</h2></div>
+      <div><span class="eyebrow">Install</span><h2>Four steps</h2></div>
     </div>
     <ol class="steps">
       <li class="step reveal">
         <span class="step-n">1</span>
-        <h3>Add the script</h3>
-        <p>With Scriptable installed, tap <b>Add to Scriptable</b>. Safari downloads <i>SmallestShow.scriptable</i>; open it from the Downloads arrow (or Files), and Scriptable asks to add it. Tap <b>Add</b>.</p>
+        <h3>Get Scriptable</h3>
+        <p>Scriptable is a free app on the App Store. Smallest Show runs inside it.</p>
         <div class="buttons compact">
           <a class="button quiet" href="https://apps.apple.com/us/app/scriptable/id1405459188">Get Scriptable</a>
-          <a class="button" href="SmallestShow.scriptable" download="SmallestShow.scriptable">Add to Scriptable</a>
         </div>
       </li>
       <li class="step reveal">
         <span class="step-n">2</span>
-        <h3>Pick your theaters</h3>
-        <p>Run it once. It asks where you go to the movies, then <b>which theaters you go to</b>: tick yours and close the sheet. The <b>Theaters ›</b> row at the top of the list changes them any time.</p>
-        <figure class="print fade"><img src="img/theaters-sheet.png" width="600" height="927" loading="lazy" alt="The Theaters sheet: Bay Area theaters, each with its neighborhood and how many films it has this week, a check beside the four followed"></figure>
+        <h3>Add the script</h3>
+        <p>Tap <b>Add to Scriptable</b>. Safari downloads <i>SmallestShow.scriptable</i>. Open it from the Downloads arrow in Safari or from the Files app. Scriptable asks to add the script. Tap <b>Add</b>.</p>
+        <div class="buttons compact">
+          <a class="button" href="SmallestShow.scriptable" download="SmallestShow.scriptable">Add to Scriptable</a>
+        </div>
       </li>
       <li class="step reveal">
         <span class="step-n">3</span>
+        <h3>Pick your theaters</h3>
+        <p>Open Scriptable and tap <b>Smallest Show</b> to run it. Choose your city, then check the theaters you go to and close the list. To change them later, run it again and tap <b>Theaters ›</b> at the top.</p>
+        <figure class="print fade"><img src="img/theaters-sheet.png" width="600" height="927" loading="lazy" alt="The Theaters sheet: Bay Area theaters, each with its neighborhood and how many films it has this week, a check beside the four followed"></figure>
+      </li>
+      <li class="step reveal">
+        <span class="step-n">4</span>
         <h3>Add the widget</h3>
-        <p>On the home screen, long-press, <b>Edit › Add Widget</b>, search <b>Scriptable</b> and pick the <b>large</b> size. Long-press it again, <b>Edit Widget</b>: Script <b>Smallest Show</b>, When Interacting <b>Run Script</b>.</p>
+        <p>Press and hold an empty spot on your home screen. Tap <b>Edit</b>, then <b>Add Widget</b>. Search for <b>Scriptable</b> and add the <b>large</b> size. Press and hold the new widget and tap <b>Edit Widget</b>. Set Script to <b>Smallest Show</b> and When Interacting to <b>Run Script</b>.</p>
         <figure class="print fade"><img src="img/list.png" width="600" height="719" loading="lazy" alt="The full list the widget opens: tonight's shows by theater, each time beside its film, its rating and running time, a sold-out show greyed"></figure>
       </li>
     </ol>
-    <p class="note taps reveal">On the widget, a time taps to that show's ticket page, a theater's name to its site, the title to the full list. Sold-out times are greyed. After the last show it rolls over to tomorrow.</p>
+    <p class="note taps reveal"><b>Using the widget.</b> Tap a showtime for its ticket page, a film's title for its page, or a theater's name for its website. Tap anywhere else for the full list. Sold-out times are gray. After the night's last screening, the widget turns to tomorrow.</p>
   </section>
 
   <section class="section band" id="theaters">
     <div class="wrap follow reveal">
       <div>
         <span class="eyebrow">Theaters you can follow</span>
-        <h2>Every independent cinema we can read</h2>
-        <p>Listings are rebuilt every three hours through the day from each theater's own ticketing, and more theaters join every week.</p>
+        <h2>Every independent cinema in the widget</h2>
+        <p>Listings come from each theater's own website or ticketing platform, read up to five times a day. We add theaters every week.</p>
         <div class="buttons">
-          <a class="button quiet" href="map/">See them on a map <small>with a list by state and a search</small></a>
-          <a class="button quiet" href="about/">Why we count them <small>about the project</small></a>
+          <a class="button quiet" href="map/">Map <small>by state, with search</small></a>
+          <a class="button quiet" href="about/">About the project <small>why we count them</small></a>
         </div>
       </div>
       <ul class="stats" id="stats">
         <li><b class="count" id="n-theaters">…</b>theaters</li>
         <li><b class="count" id="n-cities">…</b>cities</li>
-        <li><b class="count" id="n-shows">…</b>showtimes this week</li>
+        <li><b class="count" id="n-shows">…</b>showtimes in the next seven days</li>
       </ul>
     </div>
   </section>
@@ -191,17 +200,17 @@
         </g>
         <g class="bulb"><circle cx="141" cy="56" r="1.25"/><circle cx="148" cy="56" r="1.25"/><circle cx="155" cy="56" r="1.25"/><circle cx="162" cy="56" r="1.25"/><circle cx="169" cy="56" r="1.25"/><circle cx="176" cy="56" r="1.25"/><circle cx="183" cy="56" r="1.25"/><circle cx="190" cy="56" r="1.25"/><circle cx="197" cy="56" r="1.25"/></g>
       </svg>
-      <p>Made by Kevin Celustka for his own Friday nights, and named for <i>The Smallest Show on Earth</i> (1957), where a young couple inherit a run-down cinema between two railway bridges.</p>
-      <p>No accounts, no ads, no tracking: the widget reads a public file. The showtimes are the theaters'; we only point to them.</p>
+      <p>Made by Kevin Celustka. Named for <i>The Smallest Show on Earth</i> (1957), in which a young couple inherit a run-down cinema between two railway bridges.</p>
+      <p>Free, with no accounts, ads or tracking.</p>
     </div>
     <ul>
-      <li><a href="./">Put it on your iPhone</a></li>
-      <li><a href="./tonight/">Tonight, across America</a></li>
-      <li><a href="./map/">Every theater, on a map</a></li>
-      <li><a href="./about/">About the project</a></li>
-      <li><a href="./resources/">Others doing this work</a></li>
+      <li><a href="./">Widget</a></li>
+      <li><a href="./tonight/">Tonight</a></li>
+      <li><a href="./map/">Map</a></li>
+      <li><a href="./about/">About</a></li>
+      <li><a href="./resources/">Resources</a></li>
       <li><a href="./theaters/">For theaters</a></li>
-      <li><a href="mailto:info@smallest.show">Write to us: info@smallest.show</a></li>
+      <li><a href="mailto:info@smallest.show">Write to us at info@smallest.show</a></li>
       <li><a href="https://github.com/kevdawg94/smallest-show">The widget's code, on GitHub</a></li>
     </ul>
   </div>
@@ -333,7 +342,6 @@
       const cities = (idx.cities || []).filter(c => served.has(c.id)).length;
       const shows = idx.theaters.reduce((sum, t) => sum + (t.shows || 0), 0); // each theater's next seven days
       document.getElementById("city-count").textContent = cities;
-      document.getElementById("n-theaters-2").textContent = n(idx.theaters.length) + " theaters";
       countTo(document.getElementById("n-theaters"), idx.theaters.length);
       countTo(document.getElementById("n-cities"), cities);
       countTo(document.getElementById("n-shows"), shows);
