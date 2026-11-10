@@ -11,12 +11,12 @@
 <link rel="stylesheet" href="../site.css">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-<meta name="theme-color" content="#fbf8f2" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#131210" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" id="theme-color" content="#f4f4f0">
 <meta property="og:site_name" content="Smallest Show">
 <meta property="og:image" content="https://smallest.show/img/widget.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<script>document.documentElement.classList.add("js")</script>
+<link rel="preload" href="../fonts/barlow-condensed-600.woff2" as="font" type="font/woff2" crossorigin>
+<script>(function(){var d=document.documentElement,m=matchMedia("(prefers-color-scheme: dark)"),own=null;try{own=localStorage.getItem("theme")}catch(e){}function set(){var t=own||(m.matches?"dark":"light");d.dataset.theme=t;var c=document.getElementById("theme-color");if(c)c.content=t==="dark"?"#0a0d14":"#f4f4f0"}set();if(m.addEventListener)m.addEventListener("change",function(){if(!own){set();d.dispatchEvent(new Event("themechange"))}});window.__theme={toggle:function(){own=d.dataset.theme==="dark"?"light":"dark";try{localStorage.setItem("theme",own)}catch(e){}set();d.dispatchEvent(new Event("themechange"))}}})();document.documentElement.classList.add("js");try{if(sessionStorage.getItem("lit"))document.documentElement.classList.add("warm");sessionStorage.setItem("lit","1")}catch(e){}</script>
 
 <style>
   .doc { padding-top: clamp(1.5rem, 5vw, 4rem); }
@@ -37,16 +37,19 @@
 </head>
 <body>
 <header class="masthead wrap">
-  <a class="wordmark" href="../"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--accent)"/><g transform="rotate(-14 16 16)"><path fill="var(--paper)" d="M5.5 10.6h21v3.1a2.3 2.3 0 0 0 0 4.6v3.1h-21v-3.1a2.3 2.3 0 0 0 0-4.6z"/><path d="M11.2 11.4v9.2" stroke="var(--accent)" stroke-width="1" stroke-dasharray="1.1 1.1"/><circle cx="19" cy="16" r="2" fill="var(--accent)"/></g></svg>Smallest Show</a>
+  <a class="wordmark" href="../"><svg class="mark" viewBox="146 30 348 146" aria-hidden="true"><path d="M150.0 171.8L171.0 171.8L192.5 172.1L214.0 171.8L234.7 171.9L256.0 172.2L277.7 172.0L299.0 172.3L320.2 171.8L341.4 172.0L362.8 171.9L384.0 171.8L405.3 171.9L426.2 171.7L447.3 172.0L468.9 172.2L489.9 172.0M150.2 62.0L165.5 62.1L180.4 62.0L195.5 61.9L210.5 62.0L225.9 61.9M150.2 72.0L165.4 71.8L180.2 72.2L195.5 72.0L210.8 72.1L226.0 71.9M153.8 71.9L154.0 92.2L153.8 112.2L153.8 132.2L153.9 152.1L154.0 172.0M222.0 71.7L222.0 92.2L222.0 112.1L222.0 131.7L222.0 152.0L222.3 172.0M153.9 121.8L154.6 114.4L157.5 107.1L161.7 100.6L166.7 95.6L173.3 91.6L180.6 89.1L188.0 87.9L195.6 88.7L202.9 91.5L209.1 95.6L214.6 101.1L218.4 107.5L221.2 114.5L221.9 122.0M414.2 62.3L429.3 62.1L444.6 61.8L459.7 61.9L475.0 62.1L490.2 61.8M414.2 72.2L428.9 72.1L444.6 72.1L459.3 71.8L474.8 72.1L489.7 71.8M418.2 72.0L417.8 92.1L418.1 111.7L418.0 131.9L417.9 151.9L418.0 172.0M486.2 71.8L486.2 92.0L486.0 112.3L486.1 132.2L485.8 152.3L485.8 172.2M417.9 121.8L418.9 114.5L421.5 107.0L425.7 100.7L431.0 95.6L437.4 91.4L444.7 88.6L452.0 88.2L459.7 88.7L466.7 91.6L473.2 95.3L478.7 100.9L482.7 107.1L485.4 114.7L485.8 122.2M270.3 172.2L269.8 103.8L369.8 103.9L370.1 172.3M295.7 104.2L296.0 87.7L343.7 88.0L344.1 103.7M253.9 112.0L385.9 112.0L386.1 129.8L253.7 130.3L254.2 112.1M308.3 87.9L307.8 77.9L331.7 78.1L332.3 88.3M307.8 172.0L308.0 145.9L331.8 146.2L332.2 171.9"/><circle class="lit" cx="264" cy="121" r="3"/><circle class="lit" cx="278" cy="121" r="3"/><circle class="lit" cx="292" cy="121" r="3"/><circle class="lit" cx="306" cy="121" r="3"/><circle class="lit" cx="320" cy="121" r="3"/><circle class="lit" cx="334" cy="121" r="3"/><circle class="lit" cx="348" cy="121" r="3"/><circle class="lit" cx="362" cy="121" r="3"/><circle class="lit" cx="376" cy="121" r="3"/></svg><span>Smallest<br>Show</span></a>
   <nav aria-label="Site">
-    <a href="../" data-nav="home">Widget</a>
+    <a href="../widget/" data-nav="widget">Widget</a>
     <a href="../tonight/" data-nav="tonight">Tonight</a>
     <a href="../map/" data-nav="map">Map</a>
     <a href="../about/" data-nav="about">About</a>
     <a href="../resources/" data-nav="resources" aria-current="page">Resources</a>
     <a href="../theaters/" data-nav="theaters">For theaters</a>
   </nav>
+  <button class="mode" type="button" aria-label="Switch between light and dark" title="Light or dark"><svg viewBox="0 0 20 20" aria-hidden="true"><path class="glass" d="M7 12.4a5.6 5.6 0 1 1 6 0V14H7z"/><path d="M7.9 16.1h4.2M8.7 18.1h2.6"/></svg></button>
 </header>
+<div class="bulbs" aria-hidden="true"></div>
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section doc">
  <div class="measure">
@@ -103,24 +106,15 @@
  </div>
 </main>
 <footer class="colophon">
+  <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">
     <div>
-      <svg class="bridges" viewBox="0 0 336 86" role="img" aria-label="A line drawing: a small cinema with a lit marquee, between two railway viaducts, a train crossing the left one">
-        <g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M2 80H334"/>
-          <path d="M0 31H120M0 36H120M8 36V80M44 36V80M80 36V80M116 36V80M8 60A18 18 0 0 1 44 60M44 60A18 18 0 0 1 80 60M80 60A18 18 0 0 1 116 60"/>
-          <path d="M216 31H336M216 36H336M220 36V80M256 36V80M292 36V80M328 36V80M220 60A18 18 0 0 1 256 60M256 60A18 18 0 0 1 292 60M292 60A18 18 0 0 1 328 60"/>
-          <path d="M18 31V22H34V31M24 22V18M38 23H56V31M60 23H78V31M34 27H38M56 27H60"/>
-          <path d="M144 80V48H192V80M158 48V40H178V48M164 40V35H172V40M136 52H200V60H136Z"/>
-          <path d="M163 80V67H173V80M148 76V65H157V76M179 76V65H188V76"/>
-        </g>
-        <g class="bulb"><circle cx="141" cy="56" r="1.25"/><circle cx="148" cy="56" r="1.25"/><circle cx="155" cy="56" r="1.25"/><circle cx="162" cy="56" r="1.25"/><circle cx="169" cy="56" r="1.25"/><circle cx="176" cy="56" r="1.25"/><circle cx="183" cy="56" r="1.25"/><circle cx="190" cy="56" r="1.25"/><circle cx="197" cy="56" r="1.25"/></g>
-      </svg>
+      <svg class="bridges" viewBox="0 30 640 150" role="img" aria-label="A line drawing: a small cinema with a lit marquee, between two railway viaducts, a train crossing the left one"><path d="M7.5 172.5L28.6 171.7L49.9 172.0L70.2 172.3L91.5 172.0L112.2 172.1L133.1 171.7L153.5 172.2L174.6 171.5L195.4 172.0L216.5 172.3L236.4 172.0L258.1 172.2L278.6 172.1L299.7 172.4L319.9 171.8L341.2 171.8L361.2 171.8L382.3 171.8L403.7 172.1L424.3 172.4L444.3 171.8L465.7 172.0L486.3 171.7L507.6 171.5L527.9 171.8L549.0 172.5L569.6 171.6L590.3 171.8L611.1 171.9L631.8 172.0M10.1 61.7L28.8 62.0L47.1 62.1L65.1 62.0L83.3 62.2L102.2 61.9L120.2 61.7L138.4 61.8L156.5 61.9L175.3 62.4L192.9 62.4L211.2 61.9L229.6 61.5M10.5 71.7L28.5 71.6L46.6 72.1L64.6 72.5L83.8 72.4L102.1 72.4L120.3 71.8L137.8 71.7L156.2 71.5L175.1 71.7L193.6 72.0L211.9 71.7L230.4 71.7M17.9 72.4L17.6 88.7L17.5 105.8L18.2 122.5L17.5 139.1L17.7 155.8L18.1 172.2M85.7 71.7L85.7 88.7L85.5 105.6L86.2 122.2L86.0 138.2L85.6 155.8L85.6 172.2M154.4 71.5L154.4 89.1L154.5 105.8L154.3 121.9L153.7 138.9L154.4 155.2L153.7 171.9M222.4 72.1L221.8 88.8L222.3 105.2L222.2 121.9L221.7 138.5L222.5 155.9L222.1 172.4M18.5 121.7L19.0 114.0L21.4 107.3L25.7 101.3L30.8 95.1L37.2 91.0L44.6 88.9L52.1 88.0L59.8 88.7L67.0 90.8L73.0 95.5L78.3 101.0L82.4 107.0L85.3 114.4L85.5 122.3M86.4 122.5L87.3 114.6L89.9 106.7L93.7 100.9L99.0 95.9L104.7 91.0L112.0 88.4L119.5 87.5L127.7 89.3L134.4 91.0L140.9 95.6L146.3 100.8L151.2 107.2L153.3 114.7L153.9 121.9M153.5 121.7L155.2 115.0L157.0 107.7L161.4 100.4L166.5 95.5L172.9 90.9L180.2 89.0L188.1 88.0L196.1 88.4L202.7 91.2L208.7 94.9L214.5 100.4L218.3 107.7L221.5 114.7L221.9 122.4M410.5 62.3L428.5 62.1L446.5 61.9L465.0 62.0L483.4 62.2L501.8 62.1L520.3 62.4L538.7 62.5L556.6 62.0L575.5 62.5L593.2 61.5L611.5 62.4L630.2 62.3M410.5 72.3L428.0 71.7L447.0 71.6L465.5 72.3L483.5 72.2L501.7 71.9L520.4 72.1L538.7 71.7L556.9 71.9L574.9 71.7L593.4 71.7L612.1 72.4L629.8 72.2M418.4 71.6L417.8 89.1L417.5 104.9L417.9 121.5L418.2 139.1L417.6 155.0L418.5 172.2M485.6 71.6L486.1 88.1L486.3 105.4L486.3 121.6L485.8 138.9L486.5 155.4L486.1 172.3M554.2 72.3L554.1 88.2L553.5 105.5L553.7 122.1L553.7 138.4L554.1 155.5L554.3 171.7M622.4 71.5L622.2 88.6L622.3 105.5L622.3 121.6L622.5 138.7L622.4 155.3L622.4 172.3M418.2 122.4L419.2 114.1L421.6 106.9L425.0 101.3L431.3 94.9L436.8 91.1L444.9 89.3L452.5 87.8L459.2 88.3L466.7 91.4L472.8 95.2L478.6 100.5L482.1 106.7L484.7 114.6L486.0 122.3M486.3 122.0L487.1 114.3L489.5 107.8L493.7 101.3L499.0 95.5L505.6 91.0L512.0 89.1L520.2 87.9L527.6 88.7L534.7 91.0L540.7 95.0L546.4 100.6L550.3 107.4L552.7 113.9L553.5 122.4M554.4 121.5L555.1 114.2L557.3 107.7L561.7 100.3L567.3 95.1L573.4 91.3L579.9 88.5L588.3 88.3L595.3 89.2L603.1 91.2L609.2 95.2L614.3 101.2L619.0 107.4L621.1 114.8L622.4 122.3M38.3 62.5L38.2 43.8L70.2 43.8L70.4 61.6M50.4 44.2L50.3 36.0M78.3 62.4L77.5 45.7L115.7 45.5L116.1 62.3M124.1 62.4L124.4 46.3L161.7 46.1L162.0 61.9M270.0 172.3L270.0 103.9L370.0 103.7L370.2 172.3M295.8 103.7L296.1 88.1L344.5 88.1L343.8 104.1M308.1 88.1L308.1 77.6L331.7 77.6L331.8 88.1M254.4 112.2L385.9 111.8L385.9 129.6L253.6 129.5L254.0 111.9M307.6 172.1L307.9 146.0L331.6 146.4L331.8 171.8M279.6 163.7L279.9 141.7L298.1 142.1L298.3 164.3M342.0 164.4L342.2 141.6L360.1 142.3L360.4 164.1"/><path class="again" d="M8.5 171.8L29.3 171.5L49.2 171.8L70.8 172.4L91.4 172.1L111.7 172.0L133.1 171.7L153.9 172.2L174.5 172.5L195.0 171.5L216.3 172.0L236.9 172.2L257.8 171.5L278.6 172.5L299.6 172.2L320.1 171.7L340.9 172.1L361.5 171.5L382.8 172.2L403.7 171.8L424.3 172.5L444.9 172.1L465.3 171.7L486.3 171.9L506.7 172.1L528.3 172.4L548.3 171.8L569.7 171.9L590.2 171.8L610.7 171.9L631.9 172.1M10.0 62.0L28.3 62.1L47.1 62.5L65.0 62.4L83.9 62.2L101.6 62.1L119.5 61.8L137.8 62.4L156.2 61.7L175.2 61.7L193.1 61.6L212.0 61.8L230.1 62.3M9.5 72.4L28.8 72.3L47.2 71.5L64.6 71.5L83.9 72.0L101.4 72.0L120.4 72.2L138.7 71.5L156.2 72.1L175.3 71.5L193.1 71.9L212.0 72.2L230.1 71.6M18.5 72.5L18.1 88.9L17.6 105.8L17.6 121.8L18.2 138.6L18.0 155.9L17.9 172.1M86.2 71.6L85.6 88.3L86.4 105.2L86.5 122.0L85.6 138.6L86.0 154.8L86.0 172.4M153.9 71.7L153.5 88.8L153.9 104.9L154.4 121.5L154.5 138.9L154.4 155.5L154.2 172.4M221.8 72.2L222.0 88.1L221.6 104.9L221.5 122.0L221.6 138.4L221.8 155.5L221.7 171.7M18.2 122.3L19.1 114.8L21.0 107.0L25.5 100.7L30.9 95.3L37.3 91.8L44.8 88.8L51.8 88.5L59.8 89.3L66.5 91.9L73.7 95.7L78.7 101.0L83.1 106.9L85.1 114.4L86.3 122.3M86.2 122.1L86.3 114.2L89.7 107.3L92.9 100.9L99.3 94.9L105.7 91.6L112.5 89.2L120.5 88.5L127.1 89.1L134.6 91.6L140.7 95.3L146.1 100.6L150.5 107.0L153.0 113.9L153.9 121.9M154.3 122.4L154.4 114.4L157.4 107.4L161.0 100.4L166.7 94.9L173.0 91.5L180.1 89.4L188.4 88.1L195.2 88.8L203.0 91.1L209.1 95.2L214.5 100.5L218.1 106.9L221.3 114.6L221.5 122.5M409.5 61.6L428.6 62.2L446.9 62.1L465.5 61.5L483.1 61.6L501.5 61.8L519.7 61.5L538.0 62.0L557.2 61.6L575.0 62.1L592.9 62.5L611.9 62.2L630.5 62.2M409.6 71.9L428.3 71.8L446.3 71.9L465.3 72.2L483.5 72.3L502.1 72.0L519.5 71.8L538.8 72.2L556.9 72.4L574.9 72.3L593.2 72.0L611.1 72.1L629.5 72.0M418.0 71.9L417.6 88.7L417.7 105.4L417.6 121.5L418.3 138.7L418.3 155.7L418.2 172.3M486.4 71.9L486.4 88.5L485.9 104.8L485.5 121.6L485.5 138.8L486.2 155.0L485.5 171.5M554.2 72.5L554.4 89.0L554.5 105.6L554.1 122.1L553.5 138.5L554.0 155.4L554.0 172.1M622.2 72.0L622.2 88.5L622.4 104.8L621.5 122.2L622.5 138.3L621.5 155.0L621.5 171.9M418.2 122.1L418.8 114.8L420.9 107.6L425.8 100.7L430.6 95.1L437.4 90.9L444.2 89.0L451.5 88.1L460.0 88.3L467.2 91.1L473.3 94.9L479.0 100.9L482.4 107.4L485.0 114.5L485.9 122.5M486.4 122.5L487.3 113.9L489.1 107.3L493.5 100.4L498.9 95.1L505.1 91.5L512.8 88.7L519.6 87.6L527.3 88.4L535.2 91.6L541.4 95.8L546.1 100.9L551.0 106.8L553.1 114.3L554.3 122.2M554.5 121.5L554.4 114.8L557.7 107.4L561.0 100.8L566.7 95.7L573.4 91.1L580.0 88.4L587.9 88.5L595.7 89.2L603.2 91.8L609.5 95.2L614.8 101.1L618.9 107.3L621.3 114.7L622.1 121.6M38.4 62.3L37.7 43.9L69.6 44.4L69.7 61.8M50.4 44.2L50.3 35.6M78.2 62.3L77.5 46.3L115.9 45.7L115.5 61.7M124.0 62.5L124.1 46.1L161.5 45.9L161.7 62.5M269.6 171.7L270.2 103.8L370.5 103.6L369.7 172.4M295.9 104.5L295.7 87.5L344.4 87.9L343.9 104.4M308.1 88.2L308.2 77.8L332.4 78.3L331.5 88.0M253.5 112.0L385.8 112.2L386.0 129.5L254.5 130.4L254.3 112.0M308.1 172.0L308.2 146.4L331.8 146.2L332.5 172.2M280.3 164.3L280.2 142.4L297.6 142.0L297.9 164.5M341.6 164.3L341.8 142.0L360.0 141.5L360.2 163.5"/><circle cx="264" cy="121" r="2.6"/><circle cx="278" cy="121" r="2.6"/><circle cx="292" cy="121" r="2.6"/><circle cx="306" cy="121" r="2.6"/><circle cx="320" cy="121" r="2.6"/><circle cx="334" cy="121" r="2.6"/><circle cx="348" cy="121" r="2.6"/><circle cx="362" cy="121" r="2.6"/><circle cx="376" cy="121" r="2.6"/></svg>
       <p>Made by Kevin Celustka. Named for <i>The Smallest Show on Earth</i> (1957), in which a young couple inherit a run-down cinema between two railway bridges.</p>
       <p>Free, with no accounts, ads or tracking.</p>
     </div>
     <ul>
-      <li><a href="../">Widget</a></li>
+      <li><a href="../widget/">Widget</a></li>
       <li><a href="../tonight/">Tonight</a></li>
       <li><a href="../map/">Map</a></li>
       <li><a href="../about/">About</a></li>
@@ -131,15 +125,7 @@
     </ul>
   </div>
 </footer>
-<script>
-  // Sections rise into place once, as they come into view (site.css turns this off for reduced motion)
-  if ("IntersectionObserver" in window) {
-    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -8% 0px" });
-    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
-  } else {
-    document.querySelectorAll(".reveal").forEach(el => el.classList.add("in"));
-  }
-</script>
+<script src="../site.js" defer></script>
 
 </body>
 </html>

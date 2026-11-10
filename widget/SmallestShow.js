@@ -1,6 +1,6 @@
 // Variables used by Scriptable.
 // These must be at the very top of the file. Do not edit.
-// icon-color: deep-purple; icon-glyph: film;
+// icon-color: orange; icon-glyph: film;
 //
 // Smallest Show — tonight at your independent cinemas.
 //
@@ -18,7 +18,7 @@
 // unbinds its widgets), and the Keychain keys and cache files keep the marquee prefix, so an
 // update changes nothing on the phone but the code.
 
-const VERSION = "2026.10.29"; // YYYY.MM.DD[.n], later than the published one; package.py reads it
+const VERSION = "2026.11.09"; // YYYY.MM.DD[.n], later than the published one; package.py reads it
 const BASE = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
 const VERSION_URL = "https://raw.githubusercontent.com/kevdawg94/smallest-show/main/docs/version.json";
 const PICKED_KEY = "marquee.theaters"; // Keychain: shared between the app and its widgets
@@ -185,13 +185,14 @@ function addOverflowLine(w, overflow, label) {
 
 // ---------- look ----------
 
-const INK = Color.dynamic(new Color("#1c1b19"), new Color("#f2efe8"));
-const MUTED = Color.dynamic(new Color("#8a8680"), new Color("#8f8b84"));
-const FAINT = Color.dynamic(new Color("#b9b5ad"), new Color("#5c5955"));
-const CHIP = Color.dynamic(new Color("#efe9df"), new Color("#2a2825"));
-const CHIP_OUT = Color.dynamic(new Color("#f6f4f0"), new Color("#1f1e1c"));
-const PAPER = Color.dynamic(new Color("#fbf8f2"), new Color("#141311"));
-const ACCENT = new Color("#b4482b");
+// House lights: brand/tokens.json, matinee (light) then night (dark); widget/test_tokens.py holds these to it.
+const PAPER = Color.dynamic(new Color("#f4f4f0"), new Color("#0a0d14"));
+const INK = Color.dynamic(new Color("#0f1320"), new Color("#eceef2"));
+const MUTED = Color.dynamic(new Color("#5c6271"), new Color("#868ea0"));
+const FAINT = Color.dynamic(new Color("#c9ccc4"), new Color("#283042")); // rules only: too pale for text on paper
+const CHIP = Color.dynamic(new Color("#e0e2dc"), new Color("#181d29"));
+const CHIP_OUT = Color.dynamic(new Color("#f4f4f0"), new Color("#0a0d14")); // sold out: a light that is off, the paper's own colour
+const ACCENT = Color.dynamic(new Color("#8a5000"), new Color("#ffb84a")); // text: ember on matinee paper, amber at night
 
 function addFilmRow(w, f, fallbackUrl, more, prefix) {
   const row = w.addStack();
@@ -220,9 +221,10 @@ function addFilmRow(w, f, fallbackUrl, more, prefix) {
     chip.setPadding(2, 5, 2, 5);
     chip.cornerRadius = 4;
     chip.backgroundColor = s.sold_out ? CHIP_OUT : CHIP;
+    if (s.sold_out) { chip.borderWidth = 1; chip.borderColor = FAINT; } // the ring is all that's left of it
     const tx = chip.addText(fmtTime(s.at));
     tx.font = s.sold_out ? Font.systemFont(10) : Font.mediumSystemFont(10);
-    tx.textColor = s.sold_out ? FAINT : INK;
+    tx.textColor = s.sold_out ? MUTED : INK;
     tx.lineLimit = 1;
   }
   if (f.shows.length > list.length) {
@@ -273,7 +275,7 @@ function buildWidget(data, offline, family) {
   if (family !== "small") {
     const h3 = head.addText((offline ? "offline · " : "") + "updated " + fmtStamp(data.generated_at, now));
     h3.font = Font.systemFont(10);
-    h3.textColor = FAINT;
+    h3.textColor = MUTED;
     h3.rightAlignText();
   }
 
@@ -298,7 +300,7 @@ function buildWidget(data, offline, family) {
     const playing = perTheater.filter(x => x.films.length).map(x => x.t.name).join(" · ");
     const p = w.addText(playing || "nothing on");
     p.font = Font.systemFont(10);
-    p.textColor = FAINT;
+    p.textColor = MUTED;
     p.lineLimit = 2;
     return w;
   }
@@ -317,7 +319,7 @@ function buildWidget(data, offline, family) {
     if (!total) {
       const z = w.addText("nothing " + label.toLowerCase());
       z.font = Font.systemFont(11);
-      z.textColor = FAINT;
+      z.textColor = MUTED;
     }
     w.addSpacer();
     return w;
@@ -340,7 +342,7 @@ function buildWidget(data, offline, family) {
       name.addSpacer(6);
       const z = name.addText(note);
       z.font = Font.systemFont(10);
-      z.textColor = FAINT;
+      z.textColor = MUTED;
     }
     w.addSpacer(1);
     films.slice(0, counts[i]).forEach((f, j) => {
@@ -402,7 +404,7 @@ function sectionRow(title) {
   r.height = 34;
   const c = r.addText(title.toUpperCase());
   c.titleFont = Font.semiboldSystemFont(12);
-  c.titleColor = Color.gray();
+  c.titleColor = MUTED;
   return r;
 }
 
@@ -414,7 +416,7 @@ function actionRow(title, subtitle, onSelect) {
   c.titleFont = Font.semiboldSystemFont(14);
   c.titleColor = ACCENT;
   c.subtitleFont = Font.systemFont(11);
-  c.subtitleColor = Color.gray();
+  c.subtitleColor = MUTED;
   r.onSelect = onSelect;
   return r;
 }
@@ -430,7 +432,7 @@ function markedRow(mark, title, subtitle, height) { // a mark column, then the t
   c.widthWeight = 90;
   c.titleFont = Font.systemFont(height > 50 ? 15 : 16);
   c.subtitleFont = Font.systemFont(11);
-  c.subtitleColor = Color.gray();
+  c.subtitleColor = MUTED;
   return r;
 }
 
@@ -462,7 +464,7 @@ async function chooseCity(index, current, mine = []) {
     const t = head.addText("Where do you go to the movies?", "Smallest Show lists independent cinemas in these cities. Switch any time from the Theaters sheet.");
     t.titleFont = Font.boldSystemFont(16);
     t.subtitleFont = Font.systemFont(11);
-    t.subtitleColor = Color.gray();
+    t.subtitleColor = MUTED;
     table.addRow(head);
     table.addRow(query
       ? actionRow(`Search: “${query}” ✕`, "Tap to clear.", () => { query = null; render(); })
@@ -531,7 +533,7 @@ async function pickTheaters(index, current) {
     const t = head.addText("Which theaters do you go to?", `Tap to follow or unfollow; the widget shows the ticked ones. Close the sheet when done. Smallest Show ${VERSION}`);
     t.titleFont = Font.boldSystemFont(16);
     t.subtitleFont = Font.systemFont(11);
-    t.subtitleColor = Color.gray();
+    t.subtitleColor = MUTED;
     table.addRow(head);
     if (list.length > 1) { // which city this sheet shows; tap to change
       const name = (byId[city] || list[0]).name;
@@ -600,7 +602,7 @@ async function showTable(loaded) {
     mid.centerAligned();
     mid.titleFont = Font.boldSystemFont(16);
     mid.subtitleFont = Font.systemFont(11);
-    mid.subtitleColor = Color.gray();
+    mid.subtitleColor = MUTED;
     const fwd = nav.addButton("later ›");
     fwd.widthWeight = 25;
     fwd.rightAligned();
@@ -617,7 +619,7 @@ async function showTable(loaded) {
     pick.titleFont = Font.semiboldSystemFont(15);
     pick.titleColor = ACCENT;
     pick.subtitleFont = Font.systemFont(12);
-    pick.subtitleColor = Color.gray();
+    pick.subtitleColor = MUTED;
     tools.dismissOnSelect = false; // the list stays under the sheet: closing it would end the run
     tools.onSelect = async () => {
       await pickTheaters(index, data.theaters.map(t => t.id));
@@ -638,7 +640,7 @@ async function showTable(loaded) {
       name.widthWeight = 80;
       name.titleFont = Font.semiboldSystemFont(15);
       name.subtitleFont = Font.systemFont(11);
-      name.subtitleColor = Color.gray();
+      name.subtitleColor = MUTED;
       const site = head.addButton("site ›");
       site.widthWeight = 20;
       site.rightAligned();
@@ -652,19 +654,19 @@ async function showTable(loaded) {
         const time = row.addText(fmtTime(s.at));
         time.widthWeight = 18;
         time.titleFont = Font.mediumSystemFont(15);
-        time.titleColor = s.sold_out ? Color.gray() : Color.dynamic(Color.black(), Color.white());
+        time.titleColor = s.sold_out ? MUTED : INK;
         const sub = [f.rating, f.runtime_min && `${f.runtime_min} min`, s.venue].filter(Boolean).join(" · ");
         const cell = row.addText(f.title, sub);
         cell.widthWeight = 62;
         cell.titleFont = Font.systemFont(15);
-        cell.titleColor = s.sold_out ? Color.gray() : Color.dynamic(Color.black(), Color.white());
+        cell.titleColor = s.sold_out ? MUTED : INK;
         cell.subtitleFont = Font.systemFont(11);
-        cell.subtitleColor = Color.gray();
+        cell.subtitleColor = MUTED;
         const st = row.addText(s.sold_out ? "sold out" : "tickets ›");
         st.widthWeight = 20;
         st.rightAligned();
         st.titleFont = Font.systemFont(12);
-        st.titleColor = s.sold_out ? Color.gray() : ACCENT;
+        st.titleColor = s.sold_out ? MUTED : ACCENT;
         row.dismissOnSelect = false; // still here on the way back from the ticket page
         row.onSelect = () => Safari.open(s.url);
         table.addRow(row);
@@ -675,7 +677,7 @@ async function showTable(loaded) {
       r.height = 60;
       const c = r.addText(data.theaters.length ? "Nothing listed for this day yet." : "No theaters followed yet. Tap Theaters.");
       c.centerAligned();
-      c.titleColor = Color.gray();
+      c.titleColor = MUTED;
       table.addRow(r);
     }
     table.reload();

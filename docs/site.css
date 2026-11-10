@@ -1,44 +1,76 @@
 /* Smallest Show: the one stylesheet every page of smallest.show shares (publish.py copies it to docs/).
-   The look is the widget's: warm paper, ink, a rust accent and time chips. Headings are set in the
-   system serif (New York on Apple devices), body text in the system sans. Nothing is fetched: no web
-   fonts, no third-party scripts. */
+   The look is House lights: a cinema with a show on is a light that is on. Amber (--bulb) is spent only on
+   what is lit: a show, a time under the finger, the one button. Dusk blue is air: links and haze. Night is
+   the ground in dark mode; light mode is Matinee, where amber is a fill only and accent text is --accent.
+   The values are brand/tokens.json's (widget/test_tokens.py holds this file and the widget to them).
+   Headings are marquee letters (Barlow Condensed, one file from our own fonts/); body text is the system
+   sans, as on the widget. Nothing comes from anyone else: no third-party fonts or scripts.
+   No shadows: depth is brightness (page, band, chip, light). Grain is used selectively: on the bands, the footer and a map's land, never the page ground. Glow belongs to
+   lights (the maps' houses, the bulb rule, a time that is on now, the button under the finger). No haze. */
+
+@font-face {
+  font-family: "Barlow Condensed"; font-style: normal; font-weight: 600; font-display: swap;
+  src: url("fonts/barlow-condensed-600.woff2") format("woff2");
+}
 
 :root {
-  --paper: #fbf8f2;
-  --band: #f4efe6;
-  --card: #fffdf8;
-  --ink: #1c1b19;
-  --ink-2: #3d3a35;
-  --muted: #716d66;
-  --faint: #dcd6cb;
-  --chip: #eee8dd;
-  --accent: #b4482b;
-  --accent-ink: #fff;
-  --land: #f1ebe1;
-  --shadow: 0 1px 2px rgba(40, 30, 20, 0.06), 0 10px 30px -8px rgba(40, 30, 20, 0.18);
-  --serif: ui-serif, "New York", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --paper: #f4f4f0;
+  --band: #eaebe6;
+  --card: #eaebe6;
+  --chip: #e0e2dc;
+  --faint: #c9ccc4;
+  --ink: #0f1320;
+  --ink-2: #3d4252;
+  --muted: #5c6271;
+  --bulb: #f5a623;
+  --core: #ffd98a;
+  --on-bulb: #0f1320;
+  --accent: #8a5000;
+  --dusk: #34488a;
+  --land: #e4e5df;
+  --halo: 245, 166, 35;
+  --marquee: "Barlow Condensed", "Avenir Next Condensed", "Arial Narrow", sans-serif;
   --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --radius: 0.75rem;
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 40px; --s7: 64px; --s8: 104px;
+  --r-chip: 6px;
+  --radius: 14px;
   --gutter: clamp(1rem, 4vw, 2.5rem);
+  /* Where every page's first line starts under the masthead: one value, so a page's eyebrow or heading sits at
+     the same height on all of them. A page that needs room finds it lower down, never here. */
+  --top: clamp(1.5rem, 5vw, 4rem);
+  /* Filament timing: a light comes on at once and cools slowly */
+  /* Grain: a fine speckle for the surfaces one step off the page (bands, the footer, a map's land), never the
+     page ground itself. Kevin's level, Nov 9: 40% under the first draft, then 25% under that, twice. Dark specks on Matinee, light on night. */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.169 -0.068'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+  --on: 80ms;
+  --off: 450ms;
   color-scheme: light;
 }
+/* Night: dark mode, and any .night box in either mode. The mode is html[data-theme], which the head sets from the
+   visitor's own choice (the masthead's switch, kept in localStorage) or else their system, before anything
+   paints; the media query below is only for a page whose scripts never ran. A page's own night values hang
+   off [data-theme="dark"], and a canvas redraws on the root's "themechange" event. */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #131210;
-    --band: #1a1916;
-    --card: #1f1e1b;
-    --ink: #f2efe8;
-    --ink-2: #d6d2ca;
-    --muted: #9c978f;
-    --faint: #36332f;
-    --chip: #2a2825;
-    --accent: #e0795b;
-    --accent-ink: #1a0f0a;
-    --land: #1d1c19;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 32px -10px rgba(0, 0, 0, 0.7);
+  :root:not([data-theme="light"]) {
+    --paper: #0a0d14; --band: #10141d; --card: #10141d; --chip: #181d29; --faint: #283042;
+    --ink: #eceef2; --ink-2: #a3aaba; --muted: #868ea0;
+    --bulb: #ffb84a; --core: #ffe9b8; --on-bulb: #0a0d14; --accent: #ffb84a; --dusk: #7f95d6;
+    --land: #141925; --halo: 255, 184, 74;
+    --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.169 -0.068'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
     color-scheme: dark;
   }
 }
+.night, :root[data-theme="dark"] {
+  --paper: #0a0d14; --band: #10141d; --card: #10141d; --chip: #181d29; --faint: #283042;
+  --ink: #eceef2; --ink-2: #a3aaba; --muted: #868ea0;
+  --bulb: #ffb84a; --core: #ffe9b8; --on-bulb: #0a0d14; --accent: #ffb84a; --dusk: #7f95d6;
+  --land: #141925; --halo: 255, 184, 74;
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.169 -0.068'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] { color-scheme: dark; }
+:root[data-theme="light"] { color-scheme: light; }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
@@ -49,87 +81,149 @@ body {
 img { max-width: 100%; }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.18em; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); }
 a:hover { text-decoration-color: currentColor; }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 0.25rem; }
+:focus-visible { outline: 2px solid var(--bulb); outline-offset: 3px; border-radius: 0.25rem; }
 .wrap { max-width: 68rem; margin: 0 auto; padding: 0 var(--gutter); }
 .measure { max-width: 38rem; }
 
-/* The masthead: the wordmark and the six pages' links, the widget's page first, the same on every page */
-.masthead { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem 1.5rem; padding-top: 1.1rem; padding-bottom: 1.1rem; }
-.wordmark { display: inline-flex; align-items: center; gap: 0.55rem; font: 600 1.12rem/1 var(--serif); letter-spacing: -0.01em; text-decoration: none; }
-.wordmark svg { width: 1.45rem; height: 1.45rem; flex: none; }
-.masthead nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; font-size: 0.92rem; }
-.masthead nav a { color: var(--muted); text-decoration: none; padding: 0.2rem 0; border-bottom: 1.5px solid transparent; transition: color 0.15s, border-color 0.15s; }
-.masthead nav a:hover { color: var(--ink); }
-.masthead nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--accent); }
+/* The masthead: the mark and the wordmark, then the pages' links, the same on every page */
+.masthead { display: grid; grid-template-columns: auto 1fr auto; grid-template-areas: "mark nav mode"; align-items: center; gap: var(--s2) var(--s5); padding-top: var(--s4); padding-bottom: var(--s4); }
+.masthead .wordmark { grid-area: mark; }
+.masthead nav { grid-area: nav; justify-self: end; }
+.masthead .mode { display: inline-grid; place-items: center; width: 1.9rem; height: 1.9rem; padding: 0; border: 0; border-radius: 50%; background: none; color: var(--muted); cursor: pointer; transition: color var(--off); }
+/* Narrower, the links drop to a row of their own; the switch keeps the top right corner, level with the wordmark */
+@media (max-width: 56rem) { .masthead { grid-template-columns: 1fr auto; grid-template-areas: "mark mode" "nav nav"; } .masthead nav { justify-self: start; } }
+.wordmark { display: inline-flex; align-items: flex-end; gap: 0.6rem; font: 600 1.35rem/0.86 var(--marquee); letter-spacing: 0.04em; text-transform: uppercase; text-decoration: none; }
+.wordmark svg { height: 2rem; width: auto; flex: none; }
+.mark path { fill: none; stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.mark .lit { fill: var(--bulb); }
+.mark path.lit { fill: none; stroke: var(--bulb); stroke-width: 2.4; stroke-linecap: butt; }
+.masthead nav { display: flex; flex-wrap: wrap; gap: var(--s1) 1.25rem; font-size: 0.92rem; }
+.masthead nav a { color: var(--muted); text-decoration: none; padding: 0.2rem 0; border-bottom: 1.5px solid transparent; transition: color var(--off), border-color var(--off); }
+/* The light and dark switch: a small bulb at the masthead's right end, centred on the row it shares; drawn with
+   true lines like every small mark, an outline by day and lit at night */
+.mode { flex: none; display: inline-grid; place-items: center; width: 1.7rem; height: 1.7rem; margin: -0.2rem 0; padding: 0; border: 0; border-radius: 50%; background: none; color: var(--muted); cursor: pointer; transition: color var(--off); }
+.mode:hover, .mode:focus-visible { color: var(--ink); transition-duration: var(--on); }
+/* a finger gets 44px to hit without the masthead growing */
+.mode { position: relative; }
+.mode::after { content: ""; position: absolute; inset: -7px; }
+.mode svg { width: 1.2rem; height: 1.2rem; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+/* at night the little bulb is on */
+[data-theme="dark"] .mode .glass { fill: var(--bulb); stroke: var(--bulb); }
+/* and glows a little; the shadow goes on the whole drawing, since one on a shape inside an svg draws a box behind it */
+[data-theme="dark"] .mode svg { filter: drop-shadow(0 0 3px rgba(var(--halo), 0.75)); }
+/* On a phone all six links keep to one row */
+@media (max-width: 30rem) { .masthead nav { gap: var(--s1) 0.6rem; font-size: 0.8rem; } }
+.masthead nav a:hover { color: var(--ink); transition-duration: var(--on); }
+.masthead nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--bulb); }
+
+/* The bulb rule: the one divider, a row of marquee bulbs, every one lit and glowing, and never quite still.
+   site.js fills the row and runs it like a tired sign: as it comes into view the whole row tries once and
+   drops, then each bulb stutters on in its own time (about three seconds, nothing waits on it); after that,
+   every few seconds, a bulb blinks or a short run of them sputters, and now and then the whole row dips.
+   Without the script, or for someone who has asked for less motion, it is an even line of lit bulbs. */
+.bulbs { display: flex; align-items: center; justify-content: space-between; height: 22px; overflow: hidden; padding: 0 8px; }
+.bulbs.col { flex-direction: column; width: 22px; height: auto; padding: 8px 0; }
+html:not(.js) .bulbs:empty { background: radial-gradient(circle, var(--bulb) 2.5px, transparent 3px) 0 50% / 16px 22px repeat-x; }
+.bulbs i { flex: none; width: 5px; height: 5px; border-radius: 50%; background: var(--bulb); box-shadow: 0 0 5px 1px rgba(var(--halo), 0.75), 0 0 12px 2px rgba(var(--halo), 0.3); }
 
 /* Type */
-.eyebrow { display: block; font: 600 0.72rem/1.2 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin: 0 0 0.75rem; }
-h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.015em; color: var(--ink); }
-h1 { font-size: clamp(2.5rem, 1.6rem + 3.4vw, 4rem); line-height: 1.02; margin: 0 0 1rem; }
-h2 { font-size: clamp(1.45rem, 1.2rem + 0.9vw, 1.85rem); line-height: 1.15; margin: 0 0 0.75rem; }
-h3 { font-size: 1.15rem; line-height: 1.25; margin: 0 0 0.35rem; }
+.eyebrow { display: block; font: 600 0.72rem/1.2 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin: 0 0 var(--s3); }
+h1, h2, h3 { font-family: var(--marquee); font-weight: 600; text-transform: uppercase; letter-spacing: 0.01em; color: var(--ink); text-wrap: balance; }
+h1 { font-size: clamp(2.9rem, 1.7rem + 5vw, 5.4rem); line-height: 0.96; margin: 0 0 var(--s4); }
+h2 { font-size: clamp(1.9rem, 1.5rem + 1.6vw, 2.7rem); line-height: 1; margin: 0 0 var(--s3); }
+h3 { font-size: 1.3rem; line-height: 1.1; letter-spacing: 0.03em; margin: 0 0 var(--s2); }
 p { margin: 0 0 1rem; }
-.lede { font-size: clamp(1.08rem, 1rem + 0.35vw, 1.25rem); line-height: 1.5; color: var(--ink-2); margin: 0 0 1.75rem; }
+.lede { font-size: clamp(1.08rem, 1rem + 0.35vw, 1.25rem); line-height: 1.5; color: var(--ink-2); margin: 0 0 var(--s5); }
 .note { font-size: 0.9rem; color: var(--muted); }
 .num { font-variant-numeric: tabular-nums; }
+/* A figure set in marquee letters: a count, a step number, a clock */
+.figure { font-family: var(--marquee); font-weight: 600; font-variant-numeric: tabular-nums lining-nums; letter-spacing: 0.01em; }
 code { font: 0.85em/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--chip); border-radius: 0.3rem; padding: 0.1em 0.35em; }
 
-/* Sections: a band runs the full width, the content inside it doesn't */
-.section { padding-top: clamp(3rem, 6vw, 5rem); padding-bottom: clamp(3rem, 6vw, 5rem); }
-.band { background: var(--band); }
-.section-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 0.75rem 2rem; margin-bottom: 1.75rem; }
+/* Sections: a band runs the full width, the content inside it doesn't. Wide between ideas. */
+.section { padding-top: clamp(var(--s6), 7vw, var(--s8)); padding-bottom: clamp(var(--s6), 7vw, var(--s8)); }
+.band { background: var(--band) var(--grain); }
+.section-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: var(--s3) var(--s6); margin-bottom: var(--s5); }
 .section-head h2 { margin: 0; }
 .section-head p { margin: 0.4rem 0 0; color: var(--muted); max-width: 34rem; }
 
-/* Buttons and the time chip, the widget's one shape */
-.buttons { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: stretch; }
+/* Buttons and the time chip. Four levels of brightness, one meaning each: .chip.out is unlit (sold out),
+   .chip a time, a chip under the finger is lit, and .chip.now (on screen this minute) is the only one that glows. */
+.buttons { display: flex; flex-wrap: wrap; gap: var(--s2); align-items: stretch; }
 .button {
-  display: inline-flex; flex-direction: column; justify-content: center; background: var(--accent); color: var(--accent-ink);
-  text-decoration: none; font-weight: 600; line-height: 1.25; padding: 0.75rem 1.2rem; border-radius: var(--radius);
-  border: 0; font-family: inherit; font-size: 1rem; cursor: pointer;
-  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s;
+  display: inline-flex; flex-direction: column; justify-content: center; background: var(--bulb); color: var(--on-bulb);
+  text-decoration: none; font-weight: 600; line-height: 1.25; padding: 0.75rem 1.2rem; border-radius: var(--r-chip);
+  border: 0; font-family: inherit; font-size: 1rem; cursor: pointer; transition: background var(--off);
 }
 .button small { font-weight: 400; font-size: 0.78rem; opacity: 0.85; }
+.button:hover, .button:focus-visible { background: var(--core); transition-duration: var(--on); }
+/* The amber button glows under the finger, the way a lit time does; at rest it doesn't, so glow keeps meaning "on" */
+.button:not(.quiet) { transition: background var(--off), box-shadow var(--off); }
+.button:not(.quiet):hover, .button:not(.quiet):focus-visible { transition-duration: var(--on); box-shadow: 0 0 0 1px rgba(var(--halo), 0.5), 0 0 22px 3px rgba(var(--halo), 0.5); }
 .button.quiet { background: var(--chip); color: var(--ink); }
-.button:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
-.button:active { transform: none; box-shadow: none; opacity: 0.9; }
+.button.quiet:hover { background: var(--faint); }
+/* on a band the quiet button takes the next tone up, or it sinks into the band at night */
+.band .button.quiet { background: var(--faint); }
+.band .button.quiet:hover { background: var(--chip); }
+.button:active { opacity: 0.85; }
 .chip {
-  display: inline-block; background: var(--chip); color: var(--ink); border-radius: 0.45rem; padding: 0.12rem 0.5rem;
+  display: inline-block; background: var(--chip); color: var(--ink); border-radius: var(--r-chip); padding: 0.12rem 0.5rem;
   font-size: 0.95rem; font-variant-numeric: tabular-nums; text-decoration: none; white-space: nowrap;
-  transition: background 0.15s, color 0.15s, transform 0.15s;
+  transition: background var(--off), color var(--off), box-shadow var(--off);
 }
-a.chip:hover { background: var(--accent); color: var(--accent-ink); transform: translateY(-1px); }
+a.chip:hover, a.chip:focus-visible { background: var(--bulb); color: var(--on-bulb); transition-duration: var(--on); }
+.chip.now { background: var(--bulb); color: var(--on-bulb); box-shadow: 0 0 0 1px rgba(var(--halo), 0.5), 0 0 18px 2px rgba(var(--halo), 0.55); }
 .chip.out { color: var(--muted); background: transparent; box-shadow: inset 0 0 0 1px var(--faint); }
 
-/* Figures: a screenshot as a framed print */
-.print { display: block; margin: 0; }
-.print img { display: block; width: 100%; height: auto; border-radius: 1.4rem; box-shadow: var(--shadow); }
-.print figcaption { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+/* The sky: what a lit map sits in (home, Tonight, the map). It has no box and no ground of its own: the map
+   lies straight on the page, in the page's colour mode (Kevin, Nov 9). Never put running text in one. */
+.sky { position: relative; }
+/* The land under a lit map (home, Tonight, the map): the country one quiet step off the page, state borders in
+   a faint line, and the same fine grain as the bands inside the shape (.grained picks the filter for the colour
+   mode; the two filters sit in the masthead). No box round the map, no haze, no bloom (Kevin,
+   Nov 9: each was tried on the built maps and reverted). */
+.land path, .states path { fill: var(--land); stroke: var(--faint); stroke-width: 0.6; stroke-linejoin: round; }
+.grained { filter: url(#grain-matinee); }
+[data-theme="dark"] .grained { filter: url(#grain-night); }
 
-/* Footer */
-.colophon { border-top: 1px solid var(--faint); margin-top: 0; padding: 2.5rem 0 3.5rem; font-size: 0.88rem; color: var(--muted); }
-.colophon .wrap { display: grid; gap: 1.5rem 3rem; grid-template-columns: minmax(0, 1fr); }
+/* Figures: a screenshot, framed by a line */
+.print { display: block; margin: 0; }
+.print img { display: block; width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--faint); }
+.print figcaption { font-size: 0.85rem; color: var(--muted); margin-top: var(--s2); }
+
+/* Footer: the cinema between its two railway bridges, the one place the hand-drawn line runs at full size, in a
+   band framed like a marquee: a bulb rule along each of its four sides (Kevin, Nov 9: a row along the top alone
+   looked off). The side rules are .bulbs.col; the corners belong to the top and bottom rows. */
+.colophon { position: relative; background: var(--band) var(--grain); padding: calc(22px + var(--s6)) 0 calc(22px + var(--s6)); font-size: 0.88rem; color: var(--muted); }
+.colophon > .bulbs { position: absolute; }
+.colophon > .bulbs.top { top: 0; left: 0; right: 0; }
+.colophon > .bulbs.bottom { bottom: 0; left: 0; right: 0; }
+/* a column's first and last bulbs sit one step from the rows' corner bulbs, so the spacing runs unbroken round the corners */
+.colophon > .bulbs.col { top: 22px; bottom: 22px; padding: 2.5px 0; }
+.colophon > .bulbs.left { left: 0; }
+.colophon > .bulbs.right { right: 0; }
+/* the text keeps the page's own gutter, or just enough to clear the side bulbs on a phone */
+.colophon .wrap { padding-left: max(var(--gutter), 30px); padding-right: max(var(--gutter), 30px); display: grid; gap: var(--s5) 3rem; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 46rem) { .colophon .wrap { grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); } }
-.colophon p { margin: 0 0 0.75rem; max-width: 34rem; }
+.colophon p { margin: 0 0 var(--s3); max-width: 34rem; }
 .colophon ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.35rem; }
 .colophon a { color: var(--ink-2); text-decoration: none; }
 .colophon a:hover { color: var(--ink); text-decoration: underline; }
-.bridges { display: block; width: 100%; max-width: 21rem; height: auto; color: var(--muted); margin: 0 0 1rem; }
-.bridges .bulb { fill: var(--accent); }
+.bridges { display: block; width: 100%; max-width: 26rem; height: auto; color: var(--ink-2); margin: 0 0 var(--s4); }
+.bridges path { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.bridges .again { opacity: 0.3; }
+.bridges circle { fill: var(--bulb); }
 
 /* Tables (About): numbers right, rules thin */
 .table-scroll { overflow-x: auto; margin: 1.25rem 0 1.75rem; }
 table { border-collapse: collapse; width: 100%; font-size: 0.92rem; line-height: 1.4; }
 th, td { text-align: left; vertical-align: top; padding: 0.6rem 0.75rem 0.6rem 0; border-bottom: 1px solid var(--faint); }
 th { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 600; border-bottom-color: var(--ink); }
-td.n { text-align: right; font-family: var(--serif); font-size: 1.15rem; font-weight: 600; font-variant-numeric: tabular-nums lining-nums; white-space: nowrap; padding-right: 1rem; }
+td.n { text-align: right; font-family: var(--marquee); font-size: 1.35rem; font-weight: 600; font-variant-numeric: tabular-nums lining-nums; white-space: nowrap; padding-right: 1rem; }
 tr.ours td { color: var(--ink); }
 tr.ours td.n { color: var(--accent); }
 
-/* Motion: once, small, and never for someone who's asked for less */
-.js .reveal { opacity: 0; transform: translateY(10px); transition: opacity 0.6s ease, transform 0.6s ease; }
-.js .reveal.in { opacity: 1; transform: none; }
+/* Motion is lights coming on and nothing else: nothing slides, lifts or counts up. Never for someone who's asked for less. */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
-  .js .reveal { opacity: 1; transform: none; }
 }
