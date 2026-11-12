@@ -242,9 +242,15 @@
   const minutes = ms => ms / 1000 * SPEED;
   const FADE = minutes(950);  // a house's light going out after a screening ends, a slow cool
   const PULSE = minutes(950); // the flare of a screening's start falling to a third (shorter went too fast)
-  const CATCH = minutes(48);  // a light catching at its screening's start: the flare rises over it, past the
-                              // steady light, then settles. No flicker: a house is lit from the minute its
-                              // screening starts, as the listing has it
+  // A dark house comes on, while the clock runs, as a light is switched on (Kevin, Nov 11: the cut from off
+  // to on was "a little jarring"; not a flicker, "blink with like a gradient on", "fast as to be almost
+  // imperceptible", and "it might even temporarily glow bright very briefly before stabilizing"): its light
+  // comes up over CATCH, and a surge over it (larger, and at night a little hotter, toward --core; on the
+  // Matinee page a wider glow) peaks as it arrives and is gone a few SURGEs on: a moment of running hot,
+  // never a paler dot, which rests at --bulb. A house still warm from its last screening surges only by
+  // what it had cooled. The slow flare rises with the light too, then settles as before
+  const CATCH = minutes(120);
+  const SURGE = minutes(90);  // the surge falling to a third
   const RING = minutes(3050); // a new screening's ring spreading (Kevin, Nov 6: slower)
   const ARRIVE = 4200;    // ms the map takes to come alight on a visit's first page, east to west; then it plays
   const COOL = 600;       // ms the lit map of the moment takes to cool before playing the day from 6 am Pacific
@@ -261,6 +267,11 @@
   let live = false, playing = false, touched = false, filter = null, bins = null, colors = null, haze = null, k = 1, r0 = 1;
   let arrive = null; // when the map began coming alight, while it is
   let dim = 1;       // every light times this: 1, but less while the map of the moment cools before playing
+  let rolling = false; // the clock is running, so a light comes up over CATCH as it passes a screening's start;
+                       // a map standing at one time draws every house with a screening on as lit
+  let rolledFrom = 0;  // the minute it began running from: a house lit by then (the scrubber stops on whole
+                       // minutes, where screenings start) stays as it stood, so pressing play on a paused
+                       // map doesn't dip and relight what was already on
   let dawn = 0;      // where playing from the moment starts: 6 am Pacific, or the day's start if later
   let layer = null, mid = null, wide = null; // the lit houses' bulbs, and them blurred two ways
 
@@ -453,7 +464,7 @@
     // the map's colours are its stage's tokens, the curve's the page's, both in the page's mode
     const sk = getComputedStyle(stage), pg = getComputedStyle(curve);
     const v = (css, name) => css.getPropertyValue(name).trim();
-    colors = { dark: document.documentElement.dataset.theme === "dark", bulb: v(sk, "--bulb"), halo: v(sk, "--halo"),
+    colors = { dark: document.documentElement.dataset.theme === "dark", bulb: v(sk, "--bulb"), core: v(sk, "--core"), halo: v(sk, "--halo"),
                house: v(sk, "--house"), ghost: v(sk, "--ghost"),
                faint: v(pg, "--faint"), past: v(pg, "--ink-2"), accent: v(pg, "--accent"), ink: v(pg, "--ink") };
     // a ring of light, drawn once: nothing at its middle, a soft band near its edge, nothing past it.
@@ -472,26 +483,28 @@
     haze = hz;
   }
 
-  // Where each house stands at minute m: its screenings on and how long the oldest has run, when the
-  // last ended, how long ago its newest few began (its rings), and its flare: each start adds one
-  // that catches over CATCH, past the steady light, and falls away over PULSE, so a house is brightest
-  // as its screenings begin. Nearly every house starts one in its seven o'clock hour (on Nov 6, 1,450
+  // Where each house stands at minute m: its screenings on and since when it has had one on without a
+  // break, when the last ended, how long ago its newest few began (its rings), and its flare: each start
+  // adds one that comes up over CATCH and falls away over PULSE, so a house is brightest as its
+  // screenings begin. Nearly every house starts one in its seven o'clock hour (on Nov 6, 1,450
   // of 1,681, against 763 at one), so that hour is the band of light that crosses the country.
-  const caught = a => 1 - Math.exp(-a / CATCH);
+  const caught = a => a >= CATCH ? 1 : 1 - (1 - a / CATCH) ** 2; // quick at first, easing into full
   function state(h, m) {
-    let on = 0, oldest = 0, ended = -Infinity, flare = 0, any = false, next = Infinity;
+    let on = 0, since = m, until = -Infinity, ended = -Infinity, flare = 0, any = false, next = Infinity;
     const rings = [];
     for (const s of h.shows) {
       if (filter !== null && s.ti !== filter) continue;
       any = true;
       if (s.s > m) { next = s.s; break; }
       const a = m - s.s;
-      if (m < s.e) { on++; oldest = Math.max(oldest, a); }
+      if (s.s > until) since = s.s; // dark until this one began
+      until = Math.max(until, s.e);
+      if (m < s.e) on++;
       else ended = Math.max(ended, s.e);
       if (a < RING) { rings.push(a); if (rings.length > RINGS) rings.shift(); }
       if (a < PULSE * 4) flare += 1.2 * caught(a) * Math.exp(-a / PULSE); // 1.2: the catch's peak to about 1
     }
-    return { any, on, oldest, ended, next, rings, flare: 1 - Math.exp(-flare) };
+    return { any, on, since, ended, next, rings, flare: 1 - Math.exp(-flare) };
   }
 
   function render(now = performance.now()) {
@@ -512,16 +525,17 @@
       }
       g.fillStyle = colors.house;
       dot(g, house.x, house.y, house.r);
-      // a steady light while a screening's on, caught at its start; after, a slow cool; the flare over it
+      // a steady light while a screening's on; after, a slow cool; the flare over it. As the clock runs
+      // past a start the light comes up over CATCH, from whatever its last screening's cooling has left
       const [arrived, rising] = arrival(house, now), came = arrived * dim, over = rising * dim;
+      const left = Number.isFinite(st.ended) && t - st.ended < FADE ? Math.pow(1 - (t - st.ended) / FADE, 1.6) : 0;
       if (st.on) {
         lit++; on += st.on;
-        const light = caught(st.oldest) * came, flare = Math.max(st.flare * came, over);
-        if (light > 0.01 || flare > 0.02) glow.push([house, light, flare]);
-      } else if (Number.isFinite(st.ended) && t - st.ended < FADE) {
-        const left = Math.pow(1 - (t - st.ended) / FADE, 1.6) * came;
-        if (left > 0.01) cooling.push([house, left]);
-      }
+        const coming = rolling && st.since > rolledFrom, age = t - st.since, up = coming ? caught(age) : 1;
+        const surge = coming && age < SURGE * 5 ? 2 * up * (1 - left) * Math.exp(-age / SURGE) * came : 0; // peaks near 0.75
+        const light = (left + (1 - left) * up) * came, flare = Math.max(st.flare * came, over);
+        if (light > 0.01 || flare > 0.02) glow.push([house, Math.min(1, light + over), flare, surge]);
+      } else if (left * came > 0.01) cooling.push([house, left * came]);
       for (const age of st.rings) ripples.push([house, age]);
     }
     bulbs(g, glow, cooling, ripples, colors.dark, now);
@@ -535,8 +549,8 @@
   // whole layer of bulbs, not one glow a house, so a city's lights don't add up to a slab. The bulbs go
   // on a canvas of their own; that, shrunk to a third and to an eighth and drawn back at full size with
   // smoothing, is the near glow (about 2 px) and the far one (about 6). Laid over, never added, in
-  // either mode. A house catching draws briefly larger, one going dark fainter; a start's ring goes
-  // between the glow and the bulbs
+  // either mode. A house coming on draws briefly larger (and, switched on from dark, surges), one going
+  // dark fainter; a start's ring goes between the glow and the bulbs
   const sized = (c, w, h) => {
     c = c || document.createElement("canvas");
     if (c.width !== w || c.height !== h) { c.width = w; c.height = h; }
@@ -553,14 +567,28 @@
     l.setTransform(W / w, 0, 0, H / h, 0, 0);
     l.fillStyle = colors.bulb;
     for (const [house, left] of cooling) { l.globalAlpha = left; dot(l, house.x, house.y, R); }
-    for (const [house, light, flare] of glow) { l.globalAlpha = Math.min(1, light + flare); dot(l, house.x, house.y, R * (1 + 0.6 * flare)); }
+    const swell = (flare, surge) => R * (1 + 0.6 * flare + 0.6 * surge);
+    for (const [house, light, flare, surge] of glow) { l.globalAlpha = light; dot(l, house.x, house.y, swell(flare, surge)); }
+    // the surge of a light just switched on: on the night map its bulb runs a little hot for a moment,
+    // still amber. On the Matinee page paler would read as dimmer, so there its glow widens instead (below)
+    if (dark) {
+      l.fillStyle = colors.core;
+      for (const [house, light, flare, surge] of glow) if (surge > 0.02) { l.globalAlpha = surge * light * 0.55; dot(l, house.x, house.y, swell(flare, surge)); }
+    }
     l.globalAlpha = 1;
     // a third from the bulbs, an eighth from the third: smoothing each step, so no bulb is skipped
     for (const [to, from] of [[mid, layer], [wide, mid]]) {
       const c = to.getContext("2d");
       c.imageSmoothingEnabled = true; c.imageSmoothingQuality = "high";
+      c.setTransform(1, 0, 0, 1, 0, 0);
       c.clearRect(0, 0, to.width, to.height);
       c.drawImage(from, 0, 0, to.width, to.height);
+      if (to === mid && !dark) { // the Matinee surge: a wider bulb in the near glow alone, which the far glow then takes up
+        c.setTransform(to.width / w, 0, 0, to.height / h, 0, 0);
+        c.fillStyle = colors.bulb;
+        for (const [house, light, flare, surge] of glow) if (surge > 0.02) { c.globalAlpha = surge * light * 0.7; dot(c, house.x, house.y, swell(flare, surge) * 1.8); }
+        c.globalAlpha = 1;
+      }
     }
     g.save();
     g.globalCompositeOperation = "source-over";
@@ -684,22 +712,23 @@
     const cool = now => {
       dim = Math.pow(1 - Math.min(1, (now - from) / COOL), 1.6);
       if (dim > 0) { render(now); raf = requestAnimationFrame(cool); return; }
-      dim = 1; t = dawn; last = now;
+      dim = 1; t = dawn; last = now; roll();
       render(now);
       raf = requestAnimationFrame(step);
     };
     raf = requestAnimationFrame(cool);
   }
+  function roll() { if (!rolling && !still) { rolling = true; rolledFrom = t; } }
   function step(now) {
     const dt = Math.min(100, now - last);
-    last = now;
+    last = now; roll();
     t += dt / 1000 * SPEED;
     if (t >= hi) { t = hi; pause(); toNow(); return; }
     render();
     raf = requestAnimationFrame(step);
   }
   function pause() {
-    playing = false; dim = 1;
+    playing = false; rolling = false; dim = 1;
     cancelAnimationFrame(raf);
     $("play").setAttribute("aria-pressed", "false");
     $("play").setAttribute("aria-label", "Play the day");
