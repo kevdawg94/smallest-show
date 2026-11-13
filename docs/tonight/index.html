@@ -23,7 +23,6 @@
   /* The first screen holds the map, play, the scrubber and the readout: a short top, and a map no wider
      than leaves room for them below it (31rem: the masthead, the top, the clocks, the scrubber) */
   .intro { padding-top: var(--top); }
-  .intro h1 { font-size: clamp(2rem, 1.2rem + 1.9vw, 3rem); line-height: 1; margin: 0 0 var(--s3); }
   .intro .lede { font-size: 1rem; margin: 0; }
   .tonight { display: grid; gap: 2.5rem; margin-top: clamp(1rem, 2.5vw, 1.5rem); }
   @media (min-width: 62rem) { .tonight { grid-template-columns: minmax(0, 1fr) 18.5rem; gap: 2.75rem; align-items: start; } }
@@ -171,7 +170,10 @@
   <div class="measure">
     <span class="eyebrow" id="day">Today</span>
     <h1>Tonight, across America</h1>
-    <p class="lede">Each dot is a theater, lit while a film is playing there. <span id="context"></span>Press play to watch the evening move west, or tap a dot to see what's on.</p>
+    <!-- The day in two or three counts (Kevin, Nov 13: the old lines "explain too much"). The build writes the
+         first and the last (tonight.py's lede()); the script writes them again from the day's file and puts
+         what is on at this moment between them, a sentence that isn't there while nothing is on. -->
+    <p class="lede"><span id="today">1,718 theaters screening 589 titles.</span><span id="happening"></span> <span id="most">The Cat in the Hat is screening 4,373 times today.</span></p>
   </div>
 
   <div class="tonight">
@@ -323,8 +325,14 @@
     const day = new Date(data.day + "T12:00:00Z").toLocaleDateString("en-US", { timeZone: "UTC", weekday: "long", month: "long", day: "numeric" });
     const over = now > hi, ahead = now < lo;
     $("day").textContent = over ? `${day}: the latest listings` : day;
-    const open = houses.filter(h => h.shows.length).length;
-    $("context").textContent = `${n(open)} of the ${n(houses.length)} have a screening today. `;
+    // the day's counts, as tonight.py's lede() built them: the houses with a screening and the titles they
+    // show (titles, not films: the day's list has a film's formats and a house's events as titles of their
+    // own), and the title with the most screenings. A count keeps to its noun where the line breaks (\u00a0)
+    const open = houses.filter(h => h.shows.length).length, listed = titles.filter(x => x.shows).length;
+    const most = titles.reduce((a, b) => b.shows > a.shows ? b : a);
+    $("today").textContent = `${n(open)}\u00a0${open === 1 ? "theater" : "theaters"} screening ${n(listed)}\u00a0${listed === 1 ? "title" : "titles"}.`;
+    $("most").textContent = `${most.name} is screening ${n(most.shows)}\u00a0${most.shows === 1 ? "time" : "times"} today.`;
+    happening();
     listTitles(SHOWN);
 
     dawn = Math.max(lo, sixPacific());
@@ -739,7 +747,21 @@
     if (now >= lo && now <= hi) { t = now; live = true; }
     render();
   }
+  // What is on at this moment, whatever time the map is showing: a sentence of the page's top, and no
+  // sentence while nothing is on (the small hours, or a day's file that is over)
+  function happening() {
+    const now = nowMin();
+    let shows = 0, at = 0;
+    for (const h of houses) {
+      let on = 0;
+      for (const s of h.shows) if (s.s <= now && now < s.e) on++;
+      if (on) { at++; shows += on; }
+    }
+    $("happening").textContent = shows ? ` ${n(shows)}\u00a0${shows === 1 ? "screening is" : "screenings are"} happening now at ${n(at)}\u00a0${at === 1 ? "theater" : "theaters"}.` : "";
+  }
+
   function tick() {
+    happening();
     if (live && !playing) {
       const now = nowMin();
       if (now > hi) live = false; else t = Math.max(lo, now);

@@ -129,8 +129,14 @@ html:not(.js) .bulbs:empty { background: radial-gradient(circle, var(--bulb) 2.5
 /* Type */
 .eyebrow { display: block; font: 600 0.72rem/1.2 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin: 0 0 var(--s3); }
 h1, h2, h3 { font-family: var(--marquee); font-weight: 600; text-transform: uppercase; letter-spacing: 0.01em; color: var(--ink); text-wrap: balance; }
-h1 { font-size: clamp(2.9rem, 1.7rem + 5vw, 5.4rem); line-height: 0.96; margin: 0 0 var(--s4); }
-h2 { font-size: clamp(1.9rem, 1.5rem + 1.6vw, 2.7rem); line-height: 1; margin: 0 0 var(--s3); }
+/* A page's title and its sections' headings are one size, on every page (Kevin, Nov 13: "many of our title
+   sentences have different font sizes"; page titles came in three, and a section's heading a pixel or two
+   under the smallest, which read as a mistake). It is the size the home page's title had: a title is a
+   sentence here, and at this size a long one keeps to two or three lines. The eyebrow and its place at the top
+   say which is the page's. A page doesn't set its own; a list's small headings inside a page (the Map's
+   states, Tonight's titles) are a different thing and do. Then, with them all at home's size: "maybe we
+   should bump the titles all by 15-20% size?" So it is home's size and 17.5% (2, 1.2 + 1.9vw and 3rem before). */
+h1, h2 { font-size: clamp(2.35rem, 1.41rem + 2.23vw, 3.5rem); line-height: 1; margin: 0 0 var(--s3); }
 h3 { font-size: 1.3rem; line-height: 1.1; letter-spacing: 0.03em; margin: 0 0 var(--s2); }
 p { margin: 0 0 1rem; }
 .lede { font-size: clamp(1.08rem, 1rem + 0.35vw, 1.25rem); line-height: 1.5; color: var(--ink-2); margin: 0 0 var(--s5); }

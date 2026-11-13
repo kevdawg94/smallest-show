@@ -32,7 +32,6 @@
   .hero .map { aspect-ratio: 960 / 611; }
   .hero .ground, .hero .land, #lights { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
   .hero .map + .note { margin: var(--s2) 0 0; }
-  .hero h1 { font-size: clamp(2rem, 1.2rem + 1.9vw, 3rem); line-height: 1; margin: 0 0 var(--s3); text-wrap: balance; }
   .hero h1 .figure { color: var(--accent); }
   .hero .lede { font-size: 1.05rem; margin: 0 0 var(--s4); }
 
@@ -218,7 +217,6 @@
   // site.js comes deferred from the colophon, after this script: anything that asks SS waits for it,
   // and a page without it has its lights on at once
   const ready = new Promise(go => document.addEventListener("DOMContentLoaded", go));
-  const calm = () => !window.SS || window.SS.still || window.SS.warm;
   function el(tag, cls, text) {
     const e = document.createElement(tag);
     if (cls) e.className = cls;
@@ -230,20 +228,35 @@
   // Every house in the day's file (tonight/today.json, tonight.py says its shape) on the map's frame,
   // drawn as the Map page draws its lights: a crisp amber dot where it has a show today, with a soft
   // collar of light, and a faint dot where it hasn't. A visit's first page sees them come on east to
-  // west over about five seconds, each catching with a few hard flashes.
+  // west over about five seconds, each catching with a few hard flashes (Kevin, Nov 12: "I like the map
+  // sweep how it was the first time you visit"). A later page of the visit, where they used to be simply
+  // on, sees them come on in about a second, each as the Tonight page switches a light on (his note the
+  // same day: "a quick light turn on animation similar to how the lights come on in the tonight page.
+  // Nothing distracting, just a little detail").
   // the frame's width, the land's (towns carry their x, y in it); 960 is the map page's, before a build
   const VIEW = (document.querySelector(".hero .land") || { viewBox: { baseVal: { width: 960 } } }).viewBox.baseVal.width || 960;
   const sky = $("lights"), box = sky.parentElement;
   let houses = [], k = 1, w = 0, h = 0, colors = null, raf = 0, t0 = 0;
   // the page's colour mode is html[data-theme] (the head sets it; the masthead's switch changes it and fires "themechange")
   const darkMode = { get matches() { return document.documentElement.dataset.theme === "dark"; }, addEventListener: (_, f) => document.documentElement.addEventListener("themechange", f) };
-  const CATCH = 0.5; // seconds a house takes to catch, in two or three flashes
+  // On a visit's first page a house takes FLASHING seconds to catch, in two or three flashes.
+  const FLASHING = 0.5;
+  // On a later page it comes on in seconds on the Tonight page's numbers: its light up over CATCH, and a
+  // surge over it (a larger dot, at night a little hotter, on the Matinee page a wider glow) that peaks
+  // as it arrives and is gone a few SURGEs on
+  const CATCH = 0.12, SURGE = 0.09;
+  const caught = a => a >= CATCH ? 1 : 1 - (1 - a / CATCH) ** 2; // quick at first, easing into full
+  // The start: the first house after `lead`, the last `sweep` later, and the whole of it over by `ends`
+  const FIRST = { lead: 0.3, sweep: 4.1, ends: 5.4 }, LATER = { lead: 0.15, sweep: 0.9, ends: 1.55 };
+  let pace = FIRST;
+  const lasts = () => pace.ends;
+  const comes = house => pace.lead + house.u * pace.sweep; // when a house's light comes on, seconds in
 
   // The colours in the page's mode, from the stage's tokens; the glow is laid over lighter in daylight,
   // where it would otherwise muddy the pale ground
   function theme() {
     const css = getComputedStyle(box), v = name => css.getPropertyValue(name).trim(), dark = darkMode.matches;
-    colors = { bulb: v("--bulb"), unlit: v("--unlit"), dot: dark ? 0.55 : 0.18, near: dark ? 0.9 : 0.55, far: dark ? 0.5 : 0.3 };
+    colors = { dark, bulb: v("--bulb"), core: v("--core"), unlit: v("--unlit"), dot: dark ? 0.55 : 0.18, near: dark ? 0.9 : 0.55, far: dark ? 0.5 : 0.3 };
   }
   const point = () => Math.max(1.6, 0.85 * k); // a lit house's dot, in CSS px
 
@@ -278,7 +291,7 @@
     g.fillStyle = colors.unlit;
     g.globalAlpha = colors.dot;
     for (const house of houses) {
-      if (house.n && (t == null || t >= house.at)) continue;
+      if (house.n && (t == null || t >= comes(house))) continue;
       g.beginPath(); g.arc(house.x, house.y, dim, 0, 7); g.fill();
     }
     lights(g, t);
@@ -287,8 +300,9 @@
   // The lit houses, the Map page's way: plain amber dots on a layer of their own, and their glow that
   // whole layer blurred, by drawing it small and back up with smoothing (no ctx.filter, which older
   // iPhones' Safari lacks): a third the size for the near glow, an eighth for the far one, laid over,
-  // never added, so a dense city doesn't pile up into a slab. The dots go on top, crisp. Catching, a
-  // house shows on its flashes only, the dot briefly larger.
+  // never added, so a dense city doesn't pile up into a slab. The dots go on top, crisp. Catching on a
+  // first page, a house shows on its flashes only, the dot briefly larger; coming on on a later one, its
+  // light rises and surges for a moment: the dot larger, and hotter or wider-glowing by mode.
   let layer = null, third = null, eighth = null;
   function scratch(c, cw, ch) {
     c = c || document.createElement("canvas");
@@ -304,21 +318,46 @@
     lg.setTransform(dpr, 0, 0, dpr, 0, 0);
     lg.clearRect(0, 0, w, h);
     lg.fillStyle = colors.bulb;
+    const surging = []; // [house, its dot's radius, how hard it surges], for the pass that shows it
     for (const house of houses) {
       if (!house.n) continue;
-      const k0 = t == null ? 1 : Math.max(0, Math.min(1, (t - house.at) / CATCH));
-      if (k0 <= 0) continue;
-      if (k0 < 1 && (k0 * house.flashes) % 1 >= 0.5) continue; // on its flashes only
-      const r = p * (k0 < 1 ? 1 + 0.6 * Math.sin(Math.PI * k0) : 1);
+      const age = t == null ? Infinity : t - comes(house);
+      if (age <= 0) continue;
+      if (pace === FIRST) {
+        const k0 = Math.min(1, age / FLASHING);
+        if (k0 < 1 && (k0 * house.flashes) % 1 >= 0.5) continue; // on its flashes only
+        lg.globalAlpha = 1;
+        lg.beginPath(); lg.arc(house.x, house.y, p * (k0 < 1 ? 1 + 0.6 * Math.sin(Math.PI * k0) : 1), 0, 7); lg.fill();
+        continue;
+      }
+      const up = caught(age), surge = age < SURGE * 5 ? 2 * up * Math.exp(-age / SURGE) : 0; // peaks near 0.75
+      const r = p * (1 + 0.6 * surge);
+      lg.globalAlpha = up;
       lg.beginPath(); lg.arc(house.x, house.y, r, 0, 7); lg.fill();
+      if (surge > 0.02) surging.push([house, r, surge * up]);
     }
+    // the surge at night: the bulb runs a little hot for a moment, still amber
+    if (colors.dark) {
+      lg.fillStyle = colors.core;
+      for (const [house, r, hot] of surging) { lg.globalAlpha = hot * 0.55; lg.beginPath(); lg.arc(house.x, house.y, r, 0, 7); lg.fill(); }
+    }
+    lg.globalAlpha = 1;
     g.globalCompositeOperation = "source-over";
     g.imageSmoothingEnabled = true;
-    for (const [c, alpha] of [[eighth, colors.far], [third, colors.near]]) {
+    for (const c of [eighth, third]) {
       const cg = c.getContext("2d");
       cg.imageSmoothingEnabled = true;
+      cg.setTransform(1, 0, 0, 1, 0, 0);
       cg.clearRect(0, 0, c.width, c.height);
       cg.drawImage(layer, 0, 0, c.width, c.height);
+      if (c === third && !colors.dark) { // the Matinee surge: paler would read as dimmer there, so the glow widens instead
+        cg.setTransform(c.width / w, 0, 0, c.height / h, 0, 0);
+        cg.fillStyle = colors.bulb;
+        for (const [house, r, hot] of surging) { cg.globalAlpha = hot * 0.7; cg.beginPath(); cg.arc(house.x, house.y, r * 1.8, 0, 7); cg.fill(); }
+        cg.globalAlpha = 1;
+      }
+    }
+    for (const [c, alpha] of [[eighth, colors.far], [third, colors.near]]) {
       g.globalAlpha = alpha;
       g.drawImage(c, 0, 0, w, h);
     }
@@ -328,15 +367,18 @@
 
   function start() {
     cancelAnimationFrame(raf);
-    if (calm()) return draw(null);
+    if (!window.SS || window.SS.still) return draw(null); // asked for less motion, or no site.js: the lights on at once
+    pace = window.SS.warm ? LATER : FIRST;
     t0 = performance.now();
     const step = now => {
       const t = (now - t0) / 1000;
-      if (t < 5.4) { draw(t); raf = requestAnimationFrame(step); } else draw(null);
+      if (t < lasts()) { draw(t); raf = requestAnimationFrame(step); } else draw(null);
     };
-    raf = requestAnimationFrame(step);
+    // the clock starts with the first frame drawn, not here: on a slow phone, or in a tab opened in the
+    // background, a sweep timed from this line would be partly or wholly over before anyone saw it
+    raf = requestAnimationFrame(now => { t0 = now; step(now); });
   }
-  const starting = () => raf && (performance.now() - t0) / 1000 < 5.4;
+  const starting = () => raf && (performance.now() - t0) / 1000 < lasts();
   function resized() { layout(); if (!starting()) draw(null); }
   // a change of mode redraws in the new one's colours (a start under way picks them up on its next frame)
   darkMode.addEventListener("change", () => { colors = null; if (!starting()) draw(null); });
@@ -360,7 +402,7 @@
       const [, , tx, ty] = data.towns[town];
       const shows = byTitle.reduce((sum, row) => sum + row.length - 1, 0);
       // east comes on first, a little out of order
-      houses.push({ i: houses.length, town, tx, ty, n: shows, at: (1 - tx / VIEW) * 3.2 + rnd() * 0.9 + 0.3, flashes: 2 + (rnd() < 0.5 ? 1 : 0) });
+      houses.push({ i: houses.length, town, tx, ty, n: shows, u: ((1 - tx / VIEW) * 3.2 + rnd() * 0.9) / 4.1, flashes: 2 + (rnd() < 0.5 ? 1 : 0) });
     });
     say(data);
     layout();

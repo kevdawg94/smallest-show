@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About · Smallest Show</title>
-<meta name="description" content="Smallest Show is counting America's independent cinemas, house by house: 2,717 so far. No public body keeps such a count.">
-<meta property="og:title" content="No one keeps a complete count of America's independent cinemas">
-<meta property="og:description" content="Smallest Show is counting America's independent cinemas, house by house: 2,717 so far. No public body keeps such a count.">
+<meta name="description" content="No public body keeps a record of America's independent cinemas. Smallest Show is counting them house by house: 2,717 so far.">
+<meta property="og:title" content="There's no complete record of America's independent cinemas">
+<meta property="og:description" content="Smallest Show is counting them house by house, 2,717 so far, and connecting audiences with their neighborhood theaters.">
 <meta property="og:url" content="https://smallest.show/about/">
 <link rel="stylesheet" href="../site.css">
 <link rel="icon" href="../favicon.ico?v=f83addcc" sizes="32x32">
@@ -25,7 +25,7 @@
   .toc { display: none; }
   @media (min-width: 66rem) {
     .essay { display: grid; grid-template-columns: minmax(0, 38rem) 12rem; justify-content: space-between; gap: 4rem; align-items: start; }
-    .toc { display: block; position: sticky; top: 2rem; margin-top: 7.5rem; }
+    .toc { display: block; position: sticky; top: 2rem; } /* its label level with the page's eyebrow */
     .toc ol { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--faint); }
     .toc a { display: block; padding: 0.35rem 0 0.35rem 0.9rem; margin-left: -1px; border-left: 1.5px solid transparent; font-size: 0.86rem; color: var(--muted); text-decoration: none; transition: color var(--off), border-color var(--off); }
     .toc a:hover { color: var(--ink); transition-duration: var(--on); }
@@ -33,6 +33,9 @@
     .toc a.here { color: var(--ink); border-left-color: var(--bulb); transition-duration: var(--on); }
   }
   .essay h2 { margin-top: 3.5rem; }
+  /* The mission, the one line of the page in italics: the problem is the heading over it, what we do about it
+     the line under (Kevin, Nov 13). It keeps close to the line it leads into. */
+  .essay .mission { color: var(--ink); margin-bottom: var(--s3); }
   .essay p, .essay li { color: var(--ink-2); }
   .essay strong { color: var(--ink); font-weight: 600; }
   sup { line-height: 0; font-size: 0.68em; }
@@ -96,9 +99,10 @@
 <main class="wrap section essay">
   <article class="measure">
     <span class="eyebrow">About the project</span>
-    <h1>No one keeps a complete count of America's independent cinemas</h1>
-    <p class="lede">No federal program supports them as a class, so no public body has reason to count them. Smallest Show is counting them, house by house, and keeping a dated record of what they show, starting with the 1,818 the widget reads.</p>
-    <p>Smallest Show is an independent project, not affiliated with any exhibitor, distributor or ticketing company.</p>
+    <h1>There's no complete record of America's independent cinemas</h1>
+    <p class="lede mission"><em>Smallest Show's mission is to build that record and to connect audiences with their neighborhood theaters.</em></p>
+    <p class="lede">We are counting the cinemas house by house and keeping a dated record of what they show.</p>
+    <p class="lede">Smallest Show is an independent project, not affiliated with any exhibitor, distributor or ticketing company.</p>
 
     <h2 id="why">What goes unrecorded</h2>
     <p>Independent cinemas book their own programs, and those bookings are how films outside the studio release calendar reach American screens: foreign-language releases, documentaries, first features, restorations, repertory on film.</p>
@@ -146,12 +150,12 @@
       <li><h3>United Kingdom</h3><p>The BFI's Film Audience Network gets £10.8 million of National Lottery money for 2026–29 to build audiences for independent film across the country.<sup><a href="#s9">9</a></sup></p></li>
       <li><h3>Europe</h3><p>Europa Cinemas, the EU-backed network of independent cinemas, counts 1,290 members in 39 countries. To keep its support, each one reports its screenings and admissions film by film.<sup><a href="#s10">10</a></sup></p></li>
       <li><h3>South Korea and Brazil</h3><p>Since 2010, Korea's cinemas have been required by law to report every ticket sold to the national film council's network.<sup><a href="#s11">11</a></sup> Brazil's cinemas report every screening each day, and its film agency publishes each screening's attendance as open data.<sup><a href="#s12">12</a></sup></p></li>
-      <li class="us"><h3>United States</h3><p>No federal program supports cinemas as a class, as France and Germany do, and no public body keeps count of the independents.</p></li>
+      <li class="us"><h3>United States</h3><p>No federal program supports cinemas as a class, as France and Germany do, so no public body has reason to keep a record of the independents.</p></li>
     </ul>
 
-    <h2 id="us">In the US, no one keeps count</h2>
+    <h2 id="us">In the US, no federal support and no reporting</h2>
     <p>American support for the arts runs mostly through tax deductions for private gifts. In 2004 the National Endowment for the Arts called itself “less than 1 percent of total arts philanthropy in the U.S.” It added: “No one—not even the NEA—has exact statistics on American cultural institutions.”<sup><a href="#s13">13</a></sup> Its whole budget, for every art form in the country, was $207 million in 2026, and the White House's budget for 2027 proposes closing it.<sup><a href="#s14">14</a></sup></p>
-    <p>The one federal program written for cinemas was pandemic relief, the Shuttered Venue Operators Grants, which kept theaters open without asking what they showed.<sup><a href="#s2">2</a></sup> Abroad, money leads to a test and the test to a record. In the US there is no test, so no one has a reason to count.</p>
+    <p>The one federal program written for cinemas was pandemic relief, the Shuttered Venue Operators Grants, which kept theaters open without asking what they showed.<sup><a href="#s2">2</a></sup> Abroad, money leads to a test and the test to a record. In the US there is no test, so no one has a reason to keep one.</p>
 
     <h2 id="ours">What we do</h2>
     <p>Smallest Show documents America's independent cinemas: where each one is and, for the 1,818 whose schedules it reads, what they show and how that changes over time. The case for supporting them starts with that record.</p>
