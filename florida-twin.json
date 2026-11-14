@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "florida-twin",
+ "name": "Florida Twin Theatre",
+ "city": "gainesville",
+ "area": "Starke",
+ "region": "Gainesville",
+ "url": "https://www.floridatwintheatre.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.floridatwintheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://www.floridatwintheatre.com/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.floridatwintheatre.com/"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.floridatwintheatre.com/"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.floridatwintheatre.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.floridatwintheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://www.floridatwintheatre.com/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.floridatwintheatre.com/"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.floridatwintheatre.com/"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.floridatwintheatre.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

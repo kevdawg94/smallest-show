@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "bigtime-bethany",
+ "name": "BigTime Cinema",
+ "city": "fairfieldia",
+ "area": "Bethany",
+ "region": "Bethany",
+ "url": "https://www.bigtimecinema.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=1gsvgrdvgn087k4bx8ww07p2hg",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2685?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2682?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2686?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2683?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2684?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=1gsvgrdvgn087k4bx8ww07p2hg",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2687?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

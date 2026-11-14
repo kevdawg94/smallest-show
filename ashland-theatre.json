@@ -1,0 +1,78 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "ashland-theatre",
+ "name": "Ashland Theatre",
+ "city": "richmond",
+ "area": "Ashland",
+ "region": "Ashland",
+ "url": "https://www.ashlandtheatre.org/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=663740~5314ae15-9abf-478b-934a-9eb1a9f033ad&",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663751~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    },
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663752~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    },
+    {
+     "at": "2026-11-15T10:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663753~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    },
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663754~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    },
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663755~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    }
+   ]
+  },
+  {
+   "title": "Miss Congeniality",
+   "rating": "PG-13",
+   "runtime_min": 110,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=667578~5314ae15-9abf-478b-934a-9eb1a9f033ad&",
+   "shows": [
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=667579~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666232~5314ae15-9abf-478b-934a-9eb1a9f033ad&",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666233~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

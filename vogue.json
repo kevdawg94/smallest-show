@@ -1,0 +1,76 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "vogue",
+ "name": "Vogue",
+ "city": "bay",
+ "area": "Presidio Heights",
+ "region": "San Francisco",
+ "url": "https://www.voguemovies.com/",
+ "films": [
+  {
+   "title": "National Theatre Live: Golden Boy",
+   "rating": "TBC",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=qkwymq4me4nthdzzgj9fe08j0r",
+   "shows": [
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/19855?siteToken=qkwymq4me4nthdzzgj9fe08j0r"
+    }
+   ]
+  },
+  {
+   "title": "Mary Poppins",
+   "rating": "G",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=qkwymq4me4nthdzzgj9fe08j0r",
+   "shows": [
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20356?siteToken=qkwymq4me4nthdzzgj9fe08j0r"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20357?siteToken=qkwymq4me4nthdzzgj9fe08j0r"
+    }
+   ]
+  },
+  {
+   "title": "Scattered Seeds of the Pomegranate",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=qkwymq4me4nthdzzgj9fe08j0r",
+   "shows": [
+    {
+     "at": "2026-11-20T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20113?siteToken=qkwymq4me4nthdzzgj9fe08j0r"
+    }
+   ]
+  },
+  {
+   "title": "A Fire There",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=qkwymq4me4nthdzzgj9fe08j0r",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20114?siteToken=qkwymq4me4nthdzzgj9fe08j0r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

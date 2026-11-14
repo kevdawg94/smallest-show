@@ -1,0 +1,944 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "festival-theaters",
+ "name": "Festival Theaters",
+ "city": "palmsprings",
+ "area": "Palm Springs",
+ "region": "Palm Springs",
+ "url": "https://festivaltheaters.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://festivaltheaters.com/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-14T11:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303849"
+    },
+    {
+     "at": "2026-11-14T13:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303857"
+    },
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303865"
+    },
+    {
+     "at": "2026-11-14T19:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303871"
+    },
+    {
+     "at": "2026-11-15T11:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303875"
+    },
+    {
+     "at": "2026-11-15T13:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303884"
+    },
+    {
+     "at": "2026-11-15T16:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303892"
+    },
+    {
+     "at": "2026-11-15T19:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303900"
+    },
+    {
+     "at": "2026-11-16T13:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303914"
+    },
+    {
+     "at": "2026-11-16T16:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303922"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4303930"
+    },
+    {
+     "at": "2026-11-17T13:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4312043"
+    },
+    {
+     "at": "2026-11-17T16:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4312049"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4312054"
+    },
+    {
+     "at": "2026-11-18T13:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4312428"
+    },
+    {
+     "at": "2026-11-18T16:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4312436"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4312444"
+    },
+    {
+     "at": "2026-11-19T16:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4312463"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/ebenezer/4312471"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://festivaltheaters.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-14T11:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127556"
+    },
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127553"
+    },
+    {
+     "at": "2026-11-14T16:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127554"
+    },
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127555"
+    },
+    {
+     "at": "2026-11-15T11:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127560"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127557"
+    },
+    {
+     "at": "2026-11-15T16:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127558"
+    },
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127559"
+    },
+    {
+     "at": "2026-11-16T13:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4312039"
+    },
+    {
+     "at": "2026-11-16T14:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127561"
+    },
+    {
+     "at": "2026-11-16T16:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127562"
+    },
+    {
+     "at": "2026-11-16T19:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127563"
+    },
+    {
+     "at": "2026-11-17T13:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4312063"
+    },
+    {
+     "at": "2026-11-17T14:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127565"
+    },
+    {
+     "at": "2026-11-17T16:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127566"
+    },
+    {
+     "at": "2026-11-17T19:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4127567"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4312426"
+    },
+    {
+     "at": "2026-11-18T14:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4312431"
+    },
+    {
+     "at": "2026-11-18T16:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4312440"
+    },
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4312447"
+    },
+    {
+     "at": "2026-11-19T14:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4312458"
+    },
+    {
+     "at": "2026-11-19T16:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4312467"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/wild-horse-nine/4312474"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": null,
+   "runtime_min": 135,
+   "url": "https://festivaltheaters.com/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-14T11:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303848"
+    },
+    {
+     "at": "2026-11-14T14:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303858"
+    },
+    {
+     "at": "2026-11-14T17:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303867"
+    },
+    {
+     "at": "2026-11-14T20:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303874"
+    },
+    {
+     "at": "2026-11-15T11:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303878"
+    },
+    {
+     "at": "2026-11-15T14:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303886"
+    },
+    {
+     "at": "2026-11-15T17:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303895"
+    },
+    {
+     "at": "2026-11-15T20:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303904"
+    },
+    {
+     "at": "2026-11-16T14:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303916"
+    },
+    {
+     "at": "2026-11-16T17:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303925"
+    },
+    {
+     "at": "2026-11-16T20:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4303934"
+    },
+    {
+     "at": "2026-11-17T14:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4312044"
+    },
+    {
+     "at": "2026-11-17T17:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4312050"
+    },
+    {
+     "at": "2026-11-17T20:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4312057"
+    },
+    {
+     "at": "2026-11-18T14:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4312432"
+    },
+    {
+     "at": "2026-11-18T17:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4312441"
+    },
+    {
+     "at": "2026-11-18T20:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/godzilla-minus-zero/4312451"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": null,
+   "runtime_min": 155,
+   "url": "https://festivaltheaters.com/movie/la-bola-negra-2/",
+   "shows": [
+    {
+     "at": "2026-11-14T11:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4303851"
+    },
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4303860"
+    },
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4303869"
+    },
+    {
+     "at": "2026-11-15T11:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4303877"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4303887"
+    },
+    {
+     "at": "2026-11-15T18:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4303897"
+    },
+    {
+     "at": "2026-11-16T13:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4312036"
+    },
+    {
+     "at": "2026-11-16T16:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4303917"
+    },
+    {
+     "at": "2026-11-16T20:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4303927"
+    },
+    {
+     "at": "2026-11-17T13:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4312060"
+    },
+    {
+     "at": "2026-11-17T16:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4312045"
+    },
+    {
+     "at": "2026-11-17T20:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4312052"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4312425"
+    },
+    {
+     "at": "2026-11-18T16:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4312438"
+    },
+    {
+     "at": "2026-11-18T20:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/la-bola-negra-2/4312449"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": null,
+   "runtime_min": 108,
+   "url": "https://festivaltheaters.com/movie/the-cat-in-the-hat-2/",
+   "shows": [
+    {
+     "at": "2026-11-14T11:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4303852"
+    },
+    {
+     "at": "2026-11-14T14:20",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4303859"
+    },
+    {
+     "at": "2026-11-14T17:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4303868"
+    },
+    {
+     "at": "2026-11-14T19:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4303873"
+    },
+    {
+     "at": "2026-11-15T11:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4303879"
+    },
+    {
+     "at": "2026-11-15T14:20",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4303885"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4303894"
+    },
+    {
+     "at": "2026-11-15T19:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4303902"
+    },
+    {
+     "at": "2026-11-16T13:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4312040"
+    },
+    {
+     "at": "2026-11-16T16:20",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4312041"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4312042"
+    },
+    {
+     "at": "2026-11-17T13:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4303945"
+    },
+    {
+     "at": "2026-11-17T16:20",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4312064"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4312065"
+    },
+    {
+     "at": "2026-11-18T13:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4312430"
+    },
+    {
+     "at": "2026-11-18T16:20",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4312437"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-cat-in-the-hat-2/4312445"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://festivaltheaters.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-14T12:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4303854"
+    },
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4303864"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4303872"
+    },
+    {
+     "at": "2026-11-15T12:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4303881"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4303891"
+    },
+    {
+     "at": "2026-11-15T20:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4303901"
+    },
+    {
+     "at": "2026-11-16T15:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4303921"
+    },
+    {
+     "at": "2026-11-16T18:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4303931"
+    },
+    {
+     "at": "2026-11-17T15:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4312048"
+    },
+    {
+     "at": "2026-11-17T18:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4312055"
+    },
+    {
+     "at": "2026-11-18T15:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4312433"
+    },
+    {
+     "at": "2026-11-18T18:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/you-can-see-everything/4312443"
+    }
+   ]
+  },
+  {
+   "title": "Being Heumann",
+   "rating": null,
+   "runtime_min": 127,
+   "url": "https://festivaltheaters.com/movie/being-heuman/",
+   "shows": [
+    {
+     "at": "2026-11-14T12:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4303855"
+    },
+    {
+     "at": "2026-11-14T15:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4303863"
+    },
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4303870"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4303882"
+    },
+    {
+     "at": "2026-11-15T15:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4303890"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4303899"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4312037"
+    },
+    {
+     "at": "2026-11-16T19:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4312038"
+    },
+    {
+     "at": "2026-11-17T16:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4312061"
+    },
+    {
+     "at": "2026-11-17T19:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4312062"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4312435"
+    },
+    {
+     "at": "2026-11-18T19:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4312446"
+    },
+    {
+     "at": "2026-11-19T16:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4312462"
+    },
+    {
+     "at": "2026-11-19T19:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/being-heuman/4318080"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": 82,
+   "url": "https://festivaltheaters.com/movie/fatherland/",
+   "shows": [
+    {
+     "at": "2026-11-14T13:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fatherland/4303856"
+    },
+    {
+     "at": "2026-11-15T12:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fatherland/4303883"
+    },
+    {
+     "at": "2026-11-15T17:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fatherland/4303896"
+    },
+    {
+     "at": "2026-11-16T15:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fatherland/4303926"
+    },
+    {
+     "at": "2026-11-16T20:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fatherland/4312034"
+    },
+    {
+     "at": "2026-11-17T15:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fatherland/4312051"
+    },
+    {
+     "at": "2026-11-17T20:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fatherland/4312058"
+    },
+    {
+     "at": "2026-11-18T15:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fatherland/4312434"
+    },
+    {
+     "at": "2026-11-18T20:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fatherland/4312450"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://festivaltheaters.com/movie/fjord/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4303862"
+    },
+    {
+     "at": "2026-11-15T12:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4303880"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4303889"
+    },
+    {
+     "at": "2026-11-15T18:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4303898"
+    },
+    {
+     "at": "2026-11-16T13:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4303919"
+    },
+    {
+     "at": "2026-11-16T16:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4303928"
+    },
+    {
+     "at": "2026-11-16T19:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4312035"
+    },
+    {
+     "at": "2026-11-17T13:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4312047"
+    },
+    {
+     "at": "2026-11-17T16:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4312053"
+    },
+    {
+     "at": "2026-11-17T19:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4312059"
+    },
+    {
+     "at": "2026-11-18T13:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4312427"
+    },
+    {
+     "at": "2026-11-18T16:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4312439"
+    },
+    {
+     "at": "2026-11-18T19:45",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/fjord/4312448"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living PickpocketIn New York",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://festivaltheaters.com/movie/the-only-living-pickpocketin-new-york/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-only-living-pickpocketin-new-york/4303861"
+    },
+    {
+     "at": "2026-11-15T15:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-only-living-pickpocketin-new-york/4303888"
+    },
+    {
+     "at": "2026-11-15T20:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-only-living-pickpocketin-new-york/4303903"
+    },
+    {
+     "at": "2026-11-16T13:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-only-living-pickpocketin-new-york/4303918"
+    },
+    {
+     "at": "2026-11-16T18:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-only-living-pickpocketin-new-york/4303933"
+    },
+    {
+     "at": "2026-11-17T13:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-only-living-pickpocketin-new-york/4312046"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-only-living-pickpocketin-new-york/4312056"
+    },
+    {
+     "at": "2026-11-18T13:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-only-living-pickpocketin-new-york/4312429"
+    },
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-only-living-pickpocketin-new-york/4312442"
+    }
+   ]
+  },
+  {
+   "title": "Cinema Couture",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://festivaltheaters.com/movie/cinema-couture/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/cinema-couture/4265187"
+    }
+   ]
+  },
+  {
+   "title": "Crystal Cross",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://festivaltheaters.com/movie/crystal-cross/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/crystal-cross/4177067"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise On The Reaping",
+   "rating": null,
+   "runtime_min": 159,
+   "url": "https://festivaltheaters.com/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-19T13:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4318075"
+    },
+    {
+     "at": "2026-11-19T15:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4318073"
+    },
+    {
+     "at": "2026-11-19T16:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4318076"
+    },
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4318074"
+    },
+    {
+     "at": "2026-11-19T20:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4318077"
+    },
+    {
+     "at": "2026-11-20T12:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4304253"
+    },
+    {
+     "at": "2026-11-20T16:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4304254"
+    },
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4304255"
+    }
+   ]
+  },
+  {
+   "title": "The Skin I Live In",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://festivaltheaters.com/movie/the-skin-i-live-in-2/",
+   "shows": [
+    {
+     "at": "2026-11-19T13:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-skin-i-live-in-2/4318079"
+    },
+    {
+     "at": "2026-11-19T19:15",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-skin-i-live-in-2/4318078"
+    }
+   ]
+  },
+  {
+   "title": "The Code",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://festivaltheaters.com/movie/the-code/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://festivaltheaters.com/checkout/showing/the-code/4265489"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

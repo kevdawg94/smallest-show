@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "dream-russell",
+ "name": "Dream Theatre",
+ "city": "hays",
+ "area": "Russell",
+ "region": "Russell & Lucas",
+ "url": "https://www.dreamtheater.org/",
+ "films": [
+  {
+   "title": "The Cat In The Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/the-cat-in-the-hat-tickets-300085",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/the-cat-in-the-hat-tickets-300085"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/the-cat-in-the-hat-tickets-300085"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise On The Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-tickets-300874",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-tickets-300874"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "majestic-wayne",
+ "name": "Majestic Theatre",
+ "city": "siouxcity",
+ "area": "Wayne, NE",
+ "region": "Wayne",
+ "url": "https://majesticonmain.org/",
+ "films": [
+  {
+   "title": "Tony",
+   "rating": "R",
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games: Sunrise On The Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

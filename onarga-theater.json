@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "onarga-theater",
+ "name": "Onarga Theater",
+ "city": "peoria",
+ "area": "Onarga",
+ "region": "Onarga & Watseka",
+ "url": "https://www.onargatheater.com/",
+ "films": [
+  {
+   "title": "THE CAT IN THE HAT",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.onargatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.onargatheater.com/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://www.onargatheater.com/"
+    }
+   ]
+  },
+  {
+   "title": "PRACTICAL MAGIC 2",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.onargatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.onargatheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

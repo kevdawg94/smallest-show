@@ -1,0 +1,84 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "polk-theatre",
+ "name": "Polk Theatre",
+ "city": "lakeland",
+ "area": "Downtown Lakeland",
+ "region": "Lakeland",
+ "url": "https://www.polktheatre.org/",
+ "films": [
+  {
+   "title": "To Catch a Thief",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39739&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39739&OrganizationID=64"
+    }
+   ]
+  },
+  {
+   "title": "The Lord of the Rings: Two Towers",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39705&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39705&OrganizationID=64"
+    }
+   ]
+  },
+  {
+   "title": "Mad Max: Fury Road",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39706&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-16T18:30",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39706&OrganizationID=64"
+    }
+   ]
+  },
+  {
+   "title": "A Quiet Place",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39710&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39710&OrganizationID=64"
+    }
+   ]
+  },
+  {
+   "title": "The Godfather",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39740&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39740&OrganizationID=64"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

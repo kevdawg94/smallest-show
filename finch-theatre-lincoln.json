@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "finch-theatre-lincoln",
+ "name": "Finch Theatre",
+ "city": "hays",
+ "area": "Lincoln, KS",
+ "region": "Beloit & Lincoln",
+ "url": "https://www.finchtheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.finchtheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.finchtheatre.com/"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.finchtheatre.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

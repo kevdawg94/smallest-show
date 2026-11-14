@@ -1,0 +1,96 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "blue-mouse",
+ "name": "Blue Mouse",
+ "city": "seattle",
+ "area": "Tacoma",
+ "region": "West Seattle & South",
+ "url": "https://bluemousetheatre.com/",
+ "films": [
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 107,
+   "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=CAT%20IN%20THE%20HAT",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=CAT%20IN%20THE%20HAT"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=CAT%20IN%20THE%20HAT"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=CAT%20IN%20THE%20HAT"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=CAT%20IN%20THE%20HAT"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=CAT%20IN%20THE%20HAT"
+    }
+   ]
+  },
+  {
+   "title": "Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=ROCKY%20HORROR%20PICTURE%20SHOW",
+   "shows": [
+    {
+     "at": "2026-11-14T23:30",
+     "sold_out": true,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=ROCKY%20HORROR%20PICTURE%20SHOW"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=HUNGER%20GAMES%20SUNRISE%20%20ON%20THE%20REAPING",
+   "shows": [
+    {
+     "at": "2026-11-20T15:15",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=HUNGER%20GAMES%20SUNRISE%20%20ON%20THE%20REAPING"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=HUNGER%20GAMES%20SUNRISE%20%20ON%20THE%20REAPING"
+    }
+   ]
+  },
+  {
+   "title": "Nightmare on Elm Street 4",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=NIGHTMARE%20ON%20ELM%20STREET%204",
+   "shows": [
+    {
+     "at": "2026-11-20T22:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=bluemouse&rtn=279423&page=picktitle&showTitle=NIGHTMARE%20ON%20ELM%20STREET%204"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

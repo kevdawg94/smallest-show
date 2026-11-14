@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "rex-orofino",
+ "name": "Rex Theater",
+ "city": "palouse",
+ "area": "Orofino",
+ "region": "Orofino",
+ "url": "https://therextheater.com/",
+ "films": [
+  {
+   "title": "Whalefall",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://therextheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://events.cocoatickets.com/the-rex-theater/whalefall"
+    },
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://events.cocoatickets.com/the-rex-theater/whalefall"
+    },
+    {
+     "at": "2026-11-15T18:30",
+     "sold_out": false,
+     "url": "https://events.cocoatickets.com/the-rex-theater/whalefall"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

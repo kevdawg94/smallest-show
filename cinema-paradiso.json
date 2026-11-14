@@ -1,0 +1,105 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "cinema-paradiso",
+ "name": "Cinema Paradiso",
+ "city": "miami",
+ "area": "Hollywood",
+ "region": "Broward",
+ "url": "https://www.cinemahollywood.org/",
+ "films": [
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://www.cinemahollywood.org/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318658"
+    },
+    {
+     "at": "2026-11-14T20:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318659"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318667"
+    },
+    {
+     "at": "2026-11-17T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318668"
+    },
+    {
+     "at": "2026-11-17T18:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318669"
+    },
+    {
+     "at": "2026-11-18T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318670"
+    },
+    {
+     "at": "2026-11-18T18:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318671"
+    },
+    {
+     "at": "2026-11-19T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318672"
+    },
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318673"
+    },
+    {
+     "at": "2026-11-20T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318674"
+    },
+    {
+     "at": "2026-11-20T18:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318675"
+    },
+    {
+     "at": "2026-11-20T20:45",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4318676"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://www.cinemahollywood.org/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wicker/4230607"
+    },
+    {
+     "at": "2026-11-15T17:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wicker/4230602"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

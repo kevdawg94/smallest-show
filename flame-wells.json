@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "flame-wells",
+ "name": "Flame Theatre",
+ "city": "rochestermn",
+ "area": "Wells, MN",
+ "region": "Faribault & Wells",
+ "url": "https://cityofwellsmn.gov/",
+ "films": [
+  {
+   "title": "Angel and the Badman",
+   "rating": "PG-13",
+   "runtime_min": 98,
+   "url": "https://cityofwellsmn.gov/index.php/8-movies/91-mutiny-september-18th-21st",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://cityofwellsmn.gov/index.php/8-movies/91-mutiny-september-18th-21st"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://cityofwellsmn.gov/index.php/8-movies/91-mutiny-september-18th-21st"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://cityofwellsmn.gov/index.php/8-movies/91-mutiny-september-18th-21st"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://cityofwellsmn.gov/index.php/8-movies/91-mutiny-september-18th-21st"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://cityofwellsmn.gov/index.php/8-movies/94-heart-of-the-beast-oct-23rd-26th",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://cityofwellsmn.gov/index.php/8-movies/94-heart-of-the-beast-oct-23rd-26th"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

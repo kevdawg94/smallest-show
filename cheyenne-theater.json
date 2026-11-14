@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "cheyenne-theater",
+ "name": "Cheyenne Theater",
+ "city": "saintfrancis",
+ "area": "Saint Francis",
+ "region": "Saint Francis",
+ "url": "https://cheyennetheater.com/",
+ "films": [
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://cheyennetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://cheyennetheater.com/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://cheyennetheater.com/"
+    },
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://cheyennetheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

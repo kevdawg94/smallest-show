@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "garden-theater-frankfort",
+ "name": "Garden Theater",
+ "city": "traversecity",
+ "area": "Frankfort",
+ "region": "Benzie",
+ "url": "https://gardentheater.org/",
+ "films": [
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": 114,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=663885~6a3269ca-7978-417d-9903-ca1548ad1f5e&",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663893~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663894~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=663895~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    }
+   ]
+  },
+  {
+   "title": "Tribu Screening + Q&A",
+   "rating": null,
+   "runtime_min": 60,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=669142~6a3269ca-7978-417d-9903-ca1548ad1f5e&",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669143~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666468~6a3269ca-7978-417d-9903-ca1548ad1f5e&",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666469~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

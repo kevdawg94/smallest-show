@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "yale-film-archive",
+ "name": "Yale Film Archive",
+ "city": "centralct",
+ "area": "Yale, New Haven",
+ "region": "New Haven",
+ "url": "https://web.library.yale.edu/film/screenings",
+ "films": [
+  {
+   "title": "Man of Marble",
+   "rating": null,
+   "runtime_min": 160,
+   "url": "https://web.library.yale.edu/film/wajda100",
+   "shows": [
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://web.library.yale.edu/film/wajda100",
+     "venue": "HQ L02, 320 York"
+    }
+   ]
+  },
+  {
+   "title": "Daughters of the Dust",
+   "rating": null,
+   "runtime_min": 113,
+   "url": "https://web.library.yale.edu/film/sundance",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://web.library.yale.edu/film/sundance",
+     "venue": "HQ L02, 320 York"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

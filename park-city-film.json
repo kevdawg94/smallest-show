@@ -1,0 +1,76 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "park-city-film",
+ "name": "Park City Film",
+ "city": "slc",
+ "area": "Park City",
+ "region": "Park City",
+ "url": "https://parkcityfilm.org/showtimes/",
+ "films": [
+  {
+   "title": "Nocturna",
+   "rating": null,
+   "runtime_min": 83,
+   "url": "https://parkcityfilm.eventive.org/films/6aca6f7316d5b676f4750fed",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6aca6fa3d2f4afec3ac72baf"
+    }
+   ]
+  },
+  {
+   "title": "Matchstick Productions Presents: The Way Out",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://parkcityfilm.eventive.org/films/6a7ff40d002f1a6952bdad70",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6a7ff5cadce8c20f22c488c5"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6a7ff5ec83ace18b2c6f8e06"
+    }
+   ]
+  },
+  {
+   "title": "Girl Winter Film Tour 2026",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://parkcityfilm.eventive.org/films/6a9241b8603ddb737938cbd5",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6aa4caf71889538450eb0592"
+    }
+   ]
+  },
+  {
+   "title": "Everest: The Other Side",
+   "rating": null,
+   "runtime_min": 115,
+   "url": "https://parkcityfilm.eventive.org/films/6abe67f09b68e6a9d1843fde",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6abe6975aa94ed2cc1f1edb1"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

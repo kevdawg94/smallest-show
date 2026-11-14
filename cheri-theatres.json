@@ -1,0 +1,631 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "cheri-theatres",
+ "name": "Cheri Theatres",
+ "city": "paducah",
+ "area": "Murray",
+ "region": "Murray & Mayfield",
+ "url": "https://www.moviesinmurray.com/",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/start?film=856",
+   "shows": [
+    {
+     "at": "2026-11-14T12:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45509"
+    },
+    {
+     "at": "2026-11-14T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45516"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45522"
+    },
+    {
+     "at": "2026-11-14T21:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45529"
+    },
+    {
+     "at": "2026-11-15T12:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45537"
+    },
+    {
+     "at": "2026-11-15T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45543"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45549"
+    },
+    {
+     "at": "2026-11-16T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45558"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45564"
+    },
+    {
+     "at": "2026-11-17T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45572"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45578"
+    },
+    {
+     "at": "2026-11-18T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45586"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45592"
+    },
+    {
+     "at": "2026-11-19T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45604"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/start?film=857",
+   "shows": [
+    {
+     "at": "2026-11-14T12:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45511"
+    },
+    {
+     "at": "2026-11-14T15:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45518"
+    },
+    {
+     "at": "2026-11-14T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45525"
+    },
+    {
+     "at": "2026-11-14T21:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45532"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45538"
+    },
+    {
+     "at": "2026-11-15T15:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45545"
+    },
+    {
+     "at": "2026-11-15T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45552"
+    },
+    {
+     "at": "2026-11-16T15:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45559"
+    },
+    {
+     "at": "2026-11-16T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45566"
+    },
+    {
+     "at": "2026-11-17T15:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45573"
+    },
+    {
+     "at": "2026-11-17T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45580"
+    },
+    {
+     "at": "2026-11-18T15:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45587"
+    },
+    {
+     "at": "2026-11-18T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45594"
+    },
+    {
+     "at": "2026-11-19T18:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45599"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/start?film=859",
+   "shows": [
+    {
+     "at": "2026-11-14T12:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45515"
+    },
+    {
+     "at": "2026-11-14T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45523"
+    },
+    {
+     "at": "2026-11-14T18:35",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45530"
+    },
+    {
+     "at": "2026-11-15T12:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45542"
+    },
+    {
+     "at": "2026-11-15T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45550"
+    },
+    {
+     "at": "2026-11-15T18:35",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45554"
+    },
+    {
+     "at": "2026-11-16T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45562"
+    },
+    {
+     "at": "2026-11-16T18:35",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45568"
+    },
+    {
+     "at": "2026-11-17T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45577"
+    },
+    {
+     "at": "2026-11-17T18:35",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45582"
+    },
+    {
+     "at": "2026-11-18T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45591"
+    },
+    {
+     "at": "2026-11-18T18:35",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45596"
+    },
+    {
+     "at": "2026-11-19T15:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45601"
+    },
+    {
+     "at": "2026-11-19T18:35",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45606"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/start?film=863",
+   "shows": [
+    {
+     "at": "2026-11-14T12:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45512"
+    },
+    {
+     "at": "2026-11-14T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45521"
+    },
+    {
+     "at": "2026-11-14T18:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45528"
+    },
+    {
+     "at": "2026-11-14T21:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45533"
+    },
+    {
+     "at": "2026-11-15T12:55",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45540"
+    },
+    {
+     "at": "2026-11-15T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45547"
+    },
+    {
+     "at": "2026-11-15T18:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45553"
+    },
+    {
+     "at": "2026-11-16T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45560"
+    },
+    {
+     "at": "2026-11-16T18:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45567"
+    },
+    {
+     "at": "2026-11-17T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45574"
+    },
+    {
+     "at": "2026-11-17T18:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45581"
+    },
+    {
+     "at": "2026-11-18T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45588"
+    },
+    {
+     "at": "2026-11-18T18:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45595"
+    },
+    {
+     "at": "2026-11-19T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45600"
+    },
+    {
+     "at": "2026-11-19T18:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45605"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/start?film=861",
+   "shows": [
+    {
+     "at": "2026-11-14T13:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45507"
+    },
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45513"
+    },
+    {
+     "at": "2026-11-14T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45519"
+    },
+    {
+     "at": "2026-11-14T21:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45526"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45535"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45539"
+    },
+    {
+     "at": "2026-11-15T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45546"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45556"
+    },
+    {
+     "at": "2026-11-16T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45561"
+    },
+    {
+     "at": "2026-11-17T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45570"
+    },
+    {
+     "at": "2026-11-17T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45575"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45584"
+    },
+    {
+     "at": "2026-11-18T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45589"
+    },
+    {
+     "at": "2026-11-19T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45597"
+    },
+    {
+     "at": "2026-11-19T19:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45602"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/start?film=860",
+   "shows": [
+    {
+     "at": "2026-11-14T13:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45517"
+    },
+    {
+     "at": "2026-11-14T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45524"
+    },
+    {
+     "at": "2026-11-14T21:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45531"
+    },
+    {
+     "at": "2026-11-15T13:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45544"
+    },
+    {
+     "at": "2026-11-15T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45551"
+    },
+    {
+     "at": "2026-11-16T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45565"
+    },
+    {
+     "at": "2026-11-17T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45579"
+    },
+    {
+     "at": "2026-11-18T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45593"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/start?film=862",
+   "shows": [
+    {
+     "at": "2026-11-14T13:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45508"
+    },
+    {
+     "at": "2026-11-14T16:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45514"
+    },
+    {
+     "at": "2026-11-14T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45520"
+    },
+    {
+     "at": "2026-11-14T21:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45527"
+    },
+    {
+     "at": "2026-11-15T13:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45536"
+    },
+    {
+     "at": "2026-11-15T16:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45541"
+    },
+    {
+     "at": "2026-11-15T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45548"
+    },
+    {
+     "at": "2026-11-16T16:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45557"
+    },
+    {
+     "at": "2026-11-16T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45563"
+    },
+    {
+     "at": "2026-11-17T16:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45571"
+    },
+    {
+     "at": "2026-11-17T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45576"
+    },
+    {
+     "at": "2026-11-18T16:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45585"
+    },
+    {
+     "at": "2026-11-18T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45590"
+    },
+    {
+     "at": "2026-11-19T16:20",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45598"
+    },
+    {
+     "at": "2026-11-19T19:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45603"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/start?film=854",
+   "shows": [
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45506"
+    },
+    {
+     "at": "2026-11-14T21:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45510"
+    },
+    {
+     "at": "2026-11-15T18:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45534"
+    },
+    {
+     "at": "2026-11-16T18:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45555"
+    },
+    {
+     "at": "2026-11-17T18:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45569"
+    },
+    {
+     "at": "2026-11-18T18:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45583"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/start?film=864",
+   "shows": [
+    {
+     "at": "2026-11-19T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45607"
+    },
+    {
+     "at": "2026-11-19T17:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45608"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45609"
+    },
+    {
+     "at": "2026-11-20T15:40",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45610"
+    },
+    {
+     "at": "2026-11-20T16:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45611"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45612"
+    },
+    {
+     "at": "2026-11-20T20:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/CHEMUR/book?perfcode=45613"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

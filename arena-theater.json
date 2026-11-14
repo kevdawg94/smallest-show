@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "arena-theater",
+ "name": "Arena Theater",
+ "city": "mendocino",
+ "area": "Point Arena",
+ "region": "Mendocino Coast",
+ "url": "https://arenatheater.org/",
+ "films": [
+  {
+   "title": "The History of Concrete",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://arenatheater.eventive.org/films/6ae8f057eab7d889bfee6c4a",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule /6aea4c2f0087772ebee2cac3"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://arenatheater.eventive.org/films/6aee157ea68dec3f88a070df",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule /6aee1de18f52406c07b7449b"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

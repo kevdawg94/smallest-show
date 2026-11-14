@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "dewitt-operahouse",
+ "name": "DeWitt Operahouse Theatre",
+ "city": "quadcities",
+ "area": "DeWitt",
+ "region": "Maquoketa & Delmar",
+ "url": "https://dewittoperahouse.com/",
+ "films": [
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://dewittoperahouse.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://dewittoperahouse.com/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://dewittoperahouse.com/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://dewittoperahouse.com/"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://dewittoperahouse.com/"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://dewittoperahouse.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

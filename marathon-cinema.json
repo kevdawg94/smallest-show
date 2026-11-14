@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "marathon-cinema",
+ "name": "Marathon Community Cinema",
+ "city": "keys",
+ "area": "Marathon",
+ "region": "Middle Keys",
+ "url": "https://marathoncinema.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ww01g7eknyxw3kppmcy6fhej6r",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1540?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1543?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1541?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1542?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

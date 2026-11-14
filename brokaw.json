@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "brokaw",
+ "name": "Brokaw Movie House",
+ "city": "fortwayne",
+ "area": "Angola",
+ "region": "Angola & Steuben County",
+ "url": "https://www.thebrokaw.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.fandango.com/brokaw-movie-house-aaxub/theater-page",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.fandango.com/brokaw-movie-house-aaxub/theater-page"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://www.fandango.com/brokaw-movie-house-aaxub/theater-page"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in The Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.fandango.com/brokaw-movie-house-aaxub/theater-page",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.fandango.com/brokaw-movie-house-aaxub/theater-page"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://www.fandango.com/brokaw-movie-house-aaxub/theater-page"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

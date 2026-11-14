@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "strand-britton",
+ "name": "Strand Theatre",
+ "city": "fargo",
+ "area": "Britton, SD",
+ "region": "Britton",
+ "url": "https://www.strand-theatre-brittonsd.com/",
+ "films": [
+  {
+   "title": "The Mongoose",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.strand-theatre-brittonsd.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://www.strand-theatre-brittonsd.com/"
+    },
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://www.strand-theatre-brittonsd.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-09T02:23",
+ "error": true,
+ "warning": null
+}

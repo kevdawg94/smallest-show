@@ -1,0 +1,376 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "parkade",
+ "name": "Parkade Cinemas",
+ "city": "centralct",
+ "area": "Manchester",
+ "region": "Hartford & Manchester",
+ "url": "https://www.parkadecinemas.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a4gs3ad5exj0xmd84kvef4k0nc",
+   "shows": [
+    {
+     "at": "2026-11-14T15:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52102?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T11:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52099?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T15:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52103?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T11:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52126?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52127?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a4gs3ad5exj0xmd84kvef4k0nc",
+   "shows": [
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52111?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T11:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52105?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52112?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a4gs3ad5exj0xmd84kvef4k0nc",
+   "shows": [
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52089?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52083?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-14T20:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52068?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T11:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52090?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T13:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52101?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52091?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52084?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T11:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52120?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52121?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a4gs3ad5exj0xmd84kvef4k0nc",
+   "shows": [
+    {
+     "at": "2026-11-14T15:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52080?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-14T17:50",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52108?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52085?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T11:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52081?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T13:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52078?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T15:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52082?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T17:50",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52109?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T11:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52118?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52119?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a4gs3ad5exj0xmd84kvef4k0nc",
+   "shows": [
+    {
+     "at": "2026-11-14T15:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52074?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52066?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-14T20:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52110?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T11:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52075?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T13:25",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52087?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T15:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52076?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52067?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T11:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52124?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52125?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a4gs3ad5exj0xmd84kvef4k0nc",
+   "shows": [
+    {
+     "at": "2026-11-14T15:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52062?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-14T17:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52069?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52070?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T11:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52063?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T13:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52064?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T15:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52065?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T17:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52071?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T11:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52116?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52117?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a4gs3ad5exj0xmd84kvef4k0nc",
+   "shows": [
+    {
+     "at": "2026-11-14T17:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52092?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52093?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T12:55",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52097?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T17:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52094?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T11:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52122?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52123?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a4gs3ad5exj0xmd84kvef4k0nc",
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52113?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-14T20:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52114?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T13:25",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52107?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52115?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a4gs3ad5exj0xmd84kvef4k0nc",
+   "shows": [
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52128?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-20T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52129?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    },
+    {
+     "at": "2026-11-20T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/52130?siteToken=a4gs3ad5exj0xmd84kvef4k0nc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

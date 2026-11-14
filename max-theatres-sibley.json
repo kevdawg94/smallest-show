@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "max-theatres-sibley",
+ "name": "Max Theatres",
+ "city": "siouxcity",
+ "area": "Sibley",
+ "region": "Sibley",
+ "url": "https://www.maxtheatres.com/",
+ "films": [
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://ghostsoldier.movie",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/14"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/15"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 108,
+   "url": "https://www.catinthehatfilm.com",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/14"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/15"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

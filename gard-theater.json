@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "gard-theater",
+ "name": "Gard Theater",
+ "city": "madison",
+ "area": "Spring Green",
+ "region": "Southwest Wisconsin",
+ "url": "https://gardtheater.com",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://gardtheater.com",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://gardtheater.com"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://gardtheater.com"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

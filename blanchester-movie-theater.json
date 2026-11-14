@@ -1,0 +1,93 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "blanchester-movie-theater",
+ "name": "Blanchester Movie Theater",
+ "city": "cincinnati",
+ "area": "Blanchester",
+ "region": "Lebanon & Wilmington",
+ "url": "https://blanchestermovietheater.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.blanchestermovietheater.com/movie/ebenezer-2/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/ebenezer-2/4232957"
+    },
+    {
+     "at": "2026-11-14T20:15",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/ebenezer-2/4232958"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/ebenezer-2/4232964"
+    },
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/ebenezer-2/4232967"
+    },
+    {
+     "at": "2026-11-20T18:30",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/ebenezer-2/4234112"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://www.blanchestermovietheater.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:15",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/the-cat-in-the-hat/4232956"
+    },
+    {
+     "at": "2026-11-14T20:25",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/the-cat-in-the-hat/4232959"
+    },
+    {
+     "at": "2026-11-15T14:20",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/the-cat-in-the-hat/4232965"
+    },
+    {
+     "at": "2026-11-18T18:15",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/the-cat-in-the-hat/4232966"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.blanchestermovietheater.com/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-20T18:20",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4234111"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

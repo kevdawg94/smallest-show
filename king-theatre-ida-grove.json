@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "king-theatre-ida-grove",
+ "name": "King Theatre",
+ "city": "siouxcity",
+ "area": "Ida Grove",
+ "region": "Ida Grove",
+ "url": "https://www.idagrovekingtheatre.com/",
+ "films": [
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://258391.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261114",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://258391.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261114"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://258391.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261115"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

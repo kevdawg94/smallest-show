@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "sayre-theatre",
+ "name": "Sayre Theatre",
+ "city": "nepa",
+ "area": "Sayre",
+ "region": "Sayre",
+ "url": "https://www.bradfordcountymovies.com/sayre-theatre/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29201?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29210?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29204?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0",
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29200?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29203?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

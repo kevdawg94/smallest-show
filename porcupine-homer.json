@@ -1,0 +1,107 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "porcupine-homer",
+ "name": "The Porcupine Theater",
+ "city": "kenai",
+ "area": "Homer",
+ "region": "Homer",
+ "url": "https://porcupinetheater.com/",
+ "films": [
+  {
+   "title": "Musk",
+   "rating": null,
+   "runtime_min": 235,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/301638/"
+    }
+   ]
+  },
+  {
+   "title": "Forgotten Island",
+   "rating": null,
+   "runtime_min": 109,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-15T17:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/301634/"
+    },
+    {
+     "at": "2026-11-16T16:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/301779/"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-15T20:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/301636/"
+    },
+    {
+     "at": "2026-11-16T19:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/301781/"
+    }
+   ]
+  },
+  {
+   "title": "Victor/Victoria",
+   "rating": null,
+   "runtime_min": 134,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-17T18:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/301783/"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-20T17:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/302404/"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-20T20:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/295530/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

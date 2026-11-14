@@ -1,0 +1,85 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "rialto-grayling",
+ "name": "Rialto Theater",
+ "city": "northernmi",
+ "area": "Grayling",
+ "region": "Gaylord & Grayling",
+ "url": "https://www.graylingmovies.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.graylingmovies.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/e964c14a-2985-5b25-a6e3-dbe688e6d9e5"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/dc21812f-f671-55d7-86f3-e417faa44cca"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/3d38fde8-307a-5a53-b9ee-3a7dcebfcfa0"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/7608ff43-c4ad-5fb5-9f63-d541ca526a74"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/5c720e76-d45f-5467-baa3-3a40d3ab15e0"
+    },
+    {
+     "at": "2026-11-17T14:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/5737842e-b64e-5e2b-92f8-a7839f6272f5"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/e8fcd720-bfea-5702-a53c-e289032c9bc9"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/28599a93-df2e-51c6-aa49-a6dc91b9a7ac"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.graylingmovies.com/",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/7a3758ce-c6d8-5c56-b115-2f409ef2ef73"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://booking.graylingmovies.com/launch/ticketing/697dfce8-d009-5391-b422-3f034fe94af6"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

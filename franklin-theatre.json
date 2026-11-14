@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "franklin-theatre",
+ "name": "Franklin Theatre",
+ "city": "nashville",
+ "area": "Franklin",
+ "region": "Franklin",
+ "url": "https://www.franklintheatre.com/tickets/movies/",
+ "films": [
+  {
+   "title": "Polar Express (2004)",
+   "rating": "G",
+   "runtime_min": 100,
+   "url": "https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=508416~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&",
+   "shows": [
+    {
+     "at": "2026-11-15T10:00",
+     "sold_out": false,
+     "url": "https://secure.franklintheatre.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=568634~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&"
+    }
+   ]
+  },
+  {
+   "title": "White Christmas (1954)",
+   "rating": "NR",
+   "runtime_min": 120,
+   "url": "https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=66011~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&",
+   "shows": [
+    {
+     "at": "2026-11-15T13:30",
+     "sold_out": false,
+     "url": "https://secure.franklintheatre.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=568636~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&"
+    }
+   ]
+  },
+  {
+   "title": "National Lampoon's Christmas Vacation (1989)",
+   "rating": "PG-13",
+   "runtime_min": 97,
+   "url": "https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=448656~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&",
+   "shows": [
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://secure.franklintheatre.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=568637~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

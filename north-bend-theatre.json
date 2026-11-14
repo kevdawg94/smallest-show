@@ -1,0 +1,86 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "north-bend-theatre",
+ "name": "North Bend Theatre",
+ "city": "seattle",
+ "area": "North Bend",
+ "region": "West Seattle & South",
+ "url": "https://tix.northbendtheatre.com/",
+ "films": [
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tix.northbendtheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-saturday-nov-14th-3pm"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/godzilla-minus-zero-sunday-nov-15th-7pm"
+    }
+   ]
+  },
+  {
+   "title": "Mrs. Miniver",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tix.northbendtheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/mrs-miniver-sunday-nov-15th-3pm"
+    }
+   ]
+  },
+  {
+   "title": "Alien Private Eye",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tix.northbendtheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/alien-private-eye-wednesday-nov-18th-7pm"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tix.northbendtheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-thursday-nov-19th-7pm"
+    },
+    {
+     "at": "2026-11-20T15:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-3pm"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-friday-nov-20th-7pm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

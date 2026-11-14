@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "trail-theatre-stjoseph",
+ "name": "Trail Theatre",
+ "city": "nekansas",
+ "area": "St. Joseph, MO",
+ "region": "St. Joseph & Maryville",
+ "url": "https://www.thetrailtheatre.com/",
+ "films": [
+  {
+   "title": "Matilda",
+   "rating": "PG",
+   "runtime_min": 98,
+   "url": "https://www.thetrailtheatre.com/movie/matilda/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://www.thetrailtheatre.com/checkout/showing/matilda/4235174"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.thetrailtheatre.com/checkout/showing/matilda/4235175"
+    }
+   ]
+  },
+  {
+   "title": "Planes Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": 92,
+   "url": "https://www.thetrailtheatre.com/movie/planes-trains-and-automobiles/",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.thetrailtheatre.com/checkout/showing/planes-trains-and-automobiles/4235176"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.thetrailtheatre.com/checkout/showing/planes-trains-and-automobiles/4235177"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

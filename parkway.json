@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "parkway",
+ "name": "Parkway",
+ "city": "msp",
+ "area": "South Minneapolis",
+ "region": "Minneapolis",
+ "url": "https://theparkwaytheater.com/",
+ "films": [
+  {
+   "title": "Willy Wonka & the Chocolate Factory (1971)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/wonka-26",
+   "shows": [
+    {
+     "at": "2026-11-14T13:00",
+     "sold_out": false,
+     "url": "https://link.dice.fm/S6e61778db8a"
+    }
+   ]
+  },
+  {
+   "title": "Friday (1995) w/ pre-movie trivia hosted by Jeff Pariseau",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/friday-26",
+   "shows": [
+    {
+     "at": "2026-11-18T20:00",
+     "sold_out": false,
+     "url": "https://link.dice.fm/saf8d2af77aa"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

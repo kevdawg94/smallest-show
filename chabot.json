@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "chabot",
+ "name": "Chabot",
+ "city": "bay",
+ "area": "Castro Valley",
+ "region": "East Bay",
+ "url": "https://www.thechabot.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=s363yqg3kgmg8act7cek4j9ffw",
+   "shows": [
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2668?siteToken=s363yqg3kgmg8act7cek4j9ffw"
+    },
+    {
+     "at": "2026-11-20T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2669?siteToken=s363yqg3kgmg8act7cek4j9ffw"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

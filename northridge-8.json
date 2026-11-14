@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "northridge-8",
+ "name": "Northridge Cinema 8",
+ "city": "guymon",
+ "area": "Guymon",
+ "region": "Guymon",
+ "url": "https://northridge8.com",
+ "films": [
+  {
+   "title": "Closed Today",
+   "rating": "TBC",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=51sc4vq29496nbwnven7app8h8",
+   "shows": [
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/315836?siteToken=51sc4vq29496nbwnven7app8h8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-10T17:23",
+ "error": true,
+ "warning": null
+}

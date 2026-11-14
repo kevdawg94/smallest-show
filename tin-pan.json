@@ -1,0 +1,102 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "tin-pan",
+ "name": "Tin Pan Theater",
+ "city": "bend",
+ "area": "Downtown Bend",
+ "region": "Bend",
+ "url": "https://tinpantheater.com/",
+ "films": [
+  {
+   "title": "The Cycle of Love",
+   "rating": null,
+   "runtime_min": 98,
+   "url": "https://tinpan.eventive.org/Films/6ad65d9b8217b6d6a46b441c",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6ae9043410052d626f638539"
+    },
+    {
+     "at": "2026-11-16T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6af216e8fe51d0453f2b6ecd"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://tinpan.eventive.org/Films/6ad65c7430d8c821d86eede7",
+   "shows": [
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6ad92806f02efe3065910243"
+    }
+   ]
+  },
+  {
+   "title": "Private Event at Tin Pan",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tinpan.eventive.org/Films/677374a9daf9fb083fc51101",
+   "shows": [
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6aefb1af16ff2e1b11c602f1"
+    }
+   ]
+  },
+  {
+   "title": "NAZA",
+   "rating": null,
+   "runtime_min": 77,
+   "url": "https://tinpan.eventive.org/Films/6ace772531520f6dd8f23a15",
+   "shows": [
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6af21708ea363fe5c7806501"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete | Final Show!",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://tinpan.eventive.org/Films/6acac0e87addf8b57982cc52",
+   "shows": [
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6af217338e9f215ac408a3af"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything | Opening Night!",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://tinpan.eventive.org/Films/6ad92c0eabd6f8426db184c1",
+   "shows": [
+    {
+     "at": "2026-11-20T18:30",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6ad92caed31dd97f84937824"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,139 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "ab-cinemas",
+ "name": "AB Cinemas",
+ "city": "nyc",
+ "area": "Mount Kisco",
+ "region": "Queens & beyond",
+ "url": "https://www.abcinemasny.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=99vj0ycs645yaq6r92v6t93m94",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20521?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T11:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20540?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20546?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=99vj0ycs645yaq6r92v6t93m94",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20536?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20545?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20551?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=99vj0ycs645yaq6r92v6t93m94",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20537?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T10:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20542?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20548?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20552?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=99vj0ycs645yaq6r92v6t93m94",
+   "shows": [
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20519?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T09:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20549?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T11:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20550?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20541?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    },
+    {
+     "at": "2026-11-15T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20544?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=99vj0ycs645yaq6r92v6t93m94",
+   "shows": [
+    {
+     "at": "2026-11-15T10:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20539?siteToken=99vj0ycs645yaq6r92v6t93m94"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

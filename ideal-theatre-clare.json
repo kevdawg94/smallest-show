@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "ideal-theatre-clare",
+ "name": "Ideal Theatre",
+ "city": "saginaw",
+ "area": "Clare",
+ "region": "Clare & Gladwin",
+ "url": "https://idealtheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/start?film=138",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1386"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1387"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1388"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1389"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1390"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/IDECLA/book?perfcode=1391"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

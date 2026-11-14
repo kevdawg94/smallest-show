@@ -1,0 +1,95 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "wilmette",
+ "name": "Wilmette",
+ "city": "chicago",
+ "area": "Wilmette",
+ "region": "Suburbs",
+ "url": "https://www.wilmettetheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eym1b8zj89qyb17se01zmgtfww",
+   "shows": [
+    {
+     "at": "2026-11-14T13:50",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23380?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-14T16:25",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23383?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23384?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-15T13:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23367?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-15T15:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23370?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-15T17:50",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23371?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eym1b8zj89qyb17se01zmgtfww",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23381?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-14T16:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23382?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23385?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-15T13:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23368?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-15T15:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23369?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    },
+    {
+     "at": "2026-11-15T18:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/23372?siteToken=eym1b8zj89qyb17se01zmgtfww"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

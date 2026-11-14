@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "lewiston-community",
+ "name": "Lewiston Community Theatre",
+ "city": "logan",
+ "area": "Lewiston",
+ "region": "Lewiston & North Valley",
+ "url": "https://lewistonutah.gov/theatre/",
+ "films": [
+  {
+   "title": "Angel and the Badman",
+   "rating": "PG-13",
+   "runtime_min": 98,
+   "url": "https://lewistonutah.gov/theatre/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://lewistonutah.gov/theatre/"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://lewistonutah.gov/theatre/"
+    }
+   ]
+  },
+  {
+   "title": "Forgotten Island",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://lewistonutah.gov/theatre/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://lewistonutah.gov/theatre/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "washakie-cinemas",
+ "name": "Washakie Cinemas",
+ "city": "cody",
+ "area": "Worland",
+ "region": "Worland",
+ "url": "https://worlandmovies.com/now-playing",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://worlandmovies.com/now-playing",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://worlandmovies.com/now-playing",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://worlandmovies.com/now-playing"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

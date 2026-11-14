@@ -1,0 +1,72 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "grand-east-greenville",
+ "name": "The Grand Theater",
+ "city": "philly",
+ "area": "East Greenville",
+ "region": "Suburbs",
+ "url": "https://www.thegrandtheater.org/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 107,
+   "url": "https://www.thegrandtheater.org/",
+   "shows": [
+    {
+     "at": "2026-11-14T13:00",
+     "sold_out": false,
+     "url": "https://www.thegrandtheater.org/"
+    },
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://www.thegrandtheater.org/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.thegrandtheater.org/"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.thegrandtheater.org/"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.thegrandtheater.org/"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://www.thegrandtheater.org/"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.thegrandtheater.org/"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.thegrandtheater.org/"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://www.thegrandtheater.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

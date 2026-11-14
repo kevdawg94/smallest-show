@@ -1,0 +1,78 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "silco-theater",
+ "name": "Silco Theater",
+ "city": "silvercity",
+ "area": "Silver City",
+ "region": "Silver City",
+ "url": "https://www.thesilcotheater.com/",
+ "films": [
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1106?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1107?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1111?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1112?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    }
+   ]
+  },
+  {
+   "title": "Burn, Scar",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0",
+   "shows": [
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1093?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    }
+   ]
+  },
+  {
+   "title": "Mallrats",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0",
+   "shows": [
+    {
+     "at": "2026-11-16T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1108?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1109?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

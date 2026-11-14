@@ -1,0 +1,78 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "speed-cinema",
+ "name": "Speed Cinema",
+ "city": "louisville",
+ "area": "Old Louisville, Louisville",
+ "region": "Old Louisville & Downtown",
+ "url": "https://www.speedmuseum.org/cinema/",
+ "films": [
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/once-upon-a-time-in-harlem-at-speed-cinema-2/",
+   "shows": [
+    {
+     "at": "2026-11-14T12:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=5d4a10be-988a-4557-874b-cd87c4c5cbd6"
+    },
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=2303cfb0-6d6a-446a-935e-d6fd882a5b4c"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=a4700e0e-1d1f-4ed3-ac6a-382cc75eb383"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra (Black Ball)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/la-bola-negra-black-ball-at-speed-cinema-3/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=1f2b0fed-ef60-44f7-8814-5a7b51f931f5"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=456c92d0-7fe5-4c98-86b0-07a4f22fd9a1"
+    },
+    {
+     "at": "2026-11-20T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=6772d8c2-8d4e-4964-8f28-71e0a47e2ce7"
+    }
+   ]
+  },
+  {
+   "title": "The Last Waltz",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/the-last-waltz-at-speed-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=f21d6a1f-3503-44f5-8e1b-59dc6be22a67"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

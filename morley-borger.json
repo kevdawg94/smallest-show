@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "morley-borger",
+ "name": "Morley Theatre",
+ "city": "borger",
+ "area": "Borger",
+ "region": "Borger",
+ "url": "https://themorleytheatre.com/",
+ "films": [
+  {
+   "title": "Closed Today",
+   "rating": "TBC",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ws6bg1d0prsrdmqpkwnrcgf3bc",
+   "shows": [
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/314236?siteToken=ws6bg1d0prsrdmqpkwnrcgf3bc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-10T17:23",
+ "error": true,
+ "warning": null
+}

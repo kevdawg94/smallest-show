@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "majestic-eastland",
+ "name": "Majestic Theatre",
+ "city": "abilene",
+ "area": "Eastland",
+ "region": "Eastland County",
+ "url": "https://www.majesticeastland.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=zzzyt7ta8zjf7h38y6nwmg8zhw",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2257?siteToken=zzzyt7ta8zjf7h38y6nwmg8zhw"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2258?siteToken=zzzyt7ta8zjf7h38y6nwmg8zhw"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2259?siteToken=zzzyt7ta8zjf7h38y6nwmg8zhw"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

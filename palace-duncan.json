@@ -1,0 +1,103 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "palace-duncan",
+ "name": "The Palace Theatre",
+ "city": "okc",
+ "area": "Duncan",
+ "region": "Duncan",
+ "url": "https://www.thepalaceduncan.com/",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.thepalaceduncan.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    },
+    {
+     "at": "2026-11-17T18:30",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.thepalaceduncan.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.thepalaceduncan.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    },
+    {
+     "at": "2026-11-15T18:30",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    },
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://www.thepalaceduncan.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

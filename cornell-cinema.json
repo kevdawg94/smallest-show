@@ -1,0 +1,115 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "cornell-cinema",
+ "name": "Cornell Cinema",
+ "city": "ithaca",
+ "area": "Cornell (Willard Straight Hall)",
+ "region": "Ithaca",
+ "url": "https://cinema.cornell.edu/",
+ "films": [
+  {
+   "title": "Double Feature: Sleepaway Camp & Teenage Sex and Death at Camp Miasma",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://cornellcinema.eventive.org/films/6abe95a6c56b4b1514de2b66",
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6abea43bdc7f32cacdfce86d"
+    }
+   ]
+  },
+  {
+   "title": "The Killing",
+   "rating": null,
+   "runtime_min": 85,
+   "url": "https://cornellcinema.eventive.org/films/6a6cadb4855aa16119ac16db",
+   "shows": [
+    {
+     "at": "2026-11-15T14:30",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a70f24ab6f2c2e8ef1e9668"
+    },
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a720a0c8c68599cba096f6e"
+    }
+   ]
+  },
+  {
+   "title": "The Wicker Man",
+   "rating": null,
+   "runtime_min": 93,
+   "url": "https://cornellcinema.eventive.org/films/6a6cae3f2a145a8b5f58f008",
+   "shows": [
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a7209bb0f97a991caded5cf"
+    }
+   ]
+  },
+  {
+   "title": "Treasure Planet (2002): Screening and Discussion with Screenwriter Rob Edwards",
+   "rating": null,
+   "runtime_min": 96,
+   "url": "https://cornellcinema.eventive.org/films/6af1dfa0244d568e8fb9d3ca",
+   "shows": [
+    {
+     "at": "2026-11-16T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6aedf19c191617df304ac01e"
+    }
+   ]
+  },
+  {
+   "title": "The Color of Pomegranates",
+   "rating": null,
+   "runtime_min": 80,
+   "url": "https://cornellcinema.eventive.org/films/6a6cace3ca1df0968cd20ebb",
+   "shows": [
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a7209e44ce91380bfed399f"
+    }
+   ]
+  },
+  {
+   "title": "Seed (2000): Screening and Discussion with director Bobby Sheehan",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://cornellcinema.eventive.org/films/6af1d2eed5067b172847505b",
+   "shows": [
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6af1d5297a6bf1160fa97fcd"
+    }
+   ]
+  },
+  {
+   "title": "Sound of Falling",
+   "rating": null,
+   "runtime_min": 148,
+   "url": "https://cornellcinema.eventive.org/films/6a6cac67446b0d71e9688515",
+   "shows": [
+    {
+     "at": "2026-11-19T20:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a720a2302e7db343fdb6245"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

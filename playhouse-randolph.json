@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "playhouse-randolph",
+ "name": "Playhouse Movie Theatre",
+ "city": "uppervalley",
+ "area": "Randolph",
+ "region": "Randolph",
+ "url": "https://playhouseflicks.com/showtimes/",
+ "films": [
+  {
+   "title": "Sense & Sensibility",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://playhouseflicks.com/showtime/sense-sensibility-2/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/sense-sensibility-2/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/sense-sensibility-3/"
+    },
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/sense-sensibility-4/"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/sense-sensibility-5/"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://playhouseflicks.com/showtime/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/wild-horse-nine/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,70 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "boone-theater",
+ "name": "Boone Theater",
+ "city": "desmoines",
+ "area": "Boone",
+ "region": "Boone",
+ "url": "https://boonetheater.com/movies",
+ "films": [
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://boonetheater.com/movies",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://boonetheater.com/movies"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://boonetheater.com/movies"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://boonetheater.com/movies"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://boonetheater.com/movies"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://boonetheater.com/movies"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://boonetheater.com/movies"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://boonetheater.com/movies",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://boonetheater.com/movies"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

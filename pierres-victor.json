@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "pierres-victor",
+ "name": "Pierre's Theatre",
+ "city": "idahofalls",
+ "area": "Victor",
+ "region": "Teton Valley",
+ "url": "https://pierrestheatre.com",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=z0tkk47nezsg3hkhx4d4t9he2w",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/251?siteToken=z0tkk47nezsg3hkhx4d4t9he2w"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/252?siteToken=z0tkk47nezsg3hkhx4d4t9he2w"
+    }
+   ]
+  },
+  {
+   "title": "Everest: The Other Side",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=z0tkk47nezsg3hkhx4d4t9he2w",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/264?siteToken=z0tkk47nezsg3hkhx4d4t9he2w"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=z0tkk47nezsg3hkhx4d4t9he2w",
+   "shows": [
+    {
+     "at": "2026-11-20T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/253?siteToken=z0tkk47nezsg3hkhx4d4t9he2w"
+    },
+    {
+     "at": "2026-11-20T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/254?siteToken=z0tkk47nezsg3hkhx4d4t9he2w"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

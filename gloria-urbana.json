@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "gloria-urbana",
+ "name": "Gloria Theatre",
+ "city": "dayton",
+ "area": "Urbana",
+ "region": "Bellefontaine & Greenville",
+ "url": "https://gloriatheatre.org",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://gloriatheatre.org/upcoming-events?tag=movie",
+   "shows": [
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    },
+    {
+     "at": "2026-11-14T18:15",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    },
+    {
+     "at": "2026-11-15T14:30",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://gloriatheatre.org/upcoming-events?tag=movie",
+   "shows": [
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://gloriatheatre.org/upcoming-events?tag=movie"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

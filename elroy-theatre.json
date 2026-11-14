@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "elroy-theatre",
+ "name": "Elroy Theatre",
+ "city": "madison",
+ "area": "Elroy",
+ "region": "Southwest Wisconsin",
+ "url": "https://www.elroytheatre.com/",
+ "films": [
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.elroytheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://www.elroytheatre.com/"
+    },
+    {
+     "at": "2026-11-15T13:30",
+     "sold_out": false,
+     "url": "https://www.elroytheatre.com/"
+    },
+    {
+     "at": "2026-11-18T18:30",
+     "sold_out": false,
+     "url": "https://www.elroytheatre.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

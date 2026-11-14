@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "riviera-emmetsburg",
+ "name": "Riviera Theatre",
+ "city": "fairmont",
+ "area": "Emmetsburg, IA",
+ "region": "Iowa Lakes",
+ "url": "https://www.emmetsburgtheater.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.emmetsburgtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.emmetsburgtheater.com/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://www.emmetsburgtheater.com/"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://www.emmetsburgtheater.com/"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.emmetsburgtheater.com/"
+    }
+   ]
+  },
+  {
+   "title": "Power of the Air",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.emmetsburgtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://www.emmetsburgtheater.com/"
+    }
+   ]
+  },
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.emmetsburgtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.emmetsburgtheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

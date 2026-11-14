@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "roslyn-theatre",
+ "name": "Roslyn Theatre",
+ "city": "yakima",
+ "area": "Roslyn",
+ "region": "Kittitas Valley",
+ "url": "https://www.roslyntheatre.com/",
+ "films": [
+  {
+   "title": "How To Rob A Bank",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/how-to-rob-a-bank-tickets-293847",
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/how-to-rob-a-bank-tickets-293847"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/i-play-rocky-tickets-294142",
+   "shows": [
+    {
+     "at": "2026-11-20T18:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/i-play-rocky-tickets-294142"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

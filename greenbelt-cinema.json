@@ -1,0 +1,151 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "greenbelt-cinema",
+ "name": "Greenbelt Cinema",
+ "city": "dc",
+ "area": "Greenbelt",
+ "region": "Maryland",
+ "url": "https://www.greenbeltcinema.org/",
+ "films": [
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 117,
+   "url": "https://greenbeltcinema.org/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-14T17:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wild-horse-nine/4311588"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wild-horse-nine/4311592"
+    },
+    {
+     "at": "2026-11-16T13:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wild-horse-nine/4311594"
+    },
+    {
+     "at": "2026-11-16T16:05",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wild-horse-nine/4311595"
+    },
+    {
+     "at": "2026-11-17T17:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wild-horse-nine/4311596"
+    },
+    {
+     "at": "2026-11-18T20:20",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wild-horse-nine/4311597"
+    },
+    {
+     "at": "2026-11-19T17:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/wild-horse-nine/4311598"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://greenbeltcinema.org/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-14T17:20",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4311591"
+    },
+    {
+     "at": "2026-11-15T16:05",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4311604"
+    },
+    {
+     "at": "2026-11-16T12:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4311605"
+    },
+    {
+     "at": "2026-11-17T19:45",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4311606"
+    },
+    {
+     "at": "2026-11-18T17:20",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4311607"
+    },
+    {
+     "at": "2026-11-19T17:20",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/you-can-see-everything/4311608"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 159,
+   "url": "https://greenbeltcinema.org/movie/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:45",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4311590"
+    },
+    {
+     "at": "2026-11-15T12:40",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4311599"
+    },
+    {
+     "at": "2026-11-16T16:25",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4311600"
+    },
+    {
+     "at": "2026-11-17T14:15",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4311601"
+    },
+    {
+     "at": "2026-11-18T17:00",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4311602"
+    },
+    {
+     "at": "2026-11-19T19:45",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/la-bola-negra/4311603"
+    }
+   ]
+  },
+  {
+   "title": "Storytime On Screen",
+   "rating": "G",
+   "runtime_min": 45,
+   "url": "https://greenbeltcinema.org/movie/storytime-on-screen/",
+   "shows": [
+    {
+     "at": "2026-11-16T10:30",
+     "sold_out": false,
+     "url": "https://greenbeltcinema.org/checkout/showing/storytime-on-screen/4311906"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

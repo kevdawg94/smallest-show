@@ -1,0 +1,85 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "abcinema",
+ "name": "ABCinema",
+ "city": "fortwayne",
+ "area": "Decatur",
+ "region": "Decatur & Adams County",
+ "url": "https://abcinemainc.com",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://abcinemainc.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-14T17:15",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-15T16:40",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    }
+   ]
+  },
+  {
+   "title": "Dr. Suess' The Cat in the Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://abcinemainc.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:45",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-14T17:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-14T20:15",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-15T14:20",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

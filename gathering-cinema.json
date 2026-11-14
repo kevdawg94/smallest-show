@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "gathering-cinema",
+ "name": "The Gathering Cinema",
+ "city": "chico",
+ "area": "Paradise",
+ "region": "Oroville & Paradise",
+ "url": "https://thegatheringcinema.com/",
+ "films": [
+  {
+   "title": "Moana (Live Action)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.thegatheringcinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://www.thegatheringcinema.com/"
+    }
+   ]
+  },
+  {
+   "title": "Mamma Mia",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.thegatheringcinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.thegatheringcinema.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

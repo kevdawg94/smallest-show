@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "pix",
+ "name": "Pix Theatre",
+ "city": "corvallis",
+ "area": "Albany",
+ "region": "Albany",
+ "url": "https://www.albanypix.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.albanypix.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.us.veezi.com/purchase/9662?siteToken=33%2fg0dB1GEWIz%2foycM%2fHLA%3d%3d"
+    },
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.us.veezi.com/purchase/9663?siteToken=33%2fg0dB1GEWIz%2foycM%2fHLA%3d%3d"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.us.veezi.com/purchase/9664?siteToken=33%2fg0dB1GEWIz%2foycM%2fHLA%3d%3d"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.us.veezi.com/purchase/9665?siteToken=33%2fg0dB1GEWIz%2foycM%2fHLA%3d%3d"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.us.veezi.com/purchase/9666?siteToken=33%2fg0dB1GEWIz%2foycM%2fHLA%3d%3d"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.albanypix.com/",
+   "shows": [
+    {
+     "at": "2026-11-19T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.us.veezi.com/purchase/9672?siteToken=33%2fg0dB1GEWIz%2foycM%2fHLA%3d%3d"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.us.veezi.com/purchase/9671?siteToken=33%2fg0dB1GEWIz%2foycM%2fHLA%3d%3d"
+    },
+    {
+     "at": "2026-11-20T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.us.veezi.com/purchase/9680?siteToken=33%2fg0dB1GEWIz%2foycM%2fHLA%3d%3d"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.us.veezi.com/purchase/9673?siteToken=33%2fg0dB1GEWIz%2foycM%2fHLA%3d%3d"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

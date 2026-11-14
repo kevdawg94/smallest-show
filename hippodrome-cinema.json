@@ -1,0 +1,117 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "hippodrome-cinema",
+ "name": "Hippodrome Cinema",
+ "city": "gainesville",
+ "area": "Downtown Gainesville",
+ "region": "Gainesville",
+ "url": "https://thehipp.org/cinema",
+ "films": [
+  {
+   "title": "Ha-Chan, Shake Your Booty!",
+   "rating": null,
+   "runtime_min": 122,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98207ACMVVTGCHQSSKNRSHTJDLKVDVJGK"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98208ABVHHCRBLPQQMHRHQKNGTDDTDQQJ"
+    }
+   ]
+  },
+  {
+   "title": "The History Of Concrete",
+   "rating": null,
+   "runtime_min": 101,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98407ALGGGRGTRHPPBGSSRGVDLSJSPKPC"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98408ATGPHSQCMSMPRVPMBLQVRRQLTMGN"
+    }
+   ]
+  },
+  {
+   "title": "Primetime",
+   "rating": null,
+   "runtime_min": 109,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-14T20:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98607ACMJQQKNVHMKKRCHSDQMKKKBSJNG"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98608ADSQJBQHBRQPCLLLDDTJVCCRSCNM"
+    }
+   ]
+  },
+  {
+   "title": "Coyote vs. Acme: HippCinema ❤ Looney Tunes!",
+   "rating": null,
+   "runtime_min": 103,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98801AKQTBNPHKSKVKNHDSDLMDTQTRVHK"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-19T20:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=99201ARVMRKGLNVBJRVMKRJRKRVKMPKRK"
+    },
+    {
+     "at": "2026-11-20T17:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=99202AJLVVMLNNMRKPSBDNGHNVPVJSPRK"
+    }
+   ]
+  },
+  {
+   "title": "Who Framed Roger Rabbit: Staff Reel Picks - Bo Garcia, Projectionist HippCinema ❤ Looney Tunes!",
+   "rating": null,
+   "runtime_min": 104,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-20T20:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=99401APPDJPTMCNDVGNBQJKKGBJNTJSJR"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

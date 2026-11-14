@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "rialto-arnold",
+ "name": "Rialto Theatre",
+ "city": "kearney",
+ "area": "Arnold",
+ "region": "Broken Bow",
+ "url": "https://arnoldne.org/rialto-theatre/",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://arnoldne.org/rialto-theatre/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://arnoldne.org/rialto-theatre/"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://arnoldne.org/rialto-theatre/"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://arnoldne.org/rialto-theatre/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

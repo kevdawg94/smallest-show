@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "quasar-drive-in",
+ "name": "Quasar Drive-In",
+ "city": "omaha",
+ "area": "Valley",
+ "region": "West Omaha & Sarpy",
+ "url": "https://www.quasardrivein.com/",
+ "films": [
+  {
+   "title": "Ebenezer / Scrooged",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=twvewemxv0nx8e2kk9tt2f56c0",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1435?siteToken=twvewemxv0nx8e2kk9tt2f56c0"
+    }
+   ]
+  },
+  {
+   "title": "How The Grinch Stole Christmas / Elf",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=twvewemxv0nx8e2kk9tt2f56c0",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1291?siteToken=twvewemxv0nx8e2kk9tt2f56c0"
+    }
+   ]
+  },
+  {
+   "title": "A Christmas Story / Christmas Vacation",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=twvewemxv0nx8e2kk9tt2f56c0",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1091?siteToken=twvewemxv0nx8e2kk9tt2f56c0"
+    }
+   ]
+  },
+  {
+   "title": "Polar Express / Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=twvewemxv0nx8e2kk9tt2f56c0",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1437?siteToken=twvewemxv0nx8e2kk9tt2f56c0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

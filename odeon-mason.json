@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "odeon-mason",
+ "name": "Odeon Theater",
+ "city": "austin",
+ "area": "Mason",
+ "region": "Mason",
+ "url": "https://www.theodeontheater.com/movies",
+ "films": [
+  {
+   "title": "Angel and the Badman",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theodeontheater.com/movies/2026/11/16/angel-and-bad-man",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.theodeontheater.com/movies/2026/11/14/angel-and-bad-man"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.theodeontheater.com/movies/2026/11/15/angel-and-bad-man"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://www.theodeontheater.com/movies/2026/11/16/angel-and-bad-man"
+    }
+   ]
+  },
+  {
+   "title": "Classic Movie - The Deer Hunter",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theodeontheater.com/movies/2026/11/18/the-deer-hunter",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.theodeontheater.com/movies/2026/11/18/the-deer-hunter"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

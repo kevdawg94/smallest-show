@@ -1,0 +1,785 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "wayfarer",
+ "name": "Wayfarer",
+ "city": "chicago",
+ "area": "Highland Park",
+ "region": "Suburbs",
+ "url": "https://wayfarertheaters.com/highlandpark",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-14T13:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4231748"
+    },
+    {
+     "at": "2026-11-14T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4231749"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4231665"
+    },
+    {
+     "at": "2026-11-16T13:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4231678"
+    },
+    {
+     "at": "2026-11-17T13:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4231691"
+    },
+    {
+     "at": "2026-11-17T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4231692"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4231706"
+    },
+    {
+     "at": "2026-11-18T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4283024"
+    },
+    {
+     "at": "2026-11-19T13:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4231720"
+    },
+    {
+     "at": "2026-11-19T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/wicker/4231721"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-14T13:25",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231738"
+    },
+    {
+     "at": "2026-11-14T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231740"
+    },
+    {
+     "at": "2026-11-14T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231741"
+    },
+    {
+     "at": "2026-11-15T10:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4320683"
+    },
+    {
+     "at": "2026-11-15T13:25",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231655"
+    },
+    {
+     "at": "2026-11-15T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231657"
+    },
+    {
+     "at": "2026-11-15T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231658"
+    },
+    {
+     "at": "2026-11-16T11:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231668"
+    },
+    {
+     "at": "2026-11-16T13:25",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231669"
+    },
+    {
+     "at": "2026-11-16T15:50",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231670"
+    },
+    {
+     "at": "2026-11-16T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231671"
+    },
+    {
+     "at": "2026-11-16T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231672"
+    },
+    {
+     "at": "2026-11-17T11:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231681"
+    },
+    {
+     "at": "2026-11-17T13:25",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231682"
+    },
+    {
+     "at": "2026-11-17T15:50",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231683"
+    },
+    {
+     "at": "2026-11-17T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231684"
+    },
+    {
+     "at": "2026-11-17T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231685"
+    },
+    {
+     "at": "2026-11-18T11:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231694"
+    },
+    {
+     "at": "2026-11-18T13:25",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231695"
+    },
+    {
+     "at": "2026-11-18T15:50",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231696"
+    },
+    {
+     "at": "2026-11-18T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231697"
+    },
+    {
+     "at": "2026-11-18T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231698"
+    },
+    {
+     "at": "2026-11-19T11:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231709"
+    },
+    {
+     "at": "2026-11-19T13:25",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231710"
+    },
+    {
+     "at": "2026-11-19T15:50",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231711"
+    },
+    {
+     "at": "2026-11-19T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231712"
+    },
+    {
+     "at": "2026-11-19T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231713"
+    },
+    {
+     "at": "2026-11-20T11:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231476"
+    },
+    {
+     "at": "2026-11-20T13:25",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231478"
+    },
+    {
+     "at": "2026-11-20T15:50",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231531"
+    },
+    {
+     "at": "2026-11-20T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231530"
+    },
+    {
+     "at": "2026-11-20T20:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/ebenezer/4231480"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/jimmy/",
+   "shows": [
+    {
+     "at": "2026-11-14T13:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/jimmy/4283045"
+    },
+    {
+     "at": "2026-11-14T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/jimmy/4283046"
+    },
+    {
+     "at": "2026-11-15T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/jimmy/4283006"
+    },
+    {
+     "at": "2026-11-16T13:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/jimmy/4283013"
+    },
+    {
+     "at": "2026-11-17T13:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/jimmy/4283018"
+    },
+    {
+     "at": "2026-11-17T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/jimmy/4283019"
+    },
+    {
+     "at": "2026-11-18T13:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/jimmy/4283026"
+    },
+    {
+     "at": "2026-11-19T13:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/jimmy/4283032"
+    },
+    {
+     "at": "2026-11-19T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/jimmy/4283033"
+    }
+   ]
+  },
+  {
+   "title": "Mouse",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/mouse/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:20",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246306"
+    },
+    {
+     "at": "2026-11-14T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246307"
+    },
+    {
+     "at": "2026-11-15T15:20",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246289"
+    },
+    {
+     "at": "2026-11-15T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246290"
+    },
+    {
+     "at": "2026-11-16T11:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4283015"
+    },
+    {
+     "at": "2026-11-16T15:20",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246292"
+    },
+    {
+     "at": "2026-11-17T11:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4283022"
+    },
+    {
+     "at": "2026-11-17T15:20",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246294"
+    },
+    {
+     "at": "2026-11-17T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246295"
+    },
+    {
+     "at": "2026-11-18T11:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4283028"
+    },
+    {
+     "at": "2026-11-18T15:20",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246297"
+    },
+    {
+     "at": "2026-11-18T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246298"
+    },
+    {
+     "at": "2026-11-19T11:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4283034"
+    },
+    {
+     "at": "2026-11-19T15:20",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246300"
+    },
+    {
+     "at": "2026-11-19T18:10",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/mouse/4246301"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": null,
+   "runtime_min": 114,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231048"
+    },
+    {
+     "at": "2026-11-15T10:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4233968"
+    },
+    {
+     "at": "2026-11-15T12:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231051"
+    },
+    {
+     "at": "2026-11-15T15:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231052"
+    },
+    {
+     "at": "2026-11-16T10:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4233970"
+    },
+    {
+     "at": "2026-11-16T12:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231055"
+    },
+    {
+     "at": "2026-11-16T15:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231056"
+    },
+    {
+     "at": "2026-11-17T10:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4233972"
+    },
+    {
+     "at": "2026-11-17T12:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231058"
+    },
+    {
+     "at": "2026-11-17T15:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231059"
+    },
+    {
+     "at": "2026-11-17T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231060"
+    },
+    {
+     "at": "2026-11-18T10:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4233975"
+    },
+    {
+     "at": "2026-11-18T12:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231061"
+    },
+    {
+     "at": "2026-11-18T15:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231062"
+    },
+    {
+     "at": "2026-11-18T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231063"
+    },
+    {
+     "at": "2026-11-19T10:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4233977"
+    },
+    {
+     "at": "2026-11-19T12:35",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231065"
+    },
+    {
+     "at": "2026-11-19T15:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231066"
+    },
+    {
+     "at": "2026-11-19T18:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-cat-in-the-hat/4231067"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/once-upon-a-time-in-harlem/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283044"
+    },
+    {
+     "at": "2026-11-14T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283047"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283004"
+    },
+    {
+     "at": "2026-11-15T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283007"
+    },
+    {
+     "at": "2026-11-16T10:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283014"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283012"
+    },
+    {
+     "at": "2026-11-17T10:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283021"
+    },
+    {
+     "at": "2026-11-17T16:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283017"
+    },
+    {
+     "at": "2026-11-17T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283020"
+    },
+    {
+     "at": "2026-11-18T10:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283027"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283025"
+    },
+    {
+     "at": "2026-11-19T10:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283030"
+    },
+    {
+     "at": "2026-11-19T16:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283031"
+    },
+    {
+     "at": "2026-11-19T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/once-upon-a-time-in-harlem/4283035"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4283043"
+    },
+    {
+     "at": "2026-11-14T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4231743"
+    },
+    {
+     "at": "2026-11-15T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4283003"
+    },
+    {
+     "at": "2026-11-15T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4231660"
+    },
+    {
+     "at": "2026-11-16T12:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4283011"
+    },
+    {
+     "at": "2026-11-16T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4283010"
+    },
+    {
+     "at": "2026-11-16T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4231673"
+    },
+    {
+     "at": "2026-11-17T12:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4283016"
+    },
+    {
+     "at": "2026-11-17T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4231686"
+    },
+    {
+     "at": "2026-11-17T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4233974"
+    },
+    {
+     "at": "2026-11-18T12:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4231699"
+    },
+    {
+     "at": "2026-11-18T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4283023"
+    },
+    {
+     "at": "2026-11-18T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4231700"
+    },
+    {
+     "at": "2026-11-19T12:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4283029"
+    },
+    {
+     "at": "2026-11-19T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4231714"
+    },
+    {
+     "at": "2026-11-19T19:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/you-can-see-everything/4231715"
+    }
+   ]
+  },
+  {
+   "title": "On A String",
+   "rating": null,
+   "runtime_min": 78,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/on-a-string/",
+   "shows": [
+    {
+     "at": "2026-11-15T10:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/on-a-string/4320581"
+    },
+    {
+     "at": "2026-11-15T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/on-a-string/4233969"
+    },
+    {
+     "at": "2026-11-16T10:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/on-a-string/4233986"
+    },
+    {
+     "at": "2026-11-16T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/on-a-string/4233971"
+    },
+    {
+     "at": "2026-11-17T10:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/on-a-string/4233987"
+    },
+    {
+     "at": "2026-11-17T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/on-a-string/4233973"
+    },
+    {
+     "at": "2026-11-18T10:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/on-a-string/4233988"
+    },
+    {
+     "at": "2026-11-18T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/on-a-string/4233976"
+    },
+    {
+     "at": "2026-11-19T10:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/on-a-string/4233989"
+    },
+    {
+     "at": "2026-11-19T20:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/on-a-string/4233978"
+    }
+   ]
+  },
+  {
+   "title": "The Forbidden University",
+   "rating": null,
+   "runtime_min": 81,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/the-forbidden-university/",
+   "shows": [
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-forbidden-university/3967401"
+    }
+   ]
+  },
+  {
+   "title": "Battleship Potemkin - The Essentials Series",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/battleship-potemkin---the-essentials-series/",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/battleship-potemkin---the-essentials-series/4136758"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": null,
+   "runtime_min": 127,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-20T12:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/i-play-rocky/4231090"
+    },
+    {
+     "at": "2026-11-20T15:00",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/i-play-rocky/4231091"
+    },
+    {
+     "at": "2026-11-20T17:40",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/i-play-rocky/4231092"
+    },
+    {
+     "at": "2026-11-20T20:25",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/i-play-rocky/4231093"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://wayfarertheaters.com/highlandpark/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-20T12:30",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231124"
+    },
+    {
+     "at": "2026-11-20T16:15",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231094"
+    },
+    {
+     "at": "2026-11-20T19:45",
+     "sold_out": false,
+     "url": "https://wayfarertheaters.com/highlandpark/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231123"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

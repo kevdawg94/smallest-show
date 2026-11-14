@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "pageant",
+ "name": "Pageant Theatre",
+ "city": "chico",
+ "area": "Chico",
+ "region": "Chico",
+ "url": "http://www.pageantchico.com/",
+ "films": [
+  {
+   "title": "LITTLE SHOP OF HORRORS (Director's Cut)",
+   "rating": "PG-13",
+   "runtime_min": 96,
+   "url": "http://www.pageantchico.com/comingSoon.html#shop",
+   "shows": [
+    {
+     "at": "2026-11-14T17:15",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/comingSoon.html#shop"
+    },
+    {
+     "at": "2026-11-15T15:45",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/comingSoon.html#shop"
+    }
+   ]
+  },
+  {
+   "title": "Ken Russell's The Devils",
+   "rating": "NC-17",
+   "runtime_min": 114,
+   "url": "http://www.pageantchico.com/comingSoon.html#devils",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/comingSoon.html#devils"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/comingSoon.html#devils"
+    }
+   ]
+  },
+  {
+   "title": "The Devils",
+   "rating": "NC-17",
+   "runtime_min": 114,
+   "url": "http://www.pageantchico.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "vali-twin",
+ "name": "Vali Twin Cinema",
+ "city": "cody",
+ "area": "Powell",
+ "region": "Powell",
+ "url": "https://www.valitwincinema.com/",
+ "films": [
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 90,
+   "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261114",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261114"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261115"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261119"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261114",
+   "shows": [
+    {
+     "at": "2026-11-14T19:15",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261114"
+    },
+    {
+     "at": "2026-11-15T15:15",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261115"
+    },
+    {
+     "at": "2026-11-19T19:15",
+     "sold_out": false,
+     "url": "https://8579.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261119"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

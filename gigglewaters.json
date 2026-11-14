@@ -1,0 +1,70 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "gigglewaters",
+ "name": "Gigglewaters",
+ "city": "tampa",
+ "area": "Safety Harbor",
+ "region": "Pinellas & Pasco",
+ "url": "https://tickets.gigglewaters.com/movies",
+ "films": [
+  {
+   "title": "Labyrinth",
+   "rating": "PG",
+   "runtime_min": 101,
+   "url": "https://tickets.gigglewaters.com/movies/labyrinth",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/labyrinth/st/669"
+    },
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/labyrinth/st/673"
+    },
+    {
+     "at": "2026-11-14T21:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/labyrinth/st/672"
+    }
+   ]
+  },
+  {
+   "title": "Wall-E",
+   "rating": "G",
+   "runtime_min": 98,
+   "url": "https://tickets.gigglewaters.com/movies/wall-e",
+   "shows": [
+    {
+     "at": "2026-11-15T10:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/wall-e/st/674"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/wall-e/st/675"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/wall-e/st/677"
+    },
+    {
+     "at": "2026-11-15T17:30",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/wall-e/st/676"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

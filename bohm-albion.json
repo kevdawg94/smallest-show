@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "bohm-albion",
+ "name": "Bohm Theatre",
+ "city": "kalamazoo",
+ "area": "Albion",
+ "region": "Battle Creek & Marshall",
+ "url": "https://www.bohmtheatre.org/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.bohmtheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.bohmtheatre.org/"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.bohmtheatre.org/"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 107,
+   "url": "https://www.bohmtheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:15",
+     "sold_out": false,
+     "url": "https://www.bohmtheatre.org/",
+     "venue": "Bohm II"
+    },
+    {
+     "at": "2026-11-15T15:15",
+     "sold_out": false,
+     "url": "https://www.bohmtheatre.org/",
+     "venue": "Bohm II"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

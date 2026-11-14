@@ -1,0 +1,98 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "bay-theatre-morro",
+ "name": "Bay Theatre",
+ "city": "slo",
+ "area": "Morro Bay",
+ "region": "Coast",
+ "url": "https://www.morrobaymovie.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 132,
+   "url": "https://www.morrobaymovie.com/wildwood",
+   "shows": [
+    {
+     "at": "2026-11-14T15:45",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/wildwood"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/wildwood"
+    },
+    {
+     "at": "2026-11-15T12:45",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/wildwood"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/wildwood"
+    },
+    {
+     "at": "2026-11-17T15:45",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/wildwood"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/wildwood"
+    },
+    {
+     "at": "2026-11-18T15:45",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/wildwood"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/wildwood"
+    }
+   ]
+  },
+  {
+   "title": "1941",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.morrobaymovie.com/1941",
+   "shows": [
+    {
+     "at": "2026-11-16T17:30",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/1941"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": 101,
+   "url": "https://www.morrobaymovie.com/heart-of-the-beast",
+   "shows": [
+    {
+     "at": "2026-11-20T16:15",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/heart-of-the-beast"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/heart-of-the-beast"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

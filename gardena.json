@@ -1,0 +1,94 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "gardena",
+ "name": "Gardena Cinema",
+ "city": "la",
+ "area": "Gardena",
+ "region": "South Bay & Orange County",
+ "url": "https://www.gardenacinema.com/",
+ "films": [
+  {
+   "title": "Masters of the Universe",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-14T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1337?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "The Book of Life 3D",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1338?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "Young Frankenstein",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-14T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1339?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1340?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "Shikata Ga Nai (It Cannot Be Helped)",
+   "rating": "TBC",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-15T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1323?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "The Movie Screeners Club",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1208?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1196?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

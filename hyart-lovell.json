@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "hyart-lovell",
+ "name": "Hyart Theatre",
+ "city": "cody",
+ "area": "Lovell",
+ "region": "Lovell",
+ "url": "https://hyartmovies.com/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hyartmovies.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://hyartmovies.com/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://hyartmovies.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

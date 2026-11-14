@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "plaza-maplewood",
+ "name": "Plaza Theater",
+ "city": "msp",
+ "area": "Maplewood",
+ "region": "Suburbs",
+ "url": "https://theplazatheater.com/",
+ "films": [
+  {
+   "title": "Minions & Monsters",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://theplazatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:45",
+     "sold_out": false,
+     "url": "https://theplazatheater.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Devil Wears Prada 2",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://theplazatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:10",
+     "sold_out": false,
+     "url": "https://theplazatheater.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Odyssey",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://theplazatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:10",
+     "sold_out": false,
+     "url": "https://theplazatheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

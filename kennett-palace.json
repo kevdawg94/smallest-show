@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "kennett-palace",
+ "name": "Kennett Palace Theater",
+ "city": "sikeston",
+ "area": "Kennett",
+ "region": "Dexter & Kennett",
+ "url": "https://kennettpalace.com/",
+ "films": [
+  {
+   "title": "Cat in the Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://kennettpalace.carrd.co/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://kennettpalace.carrd.co/"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://kennettpalace.carrd.co/"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://kennettpalace.carrd.co/"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://kennettpalace.carrd.co/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://kennettpalace.carrd.co/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

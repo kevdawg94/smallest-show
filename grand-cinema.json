@@ -1,0 +1,525 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "grand-cinema",
+ "name": "Grand Cinema",
+ "city": "seattle",
+ "area": "Tacoma",
+ "region": "West Seattle & South",
+ "url": "https://grandcinema.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://www.grandcinema.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-14T11:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wildwood/4287151"
+    },
+    {
+     "at": "2026-11-14T17:05",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wildwood/4287155"
+    },
+    {
+     "at": "2026-11-15T14:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wildwood/4286158"
+    },
+    {
+     "at": "2026-11-15T17:35",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wildwood/4290639"
+    },
+    {
+     "at": "2026-11-16T13:35",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wildwood/4286159"
+    },
+    {
+     "at": "2026-11-16T16:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wildwood/4289884"
+    },
+    {
+     "at": "2026-11-17T16:35",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wildwood/4286160"
+    },
+    {
+     "at": "2026-11-18T13:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wildwood/4286161"
+    },
+    {
+     "at": "2026-11-18T16:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wildwood/4289886"
+    },
+    {
+     "at": "2026-11-19T19:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wildwood/4286162"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://www.grandcinema.com/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-14T11:25",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4287147"
+    },
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4287148"
+    },
+    {
+     "at": "2026-11-14T17:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4287149"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4287150"
+    },
+    {
+     "at": "2026-11-15T11:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4288206"
+    },
+    {
+     "at": "2026-11-15T15:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4100575"
+    },
+    {
+     "at": "2026-11-15T20:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4100576"
+    },
+    {
+     "at": "2026-11-16T13:25",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4100586"
+    },
+    {
+     "at": "2026-11-16T17:35",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4100587"
+    },
+    {
+     "at": "2026-11-16T19:50",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4100588"
+    },
+    {
+     "at": "2026-11-17T16:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4100597"
+    },
+    {
+     "at": "2026-11-17T19:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4100598"
+    },
+    {
+     "at": "2026-11-18T17:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4100609"
+    },
+    {
+     "at": "2026-11-18T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4286777"
+    },
+    {
+     "at": "2026-11-19T13:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4100618"
+    },
+    {
+     "at": "2026-11-19T16:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4100619"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://www.grandcinema.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-14T11:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100550"
+    },
+    {
+     "at": "2026-11-14T14:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100551"
+    },
+    {
+     "at": "2026-11-14T16:50",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100552"
+    },
+    {
+     "at": "2026-11-14T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100553"
+    },
+    {
+     "at": "2026-11-15T11:35",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100577"
+    },
+    {
+     "at": "2026-11-15T14:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100564"
+    },
+    {
+     "at": "2026-11-15T16:50",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100565"
+    },
+    {
+     "at": "2026-11-15T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100566"
+    },
+    {
+     "at": "2026-11-16T13:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100578"
+    },
+    {
+     "at": "2026-11-16T16:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100579"
+    },
+    {
+     "at": "2026-11-16T19:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100580"
+    },
+    {
+     "at": "2026-11-17T14:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100590"
+    },
+    {
+     "at": "2026-11-17T17:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100591"
+    },
+    {
+     "at": "2026-11-17T19:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100592"
+    },
+    {
+     "at": "2026-11-18T13:25",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100600"
+    },
+    {
+     "at": "2026-11-18T16:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100601"
+    },
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100602"
+    },
+    {
+     "at": "2026-11-19T13:25",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100611"
+    },
+    {
+     "at": "2026-11-19T16:50",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100612"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4100613"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 175,
+   "url": "https://www.grandcinema.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-14T11:50",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4287152"
+    },
+    {
+     "at": "2026-11-14T15:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4287154"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4287156"
+    },
+    {
+     "at": "2026-11-15T11:25",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4286840"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4244960"
+    },
+    {
+     "at": "2026-11-15T18:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4244961"
+    },
+    {
+     "at": "2026-11-16T13:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4244962"
+    },
+    {
+     "at": "2026-11-16T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4244964"
+    },
+    {
+     "at": "2026-11-17T13:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4245279"
+    },
+    {
+     "at": "2026-11-17T16:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4245277"
+    },
+    {
+     "at": "2026-11-18T13:35",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4287145"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4245284"
+    },
+    {
+     "at": "2026-11-19T13:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4288581"
+    },
+    {
+     "at": "2026-11-19T16:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4245290"
+    },
+    {
+     "at": "2026-11-19T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4245286"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://www.grandcinema.com/movie/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-11-14T13:35",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/the-only-living-pickpocket-in-new-york/4287146"
+    },
+    {
+     "at": "2026-11-15T13:25",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/the-only-living-pickpocket-in-new-york/4286157"
+    },
+    {
+     "at": "2026-11-16T15:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/the-only-living-pickpocket-in-new-york/4289885"
+    },
+    {
+     "at": "2026-11-18T19:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/the-only-living-pickpocket-in-new-york/4289887"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 155,
+   "url": "https://www.grandcinema.com/movie/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/la-bola-negra/4287153"
+    },
+    {
+     "at": "2026-11-14T19:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/la-bola-negra/4287157"
+    },
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/la-bola-negra/4100568"
+    },
+    {
+     "at": "2026-11-16T16:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/la-bola-negra/4100581"
+    },
+    {
+     "at": "2026-11-16T19:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/la-bola-negra/4100582"
+    },
+    {
+     "at": "2026-11-17T13:25",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/la-bola-negra/4100594"
+    },
+    {
+     "at": "2026-11-17T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/la-bola-negra/4100599"
+    },
+    {
+     "at": "2026-11-18T13:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/la-bola-negra/4100610"
+    },
+    {
+     "at": "2026-11-19T13:35",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/la-bola-negra/4100614"
+    },
+    {
+     "at": "2026-11-19T16:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/la-bola-negra/4100620"
+    }
+   ]
+  },
+  {
+   "title": "Post Film Talk: Wild Horse Nine",
+   "rating": null,
+   "runtime_min": 60,
+   "url": "https://www.grandcinema.com/movie/post-film-talk-wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-15T16:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/post-film-talk-wild-horse-nine/4284425"
+    }
+   ]
+  },
+  {
+   "title": "Marie Antoinette (20th Anniversary)",
+   "rating": "PG-13",
+   "runtime_min": 123,
+   "url": "https://www.grandcinema.com/movie/marie-antoinette-20th-anniversary/",
+   "shows": [
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/marie-antoinette-20th-anniversary/4181415"
+    }
+   ]
+  },
+  {
+   "title": "Making Marie Antoinette",
+   "rating": null,
+   "runtime_min": 86,
+   "url": "https://www.grandcinema.com/movie/making-marie-antoinette/",
+   "shows": [
+    {
+     "at": "2026-11-17T13:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/making-marie-antoinette/4181416"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/making-marie-antoinette/4181417"
+    }
+   ]
+  },
+  {
+   "title": "Fantastic Mr. Fox – Craft Night",
+   "rating": null,
+   "runtime_min": 87,
+   "url": "https://www.grandcinema.com/movie/fantastic-mr-fox-craft-night/",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fantastic-mr-fox-craft-night/3770236"
+    }
+   ]
+  },
+  {
+   "title": "Gays Against Guns",
+   "rating": null,
+   "runtime_min": 87,
+   "url": "https://www.grandcinema.com/movie/gays-against-guns/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/gays-against-guns/4209528"
+    }
+   ]
+  },
+  {
+   "title": "eXistenZ",
+   "rating": "R",
+   "runtime_min": 97,
+   "url": "https://www.grandcinema.com/movie/existenz/",
+   "shows": [
+    {
+     "at": "2026-11-20T22:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/existenz/4130465"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

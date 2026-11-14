@@ -1,0 +1,94 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "hi-pointe",
+ "name": "Hi-Pointe",
+ "city": "stl",
+ "area": "Hi-Pointe",
+ "region": "City",
+ "url": "https://hipointetheatre.org/",
+ "films": [
+  {
+   "title": "A TALE OF AUTUMN",
+   "rating": null,
+   "runtime_min": 112,
+   "url": "https://hipointetheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://hipointetheatre.org/purchase/668613/"
+    }
+   ]
+  },
+  {
+   "title": "A Streetcar Named Desire (35MM)",
+   "rating": null,
+   "runtime_min": 125,
+   "url": "https://hipointetheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://hipointetheatre.org/purchase/582037/"
+    }
+   ]
+  },
+  {
+   "title": "The Apartment (35MM)",
+   "rating": null,
+   "runtime_min": 125,
+   "url": "https://hipointetheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-19T13:00",
+     "sold_out": false,
+     "url": "https://hipointetheatre.org/purchase/662735/"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://hipointetheatre.org/purchase/662738/"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": 82,
+   "url": "https://hipointetheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-20T16:00",
+     "sold_out": false,
+     "url": "https://hipointetheatre.org/purchase/662801/"
+    },
+    {
+     "at": "2026-11-20T18:15",
+     "sold_out": false,
+     "url": "https://hipointetheatre.org/purchase/662740/"
+    }
+   ]
+  },
+  {
+   "title": "Raise the Red Lantern (4K Restoration)",
+   "rating": null,
+   "runtime_min": 125,
+   "url": "https://hipointetheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-20T20:00",
+     "sold_out": false,
+     "url": "https://hipointetheatre.org/purchase/675486/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

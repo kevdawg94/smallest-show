@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "showroom",
+ "name": "ShowRoom",
+ "city": "jerseyshore",
+ "area": "Asbury Park",
+ "region": "Monmouth Shore",
+ "url": "https://showroomcinemas.com/",
+ "films": [
+  {
+   "title": "Altered States",
+   "rating": null,
+   "runtime_min": 103,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271865/"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271881/"
+    }
+   ]
+  },
+  {
+   "title": "The Last Waltz",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271871/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

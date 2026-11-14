@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "alamo-bucksport",
+ "name": "Alamo Theatre",
+ "city": "bangor",
+ "area": "Bucksport",
+ "region": "Bucksport–Ellsworth",
+ "url": "https://oldfilm.org/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://oldfilm.org/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    }
+   ]
+  },
+  {
+   "title": "Caregiving",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://oldfilm.org/",
+   "shows": [
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://oldfilm.org/",
+   "shows": [
+    {
+     "at": "2026-11-20T18:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

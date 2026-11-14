@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "fort-kent-cinema",
+ "name": "Fort Kent Cinema",
+ "city": "aroostook",
+ "area": "Fort Kent",
+ "region": "St. John Valley",
+ "url": "https://www.fortkentcinema.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.fortkentcinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": null,
+   "runtime_min": 91,
+   "url": "https://www.fortkentcinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

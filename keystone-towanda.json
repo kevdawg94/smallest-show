@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "keystone-towanda",
+ "name": "Keystone Theatre",
+ "city": "nepa",
+ "area": "Towanda",
+ "region": "Sayre",
+ "url": "https://www.bradfordcountymovies.com/keystone-theatre/",
+ "films": [
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vyvfer7bmrvkytanttzt1kadaw",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29218?siteToken=vyvfer7bmrvkytanttzt1kadaw"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vyvfer7bmrvkytanttzt1kadaw",
+   "shows": [
+    {
+     "at": "2026-11-14T19:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29217?siteToken=vyvfer7bmrvkytanttzt1kadaw"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

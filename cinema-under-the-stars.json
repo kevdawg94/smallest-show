@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "cinema-under-the-stars",
+ "name": "Cinema Under the Stars",
+ "city": "sandiego",
+ "area": "Mission Hills",
+ "region": "City",
+ "url": "https://www.topspresents.com/films.php",
+ "films": [
+  {
+   "title": "Clue",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.topspresents.com/films.php",
+   "shows": [
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://www.topspresents.com/films.php"
+    }
+   ]
+  },
+  {
+   "title": "Crime 101",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.topspresents.com/films.php",
+   "shows": [
+    {
+     "at": "2026-11-20T20:00",
+     "sold_out": false,
+     "url": "https://www.topspresents.com/films.php"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

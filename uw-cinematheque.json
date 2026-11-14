@@ -1,0 +1,84 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "uw-cinematheque",
+ "name": "UW Cinematheque",
+ "city": "madison",
+ "area": "Campus",
+ "region": "Campus & Downtown",
+ "url": "https://cinema.wisc.edu/",
+ "films": [
+  {
+   "title": "RRR",
+   "rating": null,
+   "runtime_min": 183,
+   "url": "https://cinema.wisc.edu/rajamouli-myth-spectacle-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223603"
+    }
+   ]
+  },
+  {
+   "title": "Baahubali: The Beginning",
+   "rating": null,
+   "runtime_min": 151,
+   "url": "https://cinema.wisc.edu/rajamouli-myth-spectacle-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223604"
+    }
+   ]
+  },
+  {
+   "title": "Baahubali 2: The Conclusion",
+   "rating": null,
+   "runtime_min": 158,
+   "url": "https://cinema.wisc.edu/rajamouli-myth-spectacle-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223605"
+    }
+   ]
+  },
+  {
+   "title": "Chronovisor",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://cinema.wisc.edu/premieres-2/",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223580"
+    }
+   ]
+  },
+  {
+   "title": "Paramount on Parade",
+   "rating": null,
+   "runtime_min": 102,
+   "url": "https://cinema.wisc.edu/new-restorations-and-special-presentations-2/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223632"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,88 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "bay-theatre-suttons",
+ "name": "Bay Theatre",
+ "city": "traversecity",
+ "area": "Suttons Bay",
+ "region": "Leelanau",
+ "url": "https://thebaytheatre.org/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://thebaytheatre.org/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/you-can-see-everything/4279481"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/you-can-see-everything/4279482"
+    },
+    {
+     "at": "2026-11-16T18:30",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/you-can-see-everything/4279483"
+    },
+    {
+     "at": "2026-11-17T18:30",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/you-can-see-everything/4279484"
+    },
+    {
+     "at": "2026-11-18T18:30",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/you-can-see-everything/4279485"
+    },
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/you-can-see-everything/4279486"
+    }
+   ]
+  },
+  {
+   "title": "Words & Writers: Molly Moynahan",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://thebaytheatre.org/movie/words-writers-molly-moynahan/",
+   "shows": [
+    {
+     "at": "2026-11-16T14:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/words-writers-molly-moynahan/4277077"
+    }
+   ]
+  },
+  {
+   "title": "Everest: The Other Side",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://thebaytheatre.org/movie/everest-the-other-side/",
+   "shows": [
+    {
+     "at": "2026-11-20T16:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/everest-the-other-side/4279487"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/everest-the-other-side/4279488"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

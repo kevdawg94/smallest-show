@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "grand-stamford",
+ "name": "The Grand Theatre",
+ "city": "abilene",
+ "area": "Stamford",
+ "region": "Stamford & Jones County",
+ "url": "https://www.grandtheatrestamford.com/",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.grandtheatrestamford.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.grandtheatrestamford.com/"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.grandtheatrestamford.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

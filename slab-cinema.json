@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "slab-cinema",
+ "name": "Slab Cinema ArtHouse",
+ "city": "sanantonio",
+ "area": "Blue Star, Southtown",
+ "region": "Southtown & Downtown",
+ "url": "https://www.slabcinemaarthouse.com/",
+ "films": [
+  {
+   "title": "Brave Picture Showcase Cinephile Sunday",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.slabcinemaarthouse.com/event-details/11-15-brave-picture-showcase-cinephile-sunday",
+   "shows": [
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.slabcinemaarthouse.com/event-details/11-15-brave-picture-showcase-cinephile-sunday"
+    }
+   ]
+  },
+  {
+   "title": "What's Up, Doc?",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.slabcinemaarthouse.com/event-details/11-16-whats-up-doc-1972",
+   "shows": [
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://www.slabcinemaarthouse.com/event-details/11-16-whats-up-doc-1972"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.slabcinemaarthouse.com/event-details/11-17-whats-up-doc-1972"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

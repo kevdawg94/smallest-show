@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "doric-elkhart",
+ "name": "Doric Theater",
+ "city": "elkhart",
+ "area": "Elkhart",
+ "region": "Elkhart",
+ "url": "https://dorictheatre.com/",
+ "films": [
+  {
+   "title": "Verity",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=16ahf1hyw4ng07fg4pe56tcmwr",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/312834?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=16ahf1hyw4ng07fg4pe56tcmwr",
+   "shows": [
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/312835?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/312836?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=16ahf1hyw4ng07fg4pe56tcmwr",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/312837?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,115 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "new-plaza",
+ "name": "New Plaza Cinema",
+ "city": "nyc",
+ "area": "Upper West Side",
+ "region": "Uptown Manhattan",
+ "url": "https://newplazacinema.org/",
+ "films": [
+  {
+   "title": "Pollock",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-14T14:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2775?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-14T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2776?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    },
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2779?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "NAZA",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-14T19:50",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2777?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Local Hero (1983)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-15T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2725?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Yaniv",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-15T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2778?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "REDISCOVERING FANON",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-15T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2722?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "THE SEA",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-20T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2780?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

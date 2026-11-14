@@ -1,0 +1,143 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "kress",
+ "name": "Kress",
+ "city": "denver",
+ "area": "Greeley",
+ "region": "Boulder & Front Range",
+ "url": "https://www.kresscinema.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.kresscinema.com/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-14T12:30",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/ebenezer/4283053"
+    },
+    {
+     "at": "2026-11-14T15:15",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/ebenezer/4283054"
+    },
+    {
+     "at": "2026-11-14T20:45",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/ebenezer/4319476"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/ebenezer/4283058"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/ebenezer/4283059"
+    },
+    {
+     "at": "2026-11-16T18:30",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/ebenezer/4319465"
+    },
+    {
+     "at": "2026-11-17T18:30",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/ebenezer/4319466"
+    },
+    {
+     "at": "2026-11-18T18:30",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/ebenezer/4319467"
+    },
+    {
+     "at": "2026-11-19T16:15",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/ebenezer/4319469"
+    },
+    {
+     "at": "2026-11-19T19:15",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/ebenezer/4319468"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 113,
+   "url": "https://www.kresscinema.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-14T13:00",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/the-cat-in-the-hat/4283056"
+    },
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/the-cat-in-the-hat/4283057"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/the-cat-in-the-hat/4283060"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/the-cat-in-the-hat/4283061"
+    },
+    {
+     "at": "2026-11-16T18:00",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/the-cat-in-the-hat/4319470"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/the-cat-in-the-hat/4319471"
+    },
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/the-cat-in-the-hat/4319472"
+    },
+    {
+     "at": "2026-11-19T16:30",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/the-cat-in-the-hat/4319473"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise On The Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.kresscinema.com/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-20T16:00",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4205711"
+    },
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://www.kresscinema.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4205712"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

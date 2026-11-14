@@ -1,0 +1,754 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "market-arcade",
+ "name": "Scene One Market Arcade",
+ "city": "buffalo",
+ "area": "Downtown Buffalo",
+ "region": "Buffalo",
+ "url": "https://www.btmcinemas.com/our-locations/g0fz6-scene-one-market-arcade-cinemas/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.btmcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311536/"
+    },
+    {
+     "at": "2026-11-14T16:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311541/"
+    },
+    {
+     "at": "2026-11-14T18:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311546/"
+    },
+    {
+     "at": "2026-11-14T21:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311553/"
+    },
+    {
+     "at": "2026-11-15T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311437/"
+    },
+    {
+     "at": "2026-11-15T16:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311442/"
+    },
+    {
+     "at": "2026-11-15T18:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311447/"
+    },
+    {
+     "at": "2026-11-16T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311458/"
+    },
+    {
+     "at": "2026-11-16T16:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311463/"
+    },
+    {
+     "at": "2026-11-16T18:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311468/"
+    },
+    {
+     "at": "2026-11-17T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311479/"
+    },
+    {
+     "at": "2026-11-17T16:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311484/"
+    },
+    {
+     "at": "2026-11-17T18:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311489/"
+    },
+    {
+     "at": "2026-11-18T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311500/"
+    },
+    {
+     "at": "2026-11-18T16:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311505/"
+    },
+    {
+     "at": "2026-11-18T18:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311510/"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.btmcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311537/"
+    },
+    {
+     "at": "2026-11-14T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311543/"
+    },
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311550/"
+    },
+    {
+     "at": "2026-11-14T22:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311556/"
+    },
+    {
+     "at": "2026-11-15T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311438/"
+    },
+    {
+     "at": "2026-11-15T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311444/"
+    },
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311451/"
+    },
+    {
+     "at": "2026-11-16T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311459/"
+    },
+    {
+     "at": "2026-11-16T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311465/"
+    },
+    {
+     "at": "2026-11-16T19:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311472/"
+    },
+    {
+     "at": "2026-11-17T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311480/"
+    },
+    {
+     "at": "2026-11-17T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311486/"
+    },
+    {
+     "at": "2026-11-17T19:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311493/"
+    },
+    {
+     "at": "2026-11-18T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311501/"
+    },
+    {
+     "at": "2026-11-18T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311507/"
+    },
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311514/"
+    },
+    {
+     "at": "2026-11-19T13:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311521/"
+    },
+    {
+     "at": "2026-11-19T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311525/"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311530/"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.btmcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311539/"
+    },
+    {
+     "at": "2026-11-14T19:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311547/"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311434/"
+    },
+    {
+     "at": "2026-11-15T15:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311440/"
+    },
+    {
+     "at": "2026-11-15T19:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311448/"
+    },
+    {
+     "at": "2026-11-16T13:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311455/"
+    },
+    {
+     "at": "2026-11-16T15:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311461/"
+    },
+    {
+     "at": "2026-11-16T19:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311469/"
+    },
+    {
+     "at": "2026-11-17T13:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311476/"
+    },
+    {
+     "at": "2026-11-17T15:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311482/"
+    },
+    {
+     "at": "2026-11-17T19:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311490/"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311497/"
+    },
+    {
+     "at": "2026-11-18T15:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311503/"
+    },
+    {
+     "at": "2026-11-18T19:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311511/"
+    },
+    {
+     "at": "2026-11-19T13:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311518/"
+    },
+    {
+     "at": "2026-11-19T15:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311522/"
+    },
+    {
+     "at": "2026-11-19T19:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311527/"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://www.btmcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311540/"
+    },
+    {
+     "at": "2026-11-14T19:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311548/"
+    },
+    {
+     "at": "2026-11-14T22:05",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311555/"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311441/"
+    },
+    {
+     "at": "2026-11-15T19:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311449/"
+    },
+    {
+     "at": "2026-11-16T13:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311454/"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311462/"
+    },
+    {
+     "at": "2026-11-17T13:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311475/"
+    },
+    {
+     "at": "2026-11-17T16:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311483/"
+    },
+    {
+     "at": "2026-11-17T19:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311491/"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311496/"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311504/"
+    },
+    {
+     "at": "2026-11-19T13:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311517/"
+    },
+    {
+     "at": "2026-11-19T16:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311523/"
+    },
+    {
+     "at": "2026-11-19T19:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311528/"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.btmcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273014/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273015/"
+    },
+    {
+     "at": "2026-11-14T21:45",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273016/"
+    },
+    {
+     "at": "2026-11-15T13:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273017/"
+    },
+    {
+     "at": "2026-11-15T16:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273018/"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273019/"
+    },
+    {
+     "at": "2026-11-16T13:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273020/"
+    },
+    {
+     "at": "2026-11-16T16:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273021/"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273022/"
+    },
+    {
+     "at": "2026-11-17T13:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273023/"
+    },
+    {
+     "at": "2026-11-17T16:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273024/"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273025/"
+    },
+    {
+     "at": "2026-11-18T13:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273026/"
+    },
+    {
+     "at": "2026-11-18T16:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273027/"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273028/"
+    },
+    {
+     "at": "2026-11-19T13:15",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273029/"
+    },
+    {
+     "at": "2026-11-19T16:05",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273030/"
+    },
+    {
+     "at": "2026-11-19T18:55",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273031/"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://www.btmcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311542/"
+    },
+    {
+     "at": "2026-11-14T19:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311549/"
+    },
+    {
+     "at": "2026-11-14T22:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311554/"
+    },
+    {
+     "at": "2026-11-15T13:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311436/"
+    },
+    {
+     "at": "2026-11-15T16:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311443/"
+    },
+    {
+     "at": "2026-11-15T19:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311450/"
+    },
+    {
+     "at": "2026-11-16T13:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311457/"
+    },
+    {
+     "at": "2026-11-16T16:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311464/"
+    },
+    {
+     "at": "2026-11-16T19:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311471/"
+    },
+    {
+     "at": "2026-11-17T13:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311478/"
+    },
+    {
+     "at": "2026-11-17T16:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311485/"
+    },
+    {
+     "at": "2026-11-17T19:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311492/"
+    },
+    {
+     "at": "2026-11-18T13:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311499/"
+    },
+    {
+     "at": "2026-11-18T16:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311506/"
+    },
+    {
+     "at": "2026-11-18T19:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311513/"
+    },
+    {
+     "at": "2026-11-19T13:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311520/"
+    },
+    {
+     "at": "2026-11-19T16:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311524/"
+    },
+    {
+     "at": "2026-11-19T19:20",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311529/"
+    }
+   ]
+  },
+  {
+   "title": "Victorian Psycho",
+   "rating": "R",
+   "runtime_min": 90,
+   "url": "https://www.btmcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311544/"
+    },
+    {
+     "at": "2026-11-14T19:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311551/"
+    },
+    {
+     "at": "2026-11-14T22:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311557/"
+    },
+    {
+     "at": "2026-11-15T13:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311435/"
+    },
+    {
+     "at": "2026-11-15T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311445/"
+    },
+    {
+     "at": "2026-11-15T19:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311452/"
+    },
+    {
+     "at": "2026-11-16T13:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311456/"
+    },
+    {
+     "at": "2026-11-16T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311466/"
+    },
+    {
+     "at": "2026-11-16T19:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311473/"
+    },
+    {
+     "at": "2026-11-17T13:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311477/"
+    },
+    {
+     "at": "2026-11-17T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311487/"
+    },
+    {
+     "at": "2026-11-17T19:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311494/"
+    },
+    {
+     "at": "2026-11-18T13:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311498/"
+    },
+    {
+     "at": "2026-11-18T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311508/"
+    },
+    {
+     "at": "2026-11-18T19:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311515/"
+    },
+    {
+     "at": "2026-11-19T13:10",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311519/"
+    },
+    {
+     "at": "2026-11-19T16:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311526/"
+    },
+    {
+     "at": "2026-11-19T19:40",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4311531/"
+    }
+   ]
+  },
+  {
+   "title": "Auntie Mame (1958)",
+   "rating": null,
+   "runtime_min": 145,
+   "url": "https://www.btmcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4321844/"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4321845/"
+    }
+   ]
+  },
+  {
+   "title": "The Bodyguard (1992)",
+   "rating": "R",
+   "runtime_min": 129,
+   "url": "https://www.btmcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4321032/"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.btmcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-19T12:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273006/"
+    },
+    {
+     "at": "2026-11-19T15:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273007/"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4273008/"
+    },
+    {
+     "at": "2026-11-20T12:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4272986/"
+    },
+    {
+     "at": "2026-11-20T15:30",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4272985/"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4272983/"
+    },
+    {
+     "at": "2026-11-20T21:50",
+     "sold_out": false,
+     "url": "https://marketarcadetickets.btmcinemas.com/checkout/showing/4272984/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

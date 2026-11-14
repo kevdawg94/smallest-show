@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "rose-audubon",
+ "name": "Rose Theatre",
+ "city": "omaha",
+ "area": "Audubon, IA",
+ "region": "Audubon",
+ "url": "https://www.rosemovietheater.com/",
+ "films": [
+  {
+   "title": "Angel and the Badman (2026)",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ap997e0dqg1ramf7fh0a5g6mzw",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1219?siteToken=ap997e0dqg1ramf7fh0a5g6mzw"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1220?siteToken=ap997e0dqg1ramf7fh0a5g6mzw"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ap997e0dqg1ramf7fh0a5g6mzw",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1212?siteToken=ap997e0dqg1ramf7fh0a5g6mzw"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

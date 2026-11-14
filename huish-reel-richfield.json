@@ -1,0 +1,83 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "huish-reel-richfield",
+ "name": "Huish Reel Theatre",
+ "city": "provo",
+ "area": "Richfield",
+ "region": "Richfield",
+ "url": "https://www.reeltheatre.com/locations",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/start?film=141",
+   "shows": [
+    {
+     "at": "2026-11-14T13:25",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/book?perfcode=5355"
+    },
+    {
+     "at": "2026-11-14T16:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/book?perfcode=5358"
+    },
+    {
+     "at": "2026-11-14T18:35",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/book?perfcode=5359"
+    },
+    {
+     "at": "2026-11-14T21:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/book?perfcode=5323"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/start?film=138",
+   "shows": [
+    {
+     "at": "2026-11-14T13:35",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/book?perfcode=5353"
+    },
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/book?perfcode=5356"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/start?film=139",
+   "shows": [
+    {
+     "at": "2026-11-14T15:50",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/book?perfcode=5354"
+    },
+    {
+     "at": "2026-11-14T21:10",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/HUIRIC/book?perfcode=5357"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

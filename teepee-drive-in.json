@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "teepee-drive-in",
+ "name": "Tee Pee Drive-In",
+ "city": "tulsa",
+ "area": "Sapulpa",
+ "region": "South Tulsa & Broken Arrow",
+ "url": "https://www.teepeedrivein.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.teepeedrivein.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://www.teepeedrivein.com/"
+    }
+   ]
+  },
+  {
+   "title": "How the Grinch Stole Christmas",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.teepeedrivein.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T20:20",
+     "sold_out": false,
+     "url": "https://www.teepeedrivein.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-13T02:23",
+ "error": true,
+ "warning": null
+}

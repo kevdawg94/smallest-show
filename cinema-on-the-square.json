@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "cinema-on-the-square",
+ "name": "Cinema on the Square",
+ "city": "indianapolis",
+ "area": "Greencastle",
+ "region": "Suburbs & Johnson County",
+ "url": "https://cinema.depauw.edu/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/98?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/96?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    },
+    {
+     "at": "2026-11-15T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/99?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    },
+    {
+     "at": "2026-11-15T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/100?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/101?siteToken=xbgbh2e8sjzcbmmmq4vyzy21tc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "denizen",
+ "name": "DENIZEN Theatre",
+ "city": "hudsonvalley",
+ "area": "New Paltz",
+ "region": "Kingston, Woodstock & New Paltz",
+ "url": "https://www.denizentheatre.com/",
+ "films": [
+  {
+   "title": "Lady",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.tix.com/ticket-sales/NOWPLAYING/7080/event/1484615",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://www.tix.com/ticket-sales/NOWPLAYING/7080/event/1484615"
+    }
+   ]
+  },
+  {
+   "title": "The Last Dive",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.tix.com/ticket-sales/NOWPLAYING/7080/event/1485443",
+   "shows": [
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://www.tix.com/ticket-sales/NOWPLAYING/7080/event/1485443"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://www.tix.com/ticket-sales/NOWPLAYING/7080/event/1485444"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

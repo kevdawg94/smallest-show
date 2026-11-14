@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "beltonian-belton",
+ "name": "The Beltonian Theatre",
+ "city": "austin",
+ "area": "Belton",
+ "region": "Central Texas",
+ "url": "https://thebeltoniantheatre.com/",
+ "films": [
+  {
+   "title": "The Iron Giant",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/the-iron-giant-tickets-298548",
+   "shows": [
+    {
+     "at": "2026-11-14T10:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/the-iron-giant-tickets-298548"
+    }
+   ]
+  },
+  {
+   "title": "You've Got Mail",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/you-ve-got-mail-tickets-298552",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/you-ve-got-mail-tickets-298552"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "redford",
+ "name": "Redford",
+ "city": "detroit",
+ "area": "Old Redford",
+ "region": "Detroit",
+ "url": "https://redfordtheatre.com/",
+ "films": [
+  {
+   "title": "Star Wars: Episode VI - Return of the Jedi",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+   "shows": [
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/100?siteToken=ks2qqa1sp218n79f3jdn2r6qy0"
+    }
+   ]
+  },
+  {
+   "title": "The Departed",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ks2qqa1sp218n79f3jdn2r6qy0",
+   "shows": [
+    {
+     "at": "2026-11-20T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/102?siteToken=ks2qqa1sp218n79f3jdn2r6qy0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

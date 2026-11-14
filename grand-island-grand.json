@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "grand-island-grand",
+ "name": "Grand Theatre",
+ "city": "kearney",
+ "area": "Grand Island",
+ "region": "Grand Island & Hastings",
+ "url": "https://grandmovietheatre.com/showtimes/",
+ "films": [
+  {
+   "title": "Going for Two",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://grandmovietheatre.com/showtimes/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:15",
+     "sold_out": false,
+     "url": "https://grandmovietheatre.com/showtimes/"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://grandmovietheatre.com/showtimes/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

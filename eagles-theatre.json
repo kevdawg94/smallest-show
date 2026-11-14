@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "eagles-theatre",
+ "name": "Eagles Theatre",
+ "city": "fortwayne",
+ "area": "Wabash",
+ "region": "Columbia City & Wabash",
+ "url": "https://honeywellarts.org/eagles-theatre",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eggmkrgh8ehvdqdjrydrpj51br",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3660?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3661?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3662?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3663?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eggmkrgh8ehvdqdjrydrpj51br",
+   "shows": [
+    {
+     "at": "2026-11-20T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3670?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3673?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

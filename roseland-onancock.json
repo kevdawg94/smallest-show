@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "roseland-onancock",
+ "name": "Roseland Theatre",
+ "city": "delmarva",
+ "area": "Onancock",
+ "region": "Virginia's Eastern Shore",
+ "url": "https://www.roselandonancock.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/start?film=1443",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71699"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71700"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71701"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/start?film=1445",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71704"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

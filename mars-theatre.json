@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "mars-theatre",
+ "name": "Mars Theatre",
+ "city": "savannah",
+ "area": "Springfield",
+ "region": "Springfield",
+ "url": "https://marstheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 105,
+   "url": "https://marstheatre.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/the-cat-in-the-hat/4170623"
+    }
+   ]
+  },
+  {
+   "title": "The Chain - A Fleetwood Mac Tribute",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://marstheatre.com/movie/the-chain---a-fleetwood-mac-tribute/",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/the-chain---a-fleetwood-mac-tribute/4045529"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://marstheatre.com/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4170634"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

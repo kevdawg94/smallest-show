@@ -1,0 +1,170 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "central-cinema",
+ "name": "Central Cinema",
+ "city": "seattle",
+ "area": "Central District",
+ "region": "Capitol Hill & Downtown",
+ "url": "https://central-cinema.com/",
+ "films": [
+  {
+   "title": "My Neighbor Totoro",
+   "rating": "G",
+   "runtime_min": 95,
+   "url": "https://www.central-cinema.com/movie/my-neighbor-totoro/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180748"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180749"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180751"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180752"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180754"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180755"
+    },
+    {
+     "at": "2026-11-17T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180757"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180758"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/my-neighbor-totoro/4180760"
+    }
+   ]
+  },
+  {
+   "title": "Delicatessen",
+   "rating": "R",
+   "runtime_min": 99,
+   "url": "https://www.central-cinema.com/movie/delicatessen/",
+   "shows": [
+    {
+     "at": "2026-11-14T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/delicatessen/4180750"
+    },
+    {
+     "at": "2026-11-15T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/delicatessen/4180753"
+    },
+    {
+     "at": "2026-11-16T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/delicatessen/4180756"
+    },
+    {
+     "at": "2026-11-17T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/delicatessen/4180759"
+    }
+   ]
+  },
+  {
+   "title": "Moviecat Trivia",
+   "rating": null,
+   "runtime_min": 130,
+   "url": "https://www.central-cinema.com/movie/moviecat-trivia/",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/moviecat-trivia/4180761"
+    }
+   ]
+  },
+  {
+   "title": "Cartoon Happy Hour",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://www.central-cinema.com/movie/cartoon-happy-hour/",
+   "shows": [
+    {
+     "at": "2026-11-19T17:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/cartoon-happy-hour/4180280"
+    }
+   ]
+  },
+  {
+   "title": "Totally 80's Sing Along",
+   "rating": null,
+   "runtime_min": 150,
+   "url": "https://www.central-cinema.com/movie/totally-80s-sing-along/",
+   "shows": [
+    {
+     "at": "2026-11-19T20:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/totally-80s-sing-along/4180281"
+    }
+   ]
+  },
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": 92,
+   "url": "https://www.central-cinema.com/movie/planes-trains-and-automobiles/",
+   "shows": [
+    {
+     "at": "2026-11-20T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/planes-trains-and-automobiles/4266629"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/planes-trains-and-automobiles/4266630"
+    }
+   ]
+  },
+  {
+   "title": "Eating Raoul",
+   "rating": "R",
+   "runtime_min": 87,
+   "url": "https://www.central-cinema.com/movie/eating-raoul/",
+   "shows": [
+    {
+     "at": "2026-11-20T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/eating-raoul/4266632"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,67 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "amherst",
+ "name": "Amherst Cinema",
+ "city": "cleveland",
+ "area": "Amherst",
+ "region": "West Side",
+ "url": "https://www.amherstcinema.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7yt44pcak8dj26cq9h6xcakg3w",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6161?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6163?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6160?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6162?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-16T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6155?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6156?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6157?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6158?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

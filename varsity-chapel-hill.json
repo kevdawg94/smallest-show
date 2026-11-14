@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "varsity-chapel-hill",
+ "name": "Varsity Theatre",
+ "city": "triangle",
+ "area": "Chapel Hill",
+ "region": "Chapel Hill",
+ "url": "https://www.varsityonfranklin.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.varsityonfranklin.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://www.varsityonfranklin.com/"
+    },
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://www.varsityonfranklin.com/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://www.varsityonfranklin.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

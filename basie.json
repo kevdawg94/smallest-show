@@ -1,0 +1,88 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "basie",
+ "name": "Basie Center Cinemas",
+ "city": "jerseyshore",
+ "area": "Red Bank",
+ "region": "Monmouth Shore",
+ "url": "https://thebasie.org/venue/basie-center-cinemas/",
+ "films": [
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cpt9j0d931wfpa93hw674a1rhm",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8057?siteToken=cpt9j0d931wfpa93hw674a1rhm"
+    },
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8058?siteToken=cpt9j0d931wfpa93hw674a1rhm"
+    },
+    {
+     "at": "2026-11-15T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8059?siteToken=cpt9j0d931wfpa93hw674a1rhm"
+    },
+    {
+     "at": "2026-11-15T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8069?siteToken=cpt9j0d931wfpa93hw674a1rhm"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cpt9j0d931wfpa93hw674a1rhm",
+   "shows": [
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8066?siteToken=cpt9j0d931wfpa93hw674a1rhm"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8067?siteToken=cpt9j0d931wfpa93hw674a1rhm"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8068?siteToken=cpt9j0d931wfpa93hw674a1rhm"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8060?siteToken=cpt9j0d931wfpa93hw674a1rhm"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cpt9j0d931wfpa93hw674a1rhm",
+   "shows": [
+    {
+     "at": "2026-11-20T22:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8047?siteToken=cpt9j0d931wfpa93hw674a1rhm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

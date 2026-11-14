@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "aledo-opera-house",
+ "name": "Aledo Opera House",
+ "city": "quadcities",
+ "area": "Aledo",
+ "region": "Aledo & Mercer County",
+ "url": "https://www.aledooperahouse.com/",
+ "films": [
+  {
+   "title": "The Devil Wears Prada",
+   "rating": "PG-13",
+   "runtime_min": 109,
+   "url": "https://www.AledoOperaHouse.com/movie/the-devil-wears-prada/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-devil-wears-prada/4132881"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-devil-wears-prada/4132883"
+    },
+    {
+     "at": "2026-11-16T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-devil-wears-prada/4132886"
+    },
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-devil-wears-prada/4132887"
+    }
+   ]
+  },
+  {
+   "title": "The Devil Wears Prada 2",
+   "rating": "PG-13",
+   "runtime_min": 119,
+   "url": "https://www.AledoOperaHouse.com/movie/the-devil-wears-prada-2/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-devil-wears-prada-2/4132882"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-devil-wears-prada-2/4132884"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-devil-wears-prada-2/4132888"
+    },
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/the-devil-wears-prada-2/4132885"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,83 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "capri-theatre",
+ "name": "Capri Theatre",
+ "city": "montgomery",
+ "area": "Cloverdale, Montgomery",
+ "region": "Montgomery",
+ "url": "https://www.capritheatre.org/",
+ "films": [
+  {
+   "title": "The Devils",
+   "rating": null,
+   "runtime_min": 111,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043403~3d1f8824-9c54-4f29-b6b4-f25903f278d6&",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043405~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043409~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043410~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043407~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043411~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    }
+   ]
+  },
+  {
+   "title": "Julie & Julia",
+   "rating": null,
+   "runtime_min": 123,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1041521~3d1f8824-9c54-4f29-b6b4-f25903f278d6&",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1041523~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1043412~3d1f8824-9c54-4f29-b6b4-f25903f278d6&",
+   "shows": [
+    {
+     "at": "2026-11-20T16:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043413~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1043417~3d1f8824-9c54-4f29-b6b4-f25903f278d6&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,94 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "marion-theatre",
+ "name": "Marion Theatre",
+ "city": "gainesville",
+ "area": "Downtown Ocala",
+ "region": "Ocala & Marion County",
+ "url": "https://www.reillyartscenter.com/mariontickets/",
+ "films": [
+  {
+   "title": "Little Women",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV10000085GKTMA2",
+   "shows": [
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TRybMAG"
+    },
+    {
+     "at": "2026-11-15T16:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TS1pMAG"
+    },
+    {
+     "at": "2026-11-19T17:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TP5aMAG"
+    }
+   ]
+  },
+  {
+   "title": "National Lampoon's Christmas Vacation",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV100000850QzMAI",
+   "shows": [
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TJ9pMAG"
+    }
+   ]
+  },
+  {
+   "title": "Up",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV10000085EfFMAU",
+   "shows": [
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TP5ZMAW"
+    }
+   ]
+  },
+  {
+   "title": "Family Matinee for AdventHealth Ocala | November 2026",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV1000008DG7CMAW",
+   "shows": [
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004aEi6MAE"
+    }
+   ]
+  },
+  {
+   "title": "Holiday Inn",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV100000855AXMAY",
+   "shows": [
+    {
+     "at": "2026-11-19T20:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TKXJMA4"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

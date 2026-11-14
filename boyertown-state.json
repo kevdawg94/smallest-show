@@ -1,0 +1,62 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "boyertown-state",
+ "name": "State Theatre",
+ "city": "philly",
+ "area": "Boyertown",
+ "region": "Suburbs",
+ "url": "https://boyertownstatetheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hfx4gecvzsrqdskf0k519fpgnc",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4740?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4747?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4741?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4742?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4743?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4744?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4745?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "aurora-grand",
+ "name": "Aurora Grand Theater",
+ "city": "southeastak",
+ "area": "Downtown Juneau",
+ "region": "Juneau",
+ "url": "https://auroragrandtheater.com/",
+ "films": [
+  {
+   "title": "The Lord of the Rings: The Two Towers (Special Extended Edition )",
+   "rating": null,
+   "runtime_min": 223,
+   "url": "https://auroragrandtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T17:30",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/13871/"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/13872/"
+    }
+   ]
+  },
+  {
+   "title": "The Iron Giant",
+   "rating": null,
+   "runtime_min": 86,
+   "url": "https://auroragrandtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/14831/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

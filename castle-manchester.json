@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "castle-manchester",
+ "name": "Castle Theatre",
+ "city": "iowacity",
+ "area": "Manchester",
+ "region": "Vinton & Manchester",
+ "url": "https://castletheatremanchester.org/",
+ "films": [
+  {
+   "title": "Cat In The Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://castletheatremanchester.org/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://castletheatremanchester.org/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://castletheatremanchester.org/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://castletheatremanchester.org/"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://castletheatremanchester.org/"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://castletheatremanchester.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

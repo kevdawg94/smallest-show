@@ -1,0 +1,101 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "starlight-room",
+ "name": "Starlight Room",
+ "city": "olympic",
+ "area": "Port Townsend",
+ "region": "Port Townsend",
+ "url": "https://www.starlightroomtheatre.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://www.starlightroomtheatre.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-14T11:30",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/wildwood/4288671"
+    },
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": true,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/wildwood/4288673"
+    },
+    {
+     "at": "2026-11-15T11:30",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/wildwood/4288674"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": true,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/wildwood/4288676"
+    },
+    {
+     "at": "2026-11-19T16:00",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/wildwood/4288661"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://www.starlightroomtheatre.com/movie/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": true,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/the-only-living-pickpocket-in-new-york/4288672"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/the-only-living-pickpocket-in-new-york/4288675"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/the-only-living-pickpocket-in-new-york/4288662"
+    }
+   ]
+  },
+  {
+   "title": "Ken Russell's THE DEVILS",
+   "rating": null,
+   "runtime_min": 114,
+   "url": "https://www.starlightroomtheatre.com/movie/ken-russells-the-devils/",
+   "shows": [
+    {
+     "at": "2026-11-16T18:30",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/ken-russells-the-devils/4288677"
+    }
+   ]
+  },
+  {
+   "title": "Rent The Starlight",
+   "rating": null,
+   "runtime_min": 180,
+   "url": "https://www.starlightroomtheatre.com/movie/rent-the-starlight/",
+   "shows": [
+    {
+     "at": "2026-11-20T12:00",
+     "sold_out": false,
+     "url": "https://www.starlightroomtheatre.com/checkout/showing/rent-the-starlight/4323247"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

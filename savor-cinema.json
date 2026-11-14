@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "savor-cinema",
+ "name": "Savor Cinema",
+ "city": "miami",
+ "area": "Fort Lauderdale",
+ "region": "Broward",
+ "url": "https://fliff.org/savor-cinema/",
+ "films": [
+  {
+   "title": "Hunger & Homeless Awareness Free Film Screening",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://fliff.org/events/hungerhomelessawarenessfreefilmscreening/",
+   "shows": [
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://fliff.org/events/hungerhomelessawarenessfreefilmscreening/"
+    }
+   ]
+  },
+  {
+   "title": "The Response",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://fliff.org/events/theresponse/",
+   "shows": [
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://fliff.org/events/theresponse/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "old-town-music-hall",
+ "name": "Old Town Music Hall",
+ "city": "la",
+ "area": "El Segundo",
+ "region": "South Bay & Orange County",
+ "url": "https://www.oldtownmusichall.org/",
+ "films": [
+  {
+   "title": "Key Largo",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://oldtownmusichall.org/movie/key-largo/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:30",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/key-largo/3347485"
+    }
+   ]
+  },
+  {
+   "title": "Harold and Maude",
+   "rating": null,
+   "runtime_min": 92,
+   "url": "https://oldtownmusichall.org/movie/harold-and-maude/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": true,
+     "url": "https://oldtownmusichall.org/checkout/showing/harold-and-maude/3347486"
+    }
+   ]
+  },
+  {
+   "title": "My Best Girl",
+   "rating": null,
+   "runtime_min": 80,
+   "url": "https://oldtownmusichall.org/movie/my-best-girl/",
+   "shows": [
+    {
+     "at": "2026-11-15T14:30",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/my-best-girl/3347487"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

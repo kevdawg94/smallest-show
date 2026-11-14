@@ -1,0 +1,731 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "bam",
+ "name": "BAM Rose Cinemas",
+ "city": "nyc",
+ "area": "Fort Greene",
+ "region": "Brooklyn",
+ "url": "https://www.bam.org/film",
+ "films": [
+  {
+   "title": "Best of BAMkids Film Festival (Ages 6—8)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/kids/2026/best-of-bkff68",
+   "shows": [
+    {
+     "at": "2026-11-14T11:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/57761"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "shows": [
+    {
+     "at": "2026-11-14T12:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-14T13:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-14T15:40",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-14T16:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-14T19:20",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-14T20:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-15T16:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-15T18:50",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-15T20:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-16T19:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-17T16:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-17T19:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-18T18:50",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-18T19:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-19T16:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    },
+    {
+     "at": "2026-11-19T19:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/58645"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "shows": [
+    {
+     "at": "2026-11-14T13:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-14T17:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-14T21:15",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-15T21:15",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-16T16:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-16T21:15",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-17T16:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-17T21:15",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-18T16:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-18T21:15",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-19T16:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    },
+    {
+     "at": "2026-11-19T21:15",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59393"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/club-kid",
+   "shows": [
+    {
+     "at": "2026-11-14T13:10",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-14T18:40",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-14T21:20",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-15T13:10",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-15T18:40",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-15T21:20",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-16T16:10",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-16T18:40",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-16T21:20",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-17T16:10",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-17T18:40",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-17T21:20",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-18T16:10",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-18T18:40",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-18T21:20",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-19T16:10",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-19T18:40",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    },
+    {
+     "at": "2026-11-19T21:20",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59717"
+    }
+   ]
+  },
+  {
+   "title": "On Straub-Huillet",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-on-straub",
+   "shows": [
+    {
+     "at": "2026-11-14T13:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59267"
+    },
+    {
+     "at": "2026-11-17T21:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59267"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "shows": [
+    {
+     "at": "2026-11-14T13:30",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-14T16:15",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-14T21:30",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-15T13:30",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-15T16:15",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-15T18:45",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-15T21:30",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-16T16:15",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-16T18:45",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-16T21:30",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-17T16:15",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-17T18:45",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-17T21:30",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-18T16:15",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-18T18:45",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-18T21:30",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-19T16:15",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-19T18:45",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    },
+    {
+     "at": "2026-11-19T21:30",
+     "sold_out": false,
+     "url": "https://www.bam.org/film/2026/wild-horse-nine#performanceHeader"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/fatherland",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59498"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59498"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59498"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59498"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59498"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59498"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59498"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59498"
+    }
+   ]
+  },
+  {
+   "title": "The Last Bolshevik",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-the-last-bolshevik",
+   "shows": [
+    {
+     "at": "2026-11-14T16:15",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59270"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59270"
+    }
+   ]
+  },
+  {
+   "title": "Self Portraits - Akerman and Godard",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-self-portraits",
+   "shows": [
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59273"
+    },
+    {
+     "at": "2026-11-18T18:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59273"
+    }
+   ]
+  },
+  {
+   "title": "A.K.",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-ak",
+   "shows": [
+    {
+     "at": "2026-11-14T21:20",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59258"
+    }
+   ]
+  },
+  {
+   "title": "Making Do the Right Thing + Parlons grand-mère",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-making-do-the-right-thing",
+   "shows": [
+    {
+     "at": "2026-11-15T13:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59276"
+    },
+    {
+     "at": "2026-11-18T16:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59276"
+    }
+   ]
+  },
+  {
+   "title": "Jacques Rivette, The Night Watchman",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-rivette",
+   "shows": [
+    {
+     "at": "2026-11-15T15:35",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59279"
+    },
+    {
+     "at": "2026-11-16T20:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59279"
+    }
+   ]
+  },
+  {
+   "title": "Eadweard Muybridge, Zoopraxographer",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-muybridge",
+   "shows": [
+    {
+     "at": "2026-11-15T18:10",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59282"
+    },
+    {
+     "at": "2026-11-16T17:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59282"
+    }
+   ]
+  },
+  {
+   "title": "It May Be That Beauty Has Strengthened Our Resolve - Masao Adachi",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-it-may-be",
+   "shows": [
+    {
+     "at": "2026-11-15T19:45",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59285"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59285"
+    }
+   ]
+  },
+  {
+   "title": "Jacquot de Nantes",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-nantes",
+   "shows": [
+    {
+     "at": "2026-11-17T16:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59264"
+    }
+   ]
+  },
+  {
+   "title": "ArteEast Presents Sunshine Express",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/arteeast-sunshine",
+   "shows": [
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59288"
+    }
+   ]
+  },
+  {
+   "title": "Burden of Dreams",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-burden-of-dreams",
+   "shows": [
+    {
+     "at": "2026-11-18T21:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59261"
+    }
+   ]
+  },
+  {
+   "title": "Paper Tiger",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/paper-tiger",
+   "shows": [
+    {
+     "at": "2026-11-19T16:20",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59561"
+    },
+    {
+     "at": "2026-11-19T18:50",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59561"
+    },
+    {
+     "at": "2026-11-19T21:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59561"
+    },
+    {
+     "at": "2026-11-20T13:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59561"
+    },
+    {
+     "at": "2026-11-20T16:20",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59561"
+    },
+    {
+     "at": "2026-11-20T18:50",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59561"
+    },
+    {
+     "at": "2026-11-20T21:30",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/59561"
+    }
+   ]
+  },
+  {
+   "title": "Cameron Winter at Carnegie Hall",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.bam.org/film/2026/cameron-winter",
+   "shows": [
+    {
+     "at": "2026-11-20T15:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/57901"
+    },
+    {
+     "at": "2026-11-20T17:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/57901"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/57901"
+    },
+    {
+     "at": "2026-11-20T21:00",
+     "sold_out": false,
+     "url": "https://commerce.bam.org/production/57901"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

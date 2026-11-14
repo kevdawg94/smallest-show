@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "dodge-dodgeville",
+ "name": "Dodge Theatre",
+ "city": "madison",
+ "area": "Dodgeville",
+ "region": "Southwest Wisconsin",
+ "url": "https://www.statetheatres.com/our-locations/x05h3-dodge-theatre/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.statetheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:20",
+     "sold_out": false,
+     "url": "https://booking.statetheatres.com/launch/ticketing/bd92371f-9ede-5330-8cf6-e9336c4689f6"
+    },
+    {
+     "at": "2026-11-14T16:40",
+     "sold_out": false,
+     "url": "https://booking.statetheatres.com/launch/ticketing/0d389ac8-50cb-5317-9946-1e4b181a1437"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://booking.statetheatres.com/launch/ticketing/af9c4af2-31e8-503f-9a6f-169ab09d93a8"
+    },
+    {
+     "at": "2026-11-15T14:20",
+     "sold_out": false,
+     "url": "https://booking.statetheatres.com/launch/ticketing/ce37d182-3edb-5ddb-a7ce-9c91f78acae8"
+    },
+    {
+     "at": "2026-11-15T16:40",
+     "sold_out": false,
+     "url": "https://booking.statetheatres.com/launch/ticketing/31ad13cf-44ef-5ea4-8bd2-02c20bb57e39"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://booking.statetheatres.com/launch/ticketing/011189fc-ca98-5234-86db-4ba6c04944a2"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://booking.statetheatres.com/launch/ticketing/ce89acd5-1137-597a-a50b-9c1fc94e2697"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://booking.statetheatres.com/launch/ticketing/bdb86023-71f0-54cb-a03f-99c0e39ebf6d"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.statetheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://booking.statetheatres.com/launch/ticketing/4477903e-be46-569a-8de3-f8b713659fa2"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

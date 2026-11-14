@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "indigo-las-vegas",
+ "name": "Indigo Theater",
+ "city": "abq",
+ "area": "Las Vegas",
+ "region": "Las Vegas",
+ "url": "https://www.indigotheater.rocks/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=crpbd49gbz2hhrea57hemf69y8",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7365?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-14T17:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7367?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-15T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7364?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7366?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-15T17:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7368?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7369?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7370?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=crpbd49gbz2hhrea57hemf69y8",
+   "shows": [
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7371?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-20T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7350?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

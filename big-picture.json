@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "big-picture",
+ "name": "Big Picture Theater & Café",
+ "city": "burlington",
+ "area": "Waitsfield",
+ "region": "Mad River Valley & Stowe",
+ "url": "https://www.bigpicturetheater.info/movies",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13 2026",
+   "runtime_min": 116,
+   "url": "https://www.bigpicturetheater.info/event-details/ebenezer-2026-11-13-19-00",
+   "shows": [
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.bigpicturetheater.info/event-details/ebenezer-2026-11-13-19-00"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.bigpicturetheater.info/event-details/ebenezer-2026-11-13-19-00"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://www.bigpicturetheater.info/event-details/ebenezer-2026-11-13-19-00"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.bigpicturetheater.info/event-details/you-can-see-everything-2026-11-12-18-30",
+   "shows": [
+    {
+     "at": "2026-11-15T18:30",
+     "sold_out": false,
+     "url": "https://www.bigpicturetheater.info/event-details/you-can-see-everything-2026-11-12-18-30"
+    },
+    {
+     "at": "2026-11-16T18:30",
+     "sold_out": false,
+     "url": "https://www.bigpicturetheater.info/event-details/you-can-see-everything-2026-11-12-18-30"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

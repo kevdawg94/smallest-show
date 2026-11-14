@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "rodeo",
+ "name": "Rodeo Cinema",
+ "city": "okc",
+ "area": "Stockyards City",
+ "region": "Downtown & Midtown",
+ "url": "https://rodeocinema.org/cinema/",
+ "films": [
+  {
+   "title": "Free Birds",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://rodeocinema.org/events/free-birds/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://rodeocinema.org/events/free-birds/"
+    }
+   ]
+  },
+  {
+   "title": "The Exiles",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://rodeocinema.org/events/theexiles/",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://rodeocinema.org/events/theexiles/"
+    }
+   ]
+  },
+  {
+   "title": "Elf",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://rodeocinema.org/events/elf/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://rodeocinema.org/events/elf/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

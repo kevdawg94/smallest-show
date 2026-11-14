@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "cozy-wadena",
+ "name": "Cozy Theatre",
+ "city": "fargo",
+ "area": "Wadena",
+ "region": "Detroit Lakes & Bemidji",
+ "url": "https://cozytheatre.com/",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://cozytheatre.com/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://cozytheatre.com/now-showing"
+    },
+    {
+     "at": "2026-11-14T21:30",
+     "sold_out": false,
+     "url": "https://cozytheatre.com/now-showing"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://cozytheatre.com/now-showing"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://cozytheatre.com/now-showing"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://cozytheatre.com/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-14T19:15",
+     "sold_out": false,
+     "url": "https://cozytheatre.com/now-showing"
+    },
+    {
+     "at": "2026-11-14T21:30",
+     "sold_out": false,
+     "url": "https://cozytheatre.com/now-showing"
+    },
+    {
+     "at": "2026-11-15T19:15",
+     "sold_out": false,
+     "url": "https://cozytheatre.com/now-showing"
+    },
+    {
+     "at": "2026-11-16T19:15",
+     "sold_out": false,
+     "url": "https://cozytheatre.com/now-showing"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-10T02:24",
+ "error": true,
+ "warning": null
+}

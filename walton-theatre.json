@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "walton-theatre",
+ "name": "Walton Theatre",
+ "city": "hudsonvalley",
+ "area": "Walton",
+ "region": "Orange & Sullivan",
+ "url": "https://waltontheatre.org/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://waltontheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://waltontheatre.org/"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://waltontheatre.org/"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://waltontheatre.org/"
+    }
+   ]
+  },
+  {
+   "title": "White Christmas Thursday,",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://waltontheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://waltontheatre.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

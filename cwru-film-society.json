@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "cwru-film-society",
+ "name": "CWRU Film Society",
+ "city": "cleveland",
+ "area": "University Circle",
+ "region": "East Side",
+ "url": "https://films.cwru.edu",
+ "films": [
+  {
+   "title": "Ferris Bueller's Day Off",
+   "rating": "PG-13",
+   "runtime_min": 103,
+   "url": "https://films.cwru.edu/schedule.php",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://community.case.edu/cwrufs/rsvp_boot?id=2286108"
+    },
+    {
+     "at": "2026-11-14T21:15",
+     "sold_out": false,
+     "url": "https://community.case.edu/cwrufs/rsvp_boot?id=2286108"
+    }
+   ]
+  },
+  {
+   "title": "The Imitation Game",
+   "rating": "PG-13",
+   "runtime_min": 114,
+   "url": "https://films.cwru.edu/schedule.php",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://community.case.edu/cwrufs/rsvp_boot?id=2286109"
+    },
+    {
+     "at": "2026-11-20T21:30",
+     "sold_out": false,
+     "url": "https://community.case.edu/cwrufs/rsvp_boot?id=2286109"
+    },
+    {
+     "at": "2026-11-20T23:59",
+     "sold_out": false,
+     "url": "https://community.case.edu/cwrufs/rsvp_boot?id=2286109"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

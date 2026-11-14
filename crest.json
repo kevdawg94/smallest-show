@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "crest",
+ "name": "Crest Theatre",
+ "city": "sacramento",
+ "area": "Downtown",
+ "region": "Downtown & Midtown",
+ "url": "https://cresttheater.com/",
+ "films": [
+  {
+   "title": "Singin In The Rain",
+   "rating": "G",
+   "runtime_min": 103,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketmaster.com/event/1C006551DFDE5944"
+    }
+   ]
+  },
+  {
+   "title": "The Terminator (1984)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketmaster.com/event/1C0065571489F52F"
+    }
+   ]
+  },
+  {
+   "title": "Chinatown (1974)",
+   "rating": "R",
+   "runtime_min": 130,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketmaster.com/event/1C006551E0E55C20"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

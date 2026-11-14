@@ -1,0 +1,290 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "darkside",
+ "name": "Darkside Cinema",
+ "city": "corvallis",
+ "area": "Corvallis",
+ "region": "Corvallis",
+ "url": "https://darksidecinema.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://darksidecinema.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/you-can-see-everything/4280490"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/you-can-see-everything/4232439"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/you-can-see-everything/4257438"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/you-can-see-everything/4232452"
+    },
+    {
+     "at": "2026-11-16T18:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/you-can-see-everything/4232459"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/you-can-see-everything/4233439"
+    },
+    {
+     "at": "2026-11-18T18:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/you-can-see-everything/4233446"
+    },
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/you-can-see-everything/4233447"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": 82,
+   "url": "https://darksidecinema.com/movie/fatherland/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4232446"
+    },
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4232438"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4232458"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4232450"
+    },
+    {
+     "at": "2026-11-15T20:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4280183"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4232461"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4257552"
+    },
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4280186"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4233443"
+    },
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4280185"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/fatherland/4233450"
+    }
+   ]
+  },
+  {
+   "title": "Roadless",
+   "rating": null,
+   "runtime_min": 55,
+   "url": "https://darksidecinema.com/movie/roadless/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/roadless/4232445"
+    },
+    {
+     "at": "2026-11-14T17:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/roadless/4232436"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/roadless/4232448"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 140,
+   "url": "https://darksidecinema.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/wildwood/4232442"
+    },
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/wildwood/4232441"
+    },
+    {
+     "at": "2026-11-15T16:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/wildwood/4232453"
+    },
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/wildwood/4232454"
+    },
+    {
+     "at": "2026-11-16T19:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/wildwood/4232460"
+    },
+    {
+     "at": "2026-11-17T19:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/wildwood/4233438"
+    },
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/wildwood/4233445"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/wildwood/4233448"
+    }
+   ]
+  },
+  {
+   "title": "Waking Up From A Nap on A Long Day of Doing Nothing",
+   "rating": null,
+   "runtime_min": 29,
+   "url": "https://darksidecinema.com/movie/waking-up-from-a-nap-on-a-long-day-of-doing-nothing/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/waking-up-from-a-nap-on-a-long-day-of-doing-nothing/4233452"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/waking-up-from-a-nap-on-a-long-day-of-doing-nothing/4233453"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/waking-up-from-a-nap-on-a-long-day-of-doing-nothing/4232455"
+    },
+    {
+     "at": "2026-11-16T18:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/waking-up-from-a-nap-on-a-long-day-of-doing-nothing/4232462"
+    }
+   ]
+  },
+  {
+   "title": "The Devils",
+   "rating": null,
+   "runtime_min": 114,
+   "url": "https://darksidecinema.com/movie/the-devils/",
+   "shows": [
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/the-devils/4279903"
+    },
+    {
+     "at": "2026-11-15T17:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/the-devils/4280491"
+    },
+    {
+     "at": "2026-11-15T20:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/the-devils/4279904"
+    },
+    {
+     "at": "2026-11-16T17:30",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/the-devils/4280184"
+    },
+    {
+     "at": "2026-11-16T20:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/the-devils/4279908"
+    },
+    {
+     "at": "2026-11-17T20:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/the-devils/4279909"
+    },
+    {
+     "at": "2026-11-18T20:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/the-devils/4279910"
+    },
+    {
+     "at": "2026-11-19T20:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/the-devils/4279911"
+    }
+   ]
+  },
+  {
+   "title": "CMNYK Presents: The Brain That Wouldn't Die",
+   "rating": null,
+   "runtime_min": 82,
+   "url": "https://darksidecinema.com/movie/cmnyk-presents-the-brain-that-wouldnt-die/",
+   "shows": [
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://darksidecinema.com/checkout/showing/cmnyk-presents-the-brain-that-wouldnt-die/4238201"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

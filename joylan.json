@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "joylan",
+ "name": "Joylan Theatre",
+ "city": "buffalo",
+ "area": "Springville",
+ "region": "Southtowns",
+ "url": "https://www.joylantheatre.com/",
+ "films": [
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=std6pkc5v2n270ph95ss8ep93r",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1773?siteToken=std6pkc5v2n270ph95ss8ep93r"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1766?siteToken=std6pkc5v2n270ph95ss8ep93r"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1772?siteToken=std6pkc5v2n270ph95ss8ep93r"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1767?siteToken=std6pkc5v2n270ph95ss8ep93r"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1768?siteToken=std6pkc5v2n270ph95ss8ep93r"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1769?siteToken=std6pkc5v2n270ph95ss8ep93r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

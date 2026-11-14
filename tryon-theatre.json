@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "tryon-theatre",
+ "name": "Tryon Theatre",
+ "city": "asheville",
+ "area": "Tryon",
+ "region": "Hendersonville–Flat Rock–Brevard",
+ "url": "https://tryontheatre.com/",
+ "films": [
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hwhc2662w8gykfq7yqh9wn1hr8",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2517?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    },
+    {
+     "at": "2026-11-15T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2518?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    }
+   ]
+  },
+  {
+   "title": "Digger",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hwhc2662w8gykfq7yqh9wn1hr8",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2519?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    },
+    {
+     "at": "2026-11-19T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2521?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2520?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2522?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

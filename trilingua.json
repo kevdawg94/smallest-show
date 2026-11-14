@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "trilingua",
+ "name": "TriLingua",
+ "city": "msp",
+ "area": "East Side",
+ "region": "St. Paul",
+ "url": "https://trilinguacinema.org/",
+ "films": [
+  {
+   "title": "Away",
+   "rating": null,
+   "runtime_min": 75,
+   "url": "https://trilinguacinema.org/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:05",
+     "sold_out": false,
+     "url": "https://trilinguacinema.org/purchase/8048/"
+    }
+   ]
+  },
+  {
+   "title": "Dear You",
+   "rating": null,
+   "runtime_min": 118,
+   "url": "https://trilinguacinema.org/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:20",
+     "sold_out": false,
+     "url": "https://trilinguacinema.org/purchase/8021/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

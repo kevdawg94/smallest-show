@@ -1,0 +1,145 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "low-cinema",
+ "name": "Low Cinema",
+ "city": "nyc",
+ "area": "Ridgewood",
+ "region": "Queens & beyond",
+ "url": "https://lowcinema.com/tickets/",
+ "films": [
+  {
+   "title": "American Theater",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-11-15T20:30",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-11-16T20:15",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    }
+   ]
+  },
+  {
+   "title": "The History of Concrete",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-14T20:30",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-11-16T18:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/bd870799-cd97-4756-ad26-21f193ccdb24/"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/7bb003ac-a59b-49da-9766-431f87a2cc95/"
+    },
+    {
+     "at": "2026-11-18T18:45",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/abb418a0-1034-43ef-a4d9-1478ee6b633a/"
+    }
+   ]
+  },
+  {
+   "title": "The Scout",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-17T20:15",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/285c1a5d-7c10-41b5-ad0f-f5667286e4c6/"
+    }
+   ]
+  },
+  {
+   "title": "Night Owl Mystery VHS Night #8",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-18T21:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/f290b1e8-b911-4b35-82c1-afa4b2568d13/"
+    }
+   ]
+  },
+  {
+   "title": "Eleanor",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/435809e6-e7ff-4da9-94fc-7032f1a63218/"
+    }
+   ]
+  },
+  {
+   "title": "A Knight's Tale",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-19T20:20",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/9a737f18-5b2e-4eb0-9889-2f43603c61ff/"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-20T17:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/a77b0632-67d0-45d8-becd-7709d5ae2a19/"
+    },
+    {
+     "at": "2026-11-20T20:30",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/44b05276-007a-4f11-be61-db12f6450aa3/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

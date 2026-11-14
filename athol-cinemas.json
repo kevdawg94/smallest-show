@@ -1,0 +1,812 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "athol-cinemas",
+ "name": "Athol Cinemas",
+ "city": "westernmass",
+ "area": "Athol",
+ "region": "Franklin County & North Quabbin",
+ "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8",
+ "films": [
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 124,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/27569",
+   "shows": [
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085043000002"
+    },
+    {
+     "at": "2026-11-14T18:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085044000002"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085063000002"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085064000002"
+    },
+    {
+     "at": "2026-11-15T18:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085065000002"
+    },
+    {
+     "at": "2026-11-16T13:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085087000002"
+    },
+    {
+     "at": "2026-11-16T15:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085088000002"
+    },
+    {
+     "at": "2026-11-16T18:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085089000002"
+    },
+    {
+     "at": "2026-11-17T13:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085111000002"
+    },
+    {
+     "at": "2026-11-17T15:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085112000002"
+    },
+    {
+     "at": "2026-11-17T18:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085113000002"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085135000002"
+    },
+    {
+     "at": "2026-11-18T15:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085136000002"
+    },
+    {
+     "at": "2026-11-18T18:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085137000002"
+    },
+    {
+     "at": "2026-11-19T13:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085159000007"
+    },
+    {
+     "at": "2026-11-19T15:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085160000007"
+    },
+    {
+     "at": "2026-11-19T18:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085161000007"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": 111,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/26605",
+   "shows": [
+    {
+     "at": "2026-11-14T15:35",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085040000006"
+    },
+    {
+     "at": "2026-11-14T18:25",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085045000006"
+    },
+    {
+     "at": "2026-11-15T13:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085059000006"
+    },
+    {
+     "at": "2026-11-15T15:35",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085061000006"
+    },
+    {
+     "at": "2026-11-15T18:25",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085066000006"
+    },
+    {
+     "at": "2026-11-16T13:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085081000006"
+    },
+    {
+     "at": "2026-11-16T15:35",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085085000006"
+    },
+    {
+     "at": "2026-11-16T18:25",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085090000006"
+    },
+    {
+     "at": "2026-11-17T13:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085105000006"
+    },
+    {
+     "at": "2026-11-17T15:35",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085109000006"
+    },
+    {
+     "at": "2026-11-17T18:25",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085114000006"
+    },
+    {
+     "at": "2026-11-18T13:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085129000006"
+    },
+    {
+     "at": "2026-11-18T15:35",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085133000006"
+    },
+    {
+     "at": "2026-11-18T18:25",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085138000006"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 145,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/27692",
+   "shows": [
+    {
+     "at": "2026-11-14T15:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085051000004"
+    },
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085052000004"
+    },
+    {
+     "at": "2026-11-15T12:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085071000004"
+    },
+    {
+     "at": "2026-11-15T15:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085072000004"
+    },
+    {
+     "at": "2026-11-15T18:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085073000004"
+    },
+    {
+     "at": "2026-11-16T12:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085095000004"
+    },
+    {
+     "at": "2026-11-16T15:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085096000004"
+    },
+    {
+     "at": "2026-11-16T18:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085097000004"
+    },
+    {
+     "at": "2026-11-17T12:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085119000004"
+    },
+    {
+     "at": "2026-11-17T15:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085120000004"
+    },
+    {
+     "at": "2026-11-17T18:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085121000004"
+    },
+    {
+     "at": "2026-11-18T12:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085143000004"
+    },
+    {
+     "at": "2026-11-18T15:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085144000004"
+    },
+    {
+     "at": "2026-11-18T18:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085145000004"
+    },
+    {
+     "at": "2026-11-19T12:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085167000004"
+    },
+    {
+     "at": "2026-11-19T15:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085168000004"
+    },
+    {
+     "at": "2026-11-19T18:45",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085169000004"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 132,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/27494",
+   "shows": [
+    {
+     "at": "2026-11-14T15:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085054000008"
+    },
+    {
+     "at": "2026-11-14T18:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085055000008"
+    },
+    {
+     "at": "2026-11-15T13:05",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085074000008"
+    },
+    {
+     "at": "2026-11-15T15:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085075000008"
+    },
+    {
+     "at": "2026-11-15T18:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085076000008"
+    },
+    {
+     "at": "2026-11-16T13:05",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085098000008"
+    },
+    {
+     "at": "2026-11-16T15:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085099000008"
+    },
+    {
+     "at": "2026-11-16T18:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085100000008"
+    },
+    {
+     "at": "2026-11-17T13:05",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085122000008"
+    },
+    {
+     "at": "2026-11-17T15:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085123000008"
+    },
+    {
+     "at": "2026-11-17T18:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085124000008"
+    },
+    {
+     "at": "2026-11-18T13:05",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085146000008"
+    },
+    {
+     "at": "2026-11-18T15:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085147000008"
+    },
+    {
+     "at": "2026-11-18T18:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085148000008"
+    },
+    {
+     "at": "2026-11-19T13:05",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085170000008"
+    },
+    {
+     "at": "2026-11-19T15:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085171000008"
+    },
+    {
+     "at": "2026-11-19T18:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085172000008"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/28099",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085047000003"
+    },
+    {
+     "at": "2026-11-14T19:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085048000003"
+    },
+    {
+     "at": "2026-11-15T13:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085067000003"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085068000003"
+    },
+    {
+     "at": "2026-11-15T19:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085069000003"
+    },
+    {
+     "at": "2026-11-16T13:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085091000003"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085092000003"
+    },
+    {
+     "at": "2026-11-16T19:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085093000003"
+    },
+    {
+     "at": "2026-11-17T13:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085115000003"
+    },
+    {
+     "at": "2026-11-17T16:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085116000003"
+    },
+    {
+     "at": "2026-11-17T19:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085117000003"
+    },
+    {
+     "at": "2026-11-18T13:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085139000003"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085140000003"
+    },
+    {
+     "at": "2026-11-18T19:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085141000003"
+    },
+    {
+     "at": "2026-11-19T13:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085163000003"
+    },
+    {
+     "at": "2026-11-19T16:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085164000003"
+    },
+    {
+     "at": "2026-11-19T19:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085165000003"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 131,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/27835",
+   "shows": [
+    {
+     "at": "2026-11-14T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085041000005"
+    },
+    {
+     "at": "2026-11-14T18:55",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085049000005"
+    },
+    {
+     "at": "2026-11-15T13:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085060000005"
+    },
+    {
+     "at": "2026-11-15T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085062000005"
+    },
+    {
+     "at": "2026-11-15T18:55",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085070000005"
+    },
+    {
+     "at": "2026-11-16T13:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085084000005"
+    },
+    {
+     "at": "2026-11-16T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085086000005"
+    },
+    {
+     "at": "2026-11-16T18:55",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085094000005"
+    },
+    {
+     "at": "2026-11-17T13:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085108000005"
+    },
+    {
+     "at": "2026-11-17T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085110000005"
+    },
+    {
+     "at": "2026-11-17T18:55",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085118000005"
+    },
+    {
+     "at": "2026-11-18T13:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085132000005"
+    },
+    {
+     "at": "2026-11-18T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085134000005"
+    },
+    {
+     "at": "2026-11-18T18:55",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085142000005"
+    },
+    {
+     "at": "2026-11-19T13:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085156000005"
+    },
+    {
+     "at": "2026-11-19T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085158000005"
+    },
+    {
+     "at": "2026-11-19T18:55",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085166000005"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/28000",
+   "shows": [
+    {
+     "at": "2026-11-14T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085037000007"
+    },
+    {
+     "at": "2026-11-15T13:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085057000007"
+    },
+    {
+     "at": "2026-11-15T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085058000007"
+    },
+    {
+     "at": "2026-11-16T13:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085079000007"
+    },
+    {
+     "at": "2026-11-16T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085080000007"
+    },
+    {
+     "at": "2026-11-17T13:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085103000007"
+    },
+    {
+     "at": "2026-11-17T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085104000007"
+    },
+    {
+     "at": "2026-11-18T13:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085127000007"
+    },
+    {
+     "at": "2026-11-18T16:10",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085128000007"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 125,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/27836",
+   "shows": [
+    {
+     "at": "2026-11-14T16:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084758000001"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084759000001"
+    },
+    {
+     "at": "2026-11-15T13:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084760000001"
+    },
+    {
+     "at": "2026-11-15T16:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084761000001"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084762000001"
+    },
+    {
+     "at": "2026-11-16T13:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085083000001"
+    },
+    {
+     "at": "2026-11-16T16:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085078000001"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085082000001"
+    },
+    {
+     "at": "2026-11-17T13:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085107000001"
+    },
+    {
+     "at": "2026-11-17T16:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085102000001"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085106000001"
+    },
+    {
+     "at": "2026-11-18T13:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085131000001"
+    },
+    {
+     "at": "2026-11-18T16:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085126000001"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085130000001"
+    },
+    {
+     "at": "2026-11-19T13:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085155000002"
+    },
+    {
+     "at": "2026-11-19T16:20",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085150000002"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085154000002"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/27999",
+   "shows": [
+    {
+     "at": "2026-11-14T18:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085056000007"
+    },
+    {
+     "at": "2026-11-15T18:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085077000007"
+    },
+    {
+     "at": "2026-11-16T18:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085101000007"
+    },
+    {
+     "at": "2026-11-17T18:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085125000007"
+    },
+    {
+     "at": "2026-11-18T18:50",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085149000007"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 168,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/27837",
+   "shows": [
+    {
+     "at": "2026-11-19T12:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084728000001"
+    },
+    {
+     "at": "2026-11-19T15:15",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084729000001"
+    },
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084730000001"
+    },
+    {
+     "at": "2026-11-20T12:00",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084731000001"
+    },
+    {
+     "at": "2026-11-20T15:15",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084733000001"
+    },
+    {
+     "at": "2026-11-20T18:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/084732000001"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/movie/28119",
+   "shows": [
+    {
+     "at": "2026-11-19T12:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085188000006"
+    },
+    {
+     "at": "2026-11-19T15:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085189000006"
+    },
+    {
+     "at": "2026-11-19T18:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085190000006"
+    },
+    {
+     "at": "2026-11-20T15:30",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085175000003"
+    },
+    {
+     "at": "2026-11-20T18:40",
+     "sold_out": false,
+     "url": "https://www.yourneighborhoodtheatre.com/athol-cinema-8/tickets/085176000003"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

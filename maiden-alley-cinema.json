@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "maiden-alley-cinema",
+ "name": "Maiden Alley Cinema",
+ "city": "paducah",
+ "area": "Downtown, Paducah",
+ "region": "Downtown Paducah",
+ "url": "https://maidenalleycinema.org/",
+ "films": [
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=667447~3b7c9544-2d63-4f4a-87f0-344eead928a2&",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669055~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669056~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669057~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669058~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    }
+   ]
+  },
+  {
+   "title": "East of Eden",
+   "rating": "PG",
+   "runtime_min": 115,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=669060~3b7c9544-2d63-4f4a-87f0-344eead928a2&",
+   "shows": [
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669061~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    }
+   ]
+  },
+  {
+   "title": "The Neverending Story",
+   "rating": "PG",
+   "runtime_min": 101,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=669062~3b7c9544-2d63-4f4a-87f0-344eead928a2&",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669064~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

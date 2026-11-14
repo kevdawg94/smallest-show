@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "roxy-morton",
+ "name": "Roxy Theater",
+ "city": "swwa",
+ "area": "Morton",
+ "region": "Centralia–Chehalis & Lewis County",
+ "url": "https://mortonroxy.org/movies/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://mortonroxy.org/event/wildwood/2026-11-14/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://mortonroxy.org/event/wildwood/2026-11-14/"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://mortonroxy.org/event/wildwood/2026-11-16/1/"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://mortonroxy.org/event/wildwood/2026-11-16/2/"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://mortonroxy.org/event/hunger-games-sunrise-on-the-reaping/2026-11-20/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://mortonroxy.org/event/hunger-games-sunrise-on-the-reaping/2026-11-20/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

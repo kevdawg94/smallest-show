@@ -1,0 +1,130 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "capitol-olympia",
+ "name": "Capitol Theater",
+ "city": "seattle",
+ "area": "Olympia",
+ "region": "West Seattle & South",
+ "url": "https://www.olympiafilmsociety.org/",
+ "films": [
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://olympiafilmsociety.org/movie/once-upon-a-time-in-harlem/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/once-upon-a-time-in-harlem/4036113"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/once-upon-a-time-in-harlem/4036114"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://olympiafilmsociety.org/movie/fjord/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/fjord/4123614"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/fjord/4123615"
+    },
+    {
+     "at": "2026-11-19T16:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/fjord/4123616"
+    }
+   ]
+  },
+  {
+   "title": "Ofs Kids Club: Hugo - Free for Children 12 & Under",
+   "rating": "PG",
+   "runtime_min": 126,
+   "url": "https://olympiafilmsociety.org/movie/hugo/",
+   "shows": [
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/hugo/4123587"
+    }
+   ]
+  },
+  {
+   "title": "Ken Russell's The Devils",
+   "rating": null,
+   "runtime_min": 112,
+   "url": "https://olympiafilmsociety.org/movie/ken-russells-the-devils/",
+   "shows": [
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/ken-russells-the-devils/3992539"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/ken-russells-the-devils/3992540"
+    }
+   ]
+  },
+  {
+   "title": "Animation Tuesdays: Castle in the Sky - 40th Anniversary",
+   "rating": "PG",
+   "runtime_min": 125,
+   "url": "https://olympiafilmsociety.org/movie/animation-tuesdays-castle-in-the-sky---40th-anniversary/",
+   "shows": [
+    {
+     "at": "2026-11-17T20:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/animation-tuesdays-castle-in-the-sky---40th-anniversary/3873276"
+    }
+   ]
+  },
+  {
+   "title": "Reel Oddities: Phenomena: Original Cut",
+   "rating": null,
+   "runtime_min": 110,
+   "url": "https://olympiafilmsociety.org/movie/reel-oddities-phenomena-original-cut/",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/reel-oddities-phenomena-original-cut/4173583"
+    }
+   ]
+  },
+  {
+   "title": "The Bridge Music Project Presents Flowcase",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://olympiafilmsociety.org/movie/the-bridge-music-project-presents-flowcase-2/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://olympiafilmsociety.org/checkout/showing/the-bridge-music-project-presents-flowcase-2/4223958"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

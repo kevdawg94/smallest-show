@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "fowler-theatre",
+ "name": "Fowler Theatre",
+ "city": "indianapolis",
+ "area": "Fowler",
+ "region": "Fowler",
+ "url": "https://fowlertheater.com/",
+ "films": [
+  {
+   "title": "Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.xtremeticketing.com/fowlertheater/upcomingevents",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://www.xtremeticketing.com/fowlertheater/Event/hunger-games-sunrise-on-the-reaping-thursday-11-19-26-only-372083"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.xtremeticketing.com/fowlertheater/Event/hunger-games-sunrise-on-the-reaping-friday-11-20-26-only-372084"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

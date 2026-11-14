@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "webster-film-series",
+ "name": "Webster Film Series",
+ "city": "stl",
+ "area": "Webster Groves",
+ "region": "County & Metro East",
+ "url": "https://www.webster.edu/film-series/",
+ "films": [
+  {
+   "title": "SLIFF: Jardines Del Bosque",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://events.webster.edu/event/sliff-jardines-del-bosque",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://festivals.cinemastlouis.org/sliff2026/movies/jardines-del-bosque/"
+    }
+   ]
+  },
+  {
+   "title": "Magnolia",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://events.webster.edu/event/magnolia",
+   "shows": [
+    {
+     "at": "2026-11-15T18:30",
+     "sold_out": false,
+     "url": "https://events.webster.edu/event/magnolia"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

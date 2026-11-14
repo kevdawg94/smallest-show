@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "sun-gothenburg",
+ "name": "Sun Theatre",
+ "city": "kearney",
+ "area": "Gothenburg",
+ "region": "Lexington, Cozad & Gothenburg",
+ "url": "https://www.gothenburgsun.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://app.formovietickets.com/index.html?chain=suntheatregothenburg&rtn=154027&page=picktitle&showTitle=THE%20CAT%20IN%20THE%20HAT",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=suntheatregothenburg&rtn=154027&page=picktitle&showTitle=THE%20CAT%20IN%20THE%20HAT"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=suntheatregothenburg&rtn=154027&page=picktitle&showTitle=THE%20CAT%20IN%20THE%20HAT"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://app.formovietickets.com/index.html?chain=suntheatregothenburg&rtn=154027&page=picktitle&showTitle=DRUMMER%20BOY",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=suntheatregothenburg&rtn=154027&page=picktitle&showTitle=DRUMMER%20BOY"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

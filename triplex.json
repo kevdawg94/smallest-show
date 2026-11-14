@@ -1,0 +1,401 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "triplex",
+ "name": "Triplex Cinema",
+ "city": "westernmass",
+ "area": "Great Barrington",
+ "region": "Berkshires",
+ "url": "https://www.thetriplex.org/",
+ "films": [
+  {
+   "title": "Mouse",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://www.thetriplex.org/movie/mouse/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/mouse/4229066"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/mouse/4229076"
+    },
+    {
+     "at": "2026-11-15T13:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/mouse/4229067"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/mouse/4309192"
+    },
+    {
+     "at": "2026-11-16T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/mouse/4229077"
+    },
+    {
+     "at": "2026-11-18T16:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/mouse/4229073"
+    },
+    {
+     "at": "2026-11-19T14:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/mouse/4229068"
+    },
+    {
+     "at": "2026-11-19T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/mouse/4229078"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.thetriplex.org/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/the-cat-in-the-hat/4229050"
+    },
+    {
+     "at": "2026-11-14T17:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/the-cat-in-the-hat/4229054"
+    },
+    {
+     "at": "2026-11-15T13:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/the-cat-in-the-hat/4229051"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/the-cat-in-the-hat/4229055"
+    },
+    {
+     "at": "2026-11-16T17:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/the-cat-in-the-hat/4229056"
+    },
+    {
+     "at": "2026-11-18T17:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/the-cat-in-the-hat/4229057"
+    },
+    {
+     "at": "2026-11-19T14:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/the-cat-in-the-hat/4229052"
+    },
+    {
+     "at": "2026-11-19T17:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/the-cat-in-the-hat/4229058"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.thetriplex.org/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309187"
+    },
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309188"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309190"
+    },
+    {
+     "at": "2026-11-15T16:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309191"
+    },
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309193"
+    },
+    {
+     "at": "2026-11-16T15:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309196"
+    },
+    {
+     "at": "2026-11-16T19:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309195"
+    },
+    {
+     "at": "2026-11-18T15:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309197"
+    },
+    {
+     "at": "2026-11-18T19:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309198"
+    },
+    {
+     "at": "2026-11-19T12:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309201"
+    },
+    {
+     "at": "2026-11-19T15:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309202"
+    },
+    {
+     "at": "2026-11-19T19:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309203"
+    },
+    {
+     "at": "2026-11-20T12:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309879"
+    },
+    {
+     "at": "2026-11-20T15:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309881"
+    },
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4309880"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.thetriplex.org/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229038"
+    },
+    {
+     "at": "2026-11-14T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229044"
+    },
+    {
+     "at": "2026-11-15T13:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229035"
+    },
+    {
+     "at": "2026-11-15T16:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229039"
+    },
+    {
+     "at": "2026-11-15T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229045"
+    },
+    {
+     "at": "2026-11-16T16:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229040"
+    },
+    {
+     "at": "2026-11-16T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229046"
+    },
+    {
+     "at": "2026-11-18T16:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229041"
+    },
+    {
+     "at": "2026-11-18T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229047"
+    },
+    {
+     "at": "2026-11-19T13:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229036"
+    },
+    {
+     "at": "2026-11-19T16:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229042"
+    },
+    {
+     "at": "2026-11-19T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4229048"
+    },
+    {
+     "at": "2026-11-20T14:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4309876"
+    },
+    {
+     "at": "2026-11-20T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4309877"
+    },
+    {
+     "at": "2026-11-20T20:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4309878"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://www.thetriplex.org/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-14T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wicker/4272341"
+    },
+    {
+     "at": "2026-11-14T20:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wicker/4309189"
+    },
+    {
+     "at": "2026-11-15T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wicker/4272339"
+    },
+    {
+     "at": "2026-11-16T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wicker/4272342"
+    },
+    {
+     "at": "2026-11-16T20:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wicker/4309194"
+    },
+    {
+     "at": "2026-11-18T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wicker/4309199"
+    },
+    {
+     "at": "2026-11-19T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wicker/4272343"
+    },
+    {
+     "at": "2026-11-19T20:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wicker/4309200"
+    }
+   ]
+  },
+  {
+   "title": "Out of the Past",
+   "rating": null,
+   "runtime_min": 97,
+   "url": "https://www.thetriplex.org/movie/out-of-the-past/",
+   "shows": [
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/out-of-the-past/4166259"
+    }
+   ]
+  },
+  {
+   "title": "Gilda",
+   "rating": null,
+   "runtime_min": 110,
+   "url": "https://www.thetriplex.org/movie/gilda/",
+   "shows": [
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/gilda/4166260"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://www.thetriplex.org/movie/fjord/",
+   "shows": [
+    {
+     "at": "2026-11-20T13:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/fjord/4276735"
+    },
+    {
+     "at": "2026-11-20T16:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/fjord/4276736"
+    },
+    {
+     "at": "2026-11-20T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/fjord/4276737"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.thetriplex.org/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-20T14:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4276732"
+    },
+    {
+     "at": "2026-11-20T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4276733"
+    },
+    {
+     "at": "2026-11-20T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4276734"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

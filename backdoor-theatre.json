@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "backdoor-theatre",
+ "name": "Backdoor Theatre",
+ "city": "denver",
+ "area": "Nederland",
+ "region": "Boulder & Front Range",
+ "url": "https://thebackdoortheatre.org/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://thebackdoortheatre.org/event/sense-and-sensibility-2/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://thebackdoortheatre.org/event/sense-and-sensibility-2/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://thebackdoortheatre.org/event/sense-and-sensibility-3/"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://thebackdoortheatre.org/event/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://thebackdoortheatre.org/event/wicker/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

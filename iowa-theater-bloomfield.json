@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "iowa-theater-bloomfield",
+ "name": "Iowa Theater",
+ "city": "fairfieldia",
+ "area": "Bloomfield",
+ "region": "Bloomfield & Davis County",
+ "url": "https://dcfineartscouncil.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 90,
+   "url": "https://dcfineartscouncil.com/event/the-cat-in-the-hat-pg-1-1-2-hrs-5",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://dcfineartscouncil.com/event/the-cat-in-the-hat-pg-1-1-2-hrs-5"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://dcfineartscouncil.com/event/the-cat-in-the-hat-pg-1-1-2-hrs-6"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://dcfineartscouncil.com/event/jimmy-pg-13-2-hrs",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://dcfineartscouncil.com/event/jimmy-pg-13-2-hrs"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

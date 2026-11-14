@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "moonlite-abingdon",
+ "name": "Moonlite Drive-In",
+ "city": "bristol",
+ "area": "Abingdon, VA",
+ "region": "Abingdon",
+ "url": "https://www.moonliteabingdon.com/events-showtimes",
+ "films": [
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/start?film=1266",
+   "shows": [
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/book?perfcode=51114"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games Sunrise on t",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/start?film=1268",
+   "shows": [
+    {
+     "at": "2026-11-20T18:30",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/book?perfcode=51115"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

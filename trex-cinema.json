@@ -1,0 +1,224 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "trex-cinema",
+ "name": "TREX Cinema 4",
+ "city": "triad",
+ "area": "Kernersville",
+ "region": "Kernersville",
+ "url": "https://www.trexcinema4.com/",
+ "films": [
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://www.trexcinema4.com/movie/ghost-soldier/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:30",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ghost-soldier/4298494"
+    },
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ghost-soldier/4298495"
+    },
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ghost-soldier/4298496"
+    },
+    {
+     "at": "2026-11-14T20:30",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ghost-soldier/4298497"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ghost-soldier/4298504"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ghost-soldier/4298505"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ghost-soldier/4298506"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ghost-soldier/4298507"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ghost-soldier/4298511"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.trexcinema4.com/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:45",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/drummer-boy/4280505"
+    },
+    {
+     "at": "2026-11-14T17:25",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/drummer-boy/4321965"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/drummer-boy/4280514"
+    },
+    {
+     "at": "2026-11-15T18:40",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/drummer-boy/4321966"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.trexcinema4.com/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ebenezer/4298500"
+    },
+    {
+     "at": "2026-11-14T17:30",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ebenezer/4298501"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ebenezer/4298502"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ebenezer/4298508"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ebenezer/4298509"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ebenezer/4298510"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ebenezer/4298512"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/ebenezer/4321978"
+    }
+   ]
+  },
+  {
+   "title": "The cat in the hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://www.trexcinema4.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/the-cat-in-the-hat/4280501"
+    },
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/the-cat-in-the-hat/4280502"
+    },
+    {
+     "at": "2026-11-14T20:30",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/the-cat-in-the-hat/4280503"
+    },
+    {
+     "at": "2026-11-15T13:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/the-cat-in-the-hat/4280510"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/the-cat-in-the-hat/4280511"
+    },
+    {
+     "at": "2026-11-15T17:10",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/the-cat-in-the-hat/4280512"
+    },
+    {
+     "at": "2026-11-15T19:20",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/the-cat-in-the-hat/4280513"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/the-cat-in-the-hat/4280520"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/the-cat-in-the-hat/4321977"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla minus zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://www.trexcinema4.com/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/godzilla-minus-zero/4280509"
+    },
+    {
+     "at": "2026-11-15T15:50",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/godzilla-minus-zero/4280518"
+    },
+    {
+     "at": "2026-11-18T18:40",
+     "sold_out": false,
+     "url": "https://www.trexcinema4.com/checkout/showing/godzilla-minus-zero/4321980"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "tinker-street",
+ "name": "Tinker Street Cinema",
+ "city": "hudsonvalley",
+ "area": "Woodstock",
+ "region": "Kingston, Woodstock & New Paltz",
+ "url": "https://www.tscwoodstock.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1674?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1675?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1676?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1678?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

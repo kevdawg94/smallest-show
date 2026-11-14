@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "robey-theatre",
+ "name": "Robey Theatre",
+ "city": "charlestonwv",
+ "area": "Spencer",
+ "region": "Spencer",
+ "url": "https://www.robeytheatre.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=9pjabxw8gaxd0a5vebddc35mmc",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5575?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5580?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5576?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5577?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5578?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5579?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=9pjabxw8gaxd0a5vebddc35mmc",
+   "shows": [
+    {
+     "at": "2026-11-19T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5564?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5565?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5557?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

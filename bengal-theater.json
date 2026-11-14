@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "bengal-theater",
+ "name": "Bengal Theater",
+ "city": "pocatello",
+ "area": "Idaho State University",
+ "region": "Pocatello",
+ "url": "https://www.isu.edu/bengaltheater",
+ "films": [
+  {
+   "title": "Tony",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.isu.edu/bengaltheater",
+   "shows": [
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.isu.edu/bengaltheater"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://www.isu.edu/bengaltheater"
+    }
+   ]
+  },
+  {
+   "title": "The Super Mario Galaxy Movie",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.isu.edu/bengaltheater",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://www.isu.edu/bengaltheater"
+    },
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.isu.edu/bengaltheater"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,637 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "alamo-la-vista",
+ "name": "Alamo La Vista",
+ "city": "omaha",
+ "area": "La Vista",
+ "region": "West Omaha & Sarpy",
+ "url": "https://drafthouse.com/omaha/theater/la-vista",
+ "films": [
+  {
+   "title": "The Cat in the Hat (2026)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/the-cat-in-the-hat-2026?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107848"
+    },
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107849"
+    },
+    {
+     "at": "2026-11-14T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107850"
+    },
+    {
+     "at": "2026-11-15T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107870"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107868"
+    },
+    {
+     "at": "2026-11-15T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107869"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107883"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107884"
+    },
+    {
+     "at": "2026-11-17T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107905"
+    },
+    {
+     "at": "2026-11-17T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107894"
+    },
+    {
+     "at": "2026-11-18T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107909"
+    },
+    {
+     "at": "2026-11-18T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cat-in-the-hat-2026/1601/107910"
+    }
+   ]
+  },
+  {
+   "title": "Volver",
+   "rating": "R",
+   "runtime_min": 126,
+   "url": "https://drafthouse.com/omaha/show/sad-girl-cinema-club-volver?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/sad-girl-cinema-club-volver/1601/107395"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/you-can-see-everything?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/you-can-see-everything/1601/107851"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/you-can-see-everything/1601/107852"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/you-can-see-everything/1601/107871"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/you-can-see-everything/1601/107872"
+    },
+    {
+     "at": "2026-11-16T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/you-can-see-everything/1601/107889"
+    },
+    {
+     "at": "2026-11-17T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/you-can-see-everything/1601/107906"
+    },
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/you-can-see-everything/1601/107901"
+    },
+    {
+     "at": "2026-11-18T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/you-can-see-everything/1601/107918"
+    },
+    {
+     "at": "2026-11-18T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/you-can-see-everything/1601/107917"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/how-to-rob-a-bank?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-14T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107523"
+    },
+    {
+     "at": "2026-11-14T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107524"
+    },
+    {
+     "at": "2026-11-14T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107525"
+    },
+    {
+     "at": "2026-11-15T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107530"
+    },
+    {
+     "at": "2026-11-15T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107527"
+    },
+    {
+     "at": "2026-11-15T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107528"
+    },
+    {
+     "at": "2026-11-16T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107531"
+    },
+    {
+     "at": "2026-11-16T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107532"
+    },
+    {
+     "at": "2026-11-17T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107519"
+    },
+    {
+     "at": "2026-11-17T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107534"
+    },
+    {
+     "at": "2026-11-18T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107535"
+    },
+    {
+     "at": "2026-11-18T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/how-to-rob-a-bank/1601/107536"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/ebenezer?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107484"
+    },
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107485"
+    },
+    {
+     "at": "2026-11-14T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107486"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107488"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107489"
+    },
+    {
+     "at": "2026-11-15T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107490"
+    },
+    {
+     "at": "2026-11-16T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107493"
+    },
+    {
+     "at": "2026-11-16T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107494"
+    },
+    {
+     "at": "2026-11-17T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107480"
+    },
+    {
+     "at": "2026-11-17T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107497"
+    },
+    {
+     "at": "2026-11-18T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107498"
+    },
+    {
+     "at": "2026-11-18T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ebenezer/1601/107499"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/godzilla-minus-zero?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107857"
+    },
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107859"
+    },
+    {
+     "at": "2026-11-14T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107866"
+    },
+    {
+     "at": "2026-11-15T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107876"
+    },
+    {
+     "at": "2026-11-15T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107877"
+    },
+    {
+     "at": "2026-11-15T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107878"
+    },
+    {
+     "at": "2026-11-16T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107885"
+    },
+    {
+     "at": "2026-11-16T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107886"
+    },
+    {
+     "at": "2026-11-17T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107895"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107896"
+    },
+    {
+     "at": "2026-11-18T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107915"
+    },
+    {
+     "at": "2026-11-18T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/godzilla-minus-zero/1601/107916"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/clayface?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-14T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/clayface/1601/107856"
+    },
+    {
+     "at": "2026-11-15T11:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/clayface/1601/107882"
+    },
+    {
+     "at": "2026-11-15T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/clayface/1601/107874"
+    },
+    {
+     "at": "2026-11-16T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/clayface/1601/107892"
+    },
+    {
+     "at": "2026-11-16T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/clayface/1601/107890"
+    },
+    {
+     "at": "2026-11-17T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/clayface/1601/107908"
+    },
+    {
+     "at": "2026-11-17T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/clayface/1601/107900"
+    },
+    {
+     "at": "2026-11-18T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/clayface/1601/107914"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/wild-horse-nine?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-14T16:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107854"
+    },
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107853"
+    },
+    {
+     "at": "2026-11-14T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107855"
+    },
+    {
+     "at": "2026-11-14T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107865"
+    },
+    {
+     "at": "2026-11-15T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107867"
+    },
+    {
+     "at": "2026-11-15T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107881"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107879"
+    },
+    {
+     "at": "2026-11-15T20:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107880"
+    },
+    {
+     "at": "2026-11-16T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107887"
+    },
+    {
+     "at": "2026-11-16T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107888"
+    },
+    {
+     "at": "2026-11-17T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107907"
+    },
+    {
+     "at": "2026-11-17T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107898"
+    },
+    {
+     "at": "2026-11-18T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107911"
+    },
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/wild-horse-nine/1601/107912"
+    }
+   ]
+  },
+  {
+   "title": "Ramayana",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/ramayana?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-14T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ramayana/1601/107858"
+    },
+    {
+     "at": "2026-11-15T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ramayana/1601/107873"
+    },
+    {
+     "at": "2026-11-15T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ramayana/1601/107875"
+    },
+    {
+     "at": "2026-11-16T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ramayana/1601/107891"
+    },
+    {
+     "at": "2026-11-17T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ramayana/1601/107899"
+    },
+    {
+     "at": "2026-11-18T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/ramayana/1601/107913"
+    }
+   ]
+  },
+  {
+   "title": "Wallace & Gromit: The Classic Shorts",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://drafthouse.com/omaha/show/alamo-crafthouse-wallace-gromit-the-classic-shorts?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-15T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/alamo-crafthouse-wallace-gromit-the-classic-shorts/1601/107396"
+    }
+   ]
+  },
+  {
+   "title": "The Skin I Live In",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/the-skin-i-live-in?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-skin-i-live-in/1601/107397"
+    },
+    {
+     "at": "2026-11-17T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-skin-i-live-in/1601/107902"
+    }
+   ]
+  },
+  {
+   "title": "Mystery Voyage",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://drafthouse.com/omaha/show/agfadrome-mystery-voyage-november-2026?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-16T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/agfadrome-mystery-voyage-november-2026/1601/107399"
+    }
+   ]
+  },
+  {
+   "title": "The Searchers",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/the-searchers?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-18T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-searchers/1601/107919"
+    }
+   ]
+  },
+  {
+   "title": "Married To The Mob",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/married-to-the-mob?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/married-to-the-mob/1601/107398"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/the-hunger-games-sunrise-on-the-reaping?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-19T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-hunger-games-sunrise-on-the-reaping/1601/107459"
+    },
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-hunger-games-sunrise-on-the-reaping/1601/107460"
+    },
+    {
+     "at": "2026-11-20T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-hunger-games-sunrise-on-the-reaping/1601/107456"
+    },
+    {
+     "at": "2026-11-20T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-hunger-games-sunrise-on-the-reaping/1601/107455"
+    },
+    {
+     "at": "2026-11-20T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-hunger-games-sunrise-on-the-reaping/1601/107458"
+    }
+   ]
+  },
+  {
+   "title": "The Cook, The Thief, His Wife, & Her Lover",
+   "rating": "NC-17",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/omaha/show/the-cook-the-thief-his-wife-her-lover?cinemaId=1601",
+   "shows": [
+    {
+     "at": "2026-11-20T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/omaha/tickets/the-cook-the-thief-his-wife-her-lover/1601/107418"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

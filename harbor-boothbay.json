@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "harbor-boothbay",
+ "name": "Harbor Theater",
+ "city": "midcoast",
+ "area": "Boothbay Harbor",
+ "region": "Boothbay & Damariscotta",
+ "url": "https://boothbaycinema.org/",
+ "films": [
+  {
+   "title": "Klara and the Sun",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://boothbaycinema.org/klaraandthesun/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/klaraandthesun/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/klaraandthesun/"
+    },
+    {
+     "at": "2026-11-18T14:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/klaraandthesun/"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/klaraandthesun/"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://boothbaycinema.org/onceuponatimeinharlem/",
+   "shows": [
+    {
+     "at": "2026-11-20T14:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/onceuponatimeinharlem/"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://boothbaycinema.org/thecatinthehat/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/thecatinthehat/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

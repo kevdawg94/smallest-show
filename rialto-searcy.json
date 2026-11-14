@@ -1,0 +1,70 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "rialto-searcy",
+ "name": "Rialto Theater",
+ "city": "searcy",
+ "area": "Searcy",
+ "region": "Searcy & White County",
+ "url": "https://searcyrialtotheater.com/",
+ "films": [
+  {
+   "title": "PAW Patrol: The Dino Movie",
+   "rating": "PG",
+   "runtime_min": 88,
+   "url": "https://searcyrialtotheater.com/amy_movie/paw-patrol-the-dino-movie/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/paw-patrol-the-dino-movie/"
+    },
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/paw-patrol-the-dino-movie/"
+    },
+    {
+     "at": "2026-11-15T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/paw-patrol-the-dino-movie/"
+    },
+    {
+     "at": "2026-11-16T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/paw-patrol-the-dino-movie/"
+    },
+    {
+     "at": "2026-11-18T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/paw-patrol-the-dino-movie/"
+    },
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/paw-patrol-the-dino-movie/"
+    }
+   ]
+  },
+  {
+   "title": "Toy Story 5",
+   "rating": "PG",
+   "runtime_min": 102,
+   "url": "https://searcyrialtotheater.com/amy_movie/toy-story-5/",
+   "shows": [
+    {
+     "at": "2026-11-20T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/toy-story-5/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

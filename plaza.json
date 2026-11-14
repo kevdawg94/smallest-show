@@ -1,0 +1,411 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "plaza",
+ "name": "Plaza Theatre",
+ "city": "atlanta",
+ "area": "Poncey-Highland",
+ "region": "Intown",
+ "url": "https://www.plazaatlanta.com/",
+ "films": [
+  {
+   "title": "AVC: Enongo",
+   "rating": null,
+   "runtime_min": 92,
+   "url": "https://www.plazaatlanta.com/movie/avc-enongo/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/avc-enongo/4179758"
+    }
+   ]
+  },
+  {
+   "title": "The Muppet Movie (4K)",
+   "rating": "G",
+   "runtime_min": 97,
+   "url": "https://www.plazaatlanta.com/movie/the-muppet-movie-4k/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/the-muppet-movie-4k/4230904"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/the-muppet-movie-4k/4230905"
+    },
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/the-muppet-movie-4k/4292606"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://www.plazaatlanta.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292334"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292333"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292458"
+    },
+    {
+     "at": "2026-11-15T20:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292457"
+    },
+    {
+     "at": "2026-11-16T16:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292544"
+    },
+    {
+     "at": "2026-11-17T12:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292595"
+    },
+    {
+     "at": "2026-11-17T14:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292596"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292610"
+    },
+    {
+     "at": "2026-11-18T20:15",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292611"
+    },
+    {
+     "at": "2026-11-19T13:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292658"
+    },
+    {
+     "at": "2026-11-19T17:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/you-can-see-everything/4292659"
+    }
+   ]
+  },
+  {
+   "title": "Closure",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://www.plazaatlanta.com/movie/closure/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/closure/4292340"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/closure/4292461"
+    },
+    {
+     "at": "2026-11-16T13:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/closure/4292547"
+    },
+    {
+     "at": "2026-11-17T15:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/closure/4292599"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/closure/4292615"
+    },
+    {
+     "at": "2026-11-19T16:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/closure/4292662"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://www.plazaatlanta.com/movie/once-upon-a-time-in-harlem/",
+   "shows": [
+    {
+     "at": "2026-11-14T17:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292330"
+    },
+    {
+     "at": "2026-11-14T21:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292331"
+    },
+    {
+     "at": "2026-11-15T11:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292455"
+    },
+    {
+     "at": "2026-11-15T18:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292454"
+    },
+    {
+     "at": "2026-11-15T22:15",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292456"
+    },
+    {
+     "at": "2026-11-16T14:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292543"
+    },
+    {
+     "at": "2026-11-16T17:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292542"
+    },
+    {
+     "at": "2026-11-17T20:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292594"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292608"
+    },
+    {
+     "at": "2026-11-18T15:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292607"
+    },
+    {
+     "at": "2026-11-18T18:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292609"
+    },
+    {
+     "at": "2026-11-19T15:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292656"
+    },
+    {
+     "at": "2026-11-19T21:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/once-upon-a-time-in-harlem/4292657"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://www.plazaatlanta.com/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292336"
+    },
+    {
+     "at": "2026-11-15T17:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292459"
+    },
+    {
+     "at": "2026-11-15T21:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292460"
+    },
+    {
+     "at": "2026-11-16T14:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292546"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292545"
+    },
+    {
+     "at": "2026-11-17T17:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292598"
+    },
+    {
+     "at": "2026-11-17T21:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292597"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292614"
+    },
+    {
+     "at": "2026-11-18T15:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292612"
+    },
+    {
+     "at": "2026-11-18T21:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292613"
+    },
+    {
+     "at": "2026-11-19T13:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292661"
+    },
+    {
+     "at": "2026-11-19T20:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/godzilla-minus-zero/4292660"
+    }
+   ]
+  },
+  {
+   "title": "Network (4K)",
+   "rating": "R",
+   "runtime_min": 122,
+   "url": "https://www.plazaatlanta.com/movie/network-4k/",
+   "shows": [
+    {
+     "at": "2026-11-15T19:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/network-4k/4292462"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/network-4k/4292600"
+    },
+    {
+     "at": "2026-11-19T13:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/network-4k/4292664"
+    }
+   ]
+  },
+  {
+   "title": "Behind the Slate: Seven Beauties",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://www.plazaatlanta.com/movie/behind-the-slate-seven-beauties/",
+   "shows": [
+    {
+     "at": "2026-11-16T19:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/behind-the-slate-seven-beauties/4183311"
+    }
+   ]
+  },
+  {
+   "title": "Staff Pick: Me and Earl and the Dying Girl",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.plazaatlanta.com/movie/staff-pick-me-earl-and-the-dying-girl/",
+   "shows": [
+    {
+     "at": "2026-11-16T20:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/staff-pick-me-earl-and-the-dying-girl/4266857"
+    }
+   ]
+  },
+  {
+   "title": "Pulse (4K)",
+   "rating": "R",
+   "runtime_min": 119,
+   "url": "https://www.plazaatlanta.com/movie/pulse-4k/",
+   "shows": [
+    {
+     "at": "2026-11-17T21:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/pulse-4k/4292601"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid (35mm + Digital)",
+   "rating": "R",
+   "runtime_min": 122,
+   "url": "https://www.plazaatlanta.com/movie/club-kid-35mm-digital/",
+   "shows": [
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/club-kid-35mm-digital/4292911"
+    }
+   ]
+  },
+  {
+   "title": "Plazadrome: Der Fan (4K)",
+   "rating": null,
+   "runtime_min": 92,
+   "url": "https://www.plazaatlanta.com/movie/plazadrome-der-fan-4k/",
+   "shows": [
+    {
+     "at": "2026-11-19T21:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/plazadrome-der-fan-4k/4145059"
+    }
+   ]
+  },
+  {
+   "title": "Joystick: Batman Returns",
+   "rating": "PG-13",
+   "runtime_min": 126,
+   "url": "https://www.plazaatlanta.com/movie/joystick-batman-returns/",
+   "shows": [
+    {
+     "at": "2026-11-20T19:30",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/joystick-batman-returns/4167011"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show w/ LDOD",
+   "rating": "R",
+   "runtime_min": 98,
+   "url": "https://www.plazaatlanta.com/movie/the-rocky-horror-picture-show-w-ldod/",
+   "shows": [
+    {
+     "at": "2026-11-20T23:00",
+     "sold_out": false,
+     "url": "https://www.plazaatlanta.com/checkout/showing/the-rocky-horror-picture-show-w-ldod/4043649"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "worm-creek",
+ "name": "Worm Creek Opera House",
+ "city": "logan",
+ "area": "Preston",
+ "region": "Preston & Franklin County",
+ "url": "https://wormcreek.org/",
+ "films": [
+  {
+   "title": "The Cat In The Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/the-cat-in-the-hat-6/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://boxoffice.adventuretix.com/franklintheatrearts/events"
+    }
+   ]
+  },
+  {
+   "title": "Private Event",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/private-event-6/",
+   "shows": [
+    {
+     "at": "2026-11-16T17:00",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/private-event-6/"
+    },
+    {
+     "at": "2026-11-17T17:00",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/private-event-7/"
+    },
+    {
+     "at": "2026-11-18T17:00",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/private-event-8/"
+    },
+    {
+     "at": "2026-11-19T12:30",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/private-event-47/"
+    }
+   ]
+  },
+  {
+   "title": "No Movie (Nutcracker rehearsal)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/the-cat-in-the-hat-4/",
+   "shows": [
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://boxoffice.adventuretix.com/franklintheatrearts/events"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

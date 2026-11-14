@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "luez-theater",
+ "name": "Luez Theater",
+ "city": "jacksontn",
+ "area": "Bolivar",
+ "region": "Lexington & Bolivar",
+ "url": "https://www.lueztheater.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.lueztheater.com/2026/11/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://www.lueztheater.com/2026/11/the-cat-in-the-hat/"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.lueztheater.com/2026/11/the-cat-in-the-hat/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

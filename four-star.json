@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "four-star",
+ "name": "4 Star",
+ "city": "bay",
+ "area": "Richmond",
+ "region": "San Francisco",
+ "url": "https://www.4-star-movies.com/",
+ "films": [
+  {
+   "title": "Runa Simi",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-15T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20416?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "LIVE MUSIC: Todd Day Wait, Mac Cornish & more",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-15T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/19575?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Electric Dreams",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-18T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20335?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

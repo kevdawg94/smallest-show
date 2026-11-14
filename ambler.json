@@ -1,0 +1,394 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "ambler",
+ "name": "Ambler",
+ "city": "philly",
+ "area": "Ambler",
+ "region": "Suburbs",
+ "url": "https://amblertheater.org/",
+ "films": [
+  {
+   "title": "The Man with the Golden Arm",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=man-with-the-golden-arm",
+   "shows": [
+    {
+     "at": "2026-11-14T11:35",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/the-man-with-the-golden-arm/3780889"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=you-can-see-everything",
+   "shows": [
+    {
+     "at": "2026-11-14T12:45",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4282540"
+    },
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4282539"
+    },
+    {
+     "at": "2026-11-14T20:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4282541"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4282625"
+    },
+    {
+     "at": "2026-11-15T15:40",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4282623"
+    },
+    {
+     "at": "2026-11-15T19:05",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4282621"
+    },
+    {
+     "at": "2026-11-16T15:40",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4283278"
+    },
+    {
+     "at": "2026-11-16T19:05",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4283277"
+    },
+    {
+     "at": "2026-11-17T15:40",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4283284"
+    },
+    {
+     "at": "2026-11-17T19:05",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4283283"
+    },
+    {
+     "at": "2026-11-18T12:25",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4283317"
+    },
+    {
+     "at": "2026-11-18T15:40",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4283314"
+    },
+    {
+     "at": "2026-11-18T19:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4283313"
+    },
+    {
+     "at": "2026-11-19T15:40",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/you-can-see-everything/4283274"
+    }
+   ]
+  },
+  {
+   "title": "The Man I Love",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=man-i-love",
+   "shows": [
+    {
+     "at": "2026-11-14T14:25",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/the-man-i-love/3780890"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=wild-horse-nine",
+   "shows": [
+    {
+     "at": "2026-11-14T14:35",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4282536"
+    },
+    {
+     "at": "2026-11-14T17:25",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4282537"
+    },
+    {
+     "at": "2026-11-14T20:15",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4282538"
+    },
+    {
+     "at": "2026-11-15T12:45",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4282626"
+    },
+    {
+     "at": "2026-11-15T16:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4282624"
+    },
+    {
+     "at": "2026-11-15T19:15",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4282622"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4283275"
+    },
+    {
+     "at": "2026-11-16T19:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4283276"
+    },
+    {
+     "at": "2026-11-17T16:00",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4283281"
+    },
+    {
+     "at": "2026-11-17T19:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4283282"
+    },
+    {
+     "at": "2026-11-18T13:00",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4283318"
+    },
+    {
+     "at": "2026-11-18T16:00",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4283315"
+    },
+    {
+     "at": "2026-11-18T19:25",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4283312"
+    },
+    {
+     "at": "2026-11-19T16:15",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4283272"
+    },
+    {
+     "at": "2026-11-19T19:25",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/wild-horse-nine/4283273"
+    }
+   ]
+  },
+  {
+   "title": "Hangover Square",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=hangover-square",
+   "shows": [
+    {
+     "at": "2026-11-14T17:20",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/hangover-square/3780891"
+    }
+   ]
+  },
+  {
+   "title": "Cocktails with Eddie",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=cocktails-with-eddie",
+   "shows": [
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://amblertheater.org/films/cocktails-with-eddie"
+    }
+   ]
+  },
+  {
+   "title": "Odds Against Tomorrow",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=odds-against-tomorrow",
+   "shows": [
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/odds-against-tomorrow/3780892"
+    }
+   ]
+  },
+  {
+   "title": "Young Man with a Horn",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=young-man-with-a-horn",
+   "shows": [
+    {
+     "at": "2026-11-15T11:30",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/young-man-with-a-horn/3780893"
+    }
+   ]
+  },
+  {
+   "title": "Eddie and Imogen LIVE",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=eddie-and-imogen-live",
+   "shows": [
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/eddie-and-imogen-live/3780894"
+    }
+   ]
+  },
+  {
+   "title": "Sweet Smell of Success",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=sweet-smell-of-success",
+   "shows": [
+    {
+     "at": "2026-11-15T16:05",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/sweet-smell-of-success/3780895"
+    }
+   ]
+  },
+  {
+   "title": "Humoresque",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=humoresque",
+   "shows": [
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/humoresque/3780896"
+    }
+   ]
+  },
+  {
+   "title": "A Talent for Murder",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=a-talent-for-murder",
+   "shows": [
+    {
+     "at": "2026-11-16T16:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/a-talent-for-murder/4283279"
+    },
+    {
+     "at": "2026-11-16T19:25",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/a-talent-for-murder/4283280"
+    },
+    {
+     "at": "2026-11-17T16:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/a-talent-for-murder/4283285"
+    },
+    {
+     "at": "2026-11-17T19:25",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/a-talent-for-murder/4283286"
+    },
+    {
+     "at": "2026-11-18T12:50",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/a-talent-for-murder/4283319"
+    },
+    {
+     "at": "2026-11-18T16:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/a-talent-for-murder/4283316"
+    }
+   ]
+  },
+  {
+   "title": "The Lovers on the Bridge",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=lovers-on-the-bridge",
+   "shows": [
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/the-lovers-on-the-bridge/3778065"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=i-play-rocky",
+   "shows": [
+    {
+     "at": "2026-11-19T16:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/i-play-rocky/4276326"
+    },
+    {
+     "at": "2026-11-19T19:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/i-play-rocky/4276327"
+    },
+    {
+     "at": "2026-11-20T13:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/i-play-rocky/4276328"
+    },
+    {
+     "at": "2026-11-20T16:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/i-play-rocky/4276329"
+    },
+    {
+     "at": "2026-11-20T19:10",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/i-play-rocky/4276330"
+    }
+   ]
+  },
+  {
+   "title": "GIANT - The Play",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://amblertheater.org/film?id=giant-the-play",
+   "shows": [
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://tickets.amblertheater.org/checkout/showing/giant-the-play/3778066"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

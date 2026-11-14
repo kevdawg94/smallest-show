@@ -1,0 +1,912 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "alamo-city-foundry",
+ "name": "Alamo City Foundry",
+ "city": "stl",
+ "area": "Midtown",
+ "region": "City",
+ "url": "https://drafthouse.com/st-louis/theater/city-foundry",
+ "films": [
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/la-bola-negra?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58030"
+    },
+    {
+     "at": "2026-11-14T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58032"
+    },
+    {
+     "at": "2026-11-14T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58031"
+    },
+    {
+     "at": "2026-11-15T11:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58073"
+    },
+    {
+     "at": "2026-11-15T15:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58060"
+    },
+    {
+     "at": "2026-11-15T19:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58058"
+    },
+    {
+     "at": "2026-11-15T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58059"
+    },
+    {
+     "at": "2026-11-16T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58090"
+    },
+    {
+     "at": "2026-11-16T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58089"
+    },
+    {
+     "at": "2026-11-17T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58116"
+    },
+    {
+     "at": "2026-11-17T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58117"
+    },
+    {
+     "at": "2026-11-18T18:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58130"
+    },
+    {
+     "at": "2026-11-18T21:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58131"
+    },
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58146"
+    },
+    {
+     "at": "2026-11-19T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/la-bola-negra/2601/58145"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/ebenezer?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/57556"
+    },
+    {
+     "at": "2026-11-14T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58014"
+    },
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/57557"
+    },
+    {
+     "at": "2026-11-14T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/57555"
+    },
+    {
+     "at": "2026-11-15T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/57559"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58066"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/57561"
+    },
+    {
+     "at": "2026-11-15T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58045"
+    },
+    {
+     "at": "2026-11-15T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/57560"
+    },
+    {
+     "at": "2026-11-15T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/57562"
+    },
+    {
+     "at": "2026-11-16T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58095"
+    },
+    {
+     "at": "2026-11-16T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58096"
+    },
+    {
+     "at": "2026-11-17T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58111"
+    },
+    {
+     "at": "2026-11-17T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58110"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58125"
+    },
+    {
+     "at": "2026-11-18T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58124"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58151"
+    },
+    {
+     "at": "2026-11-19T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/ebenezer/2601/58135"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/godzilla-minus-zero?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-14T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58028"
+    },
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58029"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58016"
+    },
+    {
+     "at": "2026-11-14T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58027"
+    },
+    {
+     "at": "2026-11-15T11:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58070"
+    },
+    {
+     "at": "2026-11-15T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58062"
+    },
+    {
+     "at": "2026-11-15T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58061"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58054"
+    },
+    {
+     "at": "2026-11-15T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58063"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58079"
+    },
+    {
+     "at": "2026-11-16T22:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58085"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58106"
+    },
+    {
+     "at": "2026-11-17T22:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58102"
+    },
+    {
+     "at": "2026-11-18T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58134"
+    },
+    {
+     "at": "2026-11-18T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58120"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58142"
+    },
+    {
+     "at": "2026-11-19T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/godzilla-minus-zero/2601/58139"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat (2026)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/the-cat-in-the-hat-2026?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-14T15:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58169"
+    },
+    {
+     "at": "2026-11-14T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58021"
+    },
+    {
+     "at": "2026-11-14T21:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58170"
+    },
+    {
+     "at": "2026-11-15T15:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58172"
+    },
+    {
+     "at": "2026-11-15T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58049"
+    },
+    {
+     "at": "2026-11-15T21:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58171"
+    },
+    {
+     "at": "2026-11-16T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58080"
+    },
+    {
+     "at": "2026-11-16T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58176"
+    },
+    {
+     "at": "2026-11-17T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58105"
+    },
+    {
+     "at": "2026-11-17T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58173"
+    },
+    {
+     "at": "2026-11-18T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58122"
+    },
+    {
+     "at": "2026-11-18T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58174"
+    },
+    {
+     "at": "2026-11-19T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58137"
+    },
+    {
+     "at": "2026-11-19T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-cat-in-the-hat-2026/2601/58175"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/how-to-rob-a-bank?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-14T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/57569"
+    },
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/57571"
+    },
+    {
+     "at": "2026-11-14T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/57570"
+    },
+    {
+     "at": "2026-11-14T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58015"
+    },
+    {
+     "at": "2026-11-15T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/57573"
+    },
+    {
+     "at": "2026-11-15T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/57576"
+    },
+    {
+     "at": "2026-11-15T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/57574"
+    },
+    {
+     "at": "2026-11-15T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58055"
+    },
+    {
+     "at": "2026-11-16T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58093"
+    },
+    {
+     "at": "2026-11-16T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58094"
+    },
+    {
+     "at": "2026-11-16T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58078"
+    },
+    {
+     "at": "2026-11-17T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58113"
+    },
+    {
+     "at": "2026-11-17T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58112"
+    },
+    {
+     "at": "2026-11-17T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58107"
+    },
+    {
+     "at": "2026-11-18T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58126"
+    },
+    {
+     "at": "2026-11-19T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58149"
+    },
+    {
+     "at": "2026-11-19T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/how-to-rob-a-bank/2601/58150"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/wicker?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-14T15:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58036"
+    },
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58018"
+    },
+    {
+     "at": "2026-11-14T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58017"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58069"
+    },
+    {
+     "at": "2026-11-15T15:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58074"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58052"
+    },
+    {
+     "at": "2026-11-15T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58053"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58083"
+    },
+    {
+     "at": "2026-11-16T22:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58082"
+    },
+    {
+     "at": "2026-11-17T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58103"
+    },
+    {
+     "at": "2026-11-17T22:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58104"
+    },
+    {
+     "at": "2026-11-18T22:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58121"
+    },
+    {
+     "at": "2026-11-19T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58152"
+    },
+    {
+     "at": "2026-11-19T22:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wicker/2601/58138"
+    }
+   ]
+  },
+  {
+   "title": "Victorian Psycho",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/victorian-psycho?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58033"
+    },
+    {
+     "at": "2026-11-14T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58035"
+    },
+    {
+     "at": "2026-11-14T22:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58034"
+    },
+    {
+     "at": "2026-11-15T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58068"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58057"
+    },
+    {
+     "at": "2026-11-15T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58075"
+    },
+    {
+     "at": "2026-11-15T22:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58056"
+    },
+    {
+     "at": "2026-11-16T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58091"
+    },
+    {
+     "at": "2026-11-16T22:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58092"
+    },
+    {
+     "at": "2026-11-17T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58115"
+    },
+    {
+     "at": "2026-11-17T22:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58114"
+    },
+    {
+     "at": "2026-11-18T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58129"
+    },
+    {
+     "at": "2026-11-18T22:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58128"
+    },
+    {
+     "at": "2026-11-19T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58147"
+    },
+    {
+     "at": "2026-11-19T22:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/victorian-psycho/2601/58148"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/wild-horse-nine?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58024"
+    },
+    {
+     "at": "2026-11-14T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58026"
+    },
+    {
+     "at": "2026-11-14T22:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58025"
+    },
+    {
+     "at": "2026-11-15T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58067"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58046"
+    },
+    {
+     "at": "2026-11-15T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58064"
+    },
+    {
+     "at": "2026-11-15T22:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58065"
+    },
+    {
+     "at": "2026-11-16T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58087"
+    },
+    {
+     "at": "2026-11-16T22:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58086"
+    },
+    {
+     "at": "2026-11-17T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58100"
+    },
+    {
+     "at": "2026-11-17T22:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58101"
+    },
+    {
+     "at": "2026-11-18T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58118"
+    },
+    {
+     "at": "2026-11-18T22:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58119"
+    },
+    {
+     "at": "2026-11-19T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58141"
+    },
+    {
+     "at": "2026-11-19T22:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/wild-horse-nine/2601/58140"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/you-can-see-everything?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58022"
+    },
+    {
+     "at": "2026-11-14T20:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58023"
+    },
+    {
+     "at": "2026-11-15T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58072"
+    },
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58048"
+    },
+    {
+     "at": "2026-11-15T20:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58047"
+    },
+    {
+     "at": "2026-11-16T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58088"
+    },
+    {
+     "at": "2026-11-16T21:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58097"
+    },
+    {
+     "at": "2026-11-17T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58099"
+    },
+    {
+     "at": "2026-11-17T21:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58109"
+    },
+    {
+     "at": "2026-11-18T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58132"
+    },
+    {
+     "at": "2026-11-18T21:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58123"
+    },
+    {
+     "at": "2026-11-19T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58144"
+    },
+    {
+     "at": "2026-11-19T21:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/you-can-see-everything/2601/58136"
+    }
+   ]
+  },
+  {
+   "title": "The Searchers",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/the-searchers?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-15T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-searchers/2601/57484"
+    }
+   ]
+  },
+  {
+   "title": "All About My Mother",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/all-about-my-mother?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-16T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/all-about-my-mother/2601/57483"
+    }
+   ]
+  },
+  {
+   "title": "The Skin I Live In",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/the-skin-i-live-in?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-17T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-skin-i-live-in/2601/57601"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/advance-screening-the-hunger-games-sunrise-on-the-reaping-the-big-show-early-access?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/advance-screening-the-hunger-games-sunrise-on-the-reaping-the-big-show-early-access/2601/57768"
+    },
+    {
+     "at": "2026-11-18T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/advance-screening-the-hunger-games-sunrise-on-the-reaping-the-big-show-early-access/2601/57770"
+    },
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-hunger-games-sunrise-on-the-reaping/2601/57769"
+    },
+    {
+     "at": "2026-11-19T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-hunger-games-sunrise-on-the-reaping/2601/57771"
+    },
+    {
+     "at": "2026-11-20T14:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-hunger-games-sunrise-on-the-reaping/2601/57774"
+    },
+    {
+     "at": "2026-11-20T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-hunger-games-sunrise-on-the-reaping/2601/57773"
+    },
+    {
+     "at": "2026-11-20T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-hunger-games-sunrise-on-the-reaping/2601/57772"
+    }
+   ]
+  },
+  {
+   "title": "Volver",
+   "rating": "R",
+   "runtime_min": 126,
+   "url": "https://drafthouse.com/st-louis/show/sad-girl-cinema-club-volver?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/sad-girl-cinema-club-volver/2601/57602"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/i-play-rocky?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-20T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/i-play-rocky/2601/57969"
+    },
+    {
+     "at": "2026-11-20T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/i-play-rocky/2601/57968"
+    },
+    {
+     "at": "2026-11-20T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/i-play-rocky/2601/57970"
+    }
+   ]
+  },
+  {
+   "title": "The Host: 20th Anniversary",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/st-louis/show/the-host-20th-anniversary?cinemaId=2601",
+   "shows": [
+    {
+     "at": "2026-11-20T21:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/st-louis/tickets/the-host-20th-anniversary/2601/58199"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

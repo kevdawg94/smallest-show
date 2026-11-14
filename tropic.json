@@ -1,0 +1,367 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "tropic",
+ "name": "Tropic Cinema",
+ "city": "keys",
+ "area": "Old Town",
+ "region": "Key West",
+ "url": "https://tropiccinema.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://tropiccinema.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:15",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/you-can-see-everything/4279136"
+    },
+    {
+     "at": "2026-11-14T16:45",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/you-can-see-everything/4279138"
+    },
+    {
+     "at": "2026-11-14T19:15",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/you-can-see-everything/4279139"
+    },
+    {
+     "at": "2026-11-15T12:15",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/you-can-see-everything/4291688"
+    },
+    {
+     "at": "2026-11-15T14:15",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/you-can-see-everything/4291689"
+    },
+    {
+     "at": "2026-11-15T17:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/you-can-see-everything/4291692"
+    },
+    {
+     "at": "2026-11-15T19:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/you-can-see-everything/4291694"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://tropiccinema.com/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-14T14:30",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/wicker/4279133"
+    },
+    {
+     "at": "2026-11-14T17:45",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/wicker/4279134"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/wicker/4279135"
+    },
+    {
+     "at": "2026-11-15T12:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/wicker/4291686"
+    },
+    {
+     "at": "2026-11-15T14:45",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/wicker/4291690"
+    },
+    {
+     "at": "2026-11-15T17:45",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/wicker/4291693"
+    },
+    {
+     "at": "2026-11-15T20:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/wicker/4291695"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 155,
+   "url": "https://tropiccinema.com/movie/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/la-bola-negra/4279141"
+    },
+    {
+     "at": "2026-11-15T15:45",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/la-bola-negra/4291691"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket In New York",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://tropiccinema.com/movie/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-11-14T20:15",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/the-only-living-pickpocket-in-new-york/4291258"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/the-only-living-pickpocket-in-new-york/4291687"
+    },
+    {
+     "at": "2026-11-15T20:30",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/the-only-living-pickpocket-in-new-york/4291696"
+    }
+   ]
+  },
+  {
+   "title": "Paper Tiger",
+   "rating": "R",
+   "runtime_min": 115,
+   "url": "https://tropiccinema.com/movie/paper-tiger-2/",
+   "shows": [
+    {
+     "at": "2026-11-18T18:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/paper-tiger-2/4322696"
+    }
+   ]
+  },
+  {
+   "title": "Rose",
+   "rating": "TBC",
+   "runtime_min": 94,
+   "url": "https://tropiccinema.com/movie/rose/",
+   "shows": [
+    {
+     "at": "2026-11-19T15:30",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/rose/4263724"
+    }
+   ]
+  },
+  {
+   "title": "Elsinore",
+   "rating": "R",
+   "runtime_min": 111,
+   "url": "https://tropiccinema.com/movie/elsinore-2/",
+   "shows": [
+    {
+     "at": "2026-11-19T17:30",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/elsinore-2/4263725"
+    }
+   ]
+  },
+  {
+   "title": "World's Best Shorts",
+   "rating": null,
+   "runtime_min": 85,
+   "url": "https://tropiccinema.com/movie/worlds-best-shorts/",
+   "shows": [
+    {
+     "at": "2026-11-19T17:45",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/worlds-best-shorts/4265864"
+    }
+   ]
+  },
+  {
+   "title": "Phenomena",
+   "rating": null,
+   "runtime_min": 86,
+   "url": "https://tropiccinema.com/movie/phenomenagattti/",
+   "shows": [
+    {
+     "at": "2026-11-19T18:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/phenomenagattti/4263726"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": "R",
+   "runtime_min": 126,
+   "url": "https://tropiccinema.com/movie/club-kid/",
+   "shows": [
+    {
+     "at": "2026-11-19T20:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/club-kid/4263727"
+    }
+   ]
+  },
+  {
+   "title": "Burgundy",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://tropiccinema.com/movie/burgundy/",
+   "shows": [
+    {
+     "at": "2026-11-19T20:15",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/burgundy/4263728"
+    }
+   ]
+  },
+  {
+   "title": "go-LOVE-go",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://tropiccinema.com/movie/go-love-go/",
+   "shows": [
+    {
+     "at": "2026-11-19T20:30",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/go-love-go/4263729"
+    }
+   ]
+  },
+  {
+   "title": "All of a Sudden",
+   "rating": "PG-13",
+   "runtime_min": 196,
+   "url": "https://tropiccinema.com/movie/all-of-a-sudden/",
+   "shows": [
+    {
+     "at": "2026-11-20T14:15",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/all-of-a-sudden/4269919"
+    }
+   ]
+  },
+  {
+   "title": "Roman Holiday",
+   "rating": "G",
+   "runtime_min": 119,
+   "url": "https://tropiccinema.com/movie/roman-holiday/",
+   "shows": [
+    {
+     "at": "2026-11-20T14:30",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/roman-holiday/4269920"
+    }
+   ]
+  },
+  {
+   "title": "Documentary Shorts",
+   "rating": null,
+   "runtime_min": 85,
+   "url": "https://tropiccinema.com/movie/documentary-shorts/",
+   "shows": [
+    {
+     "at": "2026-11-20T15:30",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/documentary-shorts/4269921"
+    }
+   ]
+  },
+  {
+   "title": "Bob and David Climb Machu Picchu",
+   "rating": null,
+   "runtime_min": 80,
+   "url": "https://tropiccinema.com/movie/bob-and-david-climb-machu-picchu/",
+   "shows": [
+    {
+     "at": "2026-11-20T17:30",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/bob-and-david-climb-machu-picchu/4269922"
+    }
+   ]
+  },
+  {
+   "title": "Test",
+   "rating": null,
+   "runtime_min": 113,
+   "url": "https://tropiccinema.com/movie/test/",
+   "shows": [
+    {
+     "at": "2026-11-20T17:45",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/test/4269923"
+    }
+   ]
+  },
+  {
+   "title": "Bitter Christmas",
+   "rating": "R",
+   "runtime_min": 112,
+   "url": "https://tropiccinema.com/movie/bitter-christmas/",
+   "shows": [
+    {
+     "at": "2026-11-20T18:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/bitter-christmas/4269924"
+    }
+   ]
+  },
+  {
+   "title": "Time Warp",
+   "rating": null,
+   "runtime_min": 112,
+   "url": "https://tropiccinema.com/movie/time-warp/",
+   "shows": [
+    {
+     "at": "2026-11-20T20:00",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/time-warp/4269925"
+    }
+   ]
+  },
+  {
+   "title": "Comedy Shorts",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://tropiccinema.com/movie/comedy-shorts/",
+   "shows": [
+    {
+     "at": "2026-11-20T20:15",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/comedy-shorts/4269926"
+    }
+   ]
+  },
+  {
+   "title": "Bleeding Hearts",
+   "rating": null,
+   "runtime_min": 97,
+   "url": "https://tropiccinema.com/movie/bleeding-hearts/",
+   "shows": [
+    {
+     "at": "2026-11-20T20:30",
+     "sold_out": false,
+     "url": "https://tropiccinema.com/checkout/showing/bleeding-hearts/4269927"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

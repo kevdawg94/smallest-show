@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "waynesboro-theatre",
+ "name": "Waynesboro Theatre",
+ "city": "hagerstown",
+ "area": "Waynesboro",
+ "region": "Hagerstown & Waynesboro",
+ "url": "https://www.waynesborotheatre.org/",
+ "films": [
+  {
+   "title": "Dunkirk",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://www.waynesborotheatre.org/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-14T16:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/dunkirk"
+    }
+   ]
+  },
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://www.waynesborotheatre.org/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-14T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/planes-trains-and-automobiles-2"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.waynesborotheatre.org/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-15T16:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/jimmy-november--15"
+    }
+   ]
+  },
+  {
+   "title": "Forgotten Island",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://www.waynesborotheatre.org/coming-soon",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/forgotten-island-friday"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

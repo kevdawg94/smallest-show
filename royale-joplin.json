@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "royale-joplin",
+ "name": "Royale Cinema Lounge",
+ "city": "joplin",
+ "area": "Joplin",
+ "region": "Joplin",
+ "url": "https://royalecinemajoplin.com/",
+ "films": [
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://royalecinemajoplin.com/showtimes",
+   "shows": [
+    {
+     "at": "2026-11-14T11:00",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/52d4a42b-0e13-465f-bad0-aa552f6cc724"
+    },
+    {
+     "at": "2026-11-14T18:30",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/01c3784b-6839-494d-be49-80ca5b642557"
+    },
+    {
+     "at": "2026-11-16T16:00",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/ab02e0f5-3fd1-48c7-b46e-34baa4e37f75"
+    }
+   ]
+  },
+  {
+   "title": "Breeder",
+   "rating": "R",
+   "runtime_min": 97,
+   "url": "https://royalecinemajoplin.com/showtimes",
+   "shows": [
+    {
+     "at": "2026-11-14T16:30",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/ab9d1730-0fb0-458d-9aa9-ad97a3d472dc"
+    }
+   ]
+  },
+  {
+   "title": "A Talent for Murder",
+   "rating": "R",
+   "runtime_min": 106,
+   "url": "https://royalecinemajoplin.com/showtimes",
+   "shows": [
+    {
+     "at": "2026-11-14T22:00",
+     "sold_out": false,
+     "url": "https://www.royalecinemajoplin.com/showtimes/eb4af2b4-4494-4d2a-b0a1-be294071f1a3"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}

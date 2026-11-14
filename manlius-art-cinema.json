@@ -1,0 +1,83 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "manlius-art-cinema",
+ "name": "Manlius Art Cinema",
+ "city": "syracuse",
+ "area": "Manlius",
+ "region": "Syracuse & Manlius",
+ "url": "https://www.manliuscinema.com/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=mvwmvahhw6238mdza98rhjfkjm",
+   "shows": [
+    {
+     "at": "2026-11-14T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/940?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-14T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/937?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-15T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/941?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-16T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/938?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-18T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/942?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    },
+    {
+     "at": "2026-11-19T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/939?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    }
+   ]
+  },
+  {
+   "title": "The Matrix",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=mvwmvahhw6238mdza98rhjfkjm",
+   "shows": [
+    {
+     "at": "2026-11-17T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/849?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=mvwmvahhw6238mdza98rhjfkjm",
+   "shows": [
+    {
+     "at": "2026-11-20T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/943?siteToken=mvwmvahhw6238mdza98rhjfkjm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T11:23",
+ "error": null,
+ "warning": null
+}

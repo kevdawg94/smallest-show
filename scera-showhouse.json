@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "scera-showhouse",
+ "name": "SCERA Showhouse",
+ "city": "provo",
+ "area": "Orem",
+ "region": "Orem",
+ "url": "https://scera.org/movies",
+ "films": [
+  {
+   "title": "Kiss Me Kate",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://scera.org/movies",
+   "shows": [
+    {
+     "at": "2026-11-17T10:00",
+     "sold_out": false,
+     "url": "https://scera.org/movies"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-12T14:24",
+ "error": true,
+ "warning": null
+}

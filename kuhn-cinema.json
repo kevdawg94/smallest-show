@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "kuhn-cinema",
+ "name": "Kuhn Cinema",
+ "city": "corvallis",
+ "area": "Lebanon",
+ "region": "Lebanon & Sweet Home",
+ "url": "https://www.kuhncinema.com/now-showing",
+ "films": [
+  {
+   "title": "Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.kuhncinema.com/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-14T14:00",
+     "sold_out": false,
+     "url": "https://www.kuhncinema.com/now-showing"
+    },
+    {
+     "at": "2026-11-14T20:00",
+     "sold_out": false,
+     "url": "https://www.kuhncinema.com/now-showing"
+    },
+    {
+     "at": "2026-11-15T12:30",
+     "sold_out": false,
+     "url": "https://www.kuhncinema.com/now-showing"
+    },
+    {
+     "at": "2026-11-15T17:30",
+     "sold_out": false,
+     "url": "https://www.kuhncinema.com/now-showing"
+    },
+    {
+     "at": "2026-11-16T19:00",
+     "sold_out": false,
+     "url": "https://www.kuhncinema.com/now-showing"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-10T02:24",
+ "error": true,
+ "warning": null
+}

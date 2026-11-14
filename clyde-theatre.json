@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-14T11:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-14",
+  "2026-11-21"
+ ],
+ "id": "clyde-theatre",
+ "name": "Clyde Theatre",
+ "city": "northsound",
+ "area": "Langley",
+ "region": "Whidbey Island & Stanwood",
+ "url": "http://theclyde.net/schedule/",
+ "films": [
+  {
+   "title": "The Last Picture Shows",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "http://theclyde.net/schedule/",
+   "shows": [
+    {
+     "at": "2026-11-14T19:30",
+     "sold_out": false,
+     "url": "http://theclyde.net/schedule/"
+    },
+    {
+     "at": "2026-11-15T14:00",
+     "sold_out": false,
+     "url": "http://theclyde.net/schedule/"
+    },
+    {
+     "at": "2026-11-16T19:30",
+     "sold_out": false,
+     "url": "http://theclyde.net/schedule/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-14T02:23",
+ "error": null,
+ "warning": null
+}
