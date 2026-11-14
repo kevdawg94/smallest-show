@@ -24,8 +24,8 @@
   .essay h2 { scroll-margin-top: 1.5rem; }
   .toc { display: none; }
   @media (min-width: 66rem) {
-    .essay { display: grid; grid-template-columns: minmax(0, 38rem) 12rem; justify-content: space-between; gap: 4rem; align-items: start; }
-    .toc { display: block; position: sticky; top: 2rem; } /* its label level with the page's eyebrow */
+    .essay { display: grid; grid-template-columns: var(--split); gap: var(--split-gap); align-items: start; } /* the side list on the page's split, not out at the far edge */
+    .toc { display: block; position: sticky; top: 2rem; max-width: 12rem; } /* its label level with the page's eyebrow */
     .toc ol { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--faint); }
     .toc a { display: block; padding: 0.35rem 0 0.35rem 0.9rem; margin-left: -1px; border-left: 1.5px solid transparent; font-size: 0.86rem; color: var(--muted); text-decoration: none; transition: color var(--off), border-color var(--off); }
     .toc a:hover { color: var(--ink); transition-duration: var(--on); }

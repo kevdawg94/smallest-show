@@ -23,7 +23,17 @@
   /* The hero: the lit map lying on the page, then what Smallest Show is and the two reasons to be here
      (the widget, the data). On a phone they stack; wider, the words sit beside the map. */
   .hero { display: grid; gap: var(--s4) var(--s6); padding-top: var(--s4); padding-bottom: var(--s5); align-items: center; }
-  @media (min-width: 54rem) { .hero { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); padding-top: var(--s6); } }
+  /* One column on a mid-width window (the map above the words): the map is held to what the window's height
+     leaves once the title, the lines under it and the two buttons have their room (29rem with the masthead), so
+     Get the widget is on the first screen; it keeps the page's left edge. A phone's map is as it was.
+     (Kevin, Nov 13: "make sure the get the widget button stays visible by limiting the size of the map when we
+     only have the one column") */
+  @media (min-width: 34rem) and (max-width: 53.99rem) {
+    .hero > :first-child { max-width: max(18rem, calc((100vh - 29rem) * 1.57)); max-width: max(18rem, calc((100svh - 29rem) * 1.57)); }
+  }
+  /* Beside each other they share a top edge, the one every page's first line starts on (--top), and the
+     page's split; the title's cap line sits level with the top of the land */
+  @media (min-width: 54rem) { .hero { grid-template-columns: var(--split); column-gap: var(--split-gap); padding-top: var(--top); align-items: start; } }
   /* The lights follow the page's mode. A house with no show: in daylight a faint amber dot rather than
      an ink speck, in the dark a faint grey one */
   .hero .sky { --unlit: var(--bulb); }
@@ -40,7 +50,7 @@
      films, one line each, with up to four times */
   .showcase { display: grid; gap: var(--s5) var(--s7); align-items: start; padding-top: var(--s5); }
   /* the eyebrow level with the picker's label */
-  @media (min-width: 54rem) { .showcase { grid-template-columns: minmax(0, 1fr) auto; } .showcase .stage { order: 2; } .showcase .note-col { padding-top: 13px; } }
+  @media (min-width: 54rem) { .showcase { grid-template-columns: var(--split); column-gap: var(--split-gap); } .showcase .stage { order: 2; } .showcase .note-col { padding-top: 13px; } }
   .showcase .note-col p { color: var(--ink-2); max-width: 30rem; }
   .stage { display: grid; gap: var(--s3); justify-items: start; }
   /* The line above the card: the city it shows, and two quiet controls (another city, find a city),
@@ -84,7 +94,8 @@
 
   /* What you can follow */
   .follow { display: grid; gap: var(--s6); align-items: end; }
-  @media (min-width: 54rem) { .follow { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: var(--s7); } }
+  /* the figures' rule level with the top of the heading's letters, on the page's split */
+  @media (min-width: 54rem) { .follow { grid-template-columns: var(--split); gap: var(--split-gap); align-items: start; } .follow .stats { margin-top: calc(0.72rem * 1.2 + var(--s3) + 0.18 * clamp(2.35rem, 1.41rem + 2.23vw, 3.5rem)); } .follow p { max-width: 34rem; } }
   .follow p { color: var(--ink-2); }
   .stats { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s4); }
   .stats li { border-top: 1px solid var(--faint); padding-top: var(--s3); color: var(--muted); font-size: 0.85rem; line-height: 1.3; }

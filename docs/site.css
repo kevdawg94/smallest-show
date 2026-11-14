@@ -38,6 +38,11 @@
   /* Where every page's first line starts under the masthead: one value, so a page's eyebrow or heading sits at
      the same height on all of them. A page that needs room finds it lower down, never here. */
   --top: clamp(1.5rem, 5vw, 4rem);
+  /* The one split: wherever a desktop page sets two blocks side by side (home's three sections, the footer,
+     About's side list), the second starts on this line, seven twelfths across, so the right-hand blocks stack
+     on one left edge down the page. Used with --split-gap. */
+  --split: minmax(0, 7fr) minmax(0, 5fr);
+  --split-gap: var(--s6);
   /* Filament timing: a light comes on at once and cools slowly */
   /* Grain: a fine speckle for the surfaces one step off the page (bands, the footer, a map's land), never the
      page ground itself. Kevin's level, Nov 9: 40% under the first draft, then 25% under that, twice. Dark specks on Matinee, light on night. */
@@ -82,7 +87,10 @@ img { max-width: 100%; }
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.18em; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); }
 a:hover { text-decoration-color: currentColor; }
 :focus-visible { outline: 2px solid var(--bulb); outline-offset: 3px; border-radius: 0.25rem; }
-.wrap { max-width: 68rem; margin: 0 auto; padding: 0 var(--gutter); }
+/* The frame: 76rem, so a 13-inch laptop's window is filled to its gutters and a wide desktop keeps about two
+   thirds of its width (at 68rem a 1728px window used 58% of itself, and a title beside the home map broke
+   into five lines). */
+.wrap { max-width: 76rem; margin: 0 auto; padding: 0 var(--gutter); }
 .measure { max-width: 38rem; }
 
 /* The masthead: the mark and the wordmark, then the pages' links, the same on every page */
@@ -211,6 +219,7 @@ a.chip:hover, a.chip:focus-visible { background: var(--bulb); color: var(--on-bu
 /* the text keeps the page's own gutter, or just enough to clear the side bulbs on a phone */
 .colophon .wrap { padding-left: max(var(--gutter), 30px); padding-right: max(var(--gutter), 30px); display: grid; gap: var(--s5) 3rem; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 46rem) { .colophon .wrap { grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); } }
+@media (min-width: 54rem) { .colophon .wrap { grid-template-columns: var(--split); column-gap: var(--split-gap); } }
 .colophon p { margin: 0 0 var(--s3); max-width: 34rem; }
 .colophon ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.35rem; }
 .colophon a { color: var(--ink-2); text-decoration: none; }

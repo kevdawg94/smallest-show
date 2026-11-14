@@ -28,12 +28,25 @@
   /* a QR code needs a light ground to scan, in either mode */
   .scan img { width: 5.5rem; height: 5.5rem; padding: 0.45rem; background: #fff; border: 1px solid var(--faint); border-radius: var(--r-chip); flex: none; }
   .scan p { margin: 0; font-size: 0.9rem; color: var(--muted); }
-  @media (min-width: 54rem) and (hover: hover) and (pointer: fine) { .scan { display: flex; } }
+  /* shown on any computer, however narrow its window (Kevin, Nov 13: "the qr code disappears now at thin width") */
+  @media (hover: hover) and (pointer: fine) { .scan { display: flex; } }
+  /* On a computer the code is the way in (the buttons need the phone), so it takes the right-hand column on the
+     page's split, larger, its top level with the title; the buttons and their note keep the left (Kevin, Nov 13,
+     of the first screen with everything on the left and the right half empty: "what about this screen") */
+  @media (min-width: 54rem) and (hover: hover) and (pointer: fine) {
+    .install { display: grid; grid-template-columns: var(--split); column-gap: var(--split-gap); align-content: start; }
+    .install > * { grid-column: 1; }
+    .install > .scan { grid-column: 2; grid-row: 2 / span 3; align-self: start; margin-top: 0; max-width: none; gap: var(--s5); }
+    .install > .scan img { width: 9.5rem; height: 9.5rem; padding: 0.6rem; }
+    .install > .scan p { font-size: 1rem; color: var(--ink-2); max-width: 17rem; }
+  }
 
   /* Four steps */
   .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s6) var(--s5); }
   @media (min-width: 40rem) { .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   @media (min-width: 66rem) { .steps { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  /* four across, the steps share their rows, so the two buttons and the two screenshots start level */
+  @media (min-width: 66rem) { @supports (grid-template-rows: subgrid) { .step { display: grid; grid-row: span 4; grid-template-rows: subgrid; row-gap: 0; } .step > .step-go { justify-self: start; align-self: start; } } }
   .step-n { display: block; font-size: 2.6rem; line-height: 1; color: var(--accent); margin-bottom: var(--s3); }
   .step p { color: var(--ink-2); margin-bottom: var(--s4); }
   .step b { font-weight: 600; color: var(--ink); }
@@ -42,7 +55,7 @@
   .step-go { display: inline-flex; padding: 0.55rem 0.95rem; font-size: 0.92rem; }
   /* The step screenshots are light captures from the phone: framed by a line, cropped to their top */
   .step .print img { max-height: 21rem; object-fit: cover; object-position: top; }
-  .taps { margin-top: var(--s6); padding-top: var(--s4); border-top: 1px solid var(--faint); }
+  .taps { margin-top: var(--s6); padding-top: var(--s4); border-top: 1px solid var(--faint); max-width: 46rem; }
 </style>
 </head>
 <body>

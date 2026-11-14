@@ -25,7 +25,28 @@
   .intro { padding-top: var(--top); }
   .intro .lede { font-size: 1rem; margin: 0; }
   .tonight { display: grid; gap: 2.5rem; margin-top: clamp(1rem, 2.5vw, 1.5rem); }
-  @media (min-width: 62rem) { .tonight { grid-template-columns: minmax(0, 1fr) 18.5rem; gap: 2.75rem; align-items: start; } }
+  /* Beside the list, the stage is as wide as the window's height lets the whole of it show (the clocks, the map,
+     the scrubber and the readout: 35rem of page sits above and below the map); on a window too short for that it holds
+     30rem while the play button still fits (26.5rem above and below it), and keeps the
+     page's left edge; the list takes what is left, up to 28rem, and keeps the right edge. Centred in a fixed
+     column, the stage sat indented from the title on any window too short for the column's width. */
+  @media (min-width: 52rem) {
+    .tonight { --stage: max(20rem, min(30rem, calc((100vh - 26.5rem) * 1.57)), calc((100vh - 35rem) * 1.57)); grid-template-columns: minmax(0, var(--stage)) minmax(18.5rem, 1fr); gap: 2.75rem; align-items: start; }
+    @supports (height: 100svh) { .tonight { --stage: max(20rem, min(30rem, calc((100svh - 26.5rem) * 1.57)), calc((100svh - 35rem) * 1.57)); } }
+    .tonight .stage { margin: 0; max-width: none; }
+    /* room between Honolulu's time and the playhead's knob, which touched */
+    .tonight .map { margin-bottom: 2.8rem; }
+    .tonight .titles { width: 100%; max-width: 28rem; justify-self: end; }
+  }
+  /* Stacked, with the list below it, the map has the whole width: nothing beside it needs the room, and the
+     window's height doesn't hold it small (Kevin, Nov 13: "why are we constraining the map to be small when the
+     next section goes below it?") */
+  @media (max-width: 51.99rem) { .tonight .stage { max-width: none; } }
+  /* On a small stage Anchorage's and Honolulu's labels ran into each other */
+  @media (min-width: 34.01rem) {
+    .tonight .stage { container-type: inline-size; }
+    @container (max-width: 36rem) { .clock.below span { font-size: 0.5rem; letter-spacing: 0.06em; } }
+  }
   .stage { margin: 0 auto; min-width: 0; width: 100%; max-width: max(20rem, calc((100vh - 31rem) * 1.57)); max-width: max(20rem, calc((100svh - 31rem) * 1.57)); }
 
   /* The stage: the clocks and the map, in the page's mode. A lit house is a --bulb point in a soft
@@ -173,7 +194,7 @@
     <!-- The day in two or three counts (Kevin, Nov 13: the old lines "explain too much"). The build writes the
          first and the last (tonight.py's lede()); the script writes them again from the day's file and puts
          what is on at this moment between them, a sentence that isn't there while nothing is on. -->
-    <p class="lede"><span id="today">1,728 theaters screening 597 titles.</span><span id="happening"></span> <span id="most">The Cat in the Hat is screening 4,405 times today.</span></p>
+    <p class="lede"><span id="today">1,728 theaters screening 598 titles.</span><span id="happening"></span> <span id="most">The Cat in the Hat is screening 4,406 times today.</span></p>
   </div>
 
   <div class="tonight">
