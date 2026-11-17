@@ -15,7 +15,9 @@
 <link rel="apple-touch-icon" href="../apple-touch-icon.png?v=f83addcc">
 <meta name="theme-color" id="theme-color" content="#f4f4f0">
 <meta property="og:site_name" content="Smallest Show">
-<meta property="og:image" content="https://smallest.show/img/widget.jpg">
+<meta property="og:image" content="https://smallest.show/og/tonight.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="../fonts/barlow-condensed-600.woff2" as="font" type="font/woff2" crossorigin>
 <script>(function(){var d=document.documentElement,m=matchMedia("(prefers-color-scheme: dark)"),own=null;try{own=localStorage.getItem("theme")}catch(e){}function set(){var t=own||(m.matches?"dark":"light");d.dataset.theme=t;var c=document.getElementById("theme-color");if(c)c.content=t==="dark"?"#0a0d14":"#f4f4f0"}set();if(m.addEventListener)m.addEventListener("change",function(){if(!own){set();d.dispatchEvent(new Event("themechange"))}});window.__theme={toggle:function(){own=d.dataset.theme==="dark"?"light":"dark";try{localStorage.setItem("theme",own)}catch(e){}set();d.dispatchEvent(new Event("themechange"))}}})();document.documentElement.classList.add("js");try{if(sessionStorage.getItem("lit"))document.documentElement.classList.add("warm");sessionStorage.setItem("lit","1")}catch(e){}</script>
@@ -196,7 +198,7 @@
     <!-- The day in two or three counts (Kevin, Nov 13: the old lines "explain too much"). The build writes the
          first and the last (tonight.py's lede()); the script writes them again from the day's file and puts
          what is on at this moment between them, a sentence that isn't there while nothing is on. -->
-    <p class="lede"><span id="today">1,327 theaters screening 454 titles.</span><span id="happening"></span> <span id="most">Ebenezer is screening 3,289 times today.</span></p>
+    <p class="lede"><span id="today">1,365 theaters screening 444 titles.</span><span id="happening"></span> <span id="most">The Cat in the Hat is screening 3,498 times today.</span></p>
   </div>
 
   <div class="tonight">
