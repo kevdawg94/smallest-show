@@ -72,24 +72,6 @@
   .w-icon svg { width: 1.1rem; height: 1.1rem; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
   .w-icon:hover:not(:disabled), .w-icon:focus-visible { background: var(--bulb); color: var(--on-bulb); transition-duration: var(--on); }
   .w-icon:disabled { opacity: 0.5; cursor: default; }
-  .w-note { margin-left: 6px; font-weight: 400; font-size: 11px; color: var(--muted); }
-  .widget {
-    width: 364px; max-width: 100%; background: var(--card); color: var(--ink); border: 1px solid var(--faint);
-    border-radius: var(--radius); padding: 12px 14px 10px; font-size: 13px; line-height: 1.3;
-  }
-  .widget header { display: flex; align-items: baseline; gap: 6px; margin-bottom: 4px; }
-  .widget header b { font-weight: 600; font-size: 13px; letter-spacing: 0.03em; color: var(--accent); }
-  .widget header span { color: var(--muted); }
-  .widget header em { margin-left: auto; font-style: normal; font-size: 11px; color: var(--muted); white-space: nowrap; }
-  .w-house { margin-top: 8px; }
-  .w-name { display: block; font-weight: 600; font-size: 13.5px; color: var(--ink); text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  a.w-name:hover { text-decoration: underline; }
-  .w-row { display: flex; align-items: center; gap: 6px; margin-top: 3px; }
-  .w-film { flex: 0 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink-2); font-size: 12.5px; text-decoration: none; }
-  a.w-film:hover { text-decoration: underline; }
-  .w-times { flex: none; display: flex; align-items: center; gap: 3px; }
-  .widget .chip { font-size: 11.5px; padding: 2px 6px; }
-  .w-more { font-size: 11px; color: var(--muted); white-space: nowrap; }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   #shuffle[disabled] { opacity: 0.5; cursor: default; }
 
@@ -110,6 +92,7 @@
     <a href="./widget/" data-nav="widget">Widget</a>
     <a href="./tonight/" data-nav="tonight">Tonight</a>
     <a href="./map/" data-nav="map">Map</a>
+    <a href="./cities/" data-nav="cities">Cities</a>
     <a href="./about/" data-nav="about">About</a>
     <a href="./resources/" data-nav="resources">Resources</a>
     <a href="./theaters/" data-nav="theaters">For theaters</a>
@@ -156,7 +139,7 @@
       <!-- A still until the listings load, and if they never do: the four Bay Area houses of the old screenshot -->
       <div class="widget" id="widget" aria-live="polite">
         <header><b id="w-label">TONIGHT</b><span id="w-day"></span><em id="w-updated"></em></header>
-        <div id="w-body">
+        <div id="w-body" class="w-body">
           <div class="w-house"><span class="w-name">Grand Lake</span>
             <div class="w-row"><span class="w-film">You Can See Everything</span><span class="w-times"><span class="chip">3:15pm</span><span class="chip">6:45pm</span></span></div>
             <div class="w-row"><span class="w-film">Godzilla Minus Zero</span><span class="w-times"><span class="chip">4pm</span><span class="chip out">7pm<span class="vh"> sold out</span></span><span class="chip">9:30pm</span></span></div>
@@ -221,6 +204,7 @@
 </footer>
 <script src="./site.js" defer></script>
 
+<script src="card.js"></script>
 <script>
 (() => {
   const $ = id => document.getElementById(id);
@@ -425,94 +409,10 @@
   }).catch(() => {}); // the land stands with no lights, and the words as built
 
   // ---------- the widget, live ----------
-  // A theater's wall clock now, as the feeds write times: "2026-11-05T19:30"
-  function wallAt(ms, tz) {
-    const parts = new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date(ms));
-    const p = Object.fromEntries(parts.map(x => [x.type, x.value]));
-    return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
-  }
-  const wallNow = tz => wallAt(Date.now(), tz);
-  const nextDay = day => new Date(Date.parse(day + "T12:00:00Z") + 86400000).toISOString().slice(0, 10);
-  // "19:30" as the widget writes it: 7:30pm, 4pm
-  function clock(at) {
-    let [hr, m] = at.slice(11, 16).split(":").map(Number);
-    const ap = hr < 12 ? "am" : "pm";
-    hr = hr % 12 || 12;
-    return m ? `${hr}:${String(m).padStart(2, "0")}${ap}` : `${hr}${ap}`;
-  }
-  const fmtDay = day => new Date(day + "T12:00:00Z").toLocaleDateString("en-US", { timeZone: "UTC", weekday: "short", month: "short", day: "numeric" });
-  // The feeds' stamp, a wall time where they're built, as the visitor's own clock: "4:20pm", "Fri 4:20pm"
-  function stamp(wall, tz) {
-    const guess = Date.parse(wall + ":00Z"), ms = guess - (Date.parse(wallAt(guess, tz) + ":00Z") - guess);
-    const local = new Date(ms), mine = wallAt(ms, Intl.DateTimeFormat().resolvedOptions().timeZone);
-    const same = local.toDateString() === new Date().toDateString();
-    return (same ? "" : local.toLocaleDateString("en-US", { weekday: "short" }) + " ") + clock(mine);
-  }
-
-  // A theater's films for the widget, by their next show: what's left of its today, or all of its
-  // tomorrow's once its night is over
-  function filmsFor(feed, ahead) {
-    const now = wallNow(feed.tz || "America/New_York"), day = ahead ? nextDay(now.slice(0, 10)) : now.slice(0, 10);
-    return (feed.films || [])
-      .map(f => ({ f, shows: (f.shows || []).filter(s => s.at.slice(0, 10) === day && (ahead || s.at.slice(0, 16) >= now)) }))
-      .filter(x => x.shows.length)
-      .sort((a, b) => a.shows[0].at.localeCompare(b.shows[0].at));
-  }
-
-  // Lines each theater gets, as Marquee.js's allocate(): its name and first film, then one more film
-  // each in turn while lines are left (fewer than the phone's twenty: the type here is a little larger)
-  const LINES = 15, MAX_FILMS = 4, MAX_TIMES = 4;
-  function allocate(list) {
-    const counts = list.map(() => 1);
-    let used = list.length * 2;
-    for (let more = true; more && used < LINES;) {
-      more = false;
-      list.forEach((x, i) => {
-        if (used < LINES && counts[i] < Math.min(x.films.length, MAX_FILMS)) { counts[i]++; used++; more = true; }
-      });
-    }
-    return counts;
-  }
-
-  function house({ feed, films }, count) {
-    const card = el("div", "w-house"), name = el("a", "w-name", feed.name);
-    name.href = feed.url;
-    card.append(name);
-    films.slice(0, count).forEach(({ f, shows }, j) => {
-      const row = el("div", "w-row"), title = el(f.url ? "a" : "span", "w-film", f.title), times = el("span", "w-times");
-      if (f.url) title.href = f.url;
-      for (const s of shows.slice(0, MAX_TIMES)) {
-        let chip;
-        if (s.sold_out) { chip = el("span", "chip out", clock(s.at)); chip.append(el("span", "vh", " sold out")); }
-        else { chip = el("a", "chip", clock(s.at)); chip.href = s.url || f.url || feed.url; }
-        times.append(chip);
-      }
-      if (shows.length > MAX_TIMES) times.append(el("span", "w-more", `+${shows.length - MAX_TIMES}`));
-      row.append(title, times);
-      const left = films.length - count;
-      if (j === count - 1 && left > 0) row.append(el("span", "w-more", `+${left} more`));
-      card.append(row);
-    });
-    return card;
-  }
-
-  function show(label, list, day) {
-    const counts = allocate(list);
-    $("w-label").textContent = label.toUpperCase();
-    $("w-day").textContent = fmtDay(day);
-    $("w-body").replaceChildren(...list.map((x, i) => house(x, counts[i])));
-  }
-  // Nothing tonight or tomorrow in the city: its theaters' names, each saying so, as the phone does
-  function none(names, day) {
-    $("w-label").textContent = "TONIGHT";
-    $("w-day").textContent = fmtDay(day);
-    $("w-body").replaceChildren(...names.slice(0, 4).map(name => {
-      const card = el("div", "w-house"), line = el("span", "w-name", name);
-      line.append(el("span", "w-note", "nothing tonight"));
-      card.append(line);
-      return card;
-    }));
-  }
+  // the card itself is public/card.js, which the city pages share
+  const { wallNow, nextDay, stamp, filmsFor } = SSCard;
+  const show = (label, list, day) => SSCard.show($("widget"), label, list, day);
+  const none = (names, day) => SSCard.none($("widget"), names, day);
 
   // ---------- the city ----------
   // Chosen for the reader, never asked: a city at random in their own part of the country, as far as
@@ -581,6 +481,7 @@
   const feeds = new Map(); // a theater's feed, asked for once
   const feedOf = id => feeds.get(id) || feeds.set(id, fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)).get(id);
   let index = null, city = null, seq = 0;
+  const zones = {}; // a theater's own time zone, from the index
   function cityState(id) {
     const all = index.theaters.filter(t => t.city === id);
     return { id, names: all.map(t => t.name), queue: all.filter(t => t.shows > 0 && !t.error), pos: 0, tonight: [], tomorrow: [], page: 0, tz: null };
@@ -592,6 +493,9 @@
       st.pos += 4;
       for (const feed of got) {
         if (!feed) continue; // one theater's feed missing never stops the rest
+        // the house's own clock, from the index (a feed's tz is the run's, Pacific: an Eastern house's shows
+        // that had started were counted as still to come tonight)
+        feed.tz = zones[feed.id] || feed.tz;
         st.tz = st.tz || feed.tz;
         let films = filmsFor(feed, false);
         if (films.length) { st.tonight.push({ feed, films }); continue; }
@@ -622,6 +526,7 @@
     .then(r => r.json())
     .then(idx => {
       index = idx;
+      for (const t of idx.theaters) if (t.zone) zones[t.id] = t.zone;
       const counts = {};
       for (const t of idx.theaters) counts[t.city] = (counts[t.city] || 0) + 1;
       const served = (idx.cities || []).filter(c => counts[c.id]); // a city in the catalog with no theaters yet doesn't count

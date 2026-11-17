@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Independent cinema showtimes in Meridian, MS · Smallest Show</title>
-<meta name="description" content="Meridian, MS: this week&#x27;s showtimes at 1 independent cinema, including University Cinema.">
+<meta name="description" content="Meridian, MS: this week&#x27;s showtimes at its independent cinema, University Cinema.">
 <meta property="og:title" content="Independent cinema showtimes in Meridian, MS">
-<meta property="og:description" content="Meridian, MS: this week&#x27;s showtimes at 1 independent cinema, including University Cinema.">
+<meta property="og:description" content="Meridian, MS: this week&#x27;s showtimes at its independent cinema, University Cinema.">
 <meta property="og:url" content="https://smallest.show/cities/meridian-ms/">
 <link rel="canonical" href="https://smallest.show/cities/meridian-ms/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "University Cinema", "@id": "https://smallest.show/cities/meridian-ms/#university-cinema-livingston", "url": "https://www.uwa.edu/campus-life/student-life/university-cinema/", "address": {"@type": "PostalAddress", "streetAddress": "16 Franklin Street", "addressLocality": "Livingston", "addressRegion": "AL", "postalCode": "35470", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 32.58333, "longitude": -88.18836}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Meridian, MS</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 4:24pm CST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;university-cinema-livingston&quot;]" data-tz="America/Chicago">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Chicago"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Meridian, MS with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M139.7 492.0 142.9 459.7 317.6 460.2 473.7 458.2 475.0 460.3 472.9 468.9 475.3 476.4 475.0 478.3 471.8 480.8 465.5 481.0 463.7 478.8 468.6 471.7 469.6 465.3 468.8 464.3 466.3 462.6 463.6 462.6 455.7 468.2 450.1 468.9 447.9 467.2 445.3 462.0 442.3 460.1 439.3 462.3 433.6 470.9 427.0 468.9 422.8 470.5 422.1 473.8 424.1 479.7 422.4 480.8 416.2 478.1 414.1 478.5 413.4 489.2 415.0 492.0Z"/><path d="M514.3 96.7 518.0 87.7 526.4 88.7 531.0 84.5 535.3 82.9 540.4 74.1 547.2 71.1 548.7 69.3 548.9 62.0 552.9 59.9 549.8 54.1 551.6 48.5 548.0 45.2 550.4 40.4 549.9 38.7 539.6 33.3 541.4 28.1 546.2 28.3 548.0 28.0 548.3 26.8 547.2 24.7 541.9 23.9 540.3 22.5 539.6 16.2 540.5 14.8 548.2 14.7 547.2 9.6 547.5 1.5 550.6 1.9 554.1 4.8 554.8 3.3 554.9 -0.4 549.2 -4.2 549.5 -6.7 551.3 -6.9 553.2 -4.0 555.7 -2.9 557.9 -3.6 557.3 -8.7 558.9 -11.4 561.6 -9.2 566.5 -12.0 571.2 -9.2 573.3 -9.6 574.8 -12.0 612.0 -12.0 612.0 321.9 609.8 321.9 610.0 287.0 553.3 287.0 560.7 279.3 563.0 274.2 561.1 259.6 562.6 255.9 564.8 255.0 568.6 258.9 570.5 255.7 570.1 240.8 572.6 238.5 574.4 238.4 581.0 241.7 582.0 244.4 581.8 251.0 582.5 252.1 585.0 252.3 587.7 250.0 591.6 241.2 597.9 237.4 604.4 235.3 599.8 228.6 595.5 215.5 588.7 215.8 572.2 222.6 562.8 218.3 557.2 211.2 555.8 205.0 552.8 199.6 554.9 196.2 566.8 196.8 579.5 193.3 586.8 197.5 593.4 199.8 598.6 190.7 600.1 185.3 599.7 183.2 595.5 179.1 593.9 179.1 589.0 184.5 585.1 186.5 582.2 186.8 570.1 183.3 567.5 179.9 565.9 173.8 566.8 171.2 569.7 168.4 571.4 163.6 570.8 160.7 566.4 155.4 564.9 151.3 564.4 144.8 566.4 140.5 564.5 134.2 562.7 133.7 557.0 135.6 551.9 141.4 545.5 141.3 541.0 136.4 540.7 130.4 544.3 121.8 547.7 119.8 556.3 120.2 558.9 112.3 556.9 105.6 546.2 93.9 541.4 91.0 539.0 90.9 537.8 93.0 538.9 97.7 538.3 98.6 527.9 99.1 521.1 101.3Z"/><path d="M415.0 492.0 413.4 489.2 414.1 478.5 416.2 478.1 422.4 480.8 424.1 479.7 422.1 473.8 422.8 470.5 427.0 468.9 433.6 470.9 439.3 462.3 442.3 460.1 445.3 462.0 447.9 467.2 450.1 468.9 455.7 468.2 463.6 462.6 466.3 462.6 468.8 464.3 469.6 465.3 468.6 471.7 463.7 478.8 465.5 481.0 471.8 480.8 475.0 478.3 475.3 476.4 472.9 468.9 475.0 460.3 472.1 457.2 466.1 454.9 459.4 443.5 451.3 440.4 449.0 433.8 446.6 431.2 439.4 432.6 437.0 432.0 427.9 426.0 413.8 410.3 398.9 408.7 396.2 406.6 395.9 402.6 399.0 374.8 401.1 366.6 403.6 361.9 412.2 355.5 421.3 350.9 430.6 342.5 443.8 340.6 452.2 334.1 457.9 328.3 464.0 313.7 473.8 306.6 482.1 294.9 488.3 290.0 493.5 288.1 506.9 289.4 524.3 294.6 531.7 292.1 533.8 286.2 530.7 282.5 525.8 281.0 525.9 278.9 531.8 269.0 545.0 270.8 546.7 271.7 550.6 276.6 546.6 280.3 545.7 283.7 546.0 290.3 549.8 292.4 553.3 287.0 610.0 287.0 609.8 321.9 612.0 321.9 612.0 492.0Z"/><path d="M147.3 415.0 178.7 108.5 190.0 -12.0 302.2 -12.0 303.8 -6.0 303.6 3.9 305.7 9.3 310.2 11.6 314.6 17.4 320.5 18.0 322.6 22.0 320.1 30.0 314.3 36.6 307.0 36.2 304.6 37.8 304.4 39.4 306.8 43.8 311.9 44.8 318.3 42.7 321.1 46.5 327.2 47.3 329.5 41.9 332.4 39.9 335.9 39.6 340.1 43.4 345.3 54.2 352.3 61.0 357.0 69.1 360.4 70.0 373.6 63.1 377.1 62.5 383.5 72.9 383.6 75.3 381.8 79.1 379.1 81.2 374.5 88.0 370.7 87.1 367.9 84.5 359.4 82.5 356.2 84.4 353.1 89.9 355.2 100.4 355.0 106.6 358.6 115.3 366.6 121.6 372.0 130.2 369.4 139.4 367.8 140.8 357.3 145.2 349.6 145.3 348.3 147.8 352.8 154.1 364.1 159.6 372.6 159.7 379.6 157.4 387.4 153.6 390.0 149.3 391.5 148.8 399.0 153.9 399.4 156.5 397.6 158.7 387.9 167.2 388.1 171.2 391.5 178.0 389.1 191.4 385.8 194.0 375.7 193.6 373.2 197.6 372.5 208.5 384.4 222.8 387.6 231.0 390.8 232.2 403.7 227.6 420.3 226.1 442.5 218.0 447.9 213.3 459.9 206.6 462.5 205.2 467.6 205.4 475.0 200.8 479.4 201.7 483.1 203.8 489.1 210.2 490.6 214.8 501.5 212.9 509.7 209.0 521.5 209.7 523.5 210.7 526.1 215.4 532.8 219.3 534.2 222.1 533.4 224.8 531.5 226.4 527.2 227.9 524.4 234.6 522.2 234.8 518.8 230.1 518.2 228.0 519.9 221.5 516.8 219.6 506.1 218.9 502.3 223.3 496.5 225.6 495.2 228.7 495.5 232.8 502.6 237.8 507.9 243.6 511.2 249.2 512.7 260.7 511.5 268.0 512.0 271.2 519.7 280.5 525.8 281.0 531.9 283.4 533.8 286.2 532.5 291.5 524.3 294.6 506.9 289.4 493.5 288.1 488.3 290.0 482.1 294.9 473.8 306.6 464.0 313.7 456.5 330.3 443.8 340.6 430.6 342.5 421.3 350.9 405.7 359.8 402.5 363.6 399.8 370.7 395.9 402.6 397.0 407.5 400.9 409.1 413.8 410.3 427.9 426.0 437.0 432.0 439.4 432.6 446.6 431.2 449.0 433.8 451.3 440.4 459.4 443.5 466.1 454.9 473.7 458.2 317.6 460.2 142.9 459.7Z"/><path d="M574.8 -12.0 573.3 -9.6 571.2 -9.2 566.5 -12.0 561.6 -9.2 558.1 -11.0 557.3 -8.7 558.3 -4.9 557.2 -3.0 553.2 -4.0 551.3 -6.9 549.5 -6.7 549.2 -4.2 554.9 -0.4 554.8 3.3 554.1 4.8 550.6 1.9 547.5 1.5 547.2 9.6 548.2 14.7 540.5 14.8 539.6 16.2 540.3 22.5 541.9 23.9 547.2 24.7 548.3 26.8 548.0 28.0 546.2 28.3 541.4 28.1 539.6 33.3 549.9 38.7 550.4 40.4 548.0 45.2 551.6 48.5 549.8 54.1 552.9 59.9 548.9 62.0 548.7 69.3 547.2 71.1 540.4 74.1 535.3 82.9 531.0 84.5 526.4 88.7 518.0 87.7 514.3 96.7 521.1 101.3 527.9 99.1 537.5 98.8 538.9 97.7 538.1 91.4 541.4 91.0 546.2 93.9 556.9 105.6 559.0 110.8 556.8 119.6 547.7 119.8 544.3 121.8 540.7 130.4 541.0 136.4 545.5 141.3 551.9 141.4 557.0 135.6 562.7 133.7 564.5 134.2 566.4 140.5 564.4 144.8 564.9 151.3 566.4 155.4 570.8 160.7 571.4 163.6 569.7 168.4 566.8 171.2 565.9 173.8 567.5 179.9 570.1 183.3 582.2 186.8 585.1 186.5 589.0 184.5 593.9 179.1 595.5 179.1 599.0 181.9 600.1 185.3 598.6 190.7 593.4 199.8 586.8 197.5 579.5 193.3 566.8 196.8 554.9 196.2 552.8 199.6 553.2 201.5 555.8 205.0 557.2 211.2 562.8 218.3 572.2 222.6 588.7 215.8 595.5 215.5 599.8 228.6 604.4 235.3 603.8 236.1 599.8 236.6 591.6 241.2 587.7 250.0 583.6 252.5 581.8 251.0 582.0 244.4 581.0 241.7 574.4 238.4 572.6 238.5 570.1 240.8 570.5 255.7 568.6 258.9 564.8 255.0 562.6 255.9 561.1 259.6 563.0 274.2 560.7 279.3 554.5 285.2 549.8 292.4 546.0 290.3 545.7 283.7 546.6 280.3 550.6 276.6 546.7 271.7 545.0 270.8 531.8 269.0 525.9 278.9 525.8 281.0 521.6 281.0 518.4 279.2 511.6 270.1 512.7 260.7 511.2 249.2 507.9 243.6 502.6 237.8 495.5 232.8 495.2 228.7 496.5 225.6 502.3 223.3 506.1 218.9 511.2 218.9 516.8 219.6 519.9 221.5 518.2 228.0 518.8 230.1 522.2 234.8 524.4 234.6 527.2 227.9 531.5 226.4 533.4 224.8 534.2 222.1 532.8 219.3 526.1 215.4 523.5 210.7 521.5 209.7 507.5 209.4 501.5 212.9 491.1 215.0 489.1 210.2 483.1 203.8 479.4 201.7 475.0 200.8 467.6 205.4 462.5 205.2 459.9 206.6 440.3 218.9 420.3 226.1 403.7 227.6 390.8 232.2 388.7 232.1 384.4 222.8 373.6 210.9 372.3 204.0 374.6 194.4 377.7 193.0 385.8 194.0 389.1 191.4 391.5 178.0 388.1 171.2 387.9 167.2 397.6 158.7 399.4 156.5 399.0 153.9 391.5 148.8 390.0 149.3 387.4 153.6 379.6 157.4 372.6 159.7 364.1 159.6 352.8 154.1 348.3 147.8 349.6 145.3 357.3 145.2 367.8 140.8 369.4 139.4 372.0 130.2 366.6 121.6 358.6 115.3 355.0 106.6 355.2 100.4 353.1 89.9 356.2 84.4 359.4 82.5 367.9 84.5 370.7 87.1 374.5 88.0 379.1 81.2 381.8 79.1 383.6 75.3 383.5 72.9 377.1 62.5 373.6 63.1 360.4 70.0 357.0 69.1 352.3 61.0 345.3 54.2 340.1 43.4 335.9 39.6 332.4 39.9 329.5 41.9 327.2 47.3 321.1 46.5 318.3 42.7 311.9 44.8 306.8 43.8 304.4 39.4 304.6 37.8 307.0 36.2 314.3 36.6 320.1 30.0 322.6 22.0 320.5 18.0 314.6 17.4 310.2 11.6 305.7 9.3 303.6 3.9 303.8 -6.0 302.2 -12.0Z"/><path d="M-12.0 -12.0 190.0 -12.0 164.8 244.2 -12.0 244.7Z"/><path d="M-12.0 492.0 -12.0 244.7 164.8 244.2 139.7 492.0Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M561.6 320.5L551.0 306.6M388.1 339.6L382.7 331.4L379.5 317.1L368.2 306.2L364.9 292.9L358.2 284.4L347.6 275.7L330.8 250.4L325.3 246.7L314.8 242.4L301.2 239.3M327.1 247.8L322.2 245.4M320.8 244.8L315.5 242.7M345.1 272.1L340.8 265.9M242.2 298.6L245.1 293.8M227.9 314.6L232.6 312.4L235.4 309.1M303.5 216.7L294.7 209.8L287.9 207.2L281.0 199.9L249.4 196.3L238.8 193.3L222.0 193.2M289.6 208.2L287.9 207.3M304.2 240.2L306.5 240.2M300.1 214.0L299.1 213.3M523.8 312.7L532.0 306.8M561.5 456.9L563.1 456.9M536.5 293.6L536.5 287.0M300.5 238.8L303.7 233.5L303.5 216.7M303.5 214.7L307.6 202.6M563.1 460.2L562.1 452.7M564.6 477.1L563.3 471.7L563.1 460.2M535.8 304.2L536.5 293.6M564.4 471.5L563.3 470.8M585.1 476.1L577.6 466.7L571.6 462.6L568.8 461.3L563.2 461.7M552.0 450.8L551.1 449.8M213.2 321.9L220.7 319.2L232.9 312.2L246.8 292.4M536.5 291.9L536.5 291.9M505.9 36.0L506.0 34.3L510.2 33.0L512.6 28.1L512.5 14.6L517.5 -0.3L520.0 -13.4M501.0 33.8L508.9 34.0L512.4 28.6M537.9 270.4L538.8 260.6L536.7 230.3L539.8 220.1L538.8 213.9L536.7 210.3L525.0 197.6L515.0 193.1L502.8 181.5L495.7 167.8L492.4 149.2L487.4 87.6L502.3 54.0L507.9 37.9M585.5 64.1L586.2 61.1L595.0 47.8L604.0 36.5L615.5 9.8M609.8 299.2L599.4 299.2L592.6 297.9L573.1 303.2L559.0 304.5L537.4 303.8L532.8 306.3M535.7 304.1L537.9 270.4M507.9 325.0L501.6 329.6L484.5 336.6L440.5 352.0L435.5 351.6L426.1 346.2M445.5 375.1L438.1 364.8L437.4 353.0M512.6 415.5L511.6 413.5M506.3 405.3L503.0 403.9L498.2 398.1M301.2 239.3L300.5 238.8L303.7 233.5L303.5 216.7M225.7 315.9L233.4 311.6M314.3 493.8L310.9 483.3L308.1 460.2M349.9 151.0L353.4 149.0L361.9 147.6L366.0 145.8L396.5 109.8L404.9 103.5L419.1 99.0L440.0 82.4L445.6 73.0L486.8 35.8L490.5 34.0L504.4 34.6L510.0 33.2L512.7 27.7L512.5 14.6L517.6 -0.5L519.7 -12.8M537.9 270.4L538.8 260.6L536.7 230.3L539.8 220.1L538.8 213.9L536.7 210.3L525.0 197.6L515.0 193.1L502.8 181.5L495.7 167.8L492.4 149.6L487.4 87.7L507.4 40.7L508.0 38.2L506.0 36.1M504.4 34.6L504.4 34.0M631.4 492.1L605.7 481.6L595.4 480.8L588.4 479.1L581.3 472.5L577.1 466.3L569.7 461.6L563.2 461.7L563.1 456.9L556.6 456.0L546.9 445.2L545.0 439.8L538.0 431.2L535.8 430.6L530.6 432.3L516.7 425.4L514.0 421.5L513.6 417.3L509.4 407.2L503.2 404.1L498.2 398.1L484.5 398.8L480.9 396.8L476.0 388.8L461.5 385.1L452.2 384.2L449.9 379.5L443.3 373.0L438.6 365.9L437.4 361.7L437.3 352.4L425.9 346.4M565.1 515.1L565.2 480.4L563.3 471.7L563.1 455.8L561.8 451.2L562.9 446.9L570.7 440.5L575.0 432.3L575.6 414.2L570.5 401.8L569.7 395.5L571.4 385.3L576.0 370.0L573.6 361.1L569.7 353.2L569.2 337.4L561.6 320.5M507.9 325.0L532.8 306.3M317.3 175.2L317.1 164.9L314.4 154.2L313.6 83.1L318.6 64.3L318.9 55.9L321.4 46.7M296.1 247.8L298.9 242.9M222.0 191.9L221.7 185.6M314.2 113.9L314.2 112.1M425.9 346.4L435.6 351.9L440.2 352.2L484.2 336.9L501.8 329.7L507.9 325.0M511.2 412.3L508.4 406.3M549.0 304.3L535.7 304.1M532.0 306.8L532.8 306.3M426.1 346.2L414.3 340.5L386.7 339.3L363.7 332.2L332.0 344.0L321.8 344.0L312.9 341.4L288.3 341.2L262.3 350.9L251.7 351.9L234.0 356.2L209.5 358.8L199.4 355.4L184.0 352.7L174.7 349.9L161.8 343.5M320.0 48.5L320.4 48.5M152.9 365.9L155.5 364.8L165.8 364.6L173.1 360.5L180.0 355.2L202.4 333.7L213.7 321.5L220.7 319.2L232.8 312.3L238.5 305.1L244.7 294.2L257.8 283.3L263.0 275.8L278.8 258.3L284.6 253.9L295.3 249.0L303.7 233.8L303.6 213.5L311.0 194.8L312.0 187.0L317.2 175.6L325.5 165.3L331.9 160.2L338.3 155.8L344.0 154.9L349.9 151.0M220.7 163.8L220.5 159.5M303.7 232.8L303.6 223.9M220.1 23.0L220.8 19.0M349.9 151.0L353.4 149.0L361.9 147.6L366.0 145.8L396.5 109.8L404.9 103.5L419.1 99.0L440.0 82.4L445.6 73.0L486.8 35.8L490.5 34.0L504.4 34.6L510.0 33.2L512.7 27.7L512.5 14.6L517.6 -0.5L519.7 -12.8M517.1 43.9L504.4 34.6M505.9 36.0L506.0 34.3L510.2 33.0L512.6 28.1L512.5 14.6L517.5 -0.3L520.0 -13.4M501.0 33.1L496.5 30.6L487.1 18.3M505.9 36.0L506.0 34.3M550.8 51.1L547.3 49.9M624.5 109.5L606.3 105.2L604.8 103.8L598.8 93.8L592.0 85.6L584.6 70.2L585.0 63.2L550.8 51.1M609.8 298.8L599.0 298.9L592.6 297.8L571.1 303.3L557.7 304.4L537.3 303.7L532.8 306.3M425.9 346.4L435.6 351.9L440.2 352.2L484.2 336.9L501.8 329.7L507.9 325.0M515.7 424.2L513.7 420.7M549.0 304.3L535.7 304.1M469.5 387.1L468.0 386.8M601.6 412.8L595.6 416.7L582.8 421.8M216.4 63.8L228.4 61.1L238.8 56.6L293.3 60.4L302.7 56.2L312.7 55.8L320.4 48.5M308.1 460.2L305.9 454.8L302.5 433.0L297.7 411.9L292.4 395.2L281.2 386.0L276.0 379.4L249.8 365.9L248.7 363.2L249.7 354.6L248.3 349.4L242.8 343.7L228.9 324.2L225.7 315.9L224.8 255.4L219.8 225.1L222.5 198.7L220.3 154.8L215.9 141.0L215.1 103.7L216.4 63.6L219.3 28.0L226.6 -25.1M166.9 364.2L177.6 357.2M170.7 362.0L172.4 360.9M276.5 260.7L283.6 254.4L294.9 249.4L301.2 239.3M303.5 216.7L303.9 212.3L311.0 194.8L311.8 187.6L317.8 174.8L325.5 165.3L331.9 160.2L338.3 155.8L344.0 154.9L349.9 151.0M317.2 175.6L317.3 175.2M303.0 240.2L300.5 238.8M228.0 322.6L225.7 315.9L225.5 302.4M349.9 151.0L353.4 149.0L361.9 147.6L366.0 145.8L396.5 109.8L404.9 103.5L419.1 99.0L440.0 82.4L445.6 73.0L486.8 35.8L490.6 34.0L504.4 34.6M550.8 51.1L546.0 49.2L539.2 44.0L529.5 45.7L517.5 44.0L514.0 42.5L504.4 34.0L501.0 33.8L496.6 30.7L488.6 19.8L476.2 10.4L474.2 5.6L465.7 -2.8L458.7 -8.0L446.3 -14.6M501.0 33.8L501.0 33.1M609.2 105.9L605.1 104.2L595.6 89.9M532.8 306.3L537.4 303.8L559.0 304.5L573.1 303.2L592.6 297.9L599.4 299.2L609.8 299.2M507.9 325.0L501.6 329.6L484.5 336.6L440.5 352.0L435.5 351.6L426.1 346.2M494.2 499.3L523.0 488.3L555.9 478.5L564.6 477.1L563.3 471.7L563.1 455.8L561.8 451.5L562.8 447.1L570.7 440.5L581.1 423.0L597.4 415.7L613.5 403.5M507.9 325.0L523.8 312.7M575.1 432.8L578.9 425.6L581.8 422.5M561.5 456.9L558.0 456.8L555.7 455.1M217.6 146.9L216.0 141.7L215.7 133.9M317.5 175.2L317.3 175.2M537.9 270.4L538.8 260.6L536.7 230.3L539.8 220.1L538.8 213.9L536.7 210.3L525.0 197.6L515.0 193.1L502.8 181.5L495.7 167.8L492.4 149.6L487.4 87.7L507.4 40.7L508.0 38.2L506.0 36.1M518.7 426.5L516.2 424.8M535.7 304.1L537.9 270.4M565.1 515.1L565.2 480.4L563.3 471.7L563.1 455.8L561.8 451.2L562.9 446.9L570.7 440.5L575.0 432.3L575.6 414.2L570.5 401.8L569.7 395.5L575.9 369.8L573.6 361.1L569.7 353.2L569.1 337.2L560.3 317.9L549.0 304.3M549.0 304.3L535.7 304.1M573.9 435.2L574.7 433.3M548.5 446.9L546.1 443.2M425.9 346.4L413.9 340.6L388.1 339.6M426.1 346.2L414.3 340.5L386.7 339.3L363.7 332.2L332.0 344.0L321.8 344.0L312.9 341.4L288.3 341.2L262.3 350.9L251.7 351.9L234.0 356.2L209.5 358.8L199.4 355.4L184.0 352.7L174.7 349.9L161.8 343.5M223.5 317.5L224.7 316.6M519.7 -12.8L517.6 -0.5L512.5 14.6L512.4 28.6M466.4 386.8L465.7 386.7M549.0 304.3L535.7 304.1M551.0 306.6L549.0 304.3M425.9 346.4L414.5 340.7L386.2 339.4L363.6 332.4L331.4 344.2L322.1 344.3L312.9 341.6L288.4 341.4L262.2 351.1L251.7 352.1L234.3 356.3L209.4 359.0L198.7 355.4L184.0 352.9L174.1 349.9L161.7 343.6M425.9 346.4L414.5 340.7L386.2 339.4L363.6 332.4L331.4 344.2L322.1 344.3L312.9 341.6L288.4 341.4L262.2 351.1L251.7 352.1L234.3 356.3L209.4 359.0L198.7 355.4L184.0 352.9L174.1 349.9L161.7 343.6M318.6 64.4L318.9 55.9L321.4 46.7M152.9 365.9L155.5 364.8L165.8 364.6L173.1 360.5L180.0 355.2L202.4 333.7L213.7 321.5L220.7 319.2L232.8 312.3L238.5 305.1L244.7 294.2L257.8 283.3L263.0 275.8L278.8 258.3L284.6 253.9L295.3 249.0L303.7 233.8L303.6 213.5L311.0 194.8L312.0 187.0L317.2 175.6L325.5 165.3L331.9 160.2L338.3 155.8L344.0 154.9L349.9 151.0M221.0 212.3L221.2 211.2M218.9 36.9L219.2 30.6M537.1 236.4L536.7 229.5L539.7 220.6M609.8 298.8L599.0 298.9L592.6 297.8L571.1 303.3L557.7 304.4L537.3 303.7L532.8 306.3M310.3 56.3L314.1 54.9L320.0 48.5M320.8 244.8L311.9 241.6M11.1 86.5L15.5 85.7M27.8 74.6L30.0 73.4M57.2 62.1L31.4 72.7L21.9 78.2L18.2 84.9L7.0 88.3L-27.0 85.1M97.3 157.8L109.3 156.6M-17.1 394.5L-8.2 391.4L3.7 391.3L14.4 389.1L41.1 377.6L47.8 378.7L51.8 377.2L60.4 376.4L66.4 370.9L90.6 372.0L116.0 365.3L134.8 367.5L150.5 367.1L152.9 365.9M13.5 421.4L23.5 420.7L30.4 422.8L36.4 420.8L47.0 413.9L51.1 413.5L58.5 409.7L66.9 409.4L72.0 406.3L77.9 408.0L86.8 415.9L92.8 416.7L97.4 415.7L105.2 419.3L113.0 420.0L122.4 412.8L131.5 409.6L142.4 408.4L149.1 401.0M85.2 371.9L85.1 369.8L81.7 365.1M96.8 370.5L103.1 368.7M113.6 42.0L114.7 42.0M71.0 371.0L70.5 366.8L67.7 365.0L68.1 363.0L72.7 361.0L75.7 362.7L77.3 365.0L81.7 365.1M184.9 42.2L149.0 41.9L124.6 45.9L117.0 42.1L110.9 42.0L105.8 44.2L100.1 44.6L70.5 55.8L31.4 72.7L21.9 78.2L18.2 84.9L7.0 88.3L-27.0 85.1M119.6 57.4L120.6 61.2M-1.7 354.7L13.0 332.1L30.6 315.7L59.6 296.1L75.5 292.5L78.4 290.5L85.2 272.4L87.9 244.2M-4.0 358.5L12.8 332.8L31.0 315.9L59.7 296.5L75.5 292.9L78.4 291.0L85.4 272.5L88.1 244.4M-15.3 278.3L-6.5 277.5L3.2 280.5L7.0 280.5L15.8 276.8L17.8 274.2L18.8 270.2M-17.1 394.5L-8.2 391.4L3.7 391.3L14.4 389.1L41.1 377.6L47.8 378.7L51.8 377.2L60.4 376.4L66.4 370.9L90.6 372.0L116.0 365.3L134.8 367.5L150.5 367.1L152.9 365.9M16.7 425.0L10.3 417.2L3.2 412.4M3.2 412.4L-13.9 413.7M3.2 412.6L3.2 412.4M84.1 51.2L91.0 48.4M71.6 -35.6L114.3 39.1L120.8 62.9L113.8 95.8L112.3 118.3L104.5 130.9L97.3 158.7L92.2 198.2L90.7 216.0L91.1 224.8L88.1 244.4M109.3 156.6L97.3 157.8M147.3 415.0L146.2 410.2L142.6 408.4M155.5 42.0L159.9 41.9M-15.3 278.2L-6.8 277.3L3.5 280.4L6.9 280.4L10.8 278.7L14.0 274.8L18.1 272.2L18.6 270.2M18.8 270.2L17.8 274.2L15.8 276.8L7.0 280.5L3.2 280.5L-6.5 277.5L-14.2 278.2M88.2 241.7L88.5 237.5M97.2 45.8L106.0 44.2L110.2 42.2M-15.3 278.2L-6.8 277.3L3.5 280.4L6.9 280.4L10.8 278.7L14.0 274.8L18.1 272.2L18.6 270.2M53.3 377.1L58.4 376.7M71.0 371.0L70.5 366.8L68.0 365.3L67.6 363.7L72.7 361.0L75.7 362.7L77.3 365.0L81.7 365.1L85.1 369.8L85.2 371.9M-19.7 415.7L-10.4 413.2L3.2 412.6M120.6 493.9L106.7 483.9L97.9 479.7L91.3 474.4L82.4 470.1L73.7 463.2L66.4 460.3L55.4 450.6L38.2 440.8L28.8 432.7L16.7 425.0M87.9 244.2L90.9 224.5L90.5 216.0L92.2 196.3L97.1 158.5L104.2 130.9L112.0 118.2L113.3 97.4L120.6 62.5L114.4 40.1L71.2 -35.6M3.2 412.6L9.8 417.1L16.7 425.0M13.5 421.4L23.5 420.7L30.4 422.8L36.4 420.8L47.0 413.9L51.1 413.5L58.5 409.7L66.9 409.4L72.0 406.3L77.9 408.0L86.8 415.9L92.8 416.7L97.4 415.7L105.2 419.3L113.0 420.0L122.4 412.8L131.5 409.6L142.4 408.4L149.1 401.0"/><path class="major" d="M360.2 117.0L406.8 68.8L456.5 31.9L472.8 15.8L484.7 6.7L497.7 -12.7M360.0 116.8L337.6 138.4L318.6 159.3L295.5 188.6L270.1 240.3L255.4 253.8L236.5 274.9L227.4 287.1L203.2 304.6L190.6 319.7L170.4 339.4L154.8 347.4M360.0 116.8L374.4 102.9L398.6 76.1L412.2 63.8L457.4 30.7L472.5 15.8L484.7 6.4L497.4 -12.6M360.2 117.0L406.8 68.8L456.5 31.9L472.8 15.8L484.7 6.7L497.7 -12.7M360.0 116.8L374.4 102.9L398.6 76.1L412.2 63.8L457.4 30.7L472.5 15.8L484.7 6.4L497.4 -12.6M360.0 116.8L337.6 138.4L318.6 159.3L295.5 188.6L270.1 240.3L255.4 253.8L236.5 274.9L227.4 287.1L203.2 304.6L190.6 319.7L170.4 339.4L154.8 347.4M154.8 347.6L170.4 339.7L190.4 320.2L206.0 302.8L227.5 287.3L251.6 258.6L269.9 241.2L277.8 226.8L290.8 197.8L299.3 184.4L317.7 160.6L336.2 140.1L360.2 117.0M154.8 347.6L170.4 339.7L190.4 320.2L206.0 302.8L227.5 287.3L251.6 258.6L269.9 241.2L277.8 226.8L290.8 197.8L299.3 184.4L317.7 160.6L336.2 140.1L360.2 117.0M-22.4 408.3L-10.9 402.0L23.0 394.6L74.6 376.0L92.7 375.7L106.4 377.9L114.5 376.3L117.1 374.3L125.6 361.1L136.1 354.4L154.8 347.4M154.8 347.6L136.4 354.5L125.9 361.1L117.0 374.7L114.1 376.7L106.1 378.2L91.7 376.0L74.2 376.4L22.7 394.9L-11.8 402.6L-22.1 408.3M-21.6 408.0L-10.3 402.0L22.7 394.9L74.6 376.4L91.7 376.0L106.1 378.2L114.5 376.5L117.0 374.7L125.9 361.1L136.4 354.5L154.8 347.6M154.8 347.4L136.1 354.4L125.6 361.1L117.1 374.3L114.1 376.5L106.0 377.9L92.7 375.7L74.1 376.1L23.0 394.6L-11.7 402.3L-22.4 408.3"/></g><g class="towns" aria-hidden="true"><text x="244.0" y="223.0">Livingston</text><g class="route"><rect x="339.0" y="109.5" width="42.4" height="15" rx="3"/><text x="360.2" y="121.5" text-anchor="middle">I-20</text></g><g class="route"><rect x="377.4" y="68.6" width="42.4" height="15" rx="3"/><text x="398.6" y="80.6" text-anchor="middle">I-59</text></g><g class="route"><rect x="324.4" y="143.5" width="51.0" height="15" rx="3"/><text x="349.9" y="155.5" text-anchor="middle">US 11</text></g></g><g class="dots"><a href="#university-cinema-livingston" data-name="University Cinema" data-shows="[[&quot;2026-11-16T19:00&quot;,&quot;Street Fighter&quot;,false],[&quot;2026-11-17T19:00&quot;,&quot;Street Fighter&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5"><title>University Cinema</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#university-cinema-livingston">University Cinema</a></li></ul></nav>
-  <article class="house" id="university-cinema-livingston"><h3>University Cinema</h3><p class="where">Livingston · <a href="https://www.uwa.edu/campus-life/student-life/university-cinema/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://www.uwa.edu/campus-life/student-life/university-cinema/">Street Fighter</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>1 showing</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.uwa.edu/campus-life/student-life/university-cinema/">Street Fighter</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="university-cinema-livingston"><h3>University Cinema</h3><p class="where">Livingston · <span class="addr">16 Franklin Street, Livingston</span> · <a href="https://www.uwa.edu/campus-life/student-life/university-cinema/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://www.uwa.edu/campus-life/student-life/university-cinema/">Street Fighter</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>1 showing</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.uwa.edu/campus-life/student-life/university-cinema/">Street Fighter</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 7:23pm CST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

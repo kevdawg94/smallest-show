@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Independent cinema showtimes in Shelby, MT, MT · Smallest Show</title>
-<meta name="description" content="Shelby, MT, MT: this week&#x27;s showtimes at 1 independent cinema, including Roxy Theater.">
-<meta property="og:title" content="Independent cinema showtimes in Shelby, MT, MT">
-<meta property="og:description" content="Shelby, MT, MT: this week&#x27;s showtimes at 1 independent cinema, including Roxy Theater.">
+<title>Independent cinema showtimes in Shelby, MT · Smallest Show</title>
+<meta name="description" content="Shelby, MT: this week&#x27;s showtimes at its independent cinema, Roxy Theater.">
+<meta property="og:title" content="Independent cinema showtimes in Shelby, MT">
+<meta property="og:description" content="Shelby, MT: this week&#x27;s showtimes at its independent cinema, Roxy Theater.">
 <meta property="og:url" content="https://smallest.show/cities/shelby-mt/">
 <link rel="canonical" href="https://smallest.show/cities/shelby-mt/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Roxy Theater", "@id": "https://smallest.show/cities/shelby-mt/#shelby-roxy", "url": "https://www.shelbyroxymt.com", "address": {"@type": "PostalAddress", "streetAddress": "231 Main Street", "addressLocality": "Shelby", "addressRegion": "MT", "postalCode": "59474", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 48.50603, "longitude": -111.85756}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Shelby, MT</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[]" data-tz="America/Denver" hidden>
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Denver"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Shelby, MT with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M537.7 469.2 608.6 469.2 608.5 191.7 609.6 191.7 609.7 -12.0 612.0 -12.0 612.0 492.0 537.7 492.0Z"/><path d="M-12.0 -12.0 124.3 -12.0 124.3 191.6 126.7 191.7 126.6 262.9 114.7 263.2 111.3 259.3 103.0 259.3 103.1 257.9 -12.0 258.1Z"/><path d="M-12.0 492.0 -12.0 258.1 103.1 257.9 103.0 259.3 111.3 259.3 114.7 263.2 128.1 262.6 130.6 264.4 131.4 270.1 134.2 272.1 141.9 273.9 143.1 273.2 143.7 267.7 150.4 271.0 153.6 271.3 154.8 273.0 154.0 276.5 155.1 277.0 157.8 275.3 159.4 280.1 162.5 279.3 164.6 285.9 166.1 286.8 168.0 284.5 171.8 284.9 173.3 287.5 171.8 290.2 172.8 291.9 181.0 290.8 181.4 294.5 184.2 296.6 186.1 295.8 186.9 293.7 185.8 289.6 190.2 288.9 189.3 291.3 190.1 293.1 192.1 290.5 192.0 286.6 194.3 287.1 199.9 285.9 201.7 282.5 205.0 283.4 204.1 287.9 206.3 286.9 209.6 283.3 214.0 283.6 214.6 285.2 211.0 287.7 212.0 290.4 213.7 290.9 215.6 290.1 216.0 285.8 217.2 284.3 218.4 285.4 221.1 285.3 222.5 286.8 220.5 288.5 220.2 291.3 224.0 291.1 229.3 294.0 229.3 329.4 263.8 329.6 263.8 330.5 332.7 330.4 332.7 365.0 401.7 365.3 401.7 469.2 537.7 469.2 537.7 492.0Z"/><path d="M609.7 -12.0 609.6 191.7 608.5 191.7 608.6 469.2 401.7 469.2 401.7 365.3 332.7 365.0 332.7 330.4 263.8 330.5 263.8 329.6 229.3 329.4 229.3 294.0 224.0 291.1 220.2 291.3 219.8 290.2 222.4 285.9 217.2 284.3 216.0 285.8 215.6 290.1 213.7 290.9 212.0 290.4 211.0 287.7 214.6 285.2 214.0 283.6 209.6 283.3 206.3 286.9 204.1 287.9 205.0 283.4 201.7 282.5 199.9 285.9 194.3 287.1 192.0 286.6 192.1 290.5 190.1 293.1 189.3 291.3 190.2 288.9 185.8 289.6 186.9 293.7 186.1 295.8 183.4 296.5 181.4 294.5 181.0 290.8 172.8 291.9 171.8 290.2 173.3 287.5 171.8 284.9 168.0 284.5 166.1 286.8 164.6 285.9 162.5 279.3 159.4 280.1 157.8 275.3 155.1 277.0 154.0 276.5 154.8 273.0 153.6 271.3 150.4 271.0 143.7 267.7 143.1 273.2 139.9 273.9 132.0 270.9 130.5 267.4 130.6 264.4 129.4 263.0 126.6 262.8 126.7 191.7 124.3 191.6 124.3 -12.0Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M298.0 220.4L301.0 229.0L301.0 235.8L300.0 237.9L298.4 239.4L289.8 232.5M298.1 220.6L298.0 220.4M298.1 239.2L298.0 238.2M57.6 141.6L53.7 140.4L48.5 135.8M293.9 235.3L293.6 235.1M298.0 238.2L295.3 236.3M41.6 136.7L44.7 133.2L48.5 135.8M124.3 181.9L78.5 156.8L60.2 143.0L53.6 140.3L44.8 133.2L36.0 140.6L18.2 145.4L-134.5 145.5M97.7 398.5L103.4 398.4M299.1 239.0L301.0 235.8L301.0 229.2L298.0 220.4M568.1 254.2L568.2 239.7L573.8 234.9L573.8 214.3M305.7 243.7L298.1 239.2M89.8 398.2L97.7 398.5M114.9 398.4L103.4 398.4M298.0 238.2L293.9 235.3M298.6 239.5L301.0 235.8L301.0 229.4L298.0 220.4M608.5 270.1L598.5 269.8L533.4 275.6L517.1 276.0L497.3 274.4L478.9 268.8L425.4 259.4L388.1 262.8L356.4 263.4L344.4 260.9L333.6 260.7L316.1 251.2L284.5 228.8L260.4 222.4L250.7 222.3L206.9 208.6L176.0 200.6L157.1 199.7L124.3 181.9M568.1 254.2L568.2 239.7L573.8 234.9L573.8 214.3M258.5 399.2L90.2 398.3L86.8 394.2L83.6 392.6L77.1 392.5L63.2 403.5L48.5 403.4L39.7 401.9L34.2 403.8L14.2 403.8L10.5 403.0L1.4 397.6L-20.0 397.4M258.5 399.2L97.7 398.5M89.8 398.2L86.8 394.2L83.6 392.6L77.1 392.5L63.2 403.5L48.5 403.4L39.7 401.9L34.2 403.8L13.0 403.8L1.4 397.6L-20.0 397.4M307.4 244.9L305.7 243.7"/><path class="major" d="M258.9 498.0L264.5 482.6L258.2 466.2L258.2 355.3L259.6 348.1L266.6 330.4M259.1 498.1L264.8 482.5L258.5 466.2L258.5 355.4L259.8 348.1L266.9 330.4M259.1 498.1L264.8 482.5L258.5 466.2L258.5 355.4L259.8 348.1L266.9 330.4M266.6 330.4L273.4 313.9L283.4 301.3L285.5 297.0L286.0 270.8L284.1 259.4L286.0 250.6L286.6 239.2L288.1 235.1L298.8 218.2L297.6 186.6L297.1 -28.4M258.9 498.0L264.5 482.6L258.2 466.2L258.2 355.3L259.6 348.1L266.6 330.4M297.2 -28.6L297.8 186.2L299.0 218.0L288.1 235.4L286.8 239.6L286.2 250.4L284.3 259.2L286.3 271.3L285.7 296.9L284.0 300.6L273.8 313.7L266.9 330.4M266.9 330.4L273.8 313.7L284.0 300.6L285.7 296.9L286.3 271.3L284.3 259.2L286.2 250.4L286.8 239.6L288.1 235.4L299.0 218.0L297.8 186.2L297.2 -28.6M266.6 330.4L273.4 313.9L283.4 301.3L285.5 297.0L286.0 270.8L284.1 259.4L286.0 250.6L286.6 239.2L288.1 235.1L298.8 218.2L297.6 186.6L297.1 -28.4M258.9 498.0L264.5 482.6L258.2 466.2L258.2 355.3L259.6 348.1L266.6 330.4M259.1 498.1L264.8 482.5L258.5 466.2L258.5 355.4L259.8 348.1L266.9 330.4"/></g><g class="towns" aria-hidden="true"><text x="266.4" y="223.0">Shelby</text><g class="route"><rect x="237.3" y="347.9" width="42.4" height="15" rx="3"/><text x="258.5" y="359.9" text-anchor="middle">I-15</text></g><g class="route"><rect x="103.1" y="174.4" width="42.4" height="15" rx="3"/><text x="124.3" y="186.4" text-anchor="middle">US 2</text></g></g><g class="dots"><a href="#shelby-roxy" data-name="Roxy Theater" data-shows="[[&quot;2026-11-20T19:00&quot;,&quot;The Hunger Games: Sunrise On The Reaping&quot;,false],[&quot;2026-11-21T19:00&quot;,&quot;The Hunger Games: Sunrise On The Reaping&quot;,false],[&quot;2026-11-22T16:00&quot;,&quot;The Hunger Games: Sunrise On The Reaping&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5" class="dim"><title>Roxy Theater</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#shelby-roxy">Roxy Theater</a></li></ul></nav>
-  <article class="house" id="shelby-roxy"><h3>Roxy Theater</h3><p class="where">Shelby · <a href="https://www.shelbyroxymt.com">Website</a></p><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.shelbyroxymt.com">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>2 showings</span></summary><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.shelbyroxymt.com">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.shelbyroxymt.com">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">4pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="shelby-roxy"><h3>Roxy Theater</h3><p class="where">Shelby · <span class="addr">231 Main Street, Shelby</span> · <a href="https://www.shelbyroxymt.com">Website</a></p><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.shelbyroxymt.com">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>2 showings</span></summary><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.shelbyroxymt.com">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.shelbyroxymt.com">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">4pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

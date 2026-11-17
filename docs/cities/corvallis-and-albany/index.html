@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Darkside Cinema", "@id": "https://smallest.show/cities/corvallis-and-albany/#darkside", "url": "https://darksidecinema.com/", "address": {"@type": "PostalAddress", "streetAddress": "215 Southwest 4th Street #210", "addressLocality": "Corvallis", "addressRegion": "OR", "postalCode": "97333", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.56316, "longitude": -123.26248}}, {"@type": "MovieTheater", "name": "Pix Theatre", "@id": "https://smallest.show/cities/corvallis-and-albany/#pix", "url": "https://www.albanypix.com/", "address": {"@type": "PostalAddress", "streetAddress": "321 2nd Avenue Southwest", "addressLocality": "Albany", "addressRegion": "OR", "postalCode": "97321", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.63651, "longitude": -123.1079}}, {"@type": "MovieTheater", "name": "Rio Theatre", "@id": "https://smallest.show/cities/corvallis-and-albany/#rio-sweet-home", "url": "https://www.sweethomerio.com/", "address": {"@type": "PostalAddress", "streetAddress": "1439 Main Street", "addressLocality": "Sweet Home", "addressRegion": "OR", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.39783, "longitude": -122.72757}}, {"@type": "MovieTheater", "name": "Kuhn Cinema", "@id": "https://smallest.show/cities/corvallis-and-albany/#kuhn-cinema", "url": "https://www.kuhncinema.com/now-showing", "address": {"@type": "PostalAddress", "streetAddress": "668 South Main Street", "addressLocality": "Lebanon", "addressRegion": "OR", "postalCode": "97355", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.53945, "longitude": -122.90749}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,23 +144,152 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Corvallis &amp; Albany</h1>
   <p class="lede">This week's showtimes at the area's 4 independent cinemas, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 2:24pm PST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;darkside&quot;, &quot;kuhn-cinema&quot;]" data-tz="America/Los_Angeles">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.625" data-tz="America/Los_Angeles"><svg class="citymap" viewBox="0 0 600 375" role="img" aria-label="A map of Corvallis &amp; Albany with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 387.0 -12.0 -12.0 192.0 -11.9 194.2 -3.2 196.0 -0.2 211.5 16.5 214.6 30.6 218.2 32.7 231.7 31.7 234.6 33.3 237.5 42.1 244.6 48.9 245.2 54.8 244.9 56.6 241.7 60.5 225.6 67.1 220.3 67.7 217.6 66.4 212.7 66.1 200.5 69.2 181.2 69.4 176.7 72.6 176.1 74.4 176.0 79.0 177.6 82.2 176.2 85.6 169.1 87.6 168.1 89.1 167.6 97.2 157.7 103.5 157.3 105.9 158.4 108.7 167.4 111.9 168.2 116.1 166.6 118.8 162.0 120.2 151.9 120.0 141.0 121.4 120.4 131.2 118.2 134.3 114.1 146.3 114.1 150.4 123.1 154.9 126.8 158.1 127.0 160.8 118.9 176.2 120.0 178.6 124.7 178.9 129.6 177.1 134.5 182.4 138.2 191.5 140.4 193.8 143.7 194.6 147.5 199.7 147.9 203.4 145.7 210.3 145.9 215.8 142.7 217.4 141.6 219.6 142.9 222.5 146.3 224.6 146.9 227.8 144.8 235.6 148.0 246.7 148.4 253.5 151.9 258.0 152.6 260.6 149.9 268.3 137.1 270.2 136.9 273.5 138.2 276.7 142.7 283.8 142.0 287.5 137.5 286.0 135.8 288.1 139.8 309.4 135.8 314.6 131.2 317.5 126.3 317.3 124.8 318.5 124.6 320.4 128.8 327.6 132.4 330.4 139.7 333.4 143.0 339.8 142.5 342.3 135.6 342.4 131.7 345.2 131.7 347.5 134.9 353.6 136.3 359.4 133.7 362.1 127.7 364.1 124.3 369.7 128.7 372.6 139.1 370.5 142.1 372.3 144.5 376.7 144.3 387.0Z"/><path d="M345.8 -12.0 344.2 -8.7 340.1 -6.7 336.3 -7.2 328.9 -12.0 325.9 -12.0 321.3 -6.1 318.2 -4.9 316.4 -1.7 314.4 9.3 310.7 11.4 305.8 11.9 303.5 14.4 301.0 11.8 299.2 12.2 297.7 13.8 299.1 18.8 297.4 20.5 296.5 20.8 295.2 18.9 291.7 20.9 287.0 16.2 283.5 9.4 286.8 -4.7 285.7 -12.0Z"/><path d="M113.7 148.1 118.2 134.3 120.4 131.2 141.0 121.4 151.9 120.0 162.0 120.2 166.6 118.8 168.2 116.1 167.4 111.9 158.4 108.7 157.3 105.9 157.7 103.5 167.6 97.2 168.1 89.1 169.1 87.6 176.2 85.6 177.6 82.2 176.0 79.0 176.1 74.4 176.7 72.6 181.2 69.4 200.5 69.2 212.7 66.1 222.7 67.7 229.7 65.9 241.7 60.5 244.9 56.6 244.6 48.9 237.5 42.1 234.6 33.3 231.7 31.7 218.2 32.7 214.6 30.6 211.5 16.5 196.0 -0.2 194.2 -3.2 192.0 -12.0 285.7 -12.0 286.8 -4.7 283.5 9.4 287.0 16.2 291.7 20.9 295.2 18.9 296.5 20.8 299.1 18.8 297.7 13.8 299.2 12.2 301.0 11.8 303.5 14.4 307.0 11.4 313.4 10.4 315.0 7.5 315.0 2.2 316.4 -1.7 318.2 -4.9 321.3 -6.1 325.9 -12.0 328.9 -12.0 336.3 -7.2 340.1 -6.7 344.2 -8.7 345.8 -12.0 612.0 -12.0 612.0 387.0 144.3 387.0 144.5 376.7 142.1 372.3 139.1 370.5 128.7 372.6 124.3 369.7 127.7 364.1 133.7 362.1 136.3 359.4 134.9 353.6 131.7 347.5 131.7 345.2 135.6 342.4 142.5 342.3 143.0 339.8 139.7 333.4 132.4 330.4 128.8 327.6 124.6 320.4 124.8 318.5 126.3 317.3 131.2 317.5 135.8 314.6 139.8 309.4 135.8 288.1 137.5 286.0 142.0 287.5 142.7 283.8 138.2 276.7 136.9 273.5 137.1 270.2 149.9 268.3 152.6 260.6 151.9 258.0 148.4 253.5 148.0 246.7 144.8 235.6 146.9 227.8 146.3 224.6 142.9 222.5 141.6 219.6 142.7 217.4 145.9 215.8 145.7 210.3 147.9 203.4 147.5 199.7 143.7 194.6 140.4 193.8 138.2 191.5 134.5 182.4 129.6 177.1 124.7 178.9 120.0 178.6 118.9 176.2 127.0 160.8 126.8 158.1 123.1 154.9 114.1 150.4Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="major" d="M253.9 499.5L252.5 63.2L255.7 37.3L259.4 20.1L260.0 6.5L258.0 -7.5L259.3 -29.0M254.1 499.5L252.8 63.1L256.1 36.4L259.6 20.4L260.2 7.0L258.3 -7.7L259.7 -29.2"/></g><g class="towns" aria-hidden="true"><text x="187.3" y="100.4">Albany</text><text x="129.5" y="149.0">Corvallis</text><text x="322.2" y="148.8">Lebanon</text><text x="358.5" y="311.6">Sweet Home</text><g class="route"><rect x="235.6" y="55.7" width="33.8" height="15" rx="3"/><text x="252.5" y="67.7" text-anchor="middle">I-5</text></g></g><g class="dots"><a href="#pix" data-name="Pix Theatre" data-shows="[[&quot;2026-11-19T15:15&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false],[&quot;2026-11-19T19:00&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false],[&quot;2026-11-20T15:15&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false],[&quot;2026-11-20T19:00&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false],[&quot;2026-11-21T11:30&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false],[&quot;2026-11-21T15:15&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false]]"><circle class="hit" cx="220.9" cy="70.4" r="16.0"/><circle cx="220.9" cy="70.4" r="5.5" class="dim"><title>Pix Theatre</title></circle></a><a href="#rio-sweet-home" data-name="Rio Theatre" data-shows="[[&quot;2026-11-20T15:30&quot;,&quot;Drummer Boy&quot;,false],[&quot;2026-11-20T15:30&quot;,&quot;Hunger Games Sunrise on the Reaping&quot;,false],[&quot;2026-11-20T19:00&quot;,&quot;Drummer Boy&quot;,false],[&quot;2026-11-20T19:00&quot;,&quot;Hunger Games Sunrise on the Reaping&quot;,false],[&quot;2026-11-21T12:00&quot;,&quot;Drummer Boy&quot;,false],[&quot;2026-11-21T12:00&quot;,&quot;Hunger Games Sunrise on the Reaping&quot;,false]]"><circle class="hit" cx="487.5" cy="305.1" r="16.0"/><circle cx="487.5" cy="305.1" r="5.5" class="dim"><title>Rio Theatre</title></circle></a><a href="#darkside" data-name="Darkside Cinema" data-shows="[[&quot;2026-11-16T17:30&quot;,&quot;The Devils&quot;,false],[&quot;2026-11-16T18:00&quot;,&quot;Waking Up From A Nap on A Long Day of Doing Nothing&quot;,false],[&quot;2026-11-16T18:30&quot;,&quot;You Can See Everything&quot;,false],[&quot;2026-11-16T19:00&quot;,&quot;Fatherland&quot;,false],[&quot;2026-11-16T19:30&quot;,&quot;Wildwood&quot;,true],[&quot;2026-11-16T20:00&quot;,&quot;The Devils&quot;,false]]"><circle class="hit" cx="112.5" cy="142.5" r="16.0"/><circle cx="112.5" cy="142.5" r="5.5"><title>Darkside Cinema</title></circle></a><a href="#kuhn-cinema" data-name="Kuhn Cinema" data-shows="[[&quot;2026-11-16T19:00&quot;,&quot;Cat In The Hat&quot;,false]]"><circle class="hit" cx="361.4" cy="165.8" r="16.0"/><circle cx="361.4" cy="165.8" r="5.5"><title>Kuhn Cinema</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><p class="jump-label">Corvallis</p><ul class="jump"><li><a href="#darkside">Darkside Cinema</a></li></ul><p class="jump-label">Albany</p><ul class="jump"><li><a href="#pix">Pix Theatre</a></li></ul><p class="jump-label">Lebanon &amp; Sweet Home</p><ul class="jump"><li><a href="#kuhn-cinema">Kuhn Cinema</a></li><li><a href="#rio-sweet-home">Rio Theatre</a></li></ul></nav>
-  <h2 class="region">Corvallis</h2>
-<article class="house" id="darkside"><h3>Darkside Cinema</h3><p class="where">Corvallis · <a href="https://darksidecinema.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">5:30pm</span><span class="chip">8pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/waking-up-from-a-nap-on-a-long-day-of-doing-nothing/">Waking Up From A Nap on A Long Day of Doing Nothing</a></span><span class="times"><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">7:30pm</span></span></li></ul><details><summary>Later this week <span>34 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/cmnyk-presents-the-brain-that-wouldnt-die/">The Brain That Wouldn&#x27;t Die</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">8pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">6pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">8pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">6pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">8pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">5pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/internalized/">Internalized</a></span><span class="times"><span class="chip">8pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">3:30pm</span><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">3:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">5:30pm</span><span class="chip">8pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/internalized/">Internalized</a></span><span class="times"><span class="chip">8pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/internalized/">Internalized</a></span><span class="times"><span class="chip">4:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">5pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></details></article>
-<h2 class="region">Albany</h2>
-<article class="house" id="pix"><h3>Pix Theatre</h3><p class="where">Albany · <a href="https://www.albanypix.com/">Website</a></p><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.albanypix.com/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">3:15pm</span><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>8 showings</span></summary><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.albanypix.com/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">3:15pm</span><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.albanypix.com/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">11:30am</span><span class="chip">3:15pm</span><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.albanypix.com/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">11:30am</span><span class="chip">3:15pm</span><span class="chip">7pm</span></span></li></ul></details></article>
-<h2 class="region">Lebanon &amp; Sweet Home</h2>
-<article class="house" id="kuhn-cinema"><h3>Kuhn Cinema</h3><p class="where">Lebanon · <a href="https://www.kuhncinema.com/now-showing">Website</a></p><p class="note">We couldn't read its listings on the last run, so these times may be out of date.</p></article>
-<article class="house" id="rio-sweet-home"><h3>Rio Theatre</h3><p class="where">Sweet Home · <a href="https://www.sweethomerio.com/">Website</a></p><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=DRUMMER%20BOY">Drummer Boy</a></span><span class="times"><span class="chip">3:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=HUNGER%20GAMES%20SUNRISE%20%20ON%20THE%20REAPING">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">3:30pm</span><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>10 showings</span></summary><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=DRUMMER%20BOY">Drummer Boy</a></span><span class="times"><span class="chip">12pm</span><span class="chip">3:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=HUNGER%20GAMES%20SUNRISE%20%20ON%20THE%20REAPING">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">12pm</span><span class="chip">3:30pm</span><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=DRUMMER%20BOY">Drummer Boy</a></span><span class="times"><span class="chip">2pm</span><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=HUNGER%20GAMES%20SUNRISE%20%20ON%20THE%20REAPING">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">2pm</span><span class="chip">6pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <h2 class="region" id="region-corvallis">Corvallis</h2>
+<article class="house" id="darkside"><h3>Darkside Cinema</h3><p class="where">Corvallis · <span class="addr">215 Southwest 4th Street #210, Corvallis</span> · <a href="https://darksidecinema.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">5:30pm</span><span class="chip">8pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/waking-up-from-a-nap-on-a-long-day-of-doing-nothing/">Waking Up From A Nap on A Long Day of Doing Nothing</a></span><span class="times"><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip out">7:30pm<span class="vh"> sold out</span></span></span></li></ul><details><summary>Later this week <span>34 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/cmnyk-presents-the-brain-that-wouldnt-die/">The Brain That Wouldn&#x27;t Die</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">8pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">6pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">8pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">6pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">8pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">5pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/internalized/">Internalized</a></span><span class="times"><span class="chip">8pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">3:30pm</span><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">3:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">5:30pm</span><span class="chip">8pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/internalized/">Internalized</a></span><span class="times"><span class="chip">8pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://darksidecinema.com/movie/wildwood/">Wildwood</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/internalized/">Internalized</a></span><span class="times"><span class="chip">4:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/you-can-see-everything/">You Can See Everything</a></span><span class="times"><span class="chip">5pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/fatherland/">Fatherland</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://darksidecinema.com/movie/the-devils/">The Devils</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></details></article>
+<h2 class="region" id="region-albany">Albany</h2>
+<article class="house" id="pix"><h3>Pix Theatre</h3><p class="where">Albany · <span class="addr">321 2nd Avenue Southwest, Albany</span> · <a href="https://www.albanypix.com/">Website</a></p><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.albanypix.com/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">3:15pm</span><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>8 showings</span></summary><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.albanypix.com/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">3:15pm</span><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.albanypix.com/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">11:30am</span><span class="chip">3:15pm</span><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.albanypix.com/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">11:30am</span><span class="chip">3:15pm</span><span class="chip">7pm</span></span></li></ul></details></article>
+<h2 class="region" id="region-lebanon-sweet-home">Lebanon &amp; Sweet Home</h2>
+<article class="house" id="kuhn-cinema"><h3>Kuhn Cinema</h3><p class="where">Lebanon · <span class="addr">668 South Main Street, Lebanon</span> · <a href="https://www.kuhncinema.com/now-showing">Website</a></p><p class="note">We couldn't read its listings on the last run, so these times may be out of date.</p></article>
+<article class="house" id="rio-sweet-home"><h3>Rio Theatre</h3><p class="where">Sweet Home · <span class="addr">1439 Main Street, Sweet Home</span> · <a href="https://www.sweethomerio.com/">Website</a></p><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=DRUMMER%20BOY">Drummer Boy</a></span><span class="times"><span class="chip">3:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=HUNGER%20GAMES%20SUNRISE%20%20ON%20THE%20REAPING">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">3:30pm</span><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>10 showings</span></summary><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=DRUMMER%20BOY">Drummer Boy</a></span><span class="times"><span class="chip">12pm</span><span class="chip">3:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=HUNGER%20GAMES%20SUNRISE%20%20ON%20THE%20REAPING">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">12pm</span><span class="chip">3:30pm</span><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=DRUMMER%20BOY">Drummer Boy</a></span><span class="times"><span class="chip">2pm</span><span class="chip">6pm</span></span></li><li><span class="film"><a href="https://app.formovietickets.com/index.html?chain=rio&amp;rtn=192654&amp;page=picktitle&amp;showTitle=HUNGER%20GAMES%20SUNRISE%20%20ON%20THE%20REAPING">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">2pm</span><span class="chip">6pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 5:23pm PST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

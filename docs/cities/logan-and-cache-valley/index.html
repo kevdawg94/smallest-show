@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Utah Theatre", "@id": "https://smallest.show/cities/logan-and-cache-valley/#utah-theatre", "url": "https://theutahtheatre.org/", "address": {"@type": "PostalAddress", "streetAddress": "18 W. Center Street", "addressLocality": "Logan", "addressRegion": "UT", "postalCode": "84321", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.73134, "longitude": -111.83524}}, {"@type": "MovieTheater", "name": "Worm Creek Opera House", "@id": "https://smallest.show/cities/logan-and-cache-valley/#worm-creek", "url": "https://wormcreek.org/", "address": {"@type": "PostalAddress", "streetAddress": "70 South State Street", "addressLocality": "Preston", "addressRegion": "ID", "postalCode": "83263", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 42.09476, "longitude": -111.87711}}, {"@type": "MovieTheater", "name": "Lewiston Community Theatre", "@id": "https://smallest.show/cities/logan-and-cache-valley/#lewiston-community", "url": "https://lewistonutah.gov/theatre/", "address": {"@type": "PostalAddress", "streetAddress": "29 South Main Street", "addressLocality": "Lewiston", "addressRegion": "UT", "postalCode": "84330", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.97526, "longitude": -111.85644}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,22 +144,151 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Logan &amp; Cache Valley</h1>
   <p class="lede">This week's showtimes at the area's 3 independent cinemas, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;worm-creek&quot;, &quot;lewiston-community&quot;]" data-tz="America/Denver">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Denver"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Logan &amp; Cache Valley with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M445.4 -12.0 441.3 -3.1 441.6 10.8 447.7 16.1 449.7 26.3 449.4 34.3 450.8 39.0 459.2 44.9 463.4 50.6 465.2 51.0 464.1 57.0 462.2 59.5 463.3 65.8 462.9 68.3 461.3 69.5 461.1 74.9 457.0 79.9 457.9 86.5 460.9 91.1 465.2 91.8 469.0 90.0 474.3 98.1 477.9 99.7 483.3 98.4 486.7 100.7 486.9 102.6 488.9 104.4 494.4 106.3 496.0 104.5 499.3 104.7 502.4 106.6 505.5 106.8 505.9 108.6 509.4 111.7 508.6 117.6 511.5 119.4 512.1 121.2 510.4 129.8 513.7 134.8 513.9 138.7 511.6 140.3 512.8 144.3 512.4 147.9 513.6 149.8 512.0 154.3 514.0 161.8 514.0 168.6 144.4 170.1 144.5 28.0 168.5 28.2 168.2 -12.0Z"/><path d="M109.8 171.8 113.9 169.5 117.1 170.5 514.0 168.6 513.9 178.1 519.9 180.1 524.2 186.8 528.2 188.3 529.0 198.0 531.4 199.5 533.5 202.8 532.5 206.3 535.2 212.0 533.1 221.7 536.3 227.5 535.3 231.4 533.7 232.1 532.6 234.8 532.1 240.2 527.3 242.2 524.1 242.1 523.4 240.9 518.2 240.7 516.6 239.5 515.4 241.6 513.4 241.0 511.7 243.7 511.4 246.6 516.0 248.7 518.6 252.3 518.4 257.8 516.9 260.7 522.8 261.5 523.6 264.2 522.2 272.5 518.9 274.6 517.7 276.8 515.6 277.4 513.1 276.6 517.6 283.0 514.0 289.9 517.5 291.7 542.7 318.2 542.1 323.0 543.4 326.4 547.1 330.3 549.0 339.5 546.8 343.0 547.6 345.2 546.6 346.4 546.7 350.2 548.5 350.9 548.1 353.4 549.8 356.5 551.7 355.6 553.5 356.8 552.3 366.1 555.0 369.8 553.9 374.6 554.5 376.3 552.5 378.8 555.4 382.5 554.4 386.1 562.3 393.6 567.8 395.5 569.5 399.1 569.8 405.9 567.2 410.6 566.9 415.6 568.0 418.6 564.9 418.7 563.7 420.4 565.4 422.3 563.7 434.2 565.7 436.9 567.5 437.2 570.8 435.7 571.6 443.4 576.1 443.5 576.1 446.4 578.9 449.7 579.2 453.8 575.2 457.9 574.9 461.3 570.1 466.3 573.7 475.8 569.4 479.9 566.2 478.6 561.9 483.4 563.9 489.6 563.4 492.0 209.1 492.0 209.4 488.1 207.9 486.6 206.9 479.0 207.3 475.7 208.8 474.0 208.0 472.1 203.5 468.6 202.1 463.9 203.8 458.7 201.9 450.3 194.7 439.2 192.7 430.9 189.1 430.1 184.0 426.7 179.8 415.9 180.7 410.9 185.4 407.3 183.7 400.5 184.0 393.3 185.3 390.4 184.6 387.1 190.8 374.9 192.4 366.7 191.3 360.7 195.5 355.9 195.4 352.8 199.4 349.8 202.7 349.3 206.3 337.8 200.5 329.6 193.4 326.3 192.6 320.5 194.2 317.0 190.3 313.6 189.9 310.8 188.5 310.5 183.3 298.6 182.1 293.8 183.0 291.4 179.2 278.7 177.6 279.0 175.7 276.8 172.3 277.2 172.5 271.4 159.1 248.0 147.1 241.8 144.9 237.3 141.1 234.7 139.0 231.7 136.3 226.4 134.8 215.2 129.2 202.1 126.4 197.7 123.9 198.3 122.8 195.2 119.0 192.5 117.1 180.6 114.7 175.5Z"/><path d="M-12.0 492.0 -12.0 167.4 105.3 167.0 113.9 169.5 109.8 171.8 114.7 175.5 117.1 180.6 119.0 192.5 122.8 195.2 123.9 198.3 126.4 197.7 129.2 202.1 134.8 215.2 136.3 226.4 139.0 231.7 141.1 234.7 144.9 237.3 147.1 241.8 159.1 248.0 172.5 271.4 172.3 277.2 175.7 276.8 177.6 279.0 179.2 278.7 183.0 291.4 182.1 293.8 183.3 298.6 188.5 310.5 189.9 310.8 190.3 313.6 194.2 317.0 192.6 320.5 193.4 326.3 200.5 329.6 206.3 337.8 202.7 349.3 199.4 349.8 195.4 352.8 195.5 355.9 191.3 360.7 192.4 366.7 190.8 374.9 184.6 387.1 185.3 390.4 184.0 393.3 183.7 400.5 185.4 407.3 180.7 410.9 179.8 415.9 184.0 426.7 189.1 430.1 192.7 430.9 194.7 439.2 201.9 450.3 203.8 458.7 202.1 463.9 203.5 468.6 208.0 472.1 208.8 474.0 207.3 475.7 206.9 479.0 207.9 486.6 209.4 488.1 209.1 492.0Z"/><path d="M612.0 -12.0 612.0 167.4 514.0 168.6 514.0 161.8 512.0 154.3 513.6 149.8 512.4 147.9 512.8 144.3 511.6 140.3 513.9 138.7 513.7 134.8 510.4 129.8 512.1 121.2 511.5 119.4 508.6 117.6 509.4 111.7 505.9 108.6 505.5 106.8 502.4 106.6 499.3 104.7 496.0 104.5 494.4 106.3 488.9 104.4 486.9 102.6 486.7 100.7 483.3 98.4 477.9 99.7 474.3 98.1 469.0 90.0 465.2 91.8 460.9 91.1 457.9 86.5 457.0 79.9 461.1 74.9 461.3 69.5 462.9 68.3 463.3 65.8 462.2 59.5 464.1 57.0 465.2 51.0 463.4 50.6 459.2 44.9 450.8 39.0 449.4 34.3 449.7 26.3 447.7 16.1 441.6 10.8 441.3 -3.1 442.2 -6.4 445.4 -12.0Z"/><path d="M511.7 243.7 513.4 241.0 515.4 241.6 516.6 239.5 518.2 240.7 523.4 240.9 524.1 242.1 527.3 242.2 532.1 240.2 532.6 234.8 533.7 232.1 535.3 231.4 536.3 227.5 533.1 221.7 535.2 212.0 532.5 206.3 533.5 202.8 531.4 199.5 529.0 198.0 528.2 188.3 524.2 186.8 519.9 180.1 513.9 178.1 514.0 168.6 612.0 167.4 612.0 492.0 563.4 492.0 563.9 489.6 561.9 483.4 562.6 481.7 566.2 478.6 569.4 479.9 572.9 477.3 573.7 475.8 572.9 472.1 570.1 466.3 574.9 461.3 575.2 457.9 579.2 453.8 578.9 449.7 576.1 446.4 576.1 443.5 571.6 443.4 570.8 435.7 567.5 437.2 565.7 436.9 563.7 434.2 565.4 422.3 563.7 420.4 564.9 418.7 568.0 418.6 566.9 415.6 567.2 410.6 569.8 405.9 569.5 399.1 567.8 395.5 562.3 393.6 554.4 386.1 555.4 382.5 552.5 378.8 554.5 376.3 553.9 374.6 555.0 369.8 552.3 366.1 553.5 356.8 551.7 355.6 549.8 356.5 548.1 353.4 548.5 350.9 546.7 350.2 546.6 346.4 547.6 345.2 546.8 343.0 549.0 339.5 547.1 330.3 543.4 326.4 542.1 323.0 542.7 318.2 517.5 291.7 514.0 289.9 517.6 283.0 513.1 276.6 515.6 277.4 517.7 276.8 518.9 274.6 522.2 272.5 523.6 264.2 522.8 261.5 516.9 260.7 518.4 257.8 518.6 252.3 516.0 248.7 511.4 246.6Z"/><path d="M-12.0 -12.0 168.2 -12.0 168.5 28.2 144.5 28.0 144.4 170.1 117.1 170.5 105.3 167.0 -12.0 167.4Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="major" d="M65.1 -12.5L65.1 0.7L67.6 14.6L71.9 22.8L76.5 36.5L76.4 58.9L78.8 77.2L77.4 95.9L77.4 119.9L89.7 167.3M89.4 167.3L77.2 120.4L77.1 96.2L78.5 77.0L76.1 58.7L76.2 36.3L71.9 23.5L67.2 14.3L64.8 1.0L64.8 -12.6M166.9 510.5L160.9 490.0L154.2 476.5L129.3 435.8L96.7 414.0L93.7 409.6L93.7 388.3L103.3 358.8L105.7 347.1L105.6 341.0L102.0 323.7L101.4 314.4L102.5 305.0L106.8 288.5L107.6 279.2L105.5 218.5L100.7 196.0L94.0 184.7L89.7 167.3M166.9 510.5L160.7 489.5L154.8 477.5L129.0 435.5L90.4 410.0L66.8 396.2L60.7 391.3L54.8 382.3L44.9 349.4L37.7 339.8L35.4 337.9L14.6 329.3L7.9 327.9L-1.3 322.6L-8.5 320.6L-26.3 319.8M-26.2 319.9L-8.6 320.8L-1.1 322.9L7.7 328.1L14.6 329.6L37.1 339.5L44.7 349.4L54.5 382.1L60.4 391.3L67.1 396.6L86.4 407.7L128.8 435.5L154.5 477.3L160.4 489.3L166.7 510.4M89.4 167.3L93.4 184.1L100.5 195.9L105.3 218.6L107.3 278.4L106.5 288.6L102.2 305.0L101.1 314.1L101.8 324.3L105.4 341.3L105.4 347.1L103.1 358.7L93.3 388.8L93.5 414.9L96.2 418.1L103.7 419.0L128.8 435.5L154.1 476.5L160.6 489.7L166.7 510.8"/></g><g class="towns" aria-hidden="true"><text x="255.0" y="171.6">Lewiston</text><text x="284.9" y="373.0">Logan</text><text x="247.9" y="120.0">Preston</text><g class="route"><rect x="84.5" y="339.6" width="42.4" height="15" rx="3"/><text x="105.7" y="351.6" text-anchor="middle">I-15</text></g></g><g class="dots"><a href="#utah-theatre" data-name="Utah Theatre" data-shows="[]"><circle class="hit" cx="312.9" cy="390.0" r="16.0"/><circle cx="312.9" cy="390.0" r="5.5" class="dim"><title>Utah Theatre</title></circle></a><a href="#worm-creek" data-name="Worm Creek Opera House" data-shows="[[&quot;2026-11-16T17:00&quot;,&quot;Private Event&quot;,false],[&quot;2026-11-16T19:00&quot;,&quot;No Movie&quot;,false],[&quot;2026-11-17T17:00&quot;,&quot;Private Event&quot;,false],[&quot;2026-11-18T17:00&quot;,&quot;Private Event&quot;,false],[&quot;2026-11-19T12:30&quot;,&quot;Private Event&quot;,false]]"><circle class="hit" cx="287.1" cy="90.0" r="16.0"/><circle cx="287.1" cy="90.0" r="5.5"><title>Worm Creek Opera House</title></circle></a><a href="#lewiston-community" data-name="Lewiston Community Theatre" data-shows="[[&quot;2026-11-16T19:00&quot;,&quot;Angel and the Badman&quot;,false],[&quot;2026-11-20T19:00&quot;,&quot;Forgotten Island&quot;,false],[&quot;2026-11-21T19:00&quot;,&quot;Forgotten Island&quot;,false]]"><circle class="hit" cx="299.8" cy="188.6" r="16.0"/><circle cx="299.8" cy="188.6" r="5.5"><title>Lewiston Community Theatre</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><p class="jump-label">Logan</p><ul class="jump"><li><a href="#utah-theatre">Utah Theatre</a></li></ul><p class="jump-label">Preston &amp; Franklin County</p><ul class="jump"><li><a href="#worm-creek">Worm Creek Opera House</a></li></ul><p class="jump-label">Lewiston &amp; North Valley</p><ul class="jump"><li><a href="#lewiston-community">Lewiston Community Theatre</a></li></ul></nav>
-  <h2 class="region">Logan</h2>
-<article class="house" id="utah-theatre"><h3>Utah Theatre</h3><p class="where">Downtown · <a href="https://theutahtheatre.org/">Website</a></p><p class="note">Nothing listed this week.</p></article>
-<h2 class="region">Preston &amp; Franklin County</h2>
-<article class="house" id="worm-creek"><h3>Worm Creek Opera House</h3><p class="where">Preston · <a href="https://wormcreek.org/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://wormcreek.org/event/private-event-6/">Private Event</a></span><span class="times"><span class="chip">5pm</span></span></li><li><span class="film"><a href="https://wormcreek.org/event/the-cat-in-the-hat-4/">No Movie</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>3 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://wormcreek.org/event/private-event-6/">Private Event</a></span><span class="times"><span class="chip">5pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://wormcreek.org/event/private-event-6/">Private Event</a></span><span class="times"><span class="chip">5pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://wormcreek.org/event/private-event-6/">Private Event</a></span><span class="times"><span class="chip">12:30pm</span></span></li></ul></details></article>
-<h2 class="region">Lewiston &amp; North Valley</h2>
-<article class="house" id="lewiston-community"><h3>Lewiston Community Theatre</h3><p class="where">Lewiston · <a href="https://lewistonutah.gov/theatre/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://lewistonutah.gov/theatre/">Angel and the Badman</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>2 showings</span></summary><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://lewistonutah.gov/theatre/">Forgotten Island</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://lewistonutah.gov/theatre/">Forgotten Island</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <h2 class="region" id="region-logan">Logan</h2>
+<article class="house" id="utah-theatre"><h3>Utah Theatre</h3><p class="where">Downtown · <span class="addr">18 W. Center Street, Logan</span> · <a href="https://theutahtheatre.org/">Website</a></p><p class="note">Nothing listed this week.</p></article>
+<h2 class="region" id="region-preston-franklin-county">Preston &amp; Franklin County</h2>
+<article class="house" id="worm-creek"><h3>Worm Creek Opera House</h3><p class="where">Preston · <span class="addr">70 South State Street, Preston</span> · <a href="https://wormcreek.org/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://wormcreek.org/event/private-event-6/">Private Event</a></span><span class="times"><span class="chip">5pm</span></span></li><li><span class="film"><a href="https://wormcreek.org/event/the-cat-in-the-hat-4/">No Movie</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>3 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://wormcreek.org/event/private-event-6/">Private Event</a></span><span class="times"><span class="chip">5pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://wormcreek.org/event/private-event-6/">Private Event</a></span><span class="times"><span class="chip">5pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://wormcreek.org/event/private-event-6/">Private Event</a></span><span class="times"><span class="chip">12:30pm</span></span></li></ul></details></article>
+<h2 class="region" id="region-lewiston-north-valley">Lewiston &amp; North Valley</h2>
+<article class="house" id="lewiston-community"><h3>Lewiston Community Theatre</h3><p class="where">Lewiston · <span class="addr">29 South Main Street, Lewiston</span> · <a href="https://lewistonutah.gov/theatre/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://lewistonutah.gov/theatre/">Angel and the Badman</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>2 showings</span></summary><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://lewistonutah.gov/theatre/">Forgotten Island</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://lewistonutah.gov/theatre/">Forgotten Island</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

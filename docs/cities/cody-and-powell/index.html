@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Vali Twin Cinema", "@id": "https://smallest.show/cities/cody-and-powell/#vali-twin", "url": "https://www.valitwincinema.com/", "address": {"@type": "PostalAddress", "streetAddress": "204 North Bent Street", "addressLocality": "Powell", "addressRegion": "WY", "postalCode": "82435", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.7544, "longitude": -108.75799}}, {"@type": "MovieTheater", "name": "Washakie Cinemas", "@id": "https://smallest.show/cities/cody-and-powell/#washakie-cinemas", "url": "https://worlandmovies.com/now-playing", "address": {"@type": "PostalAddress", "streetAddress": "401 North 4th Street", "addressLocality": "Worland", "addressRegion": "WY", "postalCode": "82401", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.01812, "longitude": -107.96381}}, {"@type": "MovieTheater", "name": "Hyart Theatre", "@id": "https://smallest.show/cities/cody-and-powell/#hyart-lovell", "url": "https://hyartmovies.com/", "address": {"@type": "PostalAddress", "streetAddress": "251 East Main Street", "addressLocality": "Lovell", "addressRegion": "WY", "postalCode": "82431", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.83794, "longitude": -108.38809}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,22 +144,151 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Cody &amp; Powell</h1>
   <p class="lede">This week's showtimes at the area's 3 independent cinemas, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[]" data-tz="America/Denver" hidden>
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Denver"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Cody &amp; Powell with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 492.0 -12.0 411.6 -8.7 410.8 -6.0 415.1 -0.9 418.9 1.5 419.0 5.0 415.6 8.6 415.4 10.0 419.0 9.5 421.4 14.2 423.1 17.4 422.1 19.6 428.1 21.4 429.5 25.0 429.8 25.6 431.8 27.2 432.5 28.9 439.0 33.6 439.5 35.2 441.5 34.6 443.8 37.1 454.1 41.7 455.2 45.2 454.4 47.8 456.0 50.4 461.0 52.0 467.6 55.6 469.3 58.7 468.8 61.2 471.0 63.9 478.6 71.6 483.0 76.7 492.0Z"/><path d="M-12.0 -12.0 346.2 -12.0 346.5 -11.0 345.6 -10.2 343.0 -11.4 342.6 -10.8 345.2 -8.8 344.9 -5.8 342.4 -5.8 341.6 -7.6 340.3 -3.8 337.5 -3.7 336.8 2.0 334.2 4.8 334.8 7.2 331.7 7.8 332.1 10.5 336.3 11.4 336.6 13.3 332.9 13.2 330.4 15.4 328.9 20.2 329.5 23.2 327.9 24.1 328.1 25.8 326.7 27.9 329.9 28.5 329.1 30.7 111.3 30.9 106.0 28.6 -12.0 29.5Z"/><path d="M417.4 30.5 612.0 30.7 612.0 192.2 559.0 191.8 557.7 183.7 555.0 180.8 555.4 178.8 546.0 176.7 544.6 172.9 541.9 172.7 542.5 174.2 540.0 175.0 532.9 172.6 528.0 166.8 526.3 161.7 524.9 161.7 522.1 164.7 517.6 164.3 517.2 161.0 515.8 159.3 519.8 154.9 516.6 152.8 512.2 152.5 512.1 148.2 505.7 146.7 503.8 144.2 501.3 144.5 500.0 142.3 497.6 142.3 494.7 140.0 492.9 143.0 485.6 143.3 483.9 146.5 480.6 148.0 476.8 143.0 477.2 138.2 474.1 137.4 473.3 138.7 465.4 134.5 462.8 135.6 461.3 134.8 459.3 131.9 461.1 129.9 461.3 125.3 459.9 123.6 460.8 120.6 458.6 119.2 458.5 114.6 455.8 113.6 451.7 113.9 443.2 107.8 438.1 107.3 438.3 104.0 441.8 100.5 442.3 97.5 438.9 96.0 440.1 94.8 438.0 94.7 439.3 91.8 438.0 89.3 438.3 87.4 436.0 85.6 435.0 81.7 430.4 78.8 429.6 76.9 430.7 69.3 433.9 67.9 432.8 61.5 425.2 55.1 426.6 44.3 424.7 37.7 425.2 36.0 420.8 32.2 418.5 32.3Z"/><path d="M-12.0 29.5 106.0 28.6 111.3 30.9 231.9 30.6 232.2 77.7 239.5 77.7 239.5 206.0 244.5 206.0 244.4 335.0 250.4 335.0 250.4 367.6 187.3 367.5 187.4 399.9 154.9 400.0 155.8 431.5 108.7 431.6 108.5 463.4 61.8 463.9 61.8 464.9 51.2 465.0 47.8 456.0 45.2 454.4 41.7 455.2 37.1 454.1 34.6 443.8 35.2 441.5 33.6 439.5 28.9 439.0 27.2 432.5 25.6 431.8 25.0 429.8 21.4 429.5 19.6 428.1 17.4 422.1 14.2 423.1 9.5 421.4 10.0 419.0 8.6 415.4 5.0 415.6 0.3 419.1 -6.0 415.1 -8.7 410.8 -12.0 411.6Z"/><path d="M231.8 32.1 231.9 30.6 417.4 30.5 418.5 32.3 420.0 31.9 422.9 33.7 425.2 36.0 424.7 37.7 426.5 43.7 425.2 55.1 432.8 61.5 433.6 65.2 433.9 67.9 430.7 69.3 429.6 76.9 430.4 78.8 435.0 81.7 436.0 85.6 438.3 87.4 438.0 89.3 439.3 91.8 438.0 94.7 440.1 94.8 438.9 96.0 442.3 97.5 441.8 100.5 438.3 104.0 438.1 107.3 443.2 107.8 451.7 113.9 455.8 113.6 458.5 114.6 458.6 119.2 460.8 120.6 459.9 123.6 461.3 125.3 461.1 129.9 459.3 131.9 461.3 134.8 462.8 135.6 465.4 134.5 473.3 138.7 474.1 137.4 477.2 138.2 476.8 143.0 480.6 148.0 483.9 146.5 485.6 143.3 492.9 143.0 494.7 140.0 497.6 142.3 500.0 142.3 501.3 144.5 503.8 144.2 505.7 146.7 512.1 148.2 512.2 152.5 516.6 152.8 519.8 154.9 515.8 159.3 517.2 161.0 517.6 164.3 522.1 164.7 524.9 161.7 526.3 161.7 528.0 166.8 532.9 172.6 540.0 175.0 542.5 174.2 541.9 172.7 544.6 172.9 546.0 176.7 555.4 178.8 555.0 180.8 557.7 183.7 558.6 192.8 560.1 193.5 563.2 198.2 567.4 199.2 569.3 197.6 569.4 200.5 571.3 203.0 570.2 205.6 573.2 207.9 574.4 210.4 578.8 213.4 577.6 215.0 577.6 219.3 575.9 219.7 577.3 222.3 576.1 226.9 577.1 228.6 582.8 228.6 583.9 229.9 582.8 231.7 587.4 232.8 589.0 235.0 592.4 236.2 597.7 234.3 598.5 232.1 600.7 233.8 602.8 233.3 602.4 237.2 603.2 238.2 602.2 239.7 603.3 242.3 603.5 250.5 606.4 250.7 608.9 249.1 611.4 252.6 609.5 258.8 612.0 259.8 612.0 263.0 610.4 264.7 607.3 265.3 606.2 269.2 608.7 270.0 610.5 274.0 612.0 273.9 612.0 335.9 244.4 335.0 244.5 206.0 239.5 206.0 239.5 77.7 232.2 77.7Z"/><path d="M612.0 -12.0 612.0 30.7 329.1 30.7 329.9 28.5 326.7 27.9 328.1 25.8 327.9 24.1 329.5 23.2 328.9 20.2 330.9 14.3 332.9 13.2 336.6 13.3 336.3 11.4 332.1 10.5 331.7 7.8 334.8 7.2 334.2 4.8 336.8 2.0 337.5 -3.7 340.3 -3.8 341.6 -7.6 342.4 -5.8 344.9 -5.8 345.2 -8.8 342.6 -10.8 343.0 -11.4 345.6 -10.2 346.2 -12.0Z"/><path d="M250.4 335.0 612.0 335.9 612.0 492.0 405.7 492.0 405.7 463.0 348.6 462.9 348.3 461.4 343.6 459.5 342.6 460.6 341.6 460.2 345.9 452.2 313.4 452.8 312.6 448.0 313.4 447.5 313.5 432.0 282.1 432.0 282.7 399.5 266.4 399.6 266.2 367.4 250.4 367.6Z"/><path d="M559.0 192.3 612.0 192.2 612.0 273.9 610.5 274.0 608.7 270.0 606.2 269.2 607.3 265.3 610.4 264.7 612.0 263.0 612.0 259.8 609.5 258.8 611.4 252.6 608.9 249.1 606.4 250.7 603.5 250.5 603.3 242.3 602.2 239.7 603.2 238.2 602.4 237.2 602.8 233.3 600.7 233.8 598.5 232.1 597.7 234.3 592.4 236.2 589.0 235.0 587.4 232.8 582.8 231.7 583.9 229.9 582.8 228.6 577.1 228.6 576.1 226.9 577.3 222.3 575.9 219.7 577.6 219.3 577.6 215.0 578.8 213.4 574.4 210.4 573.2 207.9 570.2 205.6 571.3 203.0 569.4 200.5 569.3 197.6 567.4 199.2 563.2 198.2Z"/><path d="M51.2 465.0 61.8 464.9 61.8 463.9 108.5 463.4 108.7 431.6 155.8 431.5 154.9 400.0 187.4 399.9 187.3 367.5 266.2 367.4 266.4 399.6 282.7 399.5 282.1 432.0 313.5 432.0 313.4 447.5 312.6 448.0 313.4 452.8 345.9 452.2 341.6 460.2 342.6 460.6 343.6 459.5 348.3 461.4 348.6 462.9 405.7 463.0 405.7 492.0 76.7 492.0 71.6 483.0 63.9 478.6 61.2 471.0 58.7 468.8 55.6 469.3 52.4 467.9Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="major" d="M566.9 -12.1L564.3 -3.2L567.5 7.2L568.0 14.3L571.9 17.8L577.8 30.4M566.5 -12.7L564.1 -3.2L567.4 7.3L567.9 14.3L571.9 18.0L577.6 30.4M613.4 61.1L610.4 59.5L608.4 56.5L595.8 48.2L588.0 44.6L585.0 40.6L578.7 36.2L577.8 30.4M577.6 30.4L578.4 36.0L584.8 40.6L587.8 44.6L595.8 48.4L608.3 56.6L610.3 59.6L613.2 61.2"/></g><g class="towns" aria-hidden="true"><text x="259.3" y="120.0">Lovell</text><text x="162.6" y="103.6">Powell</text><text x="364.6" y="373.0">Worland</text></g><g class="dots"><a href="#vali-twin" data-name="Vali Twin Cinema" data-shows="[[&quot;2026-11-19T19:00&quot;,&quot;Cat in the Hat&quot;,false],[&quot;2026-11-19T19:15&quot;,&quot;Ebenezer&quot;,false]]"><circle class="hit" cx="196.2" cy="120.6" r="16.0"/><circle cx="196.2" cy="120.6" r="5.5" class="dim"><title>Vali Twin Cinema</title></circle></a><a href="#washakie-cinemas" data-name="Washakie Cinemas" data-shows="[]"><circle class="hit" cx="403.8" cy="390.0" r="16.0"/><circle cx="403.8" cy="390.0" r="5.5" class="dim"><title>Washakie Cinemas</title></circle></a><a href="#hyart-lovell" data-name="Hyart Theatre" data-shows="[[&quot;2026-11-20T19:00&quot;,&quot;Whalefall&quot;,false],[&quot;2026-11-21T15:00&quot;,&quot;Whalefall&quot;,false],[&quot;2026-11-21T19:00&quot;,&quot;Whalefall&quot;,false]]"><circle class="hit" cx="292.9" cy="90.0" r="16.0"/><circle cx="292.9" cy="90.0" r="5.5" class="dim"><title>Hyart Theatre</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><p class="jump-label">Powell</p><ul class="jump"><li><a href="#vali-twin">Vali Twin Cinema</a></li></ul><p class="jump-label">Worland</p><ul class="jump"><li><a href="#washakie-cinemas">Washakie Cinemas</a></li></ul><p class="jump-label">Lovell</p><ul class="jump"><li><a href="#hyart-lovell">Hyart Theatre</a></li></ul></nav>
-  <h2 class="region">Powell</h2>
-<article class="house" id="vali-twin"><h3>Vali Twin Cinema</h3><p class="where">Powell · <a href="https://www.valitwincinema.com/">Website</a></p><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://8579.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Cat in the Hat</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://8579.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Ebenezer</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul></article>
-<h2 class="region">Worland</h2>
-<article class="house" id="washakie-cinemas"><h3>Washakie Cinemas</h3><p class="where">Worland · <a href="https://worlandmovies.com/now-playing">Website</a></p><p class="note">We couldn't read its listings on the last run. Check its site before you go.</p></article>
-<h2 class="region">Lovell</h2>
-<article class="house" id="hyart-lovell"><h3>Hyart Theatre</h3><p class="where">Lovell · <a href="https://hyartmovies.com/">Website</a></p><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://hyartmovies.com/">Whalefall</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>2 showings</span></summary><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://hyartmovies.com/">Whalefall</a></span><span class="times"><span class="chip">3pm</span><span class="chip">7pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <h2 class="region" id="region-powell">Powell</h2>
+<article class="house" id="vali-twin"><h3>Vali Twin Cinema</h3><p class="where">Powell · <span class="addr">204 North Bent Street, Powell</span> · <a href="https://www.valitwincinema.com/">Website</a></p><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://8579.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Cat in the Hat</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://8579.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Ebenezer</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul></article>
+<h2 class="region" id="region-worland">Worland</h2>
+<article class="house" id="washakie-cinemas"><h3>Washakie Cinemas</h3><p class="where">Worland · <span class="addr">401 North 4th Street, Worland</span> · <a href="https://worlandmovies.com/now-playing">Website</a></p><p class="note">We couldn't read its listings on the last run. Check its site before you go.</p></article>
+<h2 class="region" id="region-lovell">Lovell</h2>
+<article class="house" id="hyart-lovell"><h3>Hyart Theatre</h3><p class="where">Lovell · <span class="addr">251 East Main Street, Lovell</span> · <a href="https://hyartmovies.com/">Website</a></p><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://hyartmovies.com/">Whalefall</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>2 showings</span></summary><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://hyartmovies.com/">Whalefall</a></span><span class="times"><span class="chip">3pm</span><span class="chip">7pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

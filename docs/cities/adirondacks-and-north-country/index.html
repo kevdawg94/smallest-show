@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Strand Theatre of Old Forge", "@id": "https://smallest.show/cities/adirondacks-and-north-country/#strand-old-forge", "url": "https://strandoldforge.com/", "address": {"@type": "PostalAddress", "streetAddress": "3093 State Route 28", "addressLocality": "Old Forge", "addressRegion": "NY", "postalCode": "13420", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 43.7111, "longitude": -74.9728}}, {"@type": "MovieTheater", "name": "Black River Drive-In", "@id": "https://smallest.show/cities/adirondacks-and-north-country/#black-river-drive-in", "url": "https://www.blackriverdrivein.com/", "address": {"@type": "PostalAddress", "streetAddress": "28035 State Route 3", "addressLocality": "Watertown", "addressRegion": "NY", "postalCode": "13601", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.00301, "longitude": -75.81056}}, {"@type": "MovieTheater", "name": "Adirondack State Theater", "@id": "https://smallest.show/cities/adirondacks-and-north-country/#adirondack-state-theater", "url": "https://www.adirondackstatetheater.org/", "address": {"@type": "PostalAddress", "streetAddress": "100 Park Street", "addressLocality": "Tupper Lake", "addressRegion": "NY", "postalCode": "12986", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.2233, "longitude": -74.46459}}, {"@type": "MovieTheater", "name": "Valley Cinemas", "@id": "https://smallest.show/cities/adirondacks-and-north-country/#valley-cinemas-little-falls", "url": "https://www.valleycinemastwin.com/"}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,24 +144,153 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Adirondacks &amp; North Country</h1>
   <p class="lede">This week's showtimes at the area's 4 independent cinemas, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 5:24pm EST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;strand-old-forge&quot;, &quot;valley-cinemas-little-falls&quot;]" data-tz="America/New_York">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.550" data-tz="America/New_York"><svg class="citymap" viewBox="0 0 600 330" role="img" aria-label="A map of Adirondacks &amp; North Country with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M523.1 181.2 545.6 164.0 538.4 105.6 590.9 99.0 577.5 -5.3 612.0 -10.0 612.0 249.7 600.7 250.9 601.9 241.2 604.1 237.0 602.7 234.1 603.8 231.1 597.6 229.1 593.1 226.3 591.4 228.0 584.5 226.2 578.3 222.9 578.3 219.9 576.5 218.5 560.9 221.5 557.4 225.5Z"/><path d="M557.1 257.3 612.0 249.7 612.0 342.0 566.5 342.0Z"/><path d="M18.6 174.4 20.2 174.4 19.3 175.2ZM7.6 147.0 12.5 142.7 10.5 145.6ZM-1.0 192.7 1.0 192.6 -0.8 194.0ZM-3.3 195.8 -1.9 195.5 -2.6 196.6ZM-12.0 73.3 -8.7 73.5 2.1 69.3 6.4 66.7 14.0 59.6 14.6 43.6 23.3 37.5 26.8 38.2 32.6 36.3 47.1 23.9 59.4 17.8 65.8 18.0 68.0 19.6 73.8 17.2 79.4 13.1 81.5 9.5 84.0 9.8 98.7 -3.8 214.0 68.0 185.6 112.9 203.2 123.8 197.8 132.5 200.9 134.2 198.7 138.2 199.4 148.4 184.8 149.6 187.0 164.7 177.6 165.8 176.3 164.4 171.9 165.2 170.2 163.4 127.0 199.2 104.2 197.2 101.3 232.9 119.1 234.1 122.7 272.8 52.7 265.7 53.6 280.8 4.1 276.1 0.3 247.7 -4.2 228.1 -6.5 225.6 -5.7 221.0 -8.1 223.4 -9.5 223.0 -8.8 221.6 -10.0 219.8 -12.0 219.6 -12.0 198.2 -5.2 196.3 -2.5 198.0 -6.4 205.1 -1.0 205.0 1.6 207.8 1.6 210.7 3.2 210.1 4.2 208.7 3.4 204.6 17.1 194.7 19.2 195.4 24.3 191.8 24.7 182.9 23.4 178.2 21.6 177.6 21.0 175.2 22.3 173.3 24.9 171.5 26.1 172.4 27.6 171.4 31.9 165.3 36.6 161.2 39.2 161.7 39.4 163.8 43.0 162.2 43.3 157.8 42.5 152.9 38.1 153.0 37.5 151.0 35.7 152.1 36.0 154.2 21.8 166.0 19.0 165.7 15.4 168.2 12.5 168.3 12.4 166.9 11.0 166.1 12.2 163.6 11.0 162.3 4.1 164.6 3.9 162.6 1.9 161.7 1.8 160.2 4.2 155.5 7.5 152.4 12.2 150.5 15.7 150.4 20.6 147.7 25.4 142.9 26.6 139.0 25.8 137.1 22.5 137.0 20.8 137.3 18.0 140.4 15.2 140.7 12.8 139.6 18.1 134.4 20.4 129.8 18.6 128.6 20.7 125.1 18.8 125.1 14.0 128.0 12.0 126.8 8.2 129.5 4.8 129.9 2.8 131.3 0.1 129.3 4.0 122.6 3.5 121.7 0.4 124.7 -0.8 124.5 -2.0 126.5 -7.6 128.2 -9.0 127.2 -12.0 130.3 -12.0 144.4 -4.4 141.2 -0.3 140.7 2.6 141.2 3.7 142.9 -2.1 151.3 -2.0 154.7 -6.4 160.9 -12.0 165.0Z"/><path d="M-12.0 342.0 -12.0 336.1 -6.0 334.5 -1.9 330.5 3.0 316.8 4.9 287.9 4.1 276.1 53.6 280.8 52.7 265.7 122.7 272.8 126.9 342.0Z"/><path d="M243.7 342.0 307.6 301.2 310.8 342.0Z"/><path d="M310.8 342.0 291.6 115.2 320.8 132.8 379.0 125.2 400.0 342.0Z"/><path d="M102.1 222.5 104.2 197.2 127.0 199.2 170.2 163.4 171.9 165.2 176.3 164.4 177.6 165.8 187.0 164.7 184.8 149.6 199.4 148.4 198.7 138.2 200.9 134.2 197.8 132.5 203.2 123.8 185.6 112.9 214.0 68.0 291.5 114.8 307.5 301.4 243.7 342.0 126.9 342.0 124.5 295.6 119.1 234.1 101.3 232.9Z"/><path d="M612.0 -12.0 612.0 -10.0 577.5 -5.3 590.9 99.0 467.8 113.9 465.2 86.7 470.5 86.3 459.7 -12.0Z"/><path d="M400.0 342.0 379.0 125.2 538.4 105.6 545.6 164.0 523.1 181.2 557.4 225.5 560.9 221.5 575.4 218.3 578.1 219.5 578.3 222.9 584.5 226.2 591.4 228.0 593.1 226.3 597.6 229.1 603.8 231.1 602.7 234.1 604.1 237.0 601.9 241.2 601.1 251.2 557.1 257.3 566.5 342.0Z"/><path d="M98.7 -3.8 106.7 -12.0 459.7 -12.0 470.5 86.3 465.2 86.7 467.8 113.9 320.8 132.8 251.8 91.6Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="major" d="M66.3 37.3L63.0 33.5M40.4 279.4L37.6 288.1L36.0 300.2L28.6 315.9L27.7 329.2L25.8 338.8L26.4 347.1M63.0 33.5L57.6 30.4L56.6 28.0L58.3 24.8L65.1 20.7L64.4 17.9M40.1 279.4L38.2 259.7L39.1 252.7L47.3 238.7L51.0 218.2L54.1 210.4L55.8 201.5L64.9 189.3L71.4 173.2L74.6 157.8L76.7 155.0L84.0 150.1L82.8 143.3L83.6 135.8L81.7 128.4L83.5 116.8L91.3 105.9L92.6 101.0L91.6 95.2L93.4 90.2L92.7 73.5L75.7 60.0L68.4 49.0L67.7 39.8L66.3 37.3M105.1 130.3L103.0 129.3L94.4 129.3L83.6 134.8M40.1 279.4L37.5 288.1L36.1 298.8L28.6 314.7L27.7 327.9L25.7 338.6L26.0 345.8M83.6 134.8L94.5 129.4L105.1 130.3M40.4 279.4L38.4 259.8L39.4 252.7L43.3 247.5L47.7 238.7L51.1 218.6L54.2 210.7L55.9 201.6L64.8 189.6L71.6 173.1L74.8 157.6L76.8 155.0L84.3 149.9L83.0 142.8L83.7 135.7L81.8 128.3L83.7 116.8L91.6 106.1L92.7 102.8L91.8 95.3L93.6 90.3L93.0 73.7L76.2 60.0L68.4 48.3L67.8 39.8L66.3 37.3M63.0 33.5L57.5 30.5L56.5 28.1L58.4 24.4L64.9 20.7L64.3 17.9"/></g><g class="towns" aria-hidden="true"><text x="129.5" y="157.6">Black River</text><text x="295.5" y="247.1">Old Forge</text><text x="347.3" y="72.4">Tupper Lake</text></g><g class="dots"><a href="#black-river-drive-in" data-name="Black River Drive-In" data-shows="[]"><circle class="hit" cx="112.5" cy="151.1" r="16.0"/><circle cx="112.5" cy="151.1" r="5.5" class="dim"><title>Black River Drive-In</title></circle></a><a href="#adirondack-state-theater" data-name="Adirondack State Theater" data-shows="[[&quot;2026-11-17T19:00&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-17T19:00&quot;,&quot;Godzilla Minus Zero&quot;,false],[&quot;2026-11-18T19:00&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-18T19:00&quot;,&quot;Godzilla Minus Zero&quot;,false],[&quot;2026-11-19T19:00&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-19T19:00&quot;,&quot;Godzilla Minus Zero&quot;,false]]"><circle class="hit" cx="487.5" cy="65.9" r="16.0"/><circle cx="487.5" cy="65.9" r="5.5" class="dim"><title>Adirondack State Theater</title></circle></a><a href="#strand-old-forge" data-name="Strand Theatre of Old Forge" data-shows="[[&quot;2026-11-16T19:00&quot;,&quot;How to Rob a Bank&quot;,false],[&quot;2026-11-16T19:05&quot;,&quot;Gozilla Minus Zero&quot;,false],[&quot;2026-11-16T19:10&quot;,&quot;Jimmy&quot;,false],[&quot;2026-11-16T19:15&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-17T19:00&quot;,&quot;How to Rob a Bank&quot;,false],[&quot;2026-11-17T19:05&quot;,&quot;The Cat in the Hat&quot;,false]]"><circle class="hit" cx="345.9" cy="264.1" r="16.0"/><circle cx="345.9" cy="264.1" r="5.5"><title>Strand Theatre of Old Forge</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><p class="jump-label">Lake Placid &amp; Tupper Lake</p><ul class="jump"><li><a href="#adirondack-state-theater">Adirondack State Theater</a></li></ul><p class="jump-label">Old Forge &amp; Indian Lake</p><ul class="jump"><li><a href="#strand-old-forge">Strand Theatre of Old Forge</a></li></ul><p class="jump-label">Potsdam, Canton &amp; Watertown</p><ul class="jump"><li><a href="#black-river-drive-in">Black River Drive-In</a></li></ul><p class="jump-label">Mohawk Valley</p><ul class="jump"><li><a href="#valley-cinemas-little-falls">Valley Cinemas</a></li></ul></nav>
-  <h2 class="region">Lake Placid &amp; Tupper Lake</h2>
-<article class="house" id="adirondack-state-theater"><h3>Adirondack State Theater</h3><p class="where">Tupper Lake · <a href="https://www.adirondackstatetheater.org/">Website</a></p><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>14 showings</span></summary><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">1pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">1pm</span><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">1pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">1pm</span><span class="chip">7pm</span></span></li></ul></details></article>
-<h2 class="region">Old Forge &amp; Indian Lake</h2>
-<article class="house" id="strand-old-forge"><h3>Strand Theatre of Old Forge</h3><p class="where">Old Forge · <a href="https://strandoldforge.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://strandoldforge.com/">How to Rob a Bank</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Gozilla Minus Zero</a></span><span class="times"><span class="chip">7:05pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Jimmy</a></span><span class="times"><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Ebenezer</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul><details><summary>Later this week <span>12 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://strandoldforge.com/">How to Rob a Bank</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">The Cat in the Hat</a></span><span class="times"><span class="chip">7:05pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Jimmy</a></span><span class="times"><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Ebenezer</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://strandoldforge.com/">How to Rob a Bank</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">The Cat in the Hat</a></span><span class="times"><span class="chip">7:05pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Everest: The Other Side</a></span><span class="times"><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Ebenezer</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://strandoldforge.com/">How to Rob a Bank</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Gozilla Minus Zero</a></span><span class="times"><span class="chip">7:05pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Everest: The Other Side</a></span><span class="times"><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Ebenezer</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul></details></article>
-<h2 class="region">Potsdam, Canton &amp; Watertown</h2>
-<article class="house" id="black-river-drive-in"><h3>Black River Drive-In</h3><p class="where">Black River · <a href="https://www.blackriverdrivein.com/">Website</a></p><p class="note">We couldn't read its listings on the last run. Check its site before you go.</p></article>
-<h2 class="region">Mohawk Valley</h2>
+  <h2 class="region" id="region-lake-placid-tupper-lake">Lake Placid &amp; Tupper Lake</h2>
+<article class="house" id="adirondack-state-theater"><h3>Adirondack State Theater</h3><p class="where">Tupper Lake · <span class="addr">100 Park Street, Tupper Lake</span> · <a href="https://www.adirondackstatetheater.org/">Website</a></p><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>14 showings</span></summary><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">1pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">1pm</span><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.adirondackstatetheater.org/">Ebenezer</a></span><span class="times"><span class="chip">1pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.adirondackstatetheater.org/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">1pm</span><span class="chip">7pm</span></span></li></ul></details></article>
+<h2 class="region" id="region-old-forge-indian-lake">Old Forge &amp; Indian Lake</h2>
+<article class="house" id="strand-old-forge"><h3>Strand Theatre of Old Forge</h3><p class="where">Old Forge · <span class="addr">3093 State Route 28, Old Forge</span> · <a href="https://strandoldforge.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://strandoldforge.com/">How to Rob a Bank</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Gozilla Minus Zero</a></span><span class="times"><span class="chip">7:05pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Jimmy</a></span><span class="times"><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Ebenezer</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul><details><summary>Later this week <span>12 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://strandoldforge.com/">How to Rob a Bank</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">The Cat in the Hat</a></span><span class="times"><span class="chip">7:05pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Jimmy</a></span><span class="times"><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Ebenezer</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://strandoldforge.com/">How to Rob a Bank</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">The Cat in the Hat</a></span><span class="times"><span class="chip">7:05pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Everest: The Other Side</a></span><span class="times"><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Ebenezer</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://strandoldforge.com/">How to Rob a Bank</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Gozilla Minus Zero</a></span><span class="times"><span class="chip">7:05pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Everest: The Other Side</a></span><span class="times"><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://strandoldforge.com/">Ebenezer</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul></details></article>
+<h2 class="region" id="region-potsdam-canton-watertown">Potsdam, Canton &amp; Watertown</h2>
+<article class="house" id="black-river-drive-in"><h3>Black River Drive-In</h3><p class="where">Black River · <span class="addr">28035 State Route 3, Watertown</span> · <a href="https://www.blackriverdrivein.com/">Website</a></p><p class="note">We couldn't read its listings on the last run. Check its site before you go.</p></article>
+<h2 class="region" id="region-mohawk-valley">Mohawk Valley</h2>
 <article class="house" id="valley-cinemas-little-falls"><h3>Valley Cinemas</h3><p class="where">Little Falls · <a href="https://www.valleycinemastwin.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://www.valleycinemastwin.com/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.valleycinemastwin.com/">The Cat in the Hat</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>6 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.valleycinemastwin.com/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.valleycinemastwin.com/">The Cat in the Hat</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.valleycinemastwin.com/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.valleycinemastwin.com/">The Cat in the Hat</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.valleycinemastwin.com/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.valleycinemastwin.com/">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 8:23pm EST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

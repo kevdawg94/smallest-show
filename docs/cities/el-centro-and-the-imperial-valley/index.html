@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Independent cinema showtimes in El Centro &amp; the Imperial Valley, CA · Smallest Show</title>
-<meta name="description" content="El Centro &amp; the Imperial Valley, CA: this week&#x27;s showtimes at 1 independent cinema, including Movies Imperial.">
+<meta name="description" content="El Centro &amp; the Imperial Valley, CA: this week&#x27;s showtimes at its independent cinema, Movies Imperial.">
 <meta property="og:title" content="Independent cinema showtimes in El Centro &amp; the Imperial Valley, CA">
-<meta property="og:description" content="El Centro &amp; the Imperial Valley, CA: this week&#x27;s showtimes at 1 independent cinema, including Movies Imperial.">
+<meta property="og:description" content="El Centro &amp; the Imperial Valley, CA: this week&#x27;s showtimes at its independent cinema, Movies Imperial.">
 <meta property="og:url" content="https://smallest.show/cities/el-centro-and-the-imperial-valley/">
 <link rel="canonical" href="https://smallest.show/cities/el-centro-and-the-imperial-valley/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Movies Imperial", "@id": "https://smallest.show/cities/el-centro-and-the-imperial-valley/#movies-imperial", "url": "https://www.playingtoday.com/movies-imperial", "address": {"@type": "PostalAddress", "streetAddress": "2335 Highway 86", "addressLocality": "Imperial", "addressRegion": "CA", "postalCode": "92251", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 32.82098, "longitude": -115.57104}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>El Centro &amp; the Imperial Valley</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 2:24pm PST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;movies-imperial&quot;]" data-tz="America/Los_Angeles">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Los_Angeles"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of El Centro &amp; the Imperial Valley with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 -12.0 612.0 -12.0 612.0 343.0 371.2 363.1 -12.0 397.4Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M347.0 113.9L346.4 102.4L343.9 98.8L340.3 96.8L330.0 96.2L322.2 94.3L312.8 96.5L291.6 96.5L288.1 97.4M111.7 250.4L110.7 247.5L98.5 243.2L84.6 234.9L74.5 231.6L67.4 227.8L62.2 221.4L58.8 213.8L50.7 204.8L39.8 203.8L30.8 201.6L28.2 199.8L22.8 199.3L17.9 196.2L16.8 194.2L9.0 191.6L-0.2 193.0L-8.6 190.0L-11.3 192.1L-20.4 192.4M327.3 113.9L328.2 107.6M302.7 136.6L300.7 138.8L300.6 193.9M312.5 262.5L312.3 260.5L310.8 259.5M300.7 259.5L301.4 218.5L300.5 207.3L300.6 140.5M327.3 113.9L328.2 107.6M337.9 1.9L338.2 -9.6M348.7 354.8L348.4 341.6M312.5 262.5L312.5 271.6M312.7 283.2L312.7 278.4M348.7 363.4L350.4 364.8M312.7 277.4L312.5 271.6M348.6 363.4L348.7 354.8M319.7 118.3L319.8 113.9M348.7 354.8L348.2 341.6M316.0 124.5L319.7 118.4L316.6 122.9M347.4 312.2L336.1 312.2M332.5 312.2L324.6 312.3M336.1 312.2L324.6 312.3M348.6 353.6L360.1 353.4M492.0 278.5L491.2 275.8L458.9 248.3L440.0 247.9M266.0 67.0L268.9 67.0M492.0 278.5L491.2 275.8L458.9 248.3L440.0 247.9M410.9 252.1L410.8 119.5L409.6 117.5M382.2 117.1L484.1 116.8L493.3 120.3L506.5 120.3M360.1 353.4L348.6 353.5M382.1 117.1L376.2 117.0L372.1 113.9L359.8 113.9M359.0 113.9L341.5 113.9M360.1 353.4L365.3 352.8M268.9 66.9L266.0 66.9M348.6 353.5L364.9 352.9L376.2 342.9L379.3 341.6L489.0 341.2L515.0 327.9L519.8 326.6L619.7 329.7M428.3 248.0L439.8 247.9M348.6 353.5L343.9 353.5M324.6 312.3L314.1 312.3M343.9 353.5L335.0 353.4M343.9 353.5L348.6 353.6M319.8 113.9L310.7 113.9M428.3 248.0L425.8 248.0M335.0 353.4L290.0 353.4M219.7 263.9L95.6 264.2L89.3 266.7L47.0 293.4L32.4 303.9L-1.8 313.2M266.0 66.9L260.3 66.9M263.1 67.0L266.0 67.0M97.4 -35.5L109.4 -2.9L111.8 1.2L120.3 9.2L146.8 14.2L167.0 24.9L172.9 29.7L180.0 32.4L185.3 36.6L192.2 45.1L204.1 62.6L208.6 65.9L270.7 67.3L295.9 109.6L300.3 112.8L306.4 113.5M283.3 90.2L282.9 90.2M382.2 111.4L381.5 -2.0M329.6 96.5L330.0 96.5M421.3 352.0L421.5 356.8L423.1 358.4M423.1 357.9L423.1 352.2L424.5 350.4L422.0 350.7L421.2 353.4L421.6 357.0L423.1 358.6M346.2 312.3L313.4 312.0L312.6 274.0M242.7 353.2L290.0 353.4M348.6 363.4L348.7 354.8M424.5 350.4L423.1 352.2L423.1 358.4M348.7 363.4L350.4 364.8M421.3 352.0L422.4 350.5L424.5 350.4M349.5 364.6L349.6 364.9M349.8 256.3L358.5 254.2L390.9 254.3L422.0 251.0M42.3 321.4L24.4 316.7L17.3 317.2L-0.4 315.5M283.3 90.2L282.9 90.2M382.2 117.1L381.5 -2.0M287.8 97.4L283.3 90.2M268.9 67.0L270.4 67.2M270.4 67.2L268.9 66.9M382.2 117.1L484.1 116.8L493.3 120.3L506.5 120.3M300.6 140.5L301.6 137.0L312.4 131.3L318.0 120.2M382.1 117.1L376.2 117.0L372.1 113.9L359.8 113.9M300.8 155.1L300.7 182.7M287.8 97.4L288.1 97.4M349.7 364.9L348.6 363.4M349.5 364.6L348.6 363.4M421.3 352.0L421.7 356.0L423.1 358.4M492.0 278.5L491.2 275.8L458.9 248.3L440.0 247.9M410.9 252.1L422.0 251.0M14.4 316.8L15.5 308.4M283.3 90.2L272.2 68.9L270.1 67.1L211.7 66.8L206.7 65.3L203.9 62.8L186.0 37.6L180.4 32.8L173.0 29.9L166.6 24.9L146.4 14.2L120.1 9.2L111.9 1.5L108.8 -3.8M382.2 117.1L381.5 -2.0M302.7 136.6L312.6 131.3L319.7 118.3M330.0 96.5L322.0 94.6L312.3 96.8L288.1 97.4M346.8 113.9L327.3 113.9L330.0 103.4L330.1 35.6L331.3 32.3L336.8 26.6L337.8 23.5L338.2 -10.3L335.4 -15.0M337.8 13.5L338.2 -10.3L335.4 -15.0M306.4 113.5L300.6 113.0L296.7 110.7L283.3 90.2M382.1 117.1L376.2 117.0L372.1 113.9L359.8 113.9M347.5 257.0L347.5 231.0L342.5 218.3L341.7 213.5L341.8 131.7L343.1 125.8L346.7 117.8L347.0 104.9L345.9 101.4L343.5 98.5L340.3 96.8L335.9 96.4M301.4 137.4L300.8 154.8M330.0 96.5L322.0 94.6L312.3 96.8L288.1 97.4M232.5 353.6L230.6 352.9L230.3 330.2L227.5 324.7L227.3 318.8L219.9 307.8L219.7 263.9M360.1 353.4L343.9 353.5M349.3 364.3L350.4 364.8L349.3 364.3M422.0 251.0L422.4 250.8M300.7 259.5L301.4 218.5L300.5 207.3L300.6 138.7L301.9 136.8L312.3 131.4L319.8 117.9L319.8 113.9L306.4 113.5M382.2 66.8L382.2 61.3M410.9 252.1L410.8 119.5L409.6 117.5M306.4 113.5L301.6 113.3L297.2 111.2L287.8 97.4M346.8 113.9L346.3 103.0L344.4 99.7L341.6 97.6M288.1 97.4L297.2 111.0L301.4 113.1L306.4 113.5M242.7 353.2L229.1 354.2L222.3 353.3L198.3 353.3L118.7 358.5L95.3 363.0L86.6 360.5L78.4 351.6L64.7 348.5L58.3 339.4L56.4 333.4L49.6 324.8L39.8 320.4L24.6 316.8L17.3 317.2L-0.4 315.5M300.8 259.5L301.3 223.8M410.9 252.1L422.0 251.0M328.2 107.6L330.0 103.4L330.1 35.6L331.3 32.3L336.8 26.6L337.8 23.5L338.2 -9.8L335.6 -14.7M108.8 -3.8L112.1 1.5L120.0 9.1L146.8 14.2L167.0 24.9L172.9 29.7L180.4 32.6L185.9 37.3L204.1 62.6L208.2 65.7L212.3 66.6L270.7 67.3L288.1 97.4M329.8 57.8L330.2 34.9L337.5 25.4L337.8 14.0M381.6 1.9L381.5 -2.0M341.5 113.9L319.8 113.9M359.0 113.9L341.5 113.9M330.0 96.5L339.9 97.0L344.4 99.7L346.6 104.1L346.8 113.9M232.5 353.6L230.6 352.9L230.3 330.2L227.5 324.7L227.3 318.8L219.9 307.8L219.7 263.9M312.5 262.5L311.1 259.6L300.7 259.5M343.9 353.5L360.1 353.4M348.7 363.4L349.3 364.3M349.7 364.9L349.5 364.6M328.2 107.6L330.0 103.4L329.4 61.1M283.3 90.2L277.3 78.0L270.4 67.3L212.3 66.8L208.1 66.0L203.9 62.8L194.3 48.0L185.9 37.4L180.3 32.7L173.0 29.9L166.6 24.9L146.4 14.2L127.6 11.3L120.5 9.4L117.5 7.4L110.0 -1.4L97.3 -34.8M410.9 252.1L410.8 119.3L408.8 117.2L382.2 117.1L381.5 -2.0M306.4 113.5L371.9 113.9L376.8 117.1L484.1 116.8L494.0 120.4L540.9 120.4L554.3 121.6L562.8 117.2L572.7 113.8L584.5 111.8L593.9 107.8L602.6 105.7L609.4 102.2L622.5 100.8M622.5 100.8L609.4 102.2L602.6 105.7L593.9 107.8L584.5 111.8L572.7 113.8L562.8 117.2L555.2 121.5L540.9 120.4L506.5 120.3M382.2 117.1L484.1 116.8L493.3 120.3L506.5 120.3M359.0 113.9L341.5 113.9M347.4 312.2L313.4 312.0L312.4 260.8L310.9 259.6L300.7 259.5M92.0 362.1L96.5 363.0L118.7 358.5L197.9 353.4L222.3 353.3L229.1 354.2L242.7 353.2M348.7 354.8L346.9 269.5M423.4 355.9L423.1 358.4M423.1 358.4L423.1 358.6M423.5 354.5L424.9 355.3L423.4 355.9M491.9 279.4L491.2 275.8L458.3 248.1L425.8 248.0L425.3 249.5L422.0 251.0M619.7 329.7L519.5 326.6L515.0 327.9L489.0 341.2L379.3 341.6L376.2 342.9L365.7 352.6L360.1 353.4M300.7 259.5L301.4 218.5L300.5 207.3L300.6 138.7L301.9 136.8L312.2 131.5L316.6 122.9M348.7 354.8L346.6 270.1L347.7 233.2L346.5 227.0L342.3 218.0L341.6 212.7L341.7 131.9L342.8 126.2L346.4 118.4L346.8 113.9M330.0 96.2L321.8 94.3L312.8 96.5L291.6 96.5L288.1 97.4M288.1 97.4L288.1 97.4M287.4 97.6L287.8 97.4M343.9 353.5L235.2 353.2L229.1 354.2L222.3 353.3L198.3 353.3L118.7 358.5L95.6 363.0L86.6 360.5L78.4 351.6L64.7 348.5L58.3 339.4L56.4 333.4L49.6 324.8L39.8 320.4L24.6 316.8L17.3 317.2L-0.4 315.5M219.7 263.9L95.6 264.2L89.3 266.7L47.0 293.4L32.4 303.9L-4.5 313.9M423.5 354.5L423.5 351.6L428.2 347.8L429.2 345.6L429.1 340.0L426.5 333.0L427.1 312.5L426.0 281.0M424.5 350.4L428.3 347.5L429.1 345.2L429.0 340.0L426.3 332.5L426.0 283.6M423.5 354.5L423.4 355.9M313.2 311.4L312.9 294.9M310.8 259.5L300.7 259.5M312.5 270.5L312.5 266.6M300.7 184.0L301.2 211.2M410.9 252.1L422.0 251.0M425.8 248.6L425.8 248.0"/><path class="major" d="M-13.4 317.0L-2.0 314.9L2.6 312.6L28.8 305.9L38.4 302.3L116.3 288.8L161.6 278.3L490.9 278.3L494.9 279.6L502.3 285.0L518.3 289.2L627.1 329.7M-15.1 316.8L-2.6 314.9L3.6 312.0L29.1 305.5L38.6 302.0L118.0 288.2L160.6 278.2L185.8 277.5L491.0 278.2L495.0 279.5L502.7 285.0L518.0 288.7L628.0 329.7"/></g><g class="towns" aria-hidden="true"><text x="255.2" y="223.0">Imperial</text><g class="route"><rect x="144.7" y="270.8" width="33.8" height="15" rx="3"/><text x="161.6" y="282.8" text-anchor="middle">I-8</text></g><g class="route"><rect x="298.4" y="100.1" width="59.6" height="15" rx="3"/><text x="328.2" y="112.1" text-anchor="middle">US 111</text></g><g class="route"><rect x="429.1" y="240.8" width="59.6" height="15" rx="3"/><text x="458.9" y="252.8" text-anchor="middle">US 115</text></g></g><g class="dots"><a href="#movies-imperial" data-name="Movies Imperial" data-shows="[[&quot;2026-11-16T16:00&quot;,&quot;Drummer Boy&quot;,false],[&quot;2026-11-16T16:00&quot;,&quot;Godzilla Minus Zero&quot;,false],[&quot;2026-11-16T16:30&quot;,&quot;Ebenezer: A Christmas Carol&quot;,false],[&quot;2026-11-16T16:30&quot;,&quot;Ghost Soldier&quot;,false],[&quot;2026-11-16T16:30&quot;,&quot;Heart of the Beast&quot;,false],[&quot;2026-11-16T16:30&quot;,&quot;How to Rob a Bank&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5"><title>Movies Imperial</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#movies-imperial">Movies Imperial</a></li></ul></nav>
-  <article class="house" id="movies-imperial"><h3>Movies Imperial</h3><p class="where">Imperial · <a href="https://www.playingtoday.com/movies-imperial">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Drummer Boy</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ghost Soldier</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Heart of the Beast</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">How to Rob a Bank</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">The Cat in the Hat</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Wild House Nine</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>32 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Drummer Boy</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ghost Soldier</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Heart of the Beast</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">How to Rob a Bank</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">The Cat in the Hat</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Wild House Nine</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Drummer Boy</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ghost Soldier</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Heart of the Beast</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">How to Rob a Bank</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">The Cat in the Hat</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Wild House Nine</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="movies-imperial"><h3>Movies Imperial</h3><p class="where">Imperial · <span class="addr">2335 Highway 86, Imperial</span> · <a href="https://www.playingtoday.com/movies-imperial">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Drummer Boy</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ghost Soldier</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Heart of the Beast</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">How to Rob a Bank</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">The Cat in the Hat</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Wild House Nine</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>32 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Drummer Boy</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ghost Soldier</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Heart of the Beast</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">How to Rob a Bank</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">The Cat in the Hat</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Wild House Nine</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Drummer Boy</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Ghost Soldier</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Heart of the Beast</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">How to Rob a Bank</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">The Cat in the Hat</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.playingtoday.com/movies-imperial">Wild House Nine</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 5:23pm PST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

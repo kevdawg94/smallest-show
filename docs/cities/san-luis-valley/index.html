@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Independent cinema showtimes in San Luis Valley, CO · Smallest Show</title>
-<meta name="description" content="San Luis Valley, CO: this week&#x27;s showtimes at 1 independent cinema, including Liberty Theatre.">
+<meta name="description" content="San Luis Valley, CO: this week&#x27;s showtimes at its independent cinema, Liberty Theatre.">
 <meta property="og:title" content="Independent cinema showtimes in San Luis Valley, CO">
-<meta property="og:description" content="San Luis Valley, CO: this week&#x27;s showtimes at 1 independent cinema, including Liberty Theatre.">
+<meta property="og:description" content="San Luis Valley, CO: this week&#x27;s showtimes at its independent cinema, Liberty Theatre.">
 <meta property="og:url" content="https://smallest.show/cities/san-luis-valley/">
 <link rel="canonical" href="https://smallest.show/cities/san-luis-valley/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Liberty Theatre", "@id": "https://smallest.show/cities/san-luis-valley/#liberty-pagosa", "url": "https://libertytheatrepagosa.simpletix.com/", "address": {"@type": "PostalAddress", "streetAddress": "418 Pagosa Street", "addressLocality": "Pagosa Springs", "addressRegion": "CO", "postalCode": "81147", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 37.26747, "longitude": -107.01067}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>San Luis Valley</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[]" data-tz="America/Denver" hidden>
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Denver"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of San Luis Valley with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 -12.0 -0.1 -12.0 0.1 454.0 -12.0 454.0Z"/><path d="M-12.0 492.0 -12.0 454.0 38.8 454.0 37.5 457.1 34.4 459.3 34.2 463.0 32.1 464.9 33.7 474.8 32.6 477.9 23.8 480.6 22.0 482.2 21.8 485.0 16.8 488.0 15.7 490.0 16.8 492.0Z"/><path d="M16.8 492.0 15.7 490.0 16.8 488.0 21.8 485.0 22.0 482.2 23.8 480.6 32.6 477.9 33.7 474.8 32.1 464.9 34.2 463.0 34.4 459.3 37.5 457.1 38.8 454.0 384.9 453.9 389.7 460.0 612.0 459.1 612.0 492.0Z"/><path d="M226.5 -12.0 224.9 115.6 -0.2 115.8 -0.1 -12.0Z"/><path d="M-0.3 191.0 -0.2 115.8 224.9 115.6 224.8 140.0 388.8 139.0 490.9 137.0 490.9 130.6 511.6 131.1 511.6 271.1 563.1 298.0 568.3 341.8 612.0 410.4 612.0 459.1 389.7 460.0 384.9 453.9 0.1 454.0Z"/><path d="M511.6 131.1 612.0 132.3 612.0 410.4 568.3 341.8 563.1 298.0 511.6 271.1Z"/><path d="M612.0 -12.0 612.0 132.3 490.9 130.6 490.6 -12.0Z"/><path d="M490.6 -12.0 490.9 137.0 388.8 139.0 224.8 140.0 224.9 75.1 226.5 -12.0Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M371.5 138.9L370.7 154.3L368.6 161.3L356.0 176.6L339.6 185.6L331.7 194.4L322.8 221.1L317.7 230.7L311.9 237.6L301.3 239.1L299.4 240.9L290.3 240.5L284.0 235.4L272.8 240.0L246.1 258.4L243.0 261.3L237.9 270.3L232.8 272.0L227.3 269.6L224.2 263.7L218.9 262.8L216.5 261.2L212.6 261.2L195.3 264.8L183.8 270.7L178.4 270.2L171.8 272.1L159.7 283.7L150.9 287.7L137.0 285.2L132.6 283.5L120.4 283.4L110.3 288.5L103.7 288.6L95.0 290.6L90.7 283.3L90.3 276.1L85.3 271.3L62.2 270.7L54.8 268.3L46.4 271.7L44.2 271.2L29.6 260.3L26.0 254.8L22.2 245.4L18.4 242.1L13.7 233.9L2.9 225.6L-0.2 225.1M445.7 460.0L439.1 451.3L415.1 428.4L406.0 423.8L410.0 407.5L417.5 397.3L417.3 395.6L404.6 393.9L393.0 389.3L379.2 390.1L376.2 389.4L373.1 387.7L364.5 379.2L361.0 372.5L352.3 366.2L352.2 363.3L354.4 360.7L354.8 357.9L358.3 355.6L359.2 350.5L357.5 342.5L347.1 333.8L340.6 326.6L343.4 317.5L346.5 313.9L347.6 307.3L345.0 302.4L337.4 302.0L329.5 291.9L322.1 287.9L317.9 283.9L316.2 274.5L316.2 266.8L310.0 250.3L311.8 244.1L311.8 240.1L310.7 238.3M298.4 240.9L301.3 239.1L305.5 238.7M-30.1 424.3L0.1 434.3M371.5 138.9L372.2 125.8L373.7 119.0L378.1 107.1L384.7 100.1L384.0 95.9L381.4 93.2L381.2 88.2L380.1 88.2L378.3 93.6L378.1 89.2L380.1 84.9L387.6 78.3L388.6 75.6L391.6 73.6L395.8 73.3L397.6 71.1L404.2 68.6L407.4 66.1L419.3 63.2L423.1 63.3L429.2 67.3L436.6 68.4L439.3 71.3L438.2 73.4L439.1 74.5L445.5 72.1L447.0 70.5L451.4 70.2L453.4 68.1L456.0 60.5L450.7 49.5L450.8 44.5L453.5 34.3L451.7 18.3L449.0 10.8L452.3 7.4L455.4 1.8L477.8 -17.5M-0.2 225.1L2.9 225.6L13.7 233.9L18.4 242.1L22.2 245.4L26.0 254.8L29.6 260.3L44.2 271.2L46.4 271.7L54.8 268.3L62.2 270.7L85.3 271.3L90.2 275.9L90.7 283.3L93.6 289.6L95.3 290.6L103.7 288.6L110.3 288.5L120.4 283.4L132.6 283.5L137.0 285.2L150.9 287.7L159.7 283.7L171.8 272.1L178.4 270.2L183.8 270.7L195.3 264.8L212.6 261.2L216.5 261.2L218.9 262.8L224.2 263.7L227.3 269.6L232.8 272.0L237.9 270.3L243.0 261.3L245.9 258.5L272.6 240.1L284.2 235.4L289.6 240.4L299.4 240.9M299.4 240.9L301.2 239.1L305.5 238.7M139.1 285.7L139.3 292.5L135.6 295.3L131.1 305.2L121.4 312.6L115.1 319.5L113.5 323.9L111.9 324.3L109.9 322.5L107.8 322.4L104.3 325.7L101.7 326.2L95.3 323.4L91.7 323.7L90.8 325.4L91.9 328.5L89.7 336.6L84.8 338.7L83.1 343.3L75.0 353.2L58.6 369.1L57.3 375.9L53.1 384.4L51.9 390.0L43.5 407.4L42.7 414.5L40.4 421.3L41.6 428.4L39.7 434.5L37.2 435.4L29.3 433.7L0.1 434.3M441.0 492.4L446.4 480.3L446.8 467.8L445.7 460.0M598.8 492.5L603.8 489.8L607.6 484.9L614.1 479.9"/></g><g class="towns" aria-hidden="true"><text x="221.6" y="223.0">Pagosa Springs</text><g class="route"><rect x="341.7" y="131.4" width="59.6" height="15" rx="3"/><text x="371.5" y="143.4" text-anchor="middle">US 160</text></g><g class="route"><rect x="353.7" y="382.6" width="51.0" height="15" rx="3"/><text x="379.2" y="394.6" text-anchor="middle">US 84</text></g></g><g class="dots"><a href="#liberty-pagosa" data-name="Liberty Theatre" data-shows="[[&quot;2026-11-19T19:00&quot;,&quot;Pop Culture Interactive Movie Party- Monty Python &amp; the Holy Grail&quot;,false],[&quot;2026-11-20T19:00&quot;,&quot;The Hunger Games: Sunrise On The Reaping&quot;,false],[&quot;2026-11-21T19:00&quot;,&quot;The Hunger Games: Sunrise On The Reaping&quot;,false],[&quot;2026-11-22T14:00&quot;,&quot;The Hunger Games: Sunrise On The Reaping&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5" class="dim"><title>Liberty Theatre</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#liberty-pagosa">Liberty Theatre</a></li></ul></nav>
-  <article class="house" id="liberty-pagosa"><h3>Liberty Theatre</h3><p class="where">Pagosa Springs · <a href="https://libertytheatrepagosa.simpletix.com/">Website</a></p><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/pop-culture-interactive-movie-party-monty-tickets-298605">Pop Culture Interactive Movie Party- Monty Python &amp; the Holy Grail</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>3 showings</span></summary><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-tickets-299599">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-tickets-299599">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-tickets-299599">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">2pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="liberty-pagosa"><h3>Liberty Theatre</h3><p class="where">Pagosa Springs · <span class="addr">418 Pagosa Street, Pagosa Springs</span> · <a href="https://libertytheatrepagosa.simpletix.com/">Website</a></p><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/pop-culture-interactive-movie-party-monty-tickets-298605">Pop Culture Interactive Movie Party- Monty Python &amp; the Holy Grail</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>3 showings</span></summary><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-tickets-299599">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-tickets-299599">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-tickets-299599">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">2pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Fox Theater", "@id": "https://smallest.show/cities/montrose-and-telluride/#fox-theater-montrose", "url": "https://montrosemovies.com/showtimes/", "address": {"@type": "PostalAddress", "streetAddress": "27 S. Cascade Avenue", "addressLocality": "Montrose", "addressRegion": "CO", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 38.47919, "longitude": -107.87586}}, {"@type": "MovieTheater", "name": "Delta Egyptian Theater", "@id": "https://smallest.show/cities/montrose-and-telluride/#delta-egyptian", "url": "https://www.deltaegyptian.org/", "address": {"@type": "PostalAddress", "streetAddress": "452 Main Street", "addressLocality": "Delta", "addressRegion": "CO", "postalCode": "81416", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 38.74075, "longitude": -108.07043}}, {"@type": "MovieTheater", "name": "Wright Opera House", "@id": "https://smallest.show/cities/montrose-and-telluride/#wright-opera-house", "url": "https://thewrightoperahouse.org/events/movies", "address": {"@type": "PostalAddress", "streetAddress": "472 Main Street", "addressLocality": "Ouray", "addressRegion": "CO", "postalCode": "81427", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 38.02144, "longitude": -107.67159}}, {"@type": "MovieTheater", "name": "Mountaineer Theatre", "@id": "https://smallest.show/cities/montrose-and-telluride/#mountaineer-lake-city", "url": "https://www.mountaineertheatre.com/", "address": {"@type": "PostalAddress", "streetAddress": "811 North Gunnison Avenue", "addressLocality": "Lake City", "addressRegion": "CO", "postalCode": "81235", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 38.03559, "longitude": -107.3134}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,24 +144,153 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Montrose &amp; Telluride</h1>
   <p class="lede">This week's showtimes at the area's 4 independent cinemas, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[]" data-tz="America/Denver" hidden>
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Denver"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Montrose &amp; Telluride with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 492.0 -12.0 442.6 -4.8 442.6 115.4 442.9 115.0 444.6 118.2 449.2 121.5 450.5 124.2 456.9 125.1 464.2 129.8 469.0 130.9 473.6 139.4 471.3 142.1 468.8 144.0 469.4 145.7 467.8 150.2 468.0 151.1 466.2 153.4 468.9 159.7 459.9 163.9 460.0 167.1 462.2 167.9 465.5 169.7 465.7 176.7 460.9 180.3 465.2 183.9 461.1 187.6 460.6 189.2 459.2 202.8 458.7 204.5 463.6 208.0 468.3 210.4 469.1 215.4 467.5 216.7 470.5 219.3 472.8 225.0 472.5 230.8 479.7 234.4 481.2 235.6 483.2 235.0 486.1 236.5 488.4 240.5 488.0 241.6 490.1 244.6 492.0Z"/><path d="M-12.0 -12.0 171.3 -12.0 168.3 -9.7 170.9 -4.7 170.7 -2.8 159.8 12.2 156.6 14.3 154.2 12.7 153.2 13.5 151.9 16.7 153.1 20.9 151.2 20.5 149.4 23.1 144.9 22.6 141.4 25.5 75.4 53.2 75.3 190.4 -12.0 190.4Z"/><path d="M75.4 53.2 141.4 25.5 144.9 22.6 149.4 23.1 151.2 20.5 153.1 20.9 151.9 16.7 153.2 13.5 154.2 12.7 156.6 14.3 159.8 12.2 170.7 -2.8 170.9 -4.7 168.3 -9.7 171.3 -12.0 362.5 -12.0 362.5 120.1 75.5 120.3Z"/><path d="M156.0 260.7 318.4 260.4 319.9 263.1 318.1 267.1 319.3 269.9 318.6 273.0 320.5 278.9 322.0 282.3 324.4 284.1 326.3 290.2 330.0 293.1 333.1 293.8 334.1 298.8 336.5 302.7 336.3 310.3 338.0 311.4 339.1 320.8 342.4 333.1 338.5 341.8 342.1 347.6 342.8 352.9 341.6 358.5 345.1 365.8 351.9 365.7 357.2 369.9 359.1 373.7 355.5 375.1 355.6 381.2 354.5 382.7 352.6 382.7 350.6 385.3 350.7 387.0 349.7 387.6 350.8 389.5 349.9 391.6 350.3 395.2 346.9 399.4 344.3 399.3 341.1 396.7 338.5 396.3 336.5 398.7 334.4 399.2 334.4 401.5 332.9 402.2 335.2 408.9 334.3 412.1 340.2 413.5 316.4 413.6 316.0 425.4 317.7 431.9 314.8 433.7 313.4 436.7 310.0 436.7 309.2 439.2 304.4 438.8 302.8 440.3 300.9 440.0 298.8 443.8 297.1 444.0 295.0 443.2 294.8 441.1 290.5 441.7 284.8 438.4 286.6 428.3 284.6 424.3 283.0 423.1 281.4 418.5 279.1 417.9 277.5 415.8 271.1 414.8 268.2 409.3 269.0 407.9 266.1 403.7 264.0 404.4 260.0 402.8 256.5 403.9 252.9 402.2 248.7 402.1 249.1 400.0 251.1 398.5 250.9 396.6 244.3 395.0 237.4 395.9 234.9 393.3 234.9 388.7 232.0 388.2 234.1 381.6 235.9 380.0 234.0 374.9 234.3 368.7 233.0 362.7 234.6 362.7 234.8 350.6 215.1 350.5 215.1 338.5 210.6 338.5 210.5 335.4 216.6 335.3 216.4 326.5 219.5 326.4 219.7 307.6 216.6 307.6 216.6 304.5 210.6 304.5 210.6 301.3 204.4 301.4 204.5 295.3 195.5 295.4 195.5 292.5 171.0 292.5 171.0 280.4 165.2 280.4 165.0 268.1 159.0 268.1 158.8 265.1 156.2 265.2Z"/><path d="M-12.0 335.1 210.5 335.4 210.6 338.5 215.1 338.5 215.1 350.5 234.8 350.6 234.6 362.7 233.0 362.7 234.3 368.7 234.0 374.9 235.9 380.0 234.1 381.6 232.0 388.2 234.9 388.7 235.3 394.1 237.4 395.9 244.3 395.0 250.9 396.6 251.1 398.5 249.1 400.0 248.7 402.1 252.9 402.2 256.5 403.9 260.0 402.8 264.0 404.4 266.1 403.7 269.0 407.9 268.2 409.3 271.1 414.8 277.5 415.8 279.1 417.9 281.4 418.5 283.0 423.1 286.6 428.3 285.7 430.3 286.4 432.3 285.1 433.3 285.9 435.9 283.9 440.1 281.3 441.5 281.6 442.8 279.0 444.8 279.0 447.6 277.4 450.0 275.8 450.0 273.2 453.5 270.4 454.1 271.5 461.6 269.5 462.9 270.1 465.5 268.3 466.5 265.8 472.9 261.8 472.3 255.3 477.4 256.6 480.3 255.4 482.5 257.3 484.1 256.6 486.4 252.9 489.5 251.7 492.0 244.6 492.0 241.6 490.1 240.5 488.0 236.5 488.4 235.0 486.1 235.6 483.2 234.4 481.2 230.8 479.7 225.0 472.5 219.3 472.8 216.7 470.5 215.4 467.5 208.6 468.8 204.5 463.6 202.8 458.7 189.2 459.2 187.6 460.6 183.9 461.1 180.3 465.2 176.7 460.9 169.7 465.7 167.9 465.5 167.1 462.2 163.9 460.0 159.7 459.9 153.4 468.9 151.1 466.2 150.2 468.0 145.7 467.8 144.0 469.4 142.1 468.8 139.4 471.3 130.9 473.6 129.8 469.0 125.1 464.2 124.2 456.9 121.5 450.5 118.2 449.2 115.0 444.6 115.4 442.9 -12.0 442.6Z"/><path d="M525.8 337.6 526.0 221.4 612.0 221.8 612.0 445.9 606.0 448.7 600.4 446.7 598.6 442.8 591.3 434.9 585.6 434.8 583.6 432.8 576.1 432.7 569.9 426.4 568.8 423.4 567.3 422.8 565.5 419.9 565.7 415.2 562.3 414.8 560.7 412.7 557.2 414.0 552.3 412.5 544.4 418.2 541.8 416.7 541.8 414.9 536.6 409.5 533.4 411.8 530.3 411.8 530.0 414.8 527.2 415.5 526.0 417.3Z"/><path d="M251.7 492.0 252.9 489.5 256.6 486.4 257.3 484.1 255.4 482.5 256.6 480.3 255.3 477.4 261.8 472.3 265.8 472.9 268.3 466.5 270.1 465.5 269.5 462.9 271.5 461.6 270.4 454.1 273.2 453.5 275.8 450.0 277.4 450.0 279.0 447.6 279.0 444.8 281.6 442.8 281.3 441.5 282.8 441.2 284.8 438.4 290.5 441.7 294.8 441.1 295.0 443.2 298.8 443.8 300.9 440.0 302.8 440.3 304.4 438.8 309.2 439.2 310.0 436.7 313.4 436.7 314.8 433.7 317.7 431.9 316.0 425.4 316.4 413.6 340.2 413.5 342.0 417.3 352.1 422.3 350.3 427.0 351.0 432.3 353.3 434.9 353.4 437.7 356.1 440.0 354.1 442.2 353.9 444.2 351.9 445.1 352.1 447.3 350.8 448.9 351.1 451.5 353.7 453.0 356.9 458.6 355.4 464.8 357.4 467.9 357.2 471.2 361.6 472.5 365.9 472.2 370.9 475.8 372.9 478.3 373.9 482.3 376.1 484.7 376.4 489.8 374.5 492.0Z"/><path d="M332.9 402.2 334.4 401.5 334.4 399.2 336.5 398.7 338.5 396.3 341.1 396.7 344.3 399.3 346.9 399.4 350.3 395.2 349.9 391.6 350.8 389.5 349.7 387.6 350.7 387.0 350.6 385.3 352.6 382.7 354.5 382.7 355.6 381.2 355.5 375.1 359.1 373.7 357.2 369.9 351.9 365.7 348.2 365.3 346.3 366.3 343.3 362.6 341.4 357.7 342.8 352.9 342.1 347.6 338.5 341.8 340.3 337.5 525.8 337.6 526.0 417.3 524.4 417.0 523.3 421.2 517.9 417.9 512.7 420.3 509.2 418.5 507.8 418.9 506.1 415.7 504.1 415.1 502.7 417.6 498.2 418.4 496.1 420.1 492.7 417.6 490.0 422.6 483.8 424.9 481.0 424.4 480.7 492.0 374.5 492.0 376.4 489.8 376.1 484.7 373.9 482.3 372.9 478.3 370.9 475.8 365.9 472.2 361.6 472.5 357.2 471.2 357.4 467.9 355.4 464.8 356.9 458.6 353.7 453.0 351.1 451.5 350.8 448.9 352.1 447.3 351.9 445.1 353.9 444.2 354.1 442.2 356.1 440.0 353.4 437.7 353.3 434.9 351.0 432.3 350.3 427.0 352.1 422.3 342.0 417.3 340.2 413.1 334.3 412.1 335.2 408.9Z"/><path d="M-12.0 190.4 75.3 190.4 75.5 120.3 362.5 120.1 362.7 273.0 318.6 273.0 319.3 269.9 318.1 267.1 319.9 263.1 318.4 260.4 156.0 260.7 156.2 265.2 158.8 265.1 159.0 268.1 165.0 268.1 165.2 280.4 171.0 280.4 171.0 292.5 195.5 292.5 195.5 295.4 204.5 295.3 204.4 301.4 210.6 301.3 210.6 304.5 216.6 304.5 216.6 307.6 219.7 307.6 219.5 326.4 216.4 326.5 216.6 335.3 -12.0 335.1Z"/><path d="M318.6 273.0 362.7 273.0 362.5 -12.0 578.4 -12.0 582.7 -8.8 586.1 -10.4 591.0 -9.1 593.4 -11.8 612.0 -12.0 612.0 221.8 526.0 221.4 525.8 337.6 340.3 337.5 341.6 336.5 342.4 333.1 339.1 320.8 338.0 311.4 336.3 310.3 336.5 302.7 334.1 298.8 333.1 293.8 330.0 293.1 325.9 289.6 324.4 284.1 322.0 282.3Z"/><path d="M480.7 492.0 481.0 424.4 483.8 424.9 490.0 422.6 492.7 417.6 496.1 420.1 498.2 418.4 502.7 417.6 504.1 415.1 506.1 415.7 507.8 418.9 509.2 418.5 511.6 420.1 515.4 419.8 517.9 417.9 523.3 421.2 524.4 417.0 526.0 417.3 527.2 415.5 529.5 415.2 530.3 411.8 533.4 411.8 536.6 409.5 541.8 414.9 541.8 416.7 544.4 418.2 552.3 412.5 557.2 414.0 559.6 412.3 562.3 414.8 565.7 415.2 565.5 419.9 567.3 422.8 568.8 423.4 569.9 426.4 576.1 432.7 583.6 432.8 585.6 434.8 591.3 434.9 598.6 442.8 600.4 446.7 606.0 448.7 612.0 445.9 612.0 492.0Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"></g><g class="towns" aria-hidden="true"><text x="148.2" y="120.0">Delta</text><text x="373.4" y="367.1">Lake City</text><text x="195.1" y="182.1">Montrose</text><text x="278.6" y="373.0">Ouray</text></g><g class="dots"><a href="#fox-theater-montrose" data-name="Fox Theater" data-shows="[[&quot;2026-11-18T15:30&quot;,&quot;Godzilla Minus Zero&quot;,false],[&quot;2026-11-18T15:45&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-18T16:00&quot;,&quot;The Cat in the Hat&quot;,false],[&quot;2026-11-18T18:45&quot;,&quot;The Cat in the Hat&quot;,false],[&quot;2026-11-18T19:00&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-18T19:15&quot;,&quot;Godzilla Minus Zero&quot;,false]]"><circle class="hit" cx="239.9" cy="199.1" r="16.0"/><circle cx="239.9" cy="199.1" r="5.5" class="dim"><title>Fox Theater</title></circle></a><a href="#delta-egyptian" data-name="Delta Egyptian Theater" data-shows="[[&quot;2026-11-17T19:00&quot;,&quot;Carolina Caroline&quot;,false],[&quot;2026-11-18T19:00&quot;,&quot;The Furious&quot;,false],[&quot;2026-11-19T19:00&quot;,&quot;Nirvanna the Band, the Show, the Movie&quot;,false],[&quot;2026-11-20T19:00&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false],[&quot;2026-11-21T16:00&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false],[&quot;2026-11-21T19:00&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false]]"><circle class="hit" cx="176.2" cy="90.0" r="16.0"/><circle cx="176.2" cy="90.0" r="5.5" class="dim"><title>Delta Egyptian Theater</title></circle></a><a href="#wright-opera-house" data-name="Wright Opera House" data-shows="[]"><circle class="hit" cx="306.6" cy="390.0" r="16.0"/><circle cx="306.6" cy="390.0" r="5.5" class="dim"><title>Wright Opera House</title></circle></a><a href="#mountaineer-lake-city" data-name="Mountaineer Theatre" data-shows="[]"><circle class="hit" cx="423.8" cy="384.1" r="16.0"/><circle cx="423.8" cy="384.1" r="5.5" class="dim"><title>Mountaineer Theatre</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><p class="jump-label">Montrose</p><ul class="jump"><li><a href="#fox-theater-montrose">Fox Theater</a></li></ul><p class="jump-label">Delta &amp; Paonia</p><ul class="jump"><li><a href="#delta-egyptian">Delta Egyptian Theater</a></li></ul><p class="jump-label">Ouray &amp; Ridgway</p><ul class="jump"><li><a href="#wright-opera-house">Wright Opera House</a></li></ul><p class="jump-label">Lake City</p><ul class="jump"><li><a href="#mountaineer-lake-city">Mountaineer Theatre</a></li></ul></nav>
-  <h2 class="region">Montrose</h2>
-<article class="house" id="fox-theater-montrose"><h3>Fox Theater</h3><p class="where">Montrose · <a href="https://montrosemovies.com/showtimes/">Website</a></p><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1089">Godzilla Minus Zero</a></span><span class="times"><span class="chip">3:30pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1090">Ebenezer</a></span><span class="times"><span class="chip">3:45pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1088">The Cat in the Hat</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6:45pm</span></span></li></ul><details><summary>Later this week <span>8 showings</span></summary><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1088">The Cat in the Hat</a></span><span class="times"><span class="chip">6:45pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1090">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1089">Godzilla Minus Zero</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1091">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">6:40pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1091">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">2:50pm</span><span class="chip">6:40pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1091">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">2:50pm</span><span class="chip">6:40pm</span></span></li></ul></details></article>
-<h2 class="region">Delta &amp; Paonia</h2>
-<article class="house" id="delta-egyptian"><h3>Delta Egyptian Theater</h3><p class="where">Delta · <a href="https://www.deltaegyptian.org/">Website</a></p><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/carolina-caroline-r-1-hr-45-min-tickets-298044">Carolina Caroline</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>5 showings</span></summary><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-furious-r-1-hr-53-min-tickets-298046">The Furious</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/nirvanna-the-band-the-show-the-movie-r-1-h-tickets-298047">Nirvanna the Band, the Show, the Movie</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-pg-tickets-298050">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-pg-tickets-298050">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li></ul></details></article>
-<h2 class="region">Ouray &amp; Ridgway</h2>
-<article class="house" id="wright-opera-house"><h3>Wright Opera House</h3><p class="where">Ouray · <a href="https://thewrightoperahouse.org/events/movies">Website</a></p><p class="note">Nothing listed this week.</p></article>
-<h2 class="region">Lake City</h2>
-<article class="house" id="mountaineer-lake-city"><h3>Mountaineer Theatre</h3><p class="where">Lake City · <a href="https://www.mountaineertheatre.com/">Website</a></p><p class="note">Nothing listed this week.</p></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <h2 class="region" id="region-montrose">Montrose</h2>
+<article class="house" id="fox-theater-montrose"><h3>Fox Theater</h3><p class="where">Montrose · <span class="addr">27 S. Cascade Avenue, Montrose</span> · <a href="https://montrosemovies.com/showtimes/">Website</a></p><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1089">Godzilla Minus Zero</a></span><span class="times"><span class="chip">3:30pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1090">Ebenezer</a></span><span class="times"><span class="chip">3:45pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1088">The Cat in the Hat</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6:45pm</span></span></li></ul><details><summary>Later this week <span>8 showings</span></summary><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1088">The Cat in the Hat</a></span><span class="times"><span class="chip">6:45pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1090">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1089">Godzilla Minus Zero</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1091">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">6:40pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1091">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">2:50pm</span><span class="chip">6:40pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/FOXMON/start?film=1091">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">2:50pm</span><span class="chip">6:40pm</span></span></li></ul></details></article>
+<h2 class="region" id="region-delta-paonia">Delta &amp; Paonia</h2>
+<article class="house" id="delta-egyptian"><h3>Delta Egyptian Theater</h3><p class="where">Delta · <span class="addr">452 Main Street, Delta</span> · <a href="https://www.deltaegyptian.org/">Website</a></p><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/carolina-caroline-r-1-hr-45-min-tickets-298044">Carolina Caroline</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>5 showings</span></summary><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-furious-r-1-hr-53-min-tickets-298046">The Furious</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/nirvanna-the-band-the-show-the-movie-r-1-h-tickets-298047">Nirvanna the Band, the Show, the Movie</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-pg-tickets-298050">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.simpletix.com/e/the-hunger-games-sunrise-on-the-reaping-pg-tickets-298050">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li></ul></details></article>
+<h2 class="region" id="region-ouray-ridgway">Ouray &amp; Ridgway</h2>
+<article class="house" id="wright-opera-house"><h3>Wright Opera House</h3><p class="where">Ouray · <span class="addr">472 Main Street, Ouray</span> · <a href="https://thewrightoperahouse.org/events/movies">Website</a></p><p class="note">Nothing listed this week.</p></article>
+<h2 class="region" id="region-lake-city">Lake City</h2>
+<article class="house" id="mountaineer-lake-city"><h3>Mountaineer Theatre</h3><p class="where">Lake City · <span class="addr">811 North Gunnison Avenue, Lake City</span> · <a href="https://www.mountaineertheatre.com/">Website</a></p><p class="note">Nothing listed this week.</p></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

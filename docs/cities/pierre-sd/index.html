@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Independent cinema showtimes in Pierre, SD, SD · Smallest Show</title>
-<meta name="description" content="Pierre, SD, SD: this week&#x27;s showtimes at 1 independent cinema, including State 1-2-3.">
-<meta property="og:title" content="Independent cinema showtimes in Pierre, SD, SD">
-<meta property="og:description" content="Pierre, SD, SD: this week&#x27;s showtimes at 1 independent cinema, including State 1-2-3.">
+<title>Independent cinema showtimes in Pierre, SD · Smallest Show</title>
+<meta name="description" content="Pierre, SD: this week&#x27;s showtimes at its independent cinema, State 1-2-3.">
+<meta property="og:title" content="Independent cinema showtimes in Pierre, SD">
+<meta property="og:description" content="Pierre, SD: this week&#x27;s showtimes at its independent cinema, State 1-2-3.">
 <meta property="og:url" content="https://smallest.show/cities/pierre-sd/">
 <link rel="canonical" href="https://smallest.show/cities/pierre-sd/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "State 1-2-3", "@id": "https://smallest.show/cities/pierre-sd/#state-123-pierre", "url": "https://www.pierretheatre.com/", "address": {"@type": "PostalAddress", "streetAddress": "123 West Capitol Avenue", "addressLocality": "Pierre", "addressRegion": "SD", "postalCode": "57501", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.3739, "longitude": -100.36013}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Pierre, SD</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 4:24pm CST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;state-123-pierre&quot;]" data-tz="America/Chicago">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Chicago"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Pierre, SD with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 -12.0 155.2 -12.0 148.7 17.9 143.4 33.9 138.2 42.9 136.8 60.8 139.9 72.1 150.9 85.8 157.1 90.0 166.8 93.9 193.2 96.2 198.9 97.0 203.2 99.0 210.5 111.6 209.9 116.1 203.3 125.9 186.1 134.2 180.9 138.7 177.6 143.3 174.0 157.6 173.8 166.6 174.3 169.6 177.7 174.7 182.0 178.4 188.8 182.1 197.6 183.6 237.1 170.4 267.5 172.0 272.8 173.4 280.7 180.9 286.1 190.1 292.2 235.0 294.9 242.0 297.0 254.7 298.7 258.1 301.1 259.7 312.3 264.3 339.4 269.5 348.8 273.6 367.2 277.8 373.0 278.7 381.1 278.2 396.1 281.0 411.2 279.4 434.2 285.7 444.3 289.7 449.7 289.7 457.1 292.4 469.8 302.4 480.5 308.9 496.9 314.5 514.8 324.4 528.5 327.5 539.0 326.0 551.1 326.4 560.2 331.8 563.2 335.0 567.6 345.6 566.4 349.4 559.6 358.6 543.2 374.2 541.2 378.8 541.3 383.0 295.9 383.4 296.0 404.2 294.0 404.3 -12.0 404.6Z"/><path d="M295.9 383.4 541.3 383.0 545.4 392.8 553.5 404.8 557.2 415.4 567.6 431.6 572.0 435.5 581.7 439.6 585.8 440.2 599.9 438.7 612.0 435.4 612.0 492.0 296.1 492.0Z"/><path d="M-12.0 492.0 -12.0 404.6 296.0 404.2 296.1 492.0Z"/><path d="M173.8 159.5 176.7 145.7 180.9 138.7 189.5 131.9 203.3 125.9 209.9 116.1 210.5 111.6 204.9 101.2 612.0 100.6 612.0 435.4 599.9 438.7 585.8 440.2 581.7 439.6 572.0 435.5 563.6 426.2 557.2 415.4 553.5 404.8 543.1 388.5 541.3 383.0 541.8 376.6 559.6 358.6 567.4 347.7 567.6 345.6 563.2 335.0 557.0 329.6 549.9 326.1 539.0 326.0 531.4 327.7 514.8 324.4 496.9 314.5 480.5 308.9 469.8 302.4 457.1 292.4 449.7 289.7 441.7 289.0 420.0 281.5 411.2 279.4 396.1 281.0 381.1 278.2 373.0 278.7 367.2 277.8 348.8 273.6 339.4 269.5 319.3 266.0 304.6 261.4 298.7 258.1 297.0 254.7 294.9 242.0 292.2 235.0 286.1 190.1 283.7 185.0 274.5 174.4 267.5 172.0 237.1 170.4 219.8 175.7 202.1 182.6 194.6 183.4 184.9 180.3 177.7 174.7 174.3 169.6Z"/><path d="M612.0 -12.0 612.0 100.6 204.9 101.2 203.2 99.0 198.9 97.0 166.8 93.9 157.1 90.0 150.9 85.8 142.9 76.8 139.9 72.1 136.8 60.8 138.2 42.9 143.4 33.9 148.7 17.9 155.2 -12.0Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M321.4 252.2L324.9 253.0L324.1 240.8L326.1 233.4L326.5 221.1M321.4 252.2L309.0 249.8L303.6 245.7M321.4 252.2L309.0 249.8L303.6 245.7M321.4 252.2L324.9 253.0L324.1 240.8L326.1 233.4L326.5 221.1M324.9 253.1L321.4 252.2M324.9 253.1L321.4 252.2M307.7 383.4L308.5 368.8L314.0 351.4L313.9 300.4L312.5 296.9M305.5 244.4L306.7 242.7L306.8 234.8M324.9 247.5L324.1 240.8L326.1 233.4L326.5 222.7M324.9 253.0L324.9 247.5M304.8 245.1L305.5 244.4M310.7 250.2L311.8 249.7M303.6 245.7L304.4 244.7M299.7 270.3L294.2 262.3M310.7 250.2L303.6 245.7M330.3 254.4L321.4 252.2L330.3 254.4M321.4 252.2L311.8 249.7M304.8 245.1L304.4 244.7M284.2 242.3L276.9 240.5M303.6 245.7L298.0 241.3L296.4 241.4M343.0 214.9L401.5 184.4L467.2 136.7L467.0 116.0L459.8 100.6M307.9 233.2L319.7 223.1L336.7 218.2L343.0 214.9M343.0 214.9L336.0 218.3L319.6 223.0L311.0 229.4L307.9 233.2M294.8 242.0L297.8 241.2L303.6 245.7L304.8 245.1L306.7 242.7L306.7 235.3L307.9 233.2M249.0 134.1L247.8 131.3L247.1 116.1L248.6 100.9M524.9 303.0L489.7 303.0M582.8 623.6L582.7 475.8M582.7 475.8L573.7 475.8L571.9 474.9L571.3 457.7L568.2 453.9L566.6 446.6L562.5 443.6L560.5 440.7L553.4 437.2L540.8 416.6L536.0 410.4L532.1 407.8L528.1 400.9L520.6 395.2L511.7 383.1M294.8 242.0L292.3 243.2M179.2 235.9L161.8 235.0M513.1 129.1L507.8 129.3M640.7 320.8L574.1 320.4L556.8 313.2L552.4 310.1L546.5 309.0L532.5 303.2L489.1 302.8L481.2 299.1L461.3 283.0L454.4 280.4L435.1 275.5L385.8 270.0L334.4 255.7M343.0 214.9L336.0 218.3L319.6 223.0L311.0 229.4L307.9 233.2M334.4 255.7L321.4 252.2M334.4 255.7L321.4 252.2M277.4 177.2L287.0 172.9M313.3 492.4L311.5 464.7L311.4 433.6L305.1 411.9L307.7 383.4M304.0 278.6L297.7 266.6L293.7 261.5L288.9 246.1L290.0 243.8L294.8 242.0M-154.6 241.5L18.2 241.5L55.5 229.8L153.1 230.1L156.5 230.9L161.4 234.7L164.6 235.7L201.7 235.9L212.8 234.9L222.6 230.2L239.1 230.2L258.1 228.5L271.1 236.1L275.9 240.1L289.5 244.2L291.6 243.3M268.2 187.1L269.0 184.5L277.4 177.2M307.5 383.4L308.3 368.7L313.7 351.7L313.7 300.1L309.4 293.8L307.5 286.1L304.0 278.6M307.7 383.4L308.5 368.8L314.0 351.4L313.9 300.1L309.6 293.6L307.6 285.8L304.0 278.6M698.2 117.7L536.3 118.0M507.3 129.3L478.7 129.2M310.0 230.7L308.9 223.1L305.9 213.8L305.0 196.5L294.1 189.3L291.5 183.8L291.2 176.2L286.0 172.1L281.5 163.1L276.4 158.3L273.8 151.0L261.9 139.8L255.6 136.2L250.5 135.2L248.3 133.0L247.1 116.1L248.6 100.9M523.2 303.0L515.0 303.0M294.8 242.0L292.3 243.2M294.2 262.3L291.3 251.7M6.6 241.8L-36.0 241.7M459.8 100.6L459.8 -72.6M510.6 129.3L513.1 129.1M498.6 303.1L495.5 303.1M28.1 238.6L36.8 235.7M698.2 117.7L538.7 117.6L534.5 118.6L512.7 129.2L478.7 129.2L401.5 184.4L343.0 214.9M247.1 115.3L248.3 101.2M511.7 383.1L510.4 379.8L512.2 370.5L520.2 361.9L524.4 361.1L533.9 364.4L539.6 362.4L543.9 364.4L546.2 363.4L544.9 345.7L538.8 339.8L527.6 339.4L518.4 335.0L514.3 331.4L510.5 329.7L493.9 325.4L482.5 318.1L478.0 319.5L466.3 319.5L458.7 325.2L449.6 325.3L430.2 307.3L428.2 303.7L421.5 302.9L417.0 298.8L410.1 299.5L405.4 297.2L388.0 300.2L329.2 300.0L322.0 291.8L311.4 284.5L303.3 274.1L301.6 274.1L293.7 261.5L288.9 245.1M248.6 100.9L251.2 92.7L249.9 25.3L250.4 -26.4M248.6 100.9L251.2 92.7L249.9 25.3L250.4 -26.4M294.8 242.0L297.8 241.2L303.6 245.7L304.8 245.1L306.7 242.7L306.7 235.3L307.9 233.2M255.5 136.1L250.5 135.2M501.8 303.1L513.1 303.1M303.4 274.3L311.4 284.5L322.0 291.8L327.8 299.1L329.9 300.2L388.0 300.2L406.6 297.5M459.8 100.6L459.8 -72.6M467.2 136.7L466.9 115.7M291.6 243.3L289.5 244.2L275.9 240.1L271.1 236.1L258.1 228.5L239.1 230.2L222.6 230.2L212.8 234.9L201.7 235.9L164.6 235.7L161.4 234.7L156.5 230.9L153.1 230.1L55.5 229.8L18.2 241.5L-137.4 241.7M291.6 243.3L289.5 244.2L279.9 241.2L280.0 207.2L277.6 197.2L274.2 193.2L269.5 191.5L268.2 187.1L263.8 184.8L261.2 181.3L256.6 181.0L252.9 183.6L249.5 181.0L245.0 183.6L240.9 184.4L239.8 186.2L240.8 193.6L237.1 196.1L233.3 196.2L226.8 194.3L222.3 191.7L219.0 192.0L216.9 194.0L210.9 208.0L207.4 209.3L197.1 206.3L187.3 199.9L178.2 191.9L175.0 190.9L168.1 184.6L158.5 171.4L148.6 165.4L145.9 162.2L140.9 159.3L136.4 154.1L121.5 146.6L115.4 140.6L112.6 134.1L106.2 127.0L93.8 104.5L87.6 97.8L85.0 93.1L82.0 90.9L77.4 90.0L54.7 74.1L53.0 67.2L52.9 53.4L48.5 46.2L41.5 30.3L41.4 21.7M118.2 143.4L115.1 140.2L112.6 134.1L106.5 127.5L93.8 104.5L87.6 97.8L85.0 93.1L82.0 90.9L77.4 90.0L54.7 74.1L53.0 67.2L52.9 53.4L48.5 46.2L41.5 30.3L41.4 21.7M478.7 129.2L513.1 129.1M307.9 233.2L319.7 223.1L336.7 218.2L343.0 214.9M321.4 252.2L309.0 249.8L298.0 241.3L294.8 242.0M313.1 492.1L311.3 465.4L311.3 434.4L304.8 412.1L307.5 383.4M291.3 251.7L288.9 246.3"/></g><g class="towns" aria-hidden="true"><text x="266.4" y="223.0">Pierre</text><g class="route"><rect x="153.7" y="228.4" width="51.0" height="15" rx="3"/><text x="179.2" y="240.4" text-anchor="middle">US 14</text></g><g class="route"><rect x="282.2" y="375.9" width="51.0" height="15" rx="3"/><text x="307.7" y="387.9" text-anchor="middle">US 83</text></g></g><g class="dots"><a href="#state-123-pierre" data-name="State 1-2-3" data-shows="[[&quot;2026-11-16T18:45&quot;,&quot;Cat in the Hat&quot;,false],[&quot;2026-11-16T18:45&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-16T18:45&quot;,&quot;Godzilla Minus Zero&quot;,false],[&quot;2026-11-16T21:10&quot;,&quot;Cat in the Hat&quot;,false],[&quot;2026-11-16T21:15&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-16T21:30&quot;,&quot;Godzilla Minus Zero&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5"><title>State 1-2-3</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#state-123-pierre">State 1-2-3</a></li></ul></nav>
-  <article class="house" id="state-123-pierre"><h3>State 1-2-3</h3><p class="where">Pierre · <a href="https://www.pierretheatre.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Cat in the Hat</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:10pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Godzilla Minus Zero</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:30pm</span></span></li></ul><details><summary>Later this week <span>44 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Cat in the Hat</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:10pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Godzilla Minus Zero</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Cat in the Hat</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:10pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Godzilla Minus Zero</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Cat in the Hat</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:10pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">7:30pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261120">Drummer Boy</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:20pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">7:30pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261120">Drummer Boy</a></span><span class="times"><span class="chip">1pm</span><span class="chip">4pm</span><span class="chip">6:45pm</span><span class="chip">9:20pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">1pm</span><span class="chip">4:15pm</span><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">1:15pm</span><span class="chip">4:15pm</span><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261120">Drummer Boy</a></span><span class="times"><span class="chip">1pm</span><span class="chip">4pm</span><span class="chip">6:45pm</span><span class="chip">9:20pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">1pm</span><span class="chip">4:15pm</span><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">1:15pm</span><span class="chip">4:15pm</span><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="state-123-pierre"><h3>State 1-2-3</h3><p class="where">Pierre · <span class="addr">123 West Capitol Avenue, Pierre</span> · <a href="https://www.pierretheatre.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Cat in the Hat</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:10pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Godzilla Minus Zero</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:30pm</span></span></li></ul><details><summary>Later this week <span>44 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Cat in the Hat</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:10pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Godzilla Minus Zero</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Cat in the Hat</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:10pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Godzilla Minus Zero</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Cat in the Hat</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:10pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">7:30pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261120">Drummer Boy</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:20pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">7:30pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261120">Drummer Boy</a></span><span class="times"><span class="chip">1pm</span><span class="chip">4pm</span><span class="chip">6:45pm</span><span class="chip">9:20pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">1pm</span><span class="chip">4:15pm</span><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">1:15pm</span><span class="chip">4:15pm</span><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261120">Drummer Boy</a></span><span class="times"><span class="chip">1pm</span><span class="chip">4pm</span><span class="chip">6:45pm</span><span class="chip">9:20pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261119">Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">1pm</span><span class="chip">4:15pm</span><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://26232.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261116">Ebenezer</a></span><span class="times"><span class="chip">1:15pm</span><span class="chip">4:15pm</span><span class="chip">6:45pm</span><span class="chip">9:15pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 7:23pm CST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

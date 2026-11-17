@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Empire Twin Theatres", "@id": "https://smallest.show/cities/bozeman-livingston-and-big-sky/#empire-twin", "url": "https://www.livingstonmovies.com/", "address": {"@type": "PostalAddress", "streetAddress": "106 North 2nd Street", "addressLocality": "Livingston", "addressRegion": "MT", "postalCode": "59047", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 45.66106, "longitude": -110.56125}}, {"@type": "MovieTheater", "name": "The Waypoint", "@id": "https://smallest.show/cities/bozeman-livingston-and-big-sky/#waypoint-big-sky", "url": "https://thebigskywaypoint.com/movies", "address": {"@type": "PostalAddress", "streetAddress": "50 Ousel Falls Road", "addressLocality": "Big Sky", "addressRegion": "MT", "postalCode": "59716", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 45.2601, "longitude": -111.30868}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,20 +144,149 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Bozeman, Livingston &amp; Big Sky</h1>
   <p class="lede">This week's showtimes at the area's 2 independent cinemas, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;waypoint-big-sky&quot;]" data-tz="America/Denver">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.765" data-tz="America/Denver"><svg class="citymap" viewBox="0 0 600 459" role="img" aria-label="A map of Bozeman, Livingston &amp; Big Sky with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 471.0 -12.0 89.4 -1.7 89.1 -1.7 99.5 91.1 99.7 91.8 308.2 80.2 308.2 80.4 471.0Z"/><path d="M-12.0 -12.0 373.1 -12.0 373.0 -3.5 370.1 -3.6 370.3 136.4 338.9 136.4 338.5 183.5 307.9 183.5 308.6 307.6 248.2 307.6 248.0 432.7 244.0 432.8 243.9 471.0 80.4 471.0 80.2 308.2 91.8 308.2 91.1 99.7 -1.7 99.5 -1.7 89.1 -12.0 89.4Z"/><path d="M244.0 432.8 248.0 432.7 248.2 307.6 308.6 307.6 307.9 183.5 338.5 183.5 338.9 136.4 370.3 136.4 370.1 -3.6 373.0 -3.5 373.1 -12.0 612.0 -12.0 612.0 471.0 243.9 471.0Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M518.3 66.6L516.3 66.9L497.5 77.5L484.8 87.2L482.3 91.7L481.3 97.9M461.9 93.1L463.6 90.9L472.4 91.6L484.1 87.7L497.5 77.5L516.3 66.9L518.3 66.6M481.3 97.9L478.6 117.0L482.5 134.9L480.5 140.8L475.4 146.8L473.4 151.1L457.6 207.3L455.3 218.4L454.5 231.5L448.7 249.5L444.2 254.2L435.1 258.5L426.3 260.2L419.3 266.0L410.8 280.9L389.2 312.5L386.2 314.5L379.0 322.9L359.6 335.2M251.3 73.0L251.6 58.8M244.2 60.5L244.2 54.8L244.1 60.4M482.0 130.8L486.8 133.0L487.8 138.4L486.3 146.0L484.7 148.7L488.6 152.9L489.3 176.1L488.9 182.4L486.5 185.7L486.8 195.0L484.4 197.2L481.5 205.9L481.4 214.0L467.0 229.9L461.4 249.3L456.4 255.0L442.6 264.0L438.5 268.5L425.1 290.4L417.3 300.2L407.8 301.1L402.8 304.0L397.0 317.9L381.1 329.4L362.0 338.2L354.8 345.4L351.2 349.5L342.3 368.4L332.8 384.5M262.2 75.9L256.6 73.0L248.7 73.0M487.5 85.1L495.6 78.9M182.4 6.5L178.5 3.7M178.5 3.7L170.9 -2.0M481.3 98.0L482.8 90.4L487.5 85.1M229.0 78.5L235.1 73.1L248.7 73.0M263.3 56.3L265.3 56.0L269.7 52.6L278.4 51.8L303.3 56.1L312.2 48.0L313.0 35.4L322.1 20.8L329.3 16.1L328.7 0.1L326.1 -6.2L327.1 -17.6M35.7 99.5L54.6 91.8L61.9 94.9L94.0 94.8L96.7 93.5L99.7 88.9L102.3 87.2L108.9 86.9L116.3 83.6L130.1 84.0L141.7 79.1L164.0 78.1L167.0 78.8L227.6 78.8L235.8 73.0L256.4 73.0L262.2 75.9M174.3 78.8L164.0 78.1L141.7 79.1L130.1 84.0L115.9 83.6L108.9 86.9L101.6 87.5L96.7 93.5L93.7 94.9L61.9 94.9L55.7 91.9L52.7 92.0L35.7 99.5M80.2 354.7L83.6 354.4L89.3 357.2L91.8 360.4L93.3 360.6L94.9 359.3L97.4 361.7L100.9 361.5L101.7 365.9L107.5 367.5L110.6 372.3L118.0 371.9L120.8 368.5L126.3 367.1L140.3 369.6M17.7 99.4L8.0 96.2L4.8 97.2M376.8 324.4L359.6 335.1L339.0 362.0L333.8 375.2L332.2 387.8L317.5 417.4L319.1 424.3L330.4 435.7L347.7 440.2L357.0 448.3L369.3 470.1L373.1 479.1M482.0 130.8L486.8 133.0L487.8 138.4L486.3 146.0L484.7 148.7L488.6 152.9L489.3 176.1L488.9 182.4L486.5 185.7L486.8 195.0L484.4 197.2L481.5 205.9L481.4 214.0L467.0 229.9L461.4 249.3L456.4 255.0L442.6 264.0L438.5 268.5L425.1 290.4L417.3 300.2L407.8 301.1L402.8 304.0L397.0 317.9L381.1 329.4L362.0 338.2L354.8 345.4L351.2 349.5L342.3 368.4L332.8 384.5M244.2 54.8L242.6 51.3L182.4 6.5M174.3 78.8L174.5 9.3M121.6 368.3L118.2 371.8L110.9 372.3L107.5 367.5M244.1 60.4L244.2 54.8M421.4 315.5L419.0 305.6L416.5 300.7M540.8 53.5L535.3 46.8L521.8 22.3L512.1 -9.6L490.5 -29.2M421.4 315.5L419.0 305.6L416.5 300.7M80.2 354.7L83.6 354.4L89.3 357.2L91.8 360.4L93.3 360.6L95.0 359.3L97.4 361.7L101.1 361.6M251.6 58.8L254.5 56.3L264.6 56.2L266.6 55.0M251.6 58.8L254.7 56.2L263.3 56.3M4.8 97.2L4.9 96.2M401.0 295.2L407.6 296.3L408.9 298.3L408.7 301.1M244.2 54.8L242.6 51.3L138.3 -25.6M3.4 99.5L5.1 97.0L7.4 96.2L17.7 99.4M174.3 78.8L174.5 9.3M174.3 78.8L174.0 88.0L168.7 101.2L168.4 157.2L141.1 186.2L131.7 200.8L130.7 206.7L132.5 221.5L142.0 229.3L148.0 236.5L150.4 246.9L149.8 256.6L150.7 261.5L153.9 267.2L156.3 267.7L159.1 273.5L163.6 276.4L165.1 279.4L167.8 280.0L170.7 285.5L179.9 287.9L179.4 296.4L181.9 302.2L180.4 310.8L181.8 315.9L179.7 327.2L173.8 332.3L171.4 337.2L168.9 339.4L168.7 342.1L167.1 344.3L159.5 347.5L158.1 351.9L153.5 358.3L148.2 361.1L145.8 364.4L142.0 366.6L139.7 373.0L141.5 383.8L141.6 400.6L143.2 407.2L148.5 418.0L147.7 426.3L142.5 444.2L144.1 448.1L143.9 454.2L148.5 459.5L150.4 467.3L154.1 475.7M244.2 60.5L244.2 54.8M17.7 99.4L35.7 99.5M17.7 99.4L35.7 99.5M176.0 1.9L171.4 -1.5M251.3 73.0L251.7 58.8L254.3 56.4L264.6 56.2L269.7 52.6L278.4 51.8L302.7 56.3L312.2 48.0L313.2 35.1L322.4 20.3L328.2 17.3L329.5 15.2L328.4 9.1L328.7 0.1L326.1 -6.2L327.1 -17.3M262.2 75.9L256.4 73.0L235.8 73.0L227.6 78.8L174.3 78.8L174.0 88.0L168.7 101.2L168.4 157.2L141.1 186.2L131.7 200.8L130.7 206.7L132.5 221.5L142.0 229.3L148.0 236.5L150.4 246.9L149.8 256.6L150.7 261.5L153.9 267.2L156.3 267.7L159.1 273.5L163.6 276.4L165.1 279.4L167.8 280.0L170.7 285.5L179.9 287.9L179.4 296.4L181.9 302.2L180.4 310.8L181.8 315.9L179.7 327.2L173.8 332.3L171.4 337.2L168.9 339.4L168.7 342.1L167.1 344.3L159.5 347.5L158.1 351.9L153.5 358.3L148.0 361.3L145.5 364.7L141.6 366.9L139.7 373.0L141.5 383.8L141.8 401.7L143.2 407.2L148.5 418.0L147.7 426.3L142.6 444.7L144.1 448.1L143.9 454.1L148.5 459.5L150.4 467.3L154.1 475.7M121.6 368.3L130.2 367.2L140.3 369.6M179.5 327.3L174.9 331.3M115.1 372.0L112.6 372.1M259.5 74.3L256.3 73.0L235.4 73.0L227.6 78.8L174.3 78.8M-15.7 121.5L-10.6 117.4L-4.6 109.5L-2.8 104.8L3.4 99.5M401.0 295.2L407.6 296.3L408.9 298.3L408.7 301.1M176.0 1.9L138.3 -25.6M140.3 369.6L126.3 367.1L120.8 368.5L118.0 371.9L110.6 372.3L107.5 367.5L101.7 365.9L100.9 361.5L97.4 361.7L94.9 359.3L93.3 360.6L91.8 360.4L89.3 357.2L83.6 354.4L80.2 354.7M3.4 99.5L4.8 97.2"/><path class="major" d="M614.4 61.3L599.8 55.4L577.4 52.8L568.4 48.5L547.8 49.5L518.3 66.4L500.6 88.5L493.0 96.4L490.5 97.7L477.8 97.8L468.6 95.8L446.6 85.3L437.2 86.0L425.3 83.5L415.6 84.7L409.1 84.0L401.7 85.8L395.3 85.5L381.1 89.5L369.9 84.4M369.9 84.6L364.0 81.5L352.9 82.1L348.8 83.9L342.2 90.7L335.5 95.1L332.0 95.0L328.6 96.7L323.0 96.3L311.3 101.5L304.5 98.9L297.3 94.7L291.1 86.3L263.2 77.3L261.7 75.3L260.7 70.7L256.8 65.4L238.9 57.8L236.9 54.5L235.7 48.3L233.2 45.3L206.5 25.5L170.3 7.1L167.6 3.8L166.1 -2.6L163.9 -5.9L110.7 -45.5M369.9 84.4L364.1 81.3L352.3 82.0L348.5 83.8L341.4 91.1L335.4 95.1L331.9 95.0L328.3 96.7L323.1 96.2L311.2 101.4L304.9 99.0L297.4 94.6L291.0 86.1L263.3 77.2L261.7 75.0L260.8 70.6L256.4 65.0L239.0 57.7L237.1 54.4L236.0 48.7L233.5 45.4L206.1 25.2L170.5 7.1L167.9 4.0L166.1 -3.0L163.6 -6.3L110.4 -45.8M262.0 75.9L265.1 78.2L291.1 86.3L297.5 94.9L310.6 101.5L323.0 96.3L328.6 96.7L332.0 95.0L335.9 95.0L342.2 90.7L348.2 84.3L352.1 82.3L363.9 81.5L369.9 84.6M614.2 61.4L599.7 55.6L577.6 52.9L568.4 48.7L547.3 49.9L518.2 66.7L499.8 89.8L492.9 96.7L490.4 97.9L477.8 98.0L467.8 95.7L446.8 85.6L433.6 87.1L425.8 84.2L418.1 85.4L396.8 85.5L380.1 89.8L369.9 84.6M481.3 98.0L489.8 98.0L492.7 96.9L500.1 89.4L517.6 67.2L540.8 53.5M481.3 97.9L489.9 97.8L492.5 96.8L500.6 88.5L517.0 67.6L540.7 53.4M369.9 84.4L364.1 81.3L352.3 82.0L348.5 83.8L341.4 91.1L335.4 95.1L331.9 95.0L328.3 96.7L323.1 96.2L310.6 101.4L297.6 94.8L291.0 86.1L276.4 82.0L264.1 77.6L262.2 75.9M369.9 84.4L381.1 89.5L395.3 85.5L401.7 85.8L409.1 84.0L415.6 84.7L425.3 83.5L437.2 86.0L446.6 85.3L468.6 95.8L477.8 97.8L490.5 97.7L493.0 96.4L500.6 88.5L518.3 66.4L547.8 49.5L568.4 48.5L577.4 52.8L599.8 55.4L614.4 61.3M369.9 84.6L380.1 89.8L396.8 85.5L418.1 85.4L425.8 84.2L433.6 87.1L446.8 85.6L467.8 95.7L477.8 98.0L490.4 97.9L492.9 96.7L499.8 89.8L518.2 66.7L547.3 49.9L568.4 48.7L577.6 52.9L599.7 55.6L614.2 61.4"/></g><g class="towns" aria-hidden="true"><text x="129.5" y="379.4">Big Sky</text><text x="358.5" y="92.5">Livingston</text><g class="route"><rect x="310.8" y="87.5" width="42.4" height="15" rx="3"/><text x="332.0" y="99.5" text-anchor="middle">I-90</text></g><g class="route"><rect x="232.2" y="68.4" width="59.6" height="15" rx="3"/><text x="262.0" y="80.4" text-anchor="middle">US 191</text></g><g class="route"><rect x="449.9" y="139.3" width="51.0" height="15" rx="3"/><text x="475.4" y="151.3" text-anchor="middle">US 89</text></g></g><g class="dots"><a href="#empire-twin" data-name="Empire Twin Theatres" data-shows="[[&quot;2026-11-17T16:00&quot;,&quot;You Can See Everything&quot;,false],[&quot;2026-11-17T16:15&quot;,&quot;Cat in the Hat&quot;,false],[&quot;2026-11-17T19:00&quot;,&quot;You Can See Everything&quot;,false],[&quot;2026-11-17T19:30&quot;,&quot;Cat in the Hat&quot;,false],[&quot;2026-11-18T16:15&quot;,&quot;Cat in the Hat&quot;,false],[&quot;2026-11-18T19:00&quot;,&quot;You Can See Everything&quot;,false]]"><circle class="hit" cx="487.5" cy="86.0" r="16.0"/><circle cx="487.5" cy="86.0" r="5.5" class="dim"><title>Empire Twin Theatres</title></circle></a><a href="#waypoint-big-sky" data-name="The Waypoint" data-shows="[[&quot;2026-11-16T17:00&quot;,&quot;Wicker&quot;,false],[&quot;2026-11-16T19:15&quot;,&quot;Wicker&quot;,false],[&quot;2026-11-18T17:00&quot;,&quot;Wicker&quot;,false],[&quot;2026-11-18T19:15&quot;,&quot;Wicker&quot;,false],[&quot;2026-11-19T17:00&quot;,&quot;Wicker&quot;,false],[&quot;2026-11-19T19:15&quot;,&quot;Wicker&quot;,false]]"><circle class="hit" cx="112.5" cy="372.9" r="16.0"/><circle cx="112.5" cy="372.9" r="5.5"><title>The Waypoint</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><p class="jump-label">Livingston</p><ul class="jump"><li><a href="#empire-twin">Empire Twin Theatres</a></li></ul><p class="jump-label">Big Sky</p><ul class="jump"><li><a href="#waypoint-big-sky">The Waypoint</a></li></ul></nav>
-  <h2 class="region">Livingston</h2>
-<article class="house" id="empire-twin"><h3>Empire Twin Theatres</h3><p class="where">Downtown Livingston · <a href="https://www.livingstonmovies.com/">Website</a></p><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">You Can See Everything</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">Cat in the Hat</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:30pm</span></span></li></ul><details><summary>Later this week <span>4 showings</span></summary><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">Cat in the Hat</a></span><span class="times"><span class="chip">4:15pm</span></span></li><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">You Can See Everything</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">Cat in the Hat</a></span><span class="times"><span class="chip">4:15pm</span></span></li><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">You Can See Everything</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></details></article>
-<h2 class="region">Big Sky</h2>
-<article class="house" id="waypoint-big-sky"><h3>The Waypoint</h3><p class="where">Town Center, Big Sky · <a href="https://thebigskywaypoint.com/movies">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">Wicker</a></span><span class="times"><span class="chip">5pm</span><span class="chip">7:15pm</span></span></li></ul><details><summary>Later this week <span>10 showings</span></summary><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">Wicker</a></span><span class="times"><span class="chip">5pm</span><span class="chip">7:15pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">Wicker</a></span><span class="times"><span class="chip">5pm</span><span class="chip">7:15pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">5pm</span><span class="chip">8pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">5pm</span><span class="chip">8pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">5pm</span><span class="chip">8pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <h2 class="region" id="region-livingston">Livingston</h2>
+<article class="house" id="empire-twin"><h3>Empire Twin Theatres</h3><p class="where">Downtown Livingston · <span class="addr">106 North 2nd Street, Livingston</span> · <a href="https://www.livingstonmovies.com/">Website</a></p><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">You Can See Everything</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">Cat in the Hat</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:30pm</span></span></li></ul><details><summary>Later this week <span>4 showings</span></summary><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">Cat in the Hat</a></span><span class="times"><span class="chip">4:15pm</span></span></li><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">You Can See Everything</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">Cat in the Hat</a></span><span class="times"><span class="chip">4:15pm</span></span></li><li><span class="film"><a href="https://51823.formovietickets.com/T.ASP?WCI=BT&amp;Page=schedule&amp;SelectedDate=20261117">You Can See Everything</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></details></article>
+<h2 class="region" id="region-big-sky">Big Sky</h2>
+<article class="house" id="waypoint-big-sky"><h3>The Waypoint</h3><p class="where">Town Center, Big Sky · <span class="addr">50 Ousel Falls Road, Big Sky</span> · <a href="https://thebigskywaypoint.com/movies">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">Wicker</a></span><span class="times"><span class="chip">5pm</span><span class="chip">7:15pm</span></span></li></ul><details><summary>Later this week <span>10 showings</span></summary><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">Wicker</a></span><span class="times"><span class="chip">5pm</span><span class="chip">7:15pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">Wicker</a></span><span class="times"><span class="chip">5pm</span><span class="chip">7:15pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">5pm</span><span class="chip">8pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">5pm</span><span class="chip">8pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://thebigskywaypoint.com/movies">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">5pm</span><span class="chip">8pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

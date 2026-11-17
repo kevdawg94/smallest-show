@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Independent cinema showtimes in Sun Valley, ID, ID · Smallest Show</title>
-<meta name="description" content="Sun Valley, ID, ID: this week&#x27;s showtimes at 1 independent cinema, including Sun Valley Opera House.">
-<meta property="og:title" content="Independent cinema showtimes in Sun Valley, ID, ID">
-<meta property="og:description" content="Sun Valley, ID, ID: this week&#x27;s showtimes at 1 independent cinema, including Sun Valley Opera House.">
+<title>Independent cinema showtimes in Sun Valley, ID · Smallest Show</title>
+<meta name="description" content="Sun Valley, ID: this week&#x27;s showtimes at its independent cinema, Sun Valley Opera House.">
+<meta property="og:title" content="Independent cinema showtimes in Sun Valley, ID">
+<meta property="og:description" content="Sun Valley, ID: this week&#x27;s showtimes at its independent cinema, Sun Valley Opera House.">
 <meta property="og:url" content="https://smallest.show/cities/sun-valley-id/">
 <link rel="canonical" href="https://smallest.show/cities/sun-valley-id/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Sun Valley Opera House", "@id": "https://smallest.show/cities/sun-valley-id/#sunvalley-opera-house", "url": "https://www.sunvalley.com/things-to-do/movies", "address": {"@type": "PostalAddress", "streetAddress": "1 Sun Valley Rd", "addressLocality": "Sun Valley", "addressRegion": "ID", "postalCode": "83353", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 43.69584, "longitude": -114.35329}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Sun Valley, ID</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;sunvalley-opera-house&quot;]" data-tz="America/Boise">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Boise"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Sun Valley, ID with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 8.3 -9.3 5.4 -6.8 5.3 -0.8 2.3 33.6 2.3 33.6 54.5 110.4 54.5 114.4 56.1 116.6 59.6 118.0 58.4 122.6 59.2 125.3 65.3 127.6 64.0 131.6 65.3 132.9 67.7 137.3 70.4 138.0 74.8 142.7 78.3 145.9 78.2 153.7 81.8 154.7 84.9 157.0 85.7 160.9 92.3 166.9 96.6 166.7 100.0 165.2 100.8 165.8 102.8 167.3 103.5 165.8 108.2 168.2 111.4 167.7 115.5 171.1 116.1 174.4 118.1 174.7 119.7 177.2 119.8 179.1 121.2 181.9 121.6 182.4 120.5 186.6 119.3 198.7 120.1 201.5 117.8 202.8 114.7 205.8 112.9 207.5 106.1 205.8 104.6 203.8 99.3 204.0 96.5 209.6 88.6 209.3 84.8 207.0 83.1 206.4 80.9 210.6 77.4 216.1 76.3 217.8 74.9 219.9 75.2 223.8 73.1 229.9 79.5 237.8 79.1 243.9 80.3 247.7 78.9 248.5 80.4 257.1 83.5 261.3 83.3 267.2 80.2 270.4 82.7 274.1 83.6 279.7 89.3 281.5 89.0 289.0 91.5 290.0 93.3 296.5 97.3 298.1 97.3 300.4 93.9 300.5 89.1 303.1 88.2 305.6 84.4 317.2 88.0 321.6 86.2 325.0 88.3 335.2 87.0 339.5 89.6 343.1 93.6 340.9 99.2 340.4 107.8 344.6 115.3 342.6 121.9 344.9 131.8 347.6 133.0 349.2 132.2 355.9 140.2 358.6 140.0 360.2 141.3 364.6 148.1 371.9 151.8 373.8 151.7 380.7 157.3 385.4 158.5 386.3 161.6 391.3 165.0 395.1 165.6 399.9 164.6 404.1 168.5 405.4 172.5 408.0 173.6 408.9 175.5 411.7 177.0 415.8 175.7 422.0 177.2 423.4 180.6 425.3 182.2 426.4 187.7 424.7 191.6 427.1 193.6 427.6 196.1 430.1 198.6 432.2 199.0 436.7 204.4 445.5 208.1 452.9 206.0 457.2 208.6 463.8 208.9 466.7 207.1 468.0 204.4 471.7 203.2 473.6 199.5 473.2 194.0 474.4 191.4 473.4 187.0 485.2 183.1 487.2 178.0 491.9 180.5 493.5 183.0 499.6 183.4 501.9 184.7 504.6 190.6 508.0 192.0 505.8 198.0 506.9 199.2 506.0 202.6 508.2 202.2 512.6 206.9 513.5 209.7 512.5 216.8 516.7 221.4 519.3 230.4 529.5 235.7 534.2 241.5 535.5 245.3 539.0 247.6 542.8 253.2 555.3 259.3 557.6 265.0 557.2 270.0 559.3 276.9 566.0 278.3 567.6 276.7 569.6 276.4 571.8 277.9 573.6 276.3 576.5 276.3 580.2 279.4 583.8 280.5 583.8 286.5 585.3 289.4 587.9 290.3 590.2 294.5 594.6 296.7 595.4 300.2 597.2 301.8 596.2 302.5 599.4 307.1 598.5 309.7 599.4 312.7 603.4 313.3 607.7 312.3 612.0 316.1 612.0 492.0 199.7 492.0 199.8 478.0 188.3 477.9 188.0 447.8 191.1 443.7 193.2 445.0 195.7 444.8 196.9 438.8 198.6 438.1 205.0 430.1 207.0 430.3 207.9 428.3 208.1 425.2 210.4 419.8 210.5 415.0 211.6 414.3 210.4 411.5 207.1 409.9 205.8 402.0 198.1 404.1 190.1 398.8 187.0 399.4 180.0 398.3 179.0 394.6 175.7 393.1 172.7 387.3 168.9 384.0 168.8 378.0 163.4 373.3 159.8 371.7 160.2 366.2 162.5 359.5 166.0 356.7 163.6 354.6 165.0 349.6 157.4 344.9 156.0 342.7 150.9 344.6 150.6 342.1 147.5 341.2 144.2 336.4 136.4 337.8 136.0 335.9 133.0 334.1 132.7 330.1 127.4 322.3 123.4 322.3 121.2 321.0 114.6 322.2 109.7 324.4 110.6 306.2 116.3 297.5 116.2 295.3 117.6 293.1 115.4 287.5 116.9 284.5 121.0 281.1 120.7 276.1 121.9 272.3 121.3 268.1 117.6 261.8 113.5 261.9 111.5 260.7 111.5 257.3 106.7 249.9 106.5 243.9 113.2 238.2 109.7 229.9 111.0 217.4 113.1 216.1 113.9 212.8 119.1 205.5 116.9 201.4 113.1 201.1 110.9 202.8 104.8 195.6 105.7 183.6 102.1 176.4 103.7 169.3 98.3 152.3 90.0 144.4 88.2 144.8 87.7 148.2 85.1 152.0 81.8 150.7 78.4 151.9 76.1 151.2 70.5 155.7 67.6 156.2 64.6 163.4 58.1 161.8 56.1 162.7 52.9 156.1 51.2 156.2 49.2 154.6 45.0 155.4 41.3 154.5 40.1 156.3 32.9 157.8 28.4 163.9 24.9 166.3 23.2 162.2 21.2 161.5 18.6 161.0 11.8 163.8 10.2 163.3 9.2 160.3 10.5 152.0 13.8 148.6 14.0 143.6 12.6 142.4 7.2 142.2 3.8 139.1 -5.8 138.2 -8.0 137.2 -9.4 134.2 -12.0 133.2Z"/><path d="M-12.0 492.0 -12.0 133.2 -9.4 134.2 -8.0 137.2 -5.8 138.2 3.8 139.1 7.2 142.2 12.6 142.4 14.0 143.6 13.8 148.6 10.5 152.0 9.2 160.3 10.2 163.3 11.8 163.8 18.6 161.0 21.2 161.5 23.2 162.2 24.9 166.3 28.4 163.9 32.9 157.8 40.1 156.3 41.3 154.5 45.0 155.4 49.2 154.6 51.2 156.2 52.9 156.1 56.1 162.7 58.1 161.8 64.6 163.4 67.6 156.2 70.5 155.7 76.1 151.2 78.4 151.9 81.8 150.7 85.1 152.0 87.7 148.2 88.2 144.8 90.0 144.4 98.3 152.3 100.5 161.3 102.9 165.7 103.7 169.3 102.1 176.4 106.0 186.1 104.8 195.6 110.9 202.8 113.1 201.1 116.9 201.4 119.1 205.5 113.9 212.8 113.1 216.1 111.0 217.4 109.7 229.9 113.2 238.2 106.5 243.9 106.7 249.9 111.5 257.3 111.5 260.7 113.5 261.9 117.6 261.8 121.3 268.1 121.9 272.3 120.7 276.1 121.0 281.1 116.9 284.5 115.4 287.5 117.6 293.1 116.2 295.3 116.3 297.5 110.6 306.2 109.7 324.4 114.6 322.2 121.2 321.0 123.4 322.3 127.4 322.3 132.7 330.1 133.0 334.1 136.0 335.9 136.4 337.8 144.2 336.4 147.5 341.2 150.6 342.1 150.9 344.6 156.0 342.7 157.4 344.9 165.0 349.6 163.6 354.6 166.0 356.7 162.5 359.5 160.2 366.2 159.8 371.7 163.4 373.3 168.8 378.0 168.9 384.0 172.7 387.3 175.7 393.1 179.0 394.6 180.0 398.3 187.0 399.4 190.1 398.8 198.1 404.1 205.8 402.0 207.1 409.9 210.4 411.5 211.6 414.3 210.5 415.0 210.4 419.8 208.1 425.2 207.9 428.3 207.0 430.3 205.0 430.1 198.6 438.1 196.9 438.8 195.7 444.8 193.2 445.0 191.1 443.7 188.0 447.8 188.3 477.9 199.8 478.0 199.7 492.0Z"/><path d="M-12.0 -12.0 612.0 -12.0 612.0 316.1 607.7 312.3 603.4 313.3 599.4 312.7 598.5 309.7 599.4 307.1 596.2 302.5 597.2 301.8 595.4 300.2 594.6 296.7 590.2 294.5 587.9 290.3 585.3 289.4 583.8 286.5 583.8 280.5 580.2 279.4 576.5 276.3 573.6 276.3 571.8 277.9 569.6 276.4 567.6 276.7 566.0 278.3 559.3 276.9 557.2 270.0 557.6 265.0 555.3 259.3 542.8 253.2 539.0 247.6 535.5 245.3 534.2 241.5 529.5 235.7 519.3 230.4 516.7 221.4 512.5 216.8 513.5 209.7 512.6 206.9 508.2 202.2 506.0 202.6 506.9 199.2 505.8 198.0 508.0 192.0 504.6 190.6 501.9 184.7 499.6 183.4 493.5 183.0 491.9 180.5 487.2 178.0 485.2 183.1 473.4 187.0 474.4 191.4 473.2 194.0 473.6 199.5 471.7 203.2 468.0 204.4 466.7 207.1 463.8 208.9 457.2 208.6 452.9 206.0 445.5 208.1 436.7 204.4 432.2 199.0 430.1 198.6 427.6 196.1 427.1 193.6 424.7 191.6 426.4 187.7 425.3 182.2 423.4 180.6 422.0 177.2 415.8 175.7 411.7 177.0 408.9 175.5 408.0 173.6 405.4 172.5 404.1 168.5 399.9 164.6 395.1 165.6 391.3 165.0 386.3 161.6 385.4 158.5 380.7 157.3 373.8 151.7 371.9 151.8 364.6 148.1 360.2 141.3 358.6 140.0 355.9 140.2 349.2 132.2 347.6 133.0 344.9 131.8 342.6 121.9 344.6 115.3 340.4 107.8 340.9 99.2 343.1 93.6 339.5 89.6 335.2 87.0 325.0 88.3 321.6 86.2 317.2 88.0 305.6 84.4 303.1 88.2 300.5 89.1 300.4 93.9 298.1 97.3 296.5 97.3 290.0 93.3 289.0 91.5 281.5 89.0 279.7 89.3 274.1 83.6 270.4 82.7 267.2 80.2 261.3 83.3 257.1 83.5 248.5 80.4 247.7 78.9 243.9 80.3 237.8 79.1 229.9 79.5 223.8 73.1 219.9 75.2 217.8 74.9 216.1 76.3 210.6 77.4 206.4 80.9 207.0 83.1 209.3 84.8 209.6 88.6 204.0 96.5 203.8 99.3 205.8 104.6 207.5 106.1 205.8 112.9 202.8 114.7 201.5 117.8 198.7 120.1 186.6 119.3 182.4 120.5 181.9 121.6 179.1 121.2 177.2 119.8 174.7 119.7 174.4 118.1 171.1 116.1 167.7 115.5 168.2 111.4 165.8 108.2 167.3 103.5 165.8 102.8 165.2 100.8 166.7 100.0 166.9 96.6 160.9 92.3 157.0 85.7 154.7 84.9 153.7 81.8 145.9 78.2 142.7 78.3 138.0 74.8 137.3 70.4 132.9 67.7 131.6 65.3 127.6 64.0 125.3 65.3 122.6 59.2 118.0 58.4 116.6 59.6 114.4 56.1 110.4 54.5 33.6 54.5 33.6 2.3 -0.8 2.3 -6.8 5.3 -9.3 5.4 -12.0 8.3Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M33.5 38.4L23.1 10.6L22.5 2.3M318.5 374.7L317.1 372.0M295.6 258.8L294.5 253.0M321.9 380.9L318.5 374.7M327.3 386.0L324.9 386.2L321.5 380.2M321.1 379.4L319.2 376.0M311.3 339.8L309.3 334.0M33.6 47.3L34.6 43.1L33.6 38.7M350.0 495.1L353.5 482.4L358.4 475.6L358.4 440.6L350.5 416.6L329.5 386.7L324.8 386.1L316.6 370.9L312.6 357.4L312.6 344.0L300.7 311.4L298.4 290.2L303.4 276.4L298.1 261.6L295.5 258.6L295.3 254.0L292.0 249.9L289.5 231.2L284.3 216.1L280.9 210.8L281.0 204.5L274.6 189.9L261.0 168.1L255.4 162.7L250.9 160.5L246.6 160.2L232.7 162.2L207.3 172.9L183.6 169.6L177.0 167.2L171.7 162.3L160.5 144.3L143.4 133.7L142.5 126.0L134.5 119.5L133.2 114.9L127.2 106.6L125.7 99.6L121.6 98.9L119.4 95.9L115.6 93.4L112.8 84.4L110.7 82.5L110.2 80.1L108.6 80.5L109.3 83.2L105.3 88.1L101.2 87.4L101.7 90.6L98.6 91.0L99.3 93.2L96.8 95.4L92.3 103.0L92.1 100.5L90.2 99.0L83.9 99.7L82.6 98.8L86.6 92.9L80.1 92.5L75.8 90.6L73.8 84.7L75.1 82.2L74.4 81.0L72.1 82.2L66.2 89.1L53.8 88.9L51.8 87.0L44.8 72.0L36.1 66.4L31.1 56.7L31.6 51.7L33.6 47.3M356.8 435.4L350.9 417.6L347.9 412.9M33.6 38.7L23.1 10.6L22.5 2.3M294.5 253.0L291.9 249.7L290.1 234.4M22.3 -28.7L22.5 2.3"/></g><g class="towns" aria-hidden="true"><text x="244.0" y="223.0">Sun Valley</text></g><g class="dots"><a href="#sunvalley-opera-house" data-name="Sun Valley Opera House" data-shows="[[&quot;2026-11-16T17:00&quot;,&quot;Wildwood&quot;,false],[&quot;2026-11-17T17:00&quot;,&quot;Wildwood&quot;,false],[&quot;2026-11-18T17:00&quot;,&quot;Wildwood&quot;,false],[&quot;2026-11-19T17:00&quot;,&quot;Wildwood&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5"><title>Sun Valley Opera House</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#sunvalley-opera-house">Sun Valley Opera House</a></li></ul></nav>
-  <article class="house" id="sunvalley-opera-house"><h3>Sun Valley Opera House</h3><p class="where">Sun Valley · <a href="https://www.sunvalley.com/things-to-do/movies">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://www.sunvalley.com/things-to-do/movies">Wildwood</a></span><span class="times"><span class="chip">5pm</span></span></li></ul><details><summary>Later this week <span>3 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.sunvalley.com/things-to-do/movies">Wildwood</a></span><span class="times"><span class="chip">5pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.sunvalley.com/things-to-do/movies">Wildwood</a></span><span class="times"><span class="chip">5pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.sunvalley.com/things-to-do/movies">Wildwood</a></span><span class="times"><span class="chip">5pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="sunvalley-opera-house"><h3>Sun Valley Opera House</h3><p class="where">Sun Valley · <span class="addr">1 Sun Valley Rd, Sun Valley</span> · <a href="https://www.sunvalley.com/things-to-do/movies">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://www.sunvalley.com/things-to-do/movies">Wildwood</a></span><span class="times"><span class="chip">5pm</span></span></li></ul><details><summary>Later this week <span>3 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.sunvalley.com/things-to-do/movies">Wildwood</a></span><span class="times"><span class="chip">5pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.sunvalley.com/things-to-do/movies">Wildwood</a></span><span class="times"><span class="chip">5pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.sunvalley.com/things-to-do/movies">Wildwood</a></span><span class="times"><span class="chip">5pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

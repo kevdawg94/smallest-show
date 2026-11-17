@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Independent cinema showtimes in Steamboat Springs, CO, CO · Smallest Show</title>
-<meta name="description" content="Steamboat Springs, CO, CO: this week&#x27;s showtimes at 1 independent cinema, including Wildhorse Cinema + Arts.">
-<meta property="og:title" content="Independent cinema showtimes in Steamboat Springs, CO, CO">
-<meta property="og:description" content="Steamboat Springs, CO, CO: this week&#x27;s showtimes at 1 independent cinema, including Wildhorse Cinema + Arts.">
+<title>Independent cinema showtimes in Steamboat Springs, CO · Smallest Show</title>
+<meta name="description" content="Steamboat Springs, CO: this week&#x27;s showtimes at its independent cinema, Wildhorse Cinema + Arts.">
+<meta property="og:title" content="Independent cinema showtimes in Steamboat Springs, CO">
+<meta property="og:description" content="Steamboat Springs, CO: this week&#x27;s showtimes at its independent cinema, Wildhorse Cinema + Arts.">
 <meta property="og:url" content="https://smallest.show/cities/steamboat-springs-co/">
 <link rel="canonical" href="https://smallest.show/cities/steamboat-springs-co/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Wildhorse Cinema + Arts", "@id": "https://smallest.show/cities/steamboat-springs-co/#wildhorse-steamboat", "url": "https://www.wildhorsesteamboat.org/", "address": {"@type": "PostalAddress", "streetAddress": "655 Marketplace Plaza", "addressLocality": "Steamboat Springs", "addressRegion": "CO", "postalCode": "80484", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 40.45862, "longitude": -106.81982}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Steamboat Springs, CO</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[]" data-tz="America/Denver" hidden>
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Denver"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Steamboat Springs, CO with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M401.7 295.7 402.1 250.7 403.2 255.1 410.3 261.1 419.5 261.5 420.3 263.1 417.7 265.3 416.1 271.8 421.9 282.7 423.1 292.3 426.5 297.4 426.3 303.4 428.1 304.3 428.8 303.1 433.2 306.3 435.9 303.8 437.1 300.4 439.3 302.4 442.7 301.1 448.1 304.0 458.6 304.4 460.2 305.1 461.0 309.3 462.5 311.0 465.7 310.8 468.1 309.2 470.9 310.1 473.4 314.8 476.6 311.6 479.3 298.3 482.3 296.1 483.2 294.1 487.2 297.5 488.4 295.5 488.3 292.2 494.1 284.8 497.2 284.0 497.8 281.4 500.9 277.6 503.6 278.8 507.9 283.1 508.6 287.1 506.1 295.4 510.2 296.5 512.3 301.1 511.1 303.4 514.7 303.5 516.4 306.2 517.1 313.3 520.0 313.7 521.4 316.2 520.8 323.3 522.5 323.5 529.1 329.7 531.8 326.8 535.4 327.2 542.3 324.7 545.1 326.8 549.3 326.8 550.9 329.8 553.1 330.9 558.1 329.3 561.8 330.3 564.5 325.0 567.0 324.7 572.3 321.3 576.1 322.2 579.8 320.2 582.0 320.4 583.7 320.9 585.8 324.4 588.9 326.9 589.7 329.7 593.6 332.8 593.9 335.2 603.5 337.0 609.0 342.7 612.0 343.6 612.0 492.0 411.2 492.0 411.3 463.7 413.6 463.7 414.2 333.6 401.6 333.6Z"/><path d="M-12.0 126.7 -0.9 126.7 -1.8 -12.0 398.9 -12.0 396.0 -9.6 395.3 -6.7 391.4 -2.5 391.5 -0.8 393.6 0.3 396.5 4.2 394.1 7.8 395.5 12.5 392.2 15.6 387.1 17.6 390.9 21.2 391.5 23.9 388.9 27.7 391.3 31.1 390.5 33.8 391.9 38.7 389.7 40.1 392.4 49.9 389.5 56.2 385.4 58.2 384.2 60.3 380.9 60.4 380.8 62.4 383.7 64.6 384.5 66.8 381.4 67.9 380.7 69.3 381.6 77.0 377.9 78.9 379.8 86.3 384.7 87.5 385.0 88.5 383.4 89.4 379.8 95.2 381.0 99.1 376.5 100.6 374.0 104.9 370.7 104.7 372.3 106.1 369.2 114.4 370.7 118.5 370.3 121.0 373.7 125.3 374.0 127.4 375.8 128.3 376.5 130.7 371.5 144.5 374.7 148.8 377.7 156.1 377.3 161.6 381.3 165.8 383.1 171.3 386.1 171.5 387.1 176.5 391.3 179.3 388.9 187.9 389.9 189.9 393.0 190.8 397.9 195.5 396.6 197.3 399.8 199.6 399.7 206.9 401.5 211.1 401.0 212.9 397.8 214.6 399.6 218.4 399.0 220.1 395.3 222.7 393.0 226.0 392.9 228.8 394.1 230.5 398.6 229.6 398.8 237.0 397.9 239.4 399.4 242.1 399.8 246.7 402.3 247.1 401.6 333.6 414.2 333.6 413.6 463.7 411.3 463.7 411.2 492.0 167.4 492.0 167.1 426.6 131.8 426.0 131.7 426.8 -12.0 427.7Z"/><path d="M612.0 -12.0 612.0 343.6 609.0 342.7 603.5 337.0 593.9 335.2 593.6 332.8 589.7 329.7 588.9 326.9 585.8 324.4 583.7 320.9 582.0 320.4 579.8 320.2 576.1 322.2 572.3 321.3 567.0 324.7 564.5 325.0 561.8 330.3 558.1 329.3 553.1 330.9 550.9 329.8 549.3 326.8 545.1 326.8 542.3 324.7 535.4 327.2 531.8 326.8 529.1 329.7 522.5 323.5 520.8 323.3 521.4 316.2 520.0 313.7 517.1 313.3 516.4 306.2 514.7 303.5 511.1 303.4 512.3 301.1 510.2 296.5 506.1 295.4 508.6 287.1 507.9 283.1 503.6 278.8 500.9 277.6 497.8 281.4 497.2 284.0 494.1 284.8 488.3 292.2 488.4 295.5 487.2 297.5 483.2 294.1 482.3 296.1 479.3 298.3 476.6 311.6 473.4 314.8 470.9 310.1 468.1 309.2 465.7 310.8 462.5 311.0 461.0 309.3 460.2 305.1 458.6 304.4 448.1 304.0 442.7 301.1 439.3 302.4 437.1 300.4 435.9 303.8 433.2 306.3 431.5 304.2 426.3 303.4 426.5 297.4 423.1 292.3 421.9 282.7 416.1 271.8 417.7 265.3 420.3 263.1 419.5 261.5 410.3 261.1 403.2 255.1 402.2 253.2 402.3 247.1 399.8 246.7 399.4 242.1 397.9 239.4 398.8 237.0 398.6 229.6 394.1 230.5 392.9 228.8 393.0 226.0 395.3 222.7 399.0 220.1 399.6 218.4 397.8 214.6 401.0 212.9 401.5 211.1 399.7 206.9 399.8 199.6 396.6 197.3 397.9 195.5 393.0 190.8 389.9 189.9 389.2 185.4 391.5 180.9 391.3 179.3 387.1 176.5 386.1 171.5 383.1 171.3 381.3 165.8 377.3 161.6 377.7 156.1 374.7 148.8 371.5 144.5 376.5 130.7 375.8 128.3 374.0 127.4 373.7 125.3 370.3 121.0 370.7 118.5 369.2 113.6 372.3 106.1 370.7 104.7 374.0 104.9 376.5 100.6 381.0 99.1 379.8 95.2 383.4 89.4 385.0 88.5 384.7 87.5 380.4 87.0 377.8 80.7 377.9 78.9 381.6 77.0 380.7 69.3 381.4 67.9 384.5 66.8 383.7 64.6 380.8 62.4 380.9 60.4 384.2 60.3 385.4 58.2 389.5 56.2 392.4 49.9 389.7 40.1 391.9 38.7 390.5 33.8 391.3 31.1 388.9 27.7 391.5 23.9 390.9 21.2 387.1 17.6 392.2 15.6 395.5 12.5 394.1 7.8 396.5 4.2 393.6 0.3 391.5 -0.8 391.9 -3.4 398.9 -12.0Z"/><path d="M-12.0 492.0 -12.0 427.7 131.7 426.8 131.8 426.0 167.1 426.6 167.4 492.0Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M302.2 244.3L296.6 236.8L295.4 221.9M302.4 251.9L302.2 244.3M295.4 221.9L295.4 221.8M295.4 221.9L296.7 237.0L302.2 244.3M219.9 389.0L217.5 386.3L215.6 386.1M28.6 211.7L39.3 209.2M215.6 386.1L213.5 386.3M446.4 303.4L442.2 298.6L440.2 297.7L437.7 298.6L436.3 296.5L433.5 295.4L429.5 289.8L427.7 290.8L427.8 297.8L426.6 299.6M295.4 221.8L286.4 214.1L280.5 210.8L277.4 204.9L267.0 203.5L263.9 201.9L261.8 202.4M295.4 221.9L296.7 237.0L302.2 244.3M225.5 424.5L224.8 418.6M537.7 494.8L546.2 483.8L546.9 481.0L539.8 453.8L542.0 442.9L533.4 425.7L531.3 414.9L525.1 408.7L522.0 399.4L513.9 389.3L513.1 386.0L514.6 382.8L514.0 379.6L508.1 376.5L504.2 372.1L497.1 371.1L492.9 367.6L490.9 361.8L488.1 358.5L483.1 355.8L479.7 349.6L458.5 326.5L454.2 324.7L451.5 321.2L451.2 317.6L447.4 310.4L446.4 303.4M401.7 295.7L387.9 295.8L380.2 301.3L368.3 299.4L358.7 305.9L352.0 306.5L346.2 313.3L341.7 316.2L342.4 322.2L346.1 325.6L346.0 327.4L337.9 326.5L330.0 319.4L325.6 318.4L322.2 312.2L316.2 310.6L314.8 305.9L312.1 305.4L310.0 302.6L305.7 301.1L308.0 294.1L308.1 269.8L307.2 267.3L302.6 262.6L302.2 244.3M302.2 244.3L296.6 236.8L295.4 221.9M613.2 33.6L602.7 36.6L557.6 78.3L556.9 82.8L558.2 88.7L558.4 98.9L556.5 102.8L555.8 108.7L551.4 118.5L551.0 162.0L554.1 169.5L556.8 172.0L557.4 173.9L555.8 178.5L545.2 193.1L535.7 215.0L521.2 230.3L521.8 234.2L527.8 239.1L527.5 254.2L524.3 257.6L520.6 258.2L514.7 257.3L509.0 259.0L504.4 257.2L495.7 256.3L491.9 257.7L490.2 262.6L478.8 268.5L469.2 278.4L466.3 286.3L452.8 293.6L446.3 302.9M215.3 352.7L216.0 343.4L224.1 334.4L227.0 329.6L232.5 325.4L245.4 323.8M401.7 295.7L404.6 294.9L417.8 295.9L424.4 299.7L426.6 299.6M256.2 493.9L246.2 481.4L240.7 453.5L228.3 427.9L224.9 423.7L224.8 416.4L226.2 408.1L227.9 404.6L225.3 398.0L221.2 390.2L217.4 386.2L212.5 386.1L211.5 384.4L212.3 380.4L210.0 378.6L212.7 376.1L212.5 372.4L214.3 369.6L213.6 362.0L215.1 356.9L215.9 343.6L217.4 340.8L224.1 334.4L226.8 329.9L231.0 326.1L260.4 320.3L271.9 319.7L287.3 311.1L296.0 310.3L296.8 304.0L296.7 265.0L297.7 263.8L302.8 263.1M242.6 462.9L240.4 452.6L228.3 427.9L225.5 424.5M-15.3 212.7L10.0 213.5L21.1 211.7L30.9 211.7L39.7 209.2L48.2 210.8L55.4 207.4L72.4 207.6L77.1 209.5L83.5 216.1L97.0 216.8L101.5 219.3L106.8 225.4L109.5 226.7L112.6 225.6L116.0 219.7L123.2 216.4L129.7 219.1L136.1 217.6L154.9 220.6L161.6 218.4L191.2 217.5L204.3 219.5L231.5 207.0L239.9 205.8L244.2 203.1L251.4 202.5L255.9 200.1L260.1 202.8L263.8 201.9L267.0 203.5L277.4 204.9L280.5 210.8L286.4 214.1L295.4 221.9"/></g><g class="towns" aria-hidden="true"><text x="204.8" y="223.0">Steamboat Springs</text><g class="route"><rect x="420.9" y="295.9" width="51.0" height="15" rx="3"/><text x="446.4" y="307.9" text-anchor="middle">US 40</text></g></g><g class="dots"><a href="#wildhorse-steamboat" data-name="Wildhorse Cinema + Arts" data-shows="[[&quot;2026-11-17T16:15&quot;,&quot;The Cat in the Hat&quot;,false],[&quot;2026-11-17T16:30&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-17T16:30&quot;,&quot;How to Rob a Bank&quot;,false],[&quot;2026-11-17T16:35&quot;,&quot;Wild Horse Nine&quot;,false],[&quot;2026-11-17T19:00&quot;,&quot;Take 5 Surprise&quot;,false],[&quot;2026-11-17T19:15&quot;,&quot;The Cat in the Hat&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5" class="dim"><title>Wildhorse Cinema + Arts</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#wildhorse-steamboat">Wildhorse Cinema + Arts</a></li></ul></nav>
-  <article class="house" id="wildhorse-steamboat"><h3>Wildhorse Cinema + Arts</h3><p class="where">Steamboat Springs · <a href="https://www.wildhorsesteamboat.org/">Website</a></p><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.wildhorsesteamboat.org/movie/the-cat-in-the-hat/">The Cat in the Hat</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://www.wildhorsesteamboat.org/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://www.wildhorsesteamboat.org/movie/how-to-rob-a-bank/">How to Rob a Bank</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7:45pm</span></span></li><li><span class="film"><a href="https://www.wildhorsesteamboat.org/movie/wild-horse-nine/">Wild Horse Nine</a></span><span class="times"><span class="chip">4:35pm</span><span class="chip">7:45pm</span></span></li><li><span class="film"><a href="https://www.wildhorsesteamboat.org/movie/take-5-surprise/">Take 5 Surprise</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="wildhorse-steamboat"><h3>Wildhorse Cinema + Arts</h3><p class="where">Steamboat Springs · <span class="addr">655 Marketplace Plaza, Steamboat Springs</span> · <a href="https://www.wildhorsesteamboat.org/">Website</a></p><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.wildhorsesteamboat.org/movie/the-cat-in-the-hat/">The Cat in the Hat</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://www.wildhorsesteamboat.org/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://www.wildhorsesteamboat.org/movie/how-to-rob-a-bank/">How to Rob a Bank</a></span><span class="times"><span class="chip">4:30pm</span><span class="chip">7:45pm</span></span></li><li><span class="film"><a href="https://www.wildhorsesteamboat.org/movie/wild-horse-nine/">Wild Horse Nine</a></span><span class="times"><span class="chip">4:35pm</span><span class="chip">7:45pm</span></span></li><li><span class="film"><a href="https://www.wildhorsesteamboat.org/movie/take-5-surprise/">Take 5 Surprise</a></span><span class="times"><span class="chip">7pm</span></span></li></ul></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

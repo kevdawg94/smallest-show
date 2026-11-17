@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Independent cinema showtimes in Wichita Falls · Smallest Show</title>
-<meta name="description" content="Wichita Falls: this week&#x27;s showtimes at 1 independent cinema, including National Theatre of Graham.">
+<meta name="description" content="Wichita Falls: this week&#x27;s showtimes at its independent cinema, National Theatre of Graham.">
 <meta property="og:title" content="Independent cinema showtimes in Wichita Falls">
-<meta property="og:description" content="Wichita Falls: this week&#x27;s showtimes at 1 independent cinema, including National Theatre of Graham.">
+<meta property="og:description" content="Wichita Falls: this week&#x27;s showtimes at its independent cinema, National Theatre of Graham.">
 <meta property="og:url" content="https://smallest.show/cities/wichita-falls/">
 <link rel="canonical" href="https://smallest.show/cities/wichita-falls/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "National Theatre of Graham", "@id": "https://smallest.show/cities/wichita-falls/#national-graham", "url": "https://nationaltheatreofgraham.com/", "address": {"@type": "PostalAddress", "streetAddress": "524 Oak Street", "addressLocality": "Graham", "addressRegion": "TX", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 33.1061, "longitude": -98.59167}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Wichita Falls</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 4:24pm CST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[]" data-tz="America/Chicago" hidden>
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Chicago"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Wichita Falls with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M411.4 254.0 414.4 86.6 414.4 -12.0 612.0 -12.0 612.0 321.5 410.7 318.5Z"/><path d="M57.2 6.9 193.7 8.4 414.6 7.9 414.4 86.6 410.2 363.0 177.6 359.3 59.3 359.3Z"/><path d="M-12.0 6.5 57.2 6.9 59.3 359.3 -12.0 359.3Z"/><path d="M414.4 -12.0 414.6 7.9 193.7 8.4 57.2 6.9 57.3 -12.0Z"/><path d="M-12.0 -12.0 57.3 -12.0 57.2 6.9 -12.0 6.5Z"/><path d="M310.7 492.0 310.8 361.4 410.2 363.0 410.7 318.5 612.0 321.5 612.0 492.0Z"/><path d="M-12.0 492.0 -12.0 359.3 177.6 359.3 310.8 361.4 310.7 492.0Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M304.8 234.2L307.8 231.6M312.5 231.1L319.2 231.5M321.7 232.5L319.3 231.4M189.0 42.6L191.3 41.2M307.2 264.9L301.2 247.1M58.1 178.1L-20.7 176.5M414.3 113.8L407.8 114.7L382.3 113.9L350.3 114.5L339.8 116.0L334.7 115.0L319.8 107.2L302.0 93.7L282.4 87.4L278.4 83.1L267.3 77.3L243.5 46.2L227.3 36.8L219.0 30.2L213.5 28.6L179.7 28.1L137.2 14.4L130.8 7.3M590.1 150.3L590.1 145.4L588.6 144.0M586.8 143.0L572.7 142.8M593.8 150.4L594.3 141.9M598.3 167.5L590.4 155.8L590.1 150.3M600.8 169.7L598.3 167.5M600.9 169.6L598.3 167.5M593.8 150.4L590.1 150.3M612.2 386.5L608.8 385.4L606.3 381.1L585.7 372.5L538.8 372.7L534.6 375.7L529.9 375.8M438.1 195.8L442.8 194.6M194.4 28.4L191.2 28.4M420.3 202.1L424.8 200.7M529.9 375.8L522.8 376.6M575.2 153.1L578.5 150.3L590.1 150.3M191.2 28.4L180.6 28.3L175.7 26.8M438.1 195.8L436.3 195.8M130.8 7.3L118.8 -8.5L110.5 -12.5M564.4 139.0L520.3 118.7L513.4 114.0M606.0 172.8L598.3 167.5M240.6 360.1L243.8 354.8L248.0 343.2L250.8 328.8L249.8 321.9L250.6 317.6L271.8 298.6L272.6 277.8L286.3 258.7L287.0 244.8L292.7 240.0L296.1 238.5L298.6 234.9L301.5 234.4M301.5 234.4L304.8 234.2M293.5 239.6L296.1 238.5L297.9 235.5M98.8 178.5L82.4 178.2M207.8 169.7L205.5 169.7M438.1 195.8L443.9 194.2M564.4 139.0L515.4 116.0M564.4 139.0L520.3 118.4L513.4 114.0M598.3 167.5L590.4 155.8L590.1 150.3M616.8 181.2L598.3 167.5M616.8 181.2L598.3 167.5M564.4 139.0L515.4 116.0M606.0 172.8L598.3 167.5M443.4 383.1L445.1 382.7M58.1 178.1L103.3 178.5L109.2 180.7L114.5 178.7L147.1 178.8L157.9 184.7L165.8 183.7L197.2 184.8L199.2 184.0L201.5 181.0L201.5 169.8L230.4 169.6L244.1 167.3L267.6 170.3L283.1 181.0L293.7 198.4L296.3 213.7L301.4 230.6L301.5 234.4L304.6 234.3L309.2 230.9L315.9 231.1M301.5 234.0L301.2 229.5L296.3 213.7L293.7 198.4L283.3 181.3L269.4 171.0L244.1 167.3L230.4 169.6L205.5 169.7M195.2 42.0L193.8 37.3L195.2 42.0M412.1 200.3L420.0 202.2L429.8 199.1L435.5 195.8L440.2 195.7L448.5 192.3L476.2 190.9L502.8 184.1L509.1 183.9L518.3 182.0L523.9 179.4L538.7 179.9L562.3 167.2L578.5 150.3L590.1 150.3L590.4 155.8L598.3 167.5M598.3 167.5L590.4 155.8L589.6 144.7L586.4 142.9L572.7 142.8L564.4 139.0M369.2 510.0L409.4 455.4L409.9 447.6L411.6 443.9L421.5 437.4L417.8 427.1L420.3 424.5L418.2 422.8L421.1 407.6L432.5 388.4L443.6 382.7L433.3 374.1L424.1 368.7L423.0 367.0L426.8 359.3L437.7 353.5L437.7 346.9L435.2 333.1L429.6 327.4L429.0 325.2L425.0 323.3L410.6 322.1M321.7 232.5L315.9 231.1M319.3 231.4L315.9 231.1M324.5 232.7L319.2 231.5M57.6 110.6L65.9 110.1L78.3 105.2L87.0 83.8L131.5 65.9L148.4 61.3L184.2 44.6M57.6 110.6L65.9 110.1L78.3 105.2L87.0 83.8L131.5 65.9L148.4 61.3L190.5 41.9M200.7 203.4L200.1 183.0L201.6 180.7L201.6 173.9L201.5 169.8L199.9 169.8L200.4 157.2L199.6 150.2L200.2 52.9L195.5 42.5M190.5 41.9L193.7 38.7M393.7 7.9L393.6 4.2L390.0 -8.8L390.2 -30.2M438.1 195.8L435.1 195.9L424.7 200.8M587.1 143.1L586.6 129.2L580.1 112.2L573.3 89.2L572.6 72.4L568.6 62.1L567.3 54.0L559.9 38.9L557.9 31.9L561.5 18.8L565.9 -14.1M514.3 380.6L522.8 376.6M-14.5 129.4L-8.4 122.7L-2.1 119.0L1.6 115.1L18.7 111.9L57.6 110.6M321.7 232.5L323.8 232.9L329.4 229.7L354.0 223.3L394.8 203.4L403.7 195.6L406.4 196.0L412.1 200.3M301.2 247.1L300.8 228.3M200.7 203.4L200.1 183.0M241.2 44.7L226.4 36.0M598.3 167.5L590.4 155.8L589.6 144.7L586.4 142.9L572.7 142.8L564.4 139.0M617.3 181.5L598.3 167.5M617.3 181.5L598.3 167.5M612.2 386.5L608.8 385.4L606.3 381.1L585.7 372.5L538.8 372.7L534.6 375.7L524.1 376.2L513.6 380.9L503.0 381.3L496.5 387.7L493.3 389.1L468.8 389.5L458.0 384.5L445.1 382.7M30.3 112.1L28.9 112.1M410.6 322.1L400.3 326.8L388.1 325.5L376.2 314.2L364.9 308.4L355.7 298.8L343.9 293.5L321.5 278.3L314.2 272.5L307.2 264.9M301.5 234.4L301.5 234.0M207.8 169.7L199.9 169.8M193.8 37.3L192.6 8.2M193.9 38.8L193.7 39.2M442.8 194.6L443.9 194.2M606.0 172.8L598.3 167.5M590.0 482.0L590.2 470.6L588.6 463.5L579.6 449.0L579.0 437.5L577.9 434.5L528.5 388.6L517.8 366.9L491.9 347.9L473.5 346.0L463.9 339.7L450.0 327.5L429.0 325.2M445.1 382.7L443.2 382.1M554.8 492.9L583.2 482.1L605.6 482.0L609.7 479.6M301.5 234.0L314.5 226.0L319.2 220.6M321.7 232.5L315.9 231.1M201.6 177.8L201.5 169.8M199.9 169.8L200.4 158.9M192.6 8.2L194.0 4.5L206.7 -5.7L223.2 -16.0M590.1 150.3L593.8 150.4L595.1 138.5L615.2 112.9M606.0 172.8L598.3 167.5M429.9 327.8L420.5 325.3L419.3 323.3M91.8 589.7L91.3 484.0L87.9 478.9L53.1 448.5L41.0 436.5L33.3 422.1L20.5 402.0L19.5 368.7L17.9 365.2L11.7 359.4M58.1 178.1L-20.7 176.5M297.9 235.5L301.5 234.4M190.5 41.9L193.7 39.2M193.7 39.2L194.0 39.2M515.4 116.0L507.4 115.8L489.8 112.4L483.7 110.1L452.9 114.8L423.6 112.6L414.3 113.8M445.9 114.0L443.1 113.6M513.4 114.0L507.0 107.7L500.2 103.4L493.5 94.7L488.5 91.2L460.3 63.5L457.5 56.2L457.2 49.1L454.5 39.6L454.3 20.2L450.9 8.1L447.8 -14.0M121.6 520.5L152.9 476.5L176.0 450.5L203.2 433.6L204.9 429.9L206.0 418.1L240.6 360.1M11.7 359.4L3.8 346.1L-6.6 319.8L-10.1 314.1L-10.9 304.8L-27.3 293.2M301.2 247.1L301.5 234.0L314.5 226.0L319.2 220.6L336.7 187.5L349.2 170.8L356.5 164.0L357.0 130.4L359.5 121.5L360.6 94.8L371.3 80.9L373.0 76.8L374.0 66.4L393.8 47.2L396.3 38.3L396.4 26.0L393.7 19.2L393.7 7.9M307.8 231.6L312.5 231.1"/></g><g class="towns" aria-hidden="true"><text x="266.4" y="223.0">Graham</text><g class="route"><rect x="128.1" y="177.2" width="59.6" height="15" rx="3"/><text x="157.9" y="189.2" text-anchor="middle">US 380</text></g></g><g class="dots"><a href="#national-graham" data-name="National Theatre of Graham" data-shows="[[&quot;2026-11-17T18:40&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-17T18:55&quot;,&quot;Cat in the Hat&quot;,false],[&quot;2026-11-17T19:10&quot;,&quot;Ghost Soldier&quot;,false],[&quot;2026-11-18T18:40&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-18T18:55&quot;,&quot;Cat in the Hat&quot;,false],[&quot;2026-11-18T19:10&quot;,&quot;Ghost Soldier&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5" class="dim"><title>National Theatre of Graham</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#national-graham">National Theatre of Graham</a></li></ul></nav>
-  <article class="house" id="national-graham"><h3>National Theatre of Graham</h3><p class="where">Graham · <a href="https://nationaltheatreofgraham.com/">Website</a></p><p class="note">We couldn't read its listings on the last run, so these times may be out of date.</p></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="national-graham"><h3>National Theatre of Graham</h3><p class="where">Graham · <span class="addr">524 Oak Street, Graham</span> · <a href="https://nationaltheatreofgraham.com/">Website</a></p><p class="note">We couldn't read its listings on the last run, so these times may be out of date.</p></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 7:23pm CST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

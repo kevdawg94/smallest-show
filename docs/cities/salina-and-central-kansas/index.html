@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Independent cinema showtimes in Salina &amp; Central Kansas, KS · Smallest Show</title>
-<meta name="description" content="Salina &amp; Central Kansas, KS: this week&#x27;s showtimes at 1 independent cinema, including Salina Art Center Cinema.">
+<meta name="description" content="Salina &amp; Central Kansas, KS: this week&#x27;s showtimes at its independent cinema, Salina Art Center Cinema.">
 <meta property="og:title" content="Independent cinema showtimes in Salina &amp; Central Kansas, KS">
-<meta property="og:description" content="Salina &amp; Central Kansas, KS: this week&#x27;s showtimes at 1 independent cinema, including Salina Art Center Cinema.">
+<meta property="og:description" content="Salina &amp; Central Kansas, KS: this week&#x27;s showtimes at its independent cinema, Salina Art Center Cinema.">
 <meta property="og:url" content="https://smallest.show/cities/salina-and-central-kansas/">
 <link rel="canonical" href="https://smallest.show/cities/salina-and-central-kansas/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Salina Art Center Cinema", "@id": "https://smallest.show/cities/salina-and-central-kansas/#art-center-cinema-salina", "url": "https://www.salinaartcenter.org/comingsoon", "address": {"@type": "PostalAddress", "streetAddress": "150 S. Santa Fe Avenue", "addressLocality": "Salina", "addressRegion": "KS", "postalCode": "67401", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 38.83864, "longitude": -97.60951}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Salina &amp; Central Kansas</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 4:24pm CST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;art-center-cinema-salina&quot;]" data-tz="America/Chicago">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Chicago"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Salina &amp; Central Kansas with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 -12.0 100.3 -12.0 100.1 5.2 101.3 5.3 101.3 10.9 101.2 214.0 -12.0 214.3Z"/><path d="M442.3 177.1 442.3 167.8 448.2 167.8 448.5 5.3 612.0 4.4 612.0 423.4 448.0 423.4 447.9 179.6 442.3 179.5Z"/><path d="M103.9 492.0 103.5 423.0 448.0 423.4 448.0 492.0Z"/><path d="M101.2 144.3 448.2 144.6 448.2 167.8 442.3 167.8 442.3 179.5 447.9 179.6 448.0 423.4 103.5 423.0 103.3 353.5 101.2 353.3Z"/><path d="M448.0 492.0 448.0 423.4 612.0 423.4 612.0 492.0Z"/><path d="M-12.0 492.0 -12.0 214.3 101.2 214.0 101.2 353.3 103.3 353.5 103.9 492.0Z"/><path d="M448.6 -12.0 448.2 144.6 101.2 144.2 101.3 10.9 101.3 5.3 100.1 5.2 100.3 -12.0Z"/><path d="M612.0 -12.0 612.0 4.4 448.5 5.3 448.6 -12.0Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M284.7 423.7L287.9 420.5L294.0 410.7M292.8 470.2L264.4 470.2L264.8 441.3L266.5 439.3L271.8 436.4L284.7 423.7M298.3 179.5L298.3 178.1M298.2 220.2L298.3 199.4M264.4 452.1L264.4 444.1M262.9 13.2L263.8 -41.2M228.6 97.9L228.8 40.0M298.2 105.0L298.2 99.2M448.2 167.8L448.2 167.2M264.0 -40.6L263.0 13.1M546.5 178.7L546.5 143.8M71.7 101.2L72.4 96.9M298.2 220.2L298.3 179.5M448.0 169.9L448.2 167.8M424.9 364.3L424.9 354.8M548.5 199.6L546.6 191.2L546.5 178.7M258.6 456.5L258.6 455.5M264.4 455.6L264.4 452.1M236.1 16.6L237.1 13.8M242.7 16.6L242.6 13.8M413.3 350.3L413.3 342.4M298.4 365.6L297.7 318.9L295.2 318.9M309.9 86.5L313.4 86.5M431.4 470.1L414.3 470.0M264.4 455.6L258.6 455.5M242.6 13.8L240.0 13.8M264.4 455.6L258.6 455.5M309.9 86.5L306.4 86.5M239.9 13.8L237.1 13.8M291.8 365.6L298.4 365.6M147.2 294.7L172.6 292.7L249.2 247.6L271.7 241.5L276.5 238.0M278.2 167.9L278.9 168.0M599.0 4.3L599.4 -57.9M630.0 365.5L525.9 365.3L517.8 365.4L514.4 366.6L504.4 365.4L448.0 365.5M71.7 101.2L72.3 91.6M161.0 463.3L161.0 458.2M262.9 13.2L263.8 -41.2M217.1 97.8L215.3 97.8M199.7 97.8L193.9 97.7M152.9 98.1L147.2 98.1M413.3 350.3L413.3 342.4M297.7 342.2L297.7 318.9L294.0 318.9M596.6 4.3L554.6 4.3M596.6 4.3L599.1 3.6M448.0 169.9L448.2 167.8M161.0 463.3L161.0 458.2M413.3 353.3L413.3 350.3M291.8 365.6L298.4 365.6L297.7 342.2L322.6 341.9L413.1 342.3L413.3 353.3L424.6 354.2L424.9 364.2L425.8 365.8L448.0 365.5M284.7 423.7L287.9 420.5L294.0 410.7M147.2 294.7L135.6 292.3M596.6 4.3L554.6 4.3M539.7 423.4L540.5 222.0L549.2 205.9L546.5 189.9L546.9 121.6L552.8 107.2L552.8 85.8L598.7 85.4L599.0 4.3M448.5 86.6L588.0 85.3L702.8 86.2M540.4 318.9L540.7 221.0M68.5 458.8L103.5 458.0M419.6 470.0L413.5 470.1M278.8 429.6L271.8 436.4L265.1 440.7L264.4 455.6L258.6 455.5L256.2 457.7L103.5 458.0M539.7 501.2L539.7 423.4M263.4 97.8L251.3 97.8M228.6 97.9L228.4 23.6L229.3 22.5L234.2 22.1L237.1 13.8L242.6 13.8L242.7 16.6L265.6 16.8L276.0 28.8L320.7 28.4L321.2 25.6L322.4 25.1M596.6 4.3L573.2 4.2M599.0 4.3L599.4 -57.9M-13.9 319.1L44.3 318.4L47.8 316.8L55.1 308.8M101.3 97.8L282.5 97.9L298.2 105.1L298.3 86.4L448.5 86.6M176.2 98.2L173.6 98.2M163.2 98.2L158.8 98.2M320.9 28.3L321.2 25.6L322.4 25.1M448.2 167.8L448.2 167.2M596.6 4.3L599.1 3.6M78.4 473.9L80.6 472.1L80.6 432.0L74.2 408.1L69.0 398.5L69.3 362.5L66.8 350.6L66.4 317.8L72.0 310.3L72.5 307.4M101.3 97.8L78.6 97.4L68.7 87.9L64.2 86.2L-20.3 86.7M264.4 470.2L264.4 444.1M539.7 501.2L539.7 423.4M265.2 16.8L242.7 16.6M236.6 97.8L240.3 97.8M413.3 350.3L413.3 342.4M101.3 306.4L132.7 292.4L148.9 294.9L172.6 292.7L249.2 247.6L271.7 241.5L277.5 237.7M702.8 86.2L588.0 85.3L448.5 86.6M-23.6 319.1L44.3 318.4L47.6 317.0L55.2 308.7L58.4 307.0L75.7 306.9L83.0 308.1L101.3 306.4M72.1 306.9L72.5 307.4M72.5 307.4L72.6 306.9M-37.3 319.1L31.9 318.5M78.4 473.9L80.6 472.2L80.6 446.6M448.0 469.9L264.4 470.2M276.0 28.8L266.4 18.5M133.2 97.9L101.3 97.8M298.3 209.7L298.3 178.1L293.1 174.4L285.6 172.4L281.8 169.0L278.9 168.0M630.0 365.5L525.9 365.3L517.8 365.4L514.4 366.6L504.4 365.4L448.0 365.5M598.7 85.4L599.0 4.3M69.3 365.1L66.8 350.6L66.4 318.3L69.1 313.5M32.7 318.5L46.2 317.9L55.1 308.8M48.0 492.1L63.5 462.0L65.8 459.6L69.2 458.7L103.5 458.0M264.0 -40.6L263.0 13.1M228.6 97.9L217.1 97.8M448.2 167.8L448.2 167.2"/><path class="major" d="M280.3 144.5L281.1 104.1L278.1 83.5L273.7 73.9L275.2 50.7L274.1 31.3L272.5 27.0L264.8 18.1L262.9 13.2M280.3 97.9L281.4 107.8L280.7 144.5M263.0 13.1L264.6 17.4L272.0 25.8L274.2 30.9L275.3 51.2L273.9 73.9L278.3 83.4L279.9 96.1M292.7 500.5L292.5 423.8M293.2 494.6L292.7 423.8M101.1 208.1L258.7 208.6L274.5 211.6L301.4 209.7L336.5 189.5L353.6 185.6L413.3 184.7L418.2 182.5L433.8 169.7L442.3 168.0M292.5 413.2L292.3 365.6M448.2 167.8L442.3 167.8M-18.0 225.4L-10.7 223.3L-1.4 216.8L12.6 216.2L17.9 214.2M292.7 500.5L292.5 423.8M293.2 494.6L292.7 423.8M101.1 208.1L258.7 208.6L274.5 211.6L301.4 209.7L336.5 189.5L353.6 185.6L413.3 184.7L418.2 182.5L433.8 169.7L442.3 168.0M442.3 167.8L434.0 169.4L418.2 182.3L413.3 184.5L354.0 185.4L336.5 189.3L304.5 208.4L301.2 209.5L274.2 211.4L258.6 208.4L101.1 207.9M280.7 144.5L282.0 156.2L278.3 171.0L276.6 184.3L277.7 211.3L276.4 234.5L284.7 259.5L293.4 270.2L295.5 276.2L294.7 325.4L292.4 335.2L292.7 423.8M442.3 168.0L507.3 167.2L520.7 161.6L539.4 160.7L556.9 156.2L587.6 155.6L644.2 127.7M17.9 214.2L24.5 211.2L36.4 211.0L47.7 208.1L101.1 207.9M292.5 365.6L292.7 412.9M18.5 214.2L12.2 216.5L-0.8 216.9L-10.4 223.4L-17.6 225.6M-18.0 225.4L-10.7 223.3L-1.4 216.8L12.6 216.2L17.9 214.2M292.5 423.8L292.2 335.1L294.5 325.4L295.3 276.2L293.5 270.7L284.6 259.8L276.6 236.9L277.5 210.7M277.7 210.6L276.7 236.6L284.7 259.5L293.4 270.2L295.5 276.2L294.7 325.4L292.4 335.2L292.7 423.8M448.2 167.8L506.5 167.1L520.7 161.4L539.4 160.5L557.3 155.9L587.7 155.4L645.0 127.1M18.5 214.2L24.9 211.4L36.4 211.3L47.4 208.4L101.1 208.1M263.0 13.1L265.1 18.1L272.5 26.6L274.3 31.9L275.3 51.2L273.9 73.9L278.3 83.4L281.4 104.9L280.7 144.5M448.2 167.8L506.5 167.1L520.7 161.4L539.4 160.5L557.3 155.9L587.7 155.4L645.0 127.1M448.2 167.8L442.3 167.8M18.5 214.2L24.9 211.4L36.4 211.3L47.4 208.4L101.1 208.1M442.3 168.0L507.3 167.2L520.7 161.6L539.4 160.7L556.9 156.2L587.6 155.6L644.2 127.7M18.5 214.2L12.2 216.5L-0.8 216.9L-10.4 223.4L-17.6 225.6M17.9 214.2L24.5 211.2L36.4 211.0L47.7 208.1L101.1 207.9M280.3 144.5L281.1 104.1L278.1 83.5L273.7 73.9L275.2 50.7L274.1 31.3L272.5 27.0L264.8 18.1L262.9 13.2M442.3 167.8L434.0 169.4L418.2 182.3L413.3 184.5L354.0 185.4L336.5 189.3L304.5 208.4L301.2 209.5L274.2 211.4L258.6 208.4L101.1 207.9M292.5 423.8L292.2 335.1L294.5 325.4L295.3 277.0L293.5 270.7L284.6 259.8L276.1 234.4L277.4 223.4L277.6 200.3L276.4 184.9L278.1 171.1L281.6 156.2L280.3 144.5"/></g><g class="towns" aria-hidden="true"><text x="266.4" y="223.0">Salina</text><g class="route"><rect x="269.0" y="317.9" width="51.0" height="15" rx="3"/><text x="294.5" y="329.9" text-anchor="middle">I-135</text></g><g class="route"><rect x="315.3" y="182.0" width="42.4" height="15" rx="3"/><text x="336.5" y="194.0" text-anchor="middle">I-70</text></g><g class="route"><rect x="387.8" y="177.2" width="51.0" height="15" rx="3"/><text x="413.3" y="189.2" text-anchor="middle">US 40</text></g></g><g class="dots"><a href="#art-center-cinema-salina" data-name="Salina Art Center Cinema" data-shows="[[&quot;2026-11-16T18:30&quot;,&quot;You Can See Everything&quot;,false],[&quot;2026-11-17T18:30&quot;,&quot;WBCN and the American Revolution&quot;,false],[&quot;2026-11-18T18:30&quot;,&quot;You Can See Everything&quot;,false],[&quot;2026-11-19T18:30&quot;,&quot;Planes, Trains and Automobiles&quot;,false],[&quot;2026-11-20T15:00&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false],[&quot;2026-11-20T19:00&quot;,&quot;The Hunger Games: Sunrise on the Reaping&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5"><title>Salina Art Center Cinema</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#art-center-cinema-salina">Salina Art Center Cinema</a></li></ul></nav>
-  <article class="house" id="art-center-cinema-salina"><h3>Salina Art Center Cinema</h3><p class="where">Salina · <a href="https://www.salinaartcenter.org/comingsoon">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=664617~324e763b-503c-450c-8c59-54007b851949&amp;">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li></ul><details><summary>Later this week <span>9 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=649144~324e763b-503c-450c-8c59-54007b851949&amp;">WBCN and the American Revolution</a></span><span class="times"><span class="chip">6:30pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=664617~324e763b-503c-450c-8c59-54007b851949&amp;">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=649856~324e763b-503c-450c-8c59-54007b851949&amp;">Planes, Trains and Automobiles</a></span><span class="times"><span class="chip">6:30pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666244~324e763b-503c-450c-8c59-54007b851949&amp;">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">3pm</span><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666244~324e763b-503c-450c-8c59-54007b851949&amp;">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">2pm</span><span class="chip">6pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666244~324e763b-503c-450c-8c59-54007b851949&amp;">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">2pm</span><span class="chip">6pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="art-center-cinema-salina"><h3>Salina Art Center Cinema</h3><p class="where">Salina · <span class="addr">150 S. Santa Fe Avenue, Salina</span> · <a href="https://www.salinaartcenter.org/comingsoon">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=664617~324e763b-503c-450c-8c59-54007b851949&amp;">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li></ul><details><summary>Later this week <span>9 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=649144~324e763b-503c-450c-8c59-54007b851949&amp;">WBCN and the American Revolution</a></span><span class="times"><span class="chip">6:30pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=664617~324e763b-503c-450c-8c59-54007b851949&amp;">You Can See Everything</a></span><span class="times"><span class="chip">6:30pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=649856~324e763b-503c-450c-8c59-54007b851949&amp;">Planes, Trains and Automobiles</a></span><span class="times"><span class="chip">6:30pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666244~324e763b-503c-450c-8c59-54007b851949&amp;">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">3pm</span><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666244~324e763b-503c-450c-8c59-54007b851949&amp;">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">2pm</span><span class="chip">6pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666244~324e763b-503c-450c-8c59-54007b851949&amp;">The Hunger Games: Sunrise on the Reaping</a></span><span class="times"><span class="chip">2pm</span><span class="chip">6pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 7:23pm CST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

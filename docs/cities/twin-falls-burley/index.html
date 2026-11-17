@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Independent cinema showtimes in Twin Falls–Burley, ID · Smallest Show</title>
-<meta name="description" content="Twin Falls–Burley, ID: this week&#x27;s showtimes at 1 independent cinema, including Century Stadium 5.">
+<meta name="description" content="Twin Falls–Burley, ID: this week&#x27;s showtimes at its independent cinema, Century Stadium 5.">
 <meta property="og:title" content="Independent cinema showtimes in Twin Falls–Burley, ID">
-<meta property="og:description" content="Twin Falls–Burley, ID: this week&#x27;s showtimes at 1 independent cinema, including Century Stadium 5.">
+<meta property="og:description" content="Twin Falls–Burley, ID: this week&#x27;s showtimes at its independent cinema, Century Stadium 5.">
 <meta property="og:url" content="https://smallest.show/cities/twin-falls-burley/">
 <link rel="canonical" href="https://smallest.show/cities/twin-falls-burley/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Century Stadium 5", "@id": "https://smallest.show/cities/twin-falls-burley/#century-burley", "url": "https://burleymovies.com/", "address": {"@type": "PostalAddress", "streetAddress": "464 E. 5th Street North", "addressLocality": "Heyburn", "addressRegion": "ID", "postalCode": "83336", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 42.56214, "longitude": -113.78669}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Twin Falls–Burley</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;century-burley&quot;]" data-tz="America/Boise">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Boise"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Twin Falls–Burley with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 492.0 -12.0 232.3 -8.6 233.1 -6.8 232.3 -1.7 236.7 2.7 237.9 5.1 240.3 10.8 239.1 16.5 241.1 22.6 240.7 30.1 242.3 34.4 243.9 41.8 250.0 57.5 255.9 68.6 263.8 70.9 267.8 73.6 278.5 79.5 283.1 84.0 290.3 85.9 291.5 93.5 291.2 97.5 293.8 102.6 291.0 106.9 284.4 117.9 283.2 128.0 277.0 131.0 276.3 134.9 271.4 138.6 271.0 142.3 268.4 149.3 266.7 154.5 268.2 157.3 270.4 160.6 269.7 162.4 267.4 164.1 267.2 166.5 269.2 174.1 268.6 174.1 273.0 165.6 274.9 138.8 277.0 134.8 278.1 134.8 286.5 133.5 286.5 133.6 356.0 6.1 355.8 5.4 425.3 8.5 425.0 8.5 492.0Z"/><path d="M612.0 -12.0 612.0 195.1 611.0 190.0 609.1 187.1 597.3 187.9 590.5 184.9 584.2 186.7 580.6 184.8 577.4 179.6 570.6 174.2 568.0 167.2 562.2 164.1 556.7 156.7 551.7 153.1 549.0 146.0 543.7 139.6 529.7 141.8 519.1 151.2 507.4 150.9 499.3 153.1 485.3 154.2 485.3 10.4 520.1 10.4 520.1 -12.0Z"/><path d="M5.4 423.8 6.2 355.8 133.6 356.0 133.5 286.5 134.8 286.5 134.8 278.1 135.9 277.6 165.6 274.9 174.1 273.0 174.1 268.6 176.7 269.0 178.0 265.5 184.6 262.2 189.6 263.5 197.3 261.6 198.6 262.1 199.0 264.8 200.2 265.5 206.3 264.8 211.9 261.9 225.1 258.5 239.3 250.2 246.2 249.9 252.2 251.8 257.1 254.4 260.0 257.5 270.6 261.7 273.3 261.7 275.0 261.3 279.9 256.2 285.7 253.9 289.8 249.3 298.3 244.8 301.9 244.1 305.0 244.6 313.6 251.9 316.4 258.7 316.7 262.5 326.4 270.8 344.3 274.9 351.6 274.4 358.1 270.0 366.5 267.2 378.1 260.8 384.0 253.3 387.0 243.7 391.6 236.2 393.7 226.4 397.4 220.5 405.8 212.7 410.3 202.2 416.3 195.8 419.1 189.6 421.9 177.7 424.6 173.3 435.2 164.3 452.5 158.9 465.7 152.0 472.7 150.8 479.7 155.3 499.3 153.1 507.4 150.9 519.1 151.2 529.7 141.8 543.7 139.6 549.0 146.0 551.7 153.1 556.7 156.7 562.2 164.1 568.0 167.2 570.6 174.2 577.4 179.6 582.4 186.2 584.2 186.7 590.5 184.9 597.3 187.9 609.1 187.1 611.0 190.0 612.0 195.1 612.0 492.0 8.5 492.0 8.5 425.0 5.4 425.3Z"/><path d="M-12.0 -12.0 342.8 -12.0 342.8 9.9 313.5 9.9 313.1 78.3 144.9 77.7 144.9 43.0 -12.0 42.5Z"/><path d="M-12.0 42.5 144.9 43.0 144.9 77.7 214.6 77.7 214.5 261.5 203.5 265.6 199.0 264.8 198.2 261.7 189.6 263.5 184.6 262.2 178.0 265.5 176.7 269.0 172.0 268.3 166.5 269.2 164.1 267.2 162.4 267.4 160.6 269.7 157.3 270.4 154.5 268.2 147.5 266.8 142.3 268.4 138.6 271.0 134.9 271.4 131.0 276.3 128.0 277.0 117.9 283.2 106.9 284.4 102.6 291.0 97.5 293.8 93.5 291.2 85.9 291.5 84.0 290.3 79.5 283.1 73.6 278.5 70.9 267.8 68.6 263.8 57.5 255.9 41.8 250.0 34.4 243.9 30.1 242.3 22.6 240.7 16.5 241.1 10.8 239.1 5.1 240.3 2.7 237.9 -1.7 236.7 -6.8 232.3 -8.6 233.1 -12.0 232.3Z"/><path d="M214.4 197.0 214.6 77.7 313.5 78.1 313.5 9.9 342.8 9.9 342.8 -12.0 520.1 -12.0 520.1 10.4 485.3 10.4 485.3 154.2 479.7 155.3 472.7 150.8 464.5 152.3 452.5 158.9 435.2 164.3 424.6 173.3 421.9 177.7 417.0 194.5 414.0 199.1 410.3 202.2 405.8 212.7 394.8 224.2 392.9 228.7 391.6 236.2 387.0 243.7 384.0 253.3 378.1 260.8 366.5 267.2 358.1 270.0 351.6 274.4 344.3 274.9 339.6 273.1 333.0 272.6 326.4 270.8 320.4 266.2 316.7 262.5 316.4 258.7 313.6 251.9 305.0 244.6 301.9 244.1 298.3 244.8 289.8 249.3 285.7 253.9 279.9 256.2 275.0 261.3 273.3 261.7 270.6 261.7 260.0 257.5 257.1 254.4 246.2 249.9 239.3 250.2 225.1 258.5 221.2 258.8 217.6 261.1 214.5 261.5Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M421.1 269.8L431.7 268.7L441.1 265.5L448.6 259.6M313.8 255.3L314.6 253.6M315.3 252.0L314.5 253.5M323.7 240.5L329.7 234.6M296.2 246.0L296.2 245.0M299.5 235.0L296.4 240.5L296.2 245.0M329.5 234.6L323.7 240.5M313.8 255.3L314.5 253.5M296.2 245.0L296.2 240.6L299.4 235.0M314.6 253.6L315.3 252.0M313.8 255.3L312.3 258.8L310.5 260.1L296.1 259.2L296.2 246.0M315.3 252.0L318.4 246.0L323.7 240.5M69.2 309.5L133.4 309.7M545.9 444.5L545.9 435.8M14.8 216.6L0.5 216.6M393.1 220.6L393.1 218.4M313.5 33.3L266.8 -1.1L247.2 -9.9L206.4 -24.9M373.7 194.0L371.2 194.0M370.5 194.0L370.0 194.0M357.9 205.9L305.6 205.7M202.9 298.0L168.4 298.3M151.8 309.5L133.4 309.7M239.6 205.4L297.5 205.7M393.2 222.6L393.1 194.0M15.7 215.7L15.7 203.8M393.4 269.2L393.4 263.8M52.5 205.2L50.3 205.2M394.9 325.2L393.7 320.7L393.4 298.8M301.5 231.4L301.8 228.9M301.8 228.9L301.8 207.2M301.4 231.3L301.8 228.9M358.4 206.7L358.3 206.4M135.1 309.7L133.4 309.7M296.4 240.5L296.2 245.0L296.2 240.6M393.5 275.9L393.4 269.5M370.0 194.0L370.0 193.3M393.4 277.3L393.5 275.2M301.8 207.2L301.8 205.7M360.8 205.3L364.9 199.8M373.7 194.0L371.2 194.0M305.6 205.7L301.8 205.7M310.4 260.1L296.1 259.2M373.7 194.0L393.1 194.0M370.5 194.0L370.0 194.0M278.0 262.9L290.3 259.3L296.1 259.2M50.3 205.2L48.8 205.2M301.8 205.7L297.5 205.7M422.2 359.5L420.4 359.4L419.2 357.3M525.6 321.2L525.6 317.1M296.1 286.5L296.2 246.0M329.5 234.8L332.3 232.0M301.8 228.9L301.8 207.2M301.4 231.3L301.8 228.9M315.3 252.0L314.5 253.5M396.1 234.8L396.0 227.6L394.5 224.8M214.4 228.6L214.4 227.4M394.5 224.8L393.1 222.0L393.1 194.0L371.9 194.0L365.2 199.5L361.7 204.7L358.4 206.7L357.0 205.5L239.2 205.5L236.2 206.9L214.4 227.4M393.2 222.6L393.1 220.6M370.0 194.0L370.0 193.3M540.3 444.5L545.9 444.5M98.6 212.4L92.5 212.7L90.1 211.2M301.8 228.9L301.8 205.7M314.6 253.6L315.3 252.0M329.5 234.8L323.7 240.5M301.5 231.4L301.8 228.9M357.9 207.1L336.2 228.1M364.9 199.8L370.5 194.0M393.3 287.0L393.5 275.9M393.4 277.3L393.4 277.1M214.4 228.6L214.4 227.4M50.3 205.2L48.8 205.2M313.5 33.3L266.8 -1.1L247.2 -9.9L206.4 -24.9M332.3 232.0L329.3 234.8M296.2 245.0L296.2 240.6L301.8 228.9M357.9 207.1L361.9 204.4L364.9 199.8L370.6 194.2L370.0 193.3L421.4 143.2L470.0 86.0L462.1 81.9L326.9 41.2L313.5 33.3M357.9 205.9L305.6 205.7M540.3 444.5L545.9 444.5M243.8 495.2L243.8 406.7L278.3 354.2L289.9 333.3L295.8 328.4L296.2 246.0M-2.2 236.3L-0.2 231.7L-0.2 217.1L15.3 216.4L15.7 203.8M133.4 229.0L132.5 220.6L121.6 213.3L107.2 211.1L92.7 212.7L89.6 211.1L60.6 211.1L58.7 210.3L56.0 206.8L52.5 205.2L16.5 204.8L15.7 196.7L19.1 181.4L14.3 165.6L9.5 161.3L3.2 158.6L-20.9 158.4M315.3 252.0L318.4 246.0L323.7 240.5M301.8 228.9L301.5 231.4L296.4 240.5L296.2 245.0M296.2 246.0L296.2 245.0M313.8 255.3L314.6 253.6M313.8 255.3L314.5 253.5M214.4 228.6L214.4 227.4M133.4 229.0L133.3 222.5M336.2 228.1L357.9 207.1M243.9 489.8L243.9 472.2M332.3 232.0L336.2 228.1M393.1 218.4L393.1 194.0M370.0 193.3L372.4 191.1M545.9 444.5L534.3 444.6L512.0 462.6L507.4 465.5L497.6 469.1L477.1 467.2L470.3 464.9L468.2 465.1L468.0 450.9L470.8 440.5L470.1 426.0L463.6 419.6L459.9 412.7L452.3 408.2L450.6 391.8L423.2 364.8L422.9 359.6L420.4 359.4L413.7 350.9L406.5 333.0L404.3 331.2L396.5 328.5L394.1 323.2L393.3 242.9L395.9 238.5L396.1 234.6M422.8 363.6L422.8 359.6M545.9 444.5L545.5 391.9L525.8 353.0L525.6 293.8L524.1 288.8L520.8 284.8L474.6 257.5L449.9 259.2L430.9 264.4L419.3 270.3L381.3 275.2L366.1 275.3L360.9 277.1L327.4 275.2L314.3 265.3L310.4 260.1M133.4 309.7L151.9 309.5L169.0 298.2L203.0 297.9L237.9 263.2L273.0 263.8L290.4 259.3L310.0 260.2L312.1 259.0L313.8 255.3M53.2 205.4L52.5 205.2M313.5 33.3L266.8 -1.1L247.2 -9.9L205.9 -25.1M329.5 234.6L323.7 240.5M133.4 309.7L69.2 309.5L66.8 307.3L46.8 265.4L45.0 263.5L-33.4 262.8"/><path class="major" d="M391.9 234.8L329.5 234.8M391.9 234.5L329.5 234.6M391.9 234.5L270.5 234.5L266.2 233.6L260.2 229.8L256.3 228.7L214.4 228.4M450.1 234.2L618.6 212.2M624.1 413.8L547.5 325.0L522.4 284.8L511.6 274.1L456.5 231.9L450.1 234.2L444.5 234.7L391.9 234.5M133.4 229.0L214.4 228.6M391.9 234.8L270.7 234.8L266.3 233.9L256.3 228.9L214.4 228.6M391.9 234.8L444.4 235.0L455.8 233.9L460.5 234.9L511.2 274.1L522.0 284.7L547.0 324.8L623.6 413.8M214.4 228.4L97.3 228.8L89.1 230.2L80.6 228.7L2.4 228.3L-6.1 225.3L-40.1 199.2M455.8 233.9L615.2 213.0M-34.1 203.8L-6.5 225.3L2.4 228.5L80.4 229.0L89.2 230.4L97.5 229.0L214.4 228.6M214.4 228.4L133.4 228.7"/></g><g class="towns" aria-hidden="true"><text x="266.4" y="223.0">Burley</text><g class="route"><rect x="370.7" y="227.0" width="42.4" height="15" rx="3"/><text x="391.9" y="239.0" text-anchor="middle">I-84</text></g><g class="route"><rect x="428.9" y="226.7" width="42.4" height="15" rx="3"/><text x="450.1" y="238.7" text-anchor="middle">I-86</text></g><g class="route"><rect x="107.9" y="302.2" width="51.0" height="15" rx="3"/><text x="133.4" y="314.2" text-anchor="middle">US 30</text></g></g><g class="dots"><a href="#century-burley" data-name="Century Stadium 5" data-shows="[[&quot;2026-11-16T19:15&quot;,&quot;Drummer Boy&quot;,false],[&quot;2026-11-16T19:15&quot;,&quot;The Cat in the Hat&quot;,false],[&quot;2026-11-16T19:20&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-16T19:25&quot;,&quot;How to Rob a Bank&quot;,false],[&quot;2026-11-16T19:30&quot;,&quot;Ghost Soldier&quot;,false],[&quot;2026-11-16T21:15&quot;,&quot;The Cat in the Hat&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5"><title>Century Stadium 5</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#century-burley">Century Stadium 5</a></li></ul></nav>
-  <article class="house" id="century-burley"><h3>Century Stadium 5</h3><p class="where">Burley · <a href="https://burleymovies.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">7:25pm</span><span class="chip">9:40pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li></ul><details><summary>Later this week <span>75 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">7:25pm</span><span class="chip">9:40pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">7:25pm</span><span class="chip">9:40pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">7:25pm</span><span class="chip">9:40pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=203">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">7pm</span><span class="chip">9:45pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">9:30pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=203">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">1pm</span><span class="chip">4pm</span><span class="chip">7pm</span><span class="chip">9:45pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">2pm</span><span class="chip">4:15pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">2pm</span><span class="chip">4:10pm</span><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">2pm</span><span class="chip">4pm</span><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">2pm</span><span class="chip">4pm</span><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">9:30pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=203">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span><span class="chip">9:45pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">9:30pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="century-burley"><h3>Century Stadium 5</h3><p class="where">Burley · <span class="addr">464 E. 5th Street North, Heyburn</span> · <a href="https://burleymovies.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">7:25pm</span><span class="chip">9:40pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li></ul><details><summary>Later this week <span>75 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">7:25pm</span><span class="chip">9:40pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">7:25pm</span><span class="chip">9:40pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">7:25pm</span><span class="chip">9:40pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=203">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">7pm</span><span class="chip">9:45pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">9:30pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=203">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">1pm</span><span class="chip">4pm</span><span class="chip">7pm</span><span class="chip">9:45pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">2pm</span><span class="chip">4:15pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">2pm</span><span class="chip">4:10pm</span><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">2pm</span><span class="chip">4pm</span><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">2pm</span><span class="chip">4pm</span><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">9:30pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=199">Drummer Boy</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=202">Ebenezer</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=200">Ghost Soldier</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7:30pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=198">The Cat in the Hat</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7:15pm</span><span class="chip">9:15pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=203">The Hunger Games Sunrise on the Reaping</a></span><span class="times"><span class="chip">4pm</span><span class="chip">7pm</span><span class="chip">9:45pm</span></span></li><li><span class="film"><a href="https://www.internet-ticketing.com/websales/sales/CENBUR/start?film=201">How to Rob a Bank</a></span><span class="times"><span class="chip">9:30pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

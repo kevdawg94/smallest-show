@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Independent cinema showtimes in Silver City, NM, NM · Smallest Show</title>
-<meta name="description" content="Silver City, NM, NM: this week&#x27;s showtimes at 1 independent cinema, including Silco Theater.">
-<meta property="og:title" content="Independent cinema showtimes in Silver City, NM, NM">
-<meta property="og:description" content="Silver City, NM, NM: this week&#x27;s showtimes at 1 independent cinema, including Silco Theater.">
+<title>Independent cinema showtimes in Silver City, NM · Smallest Show</title>
+<meta name="description" content="Silver City, NM: this week&#x27;s showtimes at its independent cinema, Silco Theater.">
+<meta property="og:title" content="Independent cinema showtimes in Silver City, NM">
+<meta property="og:description" content="Silver City, NM: this week&#x27;s showtimes at its independent cinema, Silco Theater.">
 <meta property="og:url" content="https://smallest.show/cities/silver-city-nm/">
 <link rel="canonical" href="https://smallest.show/cities/silver-city-nm/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Silco Theater", "@id": "https://smallest.show/cities/silver-city-nm/#silco-theater", "url": "https://www.thesilcotheater.com/", "address": {"@type": "PostalAddress", "streetAddress": "311 North Bullard Street", "addressLocality": "Silver City", "addressRegion": "NM", "postalCode": "88061", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 32.77092, "longitude": -108.27664}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Silver City, NM</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;silco-theater&quot;]" data-tz="America/Denver">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Denver"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Silver City, NM with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M331.5 492.0 331.8 443.3 537.4 442.8 537.2 373.2 612.0 373.0 612.0 492.0Z"/><path d="M612.0 -12.0 611.7 90.8 605.8 87.0 600.6 85.6 599.9 78.2 599.2 77.3 594.8 77.6 594.4 74.1 595.2 73.4 593.4 70.6 593.2 66.7 591.7 66.6 588.8 61.5 586.2 59.9 582.5 54.7 583.9 51.2 587.8 51.7 589.6 43.8 588.2 41.8 588.2 35.7 582.4 27.4 583.5 23.8 586.7 21.2 585.7 17.4 587.1 14.9 586.0 11.8 590.5 9.9 590.8 8.0 596.3 2.5 598.2 -2.5 596.1 -7.5 591.0 -9.7 589.8 -12.0Z"/><path d="M-12.0 -12.0 589.8 -12.0 591.0 -9.7 596.1 -7.5 598.2 -2.5 596.3 2.5 590.8 8.0 590.5 9.9 586.0 11.8 587.1 14.9 585.7 17.4 586.7 21.2 583.5 23.8 582.4 27.4 588.2 35.7 588.2 41.8 589.6 43.8 589.4 46.8 587.8 51.7 583.9 51.2 582.5 54.7 586.2 59.9 588.8 61.5 591.7 66.6 593.2 66.7 593.4 70.6 595.2 73.4 594.4 74.1 594.8 77.6 599.2 77.3 599.9 78.2 600.6 85.6 605.8 87.0 609.9 90.4 612.0 90.7 612.0 373.0 537.2 373.2 537.4 442.8 331.8 443.3 331.5 492.0 124.8 492.0 124.9 443.4 51.0 443.5 51.2 373.8 -12.0 373.9Z"/><path d="M-12.0 492.0 -12.0 373.9 51.2 373.8 51.0 443.5 124.9 443.4 124.8 492.0Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M395.3 299.3L395.3 299.5M622.5 598.0L485.7 443.1M301.0 241.0L302.2 231.7M300.9 245.2L301.0 241.0M301.1 233.1L300.7 233.0M301.2 233.0L300.7 232.8M392.6 250.7L389.6 249.8L388.3 248.4M300.7 232.8L298.1 232.1M298.1 232.1L296.0 232.0M300.7 233.0L298.2 232.2M394.9 255.9L394.8 255.6M298.1 232.2L296.0 232.1M392.6 250.7L397.8 249.3L400.6 237.9L407.0 235.0L411.7 230.9L421.1 213.2L423.4 211.6L424.8 208.8M391.2 250.2L388.4 248.3L386.4 242.0L386.2 233.1L383.8 231.0L365.1 233.2L316.6 226.7L303.6 230.6L301.1 233.1M97.6 85.3L97.8 81.3L108.8 68.5L109.6 65.5L115.0 61.3L117.3 51.8L121.0 49.0L121.2 46.7L129.7 36.9M97.6 85.3L97.8 81.3L108.8 68.5L109.6 65.5L115.0 61.3L117.3 51.8L121.0 49.0L121.2 46.7L129.7 36.9M105.8 126.4L106.4 120.6L104.6 116.6L100.0 114.0L99.2 108.6L100.0 105.5L95.6 95.5L95.4 92.3L97.5 89.6L97.6 85.2L90.1 81.0L83.4 81.0L80.3 83.6L73.4 86.0M372.7 29.6L369.6 29.6M124.9 461.5L134.9 460.7L141.3 462.4L161.5 463.4L173.7 454.8L182.0 443.3L185.0 435.7L199.2 420.1L231.5 416.3L236.2 415.0L239.3 412.7L243.5 407.4L245.1 399.7L254.4 382.9L255.9 367.5L254.1 352.3L256.2 335.7L258.5 331.4L257.2 327.1L258.5 318.7L266.4 311.8L272.0 309.2L278.1 297.8L286.6 288.7M82.5 81.3L97.6 61.7L107.2 46.7L117.2 39.7M82.5 81.3L97.6 61.7L107.2 46.7L117.2 39.7M394.4 254.6L394.2 252.3L392.6 250.7M394.8 255.6L394.4 254.6M485.7 443.1L398.5 344.4L397.6 340.7L398.8 326.8L398.1 309.9L397.6 305.1L395.5 301.6L394.5 286.0L396.4 259.9L394.4 254.6M307.2 230.2L313.0 225.9L316.8 210.7L322.2 205.1L322.3 197.2L325.3 193.6L328.6 192.0L331.3 187.3L333.6 181.2L332.4 178.4L332.9 175.4L337.0 166.1L340.3 162.0L340.4 159.5L334.1 151.1L333.4 147.1L332.4 147.3L332.0 145.9L327.3 142.2L327.9 140.1L322.0 138.3L324.0 138.0L326.8 133.4L330.4 131.1L331.8 128.1L342.1 116.2L343.8 115.5L346.3 111.3L350.8 109.0L354.4 103.9L352.3 101.0L353.2 99.9L350.5 97.0L347.2 97.1L347.2 95.8L345.3 94.8L340.6 85.3L337.9 82.1L339.1 75.2L341.7 78.0L343.7 75.7L347.0 75.7L348.2 73.9L343.5 68.3L337.1 53.9L336.1 47.2L333.3 42.0L332.7 37.1L330.1 33.3L332.0 32.5L331.0 30.1L329.5 29.4L329.8 28.5L332.7 28.5L335.9 24.5L337.6 25.4L338.4 24.2L340.9 23.8L342.5 20.5L342.7 16.9L345.6 12.4L345.8 9.5L344.3 7.9L344.7 5.1L348.6 2.2L347.8 -3.2L348.5 -14.4M361.8 28.3L359.2 27.9M399.1 218.7L404.7 213.9L408.0 208.6M35.1 513.8L93.0 471.4L101.7 467.3L114.0 465.8L124.9 461.5M301.2 233.0L303.9 230.5M529.2 213.3L530.6 212.3M286.2 240.3L292.8 231.5M303.9 230.5L317.8 226.8L365.1 233.3L377.7 231.1L383.9 231.1L386.1 233.3L386.3 242.3L388.4 248.6L393.6 251.5L394.4 254.6M473.1 428.8L499.9 407.0L517.3 402.2L522.2 398.6L527.4 397.1L535.1 392.4L537.2 387.7M394.4 254.6L393.7 251.5L388.6 248.8L386.3 240.4M286.6 288.7L286.5 268.2L287.6 262.9L288.9 260.4L295.9 255.5L300.1 250.2L300.9 245.2M450.6 74.5L448.8 71.5L446.8 71.3L444.2 66.4L441.3 65.3L438.8 62.5L430.4 62.1L424.6 56.5M348.4 28.1L340.9 23.8M300.9 245.2L302.2 231.7M301.2 233.0L292.8 231.5M292.8 231.5L293.2 231.4M386.0 233.1L389.8 232.1L398.2 219.5L404.7 213.9L407.7 208.8L412.8 206.2L416.3 209.0L419.5 207.7L423.4 208.2L429.6 211.6L441.1 209.8L445.6 211.8L463.8 209.5L474.0 206.6L484.2 206.3L491.3 210.4L499.8 213.0L505.5 213.0L512.7 216.6L529.2 216.7L541.6 224.1L546.0 223.0L548.7 220.0L555.4 206.2L556.1 197.0L555.1 190.4L559.2 185.6L559.2 180.0L562.8 175.8L565.7 174.3L567.6 170.0L571.4 167.0L570.9 164.4L573.0 160.6L572.4 156.4L574.5 155.5L576.0 152.5L577.9 151.6L577.9 148.2L584.5 144.7L589.5 146.6L592.4 143.1L596.1 142.4L597.0 144.1L604.3 138.7L609.3 130.8L616.7 129.2M473.3 206.7L476.6 207.0M336.9 166.2L338.9 164.3M286.6 288.7L286.3 268.6L287.5 262.5L289.6 259.6L297.1 254.0L300.1 249.9L300.9 245.2M293.2 231.4L292.8 231.5M645.6 624.4L485.7 443.1M557.4 373.2L565.3 366.0L566.7 362.1L577.3 352.5L585.7 340.0L587.4 330.7L592.8 319.8L592.6 309.1L589.0 298.7L589.1 294.2L586.2 283.2L583.2 281.5L579.0 273.8L567.5 267.6L562.9 261.2L552.5 252.1L545.2 240.3L539.8 222.7M304.0 230.5L317.8 226.8L365.1 233.3L377.7 231.1L383.9 231.1L386.1 233.3L386.3 242.3L388.4 248.6L392.6 250.7M392.6 250.7L397.7 249.3L398.8 243.8M562.0 260.4L559.9 258.6M394.4 254.6L393.7 251.5L388.5 248.6L386.5 242.3L386.3 233.4L384.0 231.0L378.0 231.0L365.1 233.2L317.4 226.7L303.9 230.5M531.6 217.7L531.8 216.3L529.1 213.5L531.0 211.8L531.1 208.1L528.8 202.5L518.9 190.2L503.1 178.2L496.3 167.2L496.6 161.6L495.2 156.7L482.1 128.9L478.7 115.0L472.9 101.3L473.1 96.1L469.9 93.0L462.5 88.9L460.5 84.4L453.8 78.4L448.8 71.5L446.8 71.3L444.2 66.4L441.3 65.3L438.5 62.3L434.4 62.7L428.8 61.3L424.6 56.5L423.9 51.8L415.2 45.6L411.9 43.9L410.6 44.6L405.2 43.2L394.4 35.3L385.3 34.8L382.4 32.3L382.3 28.7L381.2 27.3L377.5 27.1L376.2 30.4L374.0 31.1L374.0 29.2L369.1 29.6L364.5 28.3L360.1 28.5L358.5 27.4L350.4 28.8L340.9 23.8M292.8 231.5L290.5 233.7L282.2 247.0L276.6 247.9L263.0 255.2L259.2 256.2L250.6 251.3L235.9 252.0L228.3 246.7L218.8 243.4L204.5 241.1L195.6 241.9L187.7 236.6L174.2 231.6L168.3 231.3L165.4 229.8L162.1 224.0L158.2 210.0L149.2 198.7L145.9 187.2L137.9 177.8L138.0 169.7L136.3 163.6L136.8 155.1L133.0 146.5L128.0 143.9L110.8 127.9L93.8 123.1L91.4 116.4L85.3 111.9L78.7 101.4L75.4 98.2L74.4 87.3L70.4 82.2L59.0 72.6L47.5 68.5L34.8 56.8L13.4 30.4L-10.6 13.1L-18.5 6.0M307.2 230.2L313.0 225.9L316.8 210.7L322.2 205.1L322.3 197.1L325.3 193.6L328.6 192.0L331.3 187.3L333.6 181.2L332.4 178.4L332.8 175.6L336.9 166.2M301.2 233.0L292.8 231.5M537.2 387.7L547.8 376.1L550.8 374.7L556.5 374.3L557.4 373.2M335.5 45.7L333.3 42.0L332.7 37.0L330.1 33.3L332.0 32.6L331.2 30.3L329.5 29.4L329.8 28.5L332.3 28.8L335.9 24.5L337.8 25.3"/></g><g class="towns" aria-hidden="true"><text x="238.4" y="223.0">Silver City</text><g class="route"><rect x="367.8" y="333.2" width="59.6" height="15" rx="3"/><text x="397.6" y="345.2" text-anchor="middle">US 180</text></g></g><g class="dots"><a href="#silco-theater" data-name="Silco Theater" data-shows="[[&quot;2026-11-16T19:00&quot;,&quot;Mallrats&quot;,false],[&quot;2026-11-19T19:00&quot;,&quot;Ebenezer: A Christmas Carol&quot;,false],[&quot;2026-11-20T19:00&quot;,&quot;Ebenezer: A Christmas Carol&quot;,false],[&quot;2026-11-21T19:00&quot;,&quot;Ebenezer: A Christmas Carol&quot;,false],[&quot;2026-11-22T14:00&quot;,&quot;Ebenezer: A Christmas Carol&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5"><title>Silco Theater</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#silco-theater">Silco Theater</a></li></ul></nav>
-  <article class="house" id="silco-theater"><h3>Silco Theater</h3><p class="where">Silver City · <a href="https://www.thesilcotheater.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0">Mallrats</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>4 showings</span></summary><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">2pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="silco-theater"><h3>Silco Theater</h3><p class="where">Silver City · <span class="addr">311 North Bullard Street, Silver City</span> · <a href="https://www.thesilcotheater.com/">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0">Mallrats</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><details><summary>Later this week <span>4 showings</span></summary><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">7pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0">Ebenezer: A Christmas Carol</a></span><span class="times"><span class="chip">2pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">

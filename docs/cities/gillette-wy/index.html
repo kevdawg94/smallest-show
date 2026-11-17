@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Independent cinema showtimes in Gillette, WY, WY · Smallest Show</title>
-<meta name="description" content="Gillette, WY, WY: this week&#x27;s showtimes at 1 independent cinema, including Studio City Foothills.">
-<meta property="og:title" content="Independent cinema showtimes in Gillette, WY, WY">
-<meta property="og:description" content="Gillette, WY, WY: this week&#x27;s showtimes at 1 independent cinema, including Studio City Foothills.">
+<title>Independent cinema showtimes in Gillette, WY · Smallest Show</title>
+<meta name="description" content="Gillette, WY: this week&#x27;s showtimes at its independent cinema, Studio City Foothills.">
+<meta property="og:title" content="Independent cinema showtimes in Gillette, WY">
+<meta property="og:description" content="Gillette, WY: this week&#x27;s showtimes at its independent cinema, Studio City Foothills.">
 <meta property="og:url" content="https://smallest.show/cities/gillette-wy/">
 <link rel="canonical" href="https://smallest.show/cities/gillette-wy/">
 <link rel="stylesheet" href="../../site.css">
@@ -24,7 +24,6 @@
   /* A city's page (widget/citypages.py): its theaters, each with its next day of showings in the widget's
      chips and the rest of the week behind a fold. Plain HTML, whole with no script. */
   .intro { padding-top: var(--top); }
-  .buttons + .note { margin-top: var(--s4); }
   .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .jump { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 var(--s4); padding: 0; list-style: none; }
   .jump-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: var(--s4) 0 var(--s2); }
@@ -52,7 +51,80 @@
   summary { cursor: pointer; font-size: 0.92rem; color: var(--ink-2); }
   summary span { color: var(--muted); margin-left: 0.3rem; }
   .closing { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
+  /* The map (widget/citymap.py): the land as the national map lays it, county lines faint, each house a solid
+     amber dot under a blur of the whole dot layer, lit where it has a showing on the page's first day and faint
+     where not; its biggest towns named small. Beside the words on a wide window, between them and the list on a
+     phone, never taller than half the screen. */
+  .top { display: grid; gap: var(--s5) var(--s7); }
+  /* side by side, the map has at least half the width (Kevin, Nov 16: beside a 38rem column of words it shrank to
+     a stamp at a laptop's width) */
+  /* wide, the words across the top, then the widget and the map side by side (Kevin, Nov 16: beside the words the
+     widget ran twice the map's height and left the right half empty); with no widget, the map has the row */
+  .top-text .lede { max-width: 60rem; }
+  @media (min-width: 54rem) {
+    .top { grid-template-columns: minmax(0, 23rem) minmax(0, 1fr); grid-template-areas: "text text" "widget map"; column-gap: var(--s7); align-items: start; }
+    .top-text { grid-area: text; }
+    .top > [data-slot="side"] { grid-area: widget; }
+    .top > .city-sky { grid-area: map; }
+    .top:not(.has-widget) > .city-sky { grid-column: 1 / -1; }
+    /* beside the widget the map is about the card's height, never a tall square beside a short card */
+    .top.has-widget > .city-sky { max-width: min(42rem, calc(27rem / var(--tall, 1))); justify-self: start; }
+  }
+  .city-sky { margin: 0; justify-self: center; width: 100%; max-width: 36rem; }
+  /* the land fades out from well inside its edges (a mask on the land alone: the dots and names stay whole), so the
+     map lies on the page with no straight edge to read as a box */
+  .citymap { display: block; width: 100%; height: auto; overflow: visible; }
+  .citymap .land path { stroke-width: 0.8; }
+  .citymap .dots { filter: url(#citydotglow); }
+  .citymap .dots circle:not(.hit) { fill: url(#citybulb); transition: fill var(--off); }
+  .citymap .dots circle.dim { fill: var(--muted); opacity: 0.45; }
+  .citymap .dots a:hover circle:not(.hit), .citymap .dots a:focus-visible circle:not(.hit) { fill: var(--bulb); opacity: 1; transition-duration: var(--on); }
+  /* the highways: a faint line in the land's border colour, the limited-access ones a little heavier; a route's
+     number in a small chip of the page's colour */
+  .citymap .roads path { fill: none; stroke: var(--muted); stroke-linecap: round; stroke-linejoin: round; }
+  .citymap .roads .major { stroke-width: 1.6; opacity: 0.38; }
+  .citymap .roads .minor { stroke-width: 1; opacity: 0.3; }
+  .citymap .towns .route rect { fill: var(--paper); stroke: var(--faint); stroke-width: 1; }
+  .citymap .towns .route text { font: 600 12px/1 var(--sans); letter-spacing: 0.02em; fill: var(--muted); stroke: none; text-transform: none; }
+  .citymap .towns text { font: 600 17px/1 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; fill: var(--muted); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+  .bulb-core { stop-color: var(--bulb); }
+  .bulb-glass { stop-color: var(--bulb); stop-opacity: 0.85; }
+  .map-key { margin: var(--s2) 0 0; }
+  .citymap .dots circle.hit { fill: transparent; filter: none; }
+  .lit-key { color: var(--accent); font-weight: 600; }
+  .dim-key { font-weight: 600; }
+  .citymap .dots a.on circle:not(.hit) { fill: var(--bulb); opacity: 1; stroke: var(--bulb); stroke-width: 2.5; stroke-opacity: 0.5; }
+  /* A dot's label (Kevin, Nov 16): where a pointer rests on a house, or the keyboard is on it, its name and its next
+     three showings, laid on the page like a chip, no shadow; there at once and gone at once, no fade. A phone has no
+     pointer to rest, so a tap there goes straight to the house's listings. */
+  .peek { position: absolute; z-index: 3; min-width: 11rem; max-width: 17rem; padding: 0.55rem 0.7rem; background: var(--paper);
+    border: 1px solid var(--faint); border-radius: var(--r-chip); font-size: 0.85rem; line-height: 1.35; pointer-events: none; }
+  .peek[hidden] { display: none; }
+  .peek b { display: block; font-family: var(--marquee); font-weight: 600; text-transform: uppercase; font-size: 1.05rem; letter-spacing: 0.01em; color: var(--ink); margin-bottom: 0.25rem; }
+  .peek p { display: grid; grid-template-columns: 4.3rem minmax(0, 1fr); gap: 0.5rem; margin: 0.12rem 0 0; color: var(--ink-2); }
+  .peek p span:first-child { font-variant-numeric: tabular-nums; color: var(--ink); }
+  .peek p.out { color: var(--muted); }
+  .peek p.out span:first-child { color: var(--muted); text-decoration: line-through; }
+  /* a dot of several houses: each house's name, its next showing under it */
+  .peek:has(.group) { max-width: 19rem; }
+  .peek .group p { display: block; margin: 0.35rem 0 0; }
+  .peek .group p span { color: var(--ink); }
+  .peek .group p.later span { color: var(--muted); }
+  .peek .group p small { display: block; margin: 0.05rem 0 0; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .peek small { display: block; margin-top: 0.3rem; color: var(--muted); }
+  .house .addr { white-space: normal; }
+  /* the widget, live: under the button beside the map, and after the list on a phone, where above it would push
+     the showtimes two screens down */
+  .w-demo { margin-top: 0; }
+  .w-how { margin: var(--s3) 0 0; }
+  /* the card holds its room while the listings load; on a phone it waits to be placed after the list */
+  .w-demo .w-body:empty { min-height: 18rem; }
+  @media (max-width: 53.99rem) { [data-slot="side"] { display: none; } }
+  [data-slot="side"] .w-how { display: none; } /* the button is just above it there */
+  [data-slot="end"]:has(.w-demo) + .closing { border-top: 0; padding-top: 0; }
+  [data-slot="end"] .w-demo { margin-top: var(--s7); padding-top: var(--s5); border-top: 1px solid var(--faint); }
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "MovieTheater", "name": "Studio City Foothills", "@id": "https://smallest.show/cities/gillette-wy/#studio-city-foothills", "url": "https://wyomovies.com/StudioCityFoothills", "address": {"@type": "PostalAddress", "streetAddress": "650 North Highway 14-16", "addressLocality": "Gillette", "addressRegion": "WY", "postalCode": "82716", "addressCountry": "US"}, "geo": {"@type": "GeoCoordinates", "latitude": 44.29991, "longitude": -105.5272}}]}</script>
 </head>
 <body>
 <header class="masthead wrap">
@@ -61,6 +133,7 @@
     <a href="../../widget/" data-nav="widget">Widget</a>
     <a href="../../tonight/" data-nav="tonight">Tonight</a>
     <a href="../../map/" data-nav="map">Map</a>
+    <a href="../../cities/" data-nav="cities" aria-current="page">Cities</a>
     <a href="../../about/" data-nav="about">About</a>
     <a href="../../resources/" data-nav="resources">Resources</a>
     <a href="../../theaters/" data-nav="theaters">For theaters</a>
@@ -71,17 +144,146 @@
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute"><filter id="grain-matinee" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter><filter id="grain-night" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="4" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.084 -0.034" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="gi"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="gi"/></feMerge></filter></svg>
 
 <main class="wrap section intro">
-  <div class="measure">
+  <div class="top has-widget">
+  <div class="top-text">
   <span class="eyebrow">Showtimes</span>
   <h1>Gillette, WY</h1>
-  <p class="lede">This week's showtimes at the area's 1 independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
+  <p class="lede">This week's showtimes at the area's independent cinema, from each theater's own listings. The widget puts tonight's showtimes at your own theaters on your iPhone's home screen.</p>
   <div class="buttons"><a class="button" href="../../widget/">Get the widget</a></div>
-  <p class="note">Updated Mon, Nov 16, 3:24pm MST. Times are local, as each theater lists them. Check its site before you go.</p>
   </div>
+  <div class="w-slot" data-slot="side">
+    <div class="w-demo" id="w-demo" data-ids="[&quot;studio-city-foothills&quot;]" data-tz="America/Denver">
+      <div class="widget" aria-live="polite"><header><b>TONIGHT</b><span></span><em></em></header><div class="w-body"></div></div>
+      <p class="w-how"><a href="../../widget/">Put it on your iPhone</a></p>
+    </div>
+  </div>
+  <figure class="sky city-sky" style="--tall: 0.800" data-tz="America/Denver"><svg class="citymap" viewBox="0 0 600 480" role="img" aria-label="A map of Gillette, WY with a dot for each theater on this page"><g class="land grained" mask="url(#cityfade)"><path d="M-12.0 -12.0 23.5 -12.0 23.8 28.7 -12.0 29.4Z"/><path d="M552.8 -12.0 552.5 57.8 554.5 57.8 553.5 306.6 554.8 339.0 556.5 339.0 555.7 492.0 23.7 492.0 22.8 344.1 19.8 344.1 19.7 236.4 21.0 63.1 24.4 63.1 23.5 -12.0Z"/><path d="M-12.0 492.0 -12.0 29.4 23.8 28.7 24.4 63.1 21.0 63.1 19.7 236.4 19.8 344.1 22.8 344.1 23.7 492.0Z"/><path d="M555.7 492.0 556.5 339.0 612.0 338.3 612.0 492.0Z"/><path d="M552.8 46.4 552.8 -12.0 612.0 -12.0 612.0 338.3 554.8 339.0 553.5 306.6 554.5 57.8 552.5 57.8Z"/></g><g class="roads" mask="url(#cityfade)" aria-hidden="true"><path class="minor" d="M341.2 142.0L341.7 137.4L336.6 111.1M298.7 241.2L298.6 239.2M319.0 258.7L318.9 245.4M338.9 295.0L334.2 286.5L324.3 279.2L321.9 276.3L319.3 269.8L319.0 258.7M321.9 245.9L313.3 245.4M318.9 258.7L319.0 258.7M313.3 245.4L301.8 245.5L299.6 244.3M205.5 -12.2L214.3 -2.0L216.6 5.6M216.7 8.0L216.6 5.6M299.9 203.0L300.6 196.1L303.3 187.0L302.4 181.8L296.3 174.1L290.0 155.7L277.3 133.7L267.3 108.6L230.5 54.4L225.7 42.7L217.5 29.4L216.3 24.6L217.1 16.6L215.9 1.1L205.5 -12.2M319.0 254.7L319.1 266.3M300.7 203.7L299.9 203.0M325.9 198.4L325.9 195.0M300.7 203.7L308.8 207.0L318.9 206.7L323.6 204.1L325.8 199.8L326.0 186.7L329.0 177.3L328.1 167.8L339.4 160.8L340.5 159.0L342.5 150.5L340.9 144.2L341.7 137.4L340.0 126.6L337.6 119.2L337.5 113.8L334.0 99.7L331.9 95.3L333.4 86.8L341.0 79.2L350.0 59.3L372.3 44.0L378.1 35.7L398.4 26.9L407.2 19.4L409.4 15.5L415.1 -5.5L415.3 -14.5M346.5 504.2L335.7 462.1L335.6 424.4L336.1 411.6L345.7 360.2L348.3 341.5L351.9 329.5L337.8 291.8L334.2 286.5L322.5 277.3L319.5 270.7L319.1 266.3M319.0 254.7L318.9 245.4L301.8 245.5L299.0 243.3L297.8 226.8L299.7 205.1M319.1 266.3L319.0 254.7M300.7 203.7L299.9 203.0M334.5 247.8L318.6 245.4L301.8 245.5L299.5 244.2L297.8 226.8L299.9 203.0M334.4 247.8L363.1 253.9L402.7 251.4L418.9 249.5L427.7 247.3L436.0 248.1L481.2 257.3L516.4 255.4L522.1 256.0L529.7 251.7L545.1 252.6L553.8 251.9M299.7 205.1L299.8 203.6L300.7 203.7M334.5 247.8L318.6 245.4L301.8 245.5L299.5 244.2L297.8 226.8L299.9 203.0M300.7 203.7L299.7 205.1M187.3 492.3L187.2 479.3L189.6 465.7L188.4 458.4L190.0 446.2L188.6 424.6L194.5 405.7L194.5 379.0L195.9 376.4L204.4 368.6L234.8 343.7L254.0 326.2L269.5 305.8L277.2 296.7L281.2 294.0L287.9 278.4L289.2 265.5L299.3 243.9M299.3 243.9L289.2 265.5L287.5 279.4M299.9 203.0L300.6 196.1L303.3 187.0L302.4 181.8L296.3 174.1L290.0 155.7L277.3 133.7L267.3 108.6L230.5 54.4L225.7 42.7L217.5 29.4L216.3 24.6L216.7 8.0M553.8 251.9L563.4 251.6L575.3 255.0L593.2 256.8L605.8 255.9L619.9 262.9"/><path class="major" d="M553.8 251.5L528.7 251.3L513.7 245.3L465.0 245.7L453.4 242.6L442.8 242.4L424.5 242.2L413.9 246.1L399.5 248.3L379.4 243.7L339.6 243.7L336.6 244.8L334.5 247.8M553.8 251.3L565.2 251.0L575.8 254.6L592.8 256.2L605.1 255.2L624.1 263.3M553.8 251.5L565.2 251.2L575.8 254.8L592.8 256.4L605.6 255.4L620.3 261.9M553.8 251.5L528.7 251.3L514.3 245.4L465.0 245.7L452.2 242.5L424.5 242.2L413.9 246.1L399.5 248.3L379.4 243.7L339.6 243.7L336.1 245.3L331.2 253.5L328.5 255.8L313.7 256.4L310.6 255.3L300.7 247.2L297.0 245.4L267.6 243.6L262.1 246.9L258.0 255.3L244.2 273.9L234.4 280.6L216.0 286.0L191.2 283.0L187.1 283.5L179.6 290.8L167.2 298.4L155.8 301.7L148.7 305.2L140.2 304.2L132.6 307.5L123.5 309.7L113.8 317.2L105.5 328.8L94.0 335.9L89.2 337.4L81.2 336.9L74.4 338.5L70.9 337.8L57.6 324.3L40.0 317.3L19.8 306.8M19.8 306.7L40.3 317.2L58.0 324.4L70.9 337.6L74.3 338.3L81.7 336.7L89.3 337.2L93.6 335.9L105.4 328.6L114.5 316.3L123.1 309.8L132.9 307.3L140.4 304.0L148.9 304.9L156.1 301.4L167.2 298.3L179.2 290.9L184.1 285.0L187.1 283.1L190.9 282.6L216.0 285.7L234.2 280.3L244.0 273.8L257.5 255.6L261.9 246.6L267.3 243.5L296.8 245.2L301.0 247.2L310.9 255.3L313.8 256.2L328.5 255.7L330.9 253.7L335.9 245.3L339.9 243.5L378.6 243.4L400.4 248.1L413.2 246.1L424.8 242.0L452.5 242.3L465.4 245.5L514.5 245.2L529.1 251.2L553.8 251.3M553.8 251.5L565.2 251.2L575.8 254.8L592.8 256.4L605.6 255.4L620.3 261.9M19.8 306.7L12.7 304.2L-5.5 307.5L-19.5 303.6M553.8 251.5L528.7 251.3L513.7 245.3L465.0 245.7L453.4 242.6L442.8 242.4L424.5 242.2L413.9 246.1L399.5 248.3L379.4 243.7L339.6 243.7L336.6 244.8L334.5 247.8M620.3 261.8L605.1 255.2L592.8 256.2L575.8 254.6L565.2 251.0L553.8 251.3M19.8 306.8L13.4 304.5L-4.6 307.9L-21.7 303.6M553.8 251.3L529.1 251.2L514.5 245.2L465.4 245.5L454.0 242.5L446.8 242.2L424.4 242.0L413.2 246.1L400.4 248.1L378.6 243.4L339.9 243.5L336.6 244.6L334.4 247.8M620.3 261.8L605.1 255.2L592.8 256.2L575.8 254.6L565.2 251.0L553.8 251.3M553.8 251.3L529.1 251.2L514.5 245.2L465.4 245.5L454.0 242.5L446.8 242.2L424.4 242.0L413.2 246.1L400.4 248.1L378.6 243.4L339.9 243.5L336.6 244.6L334.4 247.8M553.8 251.5L565.2 251.2L575.8 254.8L592.8 256.4L605.9 255.5L623.4 263.2"/></g><g class="towns" aria-hidden="true"><text x="255.2" y="223.0">Gillette</text><g class="route"><rect x="314.9" y="237.8" width="42.4" height="15" rx="3"/><text x="336.1" y="249.8" text-anchor="middle">I-90</text></g><g class="route"><rect x="439.5" y="238.2" width="51.0" height="15" rx="3"/><text x="465.0" y="250.2" text-anchor="middle">US 14</text></g><g class="route"><rect x="276.9" y="174.3" width="51.0" height="15" rx="3"/><text x="302.4" y="186.3" text-anchor="middle">US 16</text></g></g><g class="dots"><a href="#studio-city-foothills" data-name="Studio City Foothills" data-shows="[[&quot;2026-11-16T18:30&quot;,&quot;The Cat In The Hat&quot;,false],[&quot;2026-11-16T18:55&quot;,&quot;Godzilla Minus Zero&quot;,false],[&quot;2026-11-16T19:00&quot;,&quot;Ebenezer&quot;,false],[&quot;2026-11-16T19:05&quot;,&quot;Clayface&quot;,false],[&quot;2026-11-16T19:10&quot;,&quot;How To Rob A Bank&quot;,false],[&quot;2026-11-16T19:15&quot;,&quot;Ghost Soldier&quot;,false]]"><circle class="hit" cx="300.0" cy="240.0" r="16.0"/><circle cx="300.0" cy="240.0" r="5.5"><title>Studio City Foothills</title></circle></a></g></svg><div class="peek" hidden></div><figcaption class="note map-key"><span class="lit-key">Amber</span>: showing today. <span class="dim-key">Grey</span>: nothing listed today.</figcaption></figure>
+  </div>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position: absolute"><radialGradient id="citybulb"><stop class="bulb-core" offset="0"/><stop class="bulb-core" offset="0.3"/><stop class="bulb-glass" offset="0.75"/></radialGradient><linearGradient id="cityfadex"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="cityfadey" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.22" stop-color="#fff"/><stop offset="0.78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="cityfadeacross" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadey)"/></mask><mask id="cityfade" maskContentUnits="objectBoundingBox" x="0" y="0" width="1" height="1"><rect width="1" height="1" fill="url(#cityfadex)" mask="url(#cityfadeacross)"/></mask><filter id="citydotglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="2.6" result="near"/><feColorMatrix in="near" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.6 0" result="nearlit"/><feGaussianBlur in="SourceGraphic" stdDeviation="8" result="far"/><feColorMatrix in="far" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0" result="farlit"/><feMerge><feMergeNode in="farlit"/><feMergeNode in="nearlit"/><feMergeNode in="SourceGraphic"/></feMerge></filter></svg>
   <nav aria-label="The theaters on this page"><ul class="jump"><li><a href="#studio-city-foothills">Studio City Foothills</a></li></ul></nav>
-  <article class="house" id="studio-city-foothills"><h3>Studio City Foothills</h3><p class="where">Gillette · <a href="https://wyomovies.com/StudioCityFoothills">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">3:55pm</span><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/godzilla-minus-zero/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6:55pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/drummer-boy/">Drummer Boy</a></span><span class="times"><span class="chip">4:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">4:25pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">4:50pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/clayface/">Clayface</a></span><span class="times"><span class="chip">7:05pm</span></span></li></ul><details><summary>Later this week <span>46 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">3:55pm</span><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/godzilla-minus-zero/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6:55pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/drummer-boy/">Drummer Boy</a></span><span class="times"><span class="chip">4:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">4:25pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">4:50pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/clayface/">Clayface</a></span><span class="times"><span class="chip">7:05pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">3:55pm</span><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/godzilla-minus-zero/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6:55pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/drummer-boy/">Drummer Boy</a></span><span class="times"><span class="chip">4:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">4:25pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">4:50pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/clayface/">Clayface</a></span><span class="times"><span class="chip">7:05pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-hunger-games-sunrise-on-the-reaping/">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">3:35pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">3:55pm</span><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/godzilla-minus-zero/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6:55pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">4:10pm</span><span class="chip">6:45pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">4:50pm</span><span class="chip">7:15pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-hunger-games-sunrise-on-the-reaping/">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">3:20pm</span><span class="chip">6:40pm</span><span class="chip">10pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-hunger-games-sunrise-on-the-reaping/">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">12pm</span><span class="chip">3:20pm</span><span class="chip">6:40pm</span><span class="chip">10pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-hunger-games-sunrise-on-the-reaping/">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">12pm</span><span class="chip">3:20pm</span><span class="chip">6:40pm</span></span></li></ul></details></article>
-  <p class="closing note"><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
+  <article class="house" id="studio-city-foothills"><h3>Studio City Foothills</h3><p class="where">Gillette · <span class="addr">650 North Highway 14-16, Gillette</span> · <a href="https://wyomovies.com/StudioCityFoothills">Website</a></p><h4>Mon, Nov 16</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/godzilla-minus-zero/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">6:55pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/clayface/">Clayface</a></span><span class="times"><span class="chip">7:05pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">7:15pm</span></span></li></ul><details><summary>Later this week <span>106 showings</span></summary><h4>Tue, Nov 17</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">3:55pm</span><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/godzilla-minus-zero/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6:55pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/drummer-boy/">Drummer Boy</a></span><span class="times"><span class="chip">4:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">4:25pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">4:50pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/clayface/">Clayface</a></span><span class="times"><span class="chip">7:05pm</span></span></li></ul><h4>Wed, Nov 18</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">3:55pm</span><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/godzilla-minus-zero/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6:55pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/drummer-boy/">Drummer Boy</a></span><span class="times"><span class="chip">4:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">4:25pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">4:50pm</span><span class="chip">7:15pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/clayface/">Clayface</a></span><span class="times"><span class="chip">7:05pm</span></span></li></ul><h4>Thu, Nov 19</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-hunger-games-sunrise-on-the-reaping/">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">3:35pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">3:55pm</span><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/godzilla-minus-zero/">Godzilla Minus Zero</a></span><span class="times"><span class="chip">4pm</span><span class="chip">6:55pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">4:10pm</span><span class="chip">6:45pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">4:15pm</span><span class="chip">7:10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">4:50pm</span><span class="chip">7:15pm</span></span></li></ul><h4>Fri, Nov 20</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-hunger-games-sunrise-on-the-reaping/">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">3:20pm</span><span class="chip">4:10pm</span><span class="chip">6:40pm</span><span class="chip">7:30pm</span><span class="chip">9:35pm</span><span class="chip">10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">3:55pm</span><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">4:20pm</span><span class="chip">7:10pm</span><span class="chip">9:55pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">4:25pm</span><span class="chip">7pm</span><span class="chip">9:05pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">5pm</span><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li></ul><h4>Sat, Nov 21</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">10:10am</span><span class="chip">1:45pm</span><span class="chip">4:25pm</span><span class="chip">7pm</span><span class="chip">9:05pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-hunger-games-sunrise-on-the-reaping/">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">10:25am</span><span class="chip">12pm</span><span class="chip">12:50pm</span><span class="chip">3:20pm</span><span class="chip">4:10pm</span><span class="chip">6:40pm</span><span class="chip">7:30pm</span><span class="chip">9:35pm</span><span class="chip">10pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">10:30am</span><span class="chip">12:40pm</span><span class="chip">2:50pm</span><span class="chip">5pm</span><span class="chip">7:20pm</span><span class="chip">9:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">10:40am</span><span class="chip">1:20pm</span><span class="chip">3:55pm</span><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">10:50am</span><span class="chip">1:35pm</span><span class="chip">4:20pm</span><span class="chip">7:10pm</span><span class="chip">9:55pm</span></span></li></ul><h4>Sun, Nov 22</h4><ul class="films"><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ebenezer/">Ebenezer</a></span><span class="times"><span class="chip">10:10am</span><span class="chip">1:45pm</span><span class="chip">4:25pm</span><span class="chip">7pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-hunger-games-sunrise-on-the-reaping/">The Hunger Games: Sunrise On The Reaping</a></span><span class="times"><span class="chip">10:25am</span><span class="chip">12pm</span><span class="chip">12:50pm</span><span class="chip">3:20pm</span><span class="chip">4:10pm</span><span class="chip">6:40pm</span><span class="chip">7:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/ghost-soldier/">Ghost Soldier</a></span><span class="times"><span class="chip">10:30am</span><span class="chip">12:40pm</span><span class="chip">2:50pm</span><span class="chip">5pm</span><span class="chip">7:20pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/the-cat-in-the-hat/">The Cat In The Hat</a></span><span class="times"><span class="chip">10:40am</span><span class="chip">1:20pm</span><span class="chip">3:55pm</span><span class="chip">6:30pm</span></span></li><li><span class="film"><a href="https://wyomovies.com/StudioCityFoothills/movie/how-to-rob-a-bank/">How To Rob A Bank</a></span><span class="times"><span class="chip">10:50am</span><span class="chip">1:35pm</span><span class="chip">4:20pm</span><span class="chip">7:10pm</span></span></li></ul></details></article>
+  <div class="w-slot" data-slot="end"></div>
+  <p class="closing note">Updated Mon, Nov 16, 6:23pm MST. Check each theater's site before you go.<br><a href="../">Showtimes in another city</a> · <a href="../../map/">Every theater on the map</a></p>
 </main>
+<script src="../../card.js"></script>
+<script>
+  // The widget under the button: the city's busiest houses today (the build's order, data-ids), their feeds asked
+  // for four at a time until four have something left tonight, or failing that tomorrow, drawn as the phone draws
+  // them (public/card.js). Nothing to show, or no script: no widget, and the button stands alone.
+  (() => {
+    const demo = document.getElementById("w-demo");
+    if (!demo || !window.SSCard) return;
+    const C = SSCard, ids = JSON.parse(demo.dataset.ids || "[]"), card = demo.querySelector(".widget");
+    const FEEDS = "https://raw.githubusercontent.com/kevdawg94/smallest-show/feeds/";
+    const fresh = "?t=" + Math.floor(Date.now() / 300000);
+    // beside the map on a wide window, after the list on a narrow one
+    const wide = matchMedia("(min-width: 54rem)");
+    const place = () => document.querySelector(`[data-slot="${wide.matches ? "side" : "end"}"]`).append(demo);
+    (async () => {
+      const tonight = [], tomorrow = [];
+      // a feed's own tz is the run's clock (Pacific); the houses keep the city's
+      const tz = demo.dataset.tz || "America/New_York";
+      let built = null;
+      for (let i = 0; i < ids.length && tonight.length < 4; i += 4) {
+        const got = await Promise.all(ids.slice(i, i + 4).map(id => fetch(FEEDS + encodeURIComponent(id) + ".json" + fresh).then(r => r.json()).catch(() => null)));
+        for (const feed of got) {
+          if (!feed) continue;
+          built = built || feed.generated_at;
+          feed.tz = tz;
+          let films = C.filmsFor(feed, false);
+          if (films.length) { tonight.push({ feed, films }); continue; }
+          films = C.filmsFor(feed, true);
+          if (films.length) tomorrow.push({ feed, films });
+        }
+      }
+      if (!tonight.length && !tomorrow.length) { demo.hidden = true; demo.closest(".top") && demo.closest(".top").classList.remove("has-widget"); return; }
+      const today = C.wallNow(tz).slice(0, 10);
+      if (tonight.length) C.show(card, "Tonight", tonight.slice(0, 4), today);
+      else C.show(card, "Tomorrow", tomorrow.slice(0, 4), C.nextDay(today));
+      if (built) card.querySelector("header em").textContent = "updated " + C.stamp(built, "America/Los_Angeles");
+      place();
+      wide.addEventListener ? wide.addEventListener("change", place) : wide.addListener(place);
+      demo.hidden = false;
+    })().catch(() => {});
+  })();
+
+  // The map's labels: a dot's name and its next three showings, by the city's own clock, from what the build put
+  // on the dot (data-shows: [wall time, film, sold out], in order). A pointer that rests (a mouse, a trackpad)
+  // or the keyboard brings one up; a touch doesn't, so a tap goes to the listings. With no script, the dots keep
+  // their plain titles.
+  (() => {
+    const box = document.querySelector(".city-sky"), peek = box && box.querySelector(".peek");
+    if (!peek) return;
+    const tz = box.dataset.tz, rests = matchMedia("(hover: hover) and (pointer: fine)").matches;
+    const now = () => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(new Date()).map(x => [x.type, x.value]));
+      return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}`;
+    };
+    // a theater's day runs from 4 am to 4 am, as the listings below have it
+    const day = at => { const d = new Date(at + ":00Z"); d.setUTCHours(d.getUTCHours() - 4); return d.toISOString().slice(0, 10); };
+    const clock = at => { const h = +at.slice(11, 13), m = at.slice(14, 16); return `${h % 12 || 12}${m === "00" ? "" : ":" + m}${h >= 12 ? "pm" : "am"}`; };
+    const weekday = at => new Date(at.slice(0, 10) + "T12:00Z").toLocaleDateString("en-US", { weekday: "short", timeZone: "UTC" });
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    function show(a) {
+      let shows = [], group = null;
+      try { shows = JSON.parse(a.dataset.shows || "[]"); group = a.dataset.group ? JSON.parse(a.dataset.group) : null; } catch (e) {}
+      const t = now(), today = day(t), when = at => (day(at) === today ? "" : weekday(day(at) + "T12:00") + " ") + clock(at);
+      let html = `<b>${esc(a.dataset.name)}</b>`;
+      if (group) {
+        // a dot of several houses: each, with its next showing still to come
+        html += '<div class="group">';
+        // the houses with a showing still to come today first, soonest first; then those whose next is on a later
+        // day; then those with none in sight (Kevin, Nov 16: nothing today goes to the bottom)
+        const rows = group.map(([name, next]) => ({ name, s: (next || []).find(s => s[0] >= t) }));
+        const rank = r => !r.s ? 2 : day(r.s[0]) === today ? 0 : 1;
+        rows.sort((x, y) => rank(x) - rank(y) || (x.s && y.s ? (x.s[0] < y.s[0] ? -1 : x.s[0] > y.s[0] ? 1 : 0) : 0) || x.name.localeCompare(y.name));
+        for (const { name, s } of rows)
+          html += `<p${rank({ s }) ? ' class="later"' : ""}><span>${esc(name)}</span>${s ? `<small>${when(s[0])} · ${esc(s[1])}</small>`  : ""}</p>`;
+        html += "</div>";
+      } else {
+        const next = shows.filter(s => s[0] >= t).slice(0, 3);
+        if (!next.length) html += "<small>Nothing more listed this week</small>";
+        for (const [at, film, out] of next)
+          html += `<p${out ? ' class="out"' : ""}><span>${when(at)}</span><span>${esc(film)}${out ? " (sold out)" : ""}</span></p>`;
+      }
+      peek.innerHTML = html;
+      peek.hidden = false;
+      // beside the dot on the side with fewer houses near it, 14px off, so it doesn't cover the cluster it is about
+      const b = box.getBoundingClientRect(), d = a.getBoundingClientRect(), w = peek.offsetWidth, h = peek.offsetHeight;
+      const dx = d.left + d.width / 2 - b.left, dy = d.top + d.height / 2 - b.top;
+      let left = 0, right = 0;
+      for (const o of dots) { const r = o.getBoundingClientRect(), ox = r.left + r.width / 2 - b.left, oy = r.top + r.height / 2 - b.top;
+        if (Math.abs(oy - dy) < h) { if (ox < dx - 4 && ox > dx - w - 20) left++; else if (ox > dx + 4 && ox < dx + w + 20) right++; } }
+      // and always inside the map: the side that fits wins over the quieter one; where neither does, above or
+      // below the dot, across the map's width
+      const fitsRight = dx + 14 + w <= b.width, fitsLeft = dx - 14 - w >= 0;
+      const quieter = right < left ? "right" : left < right ? "left" : dx < b.width / 2 ? "right" : "left";
+      const side = fitsRight && fitsLeft ? quieter : fitsRight ? "right" : fitsLeft ? "left" : null;
+      let x, y;
+      if (side) {
+        x = side === "right" ? dx + 14 : dx - 14 - w;
+        y = Math.min(Math.max(dy - h / 2, 0), b.height - h);
+      } else {
+        x = Math.min(Math.max(dx - w / 2, 0), Math.max(0, b.width - w));
+        y = dy - 14 - h >= 0 ? dy - 14 - h : dy + 14;
+      }
+      peek.style.left = x + "px";
+      peek.style.top = y + "px";
+      on && on.classList.remove("on");
+      (on = a).classList.add("on");
+    }
+    let on = null;
+    const hide = () => { peek.hidden = true; on && on.classList.remove("on"); on = null; };
+    const dots = [...box.querySelectorAll(".dots a")];
+    for (const a of dots) {
+      const title = a.querySelector("title");
+      if (title) { a.setAttribute("aria-label", title.textContent); if (rests) title.remove(); }
+      if (rests) { a.addEventListener("mouseenter", () => show(a)); a.addEventListener("mouseleave", hide); }
+      a.addEventListener("focus", () => { if (a.matches(":focus-visible")) show(a); });
+      a.addEventListener("blur", hide);
+    }
+  })();
+</script>
 <footer class="colophon">
   <div class="bulbs top" aria-hidden="true"></div><div class="bulbs col left" aria-hidden="true"></div><div class="bulbs col right" aria-hidden="true"></div><div class="bulbs bottom" aria-hidden="true"></div>
   <div class="wrap">
