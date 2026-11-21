@@ -1,0 +1,93 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "wayne-theatre",
+ "name": "The Wayne Theatre",
+ "city": "dayton",
+ "area": "Greenville",
+ "region": "Bellefontaine & Greenville",
+ "url": "https://thewaynetheatre.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.ticketor.com/thewaynetheatre/tickets",
+   "shows": [
+    {
+     "at": "2026-11-21T12:00",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/ebenezer-372112"
+    },
+    {
+     "at": "2026-11-21T14:45",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/ebenezer-372113"
+    },
+    {
+     "at": "2026-11-21T17:30",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/ebenezer-372114"
+    },
+    {
+     "at": "2026-11-21T20:15",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/ebenezer-372115"
+    },
+    {
+     "at": "2026-11-22T12:00",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/ebenezer-372116"
+    },
+    {
+     "at": "2026-11-22T14:45",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/ebenezer-372118"
+    },
+    {
+     "at": "2026-11-22T17:30",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/ebenezer-372117"
+    }
+   ]
+  },
+  {
+   "title": "The Blind Side",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.ticketor.com/thewaynetheatre/tickets",
+   "shows": [
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/the-blind-side-372002"
+    },
+    {
+     "at": "2026-11-25T10:30",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/the-blind-side-372003"
+    }
+   ]
+  },
+  {
+   "title": "Disney's Hexed",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.ticketor.com/thewaynetheatre/tickets",
+   "shows": [
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://www.ticketor.com/thewaynetheatre/Event/disney-s-hexed-372101"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

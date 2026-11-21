@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "madelia-theater",
+ "name": "Madelia Theater",
+ "city": "fairmont",
+ "area": "Madelia",
+ "region": "Southwest Minnesota",
+ "url": "https://www.madeliatheater.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.madeliatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.madeliatheater.com/"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.madeliatheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

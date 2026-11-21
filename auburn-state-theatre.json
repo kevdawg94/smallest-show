@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "auburn-state-theatre",
+ "name": "State Theatre",
+ "city": "lincoln",
+ "area": "Auburn",
+ "region": "Auburn",
+ "url": "https://auburnstatetheater.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://auburnstatetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://auburnstatetheater.com/"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://auburnstatetheater.com/"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://auburnstatetheater.com/"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://auburnstatetheater.com/"
+    },
+    {
+     "at": "2026-11-26T19:30",
+     "sold_out": false,
+     "url": "https://auburnstatetheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

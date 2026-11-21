@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "slab-cinema",
+ "name": "Slab Cinema ArtHouse",
+ "city": "sanantonio",
+ "area": "Blue Star, Southtown",
+ "region": "Southtown & Downtown",
+ "url": "https://www.slabcinemaarthouse.com/",
+ "films": [
+  {
+   "title": "Lady Snowblood (1973), Cinephile Sunday (Hosted by Permanent Night)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.slabcinemaarthouse.com/event-details/11-22-lady-snowblood-1973-cinephile-sunday-hosted-by-permanent-night",
+   "shows": [
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.slabcinemaarthouse.com/event-details/11-22-lady-snowblood-1973-cinephile-sunday-hosted-by-permanent-night"
+    }
+   ]
+  },
+  {
+   "title": "To Wong Foo, Thanks for Everything! Julie Newmar",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.slabcinemaarthouse.com/event-details/11-23-to-wong-foo-thanks-for-everything-julie-newmar-1995",
+   "shows": [
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://www.slabcinemaarthouse.com/event-details/11-23-to-wong-foo-thanks-for-everything-julie-newmar-1995"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://www.slabcinemaarthouse.com/event-details/11-24-to-wong-foo-thanks-for-everything-julie-newmar-1995"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

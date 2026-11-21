@@ -1,0 +1,958 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "temeku-cinemas",
+ "name": "Temeku Cinemas",
+ "city": "palmsprings",
+ "area": "Temecula",
+ "region": "Inland Empire",
+ "url": "https://tristonecinemas.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.tristonecinemas.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-21T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339102"
+    },
+    {
+     "at": "2026-11-21T11:35",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339105"
+    },
+    {
+     "at": "2026-11-21T14:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339111"
+    },
+    {
+     "at": "2026-11-21T16:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339118"
+    },
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339124"
+    },
+    {
+     "at": "2026-11-21T21:55",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339128"
+    },
+    {
+     "at": "2026-11-22T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4338994"
+    },
+    {
+     "at": "2026-11-22T11:35",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4338997"
+    },
+    {
+     "at": "2026-11-22T14:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339003"
+    },
+    {
+     "at": "2026-11-22T16:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339010"
+    },
+    {
+     "at": "2026-11-22T19:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339016"
+    },
+    {
+     "at": "2026-11-22T21:55",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339020"
+    },
+    {
+     "at": "2026-11-23T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339024"
+    },
+    {
+     "at": "2026-11-23T11:35",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339027"
+    },
+    {
+     "at": "2026-11-23T14:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339033"
+    },
+    {
+     "at": "2026-11-23T16:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339040"
+    },
+    {
+     "at": "2026-11-23T19:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339046"
+    },
+    {
+     "at": "2026-11-23T21:55",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339050"
+    },
+    {
+     "at": "2026-11-24T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339053"
+    },
+    {
+     "at": "2026-11-24T11:35",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339055"
+    },
+    {
+     "at": "2026-11-24T14:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339059"
+    },
+    {
+     "at": "2026-11-24T16:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339064"
+    },
+    {
+     "at": "2026-11-24T19:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339068"
+    },
+    {
+     "at": "2026-11-24T21:55",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-cat-in-the-hat/4339072"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.tristonecinemas.com/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-21T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224751"
+    },
+    {
+     "at": "2026-11-21T10:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339097"
+    },
+    {
+     "at": "2026-11-21T11:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339103"
+    },
+    {
+     "at": "2026-11-21T12:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224752"
+    },
+    {
+     "at": "2026-11-21T13:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339108"
+    },
+    {
+     "at": "2026-11-21T14:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339109"
+    },
+    {
+     "at": "2026-11-21T15:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224753"
+    },
+    {
+     "at": "2026-11-21T16:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339114"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339115"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224754"
+    },
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339122"
+    },
+    {
+     "at": "2026-11-21T21:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339121"
+    },
+    {
+     "at": "2026-11-21T22:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224755"
+    },
+    {
+     "at": "2026-11-22T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224756"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4338991"
+    },
+    {
+     "at": "2026-11-22T11:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4338995"
+    },
+    {
+     "at": "2026-11-22T12:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224757"
+    },
+    {
+     "at": "2026-11-22T13:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339000"
+    },
+    {
+     "at": "2026-11-22T14:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339001"
+    },
+    {
+     "at": "2026-11-22T15:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224758"
+    },
+    {
+     "at": "2026-11-22T16:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339006"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339007"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224759"
+    },
+    {
+     "at": "2026-11-22T20:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339014"
+    },
+    {
+     "at": "2026-11-22T21:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339013"
+    },
+    {
+     "at": "2026-11-22T22:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224760"
+    },
+    {
+     "at": "2026-11-23T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224767"
+    },
+    {
+     "at": "2026-11-23T10:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339021"
+    },
+    {
+     "at": "2026-11-23T11:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339025"
+    },
+    {
+     "at": "2026-11-23T12:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224768"
+    },
+    {
+     "at": "2026-11-23T13:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339030"
+    },
+    {
+     "at": "2026-11-23T14:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339031"
+    },
+    {
+     "at": "2026-11-23T15:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224769"
+    },
+    {
+     "at": "2026-11-23T16:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339036"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339037"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224770"
+    },
+    {
+     "at": "2026-11-23T20:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339044"
+    },
+    {
+     "at": "2026-11-23T21:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339043"
+    },
+    {
+     "at": "2026-11-23T22:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224771"
+    },
+    {
+     "at": "2026-11-24T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4150704"
+    },
+    {
+     "at": "2026-11-24T10:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339077"
+    },
+    {
+     "at": "2026-11-24T10:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339074"
+    },
+    {
+     "at": "2026-11-24T12:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4150705"
+    },
+    {
+     "at": "2026-11-24T13:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339079"
+    },
+    {
+     "at": "2026-11-24T15:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4150706"
+    },
+    {
+     "at": "2026-11-24T16:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339082"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4150707"
+    },
+    {
+     "at": "2026-11-24T20:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4339083"
+    },
+    {
+     "at": "2026-11-24T22:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4150708"
+    },
+    {
+     "at": "2026-11-25T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224772"
+    },
+    {
+     "at": "2026-11-25T12:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224773"
+    },
+    {
+     "at": "2026-11-25T15:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224774"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224775"
+    },
+    {
+     "at": "2026-11-25T22:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4224776"
+    },
+    {
+     "at": "2026-11-26T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4275114"
+    },
+    {
+     "at": "2026-11-26T12:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4275115"
+    },
+    {
+     "at": "2026-11-26T15:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4275116"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4275117"
+    },
+    {
+     "at": "2026-11-26T22:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4275118"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://www.tristonecinemas.com/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-21T09:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339099"
+    },
+    {
+     "at": "2026-11-21T11:55",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339106"
+    },
+    {
+     "at": "2026-11-21T14:30",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339112"
+    },
+    {
+     "at": "2026-11-21T17:05",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339117"
+    },
+    {
+     "at": "2026-11-21T19:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339123"
+    },
+    {
+     "at": "2026-11-21T22:15",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339127"
+    },
+    {
+     "at": "2026-11-22T09:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4338992"
+    },
+    {
+     "at": "2026-11-22T11:55",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4338998"
+    },
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339004"
+    },
+    {
+     "at": "2026-11-22T17:05",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339009"
+    },
+    {
+     "at": "2026-11-22T19:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339015"
+    },
+    {
+     "at": "2026-11-22T22:15",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339019"
+    },
+    {
+     "at": "2026-11-23T09:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339022"
+    },
+    {
+     "at": "2026-11-23T11:55",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339028"
+    },
+    {
+     "at": "2026-11-23T14:30",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339034"
+    },
+    {
+     "at": "2026-11-23T17:05",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339039"
+    },
+    {
+     "at": "2026-11-23T19:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339045"
+    },
+    {
+     "at": "2026-11-23T22:15",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339049"
+    },
+    {
+     "at": "2026-11-24T09:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339051"
+    },
+    {
+     "at": "2026-11-24T11:55",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339056"
+    },
+    {
+     "at": "2026-11-24T14:30",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339060"
+    },
+    {
+     "at": "2026-11-24T17:05",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339063"
+    },
+    {
+     "at": "2026-11-24T19:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339067"
+    },
+    {
+     "at": "2026-11-24T22:15",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/ebenezer/4339071"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": null,
+   "runtime_min": 135,
+   "url": "https://www.tristonecinemas.com/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339104"
+    },
+    {
+     "at": "2026-11-21T13:05",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339110"
+    },
+    {
+     "at": "2026-11-21T18:50",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339120"
+    },
+    {
+     "at": "2026-11-21T21:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339126"
+    },
+    {
+     "at": "2026-11-22T10:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4338996"
+    },
+    {
+     "at": "2026-11-22T13:05",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339002"
+    },
+    {
+     "at": "2026-11-22T18:50",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339012"
+    },
+    {
+     "at": "2026-11-22T21:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339018"
+    },
+    {
+     "at": "2026-11-23T10:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339026"
+    },
+    {
+     "at": "2026-11-23T13:05",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339032"
+    },
+    {
+     "at": "2026-11-23T18:50",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339042"
+    },
+    {
+     "at": "2026-11-23T21:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339048"
+    },
+    {
+     "at": "2026-11-24T10:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339054"
+    },
+    {
+     "at": "2026-11-24T13:05",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339058"
+    },
+    {
+     "at": "2026-11-24T18:50",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339066"
+    },
+    {
+     "at": "2026-11-24T21:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/godzilla-minus-zero/4339070"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.tristonecinemas.com/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339101"
+    },
+    {
+     "at": "2026-11-21T13:30",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339107"
+    },
+    {
+     "at": "2026-11-21T16:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339113"
+    },
+    {
+     "at": "2026-11-21T19:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339119"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339125"
+    },
+    {
+     "at": "2026-11-22T10:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4338993"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4338999"
+    },
+    {
+     "at": "2026-11-22T16:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339005"
+    },
+    {
+     "at": "2026-11-22T19:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339011"
+    },
+    {
+     "at": "2026-11-22T22:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339017"
+    },
+    {
+     "at": "2026-11-23T10:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339023"
+    },
+    {
+     "at": "2026-11-23T13:30",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339029"
+    },
+    {
+     "at": "2026-11-23T16:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339035"
+    },
+    {
+     "at": "2026-11-23T19:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339041"
+    },
+    {
+     "at": "2026-11-23T22:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339047"
+    },
+    {
+     "at": "2026-11-24T10:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339052"
+    },
+    {
+     "at": "2026-11-24T13:30",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339057"
+    },
+    {
+     "at": "2026-11-24T16:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339061"
+    },
+    {
+     "at": "2026-11-24T19:10",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339065"
+    },
+    {
+     "at": "2026-11-24T22:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/i-play-rocky/4339069"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 130,
+   "url": "https://www.tristonecinemas.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/wildwood/4339116"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/wildwood/4339008"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/wildwood/4339038"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/wildwood/4339062"
+    }
+   ]
+  },
+  {
+   "title": "Disney's Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://www.tristonecinemas.com/movie/hexed/",
+   "shows": [
+    {
+     "at": "2026-11-24T14:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150454"
+    },
+    {
+     "at": "2026-11-24T16:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150455"
+    },
+    {
+     "at": "2026-11-24T19:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150456"
+    },
+    {
+     "at": "2026-11-24T22:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150457"
+    },
+    {
+     "at": "2026-11-25T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150714"
+    },
+    {
+     "at": "2026-11-25T11:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150715"
+    },
+    {
+     "at": "2026-11-25T14:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150716"
+    },
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150717"
+    },
+    {
+     "at": "2026-11-25T19:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150718"
+    },
+    {
+     "at": "2026-11-25T22:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150719"
+    },
+    {
+     "at": "2026-11-26T09:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150859"
+    },
+    {
+     "at": "2026-11-26T11:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150860"
+    },
+    {
+     "at": "2026-11-26T14:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150861"
+    },
+    {
+     "at": "2026-11-26T17:00",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150862"
+    },
+    {
+     "at": "2026-11-26T19:40",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150863"
+    },
+    {
+     "at": "2026-11-26T22:20",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/hexed/4150864"
+    }
+   ]
+  },
+  {
+   "title": "Focker-in-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.tristonecinemas.com/movie/focker-in-law/",
+   "shows": [
+    {
+     "at": "2026-11-25T09:15",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275102"
+    },
+    {
+     "at": "2026-11-25T11:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275103"
+    },
+    {
+     "at": "2026-11-25T14:15",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275104"
+    },
+    {
+     "at": "2026-11-25T16:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275105"
+    },
+    {
+     "at": "2026-11-25T19:15",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275106"
+    },
+    {
+     "at": "2026-11-25T21:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275107"
+    },
+    {
+     "at": "2026-11-26T09:15",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275108"
+    },
+    {
+     "at": "2026-11-26T11:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275109"
+    },
+    {
+     "at": "2026-11-26T14:15",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275110"
+    },
+    {
+     "at": "2026-11-26T16:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275111"
+    },
+    {
+     "at": "2026-11-26T19:15",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275112"
+    },
+    {
+     "at": "2026-11-26T21:45",
+     "sold_out": false,
+     "url": "https://www.tristonecinemas.com/checkout/showing/focker-in-law/4275113"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

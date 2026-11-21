@@ -1,0 +1,85 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "roxy-lock-haven",
+ "name": "Roxy Theatre",
+ "city": "statecollege",
+ "area": "Lock Haven",
+ "region": "Lock Haven",
+ "url": "https://roxymovie.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://roxymovie.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games Sunrise on the Reapign",
+   "rating": "PG-13",
+   "runtime_min": 160,
+   "url": "https://roxymovie.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://roxymovie.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "old-town-music-hall",
+ "name": "Old Town Music Hall",
+ "city": "la",
+ "area": "El Segundo",
+ "region": "South Bay & Orange County",
+ "url": "https://www.oldtownmusichall.org/",
+ "films": [
+  {
+   "title": "Sunrise: A Song of Two Humans",
+   "rating": null,
+   "runtime_min": 94,
+   "url": "https://oldtownmusichall.org/movie/sunrise-a-song-of-two-humans/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:30",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/sunrise-a-song-of-two-humans/3347488"
+    }
+   ]
+  },
+  {
+   "title": "The Hustler",
+   "rating": null,
+   "runtime_min": 134,
+   "url": "https://oldtownmusichall.org/movie/the-hustler/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/the-hustler/3347489"
+    }
+   ]
+  },
+  {
+   "title": "The Good Fairy",
+   "rating": null,
+   "runtime_min": 98,
+   "url": "https://oldtownmusichall.org/movie/the-good-fairy/",
+   "shows": [
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/the-good-fairy/3347490"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

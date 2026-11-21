@@ -1,0 +1,154 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "mars-theatre",
+ "name": "Mars Theatre",
+ "city": "savannah",
+ "area": "Springfield",
+ "region": "Springfield",
+ "url": "https://marstheatre.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://marstheatre.com/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4170636"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4170638"
+    }
+   ]
+  },
+  {
+   "title": "Space Jam",
+   "rating": "PG",
+   "runtime_min": 87,
+   "url": "https://marstheatre.com/movie/space-jam/",
+   "shows": [
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/space-jam/4143146"
+    }
+   ]
+  },
+  {
+   "title": "Little Giants",
+   "rating": "PG",
+   "runtime_min": 107,
+   "url": "https://marstheatre.com/movie/little-giants/",
+   "shows": [
+    {
+     "at": "2026-11-23T15:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/little-giants/4159223"
+    }
+   ]
+  },
+  {
+   "title": "Four Brothers",
+   "rating": "R",
+   "runtime_min": 109,
+   "url": "https://marstheatre.com/movie/four-brothers/",
+   "shows": [
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/four-brothers/4159314"
+    }
+   ]
+  },
+  {
+   "title": "You've Got Mail",
+   "rating": "PG",
+   "runtime_min": 119,
+   "url": "https://marstheatre.com/movie/youve-got-mail/",
+   "shows": [
+    {
+     "at": "2026-11-24T12:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/youve-got-mail/4161750"
+    }
+   ]
+  },
+  {
+   "title": "Grumpy Old Men",
+   "rating": "PG-13",
+   "runtime_min": 103,
+   "url": "https://marstheatre.com/movie/grumpy-old-men/",
+   "shows": [
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/grumpy-old-men/4161985"
+    }
+   ]
+  },
+  {
+   "title": "Caddyshack",
+   "rating": "R",
+   "runtime_min": 98,
+   "url": "https://marstheatre.com/movie/caddyshack/",
+   "shows": [
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/caddyshack/4162004"
+    }
+   ]
+  },
+  {
+   "title": "The Karate Kid",
+   "rating": "PG",
+   "runtime_min": 127,
+   "url": "https://marstheatre.com/movie/the-karate-kid/",
+   "shows": [
+    {
+     "at": "2026-11-25T12:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/the-karate-kid/4162459"
+    }
+   ]
+  },
+  {
+   "title": "Addams Family Values",
+   "rating": "PG-13",
+   "runtime_min": 94,
+   "url": "https://marstheatre.com/movie/addams-family-values/",
+   "shows": [
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/addams-family-values/4162518"
+    }
+   ]
+  },
+  {
+   "title": "Planes Trains & Automobiles",
+   "rating": "R",
+   "runtime_min": 92,
+   "url": "https://marstheatre.com/movie/planes-trains-automobiles/",
+   "shows": [
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/planes-trains-automobiles/4162542"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

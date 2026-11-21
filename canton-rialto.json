@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "canton-rialto",
+ "name": "Rialto Theatre",
+ "city": "nepa",
+ "area": "Canton",
+ "region": "Sayre",
+ "url": "https://cantonrialto.org/",
+ "films": [
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=661vs0s0xs66jpbt8q5ksvc1tc",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/946?siteToken=661vs0s0xs66jpbt8q5ksvc1tc"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/947?siteToken=661vs0s0xs66jpbt8q5ksvc1tc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

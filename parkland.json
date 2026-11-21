@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "parkland",
+ "name": "Parkland",
+ "city": "cincinnati",
+ "area": "Sayler Park",
+ "region": "West Side & Indiana",
+ "url": "https://parklandtheater.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cq4hd4nk3yjnn3036dm0x98s6r",
+   "shows": [
+    {
+     "at": "2026-11-21T18:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4785?siteToken=cq4hd4nk3yjnn3036dm0x98s6r"
+    },
+    {
+     "at": "2026-11-21T20:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4786?siteToken=cq4hd4nk3yjnn3036dm0x98s6r"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4823?siteToken=cq4hd4nk3yjnn3036dm0x98s6r"
+    },
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4824?siteToken=cq4hd4nk3yjnn3036dm0x98s6r"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4787?siteToken=cq4hd4nk3yjnn3036dm0x98s6r"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cq4hd4nk3yjnn3036dm0x98s6r",
+   "shows": [
+    {
+     "at": "2026-11-25T21:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4788?siteToken=cq4hd4nk3yjnn3036dm0x98s6r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

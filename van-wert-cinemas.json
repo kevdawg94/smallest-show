@@ -1,0 +1,566 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "van-wert-cinemas",
+ "name": "Van Wert Cinemas",
+ "city": "toledo",
+ "area": "Van Wert",
+ "region": "Kenton, Ada & Van Wert",
+ "url": "https://www.saunderstheaters.com/van-wert-cinema",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.saunderstheaters.com/movies/ebenezer-2026?location=van-wert-cinema&locationKey=4",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=RW1hUVFxNTdPSzliMmJPSTVETGlhUT09"
+    },
+    {
+     "at": "2026-11-21T15:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=emZBYlJqcEhWWDNvVExKdG16WlpzQT09"
+    },
+    {
+     "at": "2026-11-21T18:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=OFdPc2ZwRFRtc0g2UnovK2RMeTd0Zz09"
+    },
+    {
+     "at": "2026-11-21T20:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=amhRMDIwRXUxUlhhYVZmY2ZwanVmZz09"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=Z1Q0T25QWmZpdU9sd0hiQXYwQ3ZrQT09"
+    },
+    {
+     "at": "2026-11-22T15:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=N3ZDVXpwenE0NWpoQmpVYm1hM0RNZz09"
+    },
+    {
+     "at": "2026-11-22T18:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=VGttYldkckg5dVBpRm1Jc2F4Z1dQdz09"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=Z3ZHODJPUlJZRVVCeThBMlcvbGVPdz09"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=TFVtVTd5aFdqc0I5UTVLSUNjdWRZdz09"
+    },
+    {
+     "at": "2026-11-23T18:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=MER1Q1BjaDhpVHZENWRjVDlIcVBVZz09"
+    },
+    {
+     "at": "2026-11-24T13:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=Y1RvbE51RWxIcHpRVHpWRUtaMkR6dz09"
+    },
+    {
+     "at": "2026-11-24T15:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=L0xPTXNwekZUTndGNFp5OEl5Mjhmdz09"
+    },
+    {
+     "at": "2026-11-24T18:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/ebenezer-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=c05jU3MrTWNNVTVQSnNLTlVINnU3UT09"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": null,
+   "runtime_min": 114,
+   "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026?location=van-wert-cinema&locationKey=4",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=M1RpcU94OVR1aUtRSzBVODBjbE9yQT09"
+    },
+    {
+     "at": "2026-11-21T15:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=WTlhclBJOTdlTGRmSXVjM2RlOEFJZz09"
+    },
+    {
+     "at": "2026-11-21T17:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=bWwrM1dkNmhMSm5YYlJrSmd4QXFKZz09"
+    },
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=QW03UlRqS3Y0NEhmckdSSzIwaENsdz09"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=RTBkMmxDMUxpVC9GQ09xd1pPK1ZqUT09"
+    },
+    {
+     "at": "2026-11-22T15:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=NmhkeXZFTzErN0VLZERJOVkraWtrQT09"
+    },
+    {
+     "at": "2026-11-22T17:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=SDZXZ3B5QWN3eElxQklpdWVoWm9yZz09"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=K2JzZ0NXTDFWLzNKYThaUmlNM3dvdz09"
+    },
+    {
+     "at": "2026-11-23T15:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=YWtSbUprdnowSS9hYU1TSEFVNmJMQT09"
+    },
+    {
+     "at": "2026-11-23T17:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=NFpHVGoyLzFaTENRVC9LK29kUzQrZz09"
+    },
+    {
+     "at": "2026-11-24T13:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=clBKS0xuejhhekc5TTJka2NDRGthUT09"
+    },
+    {
+     "at": "2026-11-24T15:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=VFhuVDl0SUhjdU9ERWRUQlc3KzRmZz09"
+    },
+    {
+     "at": "2026-11-24T17:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-cat-in-the-hat-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=c2R0OGlQSHZWalpLNmdRUlNCOWxwZz09"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026?location=van-wert-cinema&locationKey=4",
+   "shows": [
+    {
+     "at": "2026-11-21T13:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=d2JUWFZvS1h1b0pGR2taeVVxSGxnZz09"
+    },
+    {
+     "at": "2026-11-21T18:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=QWZZK0JkNW5qUHJ1OXE4MGZpT2FyUT09"
+    },
+    {
+     "at": "2026-11-22T13:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=TFliNFVlY0tzKzlyeWNEdVdRMVM3dz09"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=N3VaOG5TaFU4bFNhWnMzbzBXSXVzUT09"
+    },
+    {
+     "at": "2026-11-23T13:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=bUhhQVZKT2FVNjNRTlIxZnlBN3pEQT09"
+    },
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=SndrTklOM3dQTTFidGV6YTc5TFp0QT09"
+    },
+    {
+     "at": "2026-11-24T13:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=SjN0a0p6UWhZTEtIazBHaUVROTVjZz09"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=QzNNQ3M5SmlUUTBOR0tvcnl6VGZGUT09"
+    },
+    {
+     "at": "2026-11-25T15:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=WXI2azNPTFp3Y0poTzNqQ2ZhNU5wZz09"
+    },
+    {
+     "at": "2026-11-26T18:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/drummer-boy-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=bkFFajd5THA5b2NPYWoydnk3bk5tdz09"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026?location=van-wert-cinema&locationKey=4",
+   "shows": [
+    {
+     "at": "2026-11-21T13:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=UkNMS0VQdHVMSDJjdXo4aHY2ek1PQT09"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=ZktJNHU0cCs3VXh1SmJmcmF4TGVUdz09"
+    },
+    {
+     "at": "2026-11-21T18:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=UW8vaFVSSUxoMU1NblFPVGpqODU3QT09"
+    },
+    {
+     "at": "2026-11-21T21:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=MmtFcG1PWkhSUU91ZjF5MkxQeW1uQT09"
+    },
+    {
+     "at": "2026-11-22T13:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=RThSeldTOE5IeGN0MkVFT0pOVnlldz09"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=LzVBUVpVMnFjeFphMlVLVEw2S0h5QT09"
+    },
+    {
+     "at": "2026-11-22T18:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=MFAwVk9PSWw1RERvOEphNy9GL3dZdz09"
+    },
+    {
+     "at": "2026-11-23T13:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=UnJQdjRRNCsvWEQxdUdhSU5VekQxUT09"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=blUxaUtYOWJ5L3g2dWdDaUNMRnp4dz09"
+    },
+    {
+     "at": "2026-11-23T18:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=a1NtVlpTRzJHbDVkbkdJYjEvTUVSZz09"
+    },
+    {
+     "at": "2026-11-24T13:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=dENXM05vU2RWSnB1V0lWRG41RU1YZz09"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=YkxURldOM0NWL2xtdHNkdzBuazhydz09"
+    },
+    {
+     "at": "2026-11-24T18:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=cFVNTGM0OVlaNG82Skkyb1BkbnZldz09"
+    },
+    {
+     "at": "2026-11-25T13:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=aHVzb0dpbnNWb1JqOHdZQUVPTU16UT09"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=RU85UER0aXVkNDZiM0Q1WWJJV2xJQT09"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=cDE4ZkhVTGROeWtEQjRPcnBmUDN3UT09"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=VjhSeDgycFU5eksrL3VxcmV5Ync1UT09"
+    },
+    {
+     "at": "2026-11-26T18:35",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=WUhsRTlYOTZFNlZjYVhKWnVtekhLZz09"
+    },
+    {
+     "at": "2026-11-26T21:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/i-play-rocky-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=NWNCQk5RUWlTYjZJOWcrdGwzYno3Zz09"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026?location=van-wert-cinema&locationKey=4",
+   "shows": [
+    {
+     "at": "2026-11-21T13:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=US9NaHNVaEN1NE1VVWFXcHJNVTIrZz09"
+    },
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=Z3FzbERna1pna0s3ZkVWMDlFWkhOZz09"
+    },
+    {
+     "at": "2026-11-21T20:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=OUtDMDRieGV5cm00VTJueGdteVVLUT09"
+    },
+    {
+     "at": "2026-11-22T12:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=ME0yYUUwNmJYNE1HRzVjOHNoVkx1UT09"
+    },
+    {
+     "at": "2026-11-22T15:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=dUNTalovS1YvQmU3czVEN2JQc1NFUT09"
+    },
+    {
+     "at": "2026-11-22T18:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=M3lvYWZ5eGhScWpMMmhNWUkxK21qZz09"
+    },
+    {
+     "at": "2026-11-23T12:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=T2lqSXZtMmZWK200N1p3L09xY09vZz09"
+    },
+    {
+     "at": "2026-11-23T15:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=em9aNkZUaVRGRk1yNi9ybFBKN2hQZz09"
+    },
+    {
+     "at": "2026-11-23T18:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=U2xMbjgvNFRzYXJoTTJhQUNPL0ZiQT09"
+    },
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=K0dnMlJTK0t6U25HUHNqRklrUm9Ldz09"
+    },
+    {
+     "at": "2026-11-24T15:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=bkNZcmw5WTZvbUJCeU4xZ2lDcHZ2UT09"
+    },
+    {
+     "at": "2026-11-24T18:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=Z0t1MXp2ZllVSjFSOXp6L1dWZmkrdz09"
+    },
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=Vk9aWm1yMGpyZ2NVL2RFczZVWm9BQT09"
+    },
+    {
+     "at": "2026-11-25T15:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=V3QyL3ZHZk4zaVB1ZHJEajJmcVJmQT09"
+    },
+    {
+     "at": "2026-11-25T18:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=dTlqbTlJQlZaRHYvNU5HV0FhTFcxUT09"
+    },
+    {
+     "at": "2026-11-26T16:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=Uk1PMkpVdnlvWjA5MFhvaGh3blBBQT09"
+    },
+    {
+     "at": "2026-11-26T20:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/the-hunger-games-sunrise-on-the-reaping-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=TnhsV3pRZUczb3pzT2l4b0FkVXB6Zz09"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 122,
+   "url": "https://www.saunderstheaters.com/movies/how-to-rob-a-bank-2026?location=van-wert-cinema&locationKey=4",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/how-to-rob-a-bank-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=cDNyYzYra1lFUG5tZjRTN2E4TFhSUT09"
+    },
+    {
+     "at": "2026-11-21T21:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/how-to-rob-a-bank-2026/showtimes/2026-11-21/van-wert-cinema/select-tickets?showtime=OW9KdWE1Tk9hWCs4SHhXMElmQmhSUT09"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/how-to-rob-a-bank-2026/showtimes/2026-11-22/van-wert-cinema/select-tickets?showtime=cXRlbFZCa1k3dVovVTZuL25KOHQxUT09"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/how-to-rob-a-bank-2026/showtimes/2026-11-23/van-wert-cinema/select-tickets?showtime=MUdmV0R4WEgvRTJaOXplVHVSK3B6dz09"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/how-to-rob-a-bank-2026/showtimes/2026-11-24/van-wert-cinema/select-tickets?showtime=dUhsbFp5NWZtSU9ranRIQTR2anZ1UT09"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 103,
+   "url": "https://www.saunderstheaters.com/movies/hexed-2026?location=van-wert-cinema&locationKey=4",
+   "shows": [
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hexed-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=Y21ldUtnYnQ3NTZXcTVheEJJUThIQT09"
+    },
+    {
+     "at": "2026-11-25T14:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hexed-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=a2YxZFJhbWptd1FDaHI1VUNlMzhUdz09"
+    },
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hexed-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=cHB6dkZnVTNVK2VDcHFiSEc1aVRNUT09"
+    },
+    {
+     "at": "2026-11-25T19:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hexed-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=L1l2WHJ5amo0SFpmUHRsWjluK21DUT09"
+    },
+    {
+     "at": "2026-11-26T16:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hexed-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=ZEtmVWk1V0JQU0swWGR0VElXc1VvQT09"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hexed-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=MEs5aXdzNW5GN2FrVUd0Szd6WTdhUT09"
+    },
+    {
+     "at": "2026-11-26T20:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hexed-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=R1dPMitFbllSNXhHUXFQazZDcEEvdz09"
+    }
+   ]
+  },
+  {
+   "title": "Focker-in-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.saunderstheaters.com/movies/focker-in-law-2026?location=van-wert-cinema&locationKey=4",
+   "shows": [
+    {
+     "at": "2026-11-25T12:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/focker-in-law-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=Nm8rWm1ackRzWVFZSHhTZ2h0a0wzZz09"
+    },
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/focker-in-law-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=cnBES0I0cmJEWnBNaUdidUFyRnJ4dz09"
+    },
+    {
+     "at": "2026-11-25T17:15",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/focker-in-law-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=alFRZFkyU2VrcWhkNHp3Z04yeS9Ldz09"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/focker-in-law-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=ay9POUpZZGZIVjZjam1CaVV4Y242Zz09"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/focker-in-law-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=amp1NXg0SEc2a0xyTFlSUkhVZXBOdz09"
+    },
+    {
+     "at": "2026-11-26T18:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/focker-in-law-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=Q3R0M1dLNHR1UjBJZmhjbVFXYis5UT09"
+    },
+    {
+     "at": "2026-11-26T21:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/focker-in-law-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=MEVCR0VUQlhyaXFEM1p1b2tqTStsQT09"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://www.saunderstheaters.com/movies/hershey-2026?location=van-wert-cinema&locationKey=4",
+   "shows": [
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hershey-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=VnlDc1RJS2NISGFTTTB3K3FNNGorQT09"
+    },
+    {
+     "at": "2026-11-25T17:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hershey-2026/showtimes/2026-11-25/van-wert-cinema/select-tickets?showtime=QzJBcWdUUktkUk1tejhjaTByalJpQT09"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hershey-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=ejh1MXI1dnk2Q21MTVhnQ3FRMXdHZz09"
+    },
+    {
+     "at": "2026-11-26T20:45",
+     "sold_out": false,
+     "url": "https://www.saunderstheaters.com/movies/hershey-2026/showtimes/2026-11-26/van-wert-cinema/select-tickets?showtime=OVdvSkE0QS90K3JBaU45WnRiYTk1Zz09"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

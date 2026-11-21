@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "savor-cinema",
+ "name": "Savor Cinema",
+ "city": "miami",
+ "area": "Fort Lauderdale",
+ "region": "Broward",
+ "url": "https://fliff.org/savor-cinema/",
+ "films": [
+  {
+   "title": "Vertical Festival 2026",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://fliff.org/events/verticalfestival2026/",
+   "shows": [
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://fliff.org/events/verticalfestival2026/"
+    }
+   ]
+  },
+  {
+   "title": "Bitter Christmas",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://fliff.org/events/bitterchristmas/",
+   "shows": [
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://fliff.org/events/bitterchristmas/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

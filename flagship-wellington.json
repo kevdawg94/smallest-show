@@ -1,0 +1,919 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "flagship-wellington",
+ "name": "Flagship Premium Cinemas Wellington",
+ "city": "palmbeach",
+ "area": "Wellington",
+ "region": "West Palm & Wellington",
+ "url": "https://flagshipcinemas.com/wellington",
+ "films": [
+  {
+   "title": "Polar Express",
+   "rating": "G",
+   "runtime_min": 100,
+   "url": "https://flagshipcinemas.com/wellington/movie/polar-express/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/polar-express/4043373"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/polar-express/4043374"
+    },
+    {
+     "at": "2026-11-25T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/polar-express/4043375"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://flagshipcinemas.com/wellington/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337751"
+    },
+    {
+     "at": "2026-11-21T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4363706"
+    },
+    {
+     "at": "2026-11-21T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337373"
+    },
+    {
+     "at": "2026-11-21T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337374"
+    },
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337375"
+    },
+    {
+     "at": "2026-11-21T21:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337376"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337750"
+    },
+    {
+     "at": "2026-11-22T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337338"
+    },
+    {
+     "at": "2026-11-22T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337339"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337340"
+    },
+    {
+     "at": "2026-11-22T21:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337341"
+    },
+    {
+     "at": "2026-11-23T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337351"
+    },
+    {
+     "at": "2026-11-23T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337352"
+    },
+    {
+     "at": "2026-11-23T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337353"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337354"
+    },
+    {
+     "at": "2026-11-23T21:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337355"
+    },
+    {
+     "at": "2026-11-24T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337360"
+    },
+    {
+     "at": "2026-11-24T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337361"
+    },
+    {
+     "at": "2026-11-24T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337362"
+    },
+    {
+     "at": "2026-11-24T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337363"
+    },
+    {
+     "at": "2026-11-24T21:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-cat-in-the-hat/4337364"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 124,
+   "url": "https://flagshipcinemas.com/wellington/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310114"
+    },
+    {
+     "at": "2026-11-21T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310115"
+    },
+    {
+     "at": "2026-11-21T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310116"
+    },
+    {
+     "at": "2026-11-21T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310117"
+    },
+    {
+     "at": "2026-11-21T21:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310118"
+    },
+    {
+     "at": "2026-11-22T10:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310119"
+    },
+    {
+     "at": "2026-11-22T10:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4337892"
+    },
+    {
+     "at": "2026-11-22T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310120"
+    },
+    {
+     "at": "2026-11-22T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310121"
+    },
+    {
+     "at": "2026-11-22T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310122"
+    },
+    {
+     "at": "2026-11-22T21:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310123"
+    },
+    {
+     "at": "2026-11-23T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310124"
+    },
+    {
+     "at": "2026-11-23T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310125"
+    },
+    {
+     "at": "2026-11-23T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310126"
+    },
+    {
+     "at": "2026-11-23T21:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310127"
+    },
+    {
+     "at": "2026-11-24T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310128"
+    },
+    {
+     "at": "2026-11-24T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310129"
+    },
+    {
+     "at": "2026-11-24T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310130"
+    },
+    {
+     "at": "2026-11-24T21:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/i-play-rocky/4310131"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://flagshipcinemas.com/wellington/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337899"
+    },
+    {
+     "at": "2026-11-21T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337370"
+    },
+    {
+     "at": "2026-11-21T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337371"
+    },
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337372"
+    },
+    {
+     "at": "2026-11-22T11:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337333"
+    },
+    {
+     "at": "2026-11-22T13:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337334"
+    },
+    {
+     "at": "2026-11-22T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337335"
+    },
+    {
+     "at": "2026-11-22T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337336"
+    },
+    {
+     "at": "2026-11-22T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337337"
+    },
+    {
+     "at": "2026-11-23T11:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337346"
+    },
+    {
+     "at": "2026-11-23T13:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337347"
+    },
+    {
+     "at": "2026-11-23T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337348"
+    },
+    {
+     "at": "2026-11-23T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337349"
+    },
+    {
+     "at": "2026-11-23T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/ebenezer/4337350"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise On The Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://flagshipcinemas.com/wellington/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231782"
+    },
+    {
+     "at": "2026-11-21T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337377"
+    },
+    {
+     "at": "2026-11-21T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231783"
+    },
+    {
+     "at": "2026-11-21T15:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337378"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231784"
+    },
+    {
+     "at": "2026-11-21T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337379"
+    },
+    {
+     "at": "2026-11-21T21:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337400"
+    },
+    {
+     "at": "2026-11-21T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231785"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231786"
+    },
+    {
+     "at": "2026-11-22T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337342"
+    },
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231787"
+    },
+    {
+     "at": "2026-11-22T15:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337343"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231788"
+    },
+    {
+     "at": "2026-11-22T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337344"
+    },
+    {
+     "at": "2026-11-22T21:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337386"
+    },
+    {
+     "at": "2026-11-22T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337332"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231789"
+    },
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337356"
+    },
+    {
+     "at": "2026-11-23T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231790"
+    },
+    {
+     "at": "2026-11-23T15:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337357"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231791"
+    },
+    {
+     "at": "2026-11-23T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337358"
+    },
+    {
+     "at": "2026-11-23T21:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337390"
+    },
+    {
+     "at": "2026-11-23T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337881"
+    },
+    {
+     "at": "2026-11-24T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231792"
+    },
+    {
+     "at": "2026-11-24T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337366"
+    },
+    {
+     "at": "2026-11-24T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231793"
+    },
+    {
+     "at": "2026-11-24T15:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337367"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231794"
+    },
+    {
+     "at": "2026-11-24T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337368"
+    },
+    {
+     "at": "2026-11-24T21:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337396"
+    },
+    {
+     "at": "2026-11-24T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337882"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231795"
+    },
+    {
+     "at": "2026-11-25T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231796"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4231797"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4310203"
+    },
+    {
+     "at": "2026-11-26T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4310204"
+    },
+    {
+     "at": "2026-11-26T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4310205"
+    }
+   ]
+  },
+  {
+   "title": "How To Rob A Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://flagshipcinemas.com/wellington/movie/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337469"
+    },
+    {
+     "at": "2026-11-21T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337470"
+    },
+    {
+     "at": "2026-11-21T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337471"
+    },
+    {
+     "at": "2026-11-21T21:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337472"
+    },
+    {
+     "at": "2026-11-22T12:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337473"
+    },
+    {
+     "at": "2026-11-22T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337474"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337475"
+    },
+    {
+     "at": "2026-11-22T21:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337476"
+    },
+    {
+     "at": "2026-11-23T12:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337477"
+    },
+    {
+     "at": "2026-11-23T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337478"
+    },
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337479"
+    },
+    {
+     "at": "2026-11-23T21:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337480"
+    },
+    {
+     "at": "2026-11-24T12:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337481"
+    },
+    {
+     "at": "2026-11-24T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337482"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337483"
+    },
+    {
+     "at": "2026-11-24T21:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/how-to-rob-a-bank/4337484"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://flagshipcinemas.com/wellington/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337397"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337398"
+    },
+    {
+     "at": "2026-11-21T18:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337399"
+    },
+    {
+     "at": "2026-11-21T21:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337380"
+    },
+    {
+     "at": "2026-11-22T13:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337383"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337384"
+    },
+    {
+     "at": "2026-11-22T18:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337385"
+    },
+    {
+     "at": "2026-11-22T21:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337345"
+    },
+    {
+     "at": "2026-11-23T13:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337387"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337388"
+    },
+    {
+     "at": "2026-11-23T18:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337389"
+    },
+    {
+     "at": "2026-11-23T21:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337359"
+    },
+    {
+     "at": "2026-11-24T13:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337391"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337393"
+    },
+    {
+     "at": "2026-11-24T18:35",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337395"
+    },
+    {
+     "at": "2026-11-24T21:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/wild-horse-nine/4337369"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 175,
+   "url": "https://flagshipcinemas.com/wellington/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337416"
+    },
+    {
+     "at": "2026-11-21T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337417"
+    },
+    {
+     "at": "2026-11-22T11:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337405"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337406"
+    },
+    {
+     "at": "2026-11-22T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337407"
+    },
+    {
+     "at": "2026-11-23T11:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337408"
+    },
+    {
+     "at": "2026-11-23T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337409"
+    },
+    {
+     "at": "2026-11-23T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337410"
+    },
+    {
+     "at": "2026-11-24T11:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337411"
+    },
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337412"
+    },
+    {
+     "at": "2026-11-24T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/you-can-see-everything/4337413"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://flagshipcinemas.com/wellington/movie/hexed/",
+   "shows": [
+    {
+     "at": "2026-11-24T14:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163752"
+    },
+    {
+     "at": "2026-11-24T16:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163753"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163754"
+    },
+    {
+     "at": "2026-11-24T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4337967"
+    },
+    {
+     "at": "2026-11-25T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163755"
+    },
+    {
+     "at": "2026-11-25T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163756"
+    },
+    {
+     "at": "2026-11-25T14:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163757"
+    },
+    {
+     "at": "2026-11-25T16:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163758"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163759"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163760"
+    },
+    {
+     "at": "2026-11-26T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163761"
+    },
+    {
+     "at": "2026-11-26T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163762"
+    },
+    {
+     "at": "2026-11-26T14:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163763"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163764"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163765"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/hexed/4163766"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://flagshipcinemas.com/wellington/movie/focker-in-law/",
+   "shows": [
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/focker-in-law/4274648"
+    },
+    {
+     "at": "2026-11-25T13:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/focker-in-law/4274649"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/focker-in-law/4274650"
+    },
+    {
+     "at": "2026-11-25T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/focker-in-law/4274651"
+    },
+    {
+     "at": "2026-11-25T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/focker-in-law/4274652"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/focker-in-law/4274653"
+    },
+    {
+     "at": "2026-11-26T13:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/focker-in-law/4274654"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/focker-in-law/4274655"
+    },
+    {
+     "at": "2026-11-26T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/focker-in-law/4274656"
+    },
+    {
+     "at": "2026-11-26T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/wellington/checkout/showing/focker-in-law/4274657"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

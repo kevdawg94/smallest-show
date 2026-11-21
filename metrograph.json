@@ -1,0 +1,625 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "metrograph",
+ "name": "Metrograph",
+ "city": "nyc",
+ "area": "Lower East Side",
+ "region": "Downtown Manhattan",
+ "url": "https://metrograph.com/",
+ "films": [
+  {
+   "title": "That Day, On The Beach",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999001444-that-day-on-the-beach/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31373"
+    },
+    {
+     "at": "2026-11-22T15:20",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31387"
+    },
+    {
+     "at": "2026-11-23T18:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31491"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31493"
+    },
+    {
+     "at": "2026-11-25T21:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31504"
+    }
+   ]
+  },
+  {
+   "title": "Other People's Children",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005094-other-peoples-children/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31374"
+    }
+   ]
+  },
+  {
+   "title": "Sibyl",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999003805-sibyl/",
+   "shows": [
+    {
+     "at": "2026-11-21T15:10",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31375"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31392"
+    }
+   ]
+  },
+  {
+   "title": "Gunvor Nelson Program 1",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005097-gunvor-nelson-program-1/",
+   "shows": [
+    {
+     "at": "2026-11-21T15:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31382"
+    }
+   ]
+  },
+  {
+   "title": "ACE Presents: Ghost World",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005096-ace-presents-ghost-world/",
+   "shows": [
+    {
+     "at": "2026-11-21T17:10",
+     "sold_out": true,
+     "url": "https://metrograph.com/film/9999005096-ace-presents-ghost-world/"
+    }
+   ]
+  },
+  {
+   "title": "Secrets & Lies",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999003282-secrets-lies/",
+   "shows": [
+    {
+     "at": "2026-11-21T17:15",
+     "sold_out": true,
+     "url": "https://metrograph.com/film/9999003282-secrets-lies/"
+    },
+    {
+     "at": "2026-11-27T13:15",
+     "sold_out": true,
+     "url": "https://metrograph.com/film/9999003282-secrets-lies/"
+    }
+   ]
+  },
+  {
+   "title": "Come Back to the 5 & Dime, Jimmy Dean, Jimmy Dean",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999003186-come-back-to-the-5-dime-jimmy-dean-jimmy-dean/",
+   "shows": [
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": true,
+     "url": "https://metrograph.com/film/9999003186-come-back-to-the-5-dime-jimmy-dean-jimmy-dean/"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31388"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31486"
+    },
+    {
+     "at": "2026-11-24T19:45",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31496"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31505"
+    }
+   ]
+  },
+  {
+   "title": "The Ascent",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999003425-the-ascent/",
+   "shows": [
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31377"
+    }
+   ]
+  },
+  {
+   "title": "Benedetta",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999004248-benedetta/",
+   "shows": [
+    {
+     "at": "2026-11-21T22:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31378"
+    }
+   ]
+  },
+  {
+   "title": "A Clockwork Orange",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999001436-a-clockwork-orange/",
+   "shows": [
+    {
+     "at": "2026-11-21T22:20",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31379"
+    },
+    {
+     "at": "2026-11-22T21:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31390"
+    },
+    {
+     "at": "2026-11-27T22:30",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31410"
+    }
+   ]
+  },
+  {
+   "title": "The Rescuers",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005098-the-rescuers/",
+   "shows": [
+    {
+     "at": "2026-11-22T11:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31384"
+    }
+   ]
+  },
+  {
+   "title": "Wallace & Gromit: The Classic Shorts",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005087-wallace-gromit-the-classic-shorts/",
+   "shows": [
+    {
+     "at": "2026-11-22T11:15",
+     "sold_out": true,
+     "url": "https://metrograph.com/film/9999005087-wallace-gromit-the-classic-shorts/"
+    }
+   ]
+  },
+  {
+   "title": "Gunvor Nelson Program 2",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005095-gunvor-nelson-program-2/",
+   "shows": [
+    {
+     "at": "2026-11-22T13:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31385"
+    }
+   ]
+  },
+  {
+   "title": "Gunvor Nelson Program 3",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005099-gunvor-nelson-program-3/",
+   "shows": [
+    {
+     "at": "2026-11-22T15:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31386"
+    }
+   ]
+  },
+  {
+   "title": "Emperor of the North",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999002893-emperor-of-the-north/",
+   "shows": [
+    {
+     "at": "2026-11-22T17:10",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31393"
+    }
+   ]
+  },
+  {
+   "title": "Memento",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005093-memento/",
+   "shows": [
+    {
+     "at": "2026-11-22T18:35",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31389"
+    }
+   ]
+  },
+  {
+   "title": "Somewhere in the Night",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005091-somewhere-in-the-night/",
+   "shows": [
+    {
+     "at": "2026-11-22T21:35",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31391"
+    }
+   ]
+  },
+  {
+   "title": "Spellbound",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999001825-spellbound/",
+   "shows": [
+    {
+     "at": "2026-11-23T16:10",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31487"
+    }
+   ]
+  },
+  {
+   "title": "Sad Vacation",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005077-sad-vacation/",
+   "shows": [
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31488"
+    }
+   ]
+  },
+  {
+   "title": "Lost Highway",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999001208-lost-highway/",
+   "shows": [
+    {
+     "at": "2026-11-23T21:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31489"
+    }
+   ]
+  },
+  {
+   "title": "Cría Cuervos",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999004160-cria-cuervos/",
+   "shows": [
+    {
+     "at": "2026-11-23T21:30",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31490"
+    }
+   ]
+  },
+  {
+   "title": "Asako I & II",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999001925-asako-i-ii/",
+   "shows": [
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31492"
+    }
+   ]
+  },
+  {
+   "title": "The Woman in the Window",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005072-the-woman-in-the-window/",
+   "shows": [
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31498"
+    }
+   ]
+  },
+  {
+   "title": "The Woman on the Beach",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005088-the-woman-on-the-beach/",
+   "shows": [
+    {
+     "at": "2026-11-24T18:10",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31497"
+    }
+   ]
+  },
+  {
+   "title": "Drive",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999003324-drive/",
+   "shows": [
+    {
+     "at": "2026-11-24T21:45",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31494"
+    }
+   ]
+  },
+  {
+   "title": "Chinese Roulette",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999004476-chinese-roulette/",
+   "shows": [
+    {
+     "at": "2026-11-24T22:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31495"
+    }
+   ]
+  },
+  {
+   "title": "Suzhou River",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999003167-suzhou-river/",
+   "shows": [
+    {
+     "at": "2026-11-25T15:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31499"
+    }
+   ]
+  },
+  {
+   "title": "News from Home + Interior NY Subway, 14th Street",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005065-news-from-home-interior-ny-subway-14th-street/",
+   "shows": [
+    {
+     "at": "2026-11-25T15:30",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31500"
+    }
+   ]
+  },
+  {
+   "title": "Je t'aime, je t'aime",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005075-je-taime-je-taime/",
+   "shows": [
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31506"
+    }
+   ]
+  },
+  {
+   "title": "Autumn Sonata",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005045-autumn-sonata/",
+   "shows": [
+    {
+     "at": "2026-11-25T17:30",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31501"
+    }
+   ]
+  },
+  {
+   "title": "The Housemaid",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999003128-the-housemaid/",
+   "shows": [
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31502"
+    }
+   ]
+  },
+  {
+   "title": "Shutter Island",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005083-shutter-island/",
+   "shows": [
+    {
+     "at": "2026-11-25T21:45",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31503"
+    }
+   ]
+  },
+  {
+   "title": "The Aristocats",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999001577-the-aristocats/",
+   "shows": [
+    {
+     "at": "2026-11-27T11:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31405"
+    }
+   ]
+  },
+  {
+   "title": "The General",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999000730-the-general/",
+   "shows": [
+    {
+     "at": "2026-11-27T11:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31411"
+    }
+   ]
+  },
+  {
+   "title": "The Sacrifice",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999003679-the-sacrifice/",
+   "shows": [
+    {
+     "at": "2026-11-27T13:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31406"
+    }
+   ]
+  },
+  {
+   "title": "Rashomon",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999000358-rashomon/",
+   "shows": [
+    {
+     "at": "2026-11-27T16:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31407"
+    }
+   ]
+  },
+  {
+   "title": "Medea (1988)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005042-medea-1988/",
+   "shows": [
+    {
+     "at": "2026-11-27T16:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31413"
+    }
+   ]
+  },
+  {
+   "title": "Columbus",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005076-columbus/",
+   "shows": [
+    {
+     "at": "2026-11-27T18:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31414"
+    }
+   ]
+  },
+  {
+   "title": "The Best Secret Agent",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005102-the-best-secret-agent/",
+   "shows": [
+    {
+     "at": "2026-11-27T18:00",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31408"
+    }
+   ]
+  },
+  {
+   "title": "Taxi Driver",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999000036-taxi-driver/",
+   "shows": [
+    {
+     "at": "2026-11-27T20:10",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31409"
+    }
+   ]
+  },
+  {
+   "title": "Compartment No. 6",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999005104-compartment-no-6/",
+   "shows": [
+    {
+     "at": "2026-11-27T20:15",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31415"
+    }
+   ]
+  },
+  {
+   "title": "Mandy",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://metrograph.com/film/9999001725-mandy/",
+   "shows": [
+    {
+     "at": "2026-11-27T22:35",
+     "sold_out": false,
+     "url": "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=31416"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

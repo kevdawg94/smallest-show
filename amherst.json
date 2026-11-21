@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "amherst",
+ "name": "Amherst Cinema",
+ "city": "cleveland",
+ "area": "Amherst",
+ "region": "West Side",
+ "url": "https://www.amherstcinema.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7yt44pcak8dj26cq9h6xcakg3w",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6165?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6166?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6167?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6168?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6169?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6170?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6171?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7yt44pcak8dj26cq9h6xcakg3w",
+   "shows": [
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6204?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6205?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

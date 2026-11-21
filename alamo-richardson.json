@@ -1,0 +1,825 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "alamo-richardson",
+ "name": "Alamo Richardson",
+ "city": "dfw",
+ "area": "Richardson",
+ "region": "Suburbs",
+ "url": "https://drafthouse.com/dfw/theater/richardson",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/ebenezer?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-21T10:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166849"
+    },
+    {
+     "at": "2026-11-21T13:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166850"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166848"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166845"
+    },
+    {
+     "at": "2026-11-21T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166846"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166862"
+    },
+    {
+     "at": "2026-11-22T13:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166861"
+    },
+    {
+     "at": "2026-11-22T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166863"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166865"
+    },
+    {
+     "at": "2026-11-22T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166864"
+    },
+    {
+     "at": "2026-11-23T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166890"
+    },
+    {
+     "at": "2026-11-23T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166892"
+    },
+    {
+     "at": "2026-11-23T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166889"
+    },
+    {
+     "at": "2026-11-23T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/ebenezer/0701/166888"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/how-to-rob-a-bank?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-21T10:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166860"
+    },
+    {
+     "at": "2026-11-21T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166852"
+    },
+    {
+     "at": "2026-11-21T16:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166851"
+    },
+    {
+     "at": "2026-11-21T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166854"
+    },
+    {
+     "at": "2026-11-21T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166853"
+    },
+    {
+     "at": "2026-11-22T10:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166870"
+    },
+    {
+     "at": "2026-11-22T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166868"
+    },
+    {
+     "at": "2026-11-22T16:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166869"
+    },
+    {
+     "at": "2026-11-22T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166866"
+    },
+    {
+     "at": "2026-11-22T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166867"
+    },
+    {
+     "at": "2026-11-23T10:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166882"
+    },
+    {
+     "at": "2026-11-23T13:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166884"
+    },
+    {
+     "at": "2026-11-23T16:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166883"
+    },
+    {
+     "at": "2026-11-23T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166886"
+    },
+    {
+     "at": "2026-11-23T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/how-to-rob-a-bank/0701/166885"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/book-club-screening-the-hunger-games-sunrise-on-the-reaping-book-club-dress-up-screening?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-21T10:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166191"
+    },
+    {
+     "at": "2026-11-21T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166194"
+    },
+    {
+     "at": "2026-11-21T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/book-club-screening-the-hunger-games-sunrise-on-the-reaping-book-club-dress-up-screening/0701/166148"
+    },
+    {
+     "at": "2026-11-21T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166195"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166198"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166197"
+    },
+    {
+     "at": "2026-11-21T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166192"
+    },
+    {
+     "at": "2026-11-21T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166196"
+    },
+    {
+     "at": "2026-11-22T10:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166206"
+    },
+    {
+     "at": "2026-11-22T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166203"
+    },
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166208"
+    },
+    {
+     "at": "2026-11-22T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166202"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166199"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166200"
+    },
+    {
+     "at": "2026-11-22T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166205"
+    },
+    {
+     "at": "2026-11-22T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166880"
+    },
+    {
+     "at": "2026-11-22T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166201"
+    },
+    {
+     "at": "2026-11-23T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166213"
+    },
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166216"
+    },
+    {
+     "at": "2026-11-23T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166218"
+    },
+    {
+     "at": "2026-11-23T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166212"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166209"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166210"
+    },
+    {
+     "at": "2026-11-23T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166211"
+    },
+    {
+     "at": "2026-11-24T11:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166221"
+    },
+    {
+     "at": "2026-11-24T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166222"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/165977"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166219"
+    },
+    {
+     "at": "2026-11-24T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/165978"
+    },
+    {
+     "at": "2026-11-24T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166220"
+    },
+    {
+     "at": "2026-11-25T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/165962"
+    },
+    {
+     "at": "2026-11-25T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/165966"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/165969"
+    },
+    {
+     "at": "2026-11-25T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/165973"
+    },
+    {
+     "at": "2026-11-26T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166066"
+    },
+    {
+     "at": "2026-11-26T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166078"
+    },
+    {
+     "at": "2026-11-26T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166075"
+    },
+    {
+     "at": "2026-11-26T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-hunger-games-sunrise-on-the-reaping/0701/166071"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/you-can-see-everything?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-21T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/you-can-see-everything/0701/166847"
+    },
+    {
+     "at": "2026-11-22T10:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/you-can-see-everything/0701/166877"
+    },
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/you-can-see-everything/0701/166899"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/i-play-rocky?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-21T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166844"
+    },
+    {
+     "at": "2026-11-21T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166418"
+    },
+    {
+     "at": "2026-11-21T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166419"
+    },
+    {
+     "at": "2026-11-21T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166881"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166878"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166876"
+    },
+    {
+     "at": "2026-11-22T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166421"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166420"
+    },
+    {
+     "at": "2026-11-22T22:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166871"
+    },
+    {
+     "at": "2026-11-23T11:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166893"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166422"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166423"
+    },
+    {
+     "at": "2026-11-23T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166887"
+    },
+    {
+     "at": "2026-11-25T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166919"
+    },
+    {
+     "at": "2026-11-25T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166920"
+    },
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166922"
+    },
+    {
+     "at": "2026-11-25T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166921"
+    },
+    {
+     "at": "2026-11-26T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166926"
+    },
+    {
+     "at": "2026-11-26T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166925"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166923"
+    },
+    {
+     "at": "2026-11-26T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/i-play-rocky/0701/166924"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/wild-horse-nine?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-21T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166859"
+    },
+    {
+     "at": "2026-11-21T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166858"
+    },
+    {
+     "at": "2026-11-21T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166856"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166910"
+    },
+    {
+     "at": "2026-11-22T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166872"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166873"
+    },
+    {
+     "at": "2026-11-22T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166875"
+    },
+    {
+     "at": "2026-11-22T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166874"
+    },
+    {
+     "at": "2026-11-23T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166896"
+    },
+    {
+     "at": "2026-11-23T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166894"
+    },
+    {
+     "at": "2026-11-23T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166897"
+    },
+    {
+     "at": "2026-11-23T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/wild-horse-nine/0701/166898"
+    }
+   ]
+  },
+  {
+   "title": "True Stories",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/true-stories?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/true-stories/0701/166149"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/godzilla-minus-zero?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-21T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/godzilla-minus-zero/0701/166907"
+    },
+    {
+     "at": "2026-11-22T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/godzilla-minus-zero/0701/166908"
+    },
+    {
+     "at": "2026-11-23T21:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/godzilla-minus-zero/0701/166909"
+    }
+   ]
+  },
+  {
+   "title": "The Host: 20th Anniversary",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/the-host-20th-anniversary?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-host-20th-anniversary/0701/166794"
+    },
+    {
+     "at": "2026-11-23T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-host-20th-anniversary/0701/166796"
+    }
+   ]
+  },
+  {
+   "title": "Pearl",
+   "rating": "R",
+   "runtime_min": 102,
+   "url": "https://drafthouse.com/dfw/show/a24-x-alamo-cinema-club-mandatory-bundle-pearl?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/a24-x-alamo-cinema-club-mandatory-bundle-pearl/0701/165118"
+    }
+   ]
+  },
+  {
+   "title": "Mulholland Dr.",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/mulholland-drive?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/mulholland-drive/0701/166392"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/mulholland-drive/0701/166394"
+    }
+   ]
+  },
+  {
+   "title": "Point Blank (1967)",
+   "rating": "R",
+   "runtime_min": 97,
+   "url": "https://drafthouse.com/dfw/show/queer-film-theory-101-point-blank-1967?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/queer-film-theory-101-point-blank-1967/0701/166150"
+    }
+   ]
+  },
+  {
+   "title": "La La Land",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/la-la-land?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-24T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/la-la-land/0701/166393"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/hexed?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-24T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/hexed/0701/165976"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/hexed/0701/165975"
+    },
+    {
+     "at": "2026-11-24T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/hexed/0701/165974"
+    },
+    {
+     "at": "2026-11-25T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/hexed/0701/165967"
+    },
+    {
+     "at": "2026-11-25T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/hexed/0701/166064"
+    },
+    {
+     "at": "2026-11-25T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/hexed/0701/165968"
+    },
+    {
+     "at": "2026-11-25T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/hexed/0701/165971"
+    },
+    {
+     "at": "2026-11-26T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/hexed/0701/166077"
+    },
+    {
+     "at": "2026-11-26T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/hexed/0701/166069"
+    },
+    {
+     "at": "2026-11-26T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/hexed/0701/166076"
+    }
+   ]
+  },
+  {
+   "title": "The Vile",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/the-vile?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/the-vile/0701/166797"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/focker-in-law?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/focker-in-law/0701/166063"
+    },
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/focker-in-law/0701/165964"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/focker-in-law/0701/165970"
+    },
+    {
+     "at": "2026-11-25T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/focker-in-law/0701/165972"
+    },
+    {
+     "at": "2026-11-26T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/focker-in-law/0701/166070"
+    },
+    {
+     "at": "2026-11-26T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/focker-in-law/0701/166065"
+    },
+    {
+     "at": "2026-11-26T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/focker-in-law/0701/166074"
+    },
+    {
+     "at": "2026-11-26T22:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/focker-in-law/0701/166072"
+    }
+   ]
+  },
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/dfw/show/planes-trains-automobiles?cinemaId=0701",
+   "shows": [
+    {
+     "at": "2026-11-26T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/dfw/tickets/planes-trains-automobiles/0701/166151"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

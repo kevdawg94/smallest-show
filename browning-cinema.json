@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "browning-cinema",
+ "name": "Browning Cinema",
+ "city": "michiana",
+ "area": "Notre Dame",
+ "region": "South Bend & Notre Dame",
+ "url": "https://performingarts.nd.edu/film-series/",
+ "films": [
+  {
+   "title": "The Iron Giant (1999)",
+   "rating": "PG",
+   "runtime_min": 87,
+   "url": "https://performingarts.nd.edu/event/19838/the-iron-giant-1999/",
+   "shows": [
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://dpactickets.nd.edu/19838/19839"
+    }
+   ]
+  },
+  {
+   "title": "Dissolution Room (2026)",
+   "rating": "G",
+   "runtime_min": 25,
+   "url": "https://performingarts.nd.edu/event/20275/dissolution-room-2026/",
+   "shows": [
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://dpactickets.nd.edu/20275/20276"
+    }
+   ]
+  },
+  {
+   "title": "The Debut (2026)",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://performingarts.nd.edu/event/20279/the-debut-2026/",
+   "shows": [
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://dpactickets.nd.edu/20279/20280"
+    }
+   ]
+  },
+  {
+   "title": "Billy Preston: That’s the Way God Planned It (2024)",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://performingarts.nd.edu/event/20290/billy-preston-thats-the-way-god-planned-it-2024/",
+   "shows": [
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://dpactickets.nd.edu/20290/20291"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

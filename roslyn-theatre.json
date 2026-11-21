@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "roslyn-theatre",
+ "name": "Roslyn Theatre",
+ "city": "yakima",
+ "area": "Roslyn",
+ "region": "Kittitas Valley",
+ "url": "https://www.roslyntheatre.com/",
+ "films": [
+  {
+   "title": "I Play Rocky",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/i-play-rocky-tickets-294142",
+   "shows": [
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/i-play-rocky-tickets-294142"
+    }
+   ]
+  },
+  {
+   "title": "Painting The Picture Of The Roslyn Grocery Documentary",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/painting-the-picture-of-the-roslyn-grocery-tickets-293689",
+   "shows": [
+    {
+     "at": "2026-11-27T16:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/painting-the-picture-of-the-roslyn-grocery-tickets-293689"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

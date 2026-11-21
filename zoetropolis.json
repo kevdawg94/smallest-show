@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "zoetropolis",
+ "name": "Zoetropolis",
+ "city": "centralpa",
+ "area": "Downtown Lancaster",
+ "region": "Lancaster & Lititz",
+ "url": "https://zoetropolis.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://zoetropolis.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:15",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/484763/"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/484764/"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://zoetropolis.com/purchase/484769/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

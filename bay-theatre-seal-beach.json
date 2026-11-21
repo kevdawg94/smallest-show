@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "bay-theatre-seal-beach",
+ "name": "Bay Theatre",
+ "city": "la",
+ "area": "Seal Beach",
+ "region": "South Bay & Orange County",
+ "url": "https://www.baytheatre.com/",
+ "films": [
+  {
+   "title": "EPiC: Elvis Presley in Concert",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/start?film=243",
+   "shows": [
+    {
+     "at": "2026-11-22T15:15",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/book?perfcode=658"
+    }
+   ]
+  },
+  {
+   "title": "The Other Guys",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/start?film=414",
+   "shows": [
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/book?perfcode=650"
+    }
+   ]
+  },
+  {
+   "title": "Step Brothers",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/start?film=415",
+   "shows": [
+    {
+     "at": "2026-11-27T18:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/book?perfcode=651"
+    }
+   ]
+  },
+  {
+   "title": "Bridesmaids",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/start?film=416",
+   "shows": [
+    {
+     "at": "2026-11-27T20:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/BAYSEA/book?perfcode=652"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

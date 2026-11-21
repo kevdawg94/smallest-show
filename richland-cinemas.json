@@ -1,0 +1,974 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "richland-cinemas",
+ "name": "Richland Cinemas",
+ "city": "westernpa",
+ "area": "Richland, Johnstown",
+ "region": "Johnstown",
+ "url": "https://www.richlandcinemas.com/",
+ "films": [
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.richlandcinemas.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4334002"
+    },
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4334004"
+    },
+    {
+     "at": "2026-11-21T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4334006"
+    },
+    {
+     "at": "2026-11-21T21:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4334008"
+    },
+    {
+     "at": "2026-11-22T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4333906"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4333907"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4333908"
+    },
+    {
+     "at": "2026-11-23T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4333935"
+    },
+    {
+     "at": "2026-11-23T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4333936"
+    },
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4333937"
+    },
+    {
+     "at": "2026-11-24T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4366976"
+    },
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4366977"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4366978"
+    },
+    {
+     "at": "2026-11-25T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4367000"
+    },
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4367001"
+    },
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4367002"
+    },
+    {
+     "at": "2026-11-26T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4367029"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat/4367030"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping Dolby Atmos",
+   "rating": null,
+   "runtime_min": 159,
+   "url": "https://www.richlandcinemas.com/movie/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4334018"
+    },
+    {
+     "at": "2026-11-21T15:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4334019"
+    },
+    {
+     "at": "2026-11-21T19:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4334020"
+    },
+    {
+     "at": "2026-11-22T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4333912"
+    },
+    {
+     "at": "2026-11-22T15:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4333913"
+    },
+    {
+     "at": "2026-11-22T19:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4333914"
+    },
+    {
+     "at": "2026-11-23T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4333940"
+    },
+    {
+     "at": "2026-11-23T15:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4333941"
+    },
+    {
+     "at": "2026-11-23T19:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4333942"
+    },
+    {
+     "at": "2026-11-24T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4366979"
+    },
+    {
+     "at": "2026-11-24T15:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4366980"
+    },
+    {
+     "at": "2026-11-24T19:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4366981"
+    },
+    {
+     "at": "2026-11-25T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4367003"
+    },
+    {
+     "at": "2026-11-25T15:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4367004"
+    },
+    {
+     "at": "2026-11-25T19:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4367005"
+    },
+    {
+     "at": "2026-11-26T15:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4367031"
+    },
+    {
+     "at": "2026-11-26T19:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-dolby-atmos/4367032"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://www.richlandcinemas.com/movie/godzilla-minus-zero-2/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:20",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/godzilla-minus-zero-2/4334040"
+    },
+    {
+     "at": "2026-11-21T15:20",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/godzilla-minus-zero-2/4334041"
+    },
+    {
+     "at": "2026-11-21T18:20",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/godzilla-minus-zero-2/4334042"
+    },
+    {
+     "at": "2026-11-21T21:20",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/godzilla-minus-zero-2/4334043"
+    },
+    {
+     "at": "2026-11-22T12:20",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/godzilla-minus-zero-2/4333929"
+    },
+    {
+     "at": "2026-11-22T15:20",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/godzilla-minus-zero-2/4333930"
+    },
+    {
+     "at": "2026-11-22T18:20",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/godzilla-minus-zero-2/4333931"
+    },
+    {
+     "at": "2026-11-23T12:20",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/godzilla-minus-zero-2/4333957"
+    },
+    {
+     "at": "2026-11-23T15:20",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/godzilla-minus-zero-2/4333958"
+    },
+    {
+     "at": "2026-11-23T18:20",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/godzilla-minus-zero-2/4333959"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.richlandcinemas.com/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4334032"
+    },
+    {
+     "at": "2026-11-21T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4334033"
+    },
+    {
+     "at": "2026-11-21T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4334034"
+    },
+    {
+     "at": "2026-11-21T21:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4334035"
+    },
+    {
+     "at": "2026-11-22T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4333923"
+    },
+    {
+     "at": "2026-11-22T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4333924"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4333925"
+    },
+    {
+     "at": "2026-11-23T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4333951"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4333952"
+    },
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4333953"
+    },
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4366990"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4366991"
+    },
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4367014"
+    },
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4367015"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/drummer-boy/4367038"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.richlandcinemas.com/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4334024"
+    },
+    {
+     "at": "2026-11-21T15:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4334025"
+    },
+    {
+     "at": "2026-11-21T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4334026"
+    },
+    {
+     "at": "2026-11-21T21:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4334027"
+    },
+    {
+     "at": "2026-11-22T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4333917"
+    },
+    {
+     "at": "2026-11-22T15:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4333918"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4333919"
+    },
+    {
+     "at": "2026-11-23T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4333945"
+    },
+    {
+     "at": "2026-11-23T15:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4333946"
+    },
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4333947"
+    },
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4366984"
+    },
+    {
+     "at": "2026-11-24T15:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4366985"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4366986"
+    },
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4367008"
+    },
+    {
+     "at": "2026-11-25T15:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4367009"
+    },
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4367010"
+    },
+    {
+     "at": "2026-11-26T15:10",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4367034"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ebenezer/4367035"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat RealD 3D",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.richlandcinemas.com/movie/the-cat-in-the-hat-reald-3d/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:45",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat-reald-3d/4334011"
+    },
+    {
+     "at": "2026-11-21T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat-reald-3d/4334013"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat-reald-3d/4334016"
+    },
+    {
+     "at": "2026-11-22T12:45",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat-reald-3d/4333909"
+    },
+    {
+     "at": "2026-11-22T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat-reald-3d/4333910"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat-reald-3d/4333911"
+    },
+    {
+     "at": "2026-11-23T12:45",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat-reald-3d/4333938"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-cat-in-the-hat-reald-3d/4333939"
+    }
+   ]
+  },
+  {
+   "title": "How To Rob A Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://www.richlandcinemas.com/movie/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/how-to-rob-a-bank/4334044"
+    },
+    {
+     "at": "2026-11-21T15:35",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/how-to-rob-a-bank/4334045"
+    },
+    {
+     "at": "2026-11-21T18:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/how-to-rob-a-bank/4334046"
+    },
+    {
+     "at": "2026-11-21T21:35",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/how-to-rob-a-bank/4334047"
+    },
+    {
+     "at": "2026-11-22T12:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/how-to-rob-a-bank/4333932"
+    },
+    {
+     "at": "2026-11-22T15:35",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/how-to-rob-a-bank/4333933"
+    },
+    {
+     "at": "2026-11-22T18:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/how-to-rob-a-bank/4333934"
+    },
+    {
+     "at": "2026-11-23T12:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/how-to-rob-a-bank/4333960"
+    },
+    {
+     "at": "2026-11-23T15:35",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/how-to-rob-a-bank/4333961"
+    },
+    {
+     "at": "2026-11-23T18:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/how-to-rob-a-bank/4333962"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.richlandcinemas.com/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4334028"
+    },
+    {
+     "at": "2026-11-21T15:45",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4334029"
+    },
+    {
+     "at": "2026-11-21T18:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4334030"
+    },
+    {
+     "at": "2026-11-21T21:35",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4334031"
+    },
+    {
+     "at": "2026-11-22T12:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4333920"
+    },
+    {
+     "at": "2026-11-22T15:45",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4333921"
+    },
+    {
+     "at": "2026-11-22T18:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4333922"
+    },
+    {
+     "at": "2026-11-23T12:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4333948"
+    },
+    {
+     "at": "2026-11-23T15:45",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4333949"
+    },
+    {
+     "at": "2026-11-23T18:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4333950"
+    },
+    {
+     "at": "2026-11-24T12:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4366987"
+    },
+    {
+     "at": "2026-11-24T15:45",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4366988"
+    },
+    {
+     "at": "2026-11-24T18:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4366989"
+    },
+    {
+     "at": "2026-11-25T12:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4367011"
+    },
+    {
+     "at": "2026-11-25T15:45",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4367012"
+    },
+    {
+     "at": "2026-11-25T18:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4367013"
+    },
+    {
+     "at": "2026-11-26T15:45",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4367036"
+    },
+    {
+     "at": "2026-11-26T18:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/i-play-rocky/4367037"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://www.richlandcinemas.com/movie/ghost-soldier/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4334036"
+    },
+    {
+     "at": "2026-11-21T15:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4334037"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4334038"
+    },
+    {
+     "at": "2026-11-21T21:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4334039"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4333926"
+    },
+    {
+     "at": "2026-11-22T15:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4333927"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4333928"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4333954"
+    },
+    {
+     "at": "2026-11-23T15:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4333955"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4333956"
+    },
+    {
+     "at": "2026-11-24T15:35",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4366992"
+    },
+    {
+     "at": "2026-11-25T15:35",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4367016"
+    },
+    {
+     "at": "2026-11-26T15:35",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/ghost-soldier/4367039"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": 159,
+   "url": "https://www.richlandcinemas.com/movie/the-hunger-games-sunrise-on-the-reaping-2/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4334021"
+    },
+    {
+     "at": "2026-11-21T16:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4334022"
+    },
+    {
+     "at": "2026-11-21T21:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4334023"
+    },
+    {
+     "at": "2026-11-22T13:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4333915"
+    },
+    {
+     "at": "2026-11-22T16:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4333916"
+    },
+    {
+     "at": "2026-11-23T13:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4333943"
+    },
+    {
+     "at": "2026-11-23T16:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4333944"
+    },
+    {
+     "at": "2026-11-24T13:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4366982"
+    },
+    {
+     "at": "2026-11-24T16:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4366983"
+    },
+    {
+     "at": "2026-11-25T13:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4367006"
+    },
+    {
+     "at": "2026-11-25T16:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4367007"
+    },
+    {
+     "at": "2026-11-26T16:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-2/4367033"
+    }
+   ]
+  },
+  {
+   "title": "Other Mommy",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://www.richlandcinemas.com/movie/other-mommy/",
+   "shows": [
+    {
+     "at": "2026-11-21T21:40",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/other-mommy/4334048"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://www.richlandcinemas.com/movie/hershey/",
+   "shows": [
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hershey/4366997"
+    },
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hershey/4366998"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hershey/4366999"
+    },
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hershey/4367021"
+    },
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hershey/4367022"
+    },
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hershey/4367023"
+    },
+    {
+     "at": "2026-11-26T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hershey/4367044"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hershey/4367045"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://www.richlandcinemas.com/movie/hexed-2/",
+   "shows": [
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed-2/4366993"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed-2/4366994"
+    },
+    {
+     "at": "2026-11-25T12:15",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed-2/4367025"
+    },
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed-2/4367017"
+    },
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed-2/4367018"
+    },
+    {
+     "at": "2026-11-26T15:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed-2/4367040"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed-2/4367041"
+    }
+   ]
+  },
+  {
+   "title": "Hexed RealD 3D",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://www.richlandcinemas.com/movie/hexed/",
+   "shows": [
+    {
+     "at": "2026-11-24T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed/4366995"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed/4366996"
+    },
+    {
+     "at": "2026-11-25T12:50",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed/4367024"
+    },
+    {
+     "at": "2026-11-25T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed/4367019"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed/4367020"
+    },
+    {
+     "at": "2026-11-26T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed/4367042"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/hexed/4367043"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.richlandcinemas.com/movie/focker-in-law/",
+   "shows": [
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/focker-in-law/4367026"
+    },
+    {
+     "at": "2026-11-25T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/focker-in-law/4367027"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/focker-in-law/4367028"
+    },
+    {
+     "at": "2026-11-26T15:30",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/focker-in-law/4367046"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://www.richlandcinemas.com/checkout/showing/focker-in-law/4367047"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

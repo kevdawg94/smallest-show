@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "gardena",
+ "name": "Gardena Cinema",
+ "city": "la",
+ "area": "Gardena",
+ "region": "South Bay & Orange County",
+ "url": "https://www.gardenacinema.com/",
+ "films": [
+  {
+   "title": "Daimajin",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1351?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-23T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1352?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla 2000",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1362?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-23T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1365?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla vs. Mechagodzilla II",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1363?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1366?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

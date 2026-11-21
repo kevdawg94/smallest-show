@@ -1,0 +1,88 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "bay-theatre-suttons",
+ "name": "Bay Theatre",
+ "city": "traversecity",
+ "area": "Suttons Bay",
+ "region": "Leelanau",
+ "url": "https://thebaytheatre.org/",
+ "films": [
+  {
+   "title": "Everest: The Other Side",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://thebaytheatre.org/movie/everest-the-other-side/",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/everest-the-other-side/4279489"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/everest-the-other-side/4279490"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/everest-the-other-side/4279491"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/everest-the-other-side/4279492"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/everest-the-other-side/4279493"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/everest-the-other-side/4279494"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/everest-the-other-side/4279495"
+    }
+   ]
+  },
+  {
+   "title": "Formula 1: Las Vegas Grand Prix",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://thebaytheatre.org/movie/formula-1-las-vegas-grand-prix/",
+   "shows": [
+    {
+     "at": "2026-11-21T23:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/formula-1-las-vegas-grand-prix/2950439"
+    }
+   ]
+  },
+  {
+   "title": "Cinema Society: Grand Prix",
+   "rating": null,
+   "runtime_min": 176,
+   "url": "https://thebaytheatre.org/movie/cinema-society-grand-prix/",
+   "shows": [
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://thebaytheatre.org/checkout/showing/cinema-society-grand-prix/2994129"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

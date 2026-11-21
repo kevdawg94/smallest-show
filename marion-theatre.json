@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "marion-theatre",
+ "name": "Marion Theatre",
+ "city": "gainesville",
+ "area": "Downtown Ocala",
+ "region": "Ocala & Marion County",
+ "url": "https://www.reillyartscenter.com/mariontickets/",
+ "films": [
+  {
+   "title": "National Lampoon's Christmas Vacation",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV100000850QzMAI",
+   "shows": [
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TJBRMA4"
+    }
+   ]
+  },
+  {
+   "title": "Up",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV10000085EfFMAU",
+   "shows": [
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TP8nMAG"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

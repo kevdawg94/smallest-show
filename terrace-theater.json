@@ -1,0 +1,853 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "terrace-theater",
+ "name": "Terrace Theater",
+ "city": "charleston",
+ "area": "James Island",
+ "region": "James Island",
+ "url": "https://www.terracetheater.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.terracetheater.com/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331737"
+    },
+    {
+     "at": "2026-11-21T15:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331743"
+    },
+    {
+     "at": "2026-11-21T18:05",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331746"
+    },
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331752"
+    },
+    {
+     "at": "2026-11-22T11:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331657"
+    },
+    {
+     "at": "2026-11-22T15:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331663"
+    },
+    {
+     "at": "2026-11-22T18:05",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331666"
+    },
+    {
+     "at": "2026-11-22T21:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331672"
+    },
+    {
+     "at": "2026-11-23T11:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331677"
+    },
+    {
+     "at": "2026-11-23T15:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331683"
+    },
+    {
+     "at": "2026-11-23T18:05",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331686"
+    },
+    {
+     "at": "2026-11-23T21:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331692"
+    },
+    {
+     "at": "2026-11-24T11:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331697"
+    },
+    {
+     "at": "2026-11-24T15:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331703"
+    },
+    {
+     "at": "2026-11-24T18:05",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331706"
+    },
+    {
+     "at": "2026-11-24T21:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331712"
+    },
+    {
+     "at": "2026-11-25T11:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331723"
+    },
+    {
+     "at": "2026-11-25T21:35",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4331732"
+    },
+    {
+     "at": "2026-11-26T11:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4337143"
+    },
+    {
+     "at": "2026-11-26T21:35",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/ebenezer/4337159"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.terracetheater.com/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331738"
+    },
+    {
+     "at": "2026-11-21T14:55",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331735"
+    },
+    {
+     "at": "2026-11-21T18:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331748"
+    },
+    {
+     "at": "2026-11-21T21:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331753"
+    },
+    {
+     "at": "2026-11-22T12:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331658"
+    },
+    {
+     "at": "2026-11-22T14:55",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331655"
+    },
+    {
+     "at": "2026-11-22T18:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331668"
+    },
+    {
+     "at": "2026-11-22T21:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331673"
+    },
+    {
+     "at": "2026-11-23T12:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331678"
+    },
+    {
+     "at": "2026-11-23T14:55",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331675"
+    },
+    {
+     "at": "2026-11-23T18:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331688"
+    },
+    {
+     "at": "2026-11-23T21:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331693"
+    },
+    {
+     "at": "2026-11-24T12:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331698"
+    },
+    {
+     "at": "2026-11-24T14:55",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331695"
+    },
+    {
+     "at": "2026-11-24T18:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331708"
+    },
+    {
+     "at": "2026-11-24T21:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331713"
+    },
+    {
+     "at": "2026-11-25T12:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331718"
+    },
+    {
+     "at": "2026-11-25T16:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331715"
+    },
+    {
+     "at": "2026-11-25T18:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331728"
+    },
+    {
+     "at": "2026-11-25T21:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4331733"
+    },
+    {
+     "at": "2026-11-26T12:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4337144"
+    },
+    {
+     "at": "2026-11-26T16:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4337150"
+    },
+    {
+     "at": "2026-11-26T18:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4337154"
+    },
+    {
+     "at": "2026-11-26T21:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/i-play-rocky/4337160"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 159,
+   "url": "https://www.terracetheater.com/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285312"
+    },
+    {
+     "at": "2026-11-21T15:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285313"
+    },
+    {
+     "at": "2026-11-21T17:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285314"
+    },
+    {
+     "at": "2026-11-21T18:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285315"
+    },
+    {
+     "at": "2026-11-21T20:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285316"
+    },
+    {
+     "at": "2026-11-21T21:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4331751"
+    },
+    {
+     "at": "2026-11-22T12:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285317"
+    },
+    {
+     "at": "2026-11-22T15:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285318"
+    },
+    {
+     "at": "2026-11-22T17:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285319"
+    },
+    {
+     "at": "2026-11-22T18:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285320"
+    },
+    {
+     "at": "2026-11-22T20:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285321"
+    },
+    {
+     "at": "2026-11-22T21:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4331671"
+    },
+    {
+     "at": "2026-11-23T12:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285322"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285323"
+    },
+    {
+     "at": "2026-11-23T17:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285324"
+    },
+    {
+     "at": "2026-11-23T18:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285325"
+    },
+    {
+     "at": "2026-11-23T20:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285326"
+    },
+    {
+     "at": "2026-11-23T21:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4331691"
+    },
+    {
+     "at": "2026-11-24T12:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285327"
+    },
+    {
+     "at": "2026-11-24T15:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285328"
+    },
+    {
+     "at": "2026-11-24T17:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285329"
+    },
+    {
+     "at": "2026-11-24T18:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285330"
+    },
+    {
+     "at": "2026-11-24T20:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285331"
+    },
+    {
+     "at": "2026-11-24T21:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4331711"
+    },
+    {
+     "at": "2026-11-25T12:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285332"
+    },
+    {
+     "at": "2026-11-25T13:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285334"
+    },
+    {
+     "at": "2026-11-25T15:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285333"
+    },
+    {
+     "at": "2026-11-25T18:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285335"
+    },
+    {
+     "at": "2026-11-25T20:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285336"
+    },
+    {
+     "at": "2026-11-26T12:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285337"
+    },
+    {
+     "at": "2026-11-26T13:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4337146"
+    },
+    {
+     "at": "2026-11-26T15:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285338"
+    },
+    {
+     "at": "2026-11-26T18:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285340"
+    },
+    {
+     "at": "2026-11-26T20:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4285341"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 117,
+   "url": "https://www.terracetheater.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331734"
+    },
+    {
+     "at": "2026-11-21T14:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331741"
+    },
+    {
+     "at": "2026-11-21T16:25",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331744"
+    },
+    {
+     "at": "2026-11-21T20:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331750"
+    },
+    {
+     "at": "2026-11-22T12:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331654"
+    },
+    {
+     "at": "2026-11-22T14:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331661"
+    },
+    {
+     "at": "2026-11-22T16:25",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331664"
+    },
+    {
+     "at": "2026-11-22T20:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331670"
+    },
+    {
+     "at": "2026-11-23T12:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331674"
+    },
+    {
+     "at": "2026-11-23T14:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331681"
+    },
+    {
+     "at": "2026-11-23T16:25",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331684"
+    },
+    {
+     "at": "2026-11-23T20:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331690"
+    },
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331694"
+    },
+    {
+     "at": "2026-11-24T14:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331701"
+    },
+    {
+     "at": "2026-11-24T16:25",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331704"
+    },
+    {
+     "at": "2026-11-24T20:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/wild-horse-nine/4331710"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 175,
+   "url": "https://www.terracetheater.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331739"
+    },
+    {
+     "at": "2026-11-21T14:45",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331742"
+    },
+    {
+     "at": "2026-11-21T18:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331747"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331659"
+    },
+    {
+     "at": "2026-11-22T14:45",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331662"
+    },
+    {
+     "at": "2026-11-22T18:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331667"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331679"
+    },
+    {
+     "at": "2026-11-23T14:45",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331682"
+    },
+    {
+     "at": "2026-11-23T18:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331687"
+    },
+    {
+     "at": "2026-11-24T13:00",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331699"
+    },
+    {
+     "at": "2026-11-24T14:45",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331702"
+    },
+    {
+     "at": "2026-11-24T18:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331707"
+    },
+    {
+     "at": "2026-11-25T14:45",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331722"
+    },
+    {
+     "at": "2026-11-25T18:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4331727"
+    },
+    {
+     "at": "2026-11-26T14:45",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4337149"
+    },
+    {
+     "at": "2026-11-26T18:15",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/you-can-see-everything/4337153"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": "R",
+   "runtime_min": 122,
+   "url": "https://www.terracetheater.com/movie/club-kid/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331740"
+    },
+    {
+     "at": "2026-11-21T16:35",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331745"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331749"
+    },
+    {
+     "at": "2026-11-21T21:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331736"
+    },
+    {
+     "at": "2026-11-22T13:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331660"
+    },
+    {
+     "at": "2026-11-22T16:35",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331665"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331669"
+    },
+    {
+     "at": "2026-11-22T21:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331656"
+    },
+    {
+     "at": "2026-11-23T13:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331680"
+    },
+    {
+     "at": "2026-11-23T16:35",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331685"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331689"
+    },
+    {
+     "at": "2026-11-23T21:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331676"
+    },
+    {
+     "at": "2026-11-24T13:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331700"
+    },
+    {
+     "at": "2026-11-24T16:35",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331705"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331709"
+    },
+    {
+     "at": "2026-11-24T21:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331696"
+    },
+    {
+     "at": "2026-11-25T14:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331720"
+    },
+    {
+     "at": "2026-11-25T16:35",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331725"
+    },
+    {
+     "at": "2026-11-25T19:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331729"
+    },
+    {
+     "at": "2026-11-25T21:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4331716"
+    },
+    {
+     "at": "2026-11-26T14:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4337147"
+    },
+    {
+     "at": "2026-11-26T16:35",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4337151"
+    },
+    {
+     "at": "2026-11-26T19:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4337156"
+    },
+    {
+     "at": "2026-11-26T21:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/club-kid/4337142"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://www.terracetheater.com/movie/hexed/",
+   "shows": [
+    {
+     "at": "2026-11-25T11:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/hexed/4332156"
+    },
+    {
+     "at": "2026-11-25T13:55",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/hexed/4332157"
+    },
+    {
+     "at": "2026-11-25T16:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/hexed/4330090"
+    },
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/hexed/4330091"
+    },
+    {
+     "at": "2026-11-25T21:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/hexed/4330092"
+    },
+    {
+     "at": "2026-11-26T11:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/hexed/4337138"
+    },
+    {
+     "at": "2026-11-26T13:55",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/hexed/4337139"
+    },
+    {
+     "at": "2026-11-26T16:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/hexed/4337140"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/hexed/4337141"
+    },
+    {
+     "at": "2026-11-26T21:20",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/hexed/4337158"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.terracetheater.com/movie/focker-in-law/",
+   "shows": [
+    {
+     "at": "2026-11-25T12:35",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/focker-in-law/4330094"
+    },
+    {
+     "at": "2026-11-25T14:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/focker-in-law/4330085"
+    },
+    {
+     "at": "2026-11-25T16:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/focker-in-law/4330086"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/focker-in-law/4330087"
+    },
+    {
+     "at": "2026-11-25T21:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/focker-in-law/4330088"
+    },
+    {
+     "at": "2026-11-26T12:35",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/focker-in-law/4337145"
+    },
+    {
+     "at": "2026-11-26T14:40",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/focker-in-law/4337148"
+    },
+    {
+     "at": "2026-11-26T16:50",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/focker-in-law/4337152"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/focker-in-law/4337155"
+    },
+    {
+     "at": "2026-11-26T21:10",
+     "sold_out": false,
+     "url": "https://www.terracetheater.com/checkout/showing/focker-in-law/4337157"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

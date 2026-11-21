@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "stanley-theater-wi",
+ "name": "Stanley Theater",
+ "city": "eauclaire",
+ "area": "Stanley",
+ "region": "Chippewa Falls",
+ "url": "https://stanleymovietheater.com",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://stanleymovietheater.com",
+   "shows": [
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://stanleymovietheater.com"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://stanleymovietheater.com"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://stanleymovietheater.com"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://stanleymovietheater.com"
+    },
+    {
+     "at": "2026-11-24T13:30",
+     "sold_out": false,
+     "url": "https://stanleymovietheater.com"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://stanleymovietheater.com"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://stanleymovietheater.com",
+   "shows": [
+    {
+     "at": "2026-11-27T16:30",
+     "sold_out": false,
+     "url": "https://stanleymovietheater.com"
+    },
+    {
+     "at": "2026-11-27T19:30",
+     "sold_out": false,
+     "url": "https://stanleymovietheater.com"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

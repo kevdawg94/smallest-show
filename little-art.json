@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "little-art",
+ "name": "Little Art Theatre",
+ "city": "dayton",
+ "area": "Yellow Springs",
+ "region": "Yellow Springs & Greene County",
+ "url": "https://www.littleart.com/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1044226~7b829e11-136b-4535-af29-fa29ce9a8a6c&",
+   "shows": [
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044230~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044232~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044234~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044235~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044237~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    }
+   ]
+  },
+  {
+   "title": "Nirvanna the Band the Show the Movie",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1046219~7b829e11-136b-4535-af29-fa29ce9a8a6c&",
+   "shows": [
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046220~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

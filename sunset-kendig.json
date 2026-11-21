@@ -1,0 +1,841 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "sunset-kendig",
+ "name": "Sunset Cinemas",
+ "city": "centralpa",
+ "area": "Willow Street",
+ "region": "Lancaster & Lititz",
+ "url": "https://www.kendigmovies.com/",
+ "films": [
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.kendigmovies.com/movie/27599",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17105"
+    },
+    {
+     "at": "2026-11-21T13:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17106"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17107"
+    },
+    {
+     "at": "2026-11-21T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17108"
+    },
+    {
+     "at": "2026-11-21T21:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17109"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17122"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17123"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17124"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17125"
+    },
+    {
+     "at": "2026-11-22T21:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17126"
+    },
+    {
+     "at": "2026-11-23T13:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17142"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17143"
+    },
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17144"
+    },
+    {
+     "at": "2026-11-23T21:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17145"
+    },
+    {
+     "at": "2026-11-24T13:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17161"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17162"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17163"
+    },
+    {
+     "at": "2026-11-24T21:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17164"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.kendigmovies.com/movie/27600",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17110"
+    },
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17111"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17236"
+    },
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17112"
+    },
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17113"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17127"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17128"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17241"
+    },
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17129"
+    },
+    {
+     "at": "2026-11-22T20:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17130"
+    },
+    {
+     "at": "2026-11-23T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17147"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17246"
+    },
+    {
+     "at": "2026-11-23T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17148"
+    },
+    {
+     "at": "2026-11-23T20:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17149"
+    },
+    {
+     "at": "2026-11-24T13:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17166"
+    },
+    {
+     "at": "2026-11-24T16:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17256"
+    },
+    {
+     "at": "2026-11-24T16:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17167"
+    },
+    {
+     "at": "2026-11-24T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17168"
+    },
+    {
+     "at": "2026-11-25T10:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17178"
+    },
+    {
+     "at": "2026-11-25T20:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17179"
+    },
+    {
+     "at": "2026-11-26T09:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17208"
+    },
+    {
+     "at": "2026-11-26T13:55",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17209"
+    },
+    {
+     "at": "2026-11-26T18:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17210"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://www.kendigmovies.com/movie/27601",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15782"
+    },
+    {
+     "at": "2026-11-21T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15781"
+    },
+    {
+     "at": "2026-11-21T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15780"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15779"
+    },
+    {
+     "at": "2026-11-21T20:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15778"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15787"
+    },
+    {
+     "at": "2026-11-22T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15786"
+    },
+    {
+     "at": "2026-11-22T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15785"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15784"
+    },
+    {
+     "at": "2026-11-22T20:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15783"
+    },
+    {
+     "at": "2026-11-23T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15791"
+    },
+    {
+     "at": "2026-11-23T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15790"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15789"
+    },
+    {
+     "at": "2026-11-23T20:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15788"
+    },
+    {
+     "at": "2026-11-24T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15796"
+    },
+    {
+     "at": "2026-11-24T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15795"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15794"
+    },
+    {
+     "at": "2026-11-24T20:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15793"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15802"
+    },
+    {
+     "at": "2026-11-25T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15801"
+    },
+    {
+     "at": "2026-11-25T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15800"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15799"
+    },
+    {
+     "at": "2026-11-25T20:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15798"
+    },
+    {
+     "at": "2026-11-26T09:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16376"
+    },
+    {
+     "at": "2026-11-26T11:35",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16377"
+    },
+    {
+     "at": "2026-11-26T14:05",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16378"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16379"
+    },
+    {
+     "at": "2026-11-26T18:55",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16380"
+    },
+    {
+     "at": "2026-11-26T21:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16381"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.kendigmovies.com/movie/27817",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15677"
+    },
+    {
+     "at": "2026-11-21T11:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17101"
+    },
+    {
+     "at": "2026-11-21T14:10",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15675"
+    },
+    {
+     "at": "2026-11-21T14:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17102"
+    },
+    {
+     "at": "2026-11-21T17:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15674"
+    },
+    {
+     "at": "2026-11-21T17:50",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17103"
+    },
+    {
+     "at": "2026-11-21T20:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16492"
+    },
+    {
+     "at": "2026-11-21T21:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17104"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15681"
+    },
+    {
+     "at": "2026-11-22T11:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17118"
+    },
+    {
+     "at": "2026-11-22T14:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17119"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15679"
+    },
+    {
+     "at": "2026-11-22T17:50",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17120"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17135"
+    },
+    {
+     "at": "2026-11-22T21:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17121"
+    },
+    {
+     "at": "2026-11-23T13:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17175"
+    },
+    {
+     "at": "2026-11-23T13:50",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17138"
+    },
+    {
+     "at": "2026-11-23T16:35",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17154"
+    },
+    {
+     "at": "2026-11-23T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17139"
+    },
+    {
+     "at": "2026-11-23T19:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17155"
+    },
+    {
+     "at": "2026-11-23T20:15",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17140"
+    },
+    {
+     "at": "2026-11-24T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17156"
+    },
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15687"
+    },
+    {
+     "at": "2026-11-24T16:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17157"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15686"
+    },
+    {
+     "at": "2026-11-24T20:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17158"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15693"
+    },
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15691"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15690"
+    },
+    {
+     "at": "2026-11-26T09:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15847"
+    },
+    {
+     "at": "2026-11-26T13:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15845"
+    },
+    {
+     "at": "2026-11-26T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15844"
+    },
+    {
+     "at": "2026-11-26T20:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16136"
+    }
+   ]
+  },
+  {
+   "title": "Sight and Sound Joshua Live",
+   "rating": "NR",
+   "runtime_min": 135,
+   "url": "https://www.kendigmovies.com/movie/27722",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17235"
+    },
+    {
+     "at": "2026-11-21T13:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17237"
+    },
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17238"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17240"
+    },
+    {
+     "at": "2026-11-22T13:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17242"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17243"
+    },
+    {
+     "at": "2026-11-23T13:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17247"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17248"
+    },
+    {
+     "at": "2026-11-24T13:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17257"
+    },
+    {
+     "at": "2026-11-24T19:15",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17258"
+    }
+   ]
+  },
+  {
+   "title": "Focker in Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.kendigmovies.com/movie/27816",
+   "shows": [
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15859"
+    },
+    {
+     "at": "2026-11-25T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15860"
+    },
+    {
+     "at": "2026-11-25T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15861"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15862"
+    },
+    {
+     "at": "2026-11-25T20:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15863"
+    },
+    {
+     "at": "2026-11-26T09:25",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16384"
+    },
+    {
+     "at": "2026-11-26T11:50",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15877"
+    },
+    {
+     "at": "2026-11-26T14:15",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15878"
+    },
+    {
+     "at": "2026-11-26T16:35",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15879"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15880"
+    },
+    {
+     "at": "2026-11-26T21:25",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16140"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://www.kendigmovies.com/movie/27607",
+   "shows": [
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15833"
+    },
+    {
+     "at": "2026-11-25T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15834"
+    },
+    {
+     "at": "2026-11-25T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15835"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15836"
+    },
+    {
+     "at": "2026-11-25T20:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15837"
+    },
+    {
+     "at": "2026-11-26T09:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16369"
+    },
+    {
+     "at": "2026-11-26T11:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16368"
+    },
+    {
+     "at": "2026-11-26T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16367"
+    },
+    {
+     "at": "2026-11-26T16:25",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16366"
+    },
+    {
+     "at": "2026-11-26T18:50",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16365"
+    },
+    {
+     "at": "2026-11-26T21:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16364"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.kendigmovies.com/movie/28179",
+   "shows": [
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17176"
+    },
+    {
+     "at": "2026-11-25T14:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17180"
+    },
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17181"
+    },
+    {
+     "at": "2026-11-25T20:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17182"
+    },
+    {
+     "at": "2026-11-26T09:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17183"
+    },
+    {
+     "at": "2026-11-26T11:45",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17184"
+    },
+    {
+     "at": "2026-11-26T14:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17185"
+    },
+    {
+     "at": "2026-11-26T17:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17186"
+    },
+    {
+     "at": "2026-11-26T20:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/17187"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://www.kendigmovies.com/movie/27632",
+   "shows": [
+    {
+     "at": "2026-11-25T13:20",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15865"
+    },
+    {
+     "at": "2026-11-25T15:40",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15866"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/15867"
+    },
+    {
+     "at": "2026-11-26T11:35",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16370"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16373"
+    },
+    {
+     "at": "2026-11-26T21:25",
+     "sold_out": false,
+     "url": "https://www.kendigmovies.com/tickets/16375"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

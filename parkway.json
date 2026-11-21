@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "parkway",
+ "name": "Parkway",
+ "city": "msp",
+ "area": "South Minneapolis",
+ "region": "Minneapolis",
+ "url": "https://theparkwaytheater.com/",
+ "films": [
+  {
+   "title": "E.T. The Extra-Terrestrial (1982)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/et-26",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://link.dice.fm/o70e1e289ae1"
+    }
+   ]
+  },
+  {
+   "title": "The Rocky Horror Picture Show (1975)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/rocky-horror-transvestite-soup-nov-2026",
+   "shows": [
+    {
+     "at": "2026-11-21T23:30",
+     "sold_out": false,
+     "url": "https://link.dice.fm/q075568cfb95"
+    }
+   ]
+  },
+  {
+   "title": "Meat Raffle (2023)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/meat-raffle-film",
+   "shows": [
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://link.dice.fm/X23e929a9941"
+    }
+   ]
+  },
+  {
+   "title": "Planes, Trains and Automobiles (1987) w/ pre-movie music by Meatraffle Ska",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/planes-trains-26",
+   "shows": [
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://link.dice.fm/Oc42dd8fce9a"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

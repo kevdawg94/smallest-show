@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "harbor-boothbay",
+ "name": "Harbor Theater",
+ "city": "midcoast",
+ "area": "Boothbay Harbor",
+ "region": "Boothbay & Damariscotta",
+ "url": "https://boothbaycinema.org/",
+ "films": [
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://boothbaycinema.org/onceuponatimeinharlem/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/onceuponatimeinharlem/"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://boothbaycinema.org/thecatinthehat/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/thecatinthehat/"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/thecatinthehat/"
+    },
+    {
+     "at": "2026-11-25T14:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/thecatinthehat/"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/thecatinthehat/"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://boothbaycinema.org/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/ebenezer/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "tahqua-land-theatre",
+ "name": "Tahqua Land Theatre",
+ "city": "upmichigan",
+ "area": "Newberry",
+ "region": "Escanaba & Manistique",
+ "url": "https://tahquatheater.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://tahquatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://tahquatheater.com/"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://tahquatheater.com/"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://tahquatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://tahquatheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

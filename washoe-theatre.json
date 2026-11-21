@@ -1,0 +1,70 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "washoe-theatre",
+ "name": "Washoe Theatre",
+ "city": "butte",
+ "area": "Anaconda",
+ "region": "Anaconda",
+ "url": "http://www.washoetheatre.com/schedule.html",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "http://www.washoetheatre.com/schedule.html",
+   "shows": [
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat in 3-D",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "http://www.washoetheatre.com/schedule.html",
+   "shows": [
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    },
+    {
+     "at": "2026-11-27T21:15",
+     "sold_out": false,
+     "url": "http://www.washoetheatre.com/schedule.html"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

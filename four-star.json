@@ -1,0 +1,119 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "four-star",
+ "name": "4 Star",
+ "city": "bay",
+ "area": "Richmond",
+ "region": "San Francisco",
+ "url": "https://www.4-star-movies.com/",
+ "films": [
+  {
+   "title": "The Grand Budapest Hotel",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-21T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20266?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20272?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20276?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "A Charlie Brown Thanksgiving",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-21T14:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20267?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-21T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20269?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-22T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20271?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20273?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-25T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20277?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Fantastic Mr. Fox",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20268?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-22T17:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20274?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Basement presents: IT on VHS (with Director Q&A)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20263?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Dark Passage",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20275?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

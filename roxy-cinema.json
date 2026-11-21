@@ -1,0 +1,159 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "roxy-cinema",
+ "name": "Roxy Cinema",
+ "city": "nyc",
+ "area": "Tribeca",
+ "region": "Downtown Manhattan",
+ "url": "https://www.roxycinemanewyork.com/",
+ "films": [
+  {
+   "title": "Orfeo",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-21T13:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7910?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    },
+    {
+     "at": "2026-11-22T20:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7911?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "In the Hand of Dante",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-21T15:30",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Primetime",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8025?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Knights of Night",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-21T21:15",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Dinner With Friends",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7904?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Mean Streets (35mm)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7944?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    },
+    {
+     "at": "2026-11-24T21:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7986?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Wings of Desire",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-23T22:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/8006?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Hannah And Her Sisters (35mm)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7983?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7985?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  },
+  {
+   "title": "Taste of Cherry (Cinema Tehran)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=tt17e5ajy3v48kh5b2kremvnz4",
+   "shows": [
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7989?siteToken=tt17e5ajy3v48kh5b2kremvnz4"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

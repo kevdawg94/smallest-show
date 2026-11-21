@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "pierres-victor",
+ "name": "Pierre's Theatre",
+ "city": "idahofalls",
+ "area": "Victor",
+ "region": "Teton Valley",
+ "url": "https://pierrestheatre.com",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=z0tkk47nezsg3hkhx4d4t9he2w",
+   "shows": [
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/255?siteToken=z0tkk47nezsg3hkhx4d4t9he2w"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/256?siteToken=z0tkk47nezsg3hkhx4d4t9he2w"
+    }
+   ]
+  },
+  {
+   "title": "Everest: The Other Side",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=z0tkk47nezsg3hkhx4d4t9he2w",
+   "shows": [
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/269?siteToken=z0tkk47nezsg3hkhx4d4t9he2w"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

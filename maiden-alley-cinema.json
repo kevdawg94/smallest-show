@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "maiden-alley-cinema",
+ "name": "Maiden Alley Cinema",
+ "city": "paducah",
+ "area": "Downtown, Paducah",
+ "region": "Downtown Paducah",
+ "url": "https://maidenalleycinema.org/",
+ "films": [
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": 92,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=669067~3b7c9544-2d63-4f4a-87f0-344eead928a2&",
+   "shows": [
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669068~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669069~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669070~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    }
+   ]
+  },
+  {
+   "title": "The Neverending Story",
+   "rating": "PG",
+   "runtime_min": 101,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=669062~3b7c9544-2d63-4f4a-87f0-344eead928a2&",
+   "shows": [
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669071~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669072~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    }
+   ]
+  },
+  {
+   "title": "It's a Wonderful Life",
+   "rating": "PG",
+   "runtime_min": 130,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=444677~3b7c9544-2d63-4f4a-87f0-344eead928a2&",
+   "shows": [
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=669073~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

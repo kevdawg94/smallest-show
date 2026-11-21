@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "trilingua",
+ "name": "TriLingua",
+ "city": "msp",
+ "area": "East Side",
+ "region": "St. Paul",
+ "url": "https://trilinguacinema.org/",
+ "films": [
+  {
+   "title": "Matilda",
+   "rating": null,
+   "runtime_min": 98,
+   "url": "https://trilinguacinema.org/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:00",
+     "sold_out": false,
+     "url": "https://trilinguacinema.org/purchase/8028/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

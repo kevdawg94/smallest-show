@@ -1,0 +1,895 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "epic-old-mill",
+ "name": "Epic Old Mill Playhouse",
+ "city": "orlando",
+ "area": "The Villages",
+ "region": "Lake County & The Villages",
+ "url": "https://www.epictheatres.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/6b387d00-9657-5c16-b27b-91dc9db9e1f1"
+    },
+    {
+     "at": "2026-11-21T14:10",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/4fb22870-8700-5158-bb1c-c9fa2f84cc1c"
+    },
+    {
+     "at": "2026-11-21T17:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/97494907-5993-53fa-b9a4-cb8546b6d24b"
+    },
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/e5ff2a27-b6f7-50d5-876e-c35e877d8437"
+    },
+    {
+     "at": "2026-11-22T11:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/865905aa-1c64-5130-ad55-c84af0ea043b"
+    },
+    {
+     "at": "2026-11-22T14:10",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/500ab03c-5380-5023-b9cf-d81f0d3f99d9"
+    },
+    {
+     "at": "2026-11-22T17:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/2b678b87-ed7e-5665-b39f-92df04649594"
+    },
+    {
+     "at": "2026-11-22T20:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/5bf40b2b-2099-5ae1-8702-26b758fde409"
+    },
+    {
+     "at": "2026-11-23T11:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/fa77b39a-8c62-5b0f-9c88-6d7a239f0d50"
+    },
+    {
+     "at": "2026-11-23T14:10",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/13a99671-1514-5cb8-a41f-509356173898"
+    },
+    {
+     "at": "2026-11-23T17:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/12d15c40-5c45-5ffc-a666-bda1dd3b22f1"
+    },
+    {
+     "at": "2026-11-23T20:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/715652ef-9f42-5027-bc81-f30b327dcb0f"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/a5fb8280-9d4e-5ee7-92d5-92be21d5bfd0"
+    },
+    {
+     "at": "2026-11-21T12:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/64bedc05-9cd1-594b-83bd-062d16d6836b"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/529713db-c43a-5374-9962-0c4dc4abd705"
+    },
+    {
+     "at": "2026-11-22T12:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/430b456b-acbc-5471-91ad-298d07ceb7ed"
+    },
+    {
+     "at": "2026-11-23T10:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/f12aa450-48f7-5a94-9f93-1aedcc443eed"
+    },
+    {
+     "at": "2026-11-23T13:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/427c9321-e28e-57e9-ac3e-00fba89756df"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:10",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/27cc9b08-af5a-5649-8e1e-fc780fbfccca"
+    },
+    {
+     "at": "2026-11-22T10:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/3bc5cfeb-e1f9-59da-ac7a-34d08b40a1e9"
+    },
+    {
+     "at": "2026-11-23T13:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/5b2617a9-ad5f-53f0-9277-623a0ee15b23"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/aacfa796-597d-5227-81f3-c332c4c0d960"
+    },
+    {
+     "at": "2026-11-21T12:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/a5bf4901-e3e1-545f-88ea-78dff7d1a0eb"
+    },
+    {
+     "at": "2026-11-21T15:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/d57411af-0afc-5aff-bb7b-60e5239858d0"
+    },
+    {
+     "at": "2026-11-21T17:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/82f3890d-be83-5c6a-ad0e-e564f8ab2fc9"
+    },
+    {
+     "at": "2026-11-21T20:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/ef505aef-dec1-5262-b68f-e9ca86470bad"
+    },
+    {
+     "at": "2026-11-22T10:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/8827f06e-8d95-57c5-b256-e7514fbeed45"
+    },
+    {
+     "at": "2026-11-22T12:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/0c128262-3c37-54c3-834c-9d30816a32b9"
+    },
+    {
+     "at": "2026-11-22T15:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/1376d706-f637-5931-a2c3-015dcd474ebd"
+    },
+    {
+     "at": "2026-11-22T17:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/06e95ff8-1f49-5b5b-9eba-7d86358f8b0f"
+    },
+    {
+     "at": "2026-11-22T20:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/512aca09-3569-56ed-81e0-c15e5a280078"
+    },
+    {
+     "at": "2026-11-23T10:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/e54ffcf1-1d26-5110-9336-e9da43ba11cf"
+    },
+    {
+     "at": "2026-11-23T12:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/8fe3d547-9534-548b-ab16-dd14ef0d6b93"
+    },
+    {
+     "at": "2026-11-23T15:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/8142cea6-6ded-56e5-a877-6b75e76c6068"
+    },
+    {
+     "at": "2026-11-23T17:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/a3d058c2-e3bc-5b95-9ace-2da81758888e"
+    },
+    {
+     "at": "2026-11-23T20:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/496d0f80-2309-57c8-89b3-f5b6cec1488f"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/d08cb068-c947-5d2b-8fef-5bab510acf2b"
+    },
+    {
+     "at": "2026-11-21T13:55",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/f3ac4c0e-8d20-59e6-88e8-0a6360039f54"
+    },
+    {
+     "at": "2026-11-21T16:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/5c67b2ad-70b1-5165-9247-44e42b77f22c"
+    },
+    {
+     "at": "2026-11-21T19:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/9c3d485d-b8e0-50bf-837b-ffab7b9ee8c2"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/004b3c65-2c81-502d-844c-208497fdfe8d"
+    },
+    {
+     "at": "2026-11-22T13:55",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/381c6429-9111-58a1-acfb-e159683a2591"
+    },
+    {
+     "at": "2026-11-22T16:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/22b1e0c9-abd7-53e2-86a9-018d942aef7b"
+    },
+    {
+     "at": "2026-11-22T19:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/e83f8726-8f44-5bf4-878f-69c42b1306a5"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/7479db58-b558-5e0a-a41f-522d65433955"
+    },
+    {
+     "at": "2026-11-23T13:55",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/5afc07e4-5493-5654-820b-97d19d464a62"
+    },
+    {
+     "at": "2026-11-23T16:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/46e479f6-2bce-51a4-bc57-7a48cca9ee98"
+    },
+    {
+     "at": "2026-11-23T19:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/64ada1e8-3839-52e5-8223-1976c3c0d433"
+    },
+    {
+     "at": "2026-11-24T11:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/614b5ae0-0ec7-551d-9197-e55f00a330d6"
+    },
+    {
+     "at": "2026-11-24T13:55",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/8420c85c-6a5d-559b-998e-a99d916e41e2"
+    },
+    {
+     "at": "2026-11-24T16:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/14951dec-fa8c-5ed1-aab7-6d0acee934e1"
+    },
+    {
+     "at": "2026-11-24T19:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/b311e5a6-aa76-53ec-8e13-4a6540585ac7"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/717efdcb-6e99-5817-81cf-1541883bcbe6"
+    },
+    {
+     "at": "2026-11-25T13:55",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/e77f5580-41de-5c5c-8d11-b2220729105e"
+    },
+    {
+     "at": "2026-11-25T16:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/b240328e-1793-5e12-9cc7-8ead658c563c"
+    },
+    {
+     "at": "2026-11-25T19:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/20bca59b-a2ce-5f75-9321-4e546232c7e5"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/91297709-bd2b-5ae1-9b0e-728373418a17"
+    },
+    {
+     "at": "2026-11-26T13:55",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/15b17f4e-c8e7-5ca0-ae64-0cb939bcec58"
+    },
+    {
+     "at": "2026-11-26T16:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/4509bb26-c362-5bda-b2c8-739afbb24365"
+    },
+    {
+     "at": "2026-11-26T19:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/e56adabf-1b5d-5de3-bf04-d6f989d7c635"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/849ba024-5d4e-51df-8f1a-f017916afd1f"
+    },
+    {
+     "at": "2026-11-21T16:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/3d0fc08d-463b-51b3-9a68-a2d6eac4af1d"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/a60e7eb2-fb21-5e00-8a81-6a024cc1d1a6"
+    },
+    {
+     "at": "2026-11-22T13:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/3c7e98aa-dee8-514e-82a8-351a3efa95c5"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/6c56c3f5-1c6a-50df-8eed-33ffba602dfb"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/ffee4880-5598-5de4-97ce-705dca18ef4f"
+    },
+    {
+     "at": "2026-11-23T10:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/f4326687-77ac-5971-85b8-15ebd0a30fb3"
+    },
+    {
+     "at": "2026-11-23T13:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/b558eed5-f928-57c6-bff7-84ddf692c97f"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/82f12f6e-fd37-5910-ac8f-c30e3f21ac92"
+    },
+    {
+     "at": "2026-11-21T19:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/f1ea0677-fa7c-5cf0-9035-8e35953a01e5"
+    },
+    {
+     "at": "2026-11-22T10:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/32ac366d-4e36-5c9f-89f4-55e6347fcfca"
+    },
+    {
+     "at": "2026-11-23T10:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/5bcb5206-ce22-5e6a-82bb-848607b39262"
+    },
+    {
+     "at": "2026-11-23T16:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/593e853b-16ee-55d6-bcfe-1b59fb18b27e"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/e184d293-3692-5c5f-a4b2-79765d53fc4b"
+    },
+    {
+     "at": "2026-11-21T12:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/7b516048-ebbd-5dfc-8d76-feda8c800302"
+    },
+    {
+     "at": "2026-11-21T15:20",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/48aeb179-f1f8-50fb-a995-3d764f778ae4"
+    },
+    {
+     "at": "2026-11-21T16:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/7c790c5c-4679-5eb2-b6f5-6b62fb0c07ae"
+    },
+    {
+     "at": "2026-11-21T18:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/7a5a3811-7130-5194-92f1-ef76d58b1cdd"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/cad070c8-673f-5d45-81f7-f5127d729ba3"
+    },
+    {
+     "at": "2026-11-22T11:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/3cb6a1f0-0fc0-5c06-b91c-ee61a70c4826"
+    },
+    {
+     "at": "2026-11-22T12:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/7550dd51-9df0-533f-b959-76a43741d26b"
+    },
+    {
+     "at": "2026-11-22T15:20",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/6f855ffa-d4e9-5d9f-bc37-0b4d3cac89cc"
+    },
+    {
+     "at": "2026-11-22T16:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/fce2f604-636f-5252-a25c-7500d1dc08ce"
+    },
+    {
+     "at": "2026-11-22T18:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/70d7f715-2e72-5f8c-b977-8be68775d6da"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/9ac3e6a3-25da-52b4-b4b8-a733215321b1"
+    },
+    {
+     "at": "2026-11-23T10:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/7e008361-0124-5c8d-93b4-ac7fb11ce020"
+    },
+    {
+     "at": "2026-11-23T12:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/0a50d4cf-5c31-5991-b6ec-b39bbfe7c734"
+    },
+    {
+     "at": "2026-11-23T14:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/238bd90b-d303-5d8f-9c66-58e622de0883"
+    },
+    {
+     "at": "2026-11-23T16:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/d62eff90-865d-5c09-89ca-26dce856e2cf"
+    },
+    {
+     "at": "2026-11-23T17:55",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/8bd2a649-2512-59a9-863a-47e37f01d464"
+    },
+    {
+     "at": "2026-11-23T19:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/cb3fe28a-15e4-5d1c-a4fd-c8870dff2a5e"
+    },
+    {
+     "at": "2026-11-24T12:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/8f2e297b-d9cf-524e-afbe-984dff86e018"
+    },
+    {
+     "at": "2026-11-24T16:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/69b29c6f-2909-5194-8e91-e0c5ed906de8"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/b8286496-13aa-5a4e-9e24-800eb45dc4b5"
+    },
+    {
+     "at": "2026-11-25T12:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/4621a9e7-8922-504f-9e57-8de09b20c3d9"
+    },
+    {
+     "at": "2026-11-25T16:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/2dc0efca-2cc1-5f88-b410-54103f170947"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/23739fad-5813-5e84-8336-35440a849f7f"
+    },
+    {
+     "at": "2026-11-26T12:40",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/d2b1608b-9f04-58a2-84b1-781759d4869b"
+    },
+    {
+     "at": "2026-11-26T16:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/fe18636f-e392-53ea-bac5-59812f8d833e"
+    },
+    {
+     "at": "2026-11-26T19:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/66316a02-9ea8-505b-8f31-3eb754f4c209"
+    }
+   ]
+  },
+  {
+   "title": "The Polar Express",
+   "rating": "G",
+   "runtime_min": 99,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/1632e8e6-d41d-5a84-9653-9ace73192aff"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/79868a2c-e0a1-55be-bb0c-eae721c407fc"
+    },
+    {
+     "at": "2026-11-22T13:35",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/cc96cb16-88d6-5f25-a597-3c0af83c4194"
+    },
+    {
+     "at": "2026-11-22T19:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/5d6d9b39-6a2b-5630-b66c-76b2f2ade636"
+    },
+    {
+     "at": "2026-11-25T13:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/eea9eaea-0277-5320-8668-682b9d4a8ca9"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/fd825773-2b9e-5ca4-9e91-0834be856d9c"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T16:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/f9975620-afce-5e20-b008-74cf76eaea97"
+    },
+    {
+     "at": "2026-11-21T19:25",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/58e74502-6adf-5bfa-b863-b97dc8bd8856"
+    },
+    {
+     "at": "2026-11-22T16:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/563f9b80-153a-56a6-b267-d2c40f077af7"
+    },
+    {
+     "at": "2026-11-22T19:25",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/fba7d806-145a-5c07-8fa1-bf17814cb5db"
+    },
+    {
+     "at": "2026-11-23T10:20",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/08b6544a-6a88-5832-8cd6-62f6db378a31"
+    },
+    {
+     "at": "2026-11-23T16:10",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/4ea815b3-e708-5af7-a0b3-a75a80d9278c"
+    }
+   ]
+  },
+  {
+   "title": "GIANT - The Play",
+   "rating": "NR",
+   "runtime_min": 141,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/289472e1-96f6-5b8f-bf3e-31a8ac0fba21"
+    }
+   ]
+  },
+  {
+   "title": "Doctor Who: The Satan Pit",
+   "rating": "NR",
+   "runtime_min": 120,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/f5001389-81af-5cc5-b497-b2882ee9dc8d"
+    }
+   ]
+  },
+  {
+   "title": "November 23 Mystery Film Event (Epic Theatres)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/8bfd969e-af8b-553c-826d-f9277c8c1c1a"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 108,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-24T11:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/c3ffdc6d-466f-5058-9c3c-12e6b55b1e86"
+    },
+    {
+     "at": "2026-11-24T13:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/b14519f1-392a-5756-99e8-d7398822770e"
+    },
+    {
+     "at": "2026-11-24T16:25",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/6fb36b53-f34b-5a46-a00a-0494f5e8fe91"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/313334f3-055d-5138-900a-79356961e1cd"
+    },
+    {
+     "at": "2026-11-25T11:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/a27bdedb-644a-5576-811a-e3a5cff828dc"
+    },
+    {
+     "at": "2026-11-25T13:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/3d2c2221-2184-5961-9c7c-7535bc6311c4"
+    },
+    {
+     "at": "2026-11-25T16:25",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/599852b5-94ab-5c6a-aa88-63ecd8a0827f"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/59f8fe7e-dac6-54b1-b778-8af68c06707d"
+    },
+    {
+     "at": "2026-11-26T11:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/4c20d226-7755-5950-9ac0-d7c5209bb7f5"
+    },
+    {
+     "at": "2026-11-26T13:50",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/427a1129-0df5-5496-9088-b3ec9e0267d3"
+    },
+    {
+     "at": "2026-11-26T16:25",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/914c252e-8aa4-532a-88f8-e8cdc39189e6"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/e35f8d03-6467-5bd2-8894-34335819d486"
+    }
+   ]
+  },
+  {
+   "title": "Disney's Hexed",
+   "rating": "PG",
+   "runtime_min": 106,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-24T14:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/0096d3ac-a522-5810-8a60-671b1ab0d9e7"
+    },
+    {
+     "at": "2026-11-24T16:35",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/f8b325e8-2b3a-5756-b220-e6b5b322332c"
+    },
+    {
+     "at": "2026-11-24T19:10",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/8aaadf7f-5f8d-50de-9467-5d7ae994dcc4"
+    },
+    {
+     "at": "2026-11-25T11:20",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/25275df4-a6f2-5916-8060-76182a5264f7"
+    },
+    {
+     "at": "2026-11-25T13:55",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/333212f5-efd4-5019-b66d-6c29c9a05e5f"
+    },
+    {
+     "at": "2026-11-25T16:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/d095d4fa-49fd-5fc2-a84c-1d5ed9c856fa"
+    },
+    {
+     "at": "2026-11-25T19:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/4f7f2c2c-9651-51d1-a070-1a6922743663"
+    },
+    {
+     "at": "2026-11-26T11:20",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/87e8a6be-6055-5b29-b397-a491e48ad5ac"
+    },
+    {
+     "at": "2026-11-26T13:55",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/904356df-5541-5eb2-8047-4e825949ace9"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/7f67f425-f3d5-51fb-ae8d-9998e9960d27"
+    },
+    {
+     "at": "2026-11-26T19:05",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/98012cc3-70ee-5a07-9911-e4d573977060"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-25T11:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/4eb26fc1-ce92-5cf5-8e2a-a98deb7f43a4"
+    },
+    {
+     "at": "2026-11-25T14:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/a07216b8-4b71-56eb-9ee0-f260dd770206"
+    },
+    {
+     "at": "2026-11-25T16:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/0f307fe7-c12a-587a-98e1-45f32c749ca4"
+    },
+    {
+     "at": "2026-11-25T19:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/ed727767-ce85-5cb6-893c-b964acc31b6a"
+    },
+    {
+     "at": "2026-11-26T11:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/ddad7188-c7c7-5cfc-9cde-65e85ad30300"
+    },
+    {
+     "at": "2026-11-26T14:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/6742135f-830f-5e88-89e9-c0720316cb81"
+    },
+    {
+     "at": "2026-11-26T16:45",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/e1d5634c-ff41-5c2a-8e12-0b6a4afc00f2"
+    },
+    {
+     "at": "2026-11-26T19:15",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/475b7242-0412-5d08-9aac-ac04490b7063"
+    }
+   ]
+  },
+  {
+   "title": "White Christmas (1954)",
+   "rating": "NR",
+   "runtime_min": 120,
+   "url": "https://www.epictheatres.com/",
+   "shows": [
+    {
+     "at": "2026-11-26T13:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/764d5fdd-d7b9-54a6-bc02-c247a360f3fa"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://booking.epictheatres.com/launch/ticketing/1c1c1e7c-1edd-5f75-9d01-5053110735be"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

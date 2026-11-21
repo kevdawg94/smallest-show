@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "tillamook-coliseum",
+ "name": "Tillamook Coliseum",
+ "city": "oregoncoast",
+ "area": "Tillamook",
+ "region": "Tillamook",
+ "url": "https://tillamookcoliseum.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261120",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261121"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261122"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261122"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261123"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261123"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261124",
+   "shows": [
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261124"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261124"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261125"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://401238.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261125"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "polk-theatre",
+ "name": "Polk Theatre",
+ "city": "lakeland",
+ "area": "Downtown Lakeland",
+ "region": "Lakeland",
+ "url": "https://www.polktheatre.org/",
+ "films": [
+  {
+   "title": "The Philadelphia Story",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39707&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39707&OrganizationID=64"
+    }
+   ]
+  },
+  {
+   "title": "How to Train your Dragon",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39722&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39722&OrganizationID=64"
+    }
+   ]
+  },
+  {
+   "title": "Zootopia",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39713&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39713&OrganizationID=64"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

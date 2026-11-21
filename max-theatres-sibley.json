@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "max-theatres-sibley",
+ "name": "Max Theatres",
+ "city": "siouxcity",
+ "area": "Sibley",
+ "region": "Sibley",
+ "url": "https://www.maxtheatres.com/",
+ "films": [
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://ghostsoldier.movie",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/21"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/22"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 159,
+   "url": "https://hungergames.movie",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/21"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/22"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

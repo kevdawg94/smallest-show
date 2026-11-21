@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "lewiston-community",
+ "name": "Lewiston Community Theatre",
+ "city": "logan",
+ "area": "Lewiston",
+ "region": "Lewiston & North Valley",
+ "url": "https://lewistonutah.gov/theatre/",
+ "films": [
+  {
+   "title": "Forgotten Island",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://lewistonutah.gov/theatre/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://lewistonutah.gov/theatre/"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://lewistonutah.gov/theatre/"
+    }
+   ]
+  },
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://lewistonutah.gov/theatre/",
+   "shows": [
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://lewistonutah.gov/theatre/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

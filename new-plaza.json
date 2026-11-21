@@ -1,0 +1,128 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "new-plaza",
+ "name": "New Plaza Cinema",
+ "city": "nyc",
+ "area": "Upper West Side",
+ "region": "Uptown Manhattan",
+ "url": "https://newplazacinema.org/",
+ "films": [
+  {
+   "title": "Pollock",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-21T11:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2786?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-21T13:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2787?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "NAZA",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-21T15:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2788?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "THE SEA",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-21T17:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2781?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    },
+    {
+     "at": "2026-11-22T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2782?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "REDISCOVERING FANON",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2789?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Yaniv",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-22T14:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2790?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Rebel With a Clause (2025)",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-22T16:45",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2791?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

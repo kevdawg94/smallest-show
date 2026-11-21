@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "acme-screening-room",
+ "name": "ACME Screening Room",
+ "city": "philly",
+ "area": "Lambertville, NJ",
+ "region": "Suburbs",
+ "url": "https://acmescreeningroom.org/",
+ "films": [
+  {
+   "title": "Punk the Capital",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.acmescreeningroom.org/now-playing/descenes-and-dischords-an-anthology-with-howard-wuelfing",
+   "shows": [
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://ci.ovationtix.com/35991/production/1294627"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.acmescreeningroom.org/now-playing/the-only-living-pickpocket-in-new-york",
+   "shows": [
+    {
+     "at": "2026-11-22T14:45",
+     "sold_out": false,
+     "url": "https://ci.ovationtix.com/35991/production/1296262"
+    }
+   ]
+  },
+  {
+   "title": "Long Days Journey Into Night",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.acmescreeningroom.org/now-playing/long-days-journey-into-night-re64j",
+   "shows": [
+    {
+     "at": "2026-11-22T16:25",
+     "sold_out": false,
+     "url": "https://ci.ovationtix.com/35991/production/1296228"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

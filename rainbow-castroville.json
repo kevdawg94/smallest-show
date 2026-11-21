@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "rainbow-castroville",
+ "name": "Rainbow Theater",
+ "city": "sanantonio",
+ "area": "Castroville",
+ "region": "Castroville & Hondo",
+ "url": "https://www.rainbowtheatercastroville.com/",
+ "films": [
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=f6g4q9vchxk1fsz088qs91jkvr",
+   "shows": [
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1000?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/999?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    },
+    {
+     "at": "2026-11-22T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1001?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    },
+    {
+     "at": "2026-11-22T15:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1002?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

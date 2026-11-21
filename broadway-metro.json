@@ -1,0 +1,947 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "broadway-metro",
+ "name": "Broadway Metro",
+ "city": "eugene",
+ "area": "Downtown, Eugene",
+ "region": "Downtown",
+ "url": "https://www.metro-cinemas.com/",
+ "films": [
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": 82,
+   "url": "https://www.metro-cinemas.com/movie/fatherland/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327019"
+    },
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327025"
+    },
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327031"
+    },
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327035"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327038"
+    },
+    {
+     "at": "2026-11-21T21:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327045"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326907"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326914"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326921"
+    },
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326926"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326929"
+    },
+    {
+     "at": "2026-11-22T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326937"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326947"
+    },
+    {
+     "at": "2026-11-23T17:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326950"
+    },
+    {
+     "at": "2026-11-23T19:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326944"
+    },
+    {
+     "at": "2026-11-23T21:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326958"
+    },
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326964"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326973"
+    },
+    {
+     "at": "2026-11-24T20:05",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326976"
+    },
+    {
+     "at": "2026-11-25T13:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4326993"
+    },
+    {
+     "at": "2026-11-25T15:25",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327002"
+    },
+    {
+     "at": "2026-11-25T18:25",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327059"
+    },
+    {
+     "at": "2026-11-25T21:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327005"
+    },
+    {
+     "at": "2026-11-26T12:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327065"
+    },
+    {
+     "at": "2026-11-26T16:45",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327074"
+    },
+    {
+     "at": "2026-11-26T18:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327087"
+    },
+    {
+     "at": "2026-11-26T21:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/fatherland/4327081"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.metro-cinemas.com/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327023"
+    },
+    {
+     "at": "2026-11-21T13:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327026"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327033"
+    },
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327037"
+    },
+    {
+     "at": "2026-11-21T21:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327043"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326912"
+    },
+    {
+     "at": "2026-11-22T13:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326916"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326923"
+    },
+    {
+     "at": "2026-11-22T18:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326928"
+    },
+    {
+     "at": "2026-11-22T21:10",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326935"
+    },
+    {
+     "at": "2026-11-23T15:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326945"
+    },
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326949"
+    },
+    {
+     "at": "2026-11-23T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326956"
+    },
+    {
+     "at": "2026-11-24T12:35",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326966"
+    },
+    {
+     "at": "2026-11-24T15:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326971"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326975"
+    },
+    {
+     "at": "2026-11-24T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326981"
+    },
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4326995"
+    },
+    {
+     "at": "2026-11-25T15:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327000"
+    },
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327004"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327010"
+    },
+    {
+     "at": "2026-11-26T12:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327067"
+    },
+    {
+     "at": "2026-11-26T14:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327073"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327079"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/i-play-rocky/4327085"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.metro-cinemas.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4327021"
+    },
+    {
+     "at": "2026-11-21T13:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4327027"
+    },
+    {
+     "at": "2026-11-21T18:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4327039"
+    },
+    {
+     "at": "2026-11-21T22:05",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4327047"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326910"
+    },
+    {
+     "at": "2026-11-22T13:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326917"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326924"
+    },
+    {
+     "at": "2026-11-22T19:10",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326931"
+    },
+    {
+     "at": "2026-11-22T21:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326939"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326946"
+    },
+    {
+     "at": "2026-11-23T18:45",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326952"
+    },
+    {
+     "at": "2026-11-23T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326959"
+    },
+    {
+     "at": "2026-11-24T13:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326967"
+    },
+    {
+     "at": "2026-11-24T15:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326972"
+    },
+    {
+     "at": "2026-11-24T18:45",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326978"
+    },
+    {
+     "at": "2026-11-24T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326983"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4326996"
+    },
+    {
+     "at": "2026-11-25T18:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4327007"
+    },
+    {
+     "at": "2026-11-25T21:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4327012"
+    },
+    {
+     "at": "2026-11-26T15:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4327068"
+    },
+    {
+     "at": "2026-11-26T19:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4327080"
+    },
+    {
+     "at": "2026-11-26T22:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wild-horse-nine/4327086"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 131,
+   "url": "https://www.metro-cinemas.com/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4327024"
+    },
+    {
+     "at": "2026-11-21T14:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4327029"
+    },
+    {
+     "at": "2026-11-21T17:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4327041"
+    },
+    {
+     "at": "2026-11-21T20:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4327044"
+    },
+    {
+     "at": "2026-11-22T11:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326913"
+    },
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326919"
+    },
+    {
+     "at": "2026-11-22T19:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326933"
+    },
+    {
+     "at": "2026-11-22T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326936"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326943"
+    },
+    {
+     "at": "2026-11-23T18:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326954"
+    },
+    {
+     "at": "2026-11-23T21:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326957"
+    },
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326963"
+    },
+    {
+     "at": "2026-11-24T15:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326969"
+    },
+    {
+     "at": "2026-11-24T18:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326979"
+    },
+    {
+     "at": "2026-11-24T21:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326982"
+    },
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326992"
+    },
+    {
+     "at": "2026-11-25T15:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4326998"
+    },
+    {
+     "at": "2026-11-25T18:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4327008"
+    },
+    {
+     "at": "2026-11-25T21:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4327011"
+    },
+    {
+     "at": "2026-11-26T12:35",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4327064"
+    },
+    {
+     "at": "2026-11-26T15:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4327071"
+    },
+    {
+     "at": "2026-11-26T18:05",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4327077"
+    },
+    {
+     "at": "2026-11-26T21:05",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wildwood/4327084"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 175,
+   "url": "https://www.metro-cinemas.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4327022"
+    },
+    {
+     "at": "2026-11-21T14:35",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4327028"
+    },
+    {
+     "at": "2026-11-21T16:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4327036"
+    },
+    {
+     "at": "2026-11-21T21:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4327042"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4326911"
+    },
+    {
+     "at": "2026-11-22T14:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4326918"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4326927"
+    },
+    {
+     "at": "2026-11-22T21:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4326934"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4326948"
+    },
+    {
+     "at": "2026-11-23T20:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4326955"
+    },
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4326968"
+    },
+    {
+     "at": "2026-11-24T17:05",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4326974"
+    },
+    {
+     "at": "2026-11-24T20:45",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4326980"
+    },
+    {
+     "at": "2026-11-25T12:35",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4326997"
+    },
+    {
+     "at": "2026-11-25T17:35",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4327003"
+    },
+    {
+     "at": "2026-11-25T20:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4327009"
+    },
+    {
+     "at": "2026-11-26T14:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4327066"
+    },
+    {
+     "at": "2026-11-26T18:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4327075"
+    },
+    {
+     "at": "2026-11-26T21:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/you-can-see-everything/4327082"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 155,
+   "url": "https://www.metro-cinemas.com/movie/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/la-bola-negra/4327020"
+    },
+    {
+     "at": "2026-11-21T20:10",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/la-bola-negra/4327032"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/la-bola-negra/4326909"
+    },
+    {
+     "at": "2026-11-22T15:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/la-bola-negra/4326922"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/la-bola-negra/4326941"
+    },
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/la-bola-negra/4326970"
+    },
+    {
+     "at": "2026-11-24T17:25",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/la-bola-negra/4326962"
+    },
+    {
+     "at": "2026-11-24T20:45",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/la-bola-negra/4326989"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://www.metro-cinemas.com/movie/the-only-living-pickpocket-in-new-york/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:10",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/the-only-living-pickpocket-in-new-york/4327030"
+    },
+    {
+     "at": "2026-11-21T18:45",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/the-only-living-pickpocket-in-new-york/4327040"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/the-only-living-pickpocket-in-new-york/4326908"
+    },
+    {
+     "at": "2026-11-22T14:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/the-only-living-pickpocket-in-new-york/4326920"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/the-only-living-pickpocket-in-new-york/4326932"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/the-only-living-pickpocket-in-new-york/4326953"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/the-only-living-pickpocket-in-new-york/4326961"
+    },
+    {
+     "at": "2026-11-25T16:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/the-only-living-pickpocket-in-new-york/4326990"
+    },
+    {
+     "at": "2026-11-26T14:35",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/the-only-living-pickpocket-in-new-york/4327076"
+    }
+   ]
+  },
+  {
+   "title": "Victorian Psycho",
+   "rating": "R",
+   "runtime_min": 102,
+   "url": "https://www.metro-cinemas.com/movie/victorian-psycho/",
+   "shows": [
+    {
+     "at": "2026-11-21T16:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/victorian-psycho/4327034"
+    },
+    {
+     "at": "2026-11-22T16:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/victorian-psycho/4326925"
+    },
+    {
+     "at": "2026-11-22T22:10",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/victorian-psycho/4326940"
+    },
+    {
+     "at": "2026-11-23T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/victorian-psycho/4326960"
+    },
+    {
+     "at": "2026-11-24T22:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/victorian-psycho/4326984"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://www.metro-cinemas.com/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-21T17:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wicker/4327046"
+    },
+    {
+     "at": "2026-11-22T13:10",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wicker/4326915"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wicker/4326930"
+    },
+    {
+     "at": "2026-11-22T21:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wicker/4326938"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wicker/4326942"
+    },
+    {
+     "at": "2026-11-23T21:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wicker/4326951"
+    },
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wicker/4326965"
+    },
+    {
+     "at": "2026-11-24T14:55",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wicker/4326977"
+    },
+    {
+     "at": "2026-11-25T15:45",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wicker/4327006"
+    },
+    {
+     "at": "2026-11-26T16:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/wicker/4327070"
+    }
+   ]
+  },
+  {
+   "title": "Paper Tiger",
+   "rating": "R",
+   "runtime_min": 115,
+   "url": "https://www.metro-cinemas.com/movie/paper-tiger/",
+   "shows": [
+    {
+     "at": "2026-11-24T14:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4326987"
+    },
+    {
+     "at": "2026-11-24T15:45",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4326986"
+    },
+    {
+     "at": "2026-11-24T18:25",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4326985"
+    },
+    {
+     "at": "2026-11-24T21:05",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4326988"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4327016"
+    },
+    {
+     "at": "2026-11-25T15:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4327015"
+    },
+    {
+     "at": "2026-11-25T18:20",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4327014"
+    },
+    {
+     "at": "2026-11-25T21:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4327017"
+    },
+    {
+     "at": "2026-11-26T12:45",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4327069"
+    },
+    {
+     "at": "2026-11-26T15:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4327072"
+    },
+    {
+     "at": "2026-11-26T18:15",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4327078"
+    },
+    {
+     "at": "2026-11-26T21:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/paper-tiger/4327083"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": "R",
+   "runtime_min": 126,
+   "url": "https://www.metro-cinemas.com/movie/club-kid/",
+   "shows": [
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/club-kid/4327060"
+    },
+    {
+     "at": "2026-11-25T15:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/club-kid/4327061"
+    },
+    {
+     "at": "2026-11-25T18:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/club-kid/4327062"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/club-kid/4327063"
+    },
+    {
+     "at": "2026-11-26T13:00",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/club-kid/4327088"
+    },
+    {
+     "at": "2026-11-26T15:50",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/club-kid/4327089"
+    },
+    {
+     "at": "2026-11-26T18:40",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/club-kid/4327090"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "https://www.metro-cinemas.com/checkout/showing/club-kid/4327091"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

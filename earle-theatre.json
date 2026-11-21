@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "earle-theatre",
+ "name": "Historic Earle Theatre",
+ "city": "roanoke",
+ "area": "Mount Airy, NC",
+ "region": "Mount Airy",
+ "url": "https://surryarts.org/shows/movies.html",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://surryarts.org/shows/movies.html",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://surryarts.org/shows/movies.html"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://surryarts.org/shows/movies.html"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://surryarts.org/shows/movies.html",
+   "shows": [
+    {
+     "at": "2026-11-27T16:00",
+     "sold_out": false,
+     "url": "https://surryarts.org/shows/movies.html"
+    },
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://surryarts.org/shows/movies.html"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

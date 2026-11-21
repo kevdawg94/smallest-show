@@ -1,0 +1,123 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "hiway",
+ "name": "Hiway",
+ "city": "philly",
+ "area": "Jenkintown",
+ "region": "Suburbs",
+ "url": "https://hiwaytheater.org/",
+ "films": [
+  {
+   "title": "I Play Rocky",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hiwaytheater.org/film?id=i-play-rocky",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276268"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276267"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276266"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276271"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276270"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276269"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276272"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276273"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276274"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276275"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276276"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276277"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276278"
+    },
+    {
+     "at": "2026-11-26T17:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/i-play-rocky/4276279"
+    }
+   ]
+  },
+  {
+   "title": "Body Double",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hiwaytheater.org/film?id=body-double",
+   "shows": [
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/body-double/3821101"
+    }
+   ]
+  },
+  {
+   "title": "Rudolph the Red-Nosed Reindeer",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hiwaytheater.org/film?id=rudolph-the-red-nosed-reindeer",
+   "shows": [
+    {
+     "at": "2026-11-27T10:00",
+     "sold_out": false,
+     "url": "https://tickets.hiwaytheater.org/checkout/showing/rudolph-the-red-nosed-reindeer/3932880"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,109 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "barnyard-cinema",
+ "name": "The Barnyard Cinema",
+ "city": "wenatchee",
+ "area": "Winthrop",
+ "region": "Methow Valley",
+ "url": "https://thebarnyardcinema.com/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6499?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6505?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  },
+  {
+   "title": "Everest: The Other Side",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6500?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6504?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6501?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6506?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6502?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6508?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg",
+   "shows": [
+    {
+     "at": "2026-11-23T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6503?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    },
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6507?siteToken=a9ga64fs8a7e6jqgy2anvb4fpg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

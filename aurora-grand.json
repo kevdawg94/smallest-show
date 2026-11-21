@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "aurora-grand",
+ "name": "Aurora Grand Theater",
+ "city": "southeastak",
+ "area": "Downtown Juneau",
+ "region": "Juneau",
+ "url": "https://auroragrandtheater.com/",
+ "films": [
+  {
+   "title": "The Lord of the Rings: The Return of the King (Special Extended Edition)",
+   "rating": null,
+   "runtime_min": 263,
+   "url": "https://auroragrandtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T17:30",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/13873/"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/13874/"
+    }
+   ]
+  },
+  {
+   "title": "The Iron Giant",
+   "rating": null,
+   "runtime_min": 86,
+   "url": "https://auroragrandtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/14832/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

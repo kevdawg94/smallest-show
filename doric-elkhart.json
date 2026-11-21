@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "doric-elkhart",
+ "name": "Doric Theater",
+ "city": "elkhart",
+ "area": "Elkhart",
+ "region": "Elkhart",
+ "url": "https://dorictheatre.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=16ahf1hyw4ng07fg4pe56tcmwr",
+   "shows": [
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/312838?siteToken=16ahf1hyw4ng07fg4pe56tcmwr"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

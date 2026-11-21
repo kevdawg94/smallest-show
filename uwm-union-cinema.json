@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "uwm-union-cinema",
+ "name": "UWM Union Cinema",
+ "city": "milwaukee",
+ "area": "East Side",
+ "region": "East Side",
+ "url": "https://uwm.edu/studentaffairs/events",
+ "films": [
+  {
+   "title": "Tony Takitani",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://uwm.edu/studentaffairs/event/tony-takitani-haruki-murakami-double-bill/2026-11-20/",
+   "shows": [
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://www.instagram.com/uwmunioncinema/?hl=en"
+    }
+   ]
+  },
+  {
+   "title": "Burning",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://uwm.edu/studentaffairs/event/burning-haruki-murakami-double-bill/2026-11-20/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.instagram.com/uwmunioncinema/?hl=en"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T14:24",
+ "error": true,
+ "warning": null
+}

@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "majestic-lexington",
+ "name": "Majestic Theatre",
+ "city": "kearney",
+ "area": "Lexington",
+ "region": "Lexington, Cozad & Gothenburg",
+ "url": "https://lexmajestic.org/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=zyph7acw9zh8pjz42scke8g7a8",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2395?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2397?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2396?siteToken=zyph7acw9zh8pjz42scke8g7a8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

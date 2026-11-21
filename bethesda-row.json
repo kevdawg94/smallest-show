@@ -1,0 +1,832 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "bethesda-row",
+ "name": "Bethesda Row",
+ "city": "dc",
+ "area": "Bethesda",
+ "region": "Maryland",
+ "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/354be929-26a3-5fd9-b231-e18f5d506ce9"
+    },
+    {
+     "at": "2026-11-21T12:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/cc8830e2-97dc-548e-95ab-b2e2c04c6cfe"
+    },
+    {
+     "at": "2026-11-21T14:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/eed80036-b04e-52ba-a3b7-f02a5d136b37"
+    },
+    {
+     "at": "2026-11-21T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2958a9f4-1fd7-5f1b-8fbe-5e8d2d6a56f5"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/179994f1-f388-50ae-966d-ac5aecd61e51"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0a48e63e-0dd8-5676-ac2d-4acc7eaca044"
+    },
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c1a06f42-d96e-5863-9f93-25e65805f2d0"
+    },
+    {
+     "at": "2026-11-21T21:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e6c496b5-6b76-56fa-a299-515c3104dc1a"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/06195672-a69b-5574-8302-25f2df7a0eff"
+    },
+    {
+     "at": "2026-11-22T12:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/19018373-0163-576a-a307-69cc20b64d25"
+    },
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/35938cf8-d207-5317-b7f8-d8c49c0405b0"
+    },
+    {
+     "at": "2026-11-22T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c579b6e6-62bf-52f0-9c39-bbfcde922a52"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4e6c6956-ac4f-5f61-ba78-9fea57ce46a6"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/81e5bf01-1007-5e43-a314-142081a39eac"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4d91edec-ff89-571f-a3c4-624767cbeeee"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/412ccb95-42fa-5d15-91d7-b58fe3a1f137"
+    },
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2d8f28a9-1bc7-5a42-bae3-caec8637a7a8"
+    },
+    {
+     "at": "2026-11-23T14:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/72cf4c0b-ce67-58f8-9bf1-46ec39eac005"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6fe862ee-7f37-5cab-970f-c70eebef4d1a"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/23047082-8f83-5a38-80cf-e96092fd2c00"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d3c63d43-0f1a-55cf-8c2e-663209fed463"
+    },
+    {
+     "at": "2026-11-23T20:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b2ad575f-0aa6-569c-a451-a1ba528871d0"
+    },
+    {
+     "at": "2026-11-24T11:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/80d7fa09-f049-54f0-bc23-b0a10950183e"
+    },
+    {
+     "at": "2026-11-24T12:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/07f3c928-5f80-52b2-879a-d21430bd48c2"
+    },
+    {
+     "at": "2026-11-24T14:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/5dce15ba-32f0-5370-843a-67394200cedd"
+    },
+    {
+     "at": "2026-11-24T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8b4b1187-0bd6-53de-adc1-2789e79c5e18"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ba6c144e-97d2-58c5-b2af-0838e3ab6321"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e45b2b53-fc31-55a0-9910-f107136db53c"
+    },
+    {
+     "at": "2026-11-25T12:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/11e4e0e6-c52b-5ce6-9b15-1f89c1508332"
+    },
+    {
+     "at": "2026-11-25T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3b882913-1ef6-5b70-83d8-077bf036b974"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/79cce1d9-ab16-51fc-a530-cafdc029040e"
+    },
+    {
+     "at": "2026-11-26T12:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/47c0afa4-3e89-5f1b-9216-f9f9c18e56f7"
+    },
+    {
+     "at": "2026-11-26T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b4d41e6b-f0f3-5381-b4ec-ff0338506342"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/51985d3a-727e-5157-b999-d6e6413aa49a"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/915fab0b-cf4d-547e-b8a6-17db50f3c6d8"
+    },
+    {
+     "at": "2026-11-21T12:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/dfe6a6aa-2ca9-5a68-b133-b53f134e6ac9"
+    },
+    {
+     "at": "2026-11-21T15:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/305a02ca-4229-5a8a-bb39-03e57ceb3934"
+    },
+    {
+     "at": "2026-11-21T16:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/5b420fee-8d2f-5050-93be-86184edfe03b"
+    },
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8d8fa959-810b-5d21-ab84-72bbfc3406ea"
+    },
+    {
+     "at": "2026-11-21T21:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/11e08ecc-bc04-54b4-a2b2-1eb383407600"
+    },
+    {
+     "at": "2026-11-22T11:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0339b435-c287-5580-8bd2-c5275b92bdab"
+    },
+    {
+     "at": "2026-11-22T15:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/5362eb63-19f5-5e76-94fc-1c957bf5a3a9"
+    },
+    {
+     "at": "2026-11-22T16:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/5048f250-4f16-5f84-856b-8d26b7e2abc4"
+    },
+    {
+     "at": "2026-11-22T20:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/cc93db5a-9e3f-5ebc-bc44-dec74e05756b"
+    },
+    {
+     "at": "2026-11-23T11:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/48ecbf45-9d34-5251-96e0-48aae67b1b3f"
+    },
+    {
+     "at": "2026-11-23T12:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/016cc5a1-9a32-574f-99fa-d0f6d423e4c0"
+    },
+    {
+     "at": "2026-11-23T15:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4265af2a-b771-5fd9-93cf-df4a932ee771"
+    },
+    {
+     "at": "2026-11-23T16:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/1f9f71ae-466b-5dea-861a-76e1b33832d6"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/f7509db1-3e4f-5bd4-b30b-8ac97da11452"
+    },
+    {
+     "at": "2026-11-24T11:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/003c4aa9-bcbf-5007-87a7-940ca8ef8d19"
+    },
+    {
+     "at": "2026-11-24T15:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/9c9e305b-7b69-5060-9a58-025ea82a814b"
+    },
+    {
+     "at": "2026-11-24T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/77d5b63b-232c-5f7f-922e-58caedb25790"
+    },
+    {
+     "at": "2026-11-25T11:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/a5f09da1-d70b-5f77-89ea-5b4bc33be865"
+    },
+    {
+     "at": "2026-11-25T15:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/f9ab74cf-08b7-5459-adde-c85d82a53422"
+    },
+    {
+     "at": "2026-11-25T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/644e801c-1ef5-550f-b793-95fe7a83753a"
+    },
+    {
+     "at": "2026-11-26T11:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/eb079554-eaa2-500c-80f9-8b6759e1369b"
+    },
+    {
+     "at": "2026-11-26T15:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/709d6c4e-437e-58ed-9695-8c67963a6536"
+    },
+    {
+     "at": "2026-11-26T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/f1840ca9-a214-5ecc-8aa6-eab3d80eaaf0"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 160,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/49eaa7f4-6bf3-5787-a196-143fc675ab83"
+    },
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/55fa6fe3-6a98-5e78-8c81-74a5f12d3646"
+    },
+    {
+     "at": "2026-11-21T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b44591cb-d77c-52b7-abdf-9d72f10364b2"
+    },
+    {
+     "at": "2026-11-22T11:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/bc8f1475-fe84-5bb6-a012-16e918ce3694"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e6401af2-00f6-55bb-abff-3fb889af4504"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/681c5f0a-b57a-5112-b5d6-9668c775ef17"
+    },
+    {
+     "at": "2026-11-23T11:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/afdefbbc-5594-58a4-a922-6ba6f0b28c29"
+    },
+    {
+     "at": "2026-11-23T15:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/95b4def8-c66e-5ea5-855d-9f2aae22cfee"
+    },
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/7e73623e-9c65-5e6a-a966-fb22849d85bd"
+    },
+    {
+     "at": "2026-11-24T11:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2120fca7-a10f-5a93-b7a2-60c075750af1"
+    },
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/46256eeb-5ae8-5a73-80d7-56c84b1afedb"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e7b762a9-5ebb-5d40-9f13-d5ff3284b587"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/9c787590-fb8b-538e-a52b-5f68df08c379"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4c77bd3c-7052-5be9-b323-5ecee42a48eb"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/adee7a3d-90d7-5328-ae92-0f7cb4fa023c"
+    },
+    {
+     "at": "2026-11-21T21:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/627988d5-aa67-5059-8497-976744a5c049"
+    },
+    {
+     "at": "2026-11-22T12:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/fc2f97fe-d04c-5446-b2dd-16351d70e3cd"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/980a8047-8a19-5a34-b8a3-ae21cd40bdae"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/56b658ad-940f-5db7-a6d5-d54b18079258"
+    },
+    {
+     "at": "2026-11-23T12:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0d798048-0a5a-5672-8462-34259183294b"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/9e09d64f-c98e-5f80-999e-4a5075577feb"
+    },
+    {
+     "at": "2026-11-23T19:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/7e0cf604-5b0f-5fcb-a6a7-94af6c9cfa79"
+    },
+    {
+     "at": "2026-11-24T12:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/aa7f6944-5b66-5760-a85e-596d67a95c77"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/79d0155d-8877-5f4d-b045-c2e4c0552e82"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/65a3c36e-0dcf-53e3-8064-7de7af94c7a7"
+    },
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/dac3ae97-d9e6-53b9-868d-dbb4b87852bd"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/01e65e80-33d5-5d83-bfb4-f22b54cda060"
+    },
+    {
+     "at": "2026-11-25T19:05",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b6178319-b0e0-5eed-ad1c-fa488fa187ff"
+    },
+    {
+     "at": "2026-11-25T22:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/981c2250-b7c6-568e-9d84-baff470ecf6e"
+    },
+    {
+     "at": "2026-11-26T12:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/dbe370b3-747f-5018-9797-84ed9261b369"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0f4015e3-a2a4-5a69-a0b0-051f1d17c437"
+    },
+    {
+     "at": "2026-11-26T19:05",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3fac4da4-5854-5ff8-b268-623c121a5376"
+    },
+    {
+     "at": "2026-11-26T22:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c00a69b2-c879-58eb-9ba9-f2cd2c66cc61"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0d333749-a930-53ae-82ba-f10f137f35cd"
+    },
+    {
+     "at": "2026-11-21T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/66f3796a-c8e7-59f6-9101-95f44cd0aedc"
+    },
+    {
+     "at": "2026-11-21T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e5f78f90-5275-553f-8803-41d526fe5ddb"
+    },
+    {
+     "at": "2026-11-22T12:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/71bbdc7f-df43-531a-ac86-dbf8d25edb4c"
+    },
+    {
+     "at": "2026-11-22T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/213eddac-33b0-5925-bac0-622f6f6259c9"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/28282144-def3-5cc2-9508-9bc0b2a2121d"
+    },
+    {
+     "at": "2026-11-23T12:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b77fabe5-0bd8-5e3e-b975-83d20c2746e0"
+    },
+    {
+     "at": "2026-11-23T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/cb518ad3-b4e0-5fb7-93ce-0a1fabde42ee"
+    },
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/5db12edb-8329-5b53-845f-ded003efd19d"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/41a3b0cf-32d1-559f-bf33-942a4c6eaf99"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d430dd10-03ca-58a8-88b8-a14e1a7cc3e4"
+    },
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/9f8ca77d-62ea-57f5-93ce-7990b6b3af93"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/7ed0d4b7-4983-5ca1-b52e-c5577845a68e"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3954db38-267a-551d-90db-748bae8a3f74"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e787212b-d4f2-562e-aa7f-6629888dccad"
+    },
+    {
+     "at": "2026-11-22T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4f9ee922-bac3-5c1a-941a-ee5febc31bfd"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6cf43a78-af46-5882-bdb1-8bd6e6ac25c9"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/89f7a965-c521-52be-9d5d-73ef2e1863b8"
+    },
+    {
+     "at": "2026-11-23T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/30fdd422-cdf8-50a8-9299-0e2b167be397"
+    }
+   ]
+  },
+  {
+   "title": "GIANT - The Play",
+   "rating": "NR",
+   "runtime_min": 141,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/25e20aee-ae8e-5b96-a5ed-a6bf3ee1aa5e"
+    }
+   ]
+  },
+  {
+   "title": "Disney's Hexed",
+   "rating": "PG",
+   "runtime_min": 106,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-24T14:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/62e6ce4e-0749-5445-9590-12b6aa33da7f"
+    },
+    {
+     "at": "2026-11-24T16:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c3c67904-c6fb-5ba9-9b12-a7136bbe0d52"
+    },
+    {
+     "at": "2026-11-24T19:25",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/29c35941-a417-59eb-8159-6159b1c4c53b"
+    },
+    {
+     "at": "2026-11-25T11:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/75275a6c-91ed-5d2c-b430-a49ef312776d"
+    },
+    {
+     "at": "2026-11-25T14:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/43b204bf-74a2-5e34-bc02-65713a8f27aa"
+    },
+    {
+     "at": "2026-11-25T16:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/738d5f3d-64a0-5921-abfa-10ca1ebe34ce"
+    },
+    {
+     "at": "2026-11-25T19:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/5723558a-1131-5d25-9ea2-d832afb588f5"
+    },
+    {
+     "at": "2026-11-25T22:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/a03ba346-e449-5965-b7ea-57de2a11ea0c"
+    },
+    {
+     "at": "2026-11-26T11:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6568b43f-fcf3-5f1b-95cf-3f3935ea6cf0"
+    },
+    {
+     "at": "2026-11-26T14:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/47e42769-73fc-58ef-bb1e-0e10603d3f70"
+    },
+    {
+     "at": "2026-11-26T16:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/753e75cc-c854-510e-bba8-66a240f9ec31"
+    },
+    {
+     "at": "2026-11-26T19:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d08c5c3b-af83-5594-8bfe-d94156e08c25"
+    },
+    {
+     "at": "2026-11-26T22:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0b4061e0-2de6-5726-92de-0a61ac1d2f7d"
+    }
+   ]
+  },
+  {
+   "title": "Paper Tiger",
+   "rating": "R",
+   "runtime_min": 114,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-24T14:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/50862885-1c41-5d79-bf50-9eeefaf0e35b"
+    },
+    {
+     "at": "2026-11-24T17:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/51af593a-5305-58d0-aaad-ada89b50a429"
+    },
+    {
+     "at": "2026-11-24T19:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e4bd288a-6274-5879-bfea-d2bf81fddc84"
+    },
+    {
+     "at": "2026-11-25T12:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b5368777-51b7-50dd-b0b8-34e7f80618ad"
+    },
+    {
+     "at": "2026-11-25T16:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e9c1f7e7-e3bb-5a42-8ce7-7cc555bbc67e"
+    },
+    {
+     "at": "2026-11-25T19:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/fc0f07f5-c2f6-593b-9ecb-dae8285341c0"
+    },
+    {
+     "at": "2026-11-25T21:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8ff7adf3-596c-5627-a130-e7137deecb84"
+    },
+    {
+     "at": "2026-11-26T12:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d141f8b2-b855-5b61-b014-d63770e97c19"
+    },
+    {
+     "at": "2026-11-26T16:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c1191263-5d23-5f62-855a-d4ccee6eb440"
+    },
+    {
+     "at": "2026-11-26T19:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/40e38b17-1b55-51a1-89e6-3dccabf00ee8"
+    },
+    {
+     "at": "2026-11-26T21:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/a0280152-ce86-53c7-8cd2-57b0540882a8"
+    }
+   ]
+  },
+  {
+   "title": "Touch of Evil",
+   "rating": "PG-13",
+   "runtime_min": 111,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-24T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6ef27e9e-960e-58ed-b0e4-389c3045e9ce"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/49b9c480-59f5-5575-9e40-99f89275e538"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://www.landmarktheatres.com/theaters/x06c1-landmark-bethesda-row-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/38488efd-69c6-5cbf-a32d-410afc2bf3ff"
+    },
+    {
+     "at": "2026-11-25T15:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/bc39f6aa-828d-5a87-b40f-8aa1fdda121c"
+    },
+    {
+     "at": "2026-11-25T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e2336fd5-62b9-548c-8c6f-e6afd945f9dd"
+    },
+    {
+     "at": "2026-11-25T21:55",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/7a5ad0d6-1261-54be-a5af-f599ddd3f7ce"
+    },
+    {
+     "at": "2026-11-26T13:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/357f6002-7b18-5c04-b5c4-b56ac65f38d6"
+    },
+    {
+     "at": "2026-11-26T15:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ab8bb12c-e0ff-56ab-b0ac-6f0bbb5ff470"
+    },
+    {
+     "at": "2026-11-26T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/a2f090a5-52c0-5fe6-8f67-bd1de5889a42"
+    },
+    {
+     "at": "2026-11-26T21:55",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/29133d84-4c75-516c-a5bd-8a4598546614"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

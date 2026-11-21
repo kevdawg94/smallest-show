@@ -1,0 +1,169 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "cinemagic",
+ "name": "Cinemagic",
+ "city": "portland",
+ "area": "Hawthorne",
+ "region": "East",
+ "url": "https://www.thecinemagictheater.com/",
+ "films": [
+  {
+   "title": "Casino Royale",
+   "rating": "PG-13",
+   "runtime_min": 144,
+   "url": "https://tickets.thecinemagictheater.com/movie/casino-royale/",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/casino-royale/4141461"
+    }
+   ]
+  },
+  {
+   "title": "How to Lose a Guy in 10 Days",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://tickets.thecinemagictheater.com/movie/how-to-lose-a-guy-in-10-days/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/how-to-lose-a-guy-in-10-days/4139941"
+    }
+   ]
+  },
+  {
+   "title": "To Live and Die in L.A.",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://tickets.thecinemagictheater.com/movie/to-live-and-die-in-la/",
+   "shows": [
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/to-live-and-die-in-la/4141462"
+    }
+   ]
+  },
+  {
+   "title": "White Material",
+   "rating": null,
+   "runtime_min": 106,
+   "url": "https://tickets.thecinemagictheater.com/movie/white-material/",
+   "shows": [
+    {
+     "at": "2026-11-22T14:40",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/white-material/4047152"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/white-material/4047153"
+    }
+   ]
+  },
+  {
+   "title": "Steamboat Bill, Jr.",
+   "rating": null,
+   "runtime_min": 70,
+   "url": "https://tickets.thecinemagictheater.com/movie/steamboat-bill-jr/",
+   "shows": [
+    {
+     "at": "2026-11-22T17:15",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/steamboat-bill-jr/4141455"
+    }
+   ]
+  },
+  {
+   "title": "Blue Thunder",
+   "rating": null,
+   "runtime_min": 110,
+   "url": "https://tickets.thecinemagictheater.com/movie/blue-thunder/",
+   "shows": [
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/blue-thunder/4141459"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/blue-thunder/4141460"
+    }
+   ]
+  },
+  {
+   "title": "Ong-Bak",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://tickets.thecinemagictheater.com/movie/ong-bak/",
+   "shows": [
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/ong-bak/4141458"
+    }
+   ]
+  },
+  {
+   "title": "10 Things I Hate About You",
+   "rating": "PG-13",
+   "runtime_min": 97,
+   "url": "https://tickets.thecinemagictheater.com/movie/10-things-i-hate-about-you/",
+   "shows": [
+    {
+     "at": "2026-11-24T16:50",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/10-things-i-hate-about-you/4352337"
+    },
+    {
+     "at": "2026-11-25T16:50",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/10-things-i-hate-about-you/4352338"
+    }
+   ]
+  },
+  {
+   "title": "The Handmaiden",
+   "rating": null,
+   "runtime_min": 145,
+   "url": "https://tickets.thecinemagictheater.com/movie/the-handmaiden/",
+   "shows": [
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/the-handmaiden/4139940"
+    }
+   ]
+  },
+  {
+   "title": "Star Trek: First Contact",
+   "rating": "PG-13",
+   "runtime_min": 111,
+   "url": "https://tickets.thecinemagictheater.com/movie/star-trek-first-contact/",
+   "shows": [
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/star-trek-first-contact/4320870"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://tickets.thecinemagictheater.com/checkout/showing/star-trek-first-contact/4320871"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

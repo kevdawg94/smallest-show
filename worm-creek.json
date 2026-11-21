@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "worm-creek",
+ "name": "Worm Creek Opera House",
+ "city": "logan",
+ "area": "Preston",
+ "region": "Preston & Franklin County",
+ "url": "https://wormcreek.org/",
+ "films": [
+  {
+   "title": "No Movie",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/no-movie-3/",
+   "shows": [
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/no-movie-3/"
+    }
+   ]
+  },
+  {
+   "title": "Private Event",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/private-event-49/",
+   "shows": [
+    {
+     "at": "2026-11-25T14:15",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/private-event-49/"
+    },
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/private-event-52/"
+    }
+   ]
+  },
+  {
+   "title": "Disney’s Hexed",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/disneys-hexed/",
+   "shows": [
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://boxoffice.adventuretix.com/franklintheatrearts/events"
+    },
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://boxoffice.adventuretix.com/franklintheatrearts/events"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

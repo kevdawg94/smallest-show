@@ -1,0 +1,81 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "tin-pan",
+ "name": "Tin Pan Theater",
+ "city": "bend",
+ "area": "Downtown Bend",
+ "region": "Bend",
+ "url": "https://tinpantheater.com/",
+ "films": [
+  {
+   "title": "The Cycle of Love",
+   "rating": null,
+   "runtime_min": 98,
+   "url": "https://tinpan.eventive.org/Films/6ad65d9b8217b6d6a46b441c",
+   "shows": [
+    {
+     "at": "2026-11-21T15:45",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6af21790c1de9956fa9c1af1"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://tinpan.eventive.org/Films/6ad92c0eabd6f8426db184c1",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6ae90461cdff93ab67b29ee5"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6ad92cd118116c7647525601"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6af218836a12c74e969e62b1"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://tinpan.eventive.org/Films/6ad65c7430d8c821d86eede7",
+   "shows": [
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6af2186ae86622be9241da48"
+    }
+   ]
+  },
+  {
+   "title": "Thanksgiving Mystery Movie!",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tinpan.eventive.org/Films/691becb3bbee591e276f4460",
+   "shows": [
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6af13c2e780fd5812150e3d1"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

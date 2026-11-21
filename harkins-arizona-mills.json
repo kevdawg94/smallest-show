@@ -1,0 +1,1886 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "harkins-arizona-mills",
+ "name": "Harkins Arizona Mills 18",
+ "city": "phoenix",
+ "area": "Tempe",
+ "region": "Tempe & Mesa",
+ "url": "https://www.harkins.com/theatres",
+ "films": [
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T10:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016369/session/580782/date/2026-11-21%2010:00"
+    },
+    {
+     "at": "2026-11-21T22:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016369/session/580736/date/2026-11-21%2022:30"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016369/session/580842/date/2026-11-22%2010:00"
+    },
+    {
+     "at": "2026-11-22T14:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016369/session/580823/date/2026-11-22%2014:40"
+    },
+    {
+     "at": "2026-11-22T22:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016369/session/580793/date/2026-11-22%2022:00"
+    },
+    {
+     "at": "2026-11-23T11:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016369/session/580882/date/2026-11-23%2011:25"
+    },
+    {
+     "at": "2026-11-23T14:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016369/session/580874/date/2026-11-23%2014:50"
+    },
+    {
+     "at": "2026-11-23T17:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016369/session/580875/date/2026-11-23%2017:20"
+    },
+    {
+     "at": "2026-11-23T19:35",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016369/session/580895/date/2026-11-23%2019:35"
+    },
+    {
+     "at": "2026-11-23T21:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016369/session/580897/date/2026-11-23%2021:25"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero [Japanese, subtitled]",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T10:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580745/date/2026-11-21%2010:00"
+    },
+    {
+     "at": "2026-11-21T13:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580746/date/2026-11-21%2013:05"
+    },
+    {
+     "at": "2026-11-21T16:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580747/date/2026-11-21%2016:10"
+    },
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580748/date/2026-11-21%2019:15"
+    },
+    {
+     "at": "2026-11-21T22:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580749/date/2026-11-21%2022:15"
+    },
+    {
+     "at": "2026-11-22T09:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580802/date/2026-11-22%2009:55"
+    },
+    {
+     "at": "2026-11-22T12:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580803/date/2026-11-22%2012:55"
+    },
+    {
+     "at": "2026-11-22T15:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580804/date/2026-11-22%2015:55"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580805/date/2026-11-22%2019:00"
+    },
+    {
+     "at": "2026-11-22T22:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580806/date/2026-11-22%2022:05"
+    },
+    {
+     "at": "2026-11-23T11:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580856/date/2026-11-23%2011:15"
+    },
+    {
+     "at": "2026-11-23T12:35",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580857/date/2026-11-23%2012:35"
+    },
+    {
+     "at": "2026-11-23T15:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580858/date/2026-11-23%2015:40"
+    },
+    {
+     "at": "2026-11-23T18:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580859/date/2026-11-23%2018:50"
+    },
+    {
+     "at": "2026-11-23T21:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015903/session/580860/date/2026-11-23%2021:50"
+    }
+   ]
+  },
+  {
+   "title": "The Odyssey",
+   "rating": "R",
+   "runtime_min": 172,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T10:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00014880/session/580759/date/2026-11-21%2010:05"
+    },
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00014880/session/580766/date/2026-11-21%2013:00"
+    },
+    {
+     "at": "2026-11-21T16:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00014880/session/580779/date/2026-11-21%2016:05"
+    },
+    {
+     "at": "2026-11-22T10:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00014880/session/580821/date/2026-11-22%2010:55"
+    },
+    {
+     "at": "2026-11-22T15:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00014880/session/580830/date/2026-11-22%2015:05"
+    },
+    {
+     "at": "2026-11-22T17:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00014880/session/580839/date/2026-11-22%2017:45"
+    },
+    {
+     "at": "2026-11-23T11:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00014880/session/580873/date/2026-11-23%2011:10"
+    },
+    {
+     "at": "2026-11-23T14:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00014880/session/580880/date/2026-11-23%2014:40"
+    },
+    {
+     "at": "2026-11-23T17:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00014880/session/580894/date/2026-11-23%2017:30"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 132,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T10:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016243/session/580762/date/2026-11-21%2010:05"
+    },
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016243/session/580768/date/2026-11-21%2019:20"
+    },
+    {
+     "at": "2026-11-22T10:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016243/session/580826/date/2026-11-22%2010:05"
+    },
+    {
+     "at": "2026-11-22T18:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016243/session/580831/date/2026-11-22%2018:45"
+    },
+    {
+     "at": "2026-11-23T11:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016243/session/580900/date/2026-11-23%2011:15"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016243/session/580896/date/2026-11-23%2019:00"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T10:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580742/date/2026-11-21%2010:10"
+    },
+    {
+     "at": "2026-11-21T10:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580750/date/2026-11-21%2010:30"
+    },
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580545/date/2026-11-21%2011:00"
+    },
+    {
+     "at": "2026-11-21T11:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016098/session/580763/date/2026-11-21%2011:20"
+    },
+    {
+     "at": "2026-11-21T11:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578893/date/2026-11-21%2011:40"
+    },
+    {
+     "at": "2026-11-21T11:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580978/date/2026-11-21%2011:55"
+    },
+    {
+     "at": "2026-11-21T12:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578937/date/2026-11-21%2012:20"
+    },
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578942/date/2026-11-21%2013:00"
+    },
+    {
+     "at": "2026-11-21T13:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580975/date/2026-11-21%2013:30"
+    },
+    {
+     "at": "2026-11-21T13:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580743/date/2026-11-21%2013:40"
+    },
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580751/date/2026-11-21%2014:00"
+    },
+    {
+     "at": "2026-11-21T14:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580546/date/2026-11-21%2014:30"
+    },
+    {
+     "at": "2026-11-21T14:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016098/session/578945/date/2026-11-21%2014:50"
+    },
+    {
+     "at": "2026-11-21T15:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578894/date/2026-11-21%2015:10"
+    },
+    {
+     "at": "2026-11-21T15:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580979/date/2026-11-21%2015:25"
+    },
+    {
+     "at": "2026-11-21T15:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578938/date/2026-11-21%2015:50"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578943/date/2026-11-21%2016:30"
+    },
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580974/date/2026-11-21%2017:00"
+    },
+    {
+     "at": "2026-11-21T17:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580752/date/2026-11-21%2017:30"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580547/date/2026-11-21%2018:00"
+    },
+    {
+     "at": "2026-11-21T18:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580980/date/2026-11-21%2018:20"
+    },
+    {
+     "at": "2026-11-21T18:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578895/date/2026-11-21%2018:40"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580977/date/2026-11-21%2019:00"
+    },
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578939/date/2026-11-21%2019:20"
+    },
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578944/date/2026-11-21%2020:00"
+    },
+    {
+     "at": "2026-11-21T20:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580973/date/2026-11-21%2020:30"
+    },
+    {
+     "at": "2026-11-21T21:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580753/date/2026-11-21%2021:00"
+    },
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580548/date/2026-11-21%2021:30"
+    },
+    {
+     "at": "2026-11-21T21:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580976/date/2026-11-21%2021:50"
+    },
+    {
+     "at": "2026-11-21T22:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578896/date/2026-11-21%2022:10"
+    },
+    {
+     "at": "2026-11-22T10:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580799/date/2026-11-22%2010:10"
+    },
+    {
+     "at": "2026-11-22T10:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580812/date/2026-11-22%2010:30"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580549/date/2026-11-22%2011:00"
+    },
+    {
+     "at": "2026-11-22T11:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580982/date/2026-11-22%2011:15"
+    },
+    {
+     "at": "2026-11-22T11:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016098/session/580827/date/2026-11-22%2011:20"
+    },
+    {
+     "at": "2026-11-22T11:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578897/date/2026-11-22%2011:40"
+    },
+    {
+     "at": "2026-11-22T12:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580989/date/2026-11-22%2012:00"
+    },
+    {
+     "at": "2026-11-22T12:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578947/date/2026-11-22%2012:20"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578952/date/2026-11-22%2013:00"
+    },
+    {
+     "at": "2026-11-22T13:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580800/date/2026-11-22%2013:40"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580813/date/2026-11-22%2014:00"
+    },
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580550/date/2026-11-22%2014:30"
+    },
+    {
+     "at": "2026-11-22T14:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580983/date/2026-11-22%2014:45"
+    },
+    {
+     "at": "2026-11-22T14:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016098/session/578955/date/2026-11-22%2014:50"
+    },
+    {
+     "at": "2026-11-22T15:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578898/date/2026-11-22%2015:10"
+    },
+    {
+     "at": "2026-11-22T15:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580990/date/2026-11-22%2015:30"
+    },
+    {
+     "at": "2026-11-22T15:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578948/date/2026-11-22%2015:50"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578953/date/2026-11-22%2016:30"
+    },
+    {
+     "at": "2026-11-22T17:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580814/date/2026-11-22%2017:30"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580551/date/2026-11-22%2018:00"
+    },
+    {
+     "at": "2026-11-22T18:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580984/date/2026-11-22%2018:15"
+    },
+    {
+     "at": "2026-11-22T18:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016098/session/578956/date/2026-11-22%2018:20"
+    },
+    {
+     "at": "2026-11-22T18:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578899/date/2026-11-22%2018:40"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580985/date/2026-11-22%2019:00"
+    },
+    {
+     "at": "2026-11-22T19:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578949/date/2026-11-22%2019:20"
+    },
+    {
+     "at": "2026-11-22T20:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578954/date/2026-11-22%2020:00"
+    },
+    {
+     "at": "2026-11-22T21:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580815/date/2026-11-22%2021:00"
+    },
+    {
+     "at": "2026-11-22T21:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580552/date/2026-11-22%2021:30"
+    },
+    {
+     "at": "2026-11-22T21:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580987/date/2026-11-22%2021:45"
+    },
+    {
+     "at": "2026-11-22T21:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016098/session/580828/date/2026-11-22%2021:50"
+    },
+    {
+     "at": "2026-11-22T22:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578900/date/2026-11-22%2022:10"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580553/date/2026-11-23%2011:00"
+    },
+    {
+     "at": "2026-11-23T11:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580865/date/2026-11-23%2011:20"
+    },
+    {
+     "at": "2026-11-23T11:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578901/date/2026-11-23%2011:40"
+    },
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580889/date/2026-11-23%2012:00"
+    },
+    {
+     "at": "2026-11-23T12:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578957/date/2026-11-23%2012:20"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578962/date/2026-11-23%2013:00"
+    },
+    {
+     "at": "2026-11-23T13:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580854/date/2026-11-23%2013:40"
+    },
+    {
+     "at": "2026-11-23T14:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580554/date/2026-11-23%2014:30"
+    },
+    {
+     "at": "2026-11-23T14:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580866/date/2026-11-23%2014:50"
+    },
+    {
+     "at": "2026-11-23T15:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578902/date/2026-11-23%2015:10"
+    },
+    {
+     "at": "2026-11-23T15:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578958/date/2026-11-23%2015:50"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578963/date/2026-11-23%2016:30"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580555/date/2026-11-23%2018:00"
+    },
+    {
+     "at": "2026-11-23T18:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580867/date/2026-11-23%2018:20"
+    },
+    {
+     "at": "2026-11-23T18:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578903/date/2026-11-23%2018:40"
+    },
+    {
+     "at": "2026-11-23T19:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578959/date/2026-11-23%2019:20"
+    },
+    {
+     "at": "2026-11-23T20:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578964/date/2026-11-23%2020:00"
+    },
+    {
+     "at": "2026-11-23T21:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016096/session/580556/date/2026-11-23%2021:30"
+    },
+    {
+     "at": "2026-11-23T21:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016098/session/580878/date/2026-11-23%2021:45"
+    },
+    {
+     "at": "2026-11-23T21:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/580868/date/2026-11-23%2021:50"
+    },
+    {
+     "at": "2026-11-23T22:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578904/date/2026-11-23%2022:10"
+    },
+    {
+     "at": "2026-11-24T11:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578905/date/2026-11-24%2011:40"
+    },
+    {
+     "at": "2026-11-24T12:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578967/date/2026-11-24%2012:20"
+    },
+    {
+     "at": "2026-11-24T13:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578974/date/2026-11-24%2013:00"
+    },
+    {
+     "at": "2026-11-24T14:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016098/session/578972/date/2026-11-24%2014:50"
+    },
+    {
+     "at": "2026-11-24T15:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578906/date/2026-11-24%2015:10"
+    },
+    {
+     "at": "2026-11-24T15:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578968/date/2026-11-24%2015:50"
+    },
+    {
+     "at": "2026-11-24T16:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578975/date/2026-11-24%2016:30"
+    },
+    {
+     "at": "2026-11-24T18:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016098/session/578973/date/2026-11-24%2018:20"
+    },
+    {
+     "at": "2026-11-24T18:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578907/date/2026-11-24%2018:40"
+    },
+    {
+     "at": "2026-11-24T19:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578969/date/2026-11-24%2019:20"
+    },
+    {
+     "at": "2026-11-24T20:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578976/date/2026-11-24%2020:00"
+    },
+    {
+     "at": "2026-11-24T22:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578908/date/2026-11-24%2022:10"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578982/date/2026-11-25%2011:00"
+    },
+    {
+     "at": "2026-11-25T11:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578909/date/2026-11-25%2011:40"
+    },
+    {
+     "at": "2026-11-25T14:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578981/date/2026-11-25%2014:30"
+    },
+    {
+     "at": "2026-11-25T15:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578910/date/2026-11-25%2015:10"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578979/date/2026-11-25%2018:00"
+    },
+    {
+     "at": "2026-11-25T18:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578911/date/2026-11-25%2018:40"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578980/date/2026-11-25%2021:30"
+    },
+    {
+     "at": "2026-11-25T22:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578912/date/2026-11-25%2022:10"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578983/date/2026-11-26%2011:00"
+    },
+    {
+     "at": "2026-11-26T11:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578913/date/2026-11-26%2011:40"
+    },
+    {
+     "at": "2026-11-26T14:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578984/date/2026-11-26%2014:30"
+    },
+    {
+     "at": "2026-11-26T15:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578914/date/2026-11-26%2015:10"
+    },
+    {
+     "at": "2026-11-26T18:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578985/date/2026-11-26%2018:00"
+    },
+    {
+     "at": "2026-11-26T18:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578915/date/2026-11-26%2018:40"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015554/session/578986/date/2026-11-26%2021:30"
+    },
+    {
+     "at": "2026-11-26T22:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016097/session/578916/date/2026-11-26%2022:10"
+    }
+   ]
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "rating": "PG-13",
+   "runtime_min": 145,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T10:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015555/session/580775/date/2026-11-21%2010:15"
+    },
+    {
+     "at": "2026-11-21T22:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015555/session/580772/date/2026-11-21%2022:10"
+    },
+    {
+     "at": "2026-11-22T10:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015555/session/580833/date/2026-11-22%2010:40"
+    },
+    {
+     "at": "2026-11-23T14:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015555/session/580883/date/2026-11-23%2014:15"
+    }
+   ]
+  },
+  {
+   "title": "Street Fighter",
+   "rating": "PG-13",
+   "runtime_min": 119,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T10:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015934/session/580765/date/2026-11-21%2010:20"
+    },
+    {
+     "at": "2026-11-21T16:35",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015934/session/580767/date/2026-11-21%2016:35"
+    },
+    {
+     "at": "2026-11-22T12:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015934/session/580829/date/2026-11-22%2012:25"
+    },
+    {
+     "at": "2026-11-22T15:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015934/session/580841/date/2026-11-22%2015:40"
+    },
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015934/session/580879/date/2026-11-23%2012:00"
+    },
+    {
+     "at": "2026-11-23T18:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015934/session/580881/date/2026-11-23%2018:15"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T10:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580737/date/2026-11-21%2010:45"
+    },
+    {
+     "at": "2026-11-21T13:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580738/date/2026-11-21%2013:25"
+    },
+    {
+     "at": "2026-11-21T16:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580739/date/2026-11-21%2016:15"
+    },
+    {
+     "at": "2026-11-22T10:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580794/date/2026-11-22%2010:45"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580795/date/2026-11-22%2013:30"
+    },
+    {
+     "at": "2026-11-22T16:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580796/date/2026-11-22%2016:20"
+    },
+    {
+     "at": "2026-11-22T19:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580797/date/2026-11-22%2019:10"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580849/date/2026-11-23%2011:00"
+    },
+    {
+     "at": "2026-11-23T13:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580850/date/2026-11-23%2013:45"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580851/date/2026-11-23%2016:30"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580852/date/2026-11-23%2019:15"
+    },
+    {
+     "at": "2026-11-23T22:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016263/session/580853/date/2026-11-23%2022:00"
+    }
+   ]
+  },
+  {
+   "title": "Clayface",
+   "rating": "R",
+   "runtime_min": 108,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T10:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015590/session/580729/date/2026-11-21%2010:50"
+    },
+    {
+     "at": "2026-11-21T18:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015590/session/580731/date/2026-11-21%2018:45"
+    },
+    {
+     "at": "2026-11-21T22:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015590/session/580769/date/2026-11-21%2022:25"
+    },
+    {
+     "at": "2026-11-22T09:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015590/session/580785/date/2026-11-22%2009:55"
+    },
+    {
+     "at": "2026-11-22T16:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015590/session/580787/date/2026-11-22%2016:55"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015590/session/580788/date/2026-11-22%2019:30"
+    },
+    {
+     "at": "2026-11-23T10:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015590/session/580892/date/2026-11-23%2010:55"
+    },
+    {
+     "at": "2026-11-23T13:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015590/session/580898/date/2026-11-23%2013:25"
+    },
+    {
+     "at": "2026-11-23T15:35",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015590/session/580843/date/2026-11-23%2015:35"
+    },
+    {
+     "at": "2026-11-23T18:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015590/session/580844/date/2026-11-23%2018:15"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T10:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580784/date/2026-11-21%2010:55"
+    },
+    {
+     "at": "2026-11-21T13:35",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580777/date/2026-11-21%2013:35"
+    },
+    {
+     "at": "2026-11-21T16:35",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580778/date/2026-11-21%2016:35"
+    },
+    {
+     "at": "2026-11-21T19:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580773/date/2026-11-21%2019:45"
+    },
+    {
+     "at": "2026-11-22T10:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580807/date/2026-11-22%2010:15"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580808/date/2026-11-22%2013:00"
+    },
+    {
+     "at": "2026-11-22T15:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580809/date/2026-11-22%2015:45"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580810/date/2026-11-22%2018:30"
+    },
+    {
+     "at": "2026-11-22T22:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580811/date/2026-11-22%2022:00"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580890/date/2026-11-23%2011:00"
+    },
+    {
+     "at": "2026-11-23T13:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580861/date/2026-11-23%2013:40"
+    },
+    {
+     "at": "2026-11-23T16:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580862/date/2026-11-23%2016:25"
+    },
+    {
+     "at": "2026-11-23T19:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580863/date/2026-11-23%2019:10"
+    },
+    {
+     "at": "2026-11-23T21:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015935/session/580864/date/2026-11-23%2021:55"
+    }
+   ]
+  },
+  {
+   "title": "Resident Evil",
+   "rating": "R",
+   "runtime_min": 94,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T11:35",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015689/session/580783/date/2026-11-21%2011:35"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015689/session/580771/date/2026-11-21%2019:30"
+    },
+    {
+     "at": "2026-11-22T10:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015689/session/580837/date/2026-11-22%2010:05"
+    },
+    {
+     "at": "2026-11-22T12:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015689/session/580838/date/2026-11-22%2012:20"
+    },
+    {
+     "at": "2026-11-22T22:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015689/session/580835/date/2026-11-22%2022:05"
+    },
+    {
+     "at": "2026-11-23T14:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015689/session/580886/date/2026-11-23%2014:20"
+    },
+    {
+     "at": "2026-11-23T16:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015689/session/580887/date/2026-11-23%2016:40"
+    },
+    {
+     "at": "2026-11-23T21:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015689/session/580884/date/2026-11-23%2021:20"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T12:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579604/date/2026-11-21%2012:00"
+    },
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579605/date/2026-11-21%2015:00"
+    },
+    {
+     "at": "2026-11-21T19:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579606/date/2026-11-21%2019:05"
+    },
+    {
+     "at": "2026-11-21T21:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579607/date/2026-11-21%2021:55"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579608/date/2026-11-22%2010:00"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579609/date/2026-11-22%2013:00"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579610/date/2026-11-22%2018:00"
+    },
+    {
+     "at": "2026-11-22T21:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579611/date/2026-11-22%2021:00"
+    },
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579612/date/2026-11-23%2012:00"
+    },
+    {
+     "at": "2026-11-23T15:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579613/date/2026-11-23%2015:00"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579614/date/2026-11-23%2018:00"
+    },
+    {
+     "at": "2026-11-23T21:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579615/date/2026-11-23%2021:00"
+    },
+    {
+     "at": "2026-11-24T12:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579616/date/2026-11-24%2012:00"
+    },
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579617/date/2026-11-24%2015:00"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579618/date/2026-11-24%2018:00"
+    },
+    {
+     "at": "2026-11-24T21:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579619/date/2026-11-24%2021:00"
+    },
+    {
+     "at": "2026-11-25T12:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579620/date/2026-11-25%2012:00"
+    },
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579621/date/2026-11-25%2015:00"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579622/date/2026-11-25%2018:00"
+    },
+    {
+     "at": "2026-11-25T21:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579623/date/2026-11-25%2021:00"
+    },
+    {
+     "at": "2026-11-26T12:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579624/date/2026-11-26%2012:00"
+    },
+    {
+     "at": "2026-11-26T15:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579625/date/2026-11-26%2015:00"
+    },
+    {
+     "at": "2026-11-26T18:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579626/date/2026-11-26%2018:00"
+    },
+    {
+     "at": "2026-11-26T21:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016193/session/579627/date/2026-11-26%2021:00"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T13:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580755/date/2026-11-21%2013:45"
+    },
+    {
+     "at": "2026-11-21T19:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580757/date/2026-11-21%2019:25"
+    },
+    {
+     "at": "2026-11-21T22:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580758/date/2026-11-21%2022:20"
+    },
+    {
+     "at": "2026-11-22T14:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580817/date/2026-11-22%2014:45"
+    },
+    {
+     "at": "2026-11-22T16:05",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580818/date/2026-11-22%2016:05"
+    },
+    {
+     "at": "2026-11-22T18:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580819/date/2026-11-22%2018:55"
+    },
+    {
+     "at": "2026-11-22T21:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580820/date/2026-11-22%2021:50"
+    },
+    {
+     "at": "2026-11-23T10:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580891/date/2026-11-23%2010:50"
+    },
+    {
+     "at": "2026-11-23T13:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580869/date/2026-11-23%2013:30"
+    },
+    {
+     "at": "2026-11-23T16:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580870/date/2026-11-23%2016:15"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580871/date/2026-11-23%2019:00"
+    },
+    {
+     "at": "2026-11-23T21:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015819/session/580872/date/2026-11-23%2021:50"
+    }
+   ]
+  },
+  {
+   "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE",
+   "rating": "NR",
+   "runtime_min": 195,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016470/session/579509/date/2026-11-21%2014:00"
+    },
+    {
+     "at": "2026-11-21T18:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016470/session/579510/date/2026-11-21%2018:15"
+    }
+   ]
+  },
+  {
+   "title": "Festive Fun with Peppa Cinema Experience",
+   "rating": "NR",
+   "runtime_min": 60,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016300/session/577096/date/2026-11-21%2014:00"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016300/session/577097/date/2026-11-22%2014:00"
+    }
+   ]
+  },
+  {
+   "title": "On-Screen Captions: Hunger Games: Sunrise Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016430/session/578977/date/2026-11-21%2016:00"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016430/session/578978/date/2026-11-25%2016:00"
+    }
+   ]
+  },
+  {
+   "title": "Juegos del hambre: Amanecer en la cosecha[Español]",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T17:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016100/session/578941/date/2026-11-21%2017:10"
+    },
+    {
+     "at": "2026-11-21T20:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016100/session/580744/date/2026-11-21%2020:40"
+    },
+    {
+     "at": "2026-11-22T17:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016100/session/578951/date/2026-11-22%2017:10"
+    },
+    {
+     "at": "2026-11-22T21:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016100/session/580801/date/2026-11-22%2021:15"
+    },
+    {
+     "at": "2026-11-23T17:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016100/session/578961/date/2026-11-23%2017:10"
+    },
+    {
+     "at": "2026-11-23T20:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016100/session/580855/date/2026-11-23%2020:45"
+    },
+    {
+     "at": "2026-11-24T15:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016100/session/578971/date/2026-11-24%2015:30"
+    }
+   ]
+  },
+  {
+   "title": "OM Chapter 1: Udhiram – The Blood Wood [Tamil]",
+   "rating": "NR",
+   "runtime_min": 179,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T21:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016525/session/580732/date/2026-11-21%2021:15"
+    },
+    {
+     "at": "2026-11-22T18:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016525/session/580834/date/2026-11-22%2018:25"
+    },
+    {
+     "at": "2026-11-22T20:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016525/session/580789/date/2026-11-22%2020:40"
+    },
+    {
+     "at": "2026-11-23T20:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016525/session/580845/date/2026-11-23%2020:55"
+    }
+   ]
+  },
+  {
+   "title": "Bachelor Party D'eux [Malayalam, subtitled]",
+   "rating": "NR",
+   "runtime_min": 150,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T21:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016530/session/580770/date/2026-11-21%2021:55"
+    },
+    {
+     "at": "2026-11-22T21:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016530/session/580840/date/2026-11-22%2021:40"
+    },
+    {
+     "at": "2026-11-23T22:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016530/session/580888/date/2026-11-23%2022:00"
+    }
+   ]
+  },
+  {
+   "title": "Aakasamlo Oka Tara [Telugu, subtitled]",
+   "rating": "NR",
+   "runtime_min": 160,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-21T22:25",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016529/session/580761/date/2026-11-21%2022:25"
+    },
+    {
+     "at": "2026-11-22T21:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016529/session/580825/date/2026-11-22%2021:20"
+    },
+    {
+     "at": "2026-11-23T21:55",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016529/session/580876/date/2026-11-23%2021:55"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-24T14:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576483/date/2026-11-24%2014:00"
+    },
+    {
+     "at": "2026-11-24T16:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576484/date/2026-11-24%2016:45"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576485/date/2026-11-24%2019:30"
+    },
+    {
+     "at": "2026-11-24T22:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576486/date/2026-11-24%2022:10"
+    },
+    {
+     "at": "2026-11-25T11:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576491/date/2026-11-25%2011:20"
+    },
+    {
+     "at": "2026-11-25T14:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576490/date/2026-11-25%2014:00"
+    },
+    {
+     "at": "2026-11-25T16:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576489/date/2026-11-25%2016:40"
+    },
+    {
+     "at": "2026-11-25T19:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576488/date/2026-11-25%2019:20"
+    },
+    {
+     "at": "2026-11-25T22:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576487/date/2026-11-25%2022:00"
+    },
+    {
+     "at": "2026-11-26T11:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576492/date/2026-11-26%2011:20"
+    },
+    {
+     "at": "2026-11-26T14:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576493/date/2026-11-26%2014:00"
+    },
+    {
+     "at": "2026-11-26T16:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576494/date/2026-11-26%2016:40"
+    },
+    {
+     "at": "2026-11-26T19:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576495/date/2026-11-26%2019:20"
+    },
+    {
+     "at": "2026-11-26T22:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576496/date/2026-11-26%2022:00"
+    },
+    {
+     "at": "2026-11-27T11:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576497/date/2026-11-27%2011:20"
+    },
+    {
+     "at": "2026-11-27T14:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576498/date/2026-11-27%2014:00"
+    },
+    {
+     "at": "2026-11-27T16:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576499/date/2026-11-27%2016:40"
+    },
+    {
+     "at": "2026-11-27T19:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576500/date/2026-11-27%2019:20"
+    },
+    {
+     "at": "2026-11-27T22:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015936/session/576501/date/2026-11-27%2022:00"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-24T14:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016383/session/579630/date/2026-11-24%2014:20"
+    },
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578201/date/2026-11-24%2015:00"
+    },
+    {
+     "at": "2026-11-24T17:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016383/session/579631/date/2026-11-24%2017:00"
+    },
+    {
+     "at": "2026-11-24T17:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578202/date/2026-11-24%2017:40"
+    },
+    {
+     "at": "2026-11-24T18:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016382/session/578200/date/2026-11-24%2018:20"
+    },
+    {
+     "at": "2026-11-24T19:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016383/session/579632/date/2026-11-24%2019:40"
+    },
+    {
+     "at": "2026-11-24T20:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578203/date/2026-11-24%2020:20"
+    },
+    {
+     "at": "2026-11-24T21:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016382/session/578223/date/2026-11-24%2021:00"
+    },
+    {
+     "at": "2026-11-25T10:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578205/date/2026-11-25%2010:45"
+    },
+    {
+     "at": "2026-11-25T11:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016383/session/579629/date/2026-11-25%2011:30"
+    },
+    {
+     "at": "2026-11-25T13:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578206/date/2026-11-25%2013:30"
+    },
+    {
+     "at": "2026-11-25T14:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016383/session/579628/date/2026-11-25%2014:15"
+    },
+    {
+     "at": "2026-11-25T16:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578207/date/2026-11-25%2016:15"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578208/date/2026-11-25%2019:00"
+    },
+    {
+     "at": "2026-11-25T21:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578209/date/2026-11-25%2021:40"
+    },
+    {
+     "at": "2026-11-26T10:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578210/date/2026-11-26%2010:45"
+    },
+    {
+     "at": "2026-11-26T11:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016383/session/579633/date/2026-11-26%2011:30"
+    },
+    {
+     "at": "2026-11-26T13:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578211/date/2026-11-26%2013:30"
+    },
+    {
+     "at": "2026-11-26T14:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016383/session/579634/date/2026-11-26%2014:15"
+    },
+    {
+     "at": "2026-11-26T16:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578212/date/2026-11-26%2016:15"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578213/date/2026-11-26%2019:00"
+    },
+    {
+     "at": "2026-11-26T21:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578214/date/2026-11-26%2021:40"
+    },
+    {
+     "at": "2026-11-27T10:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578296/date/2026-11-27%2010:45"
+    },
+    {
+     "at": "2026-11-27T11:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016383/session/579635/date/2026-11-27%2011:30"
+    },
+    {
+     "at": "2026-11-27T12:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016382/session/578301/date/2026-11-27%2012:15"
+    },
+    {
+     "at": "2026-11-27T13:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578297/date/2026-11-27%2013:30"
+    },
+    {
+     "at": "2026-11-27T14:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016383/session/579636/date/2026-11-27%2014:15"
+    },
+    {
+     "at": "2026-11-27T16:15",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578298/date/2026-11-27%2016:15"
+    },
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578299/date/2026-11-27%2019:00"
+    },
+    {
+     "at": "2026-11-27T21:45",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015829/session/578300/date/2026-11-27%2021:45"
+    }
+   ]
+  },
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016129/session/574543/date/2026-11-24%2019:00"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016129/session/574544/date/2026-11-25%2013:00"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-25T10:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579515/date/2026-11-25%2010:50"
+    },
+    {
+     "at": "2026-11-25T13:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579514/date/2026-11-25%2013:30"
+    },
+    {
+     "at": "2026-11-25T16:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579513/date/2026-11-25%2016:10"
+    },
+    {
+     "at": "2026-11-25T18:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579512/date/2026-11-25%2018:50"
+    },
+    {
+     "at": "2026-11-25T19:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016396/session/579521/date/2026-11-25%2019:40"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579511/date/2026-11-25%2021:30"
+    },
+    {
+     "at": "2026-11-25T22:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016396/session/579522/date/2026-11-25%2022:20"
+    },
+    {
+     "at": "2026-11-26T10:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579525/date/2026-11-26%2010:50"
+    },
+    {
+     "at": "2026-11-26T13:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579526/date/2026-11-26%2013:30"
+    },
+    {
+     "at": "2026-11-26T16:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579527/date/2026-11-26%2016:10"
+    },
+    {
+     "at": "2026-11-26T18:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579528/date/2026-11-26%2018:50"
+    },
+    {
+     "at": "2026-11-26T19:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016396/session/579523/date/2026-11-26%2019:40"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579529/date/2026-11-26%2021:30"
+    },
+    {
+     "at": "2026-11-26T22:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016396/session/579524/date/2026-11-26%2022:20"
+    },
+    {
+     "at": "2026-11-27T10:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579532/date/2026-11-27%2010:50"
+    },
+    {
+     "at": "2026-11-27T13:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579533/date/2026-11-27%2013:30"
+    },
+    {
+     "at": "2026-11-27T16:10",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579534/date/2026-11-27%2016:10"
+    },
+    {
+     "at": "2026-11-27T18:50",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579535/date/2026-11-27%2018:50"
+    },
+    {
+     "at": "2026-11-27T19:40",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016396/session/579530/date/2026-11-27%2019:40"
+    },
+    {
+     "at": "2026-11-27T21:30",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00015937/session/579536/date/2026-11-27%2021:30"
+    },
+    {
+     "at": "2026-11-27T22:20",
+     "sold_out": false,
+     "url": "https://harkins.com/ticketing/theatre/16/movie/HO00016396/session/579531/date/2026-11-27%2022:20"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

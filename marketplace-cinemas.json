@@ -1,0 +1,511 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "marketplace-cinemas",
+ "name": "Marketplace Cinemas",
+ "city": "triad",
+ "area": "Peters Creek Parkway",
+ "region": "Winston-Salem",
+ "url": "https://mpcws.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://mpcws.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/3fd53cd6-2cfd-5dd8-a34c-65b5c83a81bd"
+    },
+    {
+     "at": "2026-11-21T14:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/f7552c01-699f-5b0c-90ba-e608ca2db0c7"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/b3ef18b7-e0ae-54ca-b022-61970a02de42"
+    },
+    {
+     "at": "2026-11-21T18:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/00e0ad82-be37-5c6b-83a0-033b55a87f73"
+    },
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/73af0b59-700d-575a-9dc2-d7fe1d436dd6"
+    },
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/ea8e7f46-b636-57ed-8067-1e81e954d6be"
+    },
+    {
+     "at": "2026-11-22T12:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/d4e52fe7-d5b8-5a5e-bc5d-30b13ce389ab"
+    },
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/cb632263-2249-523f-bcb7-f20510fa2120"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/771b10ff-7f59-5253-9b9d-55a53c30a6bb"
+    },
+    {
+     "at": "2026-11-22T18:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/b473af0d-bcc5-5e25-a6e9-8830310097d2"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/b52aa1d7-4d67-5ca8-a647-c0fffc6e5505"
+    },
+    {
+     "at": "2026-11-23T18:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/c9946609-1ad8-51da-a363-9d91fbbd236d"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/c230a564-d3ce-506c-ac9d-58c9ac81c93a"
+    },
+    {
+     "at": "2026-11-24T12:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/428f99ad-46df-5d02-9643-7b52e1da169c"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/0c5bf8e6-56ed-5f74-a941-e707ca745926"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/732a889f-c209-57ae-b2c6-59d14bfc10be"
+    },
+    {
+     "at": "2026-11-25T12:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/eb1e58f5-0793-55af-8ae2-062078279b07"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/6619ff62-4be9-5b3e-b8c7-98caa83d5f38"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/70c74d8c-8f0f-51a5-a867-1a7a352978e8"
+    },
+    {
+     "at": "2026-11-26T12:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/6ae54cdc-43fe-5764-aa56-1238622850d3"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/7bcdd344-62d2-54cc-a8f9-4b04547119af"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/850914c4-b2f4-516b-b577-af01d4e42f75"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://mpcws.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/dea61388-916c-59a4-bc15-d449e289b905"
+    },
+    {
+     "at": "2026-11-21T15:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/e72a3190-44fa-5005-9e38-f2af1812441c"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/4901a640-36c4-52b5-933f-dd23f8edea45"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/66b4b1a9-1ff6-56a1-a80b-55b6fe5a78be"
+    },
+    {
+     "at": "2026-11-22T15:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/729c6dab-b1ef-5431-951e-37ac01b79176"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/0aa0ec03-d24b-5a40-a962-ab0bb96c4352"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/80a4d574-98f2-5846-bd58-ebc6a80333c9"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/2110abaa-b426-5f1d-81c8-9ef16d41ede6"
+    },
+    {
+     "at": "2026-11-24T13:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/b7210d76-6494-5815-9729-990f8c5d62bf"
+    },
+    {
+     "at": "2026-11-24T16:20",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/3fd0c532-f971-5d05-bf81-bebfd4fffc94"
+    },
+    {
+     "at": "2026-11-24T19:20",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/e7dd0e5f-2103-588c-b2ca-55f796d82d42"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/d8395e68-d37f-55c6-8092-9093c8fd58ef"
+    },
+    {
+     "at": "2026-11-25T16:20",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/3fedc863-f983-531d-bd38-e748db4cc9ab"
+    },
+    {
+     "at": "2026-11-25T19:20",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/9d3b23f3-7f92-5f66-922c-06bd8121f847"
+    },
+    {
+     "at": "2026-11-26T13:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/8eab67a1-367d-57d3-a2f7-8270508bb743"
+    },
+    {
+     "at": "2026-11-26T16:20",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/8390a498-b635-54a5-b87b-59250ba9d5dc"
+    },
+    {
+     "at": "2026-11-26T19:20",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/7318684a-1c87-5dc4-844b-5a78f56b0acb"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://mpcws.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/87640fe8-7d35-56db-bb46-274863e82441"
+    },
+    {
+     "at": "2026-11-21T16:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/86d661b2-cb51-5011-b833-4326db8f884e"
+    },
+    {
+     "at": "2026-11-21T18:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/6baf09a7-d21a-590d-b646-30192d001732"
+    },
+    {
+     "at": "2026-11-22T13:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/52c24b56-9d7f-58c6-b2a6-6f724b4cb717"
+    },
+    {
+     "at": "2026-11-22T16:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/44005293-fc77-5817-b3e4-e6f308089f53"
+    },
+    {
+     "at": "2026-11-22T18:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/d1fe0b1c-14c1-5659-9129-dc3ed1824db6"
+    },
+    {
+     "at": "2026-11-23T18:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/6135a90d-05f9-5733-b990-49cc3230d964"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://mpcws.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:20",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/192823e8-5070-5d30-8eca-81c39da737c2"
+    },
+    {
+     "at": "2026-11-21T16:20",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/5b4d031d-219d-50df-8129-6114ffe6399a"
+    },
+    {
+     "at": "2026-11-22T13:20",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/ba372b35-2088-5508-b210-556ee032d5fa"
+    },
+    {
+     "at": "2026-11-22T16:20",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/aec68be5-b0a5-5470-9439-8a842b1a638e"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://mpcws.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/465223b5-b0fe-5949-aba3-7fb724147244"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/5c4e442b-69db-557b-9171-4b36dfc08d9e"
+    },
+    {
+     "at": "2026-11-21T19:05",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/6d6db078-0f71-529f-82ab-201f801a232a"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/8f60c841-7df0-508d-90be-c77f1eebaed5"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/c18d9447-e102-56fa-b831-f4e9fbae8095"
+    },
+    {
+     "at": "2026-11-22T19:05",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/1bd9690d-d2b3-5bfc-a263-e3ce463ebcfe"
+    },
+    {
+     "at": "2026-11-23T19:05",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/eea07f2f-28c6-504d-8202-30dde9f44b23"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://mpcws.com/",
+   "shows": [
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/c6ad6602-9aae-5890-9dd6-d10d73b8ea9c"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 108,
+   "url": "https://mpcws.com/",
+   "shows": [
+    {
+     "at": "2026-11-24T13:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/bf072f3f-ff98-5b7f-ab92-7b5b9de85e9f"
+    },
+    {
+     "at": "2026-11-24T15:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/28bb162c-ce88-5b99-9e58-7253949b5d97"
+    },
+    {
+     "at": "2026-11-24T18:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/5d1fb96b-c9ae-501e-b564-58c99cf7e1cc"
+    },
+    {
+     "at": "2026-11-25T13:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/5218a258-5f33-505d-8bbb-f86fd3b231a2"
+    },
+    {
+     "at": "2026-11-25T15:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/e07fc51c-dc00-5012-80cf-80371d0b7daa"
+    },
+    {
+     "at": "2026-11-25T18:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/3dea59d7-91c4-5cdc-b19f-3b334079ffa6"
+    },
+    {
+     "at": "2026-11-26T13:15",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/d8d2a7ed-48b1-5143-8a05-0bb86ac51375"
+    },
+    {
+     "at": "2026-11-26T15:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/b4a8d761-c124-55ce-a3cf-4dbddbaf9d39"
+    },
+    {
+     "at": "2026-11-26T18:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/87b941d4-9dab-5474-b60f-9dc8b760a6b3"
+    }
+   ]
+  },
+  {
+   "title": "Disney's Hexed",
+   "rating": "PG",
+   "runtime_min": 106,
+   "url": "https://mpcws.com/",
+   "shows": [
+    {
+     "at": "2026-11-24T14:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/2334d67d-18f3-5568-87f8-ae2aea36e65e"
+    },
+    {
+     "at": "2026-11-24T17:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/1dbf18f0-9b72-50ec-9243-f6390777e4c5"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/ff413708-a060-5fdc-875e-17b6ec575a04"
+    },
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/c03204bf-6816-5573-b893-6cf6d2534ca5"
+    },
+    {
+     "at": "2026-11-25T14:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/69a80cf6-d028-5c9c-8813-ed597b65427c"
+    },
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/39b2d2ba-a718-5261-8d7c-f9dc3cfd9323"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/3a7c8073-25af-57c1-929f-4fa3b353f03f"
+    },
+    {
+     "at": "2026-11-26T12:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/9b28d81b-1df1-50c3-863c-2902715028ad"
+    },
+    {
+     "at": "2026-11-26T14:45",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/6673f0cd-4406-51c5-b515-7ebf7258dbbb"
+    },
+    {
+     "at": "2026-11-26T17:00",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/625ced5a-0e2a-52a2-902a-0213e83c0453"
+    },
+    {
+     "at": "2026-11-26T19:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/b7d41c36-24db-5b83-8b20-4e7b1c451d1b"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://mpcws.com/",
+   "shows": [
+    {
+     "at": "2026-11-25T13:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/35515fa7-3f2e-5dd6-a306-b33d6d071300"
+    },
+    {
+     "at": "2026-11-25T16:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/dadc227c-9905-5a64-b707-1a589a27b192"
+    },
+    {
+     "at": "2026-11-25T19:10",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/d22add5d-b8fd-51fa-8a10-0131f4e7499c"
+    },
+    {
+     "at": "2026-11-26T13:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/858fa5e5-956b-50b9-b715-b540fc8ea8d2"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/30a2312d-fa1e-511f-b3e6-b83647fa7478"
+    },
+    {
+     "at": "2026-11-26T19:10",
+     "sold_out": false,
+     "url": "https://booking.mpcws.com/launch/ticketing/40a206e2-f875-5d47-bcbb-b097d4f5fed6"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

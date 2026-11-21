@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "window-rock-cinema",
+ "name": "Window Rock Cinema",
+ "city": "showlow",
+ "area": "Window Rock",
+ "region": "Navajo Nation",
+ "url": "https://wrcinema.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wrcinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://wrcinema.com/"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://wrcinema.com/"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://wrcinema.com/"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://wrcinema.com/"
+    },
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://wrcinema.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

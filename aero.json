@@ -1,0 +1,81 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "aero",
+ "name": "Aero",
+ "city": "la",
+ "area": "Santa Monica",
+ "region": "Westside",
+ "url": "https://www.americancinematheque.com/now-showing/",
+ "films": [
+  {
+   "title": "Cameron Winter at Carnegie Hall",
+   "rating": null,
+   "runtime_min": 72,
+   "url": "https://www.americancinematheque.com/now-showing/cameron-winter-at-carnegie-hall-11-22-2026/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/cameron-winter-at-carnegie-hall-11-21-2026-2pm/"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/cameron-winter-at-carnegie-hall-11-22-2026-2pm/"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/cameron-winter-at-carnegie-hall-11-22-2026/"
+    }
+   ]
+  },
+  {
+   "title": "The Mosquito Bowl",
+   "rating": null,
+   "runtime_min": 127,
+   "url": "https://www.americancinematheque.com/now-showing/the-mosquito-bowl-11-21-2026/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/the-mosquito-bowl-11-21-2026/"
+    }
+   ]
+  },
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": null,
+   "runtime_min": 93,
+   "url": "https://www.americancinematheque.com/now-showing/planes-trains-and-automobiles-11-25-2026/",
+   "shows": [
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/planes-trains-and-automobiles-11-25-2026/"
+    }
+   ]
+  },
+  {
+   "title": "Being There / Dr. Strangelove",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.americancinematheque.com/now-showing/being-there-dr-strangelove-11-27-2026/",
+   "shows": [
+    {
+     "at": "2026-11-27T19:30",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/being-there-dr-strangelove-11-27-2026/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

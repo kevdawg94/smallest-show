@@ -1,0 +1,914 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "lakewood-ranch-cinemas",
+ "name": "Lakewood Ranch Cinemas",
+ "city": "sarasota",
+ "area": "Lakewood Ranch",
+ "region": "Lakewood Ranch & Bradenton",
+ "url": "https://www.filmsociety.org/",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 144,
+   "url": "https://www.filmsociety.org/movies/movie.cfm?filID=4500",
+   "shows": [
+    {
+     "at": "2026-11-21T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147082"
+    },
+    {
+     "at": "2026-11-21T13:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147083"
+    },
+    {
+     "at": "2026-11-21T16:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147084"
+    },
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147085"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147086"
+    },
+    {
+     "at": "2026-11-22T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147087"
+    },
+    {
+     "at": "2026-11-22T13:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147088"
+    },
+    {
+     "at": "2026-11-22T16:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147089"
+    },
+    {
+     "at": "2026-11-22T19:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147090"
+    },
+    {
+     "at": "2026-11-23T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147091"
+    },
+    {
+     "at": "2026-11-23T13:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147092"
+    },
+    {
+     "at": "2026-11-23T16:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147093"
+    },
+    {
+     "at": "2026-11-23T19:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147094"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 143,
+   "url": "https://www.filmsociety.org/movies/movie.cfm?filID=4480",
+   "shows": [
+    {
+     "at": "2026-11-21T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146805"
+    },
+    {
+     "at": "2026-11-21T13:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146806"
+    },
+    {
+     "at": "2026-11-21T16:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146807"
+    },
+    {
+     "at": "2026-11-21T19:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146808"
+    },
+    {
+     "at": "2026-11-21T21:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147125"
+    },
+    {
+     "at": "2026-11-22T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146810"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146811"
+    },
+    {
+     "at": "2026-11-22T16:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146812"
+    },
+    {
+     "at": "2026-11-22T19:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146813"
+    },
+    {
+     "at": "2026-11-23T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146814"
+    },
+    {
+     "at": "2026-11-23T13:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146815"
+    },
+    {
+     "at": "2026-11-23T16:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146816"
+    },
+    {
+     "at": "2026-11-23T19:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146817"
+    },
+    {
+     "at": "2026-11-24T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146818"
+    },
+    {
+     "at": "2026-11-24T13:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146819"
+    },
+    {
+     "at": "2026-11-24T16:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147126"
+    },
+    {
+     "at": "2026-11-24T19:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147127"
+    },
+    {
+     "at": "2026-11-25T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146822"
+    },
+    {
+     "at": "2026-11-25T13:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146823"
+    },
+    {
+     "at": "2026-11-25T16:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147128"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147129"
+    },
+    {
+     "at": "2026-11-26T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146826"
+    },
+    {
+     "at": "2026-11-26T13:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146827"
+    },
+    {
+     "at": "2026-11-26T16:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147130"
+    },
+    {
+     "at": "2026-11-26T19:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147131"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 173,
+   "url": "https://www.filmsociety.org/movies/movie.cfm?filID=3443",
+   "shows": [
+    {
+     "at": "2026-11-21T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146411"
+    },
+    {
+     "at": "2026-11-21T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146412"
+    },
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146413"
+    },
+    {
+     "at": "2026-11-21T19:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147164"
+    },
+    {
+     "at": "2026-11-21T20:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146414"
+    },
+    {
+     "at": "2026-11-22T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146415"
+    },
+    {
+     "at": "2026-11-22T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146416"
+    },
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146417"
+    },
+    {
+     "at": "2026-11-22T20:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146418"
+    },
+    {
+     "at": "2026-11-23T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146419"
+    },
+    {
+     "at": "2026-11-23T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146420"
+    },
+    {
+     "at": "2026-11-23T17:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146421"
+    },
+    {
+     "at": "2026-11-23T19:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147165"
+    },
+    {
+     "at": "2026-11-23T20:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146422"
+    },
+    {
+     "at": "2026-11-24T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146423"
+    },
+    {
+     "at": "2026-11-24T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146424"
+    },
+    {
+     "at": "2026-11-24T17:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146425"
+    },
+    {
+     "at": "2026-11-24T20:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146426"
+    },
+    {
+     "at": "2026-11-25T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146427"
+    },
+    {
+     "at": "2026-11-25T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146428"
+    },
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146429"
+    },
+    {
+     "at": "2026-11-25T20:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146430"
+    },
+    {
+     "at": "2026-11-26T10:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146431"
+    },
+    {
+     "at": "2026-11-26T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146432"
+    },
+    {
+     "at": "2026-11-26T17:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146433"
+    },
+    {
+     "at": "2026-11-26T20:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146434"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 129,
+   "url": "https://www.filmsociety.org/movies/movie.cfm?filID=3440",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147146"
+    },
+    {
+     "at": "2026-11-21T13:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147147"
+    },
+    {
+     "at": "2026-11-21T16:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147148"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147149"
+    },
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147150"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147151"
+    },
+    {
+     "at": "2026-11-22T13:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147152"
+    },
+    {
+     "at": "2026-11-22T16:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147153"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147154"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147155"
+    },
+    {
+     "at": "2026-11-23T13:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147156"
+    },
+    {
+     "at": "2026-11-23T16:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147157"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147158"
+    },
+    {
+     "at": "2026-11-24T11:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147159"
+    },
+    {
+     "at": "2026-11-24T13:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147160"
+    },
+    {
+     "at": "2026-11-24T16:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147161"
+    },
+    {
+     "at": "2026-11-24T19:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147162"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 131,
+   "url": "https://www.filmsociety.org/movies/movie.cfm?filID=4484",
+   "shows": [
+    {
+     "at": "2026-11-21T11:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147100"
+    },
+    {
+     "at": "2026-11-21T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147101"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147102"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147103"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147104"
+    },
+    {
+     "at": "2026-11-22T11:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147211"
+    },
+    {
+     "at": "2026-11-22T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147212"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147213"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147214"
+    },
+    {
+     "at": "2026-11-23T11:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147109"
+    },
+    {
+     "at": "2026-11-23T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147110"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147111"
+    },
+    {
+     "at": "2026-11-23T19:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147112"
+    },
+    {
+     "at": "2026-11-24T11:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147113"
+    },
+    {
+     "at": "2026-11-24T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147114"
+    },
+    {
+     "at": "2026-11-24T16:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147115"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147116"
+    },
+    {
+     "at": "2026-11-25T11:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147117"
+    },
+    {
+     "at": "2026-11-25T14:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147118"
+    },
+    {
+     "at": "2026-11-25T16:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147119"
+    },
+    {
+     "at": "2026-11-25T19:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147120"
+    },
+    {
+     "at": "2026-11-26T11:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147121"
+    },
+    {
+     "at": "2026-11-26T14:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147122"
+    },
+    {
+     "at": "2026-11-26T16:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147123"
+    },
+    {
+     "at": "2026-11-26T19:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147124"
+    },
+    {
+     "at": "2026-11-27T11:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147209"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 131,
+   "url": "https://www.filmsociety.org/movies/movie.cfm?filID=4485",
+   "shows": [
+    {
+     "at": "2026-11-21T11:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147167"
+    },
+    {
+     "at": "2026-11-22T11:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147217"
+    },
+    {
+     "at": "2026-11-23T11:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147169"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 135,
+   "url": "https://www.filmsociety.org/movies/movie.cfm?filID=4506",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147134"
+    },
+    {
+     "at": "2026-11-21T16:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147135"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147215"
+    },
+    {
+     "at": "2026-11-22T20:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147216"
+    },
+    {
+     "at": "2026-11-23T14:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147138"
+    },
+    {
+     "at": "2026-11-23T16:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147139"
+    },
+    {
+     "at": "2026-11-24T11:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147140"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 125,
+   "url": "https://www.filmsociety.org/movies/movie.cfm?filID=3446",
+   "shows": [
+    {
+     "at": "2026-11-24T11:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145159"
+    },
+    {
+     "at": "2026-11-24T13:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145160"
+    },
+    {
+     "at": "2026-11-24T16:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145161"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145162"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145163"
+    },
+    {
+     "at": "2026-11-25T13:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145164"
+    },
+    {
+     "at": "2026-11-25T16:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145165"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145166"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145167"
+    },
+    {
+     "at": "2026-11-26T13:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145168"
+    },
+    {
+     "at": "2026-11-26T16:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145169"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145170"
+    },
+    {
+     "at": "2026-11-27T11:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145171"
+    },
+    {
+     "at": "2026-11-27T13:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145172"
+    },
+    {
+     "at": "2026-11-27T16:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145173"
+    },
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=145174"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 124,
+   "url": "https://www.filmsociety.org/movies/movie.cfm?filID=3445",
+   "shows": [
+    {
+     "at": "2026-11-24T14:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146165"
+    },
+    {
+     "at": "2026-11-24T16:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146166"
+    },
+    {
+     "at": "2026-11-24T19:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146167"
+    },
+    {
+     "at": "2026-11-25T11:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146168"
+    },
+    {
+     "at": "2026-11-25T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146169"
+    },
+    {
+     "at": "2026-11-25T16:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146170"
+    },
+    {
+     "at": "2026-11-25T19:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146171"
+    },
+    {
+     "at": "2026-11-26T11:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146172"
+    },
+    {
+     "at": "2026-11-26T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146173"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146174"
+    },
+    {
+     "at": "2026-11-26T19:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146175"
+    },
+    {
+     "at": "2026-11-27T11:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=147210"
+    },
+    {
+     "at": "2026-11-27T13:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146177"
+    },
+    {
+     "at": "2026-11-27T16:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146178"
+    },
+    {
+     "at": "2026-11-27T19:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146179"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.filmsociety.org/movies/movie.cfm?filID=3444",
+   "shows": [
+    {
+     "at": "2026-11-25T10:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146737"
+    },
+    {
+     "at": "2026-11-25T13:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146738"
+    },
+    {
+     "at": "2026-11-25T15:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146739"
+    },
+    {
+     "at": "2026-11-25T17:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146740"
+    },
+    {
+     "at": "2026-11-25T20:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146741"
+    },
+    {
+     "at": "2026-11-26T10:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146742"
+    },
+    {
+     "at": "2026-11-26T13:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146743"
+    },
+    {
+     "at": "2026-11-26T15:30",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146744"
+    },
+    {
+     "at": "2026-11-26T17:50",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146745"
+    },
+    {
+     "at": "2026-11-26T20:10",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146746"
+    },
+    {
+     "at": "2026-11-27T11:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146747"
+    },
+    {
+     "at": "2026-11-27T14:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146748"
+    },
+    {
+     "at": "2026-11-27T16:40",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146749"
+    },
+    {
+     "at": "2026-11-27T19:20",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146750"
+    },
+    {
+     "at": "2026-11-27T22:00",
+     "sold_out": false,
+     "url": "https://www.filmsociety.org/movies/showing.cfm?shoID=146751"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

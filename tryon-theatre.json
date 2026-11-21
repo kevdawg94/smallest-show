@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "tryon-theatre",
+ "name": "Tryon Theatre",
+ "city": "asheville",
+ "area": "Tryon",
+ "region": "Hendersonville–Flat Rock–Brevard",
+ "url": "https://tryontheatre.com/",
+ "films": [
+  {
+   "title": "Digger",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hwhc2662w8gykfq7yqh9wn1hr8",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2523?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    },
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2524?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hwhc2662w8gykfq7yqh9wn1hr8",
+   "shows": [
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2525?siteToken=hwhc2662w8gykfq7yqh9wn1hr8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

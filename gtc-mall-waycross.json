@@ -1,0 +1,689 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "gtc-mall-waycross",
+ "name": "Mall Cinemas",
+ "city": "jesup",
+ "area": "Waycross",
+ "region": "Waycross",
+ "url": "https://www.gtcmovies.com/mall",
+ "films": [
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://gtcmovies.com/mall/movie/ghost-soldier/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859285"
+    },
+    {
+     "at": "2026-11-21T14:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859288"
+    },
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859291"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859294"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859295"
+    },
+    {
+     "at": "2026-11-22T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859388"
+    },
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859394"
+    },
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859400"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859405"
+    },
+    {
+     "at": "2026-11-22T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859409"
+    },
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859411"
+    },
+    {
+     "at": "2026-11-23T14:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859417"
+    },
+    {
+     "at": "2026-11-23T17:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859423"
+    },
+    {
+     "at": "2026-11-23T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859428"
+    },
+    {
+     "at": "2026-11-23T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ghost-soldier/1859432"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games: Sunrise On The Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://gtcmovies.com/mall/movie/hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843009"
+    },
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1859232"
+    },
+    {
+     "at": "2026-11-21T15:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843011"
+    },
+    {
+     "at": "2026-11-21T16:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1859233"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843010"
+    },
+    {
+     "at": "2026-11-21T20:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1859234"
+    },
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1862483"
+    },
+    {
+     "at": "2026-11-22T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843012"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1859390"
+    },
+    {
+     "at": "2026-11-22T15:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843014"
+    },
+    {
+     "at": "2026-11-22T16:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1859399"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843013"
+    },
+    {
+     "at": "2026-11-22T20:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1859406"
+    },
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843015"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1859413"
+    },
+    {
+     "at": "2026-11-23T15:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843017"
+    },
+    {
+     "at": "2026-11-23T16:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1859422"
+    },
+    {
+     "at": "2026-11-23T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843016"
+    },
+    {
+     "at": "2026-11-23T20:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1859429"
+    },
+    {
+     "at": "2026-11-24T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843018"
+    },
+    {
+     "at": "2026-11-24T15:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843020"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843019"
+    },
+    {
+     "at": "2026-11-25T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843021"
+    },
+    {
+     "at": "2026-11-25T15:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843023"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843022"
+    },
+    {
+     "at": "2026-11-26T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843024"
+    },
+    {
+     "at": "2026-11-26T15:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843026"
+    },
+    {
+     "at": "2026-11-26T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hunger-games-sunrise-on-the-reaping/1843025"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://gtcmovies.com/mall/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/drummer-boy/1859286"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/drummer-boy/1859289"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/drummer-boy/1859292"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/drummer-boy/1859389"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/drummer-boy/1859396"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/drummer-boy/1859401"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/drummer-boy/1859412"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/drummer-boy/1859419"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/drummer-boy/1859424"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://gtcmovies.com/mall/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859305"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859306"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859307"
+    },
+    {
+     "at": "2026-11-21T21:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859308"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859391"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859395"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859402"
+    },
+    {
+     "at": "2026-11-22T21:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859407"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859414"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859418"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859425"
+    },
+    {
+     "at": "2026-11-23T21:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/ebenezer/1859430"
+    }
+   ]
+  },
+  {
+   "title": "How To Rob A Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://gtcmovies.com/mall/movie/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859301"
+    },
+    {
+     "at": "2026-11-21T16:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859302"
+    },
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859303"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859304"
+    },
+    {
+     "at": "2026-11-22T16:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859397"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859403"
+    },
+    {
+     "at": "2026-11-22T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859410"
+    },
+    {
+     "at": "2026-11-23T13:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859415"
+    },
+    {
+     "at": "2026-11-23T16:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859420"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859426"
+    },
+    {
+     "at": "2026-11-23T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/how-to-rob-a-bank/1859433"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://gtcmovies.com/mall/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859287"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859290"
+    },
+    {
+     "at": "2026-11-21T18:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859293"
+    },
+    {
+     "at": "2026-11-22T13:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859393"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859398"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859404"
+    },
+    {
+     "at": "2026-11-22T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859408"
+    },
+    {
+     "at": "2026-11-23T13:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859416"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859421"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859427"
+    },
+    {
+     "at": "2026-11-23T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/the-cat-in-the-hat/1859431"
+    }
+   ]
+  },
+  {
+   "title": "Polar Express",
+   "rating": "G",
+   "runtime_min": 100,
+   "url": "https://gtcmovies.com/mall/movie/polar-express/",
+   "shows": [
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/polar-express/1860243"
+    }
+   ]
+  },
+  {
+   "title": "Disney's Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://gtcmovies.com/mall/movie/disneys-hexed/",
+   "shows": [
+    {
+     "at": "2026-11-24T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831261"
+    },
+    {
+     "at": "2026-11-24T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831262"
+    },
+    {
+     "at": "2026-11-24T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831263"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831264"
+    },
+    {
+     "at": "2026-11-25T13:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831265"
+    },
+    {
+     "at": "2026-11-25T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831266"
+    },
+    {
+     "at": "2026-11-25T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831267"
+    },
+    {
+     "at": "2026-11-25T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831268"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831269"
+    },
+    {
+     "at": "2026-11-26T13:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831270"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831271"
+    },
+    {
+     "at": "2026-11-26T19:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831272"
+    },
+    {
+     "at": "2026-11-26T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/disneys-hexed/1831273"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://gtcmovies.com/mall/movie/focker-in-law/",
+   "shows": [
+    {
+     "at": "2026-11-25T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/focker-in-law/1851672"
+    },
+    {
+     "at": "2026-11-25T14:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/focker-in-law/1851673"
+    },
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/focker-in-law/1851674"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/focker-in-law/1851675"
+    },
+    {
+     "at": "2026-11-25T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/focker-in-law/1851676"
+    },
+    {
+     "at": "2026-11-26T12:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/focker-in-law/1851688"
+    },
+    {
+     "at": "2026-11-26T14:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/focker-in-law/1851689"
+    },
+    {
+     "at": "2026-11-26T17:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/focker-in-law/1851690"
+    },
+    {
+     "at": "2026-11-26T19:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/focker-in-law/1851691"
+    },
+    {
+     "at": "2026-11-26T22:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/focker-in-law/1851692"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://gtcmovies.com/mall/movie/hershey/",
+   "shows": [
+    {
+     "at": "2026-11-25T13:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hershey/1819974"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hershey/1819975"
+    },
+    {
+     "at": "2026-11-25T18:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hershey/1819976"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hershey/1819977"
+    },
+    {
+     "at": "2026-11-26T13:15",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hershey/1819978"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hershey/1819979"
+    },
+    {
+     "at": "2026-11-26T18:45",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hershey/1819980"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "https://gtcmovies.com/mall/checkout/showing/hershey/1819981"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

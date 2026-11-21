@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "arena-theater",
+ "name": "Arena Theater",
+ "city": "mendocino",
+ "area": "Point Arena",
+ "region": "Mendocino Coast",
+ "url": "https://arenatheater.org/",
+ "films": [
+  {
+   "title": "National Theatre Live: The Playboy of the Western World",
+   "rating": null,
+   "runtime_min": 150,
+   "url": "https://arenatheater.eventive.org/films/69a33c0f3faf528ad17ed8a6",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule /69a33c5603991a4d2ccdb1f5"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://arenatheater.eventive.org/films/6aee157ea68dec3f88a070df",
+   "shows": [
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule /6aee1e1c67b26a134289d06d"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule /6aee1e71cfcde843be47e1a5"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

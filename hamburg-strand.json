@@ -1,0 +1,70 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "hamburg-strand",
+ "name": "Hamburg Strand Theatre",
+ "city": "philly",
+ "area": "Hamburg",
+ "region": "Suburbs",
+ "url": "https://hamburgstrand.org/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hamburgstrand.org/",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://hamburgstrand.org/"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://hamburgstrand.org/"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://hamburgstrand.org/"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://hamburgstrand.org/"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://hamburgstrand.org/"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://hamburgstrand.org/"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://hamburgstrand.org/",
+   "shows": [
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://hamburgstrand.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

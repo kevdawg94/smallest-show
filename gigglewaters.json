@@ -1,0 +1,149 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "gigglewaters",
+ "name": "Gigglewaters",
+ "city": "tampa",
+ "area": "Safety Harbor",
+ "region": "Pinellas & Pasco",
+ "url": "https://tickets.gigglewaters.com/movies",
+ "films": [
+  {
+   "title": "Spaceballs",
+   "rating": "PG",
+   "runtime_min": 96,
+   "url": "https://tickets.gigglewaters.com/movies/spaceballs-2",
+   "shows": [
+    {
+     "at": "2026-11-21T10:30",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/spaceballs-2/st/680"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": true,
+     "url": "https://tickets.gigglewaters.com/movies/spaceballs-2/st/679"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": true,
+     "url": "https://tickets.gigglewaters.com/movies/spaceballs-2/st/678"
+    }
+   ]
+  },
+  {
+   "title": "Sixteen Candles",
+   "rating": "PG",
+   "runtime_min": 93,
+   "url": "https://tickets.gigglewaters.com/movies/sixteen-candles",
+   "shows": [
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/sixteen-candles/st/681"
+    },
+    {
+     "at": "2026-11-22T12:30",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/sixteen-candles/st/682"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/sixteen-candles/st/683"
+    },
+    {
+     "at": "2026-11-22T17:30",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/sixteen-candles/st/684"
+    }
+   ]
+  },
+  {
+   "title": "Casino Royale",
+   "rating": "PG-13",
+   "runtime_min": 144,
+   "url": "https://tickets.gigglewaters.com/movies/casino-royale",
+   "shows": [
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/casino-royale/st/685"
+    },
+    {
+     "at": "2026-11-23T15:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/casino-royale/st/687"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/casino-royale/st/686"
+    }
+   ]
+  },
+  {
+   "title": "Addams Family Values",
+   "rating": "PG-13",
+   "runtime_min": 94,
+   "url": "https://tickets.gigglewaters.com/movies/addams-family-values",
+   "shows": [
+    {
+     "at": "2026-11-25T12:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/addams-family-values/st/688"
+    },
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/addams-family-values/st/689"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/addams-family-values/st/690"
+    },
+    {
+     "at": "2026-11-25T20:15",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/addams-family-values/st/691"
+    }
+   ]
+  },
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": 92,
+   "url": "https://tickets.gigglewaters.com/movies/planes-trains-and-automobiles",
+   "shows": [
+    {
+     "at": "2026-11-26T11:30",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/planes-trains-and-automobiles/st/692"
+    },
+    {
+     "at": "2026-11-26T14:00",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/planes-trains-and-automobiles/st/695"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://tickets.gigglewaters.com/movies/planes-trains-and-automobiles/st/694"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": true,
+     "url": "https://tickets.gigglewaters.com/movies/planes-trains-and-automobiles/st/693"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

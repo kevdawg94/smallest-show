@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "naro",
+ "name": "Naro Expanded Cinema",
+ "city": "hamptonroads",
+ "area": "Ghent",
+ "region": "Norfolk",
+ "url": "https://www.narocinema.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.tickettailor.com/events/narocinema/2497009",
+   "shows": [
+    {
+     "at": "2026-11-21T13:30",
+     "sold_out": false,
+     "url": "https://www.tickettailor.com/checkout/view-event/id/9471302/chk/a6253c9dc78f212b35bff22c9629cd9e/"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://www.tickettailor.com/checkout/view-event/id/9471299/chk/ded0e007775ecc7ff15b872d7b0a840e/"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://www.tickettailor.com/checkout/view-event/id/9471305/chk/16668eab6843af70fbd7e1708417da32/"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://www.tickettailor.com/checkout/view-event/id/9471306/chk/f67dea89024d9518695bc8a6e51f0af0/"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://www.tickettailor.com/checkout/view-event/id/9471307/chk/d70660160d852f786633e6a5a7e6d4f5/"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.tickettailor.com/events/narocinema/2509454",
+   "shows": [
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://www.tickettailor.com/checkout/view-event/id/9471253/chk/90a95dedd0430a093fff892b3df97e38/"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://www.tickettailor.com/checkout/view-event/id/9471259/chk/9abf2efbac05fd8cef2bdb71850fe1a3/"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://www.tickettailor.com/checkout/view-event/id/9471261/chk/9e4e1f5a1280a899e18e0aa90a788831/"
+    },
+    {
+     "at": "2026-11-25T16:30",
+     "sold_out": false,
+     "url": "https://www.tickettailor.com/checkout/view-event/id/9471262/chk/20478a4a711c174383e667bca218ac83/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": true
+}

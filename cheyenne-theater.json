@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "cheyenne-theater",
+ "name": "Cheyenne Theater",
+ "city": "saintfrancis",
+ "area": "Saint Francis",
+ "region": "Saint Francis",
+ "url": "https://cheyennetheater.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://cheyennetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://cheyennetheater.com/"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://cheyennetheater.com/"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://cheyennetheater.com/"
+    },
+    {
+     "at": "2026-11-27T19:30",
+     "sold_out": false,
+     "url": "https://cheyennetheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

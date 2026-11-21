@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "showroom",
+ "name": "ShowRoom",
+ "city": "jerseyshore",
+ "area": "Asbury Park",
+ "region": "Monmouth Shore",
+ "url": "https://showroomcinemas.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271883/"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271885/"
+    }
+   ]
+  },
+  {
+   "title": "The Last Waltz",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271873/"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271875/"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271876/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "garden-theater-frankfort",
+ "name": "Garden Theater",
+ "city": "traversecity",
+ "area": "Frankfort",
+ "region": "Benzie",
+ "url": "https://gardentheater.org/",
+ "films": [
+  {
+   "title": "Sense and Sensibility",
+   "rating": "PG",
+   "runtime_min": 132,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666468~6a3269ca-7978-417d-9903-ca1548ad1f5e&",
+   "shows": [
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666470~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666471~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666472~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    }
+   ]
+  },
+  {
+   "title": "Little Women (1994)",
+   "rating": "PG",
+   "runtime_min": 115,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=665199~6a3269ca-7978-417d-9903-ca1548ad1f5e&",
+   "shows": [
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=665200~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

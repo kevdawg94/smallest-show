@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "alex",
+ "name": "Alex Theatre",
+ "city": "la",
+ "area": "Glendale",
+ "region": "Valley & Pasadena",
+ "url": "https://cinema.thealex.com/",
+ "films": [
+  {
+   "title": "Cameron Winter at Carnegie Hall",
+   "rating": null,
+   "runtime_min": 72,
+   "url": "https://cinema.thealex.com/movie/cameron-winter-at-carnegie-hall/",
+   "shows": [
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://cinema.thealex.com/checkout/showing/cameron-winter-at-carnegie-hall/4044250"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://cinema.thealex.com/checkout/showing/cameron-winter-at-carnegie-hall/4044251"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

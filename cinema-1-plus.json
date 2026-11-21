@@ -1,0 +1,714 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "cinema-1-plus",
+ "name": "Cinema 1 Plus",
+ "city": "stl",
+ "area": "Washington",
+ "region": "Washington",
+ "url": "http://www.cinema1plus.com/",
+ "films": [
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "http://www.cinema1plus.com/movie/Cinema1Plus/I-PLAY-ROCKY",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123595000049"
+    },
+    {
+     "at": "2026-11-21T13:45",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123583000016"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123578000016"
+    },
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123579000016"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123580000016"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123615000049"
+    },
+    {
+     "at": "2026-11-22T13:45",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123604000049"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123600000049"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123601000049"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123632000016"
+    },
+    {
+     "at": "2026-11-23T13:45",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123633000016"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123634000016"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123635000016"
+    },
+    {
+     "at": "2026-11-24T11:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123417000016"
+    },
+    {
+     "at": "2026-11-24T13:45",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123418000016"
+    },
+    {
+     "at": "2026-11-24T16:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123446000016"
+    },
+    {
+     "at": "2026-11-24T19:15",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123419000016"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123431000001"
+    },
+    {
+     "at": "2026-11-25T13:45",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123432000001"
+    },
+    {
+     "at": "2026-11-25T16:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123433000001"
+    },
+    {
+     "at": "2026-11-25T19:15",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123525000001"
+    },
+    {
+     "at": "2026-11-25T22:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123435000001"
+    },
+    {
+     "at": "2026-11-26T10:50",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123540000001"
+    },
+    {
+     "at": "2026-11-26T13:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123541000001"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123542000001"
+    },
+    {
+     "at": "2026-11-26T19:15",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123526000001"
+    },
+    {
+     "at": "2026-11-26T22:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/I-PLAY-ROCKY/RS485448259447-123535000001"
+    }
+   ]
+  },
+  {
+   "title": "The Polar Express",
+   "rating": "G",
+   "runtime_min": 100,
+   "url": "http://www.cinema1plus.com/movie/Cinema1Plus/THE-POLAR-EXPRESS",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/THE-POLAR-EXPRESS/RS903786722536-122932000016"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/THE-POLAR-EXPRESS/RS903786722536-123063000016"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/THE-POLAR-EXPRESS/RS903786722536-123064000016"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 126,
+   "url": "http://www.cinema1plus.com/movie/Cinema1Plus/EBENEZER",
+   "shows": [
+    {
+     "at": "2026-11-21T11:10",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123587000021"
+    },
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123594000021"
+    },
+    {
+     "at": "2026-11-21T16:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123588000021"
+    },
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123589000021"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123590000021"
+    },
+    {
+     "at": "2026-11-22T11:10",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123611000021"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123614000021"
+    },
+    {
+     "at": "2026-11-22T16:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123612000021"
+    },
+    {
+     "at": "2026-11-22T19:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123616000021"
+    },
+    {
+     "at": "2026-11-23T11:10",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123626000021"
+    },
+    {
+     "at": "2026-11-23T14:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123627000021"
+    },
+    {
+     "at": "2026-11-23T16:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123628000021"
+    },
+    {
+     "at": "2026-11-23T19:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123636000021"
+    },
+    {
+     "at": "2026-11-24T11:15",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123412000001"
+    },
+    {
+     "at": "2026-11-24T14:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123413000001"
+    },
+    {
+     "at": "2026-11-24T16:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123414000001"
+    },
+    {
+     "at": "2026-11-24T19:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123415000001"
+    },
+    {
+     "at": "2026-11-25T16:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123450000049"
+    },
+    {
+     "at": "2026-11-25T22:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123452000049"
+    },
+    {
+     "at": "2026-11-26T16:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123545000049"
+    },
+    {
+     "at": "2026-11-26T19:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123550000049"
+    },
+    {
+     "at": "2026-11-26T22:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/EBENEZER/RS266748737225-123547000049"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "http://www.cinema1plus.com/movie/Cinema1Plus/JIMMY",
+   "shows": [
+    {
+     "at": "2026-11-21T11:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/JIMMY/RS763223622480-123576000001"
+    },
+    {
+     "at": "2026-11-21T16:45",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/JIMMY/RS763223622480-123582000001"
+    },
+    {
+     "at": "2026-11-22T11:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/JIMMY/RS763223622480-123598000001"
+    },
+    {
+     "at": "2026-11-22T16:45",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/JIMMY/RS763223622480-123603000001"
+    },
+    {
+     "at": "2026-11-23T11:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/JIMMY/RS763223622480-123622000001"
+    },
+    {
+     "at": "2026-11-23T16:45",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/JIMMY/RS763223622480-123624000001"
+    },
+    {
+     "at": "2026-11-24T11:15",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/JIMMY/RS763223622480-123408000021"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 165,
+   "url": "http://www.cinema1plus.com/movie/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING",
+   "shows": [
+    {
+     "at": "2026-11-21T11:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-122473000011"
+    },
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-122474000011"
+    },
+    {
+     "at": "2026-11-21T18:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-122475000011"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123832000049"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-122476000011"
+    },
+    {
+     "at": "2026-11-22T11:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-122477000011"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-122478000011"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-122479000011"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123833000016"
+    },
+    {
+     "at": "2026-11-23T11:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123621000011"
+    },
+    {
+     "at": "2026-11-23T15:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123620000011"
+    },
+    {
+     "at": "2026-11-23T18:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123619000011"
+    },
+    {
+     "at": "2026-11-24T11:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-122485000011"
+    },
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-122486000011"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-122487000011"
+    },
+    {
+     "at": "2026-11-25T11:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123436000011"
+    },
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123437000011"
+    },
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123438000011"
+    },
+    {
+     "at": "2026-11-25T22:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123439000011"
+    },
+    {
+     "at": "2026-11-26T11:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123536000011"
+    },
+    {
+     "at": "2026-11-26T15:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123537000011"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123538000011"
+    },
+    {
+     "at": "2026-11-26T22:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HUNGER-GAMES-SUNRISE--ON-THE-REAPING/RS976957520018-123539000011"
+    }
+   ]
+  },
+  {
+   "title": "Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 117,
+   "url": "http://www.cinema1plus.com/movie/Cinema1Plus/CAT-IN-THE-HAT",
+   "shows": [
+    {
+     "at": "2026-11-21T13:50",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123593000049"
+    },
+    {
+     "at": "2026-11-21T16:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123585000049"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123617000016"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123610000016"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123629000049"
+    },
+    {
+     "at": "2026-11-23T13:50",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123630000049"
+    },
+    {
+     "at": "2026-11-23T16:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123637000049"
+    },
+    {
+     "at": "2026-11-23T19:10",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123631000049"
+    },
+    {
+     "at": "2026-11-24T11:10",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123421000049"
+    },
+    {
+     "at": "2026-11-24T13:45",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123422000049"
+    },
+    {
+     "at": "2026-11-24T16:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123423000049"
+    },
+    {
+     "at": "2026-11-24T19:10",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/CAT-IN-THE-HAT/RS857229757820-123424000049"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "http://www.cinema1plus.com/movie/Cinema1Plus/DRUMMER-BOY",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/DRUMMER-BOY/RS27245267941-123577000001"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/DRUMMER-BOY/RS27245267941-123599000001"
+    },
+    {
+     "at": "2026-11-23T14:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/DRUMMER-BOY/RS27245267941-123623000001"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 122,
+   "url": "http://www.cinema1plus.com/movie/Cinema1Plus/HOW-TO-ROB-A-BANK",
+   "shows": [
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HOW-TO-ROB-A-BANK/RS431508106539-123584000001"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HOW-TO-ROB-A-BANK/RS431508106539-123592000001"
+    },
+    {
+     "at": "2026-11-22T19:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HOW-TO-ROB-A-BANK/RS431508106539-123605000001"
+    },
+    {
+     "at": "2026-11-23T19:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HOW-TO-ROB-A-BANK/RS431508106539-123625000001"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 103,
+   "url": "http://www.cinema1plus.com/movie/Cinema1Plus/HEXED",
+   "shows": [
+    {
+     "at": "2026-11-24T14:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-122091000021"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123410000021"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123426000016"
+    },
+    {
+     "at": "2026-11-25T13:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123427000016"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123428000016"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123489000049"
+    },
+    {
+     "at": "2026-11-25T21:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123430000016"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123527000016"
+    },
+    {
+     "at": "2026-11-26T13:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123528000016"
+    },
+    {
+     "at": "2026-11-26T16:10",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123529000016"
+    },
+    {
+     "at": "2026-11-26T18:40",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123546000016"
+    },
+    {
+     "at": "2026-11-26T21:10",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/HEXED/RS337475847986-123533000016"
+    }
+   ]
+  },
+  {
+   "title": "Focker in Law",
+   "rating": "PG-13",
+   "runtime_min": 111,
+   "url": "http://www.cinema1plus.com/movie/Cinema1Plus/FOCKER-IN-LAW",
+   "shows": [
+    {
+     "at": "2026-11-25T11:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/FOCKER-IN-LAW/RS100964238025-123484000021"
+    },
+    {
+     "at": "2026-11-25T13:45",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/FOCKER-IN-LAW/RS100964238025-123485000021"
+    },
+    {
+     "at": "2026-11-25T16:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/FOCKER-IN-LAW/RS100964238025-123486000021"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/FOCKER-IN-LAW/RS100964238025-123487000021"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/FOCKER-IN-LAW/RS100964238025-123447000021"
+    },
+    {
+     "at": "2026-11-26T11:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/FOCKER-IN-LAW/RS100964238025-123530000021"
+    },
+    {
+     "at": "2026-11-26T13:50",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/FOCKER-IN-LAW/RS100964238025-123531000021"
+    },
+    {
+     "at": "2026-11-26T16:20",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/FOCKER-IN-LAW/RS100964238025-123532000021"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/FOCKER-IN-LAW/RS100964238025-123548000021"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "http://www.cinema1plus.com/movies/Cinema1Plus/FOCKER-IN-LAW/RS100964238025-123534000021"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

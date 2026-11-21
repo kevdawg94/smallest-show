@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "normal-theater",
+ "name": "Normal Theater",
+ "city": "peoria",
+ "area": "Uptown Normal",
+ "region": "Bloomington–Normal",
+ "url": "https://www.normaltheater.com/",
+ "films": [
+  {
+   "title": "Ken Russell's The Devils (2026)",
+   "rating": "NC-17",
+   "runtime_min": 114,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=588567~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588570~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588571~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=466431~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588682~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588683~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588684~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,96 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "morris-theatre",
+ "name": "Morris Theatre",
+ "city": "msp",
+ "area": "Morris",
+ "region": "Western Minnesota",
+ "url": "https://morristheatre.net/",
+ "films": [
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ns6gdetcv1d6wrqwkt0789kgw8",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9078?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9088?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9079?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ns6gdetcv1d6wrqwkt0789kgw8",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9081?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9087?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9082?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9083?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    }
+   ]
+  },
+  {
+   "title": "Star Trek: First Contact",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ns6gdetcv1d6wrqwkt0789kgw8",
+   "shows": [
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9058?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ns6gdetcv1d6wrqwkt0789kgw8",
+   "shows": [
+    {
+     "at": "2026-11-25T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9084?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,763 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "paramount-kankakee",
+ "name": "Paramount",
+ "city": "chicago",
+ "area": "Kankakee, IL",
+ "region": "Illinois Valley & Kankakee",
+ "url": "https://www.classiccinemas.com/program?location=paramount",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://www.classiccinemas.com/f/the-cat-in-the-hat/2697",
+   "shows": [
+    {
+     "at": "2026-11-21T10:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/c1ebe387-f79a-41b1-9ef2-efba95a5e18a"
+    },
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/ca79c9d1-059b-43e0-8b03-4dfdd6fa920c"
+    },
+    {
+     "at": "2026-11-21T15:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/465d5627-b02b-4b5d-8858-386150178646"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/9a04a4ab-6a15-4f96-85a7-7441f970c5c2"
+    },
+    {
+     "at": "2026-11-21T20:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/f5ccccb7-15b8-4498-90f8-4c1b9d4af319"
+    },
+    {
+     "at": "2026-11-22T10:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/4281bb61-0e63-4be1-a7a3-59a90612311b"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/cd563fd4-33ae-4ec4-b1dc-7c8491fbcef3"
+    },
+    {
+     "at": "2026-11-22T15:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/eff4f540-c6b8-479e-a6b1-3e945470f1e1"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/844f45c1-12bf-4685-bee0-2015689fa3ef"
+    },
+    {
+     "at": "2026-11-22T20:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/165f9ed5-1fd0-41ea-a315-2434d4978814"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/cfdc4a96-935a-4114-a6a4-a20a956043b3"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/8548729a-35f4-4896-aa89-269f0ce74929"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/650c38b8-6531-48d0-96c2-2af5b6937ee1"
+    },
+    {
+     "at": "2026-11-23T20:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/6fd1c32d-a4b9-436c-aaa3-d146048807dd"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.classiccinemas.com/f/drummer-boy/2705",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/59c2200a-146a-48ed-92a1-fa38050b611d"
+    },
+    {
+     "at": "2026-11-21T13:45",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/fb88adcf-9144-415e-b9d1-bd27743d5366"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/ef21c7bb-d57d-4fc9-ba5c-5a5f8cdd1567"
+    },
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/e1596421-3df8-4305-a56c-ea25a91ae511"
+    },
+    {
+     "at": "2026-11-21T22:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/be52b402-2b74-4fd6-863d-eba6f6fc7a42"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/55754c7b-ba4b-46d2-83b2-06ebccddff80"
+    },
+    {
+     "at": "2026-11-22T13:45",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/b7f913e5-af4f-4eff-ac0a-06509c515e9f"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/4185e8a7-74e4-41ec-8ec2-3b69cc4a269b"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/d462f27f-168b-4dec-bee5-31b328685543"
+    },
+    {
+     "at": "2026-11-22T22:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/5c1262c3-337d-4c85-a0c3-5459f7e675fd"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/54c9b851-e569-482b-a731-3bedc17dd286"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/313f2f85-d274-40b8-8166-8bd9d13bd2b2"
+    },
+    {
+     "at": "2026-11-23T22:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/1d83d5b6-22fa-4447-8c71-97dfb34debd2"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://www.classiccinemas.com/f/ghost-soldier/2733",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/6f26a1cd-899c-42b4-aa11-d2c71c3641b2"
+    },
+    {
+     "at": "2026-11-21T13:05",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/637c7cb5-1564-43b1-a250-38edd7e22774"
+    },
+    {
+     "at": "2026-11-21T15:10",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/2fae6c18-70c8-4615-85cb-1c301c16d63b"
+    },
+    {
+     "at": "2026-11-21T17:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/7610b4c8-69c4-4e88-bb5a-d305d0b77e3a"
+    },
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/67388101-1dbc-4790-8b39-7c2932b5a426"
+    },
+    {
+     "at": "2026-11-21T21:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/1ca7de23-21e3-4003-bfe7-561268f7c0ef"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/4a9f0fd8-c15d-4554-9c07-c7d0e931a2f1"
+    },
+    {
+     "at": "2026-11-22T13:05",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/eb60ebc2-3a66-402a-863f-c3a9510a94c7"
+    },
+    {
+     "at": "2026-11-22T15:10",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/019ac3a9-5a91-4125-965a-52a0b0ffdaed"
+    },
+    {
+     "at": "2026-11-22T17:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/847f8f8d-9d1f-4352-86bc-f4f9622c17c9"
+    },
+    {
+     "at": "2026-11-22T19:20",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/63496c05-978d-42c9-8b65-a9fdacbebd51"
+    },
+    {
+     "at": "2026-11-22T21:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/a50406c9-52ca-4415-9634-24e5aa14a4b4"
+    },
+    {
+     "at": "2026-11-23T13:05",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/d35e0f02-6a2b-4b2e-8505-0b3b78c9c0de"
+    },
+    {
+     "at": "2026-11-23T15:10",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/188f2db5-4a31-4127-a2ca-82ba456e9772"
+    },
+    {
+     "at": "2026-11-23T17:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/1f592dcf-482d-45ad-bdad-45a5d67876d4"
+    },
+    {
+     "at": "2026-11-23T19:20",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/d432e086-ee8a-45ad-8a42-abf4eec97752"
+    },
+    {
+     "at": "2026-11-23T21:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/98935ce4-c211-43d9-ae53-0da26e877543"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.classiccinemas.com/f/wild-horse-nine/2690",
+   "shows": [
+    {
+     "at": "2026-11-21T11:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/ba6defee-22d2-4a73-b228-a01ef1a5e56a"
+    },
+    {
+     "at": "2026-11-21T13:50",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/38419ee4-e163-4a87-a9ca-316971e5c601"
+    },
+    {
+     "at": "2026-11-21T16:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/00a51b43-d7cc-43a9-8aea-e785bf3e0473"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/28f4f062-2cce-49f1-849f-66996c805e87"
+    },
+    {
+     "at": "2026-11-21T21:35",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/ac2e4a4d-8731-4685-a56b-5d2b61f243f4"
+    },
+    {
+     "at": "2026-11-22T11:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/45cc8052-51e2-42e0-9c8d-77ceeaac619c"
+    },
+    {
+     "at": "2026-11-22T13:50",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/f723c20c-99ec-458c-bbe5-19bdc6feec5a"
+    },
+    {
+     "at": "2026-11-22T16:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/3ff2066d-169b-4f6b-af13-f49c7de4a9eb"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/1c43d8ca-d754-4b14-a5a2-5679aa6927db"
+    },
+    {
+     "at": "2026-11-22T21:35",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/a109e4e3-1028-4975-9e32-b3135ff198f8"
+    },
+    {
+     "at": "2026-11-23T11:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/40bb3708-9eb7-4336-9332-12a20c181dcb"
+    },
+    {
+     "at": "2026-11-23T13:50",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/92262b44-9966-439c-bcba-4fbd6838b9ab"
+    },
+    {
+     "at": "2026-11-23T16:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/88873447-9776-4de2-9945-cc4f7219314c"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/aaf72569-6e83-4150-a289-3966b09a7e30"
+    },
+    {
+     "at": "2026-11-23T21:35",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/d0956ac9-657b-4a9d-be28-4db8f1c56702"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.classiccinemas.com/f/the-hunger-games-sunrise-on-the-reaping/2702",
+   "shows": [
+    {
+     "at": "2026-11-21T11:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/16432300-cefd-429a-9711-d58e9df19216"
+    },
+    {
+     "at": "2026-11-21T14:45",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/655f4dfd-6d32-4255-bab0-c0b0af8bf07f"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/4524fefb-c10f-46e7-9e64-7410c66f9a71"
+    },
+    {
+     "at": "2026-11-21T21:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/fba01ec6-1e3e-45d2-90dc-729ffb16711a"
+    },
+    {
+     "at": "2026-11-22T11:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/b360ea1c-2f1e-44d8-83e5-5e7f24c1f266"
+    },
+    {
+     "at": "2026-11-22T14:45",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/a34e67f7-ddd8-41b3-a226-a0c39b7c4bd0"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/4e46e218-9fd6-4f18-b02a-b61918ae9023"
+    },
+    {
+     "at": "2026-11-22T21:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/4dd85b57-0523-498f-b9f0-fee950ce13bb"
+    },
+    {
+     "at": "2026-11-23T11:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/112dbfbf-ab03-417a-bd63-714b6a49b63b"
+    },
+    {
+     "at": "2026-11-23T14:45",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/dfc4906f-ab15-4b25-b186-eaeca8e82367"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/553ce8bb-9306-463e-8bd7-616297cf19dd"
+    },
+    {
+     "at": "2026-11-23T21:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/92635bb6-1b1e-4396-bddd-b3797f485783"
+    },
+    {
+     "at": "2026-11-24T11:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/f6178ec4-71ca-4320-b341-161bdfeaf669"
+    },
+    {
+     "at": "2026-11-24T14:45",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/56fd20e1-d503-4c5f-b277-2e5dabe35997"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/ccf76094-e067-4caa-ac0c-107cb2b22432"
+    },
+    {
+     "at": "2026-11-24T21:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/ee8ed3ac-c5d9-4f1d-9218-559429e6ba06"
+    },
+    {
+     "at": "2026-11-25T11:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/6544ba65-305b-44a5-ae73-f04615898721"
+    },
+    {
+     "at": "2026-11-25T14:45",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/fbe013df-baa5-4c39-8013-17a9607e4c3b"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/32b9211b-52b4-407f-bc88-676cd48cfaa0"
+    },
+    {
+     "at": "2026-11-25T21:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/f16a7435-3dbb-4023-9729-ac1da5929a64"
+    },
+    {
+     "at": "2026-11-26T18:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/a24dffb3-d233-4dd3-badb-d21570c0c115"
+    },
+    {
+     "at": "2026-11-26T21:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/a47e70f1-7822-45c4-a5e4-c200f1c51bdb"
+    },
+    {
+     "at": "2026-11-27T11:30",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/8c38ac16-e981-42ae-8d67-04107c477803"
+    },
+    {
+     "at": "2026-11-27T14:45",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/a074baa0-8034-4ffc-8aae-6a0312fc77d0"
+    },
+    {
+     "at": "2026-11-27T18:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/9d6b71b6-c6b2-4ea7-8c74-873aadc01289"
+    },
+    {
+     "at": "2026-11-27T21:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/82fa2151-1821-4218-aaf7-d67d99698e8e"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://www.classiccinemas.com/f/hershey/2742",
+   "shows": [
+    {
+     "at": "2026-11-24T10:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/1e1bd7ed-7010-4f83-bc1c-1c838500caac"
+    },
+    {
+     "at": "2026-11-24T12:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/f8558ee0-0aa3-4cbb-88db-6cbeee31fd44"
+    },
+    {
+     "at": "2026-11-24T14:50",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/26c75944-9041-4667-b00b-06aa417381fa"
+    },
+    {
+     "at": "2026-11-24T17:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/399d11ee-7ba9-4912-a8e0-e4ea99619825"
+    },
+    {
+     "at": "2026-11-24T19:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/d04b6221-f666-479c-91c6-3c859b2420f0"
+    },
+    {
+     "at": "2026-11-24T22:05",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/99b0bee9-0492-44cc-acd0-4b2ac35a5e81"
+    },
+    {
+     "at": "2026-11-25T10:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/e4704952-8ba1-4524-9538-8d63a2042eea"
+    },
+    {
+     "at": "2026-11-25T12:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/7423c2a1-c06c-47ca-8839-6fd8c352705d"
+    },
+    {
+     "at": "2026-11-25T14:50",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/7cea2e23-5f41-4471-978a-8c3c77e9a174"
+    },
+    {
+     "at": "2026-11-25T17:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/5eb46c76-f84e-457a-a2d2-702c51d64991"
+    },
+    {
+     "at": "2026-11-25T19:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/94b1420e-ff2a-43eb-a7a2-64168849bfa5"
+    },
+    {
+     "at": "2026-11-25T22:05",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/fa5e0c88-1b7a-4c1c-88c8-b4ca2a71a857"
+    },
+    {
+     "at": "2026-11-26T17:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/5adc59b2-c17d-457a-80da-2ec6c560e44c"
+    },
+    {
+     "at": "2026-11-26T19:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/389ebc2d-2fdf-4ac7-9518-019a1e688617"
+    },
+    {
+     "at": "2026-11-26T22:05",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/673993d3-9f85-417b-95f4-24126092399a"
+    },
+    {
+     "at": "2026-11-27T10:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/198adbb4-d4b9-4206-8bad-4806810440d9"
+    },
+    {
+     "at": "2026-11-27T12:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/69a52f3e-941d-49e6-9de8-09e9492bf731"
+    },
+    {
+     "at": "2026-11-27T14:50",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/b4bb5445-1ce3-4386-956b-0863a11de38b"
+    },
+    {
+     "at": "2026-11-27T17:15",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/27a58f77-35bc-44c2-ad63-e976c403c3bb"
+    },
+    {
+     "at": "2026-11-27T19:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/f1a98d8f-a136-4ca0-8000-369633b6941a"
+    },
+    {
+     "at": "2026-11-27T22:05",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/3c4d1722-5f0a-4537-99e1-0d90040eaff9"
+    }
+   ]
+  },
+  {
+   "title": "Disney's Hexed",
+   "rating": "PG",
+   "runtime_min": 99,
+   "url": "https://www.classiccinemas.com/f/disneys-hexed/2701",
+   "shows": [
+    {
+     "at": "2026-11-24T15:10",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/87be4b4e-ab90-4725-b519-0353957d5ec0"
+    },
+    {
+     "at": "2026-11-24T17:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/a9722058-7b0e-4fcf-a4c6-7131bbb6f804"
+    },
+    {
+     "at": "2026-11-24T19:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/e0d0cc78-47b1-4063-9732-535898e448d4"
+    },
+    {
+     "at": "2026-11-24T21:55",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/1e3ebd9e-54df-462f-92ca-19a23122ba7a"
+    },
+    {
+     "at": "2026-11-25T11:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/7895b8a3-2dc6-4295-8f74-61b16922880b"
+    },
+    {
+     "at": "2026-11-25T13:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/db377afa-3f9c-42cd-8e0a-569998c6a6a1"
+    },
+    {
+     "at": "2026-11-25T15:55",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/8d48cf18-3394-4894-88ec-ea0ee9a2ef2b"
+    },
+    {
+     "at": "2026-11-25T18:10",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/290ac9de-20a6-4bfb-a853-1c0e4f6aede9"
+    },
+    {
+     "at": "2026-11-25T20:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/9d42879a-1649-4698-a106-6c036fef1590"
+    },
+    {
+     "at": "2026-11-26T15:55",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/c371f635-9a19-4bd1-b8d6-d57413380c6c"
+    },
+    {
+     "at": "2026-11-26T18:10",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/8f3b8ea8-9d64-413d-b189-4c8389564b41"
+    },
+    {
+     "at": "2026-11-26T20:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/215ca826-1d36-41c9-8e8e-3531825456a1"
+    },
+    {
+     "at": "2026-11-27T11:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/517d9153-bfe3-469e-8594-4a695a587a48"
+    },
+    {
+     "at": "2026-11-27T13:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/16a95e49-44f8-4ba2-9eb6-b824f0147cdb"
+    },
+    {
+     "at": "2026-11-27T15:55",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/25fb1818-3c7e-4af6-b8f6-c7da97517348"
+    },
+    {
+     "at": "2026-11-27T18:10",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/41e13d2f-fdbc-440c-b061-b959abfd15f5"
+    },
+    {
+     "at": "2026-11-27T20:25",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/46493645-d549-433f-890d-b24b0dd57c51"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.classiccinemas.com/f/focker-in-law/2734",
+   "shows": [
+    {
+     "at": "2026-11-25T11:20",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/ba1408d9-2ae7-41fe-b9bf-2f5c04dae90a"
+    },
+    {
+     "at": "2026-11-25T13:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/e1ee0e34-12b9-4aca-829c-72deede87c5c"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/3f8d3ea4-c827-471e-8241-7d6e2632005a"
+    },
+    {
+     "at": "2026-11-25T18:20",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/c3e5c70d-3582-4cf8-bea4-078dccade843"
+    },
+    {
+     "at": "2026-11-25T20:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/6959b5d4-7669-4426-83ab-22d7ee5d5146"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/2ac29795-db1b-4872-8171-21c013e3eec2"
+    },
+    {
+     "at": "2026-11-26T18:20",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/011383e0-4131-4e9d-bf36-0e0fdf5f80d2"
+    },
+    {
+     "at": "2026-11-26T20:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/036ca7fd-60d0-482c-b816-9fc45d3c922d"
+    },
+    {
+     "at": "2026-11-27T11:20",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/c30dd072-10ab-44bb-9e82-6fe6e56b24d9"
+    },
+    {
+     "at": "2026-11-27T13:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/664c9bcd-98bd-4d6b-a06e-2afe0e8fd6af"
+    },
+    {
+     "at": "2026-11-27T16:00",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/07bf3a3d-04c7-47ea-9f0d-6a22c2d3f49a"
+    },
+    {
+     "at": "2026-11-27T18:20",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/50bfe03b-3057-4419-9623-54d7b709288f"
+    },
+    {
+     "at": "2026-11-27T20:40",
+     "sold_out": false,
+     "url": "https://www.classiccinemas.com/showtime/8d5a33de-dc30-4002-a465-8277c7e2f437"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

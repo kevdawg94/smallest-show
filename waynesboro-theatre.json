@@ -1,0 +1,94 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "waynesboro-theatre",
+ "name": "Waynesboro Theatre",
+ "city": "hagerstown",
+ "area": "Waynesboro",
+ "region": "Hagerstown & Waynesboro",
+ "url": "https://www.waynesborotheatre.org/",
+ "films": [
+  {
+   "title": "Forgotten Island",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://www.waynesborotheatre.org/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/forgotten-island-saturday"
+    }
+   ]
+  },
+  {
+   "title": "Heart of the Beast",
+   "rating": "PG-13",
+   "runtime_min": 101,
+   "url": "https://www.waynesborotheatre.org/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/heart-of-the-beast-saturday"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/heart-of-the-beast-sunday"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.waynesborotheatre.org/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/jimmy-november--22"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://www.waynesborotheatre.org/coming-soon",
+   "shows": [
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/hershey-wednesday"
+    },
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/hershey-friday"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://www.waynesborotheatre.org/coming-soon",
+   "shows": [
+    {
+     "at": "2026-11-27T16:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/the-cat-in-the-hat-friday"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

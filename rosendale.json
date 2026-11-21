@@ -1,0 +1,89 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "rosendale",
+ "name": "Rosendale Theatre",
+ "city": "hudsonvalley",
+ "area": "Rosendale",
+ "region": "Kingston, Woodstock & New Paltz",
+ "url": "https://rosendaletheatre.org/",
+ "films": [
+  {
+   "title": "Planes, Trains and Automobiles (1987)",
+   "rating": null,
+   "runtime_min": 92,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/35488/"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/35442/"
+    }
+   ]
+  },
+  {
+   "title": "BearCity",
+   "rating": null,
+   "runtime_min": 103,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/12727/"
+    }
+   ]
+  },
+  {
+   "title": "Main Street Matinees: The Nightmare Before Christmas",
+   "rating": null,
+   "runtime_min": 76,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/24000/"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-25T14:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/47615/"
+    }
+   ]
+  },
+  {
+   "title": "WTF Wednesday: Dark City (Director's Cut)",
+   "rating": "NR",
+   "runtime_min": 111,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/48102/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

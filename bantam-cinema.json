@@ -1,0 +1,121 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "bantam-cinema",
+ "name": "Bantam Cinema",
+ "city": "fairfieldct",
+ "area": "Bantam",
+ "region": "Litchfield Hills & Naugatuck Valley",
+ "url": "https://www.bantamcinema.org/",
+ "films": [
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cvgaebq9wt3ffwh6zsv1q54050",
+   "shows": [
+    {
+     "at": "2026-11-21T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5792?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    },
+    {
+     "at": "2026-11-21T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5793?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5794?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5797?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    },
+    {
+     "at": "2026-11-22T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5798?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5799?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cvgaebq9wt3ffwh6zsv1q54050",
+   "shows": [
+    {
+     "at": "2026-11-21T13:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5790?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    },
+    {
+     "at": "2026-11-21T17:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5791?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    },
+    {
+     "at": "2026-11-22T13:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5795?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    },
+    {
+     "at": "2026-11-22T17:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5796?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    }
+   ]
+  },
+  {
+   "title": "Paper Tiger",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cvgaebq9wt3ffwh6zsv1q54050",
+   "shows": [
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5800?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5849?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    }
+   ]
+  },
+  {
+   "title": "Focker-in-Law",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=cvgaebq9wt3ffwh6zsv1q54050",
+   "shows": [
+    {
+     "at": "2026-11-25T19:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5782?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    },
+    {
+     "at": "2026-11-26T19:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5848?siteToken=cvgaebq9wt3ffwh6zsv1q54050"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "playhouse-randolph",
+ "name": "Playhouse Movie Theatre",
+ "city": "uppervalley",
+ "area": "Randolph",
+ "region": "Randolph",
+ "url": "https://playhouseflicks.com/showtimes/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://playhouseflicks.com/showtime/the-hunger-games/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/the-hunger-games/"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/the-hunger-games-2/"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/the-hunger-games-3/"
+    },
+    {
+     "at": "2026-11-26T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/the-hunger-games-4/"
+    },
+    {
+     "at": "2026-11-27T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/the-hunger-games-5/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "cinema-under-the-stars",
+ "name": "Cinema Under the Stars",
+ "city": "sandiego",
+ "area": "Mission Hills",
+ "region": "City",
+ "url": "https://www.topspresents.com/films.php",
+ "films": [
+  {
+   "title": "Vertigo",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.topspresents.com/films.php",
+   "shows": [
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://www.topspresents.com/films.php"
+    }
+   ]
+  },
+  {
+   "title": "Fatal Attraction",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.topspresents.com/films.php",
+   "shows": [
+    {
+     "at": "2026-11-27T20:00",
+     "sold_out": false,
+     "url": "https://www.topspresents.com/films.php"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

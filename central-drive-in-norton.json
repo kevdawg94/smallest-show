@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "central-drive-in-norton",
+ "name": "Central Drive-In",
+ "city": "bristol",
+ "area": "Norton, VA",
+ "region": "Norton",
+ "url": "https://www.nortoncinema.com/theaters/x061v-central-drive-in-norton",
+ "films": [
+  {
+   "title": "Fall 2: Deadpoint",
+   "rating": "PG-13",
+   "runtime_min": 100,
+   "url": "https://www.nortoncinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T17:45",
+     "sold_out": false,
+     "url": "https://internet-ticketing.com/websales/sales/CENNOR/book?perfcode=50904"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.nortoncinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T17:45",
+     "sold_out": false,
+     "url": "https://internet-ticketing.com/websales/sales/CENNOR/book?perfcode=50904"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,656 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "mariemont",
+ "name": "Mariemont",
+ "city": "cincinnati",
+ "area": "Mariemont",
+ "region": "Eastside",
+ "url": "https://www.mariemonttheatre.org/",
+ "films": [
+  {
+   "title": "Ratatouille",
+   "rating": "G",
+   "runtime_min": 111,
+   "url": "https://mariemonttheatre.org/movie/ratatouille/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/ratatouille/4183913"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/ratatouille/4183914"
+    },
+    {
+     "at": "2026-11-23T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/ratatouille/4183915"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/ratatouille/4183916"
+    },
+    {
+     "at": "2026-11-24T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/ratatouille/4183917"
+    },
+    {
+     "at": "2026-11-24T13:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/ratatouille/4183918"
+    },
+    {
+     "at": "2026-11-25T10:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/ratatouille/4183919"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/ratatouille/4183920"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 127,
+   "url": "https://mariemonttheatre.org/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265849"
+    },
+    {
+     "at": "2026-11-21T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265850"
+    },
+    {
+     "at": "2026-11-21T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265851"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265852"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265799"
+    },
+    {
+     "at": "2026-11-22T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265800"
+    },
+    {
+     "at": "2026-11-22T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265801"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265802"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265809"
+    },
+    {
+     "at": "2026-11-23T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265810"
+    },
+    {
+     "at": "2026-11-23T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265811"
+    },
+    {
+     "at": "2026-11-23T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265812"
+    },
+    {
+     "at": "2026-11-24T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265819"
+    },
+    {
+     "at": "2026-11-24T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265820"
+    },
+    {
+     "at": "2026-11-24T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265821"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265822"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265829"
+    },
+    {
+     "at": "2026-11-25T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265830"
+    },
+    {
+     "at": "2026-11-25T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265831"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265832"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265839"
+    },
+    {
+     "at": "2026-11-26T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265840"
+    },
+    {
+     "at": "2026-11-26T16:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265841"
+    },
+    {
+     "at": "2026-11-26T19:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/i-play-rocky/4265842"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://mariemonttheatre.org/movie/jimmy/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4350700"
+    },
+    {
+     "at": "2026-11-21T13:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4285276"
+    },
+    {
+     "at": "2026-11-21T16:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4311904"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4311905"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4350699"
+    },
+    {
+     "at": "2026-11-22T13:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4285266"
+    },
+    {
+     "at": "2026-11-23T16:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4311902"
+    },
+    {
+     "at": "2026-11-24T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4285270"
+    },
+    {
+     "at": "2026-11-24T16:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4354479"
+    },
+    {
+     "at": "2026-11-25T16:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4328324"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4328327"
+    },
+    {
+     "at": "2026-11-26T13:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4328325"
+    },
+    {
+     "at": "2026-11-26T16:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/jimmy/4328326"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 117,
+   "url": "https://mariemonttheatre.org/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233027"
+    },
+    {
+     "at": "2026-11-21T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233028"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233029"
+    },
+    {
+     "at": "2026-11-21T19:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233030"
+    },
+    {
+     "at": "2026-11-22T11:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233032"
+    },
+    {
+     "at": "2026-11-22T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233033"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233034"
+    },
+    {
+     "at": "2026-11-22T19:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233035"
+    },
+    {
+     "at": "2026-11-23T11:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233036"
+    },
+    {
+     "at": "2026-11-23T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233037"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233038"
+    },
+    {
+     "at": "2026-11-23T19:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233039"
+    },
+    {
+     "at": "2026-11-24T11:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233040"
+    },
+    {
+     "at": "2026-11-24T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233041"
+    },
+    {
+     "at": "2026-11-24T16:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233042"
+    },
+    {
+     "at": "2026-11-24T19:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233043"
+    },
+    {
+     "at": "2026-11-25T11:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233044"
+    },
+    {
+     "at": "2026-11-25T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233045"
+    },
+    {
+     "at": "2026-11-25T16:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233046"
+    },
+    {
+     "at": "2026-11-25T19:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233047"
+    },
+    {
+     "at": "2026-11-26T11:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233048"
+    },
+    {
+     "at": "2026-11-26T13:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233049"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233050"
+    },
+    {
+     "at": "2026-11-26T19:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/wild-horse-nine/4233051"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://mariemonttheatre.org/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265853"
+    },
+    {
+     "at": "2026-11-21T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265854"
+    },
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265855"
+    },
+    {
+     "at": "2026-11-22T11:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265806"
+    },
+    {
+     "at": "2026-11-22T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265807"
+    },
+    {
+     "at": "2026-11-22T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265808"
+    },
+    {
+     "at": "2026-11-23T11:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265816"
+    },
+    {
+     "at": "2026-11-23T15:30",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265817"
+    },
+    {
+     "at": "2026-11-23T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265818"
+    },
+    {
+     "at": "2026-11-24T11:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265826"
+    },
+    {
+     "at": "2026-11-24T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265828"
+    },
+    {
+     "at": "2026-11-25T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265838"
+    },
+    {
+     "at": "2026-11-26T19:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/you-can-see-everything/4265848"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 155,
+   "url": "https://mariemonttheatre.org/movie/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4233059"
+    },
+    {
+     "at": "2026-11-21T15:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4233060"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4233061"
+    },
+    {
+     "at": "2026-11-22T12:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4265803"
+    },
+    {
+     "at": "2026-11-22T15:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4265804"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4265805"
+    },
+    {
+     "at": "2026-11-23T12:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4285268"
+    },
+    {
+     "at": "2026-11-23T15:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4265814"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/la-bola-negra/4265815"
+    }
+   ]
+  },
+  {
+   "title": "\"Food on Film: The Main Meal\"",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://mariemonttheatre.org/movie/food-on-film-the-main-meal/",
+   "shows": [
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/food-on-film-the-main-meal/4245535"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": "R",
+   "runtime_min": 126,
+   "url": "https://mariemonttheatre.org/movie/club-kid/",
+   "shows": [
+    {
+     "at": "2026-11-24T14:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4285269"
+    },
+    {
+     "at": "2026-11-24T16:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4284215"
+    },
+    {
+     "at": "2026-11-24T19:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4284216"
+    },
+    {
+     "at": "2026-11-25T11:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4284227"
+    },
+    {
+     "at": "2026-11-25T14:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4284226"
+    },
+    {
+     "at": "2026-11-25T16:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4284225"
+    },
+    {
+     "at": "2026-11-25T19:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4284220"
+    },
+    {
+     "at": "2026-11-26T11:10",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4284235"
+    },
+    {
+     "at": "2026-11-26T14:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4284234"
+    },
+    {
+     "at": "2026-11-26T16:50",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4284233"
+    },
+    {
+     "at": "2026-11-26T19:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/club-kid/4284228"
+    }
+   ]
+  },
+  {
+   "title": "Elsinore",
+   "rating": "R",
+   "runtime_min": 111,
+   "url": "https://mariemonttheatre.org/movie/elsinore/",
+   "shows": [
+    {
+     "at": "2026-11-24T16:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/elsinore/4284218"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/elsinore/4284219"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/elsinore/4284224"
+    },
+    {
+     "at": "2026-11-25T13:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/elsinore/4284223"
+    },
+    {
+     "at": "2026-11-25T16:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/elsinore/4284222"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/elsinore/4284221"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/elsinore/4284232"
+    },
+    {
+     "at": "2026-11-26T13:40",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/elsinore/4284231"
+    },
+    {
+     "at": "2026-11-26T16:20",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/elsinore/4284230"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://mariemonttheatre.org/checkout/showing/elsinore/4284229"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

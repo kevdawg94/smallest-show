@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "midway-burlington",
+ "name": "Midway Theater",
+ "city": "burlingtonco",
+ "area": "Burlington",
+ "region": "Burlington",
+ "url": "https://www.themidwaytheater.org/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0",
+   "shows": [
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2192?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

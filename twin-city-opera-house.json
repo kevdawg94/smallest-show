@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "twin-city-opera-house",
+ "name": "Twin City Opera House",
+ "city": "athensoh",
+ "area": "McConnelsville",
+ "region": "McConnelsville & Marietta",
+ "url": "https://twincityoperahouse.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://twincityoperahouse.com/movies",
+   "shows": [
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://twincityoperahouse.com/movies/the-cat-in-the-hat/showtimes/20261122T193000Z-ee57f357a60b"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://twincityoperahouse.com/movies/the-cat-in-the-hat/showtimes/20261123T000000Z-453980548de2"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://twincityoperahouse.com/movies/the-cat-in-the-hat/showtimes/20261124T000000Z-f3872e194d49"
+    }
+   ]
+  },
+  {
+   "title": "How the Grinch Stole Christmas",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://twincityoperahouse.com/movies",
+   "shows": [
+    {
+     "at": "2026-11-27T19:30",
+     "sold_out": false,
+     "url": "https://twincityoperahouse.com/movies/how-the-grinch-stole-christmas/showtimes/20261128T003000Z-ebbadd648d7f"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

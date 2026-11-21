@@ -1,0 +1,704 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "flagship-ocean-city",
+ "name": "Flagship Premium Cinemas Ocean City",
+ "city": "delmarva",
+ "area": "West Ocean City",
+ "region": "Ocean City & Berlin",
+ "url": "https://flagshipcinemas.com/oceancity",
+ "films": [
+  {
+   "title": "Polar Express",
+   "rating": "G",
+   "runtime_min": 100,
+   "url": "https://flagshipcinemas.com/oceancity/movie/polar-express/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/polar-express/4043502"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/polar-express/4043503"
+    },
+    {
+     "at": "2026-11-25T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/polar-express/4043504"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://flagshipcinemas.com/oceancity/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-21T10:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340222"
+    },
+    {
+     "at": "2026-11-21T11:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340130"
+    },
+    {
+     "at": "2026-11-21T13:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340137"
+    },
+    {
+     "at": "2026-11-21T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340140"
+    },
+    {
+     "at": "2026-11-21T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340143"
+    },
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340145"
+    },
+    {
+     "at": "2026-11-22T11:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340090"
+    },
+    {
+     "at": "2026-11-22T13:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340093"
+    },
+    {
+     "at": "2026-11-22T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340096"
+    },
+    {
+     "at": "2026-11-22T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340099"
+    },
+    {
+     "at": "2026-11-23T11:10",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340108"
+    },
+    {
+     "at": "2026-11-23T13:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340111"
+    },
+    {
+     "at": "2026-11-23T16:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340114"
+    },
+    {
+     "at": "2026-11-23T18:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/ebenezer/4340117"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise On The Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://flagshipcinemas.com/oceancity/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225437"
+    },
+    {
+     "at": "2026-11-21T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340123"
+    },
+    {
+     "at": "2026-11-21T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225440"
+    },
+    {
+     "at": "2026-11-21T15:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340124"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225438"
+    },
+    {
+     "at": "2026-11-21T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340125"
+    },
+    {
+     "at": "2026-11-21T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225439"
+    },
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340146"
+    },
+    {
+     "at": "2026-11-21T21:55",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340128"
+    },
+    {
+     "at": "2026-11-22T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340221"
+    },
+    {
+     "at": "2026-11-22T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225441"
+    },
+    {
+     "at": "2026-11-22T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340087"
+    },
+    {
+     "at": "2026-11-22T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225443"
+    },
+    {
+     "at": "2026-11-22T15:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340088"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225442"
+    },
+    {
+     "at": "2026-11-22T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340089"
+    },
+    {
+     "at": "2026-11-23T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225444"
+    },
+    {
+     "at": "2026-11-23T12:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340105"
+    },
+    {
+     "at": "2026-11-23T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225446"
+    },
+    {
+     "at": "2026-11-23T15:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340106"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225445"
+    },
+    {
+     "at": "2026-11-23T18:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4340107"
+    },
+    {
+     "at": "2026-11-24T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225447"
+    },
+    {
+     "at": "2026-11-24T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4227652"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4225448"
+    },
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226410"
+    },
+    {
+     "at": "2026-11-25T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226411"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226412"
+    },
+    {
+     "at": "2026-11-25T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226413"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226414"
+    },
+    {
+     "at": "2026-11-26T14:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226415"
+    },
+    {
+     "at": "2026-11-26T18:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226416"
+    },
+    {
+     "at": "2026-11-26T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226417"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://flagshipcinemas.com/oceancity/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-21T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340133"
+    },
+    {
+     "at": "2026-11-21T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340138"
+    },
+    {
+     "at": "2026-11-21T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340141"
+    },
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340144"
+    },
+    {
+     "at": "2026-11-21T21:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340147"
+    },
+    {
+     "at": "2026-11-22T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340091"
+    },
+    {
+     "at": "2026-11-22T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340094"
+    },
+    {
+     "at": "2026-11-22T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340097"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340100"
+    },
+    {
+     "at": "2026-11-23T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340109"
+    },
+    {
+     "at": "2026-11-23T14:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340112"
+    },
+    {
+     "at": "2026-11-23T16:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340115"
+    },
+    {
+     "at": "2026-11-23T19:15",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/the-cat-in-the-hat/4340118"
+    }
+   ]
+  },
+  {
+   "title": "How To Rob A Bank",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://flagshipcinemas.com/oceancity/movie/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4340119"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4340121"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4340084"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4340086"
+    },
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4340102"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/how-to-rob-a-bank/4340104"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 124,
+   "url": "https://flagshipcinemas.com/oceancity/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311276"
+    },
+    {
+     "at": "2026-11-21T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311277"
+    },
+    {
+     "at": "2026-11-21T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311278"
+    },
+    {
+     "at": "2026-11-21T21:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311279"
+    },
+    {
+     "at": "2026-11-22T10:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4340101"
+    },
+    {
+     "at": "2026-11-22T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311280"
+    },
+    {
+     "at": "2026-11-22T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311281"
+    },
+    {
+     "at": "2026-11-22T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311282"
+    },
+    {
+     "at": "2026-11-23T13:05",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311283"
+    },
+    {
+     "at": "2026-11-23T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311284"
+    },
+    {
+     "at": "2026-11-23T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311285"
+    },
+    {
+     "at": "2026-11-24T12:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311286"
+    },
+    {
+     "at": "2026-11-24T15:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311287"
+    },
+    {
+     "at": "2026-11-24T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/i-play-rocky/4311288"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://flagshipcinemas.com/oceancity/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wild-horse-nine/4340135"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wild-horse-nine/4340139"
+    },
+    {
+     "at": "2026-11-21T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wild-horse-nine/4340142"
+    },
+    {
+     "at": "2026-11-22T13:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wild-horse-nine/4340092"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wild-horse-nine/4340095"
+    },
+    {
+     "at": "2026-11-22T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wild-horse-nine/4340098"
+    },
+    {
+     "at": "2026-11-23T13:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wild-horse-nine/4340110"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wild-horse-nine/4340113"
+    },
+    {
+     "at": "2026-11-23T18:45",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/wild-horse-nine/4340116"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://flagshipcinemas.com/oceancity/movie/godzilla-minus-zero/",
+   "shows": [
+    {
+     "at": "2026-11-21T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4340120"
+    },
+    {
+     "at": "2026-11-21T21:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4340122"
+    },
+    {
+     "at": "2026-11-22T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4340085"
+    },
+    {
+     "at": "2026-11-23T15:40",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/godzilla-minus-zero/4340103"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://flagshipcinemas.com/oceancity/movie/hexed/",
+   "shows": [
+    {
+     "at": "2026-11-24T16:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169049"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169042"
+    },
+    {
+     "at": "2026-11-24T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169043"
+    },
+    {
+     "at": "2026-11-25T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169053"
+    },
+    {
+     "at": "2026-11-25T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169054"
+    },
+    {
+     "at": "2026-11-25T14:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169055"
+    },
+    {
+     "at": "2026-11-25T16:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169058"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169056"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169057"
+    },
+    {
+     "at": "2026-11-26T10:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169059"
+    },
+    {
+     "at": "2026-11-26T11:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169060"
+    },
+    {
+     "at": "2026-11-26T14:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169061"
+    },
+    {
+     "at": "2026-11-26T16:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169064"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169062"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/hexed/4169063"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://flagshipcinemas.com/oceancity/movie/focker-in-law/",
+   "shows": [
+    {
+     "at": "2026-11-25T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/focker-in-law/4274921"
+    },
+    {
+     "at": "2026-11-25T13:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/focker-in-law/4274922"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/focker-in-law/4274923"
+    },
+    {
+     "at": "2026-11-25T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/focker-in-law/4274924"
+    },
+    {
+     "at": "2026-11-25T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/focker-in-law/4274925"
+    },
+    {
+     "at": "2026-11-26T11:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/focker-in-law/4274926"
+    },
+    {
+     "at": "2026-11-26T13:30",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/focker-in-law/4274927"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/focker-in-law/4274928"
+    },
+    {
+     "at": "2026-11-26T18:50",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/focker-in-law/4274929"
+    },
+    {
+     "at": "2026-11-26T21:20",
+     "sold_out": false,
+     "url": "https://flagshipcinemas.com/oceancity/checkout/showing/focker-in-law/4274930"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

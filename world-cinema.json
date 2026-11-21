@@ -1,0 +1,32 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "world-cinema",
+ "name": "Cincinnati World Cinema",
+ "city": "cincinnati",
+ "area": "Downtown",
+ "region": "Clifton & Downtown",
+ "url": "https://cincyworldcinema.org/",
+ "films": [
+  {
+   "title": "Life is Life",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://cincyworldcinema.org/la-vita-va-cosi/",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://cincinnatiworldcinema.ticketspice.com/life-is-life"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,118 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "abcinema",
+ "name": "ABCinema",
+ "city": "fortwayne",
+ "area": "Decatur",
+ "region": "Decatur & Adams County",
+ "url": "https://abcinemainc.com",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://abcinemainc.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-21T20:15",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-22T16:40",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://abcinemainc.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:20",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-21T17:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-21T20:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://abcinemainc.com/",
+   "shows": [
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-25T20:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

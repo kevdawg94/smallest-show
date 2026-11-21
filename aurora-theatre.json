@@ -1,0 +1,85 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "aurora-theatre",
+ "name": "Aurora Theatre",
+ "city": "buffalo",
+ "area": "East Aurora",
+ "region": "Southtowns",
+ "url": "https://www.theauroratheatre.com/",
+ "films": [
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5855?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-21T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5857?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5851?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5856?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-22T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5858?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5852?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5854?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5859?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    }
+   ]
+  },
+  {
+   "title": "Focker-in-Law",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8",
+   "shows": [
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5860?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5861?siteToken=wdpr6s9cdw1wfnqazr16h0mzp8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,83 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "strand-rockland",
+ "name": "Strand",
+ "city": "midcoast",
+ "area": "Rockland",
+ "region": "Rockland & Camden",
+ "url": "https://www.rocklandstrand.com/",
+ "films": [
+  {
+   "title": "Suspicion",
+   "rating": null,
+   "runtime_min": 99,
+   "url": "https://strandfilms.eventive.org/Program_Guide/6ac96a88d482d69df626dc31",
+   "shows": [
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://strandfilms.eventive.org/Schedule/6ac96c0db113b9bf43d27333"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://strandfilms.eventive.org/Program_Guide/6af4b3f294025d3ce14fbccf",
+   "shows": [
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://strandfilms.eventive.org/Schedule/6af4bb7b72d9e6651c069775"
+    },
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "https://strandfilms.eventive.org/Schedule/6af4bb7b72d9e6651c06979d"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://strandfilms.eventive.org/Schedule/6af4bb7b72d9e6651c06974d"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://strandfilms.eventive.org/Schedule/6af4bb7b72d9e6651c0697b1"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": null,
+   "runtime_min": 132,
+   "url": "https://strandfilms.eventive.org/Program_Guide/6af4b28eeb1c8b592391c336",
+   "shows": [
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://strandfilms.eventive.org/Schedule/6af4b9a2ce01d0cebedfc201"
+    },
+    {
+     "at": "2026-11-24T13:00",
+     "sold_out": false,
+     "url": "https://strandfilms.eventive.org/Schedule/6af4b9a2ce01d0cebedfc229"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://strandfilms.eventive.org/Schedule/6af4b9a2ce01d0cebedfc251"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

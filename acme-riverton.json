@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "acme-riverton",
+ "name": "Acme Theatre",
+ "city": "riverton",
+ "area": "Riverton",
+ "region": "Riverton",
+ "url": "https://barrycinemas.com/acme-theater-riverton",
+ "films": [
+  {
+   "title": "Smallfoot",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://barrycinemas.com/acme-theater-riverton/movie/28215",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/c1c20c02-f4e2-f111-91f2-002248b556ef"
+    }
+   ]
+  },
+  {
+   "title": "How to Rob a Bank",
+   "rating": "R",
+   "runtime_min": 0,
+   "url": "https://barrycinemas.com/acme-theater-riverton/movie/28147",
+   "shows": [
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/c2c20c02-f4e2-f111-91f2-002248b556ef"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/c3c20c02-f4e2-f111-91f2-002248b556ef"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/bfc20c02-f4e2-f111-91f2-002248b556ef"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

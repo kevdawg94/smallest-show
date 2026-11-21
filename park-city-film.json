@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "park-city-film",
+ "name": "Park City Film",
+ "city": "slc",
+ "area": "Park City",
+ "region": "Park City",
+ "url": "https://parkcityfilm.org/showtimes/",
+ "films": [
+  {
+   "title": "Everest: The Other Side",
+   "rating": null,
+   "runtime_min": 115,
+   "url": "https://parkcityfilm.eventive.org/films/6abe67f09b68e6a9d1843fde",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6abe6991686325ea68712b28"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6abe6991686325ea68712b2d"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

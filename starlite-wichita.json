@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "starlite-wichita",
+ "name": "Starlite Drive-In",
+ "city": "wichita",
+ "area": "South Wichita",
+ "region": "Derby",
+ "url": "https://starlitefun.com/",
+ "films": [
+  {
+   "title": "Cat in Hat/ebenezer",
+   "rating": "PG",
+   "runtime_min": 223,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261121",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261121"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games 2026",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261121",
+   "shows": [
+    {
+     "at": "2026-11-21T19:20",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261121"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261121",
+   "shows": [
+    {
+     "at": "2026-11-21T20:55",
+     "sold_out": false,
+     "url": "https://267552.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261121"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

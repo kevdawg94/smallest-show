@@ -1,0 +1,121 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "kiggins",
+ "name": "Kiggins",
+ "city": "portland",
+ "area": "Vancouver, WA",
+ "region": "Suburbs",
+ "url": "https://www.kigginstheatre.com/",
+ "films": [
+  {
+   "title": "Roadless",
+   "rating": null,
+   "runtime_min": 62,
+   "url": "https://www.kigginstheatre.com/movie/roadless/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/roadless/4035048"
+    }
+   ]
+  },
+  {
+   "title": "Hen",
+   "rating": null,
+   "runtime_min": 95,
+   "url": "https://www.kigginstheatre.com/movie/hen/",
+   "shows": [
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/hen/4035047"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/hen/4035045"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/hen/4035050"
+    },
+    {
+     "at": "2026-11-23T19:30",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/hen/4035052"
+    },
+    {
+     "at": "2026-11-24T17:10",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/hen/4035055"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/hen/4035056"
+    }
+   ]
+  },
+  {
+   "title": "Willy Wonka and the Chocolate Factory",
+   "rating": "G",
+   "runtime_min": 100,
+   "url": "https://www.kigginstheatre.com/movie/willy-wonka-and-the-chocolate-factory/",
+   "shows": [
+    {
+     "at": "2026-11-21T17:10",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/willy-wonka-and-the-chocolate-factory/4035046"
+    },
+    {
+     "at": "2026-11-22T13:40",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/willy-wonka-and-the-chocolate-factory/4035051"
+    },
+    {
+     "at": "2026-11-23T14:50",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/willy-wonka-and-the-chocolate-factory/4036220"
+    },
+    {
+     "at": "2026-11-23T17:10",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/willy-wonka-and-the-chocolate-factory/4035053"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/willy-wonka-and-the-chocolate-factory/4035054"
+    },
+    {
+     "at": "2026-11-25T17:10",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/willy-wonka-and-the-chocolate-factory/4035057"
+    }
+   ]
+  },
+  {
+   "title": "A Simple Machine",
+   "rating": null,
+   "runtime_min": 97,
+   "url": "https://www.kigginstheatre.com/movie/a-simple-machine/",
+   "shows": [
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://www.kigginstheatre.com/checkout/showing/a-simple-machine/4035049"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

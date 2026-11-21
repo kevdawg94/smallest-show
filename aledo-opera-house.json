@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "aledo-opera-house",
+ "name": "Aledo Opera House",
+ "city": "quadcities",
+ "area": "Aledo",
+ "region": "Aledo & Mercer County",
+ "url": "https://www.aledooperahouse.com/",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://www.AledoOperaHouse.com/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/drummer-boy/4321074"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/drummer-boy/4321075"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/drummer-boy/4321076"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://www.AledoOperaHouse.com/movie/hershey/",
+   "shows": [
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/hershey/4132893"
+    },
+    {
+     "at": "2026-11-26T18:00",
+     "sold_out": false,
+     "url": "https://www.AledoOperaHouse.com/checkout/showing/hershey/4132894"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

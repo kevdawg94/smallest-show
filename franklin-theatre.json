@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "franklin-theatre",
+ "name": "Franklin Theatre",
+ "city": "nashville",
+ "area": "Franklin",
+ "region": "Franklin",
+ "url": "https://www.franklintheatre.com/tickets/movies/",
+ "films": [
+  {
+   "title": "Home Alone (1990)",
+   "rating": "PG",
+   "runtime_min": 103,
+   "url": "https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=448738~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&",
+   "shows": [
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://secure.franklintheatre.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=568638~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&"
+    }
+   ]
+  },
+  {
+   "title": "Planes, Trains, and Automobiles (1987)",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://secure.franklintheatre.com/websales/pages/info.aspx?evtinfo=508430~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&",
+   "shows": [
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://secure.franklintheatre.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=568640~cfe40b7d-1c56-4c4b-b937-600bdd7c5904&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

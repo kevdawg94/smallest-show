@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "babcock",
+ "name": "Babcock Theatre",
+ "city": "billings",
+ "area": "Downtown, Billings",
+ "region": "Downtown Billings",
+ "url": "https://arthousebillings.com/babcock/",
+ "films": [
+  {
+   "title": "The Fox and the Hound",
+   "rating": "G",
+   "runtime_min": 82,
+   "url": "https://arthousebillings.com/babcock/",
+   "shows": [
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://arthousebillings.com/babcock/purchase/1094573/"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://arthousebillings.com/babcock/purchase/1094574/"
+    }
+   ]
+  },
+  {
+   "title": "The Devils",
+   "rating": "NC-17",
+   "runtime_min": 114,
+   "url": "https://arthousebillings.com/babcock/",
+   "shows": [
+    {
+     "at": "2026-11-21T21:00",
+     "sold_out": false,
+     "url": "https://arthousebillings.com/babcock/purchase/1094575/"
+    }
+   ]
+  },
+  {
+   "title": "Taxi Driver",
+   "rating": "R",
+   "runtime_min": 114,
+   "url": "https://arthousebillings.com/babcock/",
+   "shows": [
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://arthousebillings.com/babcock/purchase/1094576/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

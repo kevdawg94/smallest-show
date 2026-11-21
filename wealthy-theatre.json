@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "wealthy-theatre",
+ "name": "Wealthy Theatre",
+ "city": "grandrapids",
+ "area": "Uptown",
+ "region": "Grand Rapids",
+ "url": "https://grcmc.org/theatre",
+ "films": [
+  {
+   "title": "Over the Garden Wall *SOLD OUT*",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://grcmc.org/event/over-the-garden-wall-episodes-1-10-family-film-series/1818",
+   "shows": [
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://grcmc.vbotickets.com/event/Over_the_Garden_Wall_Episodes_1_10_Family_Film_Series/213713"
+    }
+   ]
+  },
+  {
+   "title": "The Big Lebowski",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://grcmc.org/event/the-big-lebowski-1/1736",
+   "shows": [
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://grcmc.vbotickets.com/event/The_Big_Lebowski_Tuesday_Night_Movie/207489"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

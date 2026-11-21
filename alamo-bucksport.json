@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "alamo-bucksport",
+ "name": "Alamo Theatre",
+ "city": "bangor",
+ "area": "Bucksport",
+ "region": "Bucksport–Ellsworth",
+ "url": "https://oldfilm.org/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://oldfilm.org/",
+   "shows": [
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://oldfilm.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-17T02:24",
+ "error": true,
+ "warning": null
+}

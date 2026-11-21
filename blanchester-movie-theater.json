@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "blanchester-movie-theater",
+ "name": "Blanchester Movie Theater",
+ "city": "cincinnati",
+ "area": "Blanchester",
+ "region": "Lebanon & Wilmington",
+ "url": "https://blanchestermovietheater.com/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://www.blanchestermovietheater.com/movie/ebenezer-2/",
+   "shows": [
+    {
+     "at": "2026-11-21T18:15",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/ebenezer-2/4234147"
+    },
+    {
+     "at": "2026-11-21T20:25",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/ebenezer-2/4234148"
+    },
+    {
+     "at": "2026-11-25T18:15",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/ebenezer-2/4234153"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.blanchestermovietheater.com/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4234146"
+    },
+    {
+     "at": "2026-11-25T18:00",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4234154"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

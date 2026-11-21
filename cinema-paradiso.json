@@ -1,0 +1,77 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "cinema-paradiso",
+ "name": "Cinema Paradiso",
+ "city": "miami",
+ "area": "Hollywood",
+ "region": "Broward",
+ "url": "https://www.cinemahollywood.org/",
+ "films": [
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://www.cinemahollywood.org/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4324401"
+    },
+    {
+     "at": "2026-11-21T16:45",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4356617"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4356618"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4324402"
+    },
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4324403"
+    },
+    {
+     "at": "2026-11-24T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4324404"
+    },
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4324405"
+    },
+    {
+     "at": "2026-11-25T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4324406"
+    },
+    {
+     "at": "2026-11-26T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4324407"
+    },
+    {
+     "at": "2026-11-26T18:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wild-horse-nine/4324408"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

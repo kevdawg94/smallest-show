@@ -1,0 +1,886 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "century-9-hutchinson",
+ "name": "Century 9",
+ "city": "msp",
+ "area": "Hutchinson",
+ "region": "Central Minnesota",
+ "url": "https://tickets.hutchinson.odysseytheatres.com/",
+ "films": [
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 129,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/drummer-boy/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4325219"
+    },
+    {
+     "at": "2026-11-21T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4325216"
+    },
+    {
+     "at": "2026-11-21T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4325217"
+    },
+    {
+     "at": "2026-11-22T12:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4325223"
+    },
+    {
+     "at": "2026-11-22T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4325220"
+    },
+    {
+     "at": "2026-11-22T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4325221"
+    },
+    {
+     "at": "2026-11-23T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4325224"
+    },
+    {
+     "at": "2026-11-24T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4357032"
+    },
+    {
+     "at": "2026-11-25T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4357033"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4357034"
+    },
+    {
+     "at": "2026-11-26T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4357035"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/drummer-boy/4357036"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-21T12:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272154"
+    },
+    {
+     "at": "2026-11-21T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272155"
+    },
+    {
+     "at": "2026-11-21T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272156"
+    },
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272157"
+    },
+    {
+     "at": "2026-11-22T12:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272158"
+    },
+    {
+     "at": "2026-11-22T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272159"
+    },
+    {
+     "at": "2026-11-22T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272160"
+    },
+    {
+     "at": "2026-11-22T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272161"
+    },
+    {
+     "at": "2026-11-23T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272162"
+    },
+    {
+     "at": "2026-11-23T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272163"
+    },
+    {
+     "at": "2026-11-24T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272164"
+    },
+    {
+     "at": "2026-11-24T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272165"
+    },
+    {
+     "at": "2026-11-25T12:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272166"
+    },
+    {
+     "at": "2026-11-25T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272167"
+    },
+    {
+     "at": "2026-11-25T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272168"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272169"
+    },
+    {
+     "at": "2026-11-26T12:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272170"
+    },
+    {
+     "at": "2026-11-26T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272171"
+    },
+    {
+     "at": "2026-11-26T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272172"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/i-play-rocky/4272173"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324429"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324432"
+    },
+    {
+     "at": "2026-11-21T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324430"
+    },
+    {
+     "at": "2026-11-21T21:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324431"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324410"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324413"
+    },
+    {
+     "at": "2026-11-22T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324411"
+    },
+    {
+     "at": "2026-11-22T21:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324412"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324415"
+    },
+    {
+     "at": "2026-11-23T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324414"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324417"
+    },
+    {
+     "at": "2026-11-24T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324416"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324418"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324421"
+    },
+    {
+     "at": "2026-11-25T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324419"
+    },
+    {
+     "at": "2026-11-25T21:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324420"
+    },
+    {
+     "at": "2026-11-26T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324422"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324425"
+    },
+    {
+     "at": "2026-11-26T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324423"
+    },
+    {
+     "at": "2026-11-26T21:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ebenezer/4324424"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise On The Reaping XL Screen",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/the-hunger-games-sunrise-on-the-reaping-xl-screen/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183208"
+    },
+    {
+     "at": "2026-11-21T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183210"
+    },
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183209"
+    },
+    {
+     "at": "2026-11-22T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183214"
+    },
+    {
+     "at": "2026-11-22T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183216"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183215"
+    },
+    {
+     "at": "2026-11-23T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183221"
+    },
+    {
+     "at": "2026-11-23T19:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183220"
+    },
+    {
+     "at": "2026-11-24T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183224"
+    },
+    {
+     "at": "2026-11-24T19:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183223"
+    },
+    {
+     "at": "2026-11-25T18:15",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183227"
+    },
+    {
+     "at": "2026-11-25T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183226"
+    },
+    {
+     "at": "2026-11-26T18:15",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183232"
+    },
+    {
+     "at": "2026-11-26T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping-xl-screen/4183231"
+    }
+   ]
+  },
+  {
+   "title": "The Cat In The Hat",
+   "rating": "PG",
+   "runtime_min": 113,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4324463"
+    },
+    {
+     "at": "2026-11-21T16:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4324466"
+    },
+    {
+     "at": "2026-11-22T13:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4324443"
+    },
+    {
+     "at": "2026-11-22T16:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4324446"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4324444"
+    },
+    {
+     "at": "2026-11-22T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4324445"
+    },
+    {
+     "at": "2026-11-23T16:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4324450"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4324449"
+    },
+    {
+     "at": "2026-11-24T16:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4334424"
+    },
+    {
+     "at": "2026-11-25T13:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4334426"
+    },
+    {
+     "at": "2026-11-25T16:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4334429"
+    },
+    {
+     "at": "2026-11-26T13:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4334430"
+    },
+    {
+     "at": "2026-11-26T16:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-cat-in-the-hat/4334433"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324511"
+    },
+    {
+     "at": "2026-11-21T16:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324514"
+    },
+    {
+     "at": "2026-11-21T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324512"
+    },
+    {
+     "at": "2026-11-21T21:25",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324513"
+    },
+    {
+     "at": "2026-11-22T13:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324499"
+    },
+    {
+     "at": "2026-11-22T16:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324502"
+    },
+    {
+     "at": "2026-11-22T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324500"
+    },
+    {
+     "at": "2026-11-22T21:25",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324501"
+    },
+    {
+     "at": "2026-11-23T16:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324504"
+    },
+    {
+     "at": "2026-11-23T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324503"
+    },
+    {
+     "at": "2026-11-24T16:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324506"
+    },
+    {
+     "at": "2026-11-24T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/wild-horse-nine/4324505"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG-13",
+   "runtime_min": 90,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/ghost-soldier/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324459"
+    },
+    {
+     "at": "2026-11-21T16:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324462"
+    },
+    {
+     "at": "2026-11-21T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324460"
+    },
+    {
+     "at": "2026-11-21T21:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324461"
+    },
+    {
+     "at": "2026-11-22T13:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324439"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324442"
+    },
+    {
+     "at": "2026-11-22T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324440"
+    },
+    {
+     "at": "2026-11-22T21:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324441"
+    },
+    {
+     "at": "2026-11-23T16:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324448"
+    },
+    {
+     "at": "2026-11-23T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324447"
+    },
+    {
+     "at": "2026-11-24T16:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324452"
+    },
+    {
+     "at": "2026-11-24T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/ghost-soldier/4324451"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise On The Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-21T13:45",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4183211"
+    },
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4183212"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4357860"
+    },
+    {
+     "at": "2026-11-21T21:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4183213"
+    },
+    {
+     "at": "2026-11-22T13:45",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4183217"
+    },
+    {
+     "at": "2026-11-22T17:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4183218"
+    },
+    {
+     "at": "2026-11-22T21:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4183219"
+    },
+    {
+     "at": "2026-11-23T17:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4183222"
+    },
+    {
+     "at": "2026-11-24T17:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4183225"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226400"
+    },
+    {
+     "at": "2026-11-25T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226402"
+    },
+    {
+     "at": "2026-11-25T19:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226401"
+    },
+    {
+     "at": "2026-11-26T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226403"
+    },
+    {
+     "at": "2026-11-26T16:15",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226405"
+    },
+    {
+     "at": "2026-11-26T19:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4226404"
+    }
+   ]
+  },
+  {
+   "title": "How To Rob A Bank",
+   "rating": "R",
+   "runtime_min": 122,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/how-to-rob-a-bank/4325218"
+    },
+    {
+     "at": "2026-11-22T21:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/how-to-rob-a-bank/4325222"
+    },
+    {
+     "at": "2026-11-23T18:40",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/how-to-rob-a-bank/4325225"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/hexed/",
+   "shows": [
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed/4178632"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed/4178631"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed/4178637"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed/4178634"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed/4178633"
+    },
+    {
+     "at": "2026-11-25T21:15",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed/4178638"
+    },
+    {
+     "at": "2026-11-26T13:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed/4178643"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed/4178640"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed/4178639"
+    },
+    {
+     "at": "2026-11-26T21:15",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed/4178644"
+    }
+   ]
+  },
+  {
+   "title": "Hexed XL Screen",
+   "rating": "PG",
+   "runtime_min": 99,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/hexed-xl-screen/",
+   "shows": [
+    {
+     "at": "2026-11-25T12:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed-xl-screen/4178635"
+    },
+    {
+     "at": "2026-11-26T12:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hexed-xl-screen/4178641"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/hershey/",
+   "shows": [
+    {
+     "at": "2026-11-25T12:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hershey/4325255"
+    },
+    {
+     "at": "2026-11-25T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hershey/4325256"
+    },
+    {
+     "at": "2026-11-25T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hershey/4325257"
+    },
+    {
+     "at": "2026-11-25T21:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hershey/4325258"
+    },
+    {
+     "at": "2026-11-26T12:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hershey/4325263"
+    },
+    {
+     "at": "2026-11-26T15:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hershey/4325265"
+    },
+    {
+     "at": "2026-11-26T18:50",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hershey/4325267"
+    },
+    {
+     "at": "2026-11-26T21:20",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/hershey/4325269"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/focker-in-law/",
+   "shows": [
+    {
+     "at": "2026-11-25T13:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/focker-in-law/4272174"
+    },
+    {
+     "at": "2026-11-25T16:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/focker-in-law/4272177"
+    },
+    {
+     "at": "2026-11-25T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/focker-in-law/4272175"
+    },
+    {
+     "at": "2026-11-25T21:35",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/focker-in-law/4272176"
+    },
+    {
+     "at": "2026-11-26T13:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/focker-in-law/4272178"
+    },
+    {
+     "at": "2026-11-26T16:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/focker-in-law/4272181"
+    },
+    {
+     "at": "2026-11-26T19:10",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/focker-in-law/4272179"
+    },
+    {
+     "at": "2026-11-26T21:35",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/focker-in-law/4272180"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law XL Screen",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://tickets.hutchinson.odysseytheatres.com/movie/focker-in-law-xl-screen/",
+   "shows": [
+    {
+     "at": "2026-11-25T15:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/focker-in-law-xl-screen/4272182"
+    },
+    {
+     "at": "2026-11-26T15:30",
+     "sold_out": false,
+     "url": "https://tickets.hutchinson.odysseytheatres.com/checkout/showing/focker-in-law-xl-screen/4272183"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

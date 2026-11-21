@@ -1,0 +1,133 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "stowe-cinema",
+ "name": "Stowe Cinema",
+ "city": "burlington",
+ "area": "Stowe",
+ "region": "Mad River Valley & Stowe",
+ "url": "https://stowecinema.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13236?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13240?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-24T15:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13244?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-24T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13247?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-25T15:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13249?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-25T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13252?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13235?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-21T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13237?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13239?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-22T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13241?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-24T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13246?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-25T18:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13251?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-21T19:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13238?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-22T19:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13242?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13243?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-24T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13245?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13248?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-25T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13250?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,99 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "central-cinema-knoxville",
+ "name": "Central Cinema",
+ "city": "knoxville",
+ "area": "Happy Holler, Knoxville",
+ "region": "North Knoxville & Downtown",
+ "url": "https://centralcinema865.com/",
+ "films": [
+  {
+   "title": "American Doctor",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=brd5cq6qy5qwkt64vvy66s0ca8",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6078?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6082?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    }
+   ]
+  },
+  {
+   "title": "The Passion of Joan of Arc with Live Score",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=brd5cq6qy5qwkt64vvy66s0ca8",
+   "shows": [
+    {
+     "at": "2026-11-21T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6061?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    }
+   ]
+  },
+  {
+   "title": "The Host (2006)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=brd5cq6qy5qwkt64vvy66s0ca8",
+   "shows": [
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6079?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    },
+    {
+     "at": "2026-11-23T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6080?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    },
+    {
+     "at": "2026-11-24T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6083?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    }
+   ]
+  },
+  {
+   "title": "Series: Skate Video Night",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=brd5cq6qy5qwkt64vvy66s0ca8",
+   "shows": [
+    {
+     "at": "2026-11-23T20:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6081?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=brd5cq6qy5qwkt64vvy66s0ca8",
+   "shows": [
+    {
+     "at": "2026-11-25T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6084?siteToken=brd5cq6qy5qwkt64vvy66s0ca8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

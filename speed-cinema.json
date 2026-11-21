@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "speed-cinema",
+ "name": "Speed Cinema",
+ "city": "louisville",
+ "area": "Old Louisville, Louisville",
+ "region": "Old Louisville & Downtown",
+ "url": "https://www.speedmuseum.org/cinema/",
+ "films": [
+  {
+   "title": "La Bola Negra (Black Ball)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/la-bola-negra-black-ball-at-speed-cinema-6/",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=b60553a1-517f-4641-b03e-9010689e806a"
+    },
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=1481f9c4-8fab-4528-96dc-8f69f9f46ad7"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=d34f97fc-018d-4919-9e82-dfbecf0324c5"
+    }
+   ]
+  },
+  {
+   "title": "Eraserhead",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/eraserhead-at-speed-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-27T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=0aed68cc-a964-448b-9e07-aa878b84e75a"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

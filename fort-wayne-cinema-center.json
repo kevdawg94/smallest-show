@@ -1,0 +1,127 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "fort-wayne-cinema-center",
+ "name": "Cinema Center",
+ "city": "fortwayne",
+ "area": "Downtown Fort Wayne",
+ "region": "Fort Wayne",
+ "url": "https://cinemacenter.org/",
+ "films": [
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://cinemacenter.eventive.org/films/6ae3e228bd53650aad197b99",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6aee8199e9c8ab3308231876"
+    },
+    {
+     "at": "2026-11-21T19:45",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6aee81ac8cd77ebdd7fca436"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://cinemacenter.eventive.org/films/6ae23a341524eca4bda53ada",
+   "shows": [
+    {
+     "at": "2026-11-21T13:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae3dceec925e47fc8a233b8"
+    },
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae3da4a27215ae708d4c6bc"
+    },
+    {
+     "at": "2026-11-21T18:15",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae3dd0cc925e47fc8a25e57"
+    },
+    {
+     "at": "2026-11-21T20:30",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6aee7fcd13e9a5b0fc76210b"
+    },
+    {
+     "at": "2026-11-22T14:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae3dd32be7466a9aeb8c34d"
+    },
+    {
+     "at": "2026-11-22T16:45",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae3db4d2954f54c04d30c82"
+    }
+   ]
+  },
+  {
+   "title": "Being Heumann",
+   "rating": null,
+   "runtime_min": 127,
+   "url": "https://cinemacenter.eventive.org/films/6ae23a5048f0a994bbeb645d",
+   "shows": [
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae3d97999543a890bbe557b"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://cinemacenter.eventive.org/films/6ae23a6348f0a994bbeb68de",
+   "shows": [
+    {
+     "at": "2026-11-21T17:30",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23d2fb0c65dca440af1b2"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine (Subtitles)",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://cinemacenter.eventive.org/films/6ae3e228bd53650aad197b99",
+   "shows": [
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6aee81f7636859b5bfece9a7"
+    }
+   ]
+  },
+  {
+   "title": "Wicker (Subtitles)",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://cinemacenter.eventive.org/films/6ae23a6348f0a994bbeb68de",
+   "shows": [
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6ae23ddc177e73c95e86300c"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "marathon-cinema",
+ "name": "Marathon Community Cinema",
+ "city": "keys",
+ "area": "Marathon",
+ "region": "Middle Keys",
+ "url": "https://marathoncinema.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ww01g7eknyxw3kppmcy6fhej6r",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1546?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1544?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1547?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1548?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

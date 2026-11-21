@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "eagles-theatre",
+ "name": "Eagles Theatre",
+ "city": "fortwayne",
+ "area": "Wabash",
+ "region": "Columbia City & Wabash",
+ "url": "https://honeywellarts.org/eagles-theatre",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eggmkrgh8ehvdqdjrydrpj51br",
+   "shows": [
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3671?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3674?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3672?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3675?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=eggmkrgh8ehvdqdjrydrpj51br",
+   "shows": [
+    {
+     "at": "2026-11-21T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3699?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-21T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3696?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-22T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3700?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    },
+    {
+     "at": "2026-11-22T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3697?siteToken=eggmkrgh8ehvdqdjrydrpj51br"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

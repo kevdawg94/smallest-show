@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "ritz-wellington",
+ "name": "Ritz Theatre",
+ "city": "wellington",
+ "area": "Wellington",
+ "region": "Wellington",
+ "url": "https://www.wellingtonritztheatre.com/",
+ "films": [
+  {
+   "title": "Hunger Games Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://54420.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261120",
+   "shows": [
+    {
+     "at": "2026-11-21T19:30",
+     "sold_out": false,
+     "url": "https://54420.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261121"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://54420.formovietickets.com/T.ASP?WCI=BT&Page=schedule&SelectedDate=20261122"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

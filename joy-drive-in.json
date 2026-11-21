@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "joy-drive-in",
+ "name": "Joy Drive-In",
+ "city": "austin",
+ "area": "Copperas Cove",
+ "region": "Central Texas",
+ "url": "https://joyrv.org/about/park-events/",
+ "films": [
+  {
+   "title": "The Notebook",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://joyrv.org/about/park-events/2026-11-21-the-notebook/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://joyrv.org/about/park-events/2026-11-21-the-notebook/"
+    }
+   ]
+  },
+  {
+   "title": "Dr. Seuss's The Grinch",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://joyrv.org/about/park-events/2026-11-27-dr-seuss-s-the-grinch/",
+   "shows": [
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://joyrv.org/about/park-events/2026-11-27-dr-seuss-s-the-grinch/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "silco-theater",
+ "name": "Silco Theater",
+ "city": "silvercity",
+ "area": "Silver City",
+ "region": "Silver City",
+ "url": "https://www.thesilcotheater.com/",
+ "films": [
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1113?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1114?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    }
+   ]
+  },
+  {
+   "title": "The Illusionist",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0",
+   "shows": [
+    {
+     "at": "2026-11-23T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1118?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1119?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

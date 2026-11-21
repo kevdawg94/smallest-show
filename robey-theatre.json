@@ -1,0 +1,62 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "robey-theatre",
+ "name": "Robey Theatre",
+ "city": "charlestonwv",
+ "area": "Spencer",
+ "region": "Spencer",
+ "url": "https://www.robeytheatre.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=9pjabxw8gaxd0a5vebddc35mmc",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5558?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5566?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5559?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5560?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5561?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5562?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    },
+    {
+     "at": "2026-11-26T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5563?siteToken=9pjabxw8gaxd0a5vebddc35mmc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

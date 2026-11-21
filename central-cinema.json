@@ -1,0 +1,116 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "central-cinema",
+ "name": "Central Cinema",
+ "city": "seattle",
+ "area": "Central District",
+ "region": "Capitol Hill & Downtown",
+ "url": "https://central-cinema.com/",
+ "films": [
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": 92,
+   "url": "https://www.central-cinema.com/movie/planes-trains-and-automobiles/",
+   "shows": [
+    {
+     "at": "2026-11-21T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/planes-trains-and-automobiles/4358895"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/planes-trains-and-automobiles/4266634"
+    },
+    {
+     "at": "2026-11-22T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/planes-trains-and-automobiles/4266638"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/planes-trains-and-automobiles/4266640"
+    },
+    {
+     "at": "2026-11-23T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/planes-trains-and-automobiles/4266644"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/planes-trains-and-automobiles/4266646"
+    },
+    {
+     "at": "2026-11-24T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/planes-trains-and-automobiles/4266650"
+    },
+    {
+     "at": "2026-11-25T16:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/planes-trains-and-automobiles/4266655"
+    }
+   ]
+  },
+  {
+   "title": "Eating Raoul",
+   "rating": "R",
+   "runtime_min": 87,
+   "url": "https://www.central-cinema.com/movie/eating-raoul/",
+   "shows": [
+    {
+     "at": "2026-11-21T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/eating-raoul/4266636"
+    },
+    {
+     "at": "2026-11-22T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/eating-raoul/4266642"
+    },
+    {
+     "at": "2026-11-23T21:30",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/eating-raoul/4266648"
+    }
+   ]
+  },
+  {
+   "title": "Seattle Scare Society: Chopping Mall",
+   "rating": "R",
+   "runtime_min": 77,
+   "url": "https://www.central-cinema.com/movie/seattle-scare-society-chopping-mall/",
+   "shows": [
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/seattle-scare-society-chopping-mall/4266652"
+    }
+   ]
+  },
+  {
+   "title": "Cinemancy: Legend",
+   "rating": "PG",
+   "runtime_min": 94,
+   "url": "https://www.central-cinema.com/movie/cinemancy-legend/",
+   "shows": [
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://www.central-cinema.com/checkout/showing/cinemancy-legend/4266657"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

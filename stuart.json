@@ -1,0 +1,70 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "stuart",
+ "name": "Stuart Cinema & Café",
+ "city": "nyc",
+ "area": "Long Island City",
+ "region": "Queens & beyond",
+ "url": "https://www.stuartcinema.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7frn1y2mz8ppp12zhy5dsek9a8",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7129?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-21T20:35",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7128?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-22T11:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7131?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-22T14:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7133?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-22T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7134?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7frn1y2mz8ppp12zhy5dsek9a8",
+   "shows": [
+    {
+     "at": "2026-11-21T20:05",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7130?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-22T11:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7132?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

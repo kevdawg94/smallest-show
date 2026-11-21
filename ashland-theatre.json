@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "ashland-theatre",
+ "name": "Ashland Theatre",
+ "city": "richmond",
+ "area": "Ashland",
+ "region": "Ashland",
+ "url": "https://www.ashlandtheatre.org/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666232~5314ae15-9abf-478b-934a-9eb1a9f033ad&",
+   "shows": [
+    {
+     "at": "2026-11-21T14:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666234~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666235~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666236~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666237~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    }
+   ]
+  },
+  {
+   "title": "Planes, Trains and Automobiles",
+   "rating": "R",
+   "runtime_min": 92,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666265~5314ae15-9abf-478b-934a-9eb1a9f033ad&",
+   "shows": [
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666267~5314ae15-9abf-478b-934a-9eb1a9f033ad&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

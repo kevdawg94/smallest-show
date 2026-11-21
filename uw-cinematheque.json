@@ -1,0 +1,46 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "uw-cinematheque",
+ "name": "UW Cinematheque",
+ "city": "madison",
+ "area": "Campus",
+ "region": "Campus & Downtown",
+ "url": "https://cinema.wisc.edu/",
+ "films": [
+  {
+   "title": "Michael Mann's Manhuner: The Final Cut",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://cinema.wisc.edu/new-restorations-and-special-presentations-2/",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223633"
+    }
+   ]
+  },
+  {
+   "title": "Careful",
+   "rating": null,
+   "runtime_min": 100,
+   "url": "https://cinema.wisc.edu/at-the-chazen-the-spirit-of-zeitgeist/",
+   "shows": [
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://today.wisc.edu/events/view/223585",
+     "venue": "Chazen"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

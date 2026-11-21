@@ -1,0 +1,91 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "porcupine-homer",
+ "name": "The Porcupine Theater",
+ "city": "kenai",
+ "area": "Homer",
+ "region": "Homer",
+ "url": "https://porcupinetheater.com/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T17:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/295535/"
+    },
+    {
+     "at": "2026-11-22T19:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/295541/"
+    },
+    {
+     "at": "2026-11-23T17:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/295548/"
+    }
+   ]
+  },
+  {
+   "title": "Jimmy",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-21T20:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/295537/"
+    },
+    {
+     "at": "2026-11-22T16:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/295539/"
+    },
+    {
+     "at": "2026-11-23T20:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/302413/"
+    }
+   ]
+  },
+  {
+   "title": "Hairspray",
+   "rating": null,
+   "runtime_min": 92,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-24T18:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/302415/"
+    }
+   ]
+  },
+  {
+   "title": "The Metropolitan Opera: Carmen (Encore)",
+   "rating": null,
+   "runtime_min": 166,
+   "url": "https://porcupinetheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-25T17:30",
+     "sold_out": false,
+     "url": "https://porcupinetheater.com/purchase/264697/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

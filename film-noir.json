@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "film-noir",
+ "name": "Film Noir Cinema",
+ "city": "nyc",
+ "area": "Greenpoint",
+ "region": "Brooklyn",
+ "url": "https://www.filmnoircinema.com/program",
+ "films": [
+  {
+   "title": "Whirlpool",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.filmnoircinema.com/program/2026/5/13/whirlpool",
+   "shows": [
+    {
+     "at": "2026-11-21T17:00",
+     "sold_out": false,
+     "url": "https://www.filmnoircinema.com/program/2026/5/13/whirlpool"
+    }
+   ]
+  },
+  {
+   "title": "Film Noir Monday",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.filmnoircinema.com/program/2019/12/16/film-noir-mondays-b4lyr-5hdte-8mz2l-mm4xx",
+   "shows": [
+    {
+     "at": "2026-11-23T21:00",
+     "sold_out": false,
+     "url": "https://www.filmnoircinema.com/program/2019/12/16/film-noir-mondays-b4lyr-5hdte-8mz2l-mm4xx"
+    }
+   ]
+  },
+  {
+   "title": "Cult Cinema",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.filmnoircinema.com/program/2020/11/24/cult-cinema-wncry-7tb8g-x6f5d-b3gye-5t3rg-nl6z9-69nam-72ksn-shpsb",
+   "shows": [
+    {
+     "at": "2026-11-24T21:00",
+     "sold_out": false,
+     "url": "https://www.filmnoircinema.com/program/2020/11/24/cult-cinema-wncry-7tb8g-x6f5d-b3gye-5t3rg-nl6z9-69nam-72ksn-shpsb"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

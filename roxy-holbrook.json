@@ -1,0 +1,70 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "roxy-holbrook",
+ "name": "Roxy Theater",
+ "city": "showlow",
+ "area": "Holbrook",
+ "region": "Holbrook & Winslow",
+ "url": "https://roxyroute66.com/showtimes/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://roxyroute66.com/event/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-21T15:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/ebenezer-2/"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/ebenezer/"
+    },
+    {
+     "at": "2026-11-22T15:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/ebenezer-2/"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/ebenezer/"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/ebenezer/"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://roxyroute66.com/event/focker-in-law/",
+   "shows": [
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/focker-in-law/"
+    },
+    {
+     "at": "2026-11-27T19:00",
+     "sold_out": false,
+     "url": "https://roxyroute66.com/event/focker-in-law/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-21T02:23",
+ "error": null,
+ "warning": null
+}

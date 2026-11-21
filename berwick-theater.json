@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "berwick-theater",
+ "name": "Berwick Theater",
+ "city": "statecollege",
+ "area": "Berwick",
+ "region": "Lewisburg & Williamsport",
+ "url": "https://berwicktheater.org/",
+ "films": [
+  {
+   "title": "Jimmy (2026)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://berwicktheater.org/upcoming/2026/11/20/jimmy",
+   "shows": [
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://berwicktheater.org/upcoming/2026/11/21/jimmy-2026"
+    },
+    {
+     "at": "2026-11-22T14:00",
+     "sold_out": false,
+     "url": "https://berwicktheater.org/upcoming/2026/11/22/jimmy-2026"
+    }
+   ]
+  },
+  {
+   "title": "Hexed (2026)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://berwicktheater.org/upcoming/2026/11/25/hexed-2026",
+   "shows": [
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://berwicktheater.org/upcoming/2026/11/25/hexed-2026"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

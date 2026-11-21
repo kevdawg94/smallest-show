@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "grand-lander",
+ "name": "Grand Theatre",
+ "city": "lander",
+ "area": "Lander",
+ "region": "Lander",
+ "url": "https://barrycinemas.com/grand-theater-lander",
+ "films": [
+  {
+   "title": "Smallfoot",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://barrycinemas.com/grand-theater-lander/movie/28215",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/grand-theater-lander/tickets/c4c20c02-f4e2-f111-91f2-002248b556ef"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://barrycinemas.com/grand-theater-lander/movie/28146",
+   "shows": [
+    {
+     "at": "2026-11-21T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/grand-theater-lander/tickets/c6c20c02-f4e2-f111-91f2-002248b556ef"
+    },
+    {
+     "at": "2026-11-22T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/grand-theater-lander/tickets/c8c20c02-f4e2-f111-91f2-002248b556ef"
+    },
+    {
+     "at": "2026-11-24T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/grand-theater-lander/tickets/c5c20c02-f4e2-f111-91f2-002248b556ef"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}

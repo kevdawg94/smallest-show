@@ -1,0 +1,72 @@
+{
+ "generated_at": "2026-11-21T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-21",
+  "2026-11-28"
+ ],
+ "id": "boyertown-state",
+ "name": "State Theatre",
+ "city": "philly",
+ "area": "Boyertown",
+ "region": "Suburbs",
+ "url": "https://boyertownstatetheatre.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=hfx4gecvzsrqdskf0k519fpgnc",
+   "shows": [
+    {
+     "at": "2026-11-21T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4758?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-21T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4752?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-22T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4759?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-22T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4753?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-23T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4754?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-24T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4755?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-25T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4760?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-25T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4756?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    },
+    {
+     "at": "2026-11-26T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4757?siteToken=hfx4gecvzsrqdskf0k519fpgnc"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-20T20:23",
+ "error": null,
+ "warning": null
+}
