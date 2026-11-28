@@ -1,0 +1,88 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "new-beverly",
+ "name": "New Beverly",
+ "city": "la",
+ "area": "Beverly Grove",
+ "region": "Hollywood & Los Feliz",
+ "url": "https://thenewbev.com/schedule/",
+ "films": [
+  {
+   "title": "Batman Returns",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=fmtswb0qqbym3de6c4bbsqj89m",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5126?siteToken=fmtswb0qqbym3de6c4bbsqj89m"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5127?siteToken=fmtswb0qqbym3de6c4bbsqj89m"
+    }
+   ]
+  },
+  {
+   "title": "The Further Mis-Adventures of Cliff Booth",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=fmtswb0qqbym3de6c4bbsqj89m",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=fmtswb0qqbym3de6c4bbsqj89m"
+    },
+    {
+     "at": "2026-11-29T18:30",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=fmtswb0qqbym3de6c4bbsqj89m"
+    },
+    {
+     "at": "2026-11-30T19:30",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=fmtswb0qqbym3de6c4bbsqj89m"
+    },
+    {
+     "at": "2026-12-01T19:30",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=fmtswb0qqbym3de6c4bbsqj89m"
+    },
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=fmtswb0qqbym3de6c4bbsqj89m"
+    },
+    {
+     "at": "2026-12-03T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5140?siteToken=fmtswb0qqbym3de6c4bbsqj89m"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon a Time in... Hollywood",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=fmtswb0qqbym3de6c4bbsqj89m",
+   "shows": [
+    {
+     "at": "2026-11-28T23:59",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5125?siteToken=fmtswb0qqbym3de6c4bbsqj89m"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

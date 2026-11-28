@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "crest-superior",
+ "name": "Crest Theatre",
+ "city": "lincoln",
+ "area": "Superior",
+ "region": "Superior",
+ "url": "https://www.cresttheatre.org/showtimes/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.cresttheatre.org/showtimes/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.cresttheatre.org/showtimes/"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.cresttheatre.org/showtimes/"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.cresttheatre.org/showtimes/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:40",
+     "sold_out": false,
+     "url": "https://www.cresttheatre.org/showtimes/"
+    },
+    {
+     "at": "2026-11-29T14:30",
+     "sold_out": false,
+     "url": "https://www.cresttheatre.org/showtimes/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

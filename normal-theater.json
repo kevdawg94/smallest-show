@@ -1,0 +1,123 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "normal-theater",
+ "name": "Normal Theater",
+ "city": "peoria",
+ "area": "Uptown Normal",
+ "region": "Bloomington–Normal",
+ "url": "https://www.normaltheater.com/",
+ "films": [
+  {
+   "title": "The Polar Express",
+   "rating": "G",
+   "runtime_min": 100,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=463492~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-11-28T15:30",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588743~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "It's a Wonderful Life",
+   "rating": "PG",
+   "runtime_min": 130,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=463477~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588719~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Elf",
+   "rating": "PG",
+   "runtime_min": 97,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=463480~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-11-29T15:30",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588729~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Die Hard",
+   "rating": "R",
+   "runtime_min": 132,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=463483~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589163~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Ferris Bueller's Day Off",
+   "rating": "PG-13",
+   "runtime_min": 103,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=588754~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588755~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Miracle on 34th Street",
+   "rating": "NR",
+   "runtime_min": 96,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=589169~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589170~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Carol",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=588790~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=588791~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  },
+  {
+   "title": "Tokyo Godfathers",
+   "rating": "PG-13",
+   "runtime_min": 93,
+   "url": "https://tickets.normaltheater.com/websales/pages/info.aspx?evtinfo=463488~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://tickets.normaltheater.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=589629~35dbfdce-d79f-4fa0-875c-6ed7bfd29434&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

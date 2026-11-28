@@ -1,0 +1,84 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "browning-cinema",
+ "name": "Browning Cinema",
+ "city": "michiana",
+ "area": "Notre Dame",
+ "region": "South Bend & Notre Dame",
+ "url": "https://performingarts.nd.edu/film-series/",
+ "films": [
+  {
+   "title": "Inside Llewyn Davis (2013)",
+   "rating": "R",
+   "runtime_min": 104,
+   "url": "https://performingarts.nd.edu/event/19904/inside-llewyn-davis-2013/",
+   "shows": [
+    {
+     "at": "2026-12-01T19:30",
+     "sold_out": false,
+     "url": "https://dpactickets.nd.edu/19904/19905"
+    }
+   ]
+  },
+  {
+   "title": "Güeros (2014)",
+   "rating": null,
+   "runtime_min": 106,
+   "url": "https://performingarts.nd.edu/event/20347/geros-2014/",
+   "shows": [
+    {
+     "at": "2026-12-03T18:30",
+     "sold_out": false,
+     "url": "https://dpactickets.nd.edu/20347/20348"
+    }
+   ]
+  },
+  {
+   "title": "Mysterious Object at Noon (2000)",
+   "rating": null,
+   "runtime_min": 89,
+   "url": "https://performingarts.nd.edu/event/20156/mysterious-object-at-noon-2000/",
+   "shows": [
+    {
+     "at": "2026-12-03T21:30",
+     "sold_out": false,
+     "url": "https://dpactickets.nd.edu/20156/20157"
+    }
+   ]
+  },
+  {
+   "title": "Harvest (2026)",
+   "rating": null,
+   "runtime_min": 95,
+   "url": "https://performingarts.nd.edu/event/20294/harvest-2026/",
+   "shows": [
+    {
+     "at": "2026-12-04T18:30",
+     "sold_out": false,
+     "url": "https://dpactickets.nd.edu/20294/20295"
+    }
+   ]
+  },
+  {
+   "title": "Die Hard (1988)",
+   "rating": "R",
+   "runtime_min": 132,
+   "url": "https://performingarts.nd.edu/event/20324/die-hard-1988/",
+   "shows": [
+    {
+     "at": "2026-12-04T21:30",
+     "sold_out": false,
+     "url": "https://dpactickets.nd.edu/20324/20325"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": true
+}

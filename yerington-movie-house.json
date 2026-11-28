@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "yerington-movie-house",
+ "name": "Yerington Movie House",
+ "city": "reno",
+ "area": "Yerington",
+ "region": "Lyon County",
+ "url": "https://yeringtonmoviehouse.simpletix.com/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/hexed-tickets-303242",
+   "shows": [
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/hexed-tickets-303242"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/hexed-tickets-303242"
+    },
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/hexed-tickets-303242"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

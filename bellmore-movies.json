@@ -1,0 +1,105 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "bellmore-movies",
+ "name": "Bellmore Movies & Showplace",
+ "city": "longisland",
+ "area": "Bellmore",
+ "region": "Nassau",
+ "url": "https://www.bellmoremovie.com/",
+ "films": [
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-11-28T16:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-12-01T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-12-01T16:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-12-02T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-12-02T16:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-12-03T14:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    },
+    {
+     "at": "2026-12-03T16:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=HERSHEY"
+    }
+   ]
+  },
+  {
+   "title": "Network",
+   "rating": "R",
+   "runtime_min": 121,
+   "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=NETWORK",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=southshore&rtn=655750&page=picktitle&showTitle=NETWORK"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

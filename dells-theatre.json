@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "dells-theatre",
+ "name": "Dells Theatre",
+ "city": "siouxfalls",
+ "area": "Dell Rapids",
+ "region": "Dell Rapids & Madison",
+ "url": "https://dellstheatre.com/",
+ "films": [
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://dellstheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T16:30",
+     "sold_out": false,
+     "url": "https://dellstheatre.com/"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://dellstheatre.com/"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://dellstheatre.com/"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://dellstheatre.com/"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://dellstheatre.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

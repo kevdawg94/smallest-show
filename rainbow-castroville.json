@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "rainbow-castroville",
+ "name": "Rainbow Theater",
+ "city": "sanantonio",
+ "area": "Castroville",
+ "region": "Castroville & Hondo",
+ "url": "https://www.rainbowtheatercastroville.com/",
+ "films": [
+  {
+   "title": "Focker-in-Law",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=f6g4q9vchxk1fsz088qs91jkvr",
+   "shows": [
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1007?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1008?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1009?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1010?siteToken=f6g4q9vchxk1fsz088qs91jkvr"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

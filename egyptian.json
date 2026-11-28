@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "egyptian",
+ "name": "Egyptian",
+ "city": "la",
+ "area": "Hollywood",
+ "region": "Hollywood & Los Feliz",
+ "url": "https://www.americancinematheque.com/now-showing/",
+ "films": [
+  {
+   "title": "Alice in Wonderland",
+   "rating": null,
+   "runtime_min": 80,
+   "url": "https://www.americancinematheque.com/now-showing/alice-in-wonderland-11-28-2026/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/alice-in-wonderland-11-28-2026/"
+    }
+   ]
+  },
+  {
+   "title": "Ishtar",
+   "rating": null,
+   "runtime_min": 107,
+   "url": "https://www.americancinematheque.com/now-showing/ishtar-11-28-2026/",
+   "shows": [
+    {
+     "at": "2026-11-28T16:44",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/ishtar-11-28-2026/"
+    }
+   ]
+  },
+  {
+   "title": "EVIL DEAD Trilogy",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.americancinematheque.com/now-showing/evil-dead-trilogy-11-28-2026/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/evil-dead-trilogy-11-28-2026/"
+    }
+   ]
+  },
+  {
+   "title": "Excalibur",
+   "rating": null,
+   "runtime_min": 140,
+   "url": "https://www.americancinematheque.com/now-showing/excalibur-11-29-2026/",
+   "shows": [
+    {
+     "at": "2026-11-29T10:00",
+     "sold_out": false,
+     "url": "https://www.americancinematheque.com/now-showing/excalibur-11-29-2026/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

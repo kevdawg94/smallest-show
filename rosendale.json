@@ -1,0 +1,81 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "rosendale",
+ "name": "Rosendale Theatre",
+ "city": "hudsonvalley",
+ "area": "Rosendale",
+ "region": "Kingston, Woodstock & New Paltz",
+ "url": "https://rosendaletheatre.org/",
+ "films": [
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/48437/"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/48439/"
+    },
+    {
+     "at": "2026-12-02T14:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/48441/"
+    }
+   ]
+  },
+  {
+   "title": "Sunset Boulevard",
+   "rating": null,
+   "runtime_min": 110,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/48106/"
+    }
+   ]
+  },
+  {
+   "title": "Cinema Club - Blazing Saddles",
+   "rating": null,
+   "runtime_min": 93,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/47548/"
+    }
+   ]
+  },
+  {
+   "title": "Music Fan Film Series - Prince 3121 Las Vegas Live",
+   "rating": null,
+   "runtime_min": 115,
+   "url": "https://rosendaletheatre.org/",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://rosendaletheatre.org/purchase/47617/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "aurora-grand",
+ "name": "Aurora Grand Theater",
+ "city": "southeastak",
+ "area": "Downtown Juneau",
+ "region": "Juneau",
+ "url": "https://auroragrandtheater.com/",
+ "films": [
+  {
+   "title": "Shrek",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://auroragrandtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T17:00",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/18096/"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/18098/"
+    }
+   ]
+  },
+  {
+   "title": "Shrek 2",
+   "rating": null,
+   "runtime_min": 92,
+   "url": "https://auroragrandtheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/18097/"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://auroragrandtheater.com/purchase/18099/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

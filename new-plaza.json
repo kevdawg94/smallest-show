@@ -1,0 +1,107 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "new-plaza",
+ "name": "New Plaza Cinema",
+ "city": "nyc",
+ "area": "Upper West Side",
+ "region": "Uptown Manhattan",
+ "url": "https://newplazacinema.org/",
+ "films": [
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-28T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2798?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    },
+    {
+     "at": "2026-11-28T19:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2801?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    },
+    {
+     "at": "2026-11-29T19:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2804?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-28T14:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2799?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "REDISCOVERING FANON",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-28T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2800?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Mildred Pierce",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-29T12:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2726?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "Yaniv",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2802?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  },
+  {
+   "title": "The Devils",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=sz5016jfhkjfgdfcpmh564apxm",
+   "shows": [
+    {
+     "at": "2026-11-29T17:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2803?siteToken=sz5016jfhkjfgdfcpmh564apxm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

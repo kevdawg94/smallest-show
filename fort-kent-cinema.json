@@ -1,0 +1,88 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "fort-kent-cinema",
+ "name": "Fort Kent Cinema",
+ "city": "aroostook",
+ "area": "Fort Kent",
+ "region": "St. John Valley",
+ "url": "https://www.fortkentcinema.com/",
+ "films": [
+  {
+   "title": "Focker-in-Law",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://www.fortkentcinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-12-03T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-12-04T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    }
+   ]
+  },
+  {
+   "title": "InhuMaine",
+   "rating": null,
+   "runtime_min": 78,
+   "url": "https://www.fortkentcinema.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    }
+   ]
+  },
+  {
+   "title": "Violent Night 2",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.fortkentcinema.com/",
+   "shows": [
+    {
+     "at": "2026-12-04T19:30",
+     "sold_out": false,
+     "url": "https://www.fortkentcinema.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

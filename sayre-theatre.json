@@ -1,0 +1,81 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "sayre-theatre",
+ "name": "Sayre Theatre",
+ "city": "nepa",
+ "area": "Sayre",
+ "region": "Sayre",
+ "url": "https://www.bradfordcountymovies.com/sayre-theatre/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0",
+   "shows": [
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29267?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    },
+    {
+     "at": "2026-11-29T17:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29272?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0",
+   "shows": [
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29268?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    }
+   ]
+  },
+  {
+   "title": "Focker-in-Law",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0",
+   "shows": [
+    {
+     "at": "2026-11-28T20:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29269?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    },
+    {
+     "at": "2026-11-29T14:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29271?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    }
+   ]
+  },
+  {
+   "title": "Chicken Run- No School Fun Day",
+   "rating": "G",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0",
+   "shows": [
+    {
+     "at": "2026-11-30T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/29273?siteToken=xm9r7y8029ttaj1g0xd1y2xyz0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

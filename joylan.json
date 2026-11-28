@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "joylan",
+ "name": "Joylan Theatre",
+ "city": "buffalo",
+ "area": "Springville",
+ "region": "Southtowns",
+ "url": "https://www.joylantheatre.com/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=std6pkc5v2n270ph95ss8ep93r",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1779?siteToken=std6pkc5v2n270ph95ss8ep93r"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1781?siteToken=std6pkc5v2n270ph95ss8ep93r"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1782?siteToken=std6pkc5v2n270ph95ss8ep93r"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1783?siteToken=std6pkc5v2n270ph95ss8ep93r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

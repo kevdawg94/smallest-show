@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "parkway",
+ "name": "Parkway",
+ "city": "msp",
+ "area": "South Minneapolis",
+ "region": "Minneapolis",
+ "url": "https://theparkwaytheater.com/",
+ "films": [
+  {
+   "title": "The Wizard of Oz (1939)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/oz-26",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://link.dice.fm/R629ca702dea"
+    }
+   ]
+  },
+  {
+   "title": "Edward Scissorhands (1990)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://theparkwaytheater.com/all-events/scissorhands-26",
+   "shows": [
+    {
+     "at": "2026-12-03T20:00",
+     "sold_out": false,
+     "url": "https://link.dice.fm/o73db1c0cc48"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "shelbyville-capri",
+ "name": "Capri Theatre",
+ "city": "nashville",
+ "area": "Shelbyville",
+ "region": "Southern Middle Tennessee",
+ "url": "https://www.shelbyvillecapritheatre.com/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.shelbyvillecapritheatre.com/",
+   "shows": [
+    {
+     "at": "2026-12-02T14:00",
+     "sold_out": false,
+     "url": "https://www.shelbyvillecapritheatre.com/",
+     "venue": "Downstairs"
+    },
+    {
+     "at": "2026-12-02T16:15",
+     "sold_out": false,
+     "url": "https://www.shelbyvillecapritheatre.com/",
+     "venue": "Downstairs"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.shelbyvillecapritheatre.com/",
+     "venue": "Downstairs"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.shelbyvillecapritheatre.com/",
+   "shows": [
+    {
+     "at": "2026-12-02T14:00",
+     "sold_out": false,
+     "url": "https://www.shelbyvillecapritheatre.com/",
+     "venue": "Upstairs"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.shelbyvillecapritheatre.com/",
+     "venue": "Upstairs"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "backdoor-theatre",
+ "name": "Backdoor Theatre",
+ "city": "denver",
+ "area": "Nederland",
+ "region": "Boulder & Front Range",
+ "url": "https://thebackdoortheatre.org/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://thebackdoortheatre.org/event/the-cat-in-the-hat-2/",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://thebackdoortheatre.org/event/the-cat-in-the-hat-2/"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://thebackdoortheatre.org/event/the-cat-in-the-hat-3/"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://thebackdoortheatre.org/event/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://thebackdoortheatre.org/event/wild-horse-nine/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

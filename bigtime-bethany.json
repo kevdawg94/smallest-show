@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "bigtime-bethany",
+ "name": "BigTime Cinema",
+ "city": "fairfieldia",
+ "area": "Bethany",
+ "region": "Bethany",
+ "url": "https://www.bigtimecinema.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=1gsvgrdvgn087k4bx8ww07p2hg",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2697?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2694?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2698?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2695?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2696?siteToken=1gsvgrdvgn087k4bx8ww07p2hg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

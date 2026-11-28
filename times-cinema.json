@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "times-cinema",
+ "name": "Times",
+ "city": "milwaukee",
+ "area": "Washington Heights",
+ "region": "South & West",
+ "url": "https://www.ntg-wi.com/times",
+ "films": [
+  {
+   "title": "Focker-in-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.ntg-wi.com/movies/focker-in-law-2026?location=times&locationKey=6",
+   "shows": [
+    {
+     "at": "2026-11-28T15:30",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/focker-in-law-2026/showtimes/2026-11-28/times/select-tickets?showtime=eXdUYWNQa0lacmlSckQwaUdDMnVhUT09"
+    },
+    {
+     "at": "2026-11-28T18:30",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/focker-in-law-2026/showtimes/2026-11-28/times/select-tickets?showtime=OXBhUWV5UVBqRmg1bStVeW0vblVsUT09"
+    },
+    {
+     "at": "2026-11-29T15:30",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/focker-in-law-2026/showtimes/2026-11-29/times/select-tickets?showtime=b1psY05TYVErL2IwMkhWdkJlWHJIZz09"
+    },
+    {
+     "at": "2026-11-29T18:30",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/focker-in-law-2026/showtimes/2026-11-29/times/select-tickets?showtime=V0xxbS9EUHN0ei9yY1Jlb0ZaMVZsQT09"
+    },
+    {
+     "at": "2026-12-03T18:30",
+     "sold_out": false,
+     "url": "https://www.ntg-wi.com/movies/focker-in-law-2026/showtimes/2026-12-03/times/select-tickets?showtime=TmszZ3orbkN0clV0ODNMbUo1SXR0QT09"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

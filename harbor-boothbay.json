@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "harbor-boothbay",
+ "name": "Harbor Theater",
+ "city": "midcoast",
+ "area": "Boothbay Harbor",
+ "region": "Boothbay & Damariscotta",
+ "url": "https://boothbaycinema.org/",
+ "films": [
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://boothbaycinema.org/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/ebenezer/"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/ebenezer/"
+    },
+    {
+     "at": "2026-12-02T14:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/ebenezer/"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/ebenezer/"
+    }
+   ]
+  },
+  {
+   "title": "wild horse nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://boothbaycinema.org/wildhorsenine/",
+   "shows": [
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://boothbaycinema.org/wildhorsenine/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

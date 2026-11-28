@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "palace-vinton",
+ "name": "Vinton Palace Theatre",
+ "city": "iowacity",
+ "area": "Vinton",
+ "region": "Vinton & Manchester",
+ "url": "https://vintonpalace.org/",
+ "films": [
+  {
+   "title": "Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 150,
+   "url": "https://events.vintonpalace.org/events",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://events.vintonpalace.org/event-details/hunger-games-sunrise-on-the-reaping-nov28-2pm-pg-13-150min"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://events.vintonpalace.org/event-details/hunger-games-sunrise-on-the-reaping-nov28-7pm-pg-13-150min"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://events.vintonpalace.org/event-details/hunger-games-sunrise-on-the-reaping-nov29-7pm-pg-13-150min"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

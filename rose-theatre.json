@@ -1,0 +1,135 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "rose-theatre",
+ "name": "Rose Theatre",
+ "city": "olympic",
+ "area": "Port Townsend",
+ "region": "Port Townsend",
+ "url": "https://www.rosetheatre.com/",
+ "films": [
+  {
+   "title": "I Play Rocky",
+   "rating": null,
+   "runtime_min": 128,
+   "url": "https://www.rosetheatre.com/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-28T12:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/i-play-rocky/4402185"
+    },
+    {
+     "at": "2026-11-28T15:45",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/i-play-rocky/4402183"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/i-play-rocky/4402181"
+    },
+    {
+     "at": "2026-11-29T12:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/i-play-rocky/4402191"
+    },
+    {
+     "at": "2026-11-29T15:45",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/i-play-rocky/4402189"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/i-play-rocky/4402187"
+    },
+    {
+     "at": "2026-12-02T15:45",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/i-play-rocky/4402195"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/i-play-rocky/4402193"
+    },
+    {
+     "at": "2026-12-03T15:45",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/i-play-rocky/4402199"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/i-play-rocky/4402197"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 117,
+   "url": "https://www.rosetheatre.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wild-horse-nine/4402186"
+    },
+    {
+     "at": "2026-11-28T16:15",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wild-horse-nine/4402184"
+    },
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wild-horse-nine/4402182"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wild-horse-nine/4402192"
+    },
+    {
+     "at": "2026-11-29T16:15",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wild-horse-nine/4402190"
+    },
+    {
+     "at": "2026-11-29T19:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wild-horse-nine/4402188"
+    },
+    {
+     "at": "2026-12-02T16:15",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wild-horse-nine/4402196"
+    },
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wild-horse-nine/4402194"
+    },
+    {
+     "at": "2026-12-03T16:15",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wild-horse-nine/4402200"
+    },
+    {
+     "at": "2026-12-03T19:30",
+     "sold_out": false,
+     "url": "https://www.rosetheatre.com/checkout/showing/wild-horse-nine/4402198"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

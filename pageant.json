@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "pageant",
+ "name": "Pageant Theatre",
+ "city": "chico",
+ "area": "Chico",
+ "region": "Chico",
+ "url": "http://www.pageantchico.com/",
+ "films": [
+  {
+   "title": "Wallace and Gromit: The Classic Shorts",
+   "rating": "NR",
+   "runtime_min": 85,
+   "url": "http://www.pageantchico.com/comingSoon.html#gromit",
+   "shows": [
+    {
+     "at": "2026-11-28T16:45",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/comingSoon.html#gromit"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/comingSoon.html#gromit"
+    }
+   ]
+  },
+  {
+   "title": "Monty Python's LIFE OF BRIAN",
+   "rating": "R",
+   "runtime_min": 94,
+   "url": "http://www.pageantchico.com/comingSoon.html#brian",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/comingSoon.html#brian"
+    },
+    {
+     "at": "2026-11-29T16:15",
+     "sold_out": false,
+     "url": "http://www.pageantchico.com/comingSoon.html#brian"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

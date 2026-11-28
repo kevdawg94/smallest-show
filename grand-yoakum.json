@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "grand-yoakum",
+ "name": "The Grand Theater",
+ "city": "austin",
+ "area": "Yoakum",
+ "region": "Yoakum & Lavaca County",
+ "url": "https://www.yoakumgrandtheater.com/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=akqyqryynxx0dgmcavbe1gw0x0",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5758?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5759?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5760?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5761?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=akqyqryynxx0dgmcavbe1gw0x0",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5764?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5765?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5766?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/5767?siteToken=akqyqryynxx0dgmcavbe1gw0x0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

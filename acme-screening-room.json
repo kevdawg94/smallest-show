@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "acme-screening-room",
+ "name": "ACME Screening Room",
+ "city": "philly",
+ "area": "Lambertville, NJ",
+ "region": "Suburbs",
+ "url": "https://acmescreeningroom.org/",
+ "films": [
+  {
+   "title": "The 23rd Annual Animation Show of Shows",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.acmescreeningroom.org/now-playing/the-23rd-annual-animation-show-of-shows-aa9re-nm52w-fhe26",
+   "shows": [
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://ci.ovationtix.com/35991/production/1294512"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.acmescreeningroom.org/now-playing/the-only-living-pickpocket-in-new-york-zpf6p",
+   "shows": [
+    {
+     "at": "2026-11-28T19:45",
+     "sold_out": false,
+     "url": "https://ci.ovationtix.com/35991/production/1296262"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.acmescreeningroom.org/now-playing/you-can-see-everything-pe962",
+   "shows": [
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://ci.ovationtix.com/35991/production/1294507"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

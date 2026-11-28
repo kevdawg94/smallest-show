@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "speed-cinema",
+ "name": "Speed Cinema",
+ "city": "louisville",
+ "area": "Old Louisville, Louisville",
+ "region": "Old Louisville & Downtown",
+ "url": "https://www.speedmuseum.org/cinema/",
+ "films": [
+  {
+   "title": "The Great Dictator",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/the-great-dictator-at-speed-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=d8ddc2f3-68bb-434c-9006-bae8efe4b0d4"
+    }
+   ]
+  },
+  {
+   "title": "Orpheus",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/orpheus-at-speed-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=a5dcf255-160c-4ae5-a2d3-b57e1adbc993"
+    }
+   ]
+  },
+  {
+   "title": "Modern Times",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/modern-times-at-speed-cinema/",
+   "shows": [
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=19ff9b15-de5d-4d6d-9cdf-ea15befcb543"
+    }
+   ]
+  },
+  {
+   "title": "Josephine",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.speedmuseum.org/event/josephine-at-speed-cinema/",
+   "shows": [
+    {
+     "at": "2026-12-04T18:00",
+     "sold_out": false,
+     "url": "https://9620.blackbaudhosting.com/9620/tickets?tab=2&txobjid=3e19e1e3-a410-47f2-b99d-e52ddc136b8b"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

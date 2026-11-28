@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "kennett-palace",
+ "name": "Kennett Palace Theater",
+ "city": "sikeston",
+ "area": "Kennett",
+ "region": "Dexter & Kennett",
+ "url": "https://kennettpalace.com/",
+ "films": [
+  {
+   "title": "Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://kennettpalace.carrd.co/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://kennettpalace.carrd.co/"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://kennettpalace.carrd.co/"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://kennettpalace.carrd.co/"
+    }
+   ]
+  },
+  {
+   "title": "Ebeneezer",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://kennettpalace.carrd.co/",
+   "shows": [
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://kennettpalace.carrd.co/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

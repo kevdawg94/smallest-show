@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "showroom",
+ "name": "ShowRoom",
+ "city": "jerseyshore",
+ "area": "Asbury Park",
+ "region": "Monmouth Shore",
+ "url": "https://showroomcinemas.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/276595/"
+    }
+   ]
+  },
+  {
+   "title": "The Lair of the White Worm",
+   "rating": null,
+   "runtime_min": 93,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/276585/"
+    },
+    {
+     "at": "2026-11-29T15:30",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/271869/"
+    }
+   ]
+  },
+  {
+   "title": "The Piano Teacher",
+   "rating": null,
+   "runtime_min": 131,
+   "url": "https://showroomcinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://showroomcinemas.com/purchase/254489/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

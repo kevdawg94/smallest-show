@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "polk-theatre",
+ "name": "Polk Theatre",
+ "city": "lakeland",
+ "area": "Downtown Lakeland",
+ "region": "Lakeland",
+ "url": "https://www.polktheatre.org/",
+ "films": [
+  {
+   "title": "The Wizard of OZ",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39708&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39708&OrganizationID=64"
+    }
+   ]
+  },
+  {
+   "title": "Mary Poppins",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39714&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39714&OrganizationID=64"
+    }
+   ]
+  },
+  {
+   "title": "Clue",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39711&OrganizationID=64",
+   "shows": [
+    {
+     "at": "2026-11-30T18:30",
+     "sold_out": false,
+     "url": "https://secure.sellingticket.com/design22/clients/index.aspx?designID=39711&OrganizationID=64"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T14:24",
+ "error": true,
+ "warning": null
+}

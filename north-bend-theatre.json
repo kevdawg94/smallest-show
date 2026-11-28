@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "north-bend-theatre",
+ "name": "North Bend Theatre",
+ "city": "seattle",
+ "area": "North Bend",
+ "region": "West Seattle & South",
+ "url": "https://tix.northbendtheatre.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tix.northbendtheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-28th-7pm"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-saturday-nov-28th-7pm46"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/the-hunger-games-sunrise-on-the-reaping-sunday-nov-29th-7pm"
+    }
+   ]
+  },
+  {
+   "title": "The Way Out- Matchstick Productions",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://tix.northbendtheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://tix.northbendtheatre.com/event/the-way-out--matchstick-productions-sunday-november-29th-3pm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

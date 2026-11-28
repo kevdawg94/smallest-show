@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "blanchester-movie-theater",
+ "name": "Blanchester Movie Theater",
+ "city": "cincinnati",
+ "area": "Blanchester",
+ "region": "Lebanon & Wilmington",
+ "url": "https://blanchestermovietheater.com/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 103,
+   "url": "https://www.blanchestermovietheater.com/movie/hexed/",
+   "shows": [
+    {
+     "at": "2026-11-28T18:15",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/hexed/4369217"
+    },
+    {
+     "at": "2026-11-28T20:20",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/hexed/4369218"
+    },
+    {
+     "at": "2026-11-29T14:30",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/hexed/4369220"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.blanchestermovietheater.com/movie/the-hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4369216"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.blanchestermovietheater.com/checkout/showing/the-hunger-games-sunrise-on-the-reaping/4369219"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

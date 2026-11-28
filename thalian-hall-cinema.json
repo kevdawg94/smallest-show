@@ -1,0 +1,108 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "thalian-hall-cinema",
+ "name": "Thalian Hall Cinema",
+ "city": "wilmington",
+ "area": "Downtown Wilmington",
+ "region": "Downtown Wilmington",
+ "url": "https://www.thalianhall.org/cinema",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-30T12:45",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=428217ALDHRDSTDCTKLLJSBTHVLJNBJJL"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=428218ACSVNMMMPCGGTNNTMKKPNMDQCMR"
+    },
+    {
+     "at": "2026-12-01T15:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=428401AVCQMHRCVCKRCDDRVVQNBLGQDRR"
+    },
+    {
+     "at": "2026-12-02T12:45",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=428219APGGCHPNDCHQJTLPQMLDGVRQQGK"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=428220AJVMJVRDDRNJHVJMDJBCTLBSJLM"
+    },
+    {
+     "at": "2026-12-03T15:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=428402ACJGMQBCPPTHDSSPJBJQHNLBVCT"
+    }
+   ]
+  },
+  {
+   "title": "Only Living Pickpocket in New York, The",
+   "rating": null,
+   "runtime_min": 88,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-30T16:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=428001AHQTNJKPRNBHRNMKRCNGCJVQCLH"
+    },
+    {
+     "at": "2026-12-01T13:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=427801ASGGQPNGPDNDTDBPNVVPMVNQPBS"
+    },
+    {
+     "at": "2026-12-01T19:15",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=427802AKKKNGSKQDCPVRSGMKLHMQDJRBP"
+    },
+    {
+     "at": "2026-12-02T16:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=428002AVDJVMBPVCHQMTRMVVHJVKSHDHS"
+    },
+    {
+     "at": "2026-12-03T13:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=427803ASTRSKQNTMBPHTMKLVQGSTDVNJS"
+    },
+    {
+     "at": "2026-12-03T19:15",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=427804ARRNCBCJPKMBJLRLBJMGDNRQSHK"
+    }
+   ]
+  },
+  {
+   "title": "Muppet Christmas Carol, The (1992)",
+   "rating": null,
+   "runtime_min": 85,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/thalianhall/website/ChooseSeats.aspx?EventInstanceId=428601ATHBBPRMCRMVJPLCQGMPVTVJQDH"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,88 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "art-center-cinema-salina",
+ "name": "Salina Art Center Cinema",
+ "city": "salina",
+ "area": "Salina",
+ "region": "Salina",
+ "url": "https://www.salinaartcenter.org/comingsoon",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=666244~324e763b-503c-450c-8c59-54007b851949&",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": true,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666251~324e763b-503c-450c-8c59-54007b851949&"
+    },
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666255~324e763b-503c-450c-8c59-54007b851949&"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666252~324e763b-503c-450c-8c59-54007b851949&"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666256~324e763b-503c-450c-8c59-54007b851949&"
+    },
+    {
+     "at": "2026-11-30T18:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666259~324e763b-503c-450c-8c59-54007b851949&"
+    },
+    {
+     "at": "2026-12-02T18:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=666260~324e763b-503c-450c-8c59-54007b851949&"
+    }
+   ]
+  },
+  {
+   "title": "Jane Eyre",
+   "rating": "NR",
+   "runtime_min": 97,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=670469~324e763b-503c-450c-8c59-54007b851949&",
+   "shows": [
+    {
+     "at": "2026-12-01T18:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=670470~324e763b-503c-450c-8c59-54007b851949&"
+    }
+   ]
+  },
+  {
+   "title": "Legacy on the Hill: The Marymount College Story",
+   "rating": null,
+   "runtime_min": 45,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=664689~324e763b-503c-450c-8c59-54007b851949&",
+   "shows": [
+    {
+     "at": "2026-12-03T16:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=670356~324e763b-503c-450c-8c59-54007b851949&"
+    },
+    {
+     "at": "2026-12-03T18:30",
+     "sold_out": true,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=667888~324e763b-503c-450c-8c59-54007b851949&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

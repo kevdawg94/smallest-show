@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "emmaus-theatre",
+ "name": "Emmaus Theatre",
+ "city": "lehigh",
+ "area": "Emmaus",
+ "region": "Emmaus & Northampton",
+ "url": "https://www.emmaustheatre.com/",
+ "films": [
+  {
+   "title": "Twilight/New Moon: Double Feature",
+   "rating": null,
+   "runtime_min": 250,
+   "url": "https://www.emmaustheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://www.eventbrite.com/e/twilight-double-feature-tickets-2002890600703?aff=oddtdtcreator"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.eventbrite.com/e/twilight-double-feature-tickets-2002890600703?aff=oddtdtcreator"
+    }
+   ]
+  },
+  {
+   "title": "Ken Russell's The Devils",
+   "rating": "NC-17",
+   "runtime_min": 103,
+   "url": "https://www.emmaustheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-29T19:15",
+     "sold_out": false,
+     "url": "https://www.eventbrite.com/e/ken-russells-the-devils-tickets-2003931408788?aff=oddtdtcreator"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.eventbrite.com/e/ken-russells-the-devils-tickets-2003931408788?aff=oddtdtcreator"
+    }
+   ]
+  },
+  {
+   "title": "Prince 3121 Las Vegas Live",
+   "rating": "NR",
+   "runtime_min": 115,
+   "url": "https://www.emmaustheatre.com/",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://www.eventbrite.com/e/prince-3121-las-vegas-live-tickets-2004780925716?aff=oddtdtcreator"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

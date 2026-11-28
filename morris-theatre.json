@@ -1,0 +1,101 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "morris-theatre",
+ "name": "Morris Theatre",
+ "city": "msp",
+ "area": "Morris",
+ "region": "Western Minnesota",
+ "url": "https://morristheatre.net/",
+ "films": [
+  {
+   "title": "Abominable",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ns6gdetcv1d6wrqwkt0789kgw8",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9059?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ns6gdetcv1d6wrqwkt0789kgw8",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9094?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9103?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9095?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9096?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ns6gdetcv1d6wrqwkt0789kgw8",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9098?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9104?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9099?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9100?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    }
+   ]
+  },
+  {
+   "title": "The Secret World of Arrietty (Dubbed)",
+   "rating": "G",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ns6gdetcv1d6wrqwkt0789kgw8",
+   "shows": [
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/9063?siteToken=ns6gdetcv1d6wrqwkt0789kgw8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

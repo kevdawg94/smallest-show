@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "vickers",
+ "name": "Vickers Theatre",
+ "city": "kalamazoo",
+ "area": "Three Oaks",
+ "region": "Lakeshore",
+ "url": "https://vickerstheatre.com/",
+ "films": [
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://vickerstheatre.com/film/i-play-rocky",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://vickerstheatre.easy-ware-ticketing.com/generaladmission/fKGD_23xpPrP0eZP91sm8A"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://vickerstheatre.easy-ware-ticketing.com/generaladmission/3lhBHBWojNFhsKJiPh5HRw"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://vickerstheatre.easy-ware-ticketing.com/generaladmission/g5uSWy00zlH-28OQ9DIr2g"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://vickerstheatre.easy-ware-ticketing.com/generaladmission/OfxvYQ-4qr1RdgjWfRx-3Q"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://vickerstheatre.easy-ware-ticketing.com/generaladmission/WHT4_zZUrxAJAlGJkdp6hw"
+    },
+    {
+     "at": "2026-12-04T16:00",
+     "sold_out": false,
+     "url": "https://vickerstheatre.easy-ware-ticketing.com/generaladmission/PqY-9gJysGrRgW1W7uIO_w"
+    },
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://vickerstheatre.easy-ware-ticketing.com/generaladmission/LQsFVO8EDYNZJKyoKwSVMg"
+    }
+   ]
+  },
+  {
+   "title": "The Shop Around the Corner",
+   "rating": "NR",
+   "runtime_min": 99,
+   "url": "https://vickerstheatre.com/film/the-shop-around-the-corner",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://vickerstheatre.easy-ware-ticketing.com/generaladmission/lCUEXW72rgcG4LJMfusUtA"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

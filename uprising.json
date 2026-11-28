@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "uprising",
+ "name": "Uprising Theater",
+ "city": "chicago",
+ "area": "Avondale",
+ "region": "North Side",
+ "url": "https://uprisingtheaterchicago.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ey4bkpqbd1nxykkbywwqjcbet0",
+   "shows": [
+    {
+     "at": "2026-11-28T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/470?siteToken=ey4bkpqbd1nxykkbywwqjcbet0"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/471?siteToken=ey4bkpqbd1nxykkbywwqjcbet0"
+    },
+    {
+     "at": "2026-11-29T13:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/473?siteToken=ey4bkpqbd1nxykkbywwqjcbet0"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/474?siteToken=ey4bkpqbd1nxykkbywwqjcbet0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

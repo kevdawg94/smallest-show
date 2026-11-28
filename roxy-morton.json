@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "roxy-morton",
+ "name": "Roxy Theater",
+ "city": "swwa",
+ "area": "Morton",
+ "region": "Centralia–Chehalis & Lewis County",
+ "url": "https://mortonroxy.org/movies/",
+ "films": [
+  {
+   "title": "Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://mortonroxy.org/event/hunger-games-sunrise-on-the-reaping/2026-11-28/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://mortonroxy.org/event/hunger-games-sunrise-on-the-reaping/2026-11-28/"
+    },
+    {
+     "at": "2026-11-30T16:00",
+     "sold_out": false,
+     "url": "https://mortonroxy.org/event/hunger-games-sunrise-on-the-reaping/2026-11-30/1/"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://mortonroxy.org/event/hunger-games-sunrise-on-the-reaping/2026-11-30/2/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

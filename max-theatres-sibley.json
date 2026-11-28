@@ -1,0 +1,68 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "max-theatres-sibley",
+ "name": "Max Theatres",
+ "city": "siouxcity",
+ "area": "Sibley",
+ "region": "Sibley",
+ "url": "https://www.maxtheatres.com/",
+ "films": [
+  {
+   "title": "The Polar Express",
+   "rating": "G",
+   "runtime_min": 100,
+   "url": "https://www.warnerbros.com/movies/polar-express",
+   "shows": [
+    {
+     "at": "2026-11-28T10:30",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/28"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 103,
+   "url": "https://movies.disney.com/hexed",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/28"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/29"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 159,
+   "url": "https://hungergames.movie",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/28"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.maxtheatres.com/films/viewDay/2026/11/29"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

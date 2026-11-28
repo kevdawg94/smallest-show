@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "plaza-maplewood",
+ "name": "Plaza Theater",
+ "city": "msp",
+ "area": "Maplewood",
+ "region": "Suburbs",
+ "url": "https://theplazatheater.com/",
+ "films": [
+  {
+   "title": "Elf",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://theplazatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T16:30",
+     "sold_out": false,
+     "url": "https://theplazatheater.com/"
+    }
+   ]
+  },
+  {
+   "title": "Spider-Man: Brand New Day",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://theplazatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T18:35",
+     "sold_out": false,
+     "url": "https://theplazatheater.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Sheep Detectives",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://theplazatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://theplazatheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "old-town-music-hall",
+ "name": "Old Town Music Hall",
+ "city": "la",
+ "area": "El Segundo",
+ "region": "South Bay & Orange County",
+ "url": "https://www.oldtownmusichall.org/",
+ "films": [
+  {
+   "title": "Meet Me in St. Louis",
+   "rating": null,
+   "runtime_min": 114,
+   "url": "https://oldtownmusichall.org/movie/meet-me-in-st-louis-2/",
+   "shows": [
+    {
+     "at": "2026-11-28T14:30",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/meet-me-in-st-louis-2/3366436"
+    }
+   ]
+  },
+  {
+   "title": "The Shop Around the Corner",
+   "rating": null,
+   "runtime_min": 99,
+   "url": "https://oldtownmusichall.org/movie/the-shop-around-the-corner/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://oldtownmusichall.org/checkout/showing/the-shop-around-the-corner/3366437"
+    }
+   ]
+  },
+  {
+   "title": "Miracle on 34th Street",
+   "rating": null,
+   "runtime_min": 96,
+   "url": "https://oldtownmusichall.org/movie/miracle-on-34th-street/",
+   "shows": [
+    {
+     "at": "2026-11-29T14:30",
+     "sold_out": true,
+     "url": "https://oldtownmusichall.org/checkout/showing/miracle-on-34th-street/3366438"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

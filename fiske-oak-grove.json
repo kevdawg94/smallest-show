@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "fiske-oak-grove",
+ "name": "Fiske Theatre",
+ "city": "jacksonms",
+ "area": "Oak Grove",
+ "region": "Oak Grove",
+ "url": "https://www.fisketheatre.com/",
+ "films": [
+  {
+   "title": "Dr. Seuss' How The Grinch Stole Christmas",
+   "rating": "PG",
+   "runtime_min": 104,
+   "url": "https://www.fisketheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://www.fisketheatre.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.fisketheatre.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.fisketheatre.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "pierres-victor",
+ "name": "Pierre's Theatre",
+ "city": "idahofalls",
+ "area": "Victor",
+ "region": "Teton Valley",
+ "url": "https://pierrestheatre.com",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=z0tkk47nezsg3hkhx4d4t9he2w",
+   "shows": [
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/258?siteToken=z0tkk47nezsg3hkhx4d4t9he2w"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/259?siteToken=z0tkk47nezsg3hkhx4d4t9he2w"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

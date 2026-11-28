@@ -1,0 +1,501 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "grand-cinema",
+ "name": "Grand Cinema",
+ "city": "seattle",
+ "area": "Tacoma",
+ "region": "West Seattle & South",
+ "url": "https://grandcinema.com/",
+ "films": [
+  {
+   "title": "Club Kid",
+   "rating": "R",
+   "runtime_min": 126,
+   "url": "https://www.grandcinema.com/movie/club-kid/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4378910"
+    },
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4378912"
+    },
+    {
+     "at": "2026-11-28T16:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4378914"
+    },
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4378917"
+    },
+    {
+     "at": "2026-11-29T11:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278287"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278288"
+    },
+    {
+     "at": "2026-11-29T16:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278289"
+    },
+    {
+     "at": "2026-11-29T19:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278290"
+    },
+    {
+     "at": "2026-11-30T13:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278302"
+    },
+    {
+     "at": "2026-11-30T16:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278303"
+    },
+    {
+     "at": "2026-11-30T19:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278304"
+    },
+    {
+     "at": "2026-12-01T13:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278314"
+    },
+    {
+     "at": "2026-12-01T16:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278315"
+    },
+    {
+     "at": "2026-12-01T19:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278316"
+    },
+    {
+     "at": "2026-12-02T13:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278322"
+    },
+    {
+     "at": "2026-12-02T16:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278328"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278331"
+    },
+    {
+     "at": "2026-12-03T13:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278333"
+    },
+    {
+     "at": "2026-12-03T16:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278339"
+    },
+    {
+     "at": "2026-12-03T19:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/club-kid/4278342"
+    }
+   ]
+  },
+  {
+   "title": "Paper Tiger",
+   "rating": "R",
+   "runtime_min": 115,
+   "url": "https://www.grandcinema.com/movie/paper-tiger/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:25",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4378911"
+    },
+    {
+     "at": "2026-11-28T14:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4378913"
+    },
+    {
+     "at": "2026-11-28T16:50",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4378915"
+    },
+    {
+     "at": "2026-11-28T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4378916"
+    },
+    {
+     "at": "2026-11-29T11:25",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278283"
+    },
+    {
+     "at": "2026-11-29T14:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278284"
+    },
+    {
+     "at": "2026-11-29T16:50",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278285"
+    },
+    {
+     "at": "2026-11-29T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278286"
+    },
+    {
+     "at": "2026-11-30T13:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278299"
+    },
+    {
+     "at": "2026-11-30T16:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278300"
+    },
+    {
+     "at": "2026-11-30T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4387930"
+    },
+    {
+     "at": "2026-12-01T14:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278311"
+    },
+    {
+     "at": "2026-12-01T16:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278312"
+    },
+    {
+     "at": "2026-12-01T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278313"
+    },
+    {
+     "at": "2026-12-02T13:50",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278323"
+    },
+    {
+     "at": "2026-12-02T16:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278327"
+    },
+    {
+     "at": "2026-12-02T19:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278330"
+    },
+    {
+     "at": "2026-12-03T13:50",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278334"
+    },
+    {
+     "at": "2026-12-03T16:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278338"
+    },
+    {
+     "at": "2026-12-03T19:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/paper-tiger/4278341"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 116,
+   "url": "https://www.grandcinema.com/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:35",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4376084"
+    },
+    {
+     "at": "2026-11-28T17:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4376086"
+    },
+    {
+     "at": "2026-11-28T19:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4376089"
+    },
+    {
+     "at": "2026-11-29T11:35",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278291"
+    },
+    {
+     "at": "2026-11-29T14:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4376091"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278293"
+    },
+    {
+     "at": "2026-11-29T19:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278294"
+    },
+    {
+     "at": "2026-11-30T14:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278305"
+    },
+    {
+     "at": "2026-11-30T16:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278306"
+    },
+    {
+     "at": "2026-12-01T16:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278317"
+    },
+    {
+     "at": "2026-12-01T18:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278318"
+    },
+    {
+     "at": "2026-12-02T13:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278329"
+    },
+    {
+     "at": "2026-12-02T16:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278325"
+    },
+    {
+     "at": "2026-12-02T18:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4330831"
+    },
+    {
+     "at": "2026-12-03T13:40",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278340"
+    },
+    {
+     "at": "2026-12-03T16:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278336"
+    },
+    {
+     "at": "2026-12-03T18:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wild-horse-nine/4278344"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": 82,
+   "url": "https://www.grandcinema.com/movie/fatherland/",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fatherland/4376083"
+    },
+    {
+     "at": "2026-11-28T17:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fatherland/4376087"
+    },
+    {
+     "at": "2026-11-29T14:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fatherland/4376081"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fatherland/4278295"
+    },
+    {
+     "at": "2026-11-30T13:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fatherland/4278307"
+    },
+    {
+     "at": "2026-11-30T17:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fatherland/4278309"
+    },
+    {
+     "at": "2026-12-01T14:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fatherland/4278319"
+    },
+    {
+     "at": "2026-12-02T13:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fatherland/4376485"
+    },
+    {
+     "at": "2026-12-02T17:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fatherland/4376487"
+    },
+    {
+     "at": "2026-12-03T14:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/fatherland/4376489"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 175,
+   "url": "https://www.grandcinema.com/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/you-can-see-everything/4376090"
+    }
+   ]
+  },
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://www.grandcinema.com/movie/wicker/",
+   "shows": [
+    {
+     "at": "2026-11-28T14:20",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4376085"
+    },
+    {
+     "at": "2026-11-28T19:50",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4376088"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4375112"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4375113"
+    },
+    {
+     "at": "2026-11-30T15:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4375114"
+    },
+    {
+     "at": "2026-11-30T19:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4378708"
+    },
+    {
+     "at": "2026-12-01T16:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4375115"
+    },
+    {
+     "at": "2026-12-02T15:10",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4376486"
+    },
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4376488"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/wicker/4376490"
+    }
+   ]
+  },
+  {
+   "title": "Post Film Discussion - Paper Tiger",
+   "rating": null,
+   "runtime_min": 60,
+   "url": "https://www.grandcinema.com/movie/post-film-discussion---paper-tiger/",
+   "shows": [
+    {
+     "at": "2026-11-29T16:15",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/post-film-discussion---paper-tiger/4311568"
+    }
+   ]
+  },
+  {
+   "title": "Don't Look Up – Science on Screen®",
+   "rating": "R",
+   "runtime_min": 138,
+   "url": "https://www.grandcinema.com/movie/dont-look-up-science-on-screen/",
+   "shows": [
+    {
+     "at": "2026-11-30T18:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/dont-look-up-science-on-screen/3960267"
+    }
+   ]
+  },
+  {
+   "title": "Jodorowsky's Dune",
+   "rating": "PG-13",
+   "runtime_min": 87,
+   "url": "https://www.grandcinema.com/movie/jodorowskys-dune/",
+   "shows": [
+    {
+     "at": "2026-12-01T13:45",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/jodorowskys-dune/4296260"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://www.grandcinema.com/checkout/showing/jodorowskys-dune/4296261"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

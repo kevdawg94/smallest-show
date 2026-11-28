@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "rose-audubon",
+ "name": "Rose Theatre",
+ "city": "omaha",
+ "area": "Audubon, IA",
+ "region": "Audubon",
+ "url": "https://www.rosemovietheater.com/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ap997e0dqg1ramf7fh0a5g6mzw",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1216?siteToken=ap997e0dqg1ramf7fh0a5g6mzw"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1217?siteToken=ap997e0dqg1ramf7fh0a5g6mzw"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

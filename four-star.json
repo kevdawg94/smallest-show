@@ -1,0 +1,89 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "four-star",
+ "name": "4 Star",
+ "city": "bay",
+ "area": "Richmond",
+ "region": "San Francisco",
+ "url": "https://www.4-star-movies.com/",
+ "films": [
+  {
+   "title": "LIVE MUSIC: Stay Out, East Brothers, Try Harder",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20348?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Ponyo (Dubbed)",
+   "rating": "G",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-29T12:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20280?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Ponyo (Subtitled)",
+   "rating": "G",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20281?siteToken=d2atbcege5knqsavntt91g1250"
+    },
+    {
+     "at": "2026-11-29T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20336?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "Begotten",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-11-29T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/20283?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  },
+  {
+   "title": "MUSIC: Charlie Brown Xmas (Spencer Zahn & more)",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250",
+   "shows": [
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": true,
+     "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d2atbcege5knqsavntt91g1250"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

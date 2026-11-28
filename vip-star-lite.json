@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "vip-star-lite",
+ "name": "VIP Star-Lite Drive-In",
+ "city": "montgomery",
+ "area": "Newton",
+ "region": "Dothan & Enterprise",
+ "url": "https://vipcinemas.com/star-lite-drive-in",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://vipcinemas.com/star-lite-drive-in/movie/27505",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/star-lite-drive-in/tickets/2109"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://vipcinemas.com/star-lite-drive-in/movie/27504",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/star-lite-drive-in/tickets/2127"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://vipcinemas.com/star-lite-drive-in/movie/27645",
+   "shows": [
+    {
+     "at": "2026-11-28T19:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/star-lite-drive-in/tickets/2189"
+    }
+   ]
+  },
+  {
+   "title": "Focker-in-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://vipcinemas.com/star-lite-drive-in/movie/27508",
+   "shows": [
+    {
+     "at": "2026-11-28T19:15",
+     "sold_out": false,
+     "url": "https://vipcinemas.com/star-lite-drive-in/tickets/2112"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

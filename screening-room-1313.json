@@ -1,0 +1,124 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "screening-room-1313",
+ "name": "The Screening Room",
+ "city": "philly",
+ "area": "Wilmington, DE",
+ "region": "Suburbs",
+ "url": "https://www.thescreeningroom.org/",
+ "films": [
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d3yv01431jsax0nb8bnq8zp82r",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3956?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    },
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3957?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    },
+    {
+     "at": "2026-11-29T15:10",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3964?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3966?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d3yv01431jsax0nb8bnq8zp82r",
+   "shows": [
+    {
+     "at": "2026-11-28T12:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3955?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    },
+    {
+     "at": "2026-11-28T15:20",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3960?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    },
+    {
+     "at": "2026-12-01T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3965?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d3yv01431jsax0nb8bnq8zp82r",
+   "shows": [
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3959?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3961?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    }
+   ]
+  },
+  {
+   "title": "Bitter Christmas",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d3yv01431jsax0nb8bnq8zp82r",
+   "shows": [
+    {
+     "at": "2026-11-28T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3958?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    },
+    {
+     "at": "2026-11-29T15:40",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3962?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    },
+    {
+     "at": "2026-12-01T19:50",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3969?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    }
+   ]
+  },
+  {
+   "title": "Mouse",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=d3yv01431jsax0nb8bnq8zp82r",
+   "shows": [
+    {
+     "at": "2026-11-29T12:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/3963?siteToken=d3yv01431jsax0nb8bnq8zp82r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

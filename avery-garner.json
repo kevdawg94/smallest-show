@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "avery-garner",
+ "name": "Avery Theater",
+ "city": "rochestermn",
+ "area": "Garner, IA",
+ "region": "Mason City & North Iowa",
+ "url": "https://averytheater.org/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://averytheater.org/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://averytheater.org/"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://averytheater.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-26T02:24",
+ "error": true,
+ "warning": null
+}

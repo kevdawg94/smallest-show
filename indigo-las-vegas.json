@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "indigo-las-vegas",
+ "name": "Indigo Theater",
+ "city": "abq",
+ "area": "Las Vegas",
+ "region": "Las Vegas",
+ "url": "https://www.indigotheater.rocks/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=crpbd49gbz2hhrea57hemf69y8",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7375?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-28T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7377?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-28T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7379?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7376?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-29T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7378?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    },
+    {
+     "at": "2026-11-29T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7380?siteToken=crpbd49gbz2hhrea57hemf69y8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

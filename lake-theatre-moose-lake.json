@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "lake-theatre-moose-lake",
+ "name": "Lake Theatre",
+ "city": "duluth",
+ "area": "Moose Lake",
+ "region": "Cloquet",
+ "url": "https://mooselaketheater.com/",
+ "films": [
+  {
+   "title": "HUNGER GAMES Sunrise of the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 150,
+   "url": "https://mooselaketheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://mooselaketheater.com/"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://mooselaketheater.com/"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://mooselaketheater.com/"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://mooselaketheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

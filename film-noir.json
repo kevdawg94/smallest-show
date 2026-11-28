@@ -1,0 +1,71 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "film-noir",
+ "name": "Film Noir Cinema",
+ "city": "nyc",
+ "area": "Greenpoint",
+ "region": "Brooklyn",
+ "url": "https://www.filmnoircinema.com/program",
+ "films": [
+  {
+   "title": "Film Noir Monday",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.filmnoircinema.com/program/2019/12/16/film-noir-mondays-b4lyr-5hdte-8mz2l-mm4xx",
+   "shows": [
+    {
+     "at": "2026-11-30T21:00",
+     "sold_out": false,
+     "url": "https://www.filmnoircinema.com/program/2019/12/16/film-noir-mondays-b4lyr-5hdte-8mz2l-mm4xx"
+    }
+   ]
+  },
+  {
+   "title": "Paris Vu Par",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.filmnoircinema.com/program/2026/11/25/paris-vu-par",
+   "shows": [
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://www.filmnoircinema.com/program/2026/11/25/paris-vu-par"
+    }
+   ]
+  },
+  {
+   "title": "Cult Cinema",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.filmnoircinema.com/program/2020/11/24/cult-cinema-wncry-7tb8g-x6f5d-b3gye-5t3rg-nl6z9-69nam-72ksn-shpsb",
+   "shows": [
+    {
+     "at": "2026-12-01T21:00",
+     "sold_out": false,
+     "url": "https://www.filmnoircinema.com/program/2020/11/24/cult-cinema-wncry-7tb8g-x6f5d-b3gye-5t3rg-nl6z9-69nam-72ksn-shpsb"
+    }
+   ]
+  },
+  {
+   "title": "Film Club",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.filmnoircinema.com/program/2020/3/19/film-club-k59bk-a95nh-fe9j9-988ma-z5agf-ym22l-r3gag-byhhb-mcg2e-54ntk",
+   "shows": [
+    {
+     "at": "2026-12-03T21:00",
+     "sold_out": false,
+     "url": "https://www.filmnoircinema.com/program/2020/3/19/film-club-k59bk-a95nh-fe9j9-988ma-z5agf-ym22l-r3gag-byhhb-mcg2e-54ntk"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

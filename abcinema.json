@@ -1,0 +1,90 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "abcinema",
+ "name": "ABCinema",
+ "city": "fortwayne",
+ "area": "Decatur",
+ "region": "Decatur & Adams County",
+ "url": "https://abcinemainc.com",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://abcinemainc.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T12:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-28T15:15",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-28T20:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-29T16:50",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://abcinemainc.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-28T16:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-29T13:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://abcinemainc.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,90 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "bay-theatre-morro",
+ "name": "Bay Theatre",
+ "city": "slo",
+ "area": "Morro Bay",
+ "region": "Coast",
+ "url": "https://www.morrobaymovie.com/",
+ "films": [
+  {
+   "title": "Beethoven",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.morrobaymovie.com/beethoven",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/beethoven"
+    }
+   ]
+  },
+  {
+   "title": "Focker-In-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.morrobaymovie.com/focker-in-law",
+   "shows": [
+    {
+     "at": "2026-11-28T16:15",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/focker-in-law"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/focker-in-law"
+    },
+    {
+     "at": "2026-11-29T13:15",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/focker-in-law"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/focker-in-law"
+    },
+    {
+     "at": "2026-12-01T16:15",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/focker-in-law"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/focker-in-law"
+    },
+    {
+     "at": "2026-12-02T16:15",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/focker-in-law"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/focker-in-law"
+    },
+    {
+     "at": "2026-12-04T16:15",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/focker-in-law"
+    },
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://www.morrobaymovie.com/focker-in-law"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

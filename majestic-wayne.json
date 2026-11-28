@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "majestic-wayne",
+ "name": "Majestic Theatre",
+ "city": "siouxcity",
+ "area": "Wayne, NE",
+ "region": "Wayne",
+ "url": "https://majesticonmain.org/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    },
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://majesticonmain.org/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

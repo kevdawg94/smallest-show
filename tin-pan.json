@@ -1,0 +1,94 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "tin-pan",
+ "name": "Tin Pan Theater",
+ "city": "bend",
+ "area": "Downtown Bend",
+ "region": "Bend",
+ "url": "https://tinpantheater.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": "https://tinpan.eventive.org/Films/6ad92c0eabd6f8426db184c1",
+   "shows": [
+    {
+     "at": "2026-11-28T14:30",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6afb5206b5e0f924bc1d6b5a"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6afb522d49f8275ed1b68a11"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": true,
+     "url": "https://tinpan.eventive.org/schedule/6afb524ee9dfee4dffcea3a3"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://tinpan.eventive.org/Films/6af27324401e7a254439be24",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6af27f9a1b5d0fc4842d0647"
+    }
+   ]
+  },
+  {
+   "title": "The Cycle of Love",
+   "rating": null,
+   "runtime_min": 98,
+   "url": "https://tinpan.eventive.org/Films/6ad65d9b8217b6d6a46b441c",
+   "shows": [
+    {
+     "at": "2026-11-30T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6afb526949f8275ed1b68ef5"
+    }
+   ]
+  },
+  {
+   "title": "Die Hard (1988) | Holiday Films!",
+   "rating": null,
+   "runtime_min": 132,
+   "url": "https://tinpan.eventive.org/Films/6912402db5086d6e09ca1823",
+   "shows": [
+    {
+     "at": "2026-12-02T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6af7cd7b37ee1c3ff2c2b3d8"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": 146,
+   "url": "https://tinpan.eventive.org/Films/6ad65c7430d8c821d86eede7",
+   "shows": [
+    {
+     "at": "2026-12-03T18:00",
+     "sold_out": false,
+     "url": "https://tinpan.eventive.org/schedule/6afb528cba71a39de8fec379"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

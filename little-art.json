@@ -1,0 +1,78 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "little-art",
+ "name": "Little Art Theatre",
+ "city": "dayton",
+ "area": "Yellow Springs",
+ "region": "Yellow Springs & Greene County",
+ "url": "https://www.littleart.com/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1044277~7b829e11-136b-4535-af29-fa29ce9a8a6c&",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044280~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044281~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044282~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044283~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1044284~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    }
+   ]
+  },
+  {
+   "title": "UnCharitable",
+   "rating": null,
+   "runtime_min": 90,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1048712~7b829e11-136b-4535-af29-fa29ce9a8a6c&",
+   "shows": [
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1048713~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    }
+   ]
+  },
+  {
+   "title": "White Christmas",
+   "rating": "NR",
+   "runtime_min": 120,
+   "url": "https://prod3.agileticketing.net/websales/pages/info.aspx?evtinfo=1048775~7b829e11-136b-4535-af29-fa29ce9a8a6c&",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://prod3.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=1048777~7b829e11-136b-4535-af29-fa29ce9a8a6c&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,81 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "marion-theatre",
+ "name": "Marion Theatre",
+ "city": "gainesville",
+ "area": "Downtown Ocala",
+ "region": "Ocala & Marion County",
+ "url": "https://www.reillyartscenter.com/mariontickets/",
+ "films": [
+  {
+   "title": "Up",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV10000085EfFMAU",
+   "shows": [
+    {
+     "at": "2026-11-28T11:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TOvtMAG"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TPDdMAO"
+    }
+   ]
+  },
+  {
+   "title": "Holiday Inn",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV100000855AXMAY",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TKYvMAO"
+    }
+   ]
+  },
+  {
+   "title": "Little Women",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV10000085GKTMA2",
+   "shows": [
+    {
+     "at": "2026-11-28T16:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TScvMAG"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TSeXMAW"
+    }
+   ]
+  },
+  {
+   "title": "National Lampoon's Christmas Vacation",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/events/a0SV100000850QzMAI",
+   "shows": [
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://reillyartscenter.my.salesforce-sites.com/ticket/#/instances/a0FV1000004TJOLMA4"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "midway-burlington",
+ "name": "Midway Theater",
+ "city": "burlingtonco",
+ "area": "Burlington",
+ "region": "Burlington",
+ "url": "https://www.themidwaytheater.org/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2194?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2196?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/2195?siteToken=6jabdtcwrj9fgx3x1dtnjnmxa0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

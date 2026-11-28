@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "wealthy-theatre",
+ "name": "Wealthy Theatre",
+ "city": "grandrapids",
+ "area": "Uptown",
+ "region": "Grand Rapids",
+ "url": "https://grcmc.org/theatre",
+ "films": [
+  {
+   "title": "Noirvember - Double Feature: Too Late for Tears & Double Indemnity",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://grcmc.org/event/noirvember-double-feature-too-late-for-tears-double-indemnity-grand-rapids-film-society/1787",
+   "shows": [
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://eventmanager.vbotickets.com/tickets.asp?eid=209273"
+    }
+   ]
+  },
+  {
+   "title": "The Day After Tomorrow",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://grcmc.org/event/the-day-after-tomorrow/1776",
+   "shows": [
+    {
+     "at": "2026-12-01T19:30",
+     "sold_out": false,
+     "url": "https://grcmc.vbotickets.com/event/The_Day_After_Tomorrow_Tuesday_Night_Movie/208508"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

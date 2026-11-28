@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "silco-theater",
+ "name": "Silco Theater",
+ "city": "silvercity",
+ "area": "Silver City",
+ "region": "Silver City",
+ "url": "https://www.thesilcotheater.com/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0",
+   "shows": [
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1123?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1124?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1127?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    }
+   ]
+  },
+  {
+   "title": "The Birds",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4vdv8m906skr0n62szf54vkwh0",
+   "shows": [
+    {
+     "at": "2026-11-30T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1125?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1126?siteToken=4vdv8m906skr0n62szf54vkwh0"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

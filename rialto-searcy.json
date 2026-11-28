@@ -1,0 +1,75 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "rialto-searcy",
+ "name": "Rialto Theater",
+ "city": "searcy",
+ "area": "Searcy",
+ "region": "Searcy & White County",
+ "url": "https://searcyrialtotheater.com/",
+ "films": [
+  {
+   "title": "Toy Story 5",
+   "rating": "PG",
+   "runtime_min": 102,
+   "url": "https://searcyrialtotheater.com/amy_movie/toy-story-5/",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/toy-story-5/"
+    },
+    {
+     "at": "2026-11-28T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/toy-story-5/"
+    },
+    {
+     "at": "2026-11-29T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/toy-story-5/"
+    },
+    {
+     "at": "2026-11-30T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/toy-story-5/"
+    },
+    {
+     "at": "2026-12-01T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/toy-story-5/"
+    },
+    {
+     "at": "2026-12-02T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/toy-story-5/"
+    },
+    {
+     "at": "2026-12-03T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/toy-story-5/"
+    }
+   ]
+  },
+  {
+   "title": "The Grinch",
+   "rating": "PG",
+   "runtime_min": 86,
+   "url": "https://searcyrialtotheater.com/amy_movie/the-grinch/",
+   "shows": [
+    {
+     "at": "2026-12-04T18:30",
+     "sold_out": false,
+     "url": "https://searcyrialtotheater.com/amy_movie/the-grinch/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

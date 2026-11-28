@@ -1,0 +1,550 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "mary-max-logansport",
+ "name": "Mary Max Cinemas",
+ "city": "michiana",
+ "area": "Logansport",
+ "region": "Logansport & Cass County",
+ "url": "https://marymaxcinemas.com/",
+ "films": [
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 138,
+   "url": "https://www.marymaxcinemas.com/movie/28186",
+   "shows": [
+    {
+     "at": "2026-11-28T11:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153979000005"
+    },
+    {
+     "at": "2026-11-28T13:40",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153978000005"
+    },
+    {
+     "at": "2026-11-28T16:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153977000005"
+    },
+    {
+     "at": "2026-11-28T19:20",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153976000005"
+    },
+    {
+     "at": "2026-11-29T11:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153990000005"
+    },
+    {
+     "at": "2026-11-29T13:40",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153989000005"
+    },
+    {
+     "at": "2026-11-29T16:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153988000005"
+    },
+    {
+     "at": "2026-11-29T19:20",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153987000005"
+    },
+    {
+     "at": "2026-11-30T16:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154000000005"
+    },
+    {
+     "at": "2026-11-30T19:20",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153999000005"
+    },
+    {
+     "at": "2026-12-01T16:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154020000005"
+    },
+    {
+     "at": "2026-12-01T19:20",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154028000005"
+    },
+    {
+     "at": "2026-12-02T16:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154032000005"
+    },
+    {
+     "at": "2026-12-02T19:20",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154040000005"
+    },
+    {
+     "at": "2026-12-03T16:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154044000005"
+    },
+    {
+     "at": "2026-12-03T19:20",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154052000005"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://www.marymaxcinemas.com/movie/28068",
+   "shows": [
+    {
+     "at": "2026-11-28T11:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153620000004"
+    },
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153621000004"
+    },
+    {
+     "at": "2026-11-28T16:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153622000004"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153623000004"
+    },
+    {
+     "at": "2026-11-29T11:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153628000004"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153629000004"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153630000004"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153631000004"
+    },
+    {
+     "at": "2026-11-30T16:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154010000004"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154011000004"
+    },
+    {
+     "at": "2026-12-01T16:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154021000004"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154025000004"
+    },
+    {
+     "at": "2026-12-02T16:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154033000004"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154037000004"
+    },
+    {
+     "at": "2026-12-03T16:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154045000004"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154049000004"
+    }
+   ]
+  },
+  {
+   "title": "Focker in Law",
+   "rating": "PG-13",
+   "runtime_min": 120,
+   "url": "https://www.marymaxcinemas.com/movie/28065",
+   "shows": [
+    {
+     "at": "2026-11-28T11:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153624000002"
+    },
+    {
+     "at": "2026-11-28T14:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153625000002"
+    },
+    {
+     "at": "2026-11-28T16:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153626000002"
+    },
+    {
+     "at": "2026-11-28T19:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153627000002"
+    },
+    {
+     "at": "2026-11-29T11:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153632000002"
+    },
+    {
+     "at": "2026-11-29T14:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153633000002"
+    },
+    {
+     "at": "2026-11-29T16:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153634000002"
+    },
+    {
+     "at": "2026-11-29T19:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153635000002"
+    },
+    {
+     "at": "2026-11-30T16:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154014000002"
+    },
+    {
+     "at": "2026-11-30T19:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154015000002"
+    },
+    {
+     "at": "2026-12-01T16:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154022000002"
+    },
+    {
+     "at": "2026-12-01T19:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154027000002"
+    },
+    {
+     "at": "2026-12-02T16:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154034000002"
+    },
+    {
+     "at": "2026-12-02T19:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154039000002"
+    },
+    {
+     "at": "2026-12-03T16:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154046000002"
+    },
+    {
+     "at": "2026-12-03T19:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154051000002"
+    }
+   ]
+  },
+  {
+   "title": "Hunger Games Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 168,
+   "url": "https://www.marymaxcinemas.com/movie/27877",
+   "shows": [
+    {
+     "at": "2026-11-28T11:50",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153975000003"
+    },
+    {
+     "at": "2026-11-28T15:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153974000003"
+    },
+    {
+     "at": "2026-11-28T19:10",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153973000003"
+    },
+    {
+     "at": "2026-11-29T11:50",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153986000003"
+    },
+    {
+     "at": "2026-11-29T15:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153985000003"
+    },
+    {
+     "at": "2026-11-29T19:10",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153984000003"
+    },
+    {
+     "at": "2026-11-30T15:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153997000003"
+    },
+    {
+     "at": "2026-11-30T19:10",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153996000003"
+    },
+    {
+     "at": "2026-12-01T15:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154019000003"
+    },
+    {
+     "at": "2026-12-01T19:10",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154026000003"
+    },
+    {
+     "at": "2026-12-02T15:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154031000003"
+    },
+    {
+     "at": "2026-12-02T19:10",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154038000003"
+    },
+    {
+     "at": "2026-12-03T15:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154043000003"
+    },
+    {
+     "at": "2026-12-03T19:10",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154050000003"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 125,
+   "url": "https://www.marymaxcinemas.com/movie/28067",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153828000007"
+    },
+    {
+     "at": "2026-11-28T14:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153641000007"
+    },
+    {
+     "at": "2026-11-28T17:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153642000007"
+    },
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153827000007"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153636000007"
+    },
+    {
+     "at": "2026-11-29T14:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153637000007"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153638000007"
+    },
+    {
+     "at": "2026-11-29T19:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153639000007"
+    },
+    {
+     "at": "2026-11-30T15:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154017000007"
+    },
+    {
+     "at": "2026-11-30T18:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154101000007"
+    },
+    {
+     "at": "2026-12-01T17:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154018000007"
+    },
+    {
+     "at": "2026-12-01T19:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154104000007"
+    },
+    {
+     "at": "2026-12-02T17:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154106000007"
+    },
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154105000007"
+    },
+    {
+     "at": "2026-12-03T14:40",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154091000007"
+    },
+    {
+     "at": "2026-12-03T17:00",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154042000007"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 125,
+   "url": "https://www.marymaxcinemas.com/movie/27875",
+   "shows": [
+    {
+     "at": "2026-11-28T12:10",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153981000006"
+    },
+    {
+     "at": "2026-11-28T14:40",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153980000006"
+    },
+    {
+     "at": "2026-11-28T17:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153982000006"
+    },
+    {
+     "at": "2026-11-28T19:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153983000006"
+    },
+    {
+     "at": "2026-11-29T12:10",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153992000006"
+    },
+    {
+     "at": "2026-11-29T14:40",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153991000006"
+    },
+    {
+     "at": "2026-11-29T17:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153993000006"
+    },
+    {
+     "at": "2026-11-29T19:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/153994000006"
+    },
+    {
+     "at": "2026-11-30T17:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154005000006"
+    },
+    {
+     "at": "2026-11-30T19:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154006000006"
+    },
+    {
+     "at": "2026-12-01T17:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154023000006"
+    },
+    {
+     "at": "2026-12-01T19:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154029000006"
+    },
+    {
+     "at": "2026-12-02T17:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154035000006"
+    },
+    {
+     "at": "2026-12-02T19:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154041000006"
+    },
+    {
+     "at": "2026-12-03T17:15",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154047000006"
+    },
+    {
+     "at": "2026-12-03T19:45",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154053000006"
+    }
+   ]
+  },
+  {
+   "title": "Violent Night 2",
+   "rating": "R",
+   "runtime_min": 120,
+   "url": "https://www.marymaxcinemas.com/movie/28250",
+   "shows": [
+    {
+     "at": "2026-12-03T19:40",
+     "sold_out": false,
+     "url": "https://www.marymaxcinemas.com/tickets/154088000007"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "grand-lander",
+ "name": "Grand Theatre",
+ "city": "lander",
+ "area": "Lander",
+ "region": "Lander",
+ "url": "https://barrycinemas.com/grand-theater-lander",
+ "films": [
+  {
+   "title": "How the Grinch Stole Christmas",
+   "rating": "PG",
+   "runtime_min": 104,
+   "url": "https://barrycinemas.com/grand-theater-lander/movie/21492",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/grand-theater-lander/tickets/e083306a-8ae8-f111-91f2-002248b556ef"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://barrycinemas.com/grand-theater-lander/movie/28214",
+   "shows": [
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/grand-theater-lander/tickets/df83306a-8ae8-f111-91f2-002248b556ef"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/grand-theater-lander/tickets/e283306a-8ae8-f111-91f2-002248b556ef"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/grand-theater-lander/tickets/e383306a-8ae8-f111-91f2-002248b556ef"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

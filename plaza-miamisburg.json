@@ -1,0 +1,78 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "plaza-miamisburg",
+ "name": "Historic Plaza Theatre",
+ "city": "dayton",
+ "area": "Miamisburg",
+ "region": "South Suburbs",
+ "url": "https://www.myplazatheatre.com/",
+ "films": [
+  {
+   "title": "Miracle on 34th Street",
+   "rating": "NR",
+   "runtime_min": 96,
+   "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=MIRACLE%20ON%2034TH%20STREET",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=MIRACLE%20ON%2034TH%20STREET"
+    },
+    {
+     "at": "2026-11-29T13:30",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=MIRACLE%20ON%2034TH%20STREET"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=MIRACLE%20ON%2034TH%20STREET"
+    }
+   ]
+  },
+  {
+   "title": "Elf",
+   "rating": "PG",
+   "runtime_min": 97,
+   "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=ELF",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=ELF"
+    },
+    {
+     "at": "2026-12-03T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=ELF"
+    }
+   ]
+  },
+  {
+   "title": "Planes Trains and Automob",
+   "rating": "R",
+   "runtime_min": 93,
+   "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=PLANES%20TRAINS%20AND%20AUTOMOB",
+   "shows": [
+    {
+     "at": "2026-12-02T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=PLANES%20TRAINS%20AND%20AUTOMOB"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=plazatheatre&rtn=679141&page=picktitle&showTitle=PLANES%20TRAINS%20AND%20AUTOMOB"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

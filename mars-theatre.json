@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "mars-theatre",
+ "name": "Mars Theatre",
+ "city": "savannah",
+ "area": "Springfield",
+ "region": "Springfield",
+ "url": "https://marstheatre.com/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 103,
+   "url": "https://marstheatre.com/movie/hexed/",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/hexed/4352527"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/hexed/4352528"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://marstheatre.com/checkout/showing/hexed/4352529"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

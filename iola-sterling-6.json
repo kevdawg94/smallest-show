@@ -1,0 +1,561 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "iola-sterling-6",
+ "name": "Iola Sterling 6 Cinemas",
+ "city": "nekansas",
+ "area": "Iola",
+ "region": "Iola",
+ "url": "https://www.iola6.com/",
+ "films": [
+  {
+   "title": "Christmas Vacation (FREE Merchant Matinee)",
+   "rating": "PG-13",
+   "runtime_min": 97,
+   "url": "https://www.iola6.com/movie/28279",
+   "shows": [
+    {
+     "at": "2026-11-28T10:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117819"
+    },
+    {
+     "at": "2026-11-28T11:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117820"
+    },
+    {
+     "at": "2026-11-29T10:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117845"
+    },
+    {
+     "at": "2026-11-29T11:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117846"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 150,
+   "url": "https://www.iola6.com/movie/28086",
+   "shows": [
+    {
+     "at": "2026-11-28T12:30",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117821"
+    },
+    {
+     "at": "2026-11-28T15:40",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117828"
+    },
+    {
+     "at": "2026-11-28T18:50",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117834"
+    },
+    {
+     "at": "2026-11-28T21:40",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117840"
+    },
+    {
+     "at": "2026-11-29T12:30",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117847"
+    },
+    {
+     "at": "2026-11-29T15:40",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117854"
+    },
+    {
+     "at": "2026-11-29T18:50",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117860"
+    },
+    {
+     "at": "2026-11-30T15:40",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117874"
+    },
+    {
+     "at": "2026-11-30T18:50",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117880"
+    },
+    {
+     "at": "2026-12-01T15:40",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117892"
+    },
+    {
+     "at": "2026-12-01T18:50",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117898"
+    },
+    {
+     "at": "2026-12-02T15:40",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117910"
+    },
+    {
+     "at": "2026-12-02T18:50",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117916"
+    },
+    {
+     "at": "2026-12-03T15:40",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117928"
+    },
+    {
+     "at": "2026-12-03T18:50",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117934"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://www.iola6.com/movie/27982",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117823"
+    },
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117829"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117835"
+    },
+    {
+     "at": "2026-11-28T22:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117844"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117849"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117855"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117861"
+    },
+    {
+     "at": "2026-11-30T16:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117875"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117881"
+    },
+    {
+     "at": "2026-12-01T16:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117893"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117899"
+    },
+    {
+     "at": "2026-12-02T16:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117911"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117917"
+    },
+    {
+     "at": "2026-12-03T16:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117929"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117935"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://www.iola6.com/movie/28174",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117824"
+    },
+    {
+     "at": "2026-11-28T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117830"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117836"
+    },
+    {
+     "at": "2026-11-28T22:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117841"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117850"
+    },
+    {
+     "at": "2026-11-29T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117856"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117862"
+    },
+    {
+     "at": "2026-11-30T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117876"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117882"
+    },
+    {
+     "at": "2026-12-01T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117894"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117900"
+    },
+    {
+     "at": "2026-12-02T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117912"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117918"
+    },
+    {
+     "at": "2026-12-03T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117930"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117936"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 108,
+   "url": "https://www.iola6.com/movie/28278",
+   "shows": [
+    {
+     "at": "2026-11-28T13:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117825"
+    },
+    {
+     "at": "2026-11-28T16:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117832"
+    },
+    {
+     "at": "2026-11-28T19:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117838"
+    },
+    {
+     "at": "2026-11-28T22:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117842"
+    },
+    {
+     "at": "2026-11-29T13:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117851"
+    },
+    {
+     "at": "2026-11-29T16:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117858"
+    },
+    {
+     "at": "2026-11-29T19:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117864"
+    },
+    {
+     "at": "2026-11-30T16:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117878"
+    },
+    {
+     "at": "2026-11-30T19:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117884"
+    },
+    {
+     "at": "2026-12-01T16:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117896"
+    },
+    {
+     "at": "2026-12-01T19:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117902"
+    },
+    {
+     "at": "2026-12-02T16:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117914"
+    },
+    {
+     "at": "2026-12-02T19:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117920"
+    },
+    {
+     "at": "2026-12-03T16:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117932"
+    },
+    {
+     "at": "2026-12-03T19:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117938"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://www.iola6.com/movie/27753",
+   "shows": [
+    {
+     "at": "2026-11-28T13:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117822"
+    },
+    {
+     "at": "2026-11-28T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117827"
+    },
+    {
+     "at": "2026-11-29T13:20",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117848"
+    },
+    {
+     "at": "2026-11-29T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117853"
+    },
+    {
+     "at": "2026-11-30T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117873"
+    },
+    {
+     "at": "2026-12-01T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117891"
+    },
+    {
+     "at": "2026-12-02T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117909"
+    }
+   ]
+  },
+  {
+   "title": "Focker-in-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.iola6.com/movie/28173",
+   "shows": [
+    {
+     "at": "2026-11-28T13:30",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117826"
+    },
+    {
+     "at": "2026-11-28T16:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117831"
+    },
+    {
+     "at": "2026-11-28T19:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117837"
+    },
+    {
+     "at": "2026-11-28T21:50",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117843"
+    },
+    {
+     "at": "2026-11-29T13:30",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117852"
+    },
+    {
+     "at": "2026-11-29T16:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117857"
+    },
+    {
+     "at": "2026-11-29T19:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117863"
+    },
+    {
+     "at": "2026-11-30T16:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117877"
+    },
+    {
+     "at": "2026-11-30T19:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117883"
+    },
+    {
+     "at": "2026-12-01T16:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117895"
+    },
+    {
+     "at": "2026-12-01T19:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117901"
+    },
+    {
+     "at": "2026-12-02T16:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117913"
+    },
+    {
+     "at": "2026-12-02T19:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117919"
+    },
+    {
+     "at": "2026-12-03T16:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117931"
+    },
+    {
+     "at": "2026-12-03T19:15",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117937"
+    }
+   ]
+  },
+  {
+   "title": "Ghost Soldier",
+   "rating": "PG",
+   "runtime_min": 90,
+   "url": "https://www.iola6.com/movie/27984",
+   "shows": [
+    {
+     "at": "2026-11-28T19:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117833"
+    },
+    {
+     "at": "2026-11-28T22:00",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117839"
+    },
+    {
+     "at": "2026-11-29T19:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117859"
+    },
+    {
+     "at": "2026-11-30T19:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117879"
+    },
+    {
+     "at": "2026-12-01T19:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117897"
+    },
+    {
+     "at": "2026-12-02T19:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117915"
+    }
+   ]
+  },
+  {
+   "title": "Violent Night 2",
+   "rating": "R",
+   "runtime_min": 110,
+   "url": "https://www.iola6.com/movie/28277",
+   "shows": [
+    {
+     "at": "2026-12-03T16:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117927"
+    },
+    {
+     "at": "2026-12-03T19:10",
+     "sold_out": false,
+     "url": "https://www.iola6.com/tickets/117933"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

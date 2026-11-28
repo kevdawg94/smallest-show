@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "roseland-onancock",
+ "name": "Roseland Theatre",
+ "city": "delmarva",
+ "area": "Onancock",
+ "region": "Virginia's Eastern Shore",
+ "url": "https://www.roselandonancock.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/start?film=1445",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71709"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71710"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71711"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/start?film=1446",
+   "shows": [
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/ROSONA/book?perfcode=71712"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

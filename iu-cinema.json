@@ -1,0 +1,84 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "iu-cinema",
+ "name": "IU Cinema",
+ "city": "bloomington",
+ "area": "Indiana University",
+ "region": "Bloomington",
+ "url": "https://cinema.indiana.edu/",
+ "films": [
+  {
+   "title": "Ink",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://cinema.indiana.edu/upcoming-films/screening/2026-fall-monday-november-30-700pm",
+   "shows": [
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://cinema.indiana.edu/upcoming-films/screening/2026-fall-monday-november-30-700pm"
+    }
+   ]
+  },
+  {
+   "title": "The Plague",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://cinema.indiana.edu/upcoming-films/screening/2026-fall-tuesday-december-1-700pm",
+   "shows": [
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://cinema.indiana.edu/upcoming-films/screening/2026-fall-tuesday-december-1-700pm"
+    }
+   ]
+  },
+  {
+   "title": "The Duke of Burgundy",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://cinema.indiana.edu/upcoming-films/screening/2026-fall-thursday-december-3-700pm",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://cinema.indiana.edu/upcoming-films/screening/2026-fall-thursday-december-3-700pm"
+    }
+   ]
+  },
+  {
+   "title": "Tokyo Godfathers/Tôkyô goddofâzâzu",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://cinema.indiana.edu/upcoming-films/screening/2026-fall-friday-december-4-700pm",
+   "shows": [
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://cinema.indiana.edu/upcoming-films/screening/2026-fall-friday-december-4-700pm"
+    }
+   ]
+  },
+  {
+   "title": "Teenage Sex and Death at Camp Miasma",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://cinema.indiana.edu/upcoming-films/screening/2026-fall-friday-december-4-1000pm",
+   "shows": [
+    {
+     "at": "2026-12-04T22:00",
+     "sold_out": false,
+     "url": "https://cinema.indiana.edu/upcoming-films/screening/2026-fall-friday-december-4-1000pm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "park-city-film",
+ "name": "Park City Film",
+ "city": "slc",
+ "area": "Park City",
+ "region": "Park City",
+ "url": "https://parkcityfilm.org/showtimes/",
+ "films": [
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://parkcityfilm.eventive.org/films/6ae2b30513365937268ee532",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6aeb3cf68a6300a2c4bd9a2c"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://parkcityfilm.eventive.org/Film schedule/6aeb3cf68a6300a2c4bd9a36"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

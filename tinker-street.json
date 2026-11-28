@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "tinker-street",
+ "name": "Tinker Street Cinema",
+ "city": "hudsonvalley",
+ "area": "Woodstock",
+ "region": "Kingston, Woodstock & New Paltz",
+ "url": "https://www.tscwoodstock.com/",
+ "films": [
+  {
+   "title": "The Goonies (1985)",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1688?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    },
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1683?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1689?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    },
+    {
+     "at": "2026-11-29T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1684?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    }
+   ]
+  },
+  {
+   "title": "Nothing But Trouble (1991)",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg",
+   "shows": [
+    {
+     "at": "2026-12-01T20:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1685?siteToken=4e7hcqnzzn7g3mh9xmjz297bwg"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

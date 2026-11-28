@@ -1,0 +1,61 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "yale-film-archive",
+ "name": "Yale Film Archive",
+ "city": "centralct",
+ "area": "Yale, New Haven",
+ "region": "New Haven",
+ "url": "https://web.library.yale.edu/film/screenings",
+ "films": [
+  {
+   "title": "The Devils",
+   "rating": null,
+   "runtime_min": 114,
+   "url": "https://web.library.yale.edu/film/cinemix",
+   "shows": [
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": false,
+     "url": "https://web.library.yale.edu/film/cinemix",
+     "venue": "HQ L02, 320 York"
+    }
+   ]
+  },
+  {
+   "title": "Little Miss Sunshine",
+   "rating": null,
+   "runtime_min": 101,
+   "url": "https://web.library.yale.edu/film/sundance",
+   "shows": [
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://web.library.yale.edu/film/sundance",
+     "venue": "HQ L02, 320 York"
+    }
+   ]
+  },
+  {
+   "title": "Welcome to the Dollhouse",
+   "rating": null,
+   "runtime_min": 88,
+   "url": "https://web.library.yale.edu/film/sundance",
+   "shows": [
+    {
+     "at": "2026-12-04T21:00",
+     "sold_out": false,
+     "url": "https://web.library.yale.edu/film/sundance",
+     "venue": "HQ L02, 320 York"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

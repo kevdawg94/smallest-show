@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "moonlite-abingdon",
+ "name": "Moonlite Drive-In",
+ "city": "bristol",
+ "area": "Abingdon, VA",
+ "region": "Abingdon",
+ "url": "https://www.moonliteabingdon.com/events-showtimes",
+ "films": [
+  {
+   "title": "The Hunger Games Sunrise on t",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/start?film=1279",
+   "shows": [
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/book?perfcode=51127"
+    }
+   ]
+  },
+  {
+   "title": "How the Grinch Stole Christmas",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/start?film=1270",
+   "shows": [
+    {
+     "at": "2026-12-04T18:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/MOOABI/book?perfcode=51123"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

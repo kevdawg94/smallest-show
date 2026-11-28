@@ -1,0 +1,90 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "cinema-paradiso",
+ "name": "Cinema Paradiso",
+ "city": "miami",
+ "area": "Hollywood",
+ "region": "Broward",
+ "url": "https://www.cinemahollywood.org/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 175,
+   "url": "https://www.cinemahollywood.org/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/you-can-see-everything/4382790"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/you-can-see-everything/4382794"
+    },
+    {
+     "at": "2026-12-01T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/you-can-see-everything/4382795"
+    },
+    {
+     "at": "2026-12-02T18:30",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/you-can-see-everything/4382798"
+    },
+    {
+     "at": "2026-12-03T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/you-can-see-everything/4382799"
+    }
+   ]
+  },
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": 132,
+   "url": "https://www.cinemahollywood.org/movie/wildwood/",
+   "shows": [
+    {
+     "at": "2026-11-28T17:45",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wildwood/4382791"
+    },
+    {
+     "at": "2026-11-28T20:35",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wildwood/4382792"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wildwood/4382793"
+    },
+    {
+     "at": "2026-12-01T18:45",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wildwood/4382796"
+    },
+    {
+     "at": "2026-12-02T15:00",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wildwood/4382797"
+    },
+    {
+     "at": "2026-12-03T18:45",
+     "sold_out": false,
+     "url": "https://www.cinemahollywood.org/checkout/showing/wildwood/4382800"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

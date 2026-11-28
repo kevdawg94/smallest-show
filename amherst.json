@@ -1,0 +1,72 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "amherst",
+ "name": "Amherst Cinema",
+ "city": "cleveland",
+ "area": "Amherst",
+ "region": "West Side",
+ "url": "https://www.amherstcinema.com/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7yt44pcak8dj26cq9h6xcakg3w",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6179?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6180?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6183?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6181?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6182?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-11-30T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6175?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6176?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-12-02T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6177?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    },
+    {
+     "at": "2026-12-03T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/6178?siteToken=7yt44pcak8dj26cq9h6xcakg3w"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

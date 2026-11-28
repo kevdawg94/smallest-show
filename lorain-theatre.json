@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "lorain-theatre",
+ "name": "Lorain Theatre",
+ "city": "gregory",
+ "area": "Armour",
+ "region": "Armour",
+ "url": "https://www.lorainmovies.com/",
+ "films": [
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.lorainmovies.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://www.lorainmovies.com/"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://www.lorainmovies.com/"
+    },
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": false,
+     "url": "https://www.lorainmovies.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

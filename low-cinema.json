@@ -1,0 +1,111 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "low-cinema",
+ "name": "Low Cinema",
+ "city": "nyc",
+ "area": "Ridgewood",
+ "region": "Queens & beyond",
+ "url": "https://lowcinema.com/tickets/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-28T17:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/8ae4e1c1-8ca6-4a0c-8d15-108dca6feb56/"
+    },
+    {
+     "at": "2026-11-28T20:30",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/8cc07a2c-2cc3-46ae-8bcf-4e391d693d47/"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/d0c8582c-f977-49b3-a369-0dc25171be47/"
+    },
+    {
+     "at": "2026-11-29T20:30",
+     "sold_out": false,
+     "url": "https://lowcinema.com/checkout/56384254-97ec-4c51-b473-054aade83c5c/"
+    }
+   ]
+  },
+  {
+   "title": "Nirvanna the Band the Show the Movie the Commentary Track",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-11-30T18:00",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-11-30T20:15",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-12-02T18:00",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-12-02T20:15",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-12-04T18:00",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    },
+    {
+     "at": "2026-12-04T20:15",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    }
+   ]
+  },
+  {
+   "title": "Nirvanna the Band the Show Season 1",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    }
+   ]
+  },
+  {
+   "title": "Nirvanna the Band the Show Season 2",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://lowcinema.com/tickets/",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": true,
+     "url": "https://lowcinema.com/tickets/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

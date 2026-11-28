@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "stuart",
+ "name": "Stuart Cinema & Café",
+ "city": "nyc",
+ "area": "Long Island City",
+ "region": "Queens & beyond",
+ "url": "https://www.stuartcinema.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7frn1y2mz8ppp12zhy5dsek9a8",
+   "shows": [
+    {
+     "at": "2026-11-28T11:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7156?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-28T15:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7157?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7162?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7163?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    }
+   ]
+  },
+  {
+   "title": "Focker-in-Law",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=7frn1y2mz8ppp12zhy5dsek9a8",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7155?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-28T18:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7158?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7159?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7160?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/7161?siteToken=7frn1y2mz8ppp12zhy5dsek9a8"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

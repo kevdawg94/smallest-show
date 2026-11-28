@@ -1,0 +1,335 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "triplex",
+ "name": "Triplex Cinema",
+ "city": "westernmass",
+ "area": "Great Barrington",
+ "region": "Berkshires",
+ "url": "https://www.thetriplex.org/",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.thetriplex.org/movie/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4352139"
+    },
+    {
+     "at": "2026-11-29T19:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4352140"
+    },
+    {
+     "at": "2026-11-30T19:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4352143"
+    },
+    {
+     "at": "2026-12-02T16:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4352145"
+    },
+    {
+     "at": "2026-12-03T16:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/you-can-see-everything/4352147"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://www.thetriplex.org/movie/hexed/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310370"
+    },
+    {
+     "at": "2026-11-28T16:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310371"
+    },
+    {
+     "at": "2026-11-28T19:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310372"
+    },
+    {
+     "at": "2026-11-29T13:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310379"
+    },
+    {
+     "at": "2026-11-29T16:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310380"
+    },
+    {
+     "at": "2026-11-29T19:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310381"
+    },
+    {
+     "at": "2026-11-30T16:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310387"
+    },
+    {
+     "at": "2026-11-30T19:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310388"
+    },
+    {
+     "at": "2026-12-02T16:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310393"
+    },
+    {
+     "at": "2026-12-02T19:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310394"
+    },
+    {
+     "at": "2026-12-03T13:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310400"
+    },
+    {
+     "at": "2026-12-03T16:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310401"
+    },
+    {
+     "at": "2026-12-03T19:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/hexed/4310402"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://www.thetriplex.org/movie/focker-in-law/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310373"
+    },
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310368"
+    },
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310369"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310377"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310382"
+    },
+    {
+     "at": "2026-11-29T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310378"
+    },
+    {
+     "at": "2026-11-30T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310385"
+    },
+    {
+     "at": "2026-11-30T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310386"
+    },
+    {
+     "at": "2026-12-02T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310391"
+    },
+    {
+     "at": "2026-12-02T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310392"
+    },
+    {
+     "at": "2026-12-03T14:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310403"
+    },
+    {
+     "at": "2026-12-03T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310398"
+    },
+    {
+     "at": "2026-12-03T20:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/focker-in-law/4310399"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.thetriplex.org/movie/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310365"
+    },
+    {
+     "at": "2026-11-28T16:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310366"
+    },
+    {
+     "at": "2026-11-28T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310367"
+    },
+    {
+     "at": "2026-11-29T13:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310374"
+    },
+    {
+     "at": "2026-11-29T16:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310375"
+    },
+    {
+     "at": "2026-11-29T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310376"
+    },
+    {
+     "at": "2026-11-30T16:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310384"
+    },
+    {
+     "at": "2026-11-30T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310383"
+    },
+    {
+     "at": "2026-12-02T16:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310389"
+    },
+    {
+     "at": "2026-12-02T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310390"
+    },
+    {
+     "at": "2026-12-03T13:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310395"
+    },
+    {
+     "at": "2026-12-03T16:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310396"
+    },
+    {
+     "at": "2026-12-03T19:45",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/i-play-rocky/4310397"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.thetriplex.org/movie/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-28T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4352138"
+    },
+    {
+     "at": "2026-11-29T13:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4352141"
+    },
+    {
+     "at": "2026-11-30T16:30",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4352142"
+    },
+    {
+     "at": "2026-12-02T20:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4352144"
+    },
+    {
+     "at": "2026-12-03T13:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4352148"
+    },
+    {
+     "at": "2026-12-03T20:15",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/wild-horse-nine/4352146"
+    }
+   ]
+  },
+  {
+   "title": "Sherlock Jr.",
+   "rating": "ALL AGES",
+   "runtime_min": 80,
+   "url": "https://www.thetriplex.org/movie/sherlock-jr/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/sherlock-jr/4272257"
+    }
+   ]
+  },
+  {
+   "title": "The Killers",
+   "rating": "R",
+   "runtime_min": 103,
+   "url": "https://www.thetriplex.org/movie/the-killers/",
+   "shows": [
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://www.thetriplex.org/checkout/showing/the-killers/4166719"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

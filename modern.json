@@ -1,0 +1,91 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "modern",
+ "name": "Magnolia at the Modern",
+ "city": "dfw",
+ "area": "Cultural District",
+ "region": "Fort Worth",
+ "url": "https://www.themodern.org/films",
+ "films": [
+  {
+   "title": "The Neverending Story",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.themodern.org/film/neverending-story",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://www.themodern.org/film/neverending-story"
+    }
+   ]
+  },
+  {
+   "title": "Fjord",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.themodern.org/film/fjord",
+   "shows": [
+    {
+     "at": "2026-11-28T17:00",
+     "sold_out": false,
+     "url": "https://www.themodern.org/film/fjord"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://www.themodern.org/film/fjord"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://www.themodern.org/film/fjord"
+    }
+   ]
+  },
+  {
+   "title": "Steel Magnolias",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.themodern.org/film/steel-magnolias",
+   "shows": [
+    {
+     "at": "2026-12-02T14:00",
+     "sold_out": false,
+     "url": "https://www.themodern.org/film/steel-magnolias"
+    }
+   ]
+  },
+  {
+   "title": "Bitter Christmas",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.themodern.org/film/bitter-christmas",
+   "shows": [
+    {
+     "at": "2026-12-04T14:00",
+     "sold_out": false,
+     "url": "https://www.themodern.org/film/bitter-christmas"
+    },
+    {
+     "at": "2026-12-04T16:00",
+     "sold_out": false,
+     "url": "https://www.themodern.org/film/bitter-christmas"
+    },
+    {
+     "at": "2026-12-04T20:00",
+     "sold_out": false,
+     "url": "https://www.themodern.org/film/bitter-christmas"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

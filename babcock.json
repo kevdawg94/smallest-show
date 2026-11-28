@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "babcock",
+ "name": "Babcock Theatre",
+ "city": "billings",
+ "area": "Downtown, Billings",
+ "region": "Downtown Billings",
+ "url": "https://arthousebillings.com/babcock/",
+ "films": [
+  {
+   "title": "Home Alone",
+   "rating": "PG",
+   "runtime_min": 103,
+   "url": "https://arthousebillings.com/babcock/",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://arthousebillings.com/babcock/purchase/1094580/"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://arthousebillings.com/babcock/purchase/1094581/"
+    }
+   ]
+  },
+  {
+   "title": "The Royal Tenenbaums",
+   "rating": "R",
+   "runtime_min": 110,
+   "url": "https://arthousebillings.com/babcock/",
+   "shows": [
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://arthousebillings.com/babcock/purchase/1094584/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,96 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "mv-film-center",
+ "name": "MV Film Center",
+ "city": "capecod",
+ "area": "Vineyard Haven",
+ "region": "Martha's Vineyard",
+ "url": "https://mvfilmsociety.com/",
+ "films": [
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://app.arts-people.com/index.php?show=374073",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=946931"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://app.arts-people.com/index.php?show=376712",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=946999"
+    },
+    {
+     "at": "2026-11-29T19:30",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=947000"
+    },
+    {
+     "at": "2026-12-03T16:00",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=947001"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://app.arts-people.com/index.php?show=379979",
+   "shows": [
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=947002"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=947003"
+    },
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=947004"
+    },
+    {
+     "at": "2026-12-03T19:30",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=947005"
+    }
+   ]
+  },
+  {
+   "title": "Sense and Sensibility",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://app.arts-people.com/index.php?show=374072",
+   "shows": [
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://app.arts-people.com/index.php?performance=946998"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

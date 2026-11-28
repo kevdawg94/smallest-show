@@ -1,0 +1,646 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "kendall-square",
+ "name": "Kendall Square",
+ "city": "boston",
+ "area": "Cambridge",
+ "region": "Cambridge & Somerville",
+ "url": "https://www.landmarktheatres.com/theaters/x019b-landmark-kendall-square-cinema-cambridge/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.landmarktheatres.com/theaters/x019b-landmark-kendall-square-cinema-cambridge/",
+   "shows": [
+    {
+     "at": "2026-11-28T12:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ddf4bfeb-699f-5516-abec-5c1fdef6d271"
+    },
+    {
+     "at": "2026-11-28T13:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/00cb5664-8ab5-56de-9552-1314131d2a15"
+    },
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/86c94603-e6ca-5a90-b141-31f9326651eb"
+    },
+    {
+     "at": "2026-11-28T18:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/52fdb1dc-fb59-593d-949d-327559d7f696"
+    },
+    {
+     "at": "2026-11-28T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e531af61-720e-5616-a75d-b371cbc8cd90"
+    },
+    {
+     "at": "2026-11-28T21:05",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/f407768e-7996-5ad2-b7e1-7bc9a49a25ed"
+    },
+    {
+     "at": "2026-11-29T12:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c231b84c-65d4-50b1-a60d-05c192bb6c68"
+    },
+    {
+     "at": "2026-11-29T13:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/728e0bf7-9db1-507c-88ba-b0aa1afdfb5e"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/5fc46139-431d-5cae-89d5-45f458440528"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6e273652-e17e-5b3b-a634-184ef9ceb0ac"
+    },
+    {
+     "at": "2026-11-29T19:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/78f6664b-bbba-55ee-8b50-f64fead09503"
+    },
+    {
+     "at": "2026-11-29T20:35",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e08fab6f-336b-5156-8088-4ec38299a1c1"
+    },
+    {
+     "at": "2026-11-29T21:05",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/67f003bb-ddc4-532e-b9a4-4d3b2896d606"
+    },
+    {
+     "at": "2026-11-30T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/83eac94b-6a2f-504f-9a19-2a2306c1c3d1"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4a5b4e29-5c0f-5600-8298-f7a83366f24f"
+    },
+    {
+     "at": "2026-12-01T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/19f636f0-f782-5e15-9c91-39f0bf208c7e"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/093ed17c-e1c8-5a8c-a9a0-43eea4437ac9"
+    },
+    {
+     "at": "2026-12-02T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/a9a6bd00-f458-5693-a9a6-f48f3b8059ba"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/18a05ce7-f1d1-5833-a569-c042d47c1762"
+    },
+    {
+     "at": "2026-12-03T15:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/7fa412a4-2356-5c87-b9fd-b3eb98fd5dec"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0ad888c6-9b7a-593e-b81c-7beab7b9a6ef"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": "R",
+   "runtime_min": 122,
+   "url": "https://www.landmarktheatres.com/theaters/x019b-landmark-kendall-square-cinema-cambridge/",
+   "shows": [
+    {
+     "at": "2026-11-28T12:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6ebfd0a1-d19a-5bba-a62c-275a2a8c6af5"
+    },
+    {
+     "at": "2026-11-28T15:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/41ad4aa6-6667-5c0e-ac9f-893e7eb7d487"
+    },
+    {
+     "at": "2026-11-28T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/da9a7aba-42fb-5337-9375-f581894dab33"
+    },
+    {
+     "at": "2026-11-28T21:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/90d0c210-1b37-5d49-b60e-f71def242851"
+    },
+    {
+     "at": "2026-11-29T12:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c61ae2ef-88f3-5d21-939f-cdab7aa8d4eb"
+    },
+    {
+     "at": "2026-11-29T15:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ff06468b-1afb-59b7-aeb8-cbdf12e75424"
+    },
+    {
+     "at": "2026-11-29T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/7f83c60c-42dc-50b5-a7e2-bad61ec5d8fa"
+    },
+    {
+     "at": "2026-11-29T21:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6234ac60-7bc1-5311-a4a4-6a71a48951b5"
+    },
+    {
+     "at": "2026-11-30T15:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8fa24a8d-d620-5da7-a599-3e10cc7cb5cb"
+    },
+    {
+     "at": "2026-11-30T18:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/641d2893-f581-53c9-a651-f29531bf28c5"
+    },
+    {
+     "at": "2026-12-01T15:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/bed43b7e-b1ab-5c6c-91a6-3ec778204fe0"
+    },
+    {
+     "at": "2026-12-01T18:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4b3bb205-fae1-5ee6-acae-499cc08a46b0"
+    },
+    {
+     "at": "2026-12-02T15:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/19ea6120-1a53-5dd2-b301-52b0ca1e58b1"
+    },
+    {
+     "at": "2026-12-03T15:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/02fe5511-9ebf-5872-bf88-61a133b7261a"
+    },
+    {
+     "at": "2026-12-03T18:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d0965e12-421e-52b3-bb19-1990c076acba"
+    }
+   ]
+  },
+  {
+   "title": "14th",
+   "rating": "R",
+   "runtime_min": 100,
+   "url": "https://www.landmarktheatres.com/theaters/x019b-landmark-kendall-square-cinema-cambridge/",
+   "shows": [
+    {
+     "at": "2026-11-28T12:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/520471dd-7dee-5057-bb04-8759102c3803"
+    },
+    {
+     "at": "2026-11-28T15:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6ae6b936-e75d-5c36-a5c6-f58ec7a9d45d"
+    },
+    {
+     "at": "2026-11-28T21:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d3d47c81-f2eb-52f2-9ea6-57b5d1463e38"
+    },
+    {
+     "at": "2026-11-29T12:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/9d4be180-941d-5ac2-9ef6-b2e835d4d5e6"
+    },
+    {
+     "at": "2026-11-29T18:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3e728393-d1e0-504b-9317-78f1212377bb"
+    },
+    {
+     "at": "2026-11-30T15:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/1c2d9c09-5431-5a5e-8e4a-dcb13023aebb"
+    },
+    {
+     "at": "2026-11-30T18:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/51e44924-d08c-5fa6-a28b-00fdcf3fd867"
+    },
+    {
+     "at": "2026-12-01T14:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8f2f163b-ce1d-53ac-88c0-b8fb3dc5622c"
+    },
+    {
+     "at": "2026-12-01T17:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/28d13364-2f34-5f41-b3df-108bfb3289d5"
+    },
+    {
+     "at": "2026-12-02T15:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/be64c3ae-c007-50fa-950b-905fa56fb380"
+    },
+    {
+     "at": "2026-12-02T18:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/838f84ff-0980-5a70-9686-0468dd33eb5b"
+    },
+    {
+     "at": "2026-12-03T15:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/a95c7bc8-b37b-5f35-af97-3b5ca5b34d74"
+    },
+    {
+     "at": "2026-12-03T18:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/cf8965b0-2650-59f7-a31c-9711688a9e81"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": "R",
+   "runtime_min": 160,
+   "url": "https://www.landmarktheatres.com/theaters/x019b-landmark-kendall-square-cinema-cambridge/",
+   "shows": [
+    {
+     "at": "2026-11-28T12:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8f363d69-ccf3-5025-96ed-0519e3e65261"
+    },
+    {
+     "at": "2026-11-28T16:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/438afcdf-339c-5c46-b1e8-fbd362a73e03"
+    },
+    {
+     "at": "2026-11-28T20:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/211a3792-900a-500a-9603-4ff3adae85d0"
+    },
+    {
+     "at": "2026-11-29T12:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0bc048ba-2a4a-578a-b429-77e13fe8fc46"
+    },
+    {
+     "at": "2026-11-29T16:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ddf30f67-ad47-5e03-9227-e8668c01e930"
+    },
+    {
+     "at": "2026-11-29T20:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b892dbac-7b86-58e2-8652-5c1c300b0329"
+    },
+    {
+     "at": "2026-11-30T15:35",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/c90812d6-a889-5dc7-8e92-db740d8abe2e"
+    },
+    {
+     "at": "2026-11-30T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/cfd637b0-b893-5448-aedd-41affc143f6a"
+    },
+    {
+     "at": "2026-12-01T15:35",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/01ad01a3-85e7-57c1-a8fa-8a1a5e9118dd"
+    },
+    {
+     "at": "2026-12-01T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/154e67e8-b8ab-5bf5-8994-f20ea78797da"
+    },
+    {
+     "at": "2026-12-02T15:35",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ebefc909-745d-569f-af7b-604c40b68ab3"
+    },
+    {
+     "at": "2026-12-02T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6e59d938-b8b7-561c-9d1e-3e445397b266"
+    },
+    {
+     "at": "2026-12-03T15:35",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/230b9561-7887-52dc-b04b-463a7bf8f4b0"
+    },
+    {
+     "at": "2026-12-03T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/683719cc-33ee-5a3c-b0f0-a7b18137b7e4"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": 174,
+   "url": "https://www.landmarktheatres.com/theaters/x019b-landmark-kendall-square-cinema-cambridge/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6f538773-255b-5d7a-8119-b0f9e903cce8"
+    },
+    {
+     "at": "2026-11-28T16:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ecd704b9-a058-599f-ae82-b4d119e5a24e"
+    },
+    {
+     "at": "2026-11-28T20:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/237c7973-5504-5f37-b092-149b432e672b"
+    },
+    {
+     "at": "2026-11-29T13:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8d63da79-b8a9-58d5-9dc4-3784757c1c21"
+    },
+    {
+     "at": "2026-11-29T16:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0282ef80-5143-54ce-9556-036625e3a07f"
+    },
+    {
+     "at": "2026-11-29T20:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/62c8e976-8f16-5e84-9d79-b67828166299"
+    },
+    {
+     "at": "2026-11-30T15:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/fbe099ee-c6df-5dc8-9385-912833d2f2d7"
+    },
+    {
+     "at": "2026-11-30T18:35",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3adb2154-0aa6-563a-979a-f4d584b0b45a"
+    },
+    {
+     "at": "2026-12-01T15:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/311566fe-84e4-5007-9be9-4af1031a1133"
+    },
+    {
+     "at": "2026-12-01T18:35",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6e6ba51b-4f51-5d15-90d0-9a4d6f28b5e8"
+    },
+    {
+     "at": "2026-12-02T15:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/5b61e8bf-c91a-51f4-a64b-7c4449fdaebf"
+    },
+    {
+     "at": "2026-12-02T18:35",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6ba441fa-de01-5b39-92dc-22699dbc7373"
+    },
+    {
+     "at": "2026-12-03T15:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/11b85927-c719-52f8-9dd7-81a3f998c0e2"
+    },
+    {
+     "at": "2026-12-03T18:35",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e70be5cc-3969-5591-a62a-6204dc40e969"
+    }
+   ]
+  },
+  {
+   "title": "In Waves",
+   "rating": "PG-13",
+   "runtime_min": 91,
+   "url": "https://www.landmarktheatres.com/theaters/x019b-landmark-kendall-square-cinema-cambridge/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/7a71b9ff-91b1-5702-be94-309849087ded"
+    },
+    {
+     "at": "2026-11-28T16:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e5ecaefa-2c5d-5be5-9d91-ff520dbcf410"
+    },
+    {
+     "at": "2026-11-28T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/da133e19-911b-5602-8b3c-751b7b76ce04"
+    },
+    {
+     "at": "2026-11-29T13:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/78a7daca-4f0b-54e5-b42a-1e470d2f27eb"
+    },
+    {
+     "at": "2026-11-29T16:20",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6c5af8a7-82ef-5165-a5b7-6c573c3fe035"
+    },
+    {
+     "at": "2026-11-29T18:50",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/2f7dcbcb-e203-5c02-aac6-29ca05a89560"
+    },
+    {
+     "at": "2026-11-30T14:55",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8ab039e1-5ead-5672-9511-b34f6f7dbc26"
+    },
+    {
+     "at": "2026-11-30T17:05",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b840c0fb-d85d-5748-bb2b-ebc3b5e7bd93"
+    },
+    {
+     "at": "2026-11-30T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/49a37031-11ac-5e02-bad4-26f729988f1f"
+    },
+    {
+     "at": "2026-12-01T14:55",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/4fa4ce12-c02e-54f6-b937-b703a43766d7"
+    },
+    {
+     "at": "2026-12-01T17:05",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/dadc2510-f650-518b-b74b-3efb5074b812"
+    },
+    {
+     "at": "2026-12-01T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d68eafb4-f923-5e90-a8d0-81837c331aee"
+    },
+    {
+     "at": "2026-12-02T14:55",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0e576457-a2a6-5a10-8cc2-f4d5b38af561"
+    },
+    {
+     "at": "2026-12-02T17:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/e5462307-0928-5a28-a08b-97e72a6d4343"
+    },
+    {
+     "at": "2026-12-02T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/ae73a04b-aab9-53a4-b288-2f1add50eab7"
+    },
+    {
+     "at": "2026-12-03T14:55",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/11d6e772-e230-501f-83af-358afda31dab"
+    },
+    {
+     "at": "2026-12-03T17:05",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/8e810c21-0913-5ae8-8ca3-339f862e0e44"
+    },
+    {
+     "at": "2026-12-03T19:15",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/806bc418-d6b8-5ffc-b4fd-0aa76dd5ebb1"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": 118,
+   "url": "https://www.landmarktheatres.com/theaters/x019b-landmark-kendall-square-cinema-cambridge/",
+   "shows": [
+    {
+     "at": "2026-11-28T16:05",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/3c88aa91-2088-5c58-8ff3-57abaecaa03a"
+    },
+    {
+     "at": "2026-11-28T18:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/b62d74aa-117b-5094-a423-95c063034d38"
+    },
+    {
+     "at": "2026-11-28T21:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/720ed2e5-5a93-50e7-ad9a-24cf384b16c8"
+    },
+    {
+     "at": "2026-11-29T16:05",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/40664ff0-eb0c-524e-a882-99dcbfd35715"
+    },
+    {
+     "at": "2026-11-29T18:45",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/37cdef4c-2110-5df0-bf06-1a4acb86f169"
+    },
+    {
+     "at": "2026-11-29T21:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/0bd34d49-922c-57f1-bb59-b06aff8d1911"
+    },
+    {
+     "at": "2026-11-30T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/d6672ec2-1038-5507-a30f-84b9aedcde89"
+    },
+    {
+     "at": "2026-11-30T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/509343c9-3b09-5c19-8e28-547477579da5"
+    },
+    {
+     "at": "2026-12-01T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/1bb2ca17-2989-5914-9b44-683833d5f1a3"
+    },
+    {
+     "at": "2026-12-01T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/27abf495-1e7a-54cc-8e09-a2bc482a91a3"
+    },
+    {
+     "at": "2026-12-02T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/6c6544ef-cfc6-5cda-9f74-171cb00850be"
+    },
+    {
+     "at": "2026-12-02T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/19564ab4-19c8-577f-8e96-a6d427eff077"
+    },
+    {
+     "at": "2026-12-03T15:40",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/40b32546-cb50-55b0-ac62-a34c5d3037a0"
+    },
+    {
+     "at": "2026-12-03T18:30",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/60ceca19-ff7d-5e00-9f4b-4100ca5afeed"
+    }
+   ]
+  },
+  {
+   "title": "Elf",
+   "rating": "PG",
+   "runtime_min": 97,
+   "url": "https://www.landmarktheatres.com/theaters/x019b-landmark-kendall-square-cinema-cambridge/",
+   "shows": [
+    {
+     "at": "2026-12-01T19:10",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/da3f4622-9887-5bf5-9817-9c70510bbfa8"
+    }
+   ]
+  },
+  {
+   "title": "The Royal Ballet - The Nutcracker (2025)",
+   "rating": null,
+   "runtime_min": 130,
+   "url": "https://www.landmarktheatres.com/theaters/x019b-landmark-kendall-square-cinema-cambridge/",
+   "shows": [
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://booking.landmarktheatres.com/launch/ticketing/94804985-44b8-5f2b-b5d8-c8927cd82ebe"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

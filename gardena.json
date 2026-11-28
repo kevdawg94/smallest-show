@@ -1,0 +1,86 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "gardena",
+ "name": "Gardena Cinema",
+ "city": "la",
+ "area": "Gardena",
+ "region": "South Bay & Orange County",
+ "url": "https://www.gardenacinema.com/",
+ "films": [
+  {
+   "title": "B-Movie: LUST & SOUND IN WEST BERLIN 1979-1989",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-28T18:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1357?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "Decoder",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-28T20:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1358?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "Menus-Plaisirs Les Troisgros",
+   "rating": "NR",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1346?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1347?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  },
+  {
+   "title": "Face/Off (3rd Annual Nancy Kim Day Fundraiser)",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64",
+   "shows": [
+    {
+     "at": "2026-11-30T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1343?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-30T17:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1344?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    },
+    {
+     "at": "2026-11-30T21:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1345?siteToken=he5nsxynkgmw2w1wvfey3mvh64"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

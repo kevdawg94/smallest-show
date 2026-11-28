@@ -1,0 +1,58 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "beltonian-belton",
+ "name": "The Beltonian Theatre",
+ "city": "austin",
+ "area": "Belton",
+ "region": "Central Texas",
+ "url": "https://thebeltoniantheatre.com/",
+ "films": [
+  {
+   "title": "Home Alone",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/home-alone-tickets-301335",
+   "shows": [
+    {
+     "at": "2026-11-28T10:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/home-alone-tickets-301335"
+    }
+   ]
+  },
+  {
+   "title": "Black Christmas (1974) - Rated R",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/black-christmas-1974-rated-r-tickets-298023",
+   "shows": [
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/black-christmas-1974-rated-r-tickets-298023"
+    }
+   ]
+  },
+  {
+   "title": "National Lampoon's Christmas Vacation",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.simpletix.com/e/national-lampoon-s-christmas-vacation-tickets-301700",
+   "shows": [
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://www.simpletix.com/e/national-lampoon-s-christmas-vacation-tickets-301700"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

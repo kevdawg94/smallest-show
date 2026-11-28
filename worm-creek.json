@@ -1,0 +1,86 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "worm-creek",
+ "name": "Worm Creek Opera House",
+ "city": "logan",
+ "area": "Preston",
+ "region": "Preston & Franklin County",
+ "url": "https://wormcreek.org/",
+ "films": [
+  {
+   "title": "Festival of Lights Events",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/festival-of-lights-events/",
+   "shows": [
+    {
+     "at": "2026-11-28T10:00",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/festival-of-lights-events/"
+    }
+   ]
+  },
+  {
+   "title": "Sponsored Event",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/sponsored-event/",
+   "shows": [
+    {
+     "at": "2026-11-28T15:30",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/sponsored-event/"
+    }
+   ]
+  },
+  {
+   "title": "Disney’s Hexed",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/disneys-hexed-3/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://boxoffice.adventuretix.com/franklintheatrearts/events"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://boxoffice.adventuretix.com/franklintheatrearts/events"
+    },
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://boxoffice.adventuretix.com/franklintheatrearts/events"
+    }
+   ]
+  },
+  {
+   "title": "Private Event",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://wormcreek.org/event/private-event-9/",
+   "shows": [
+    {
+     "at": "2026-12-02T17:00",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/private-event-9/"
+    },
+    {
+     "at": "2026-12-03T17:00",
+     "sold_out": false,
+     "url": "https://wormcreek.org/event/private-event-10/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,47 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "marathon-cinema",
+ "name": "Marathon Community Cinema",
+ "city": "keys",
+ "area": "Marathon",
+ "region": "Middle Keys",
+ "url": "https://marathoncinema.com/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=ww01g7eknyxw3kppmcy6fhej6r",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1550?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1553?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1551?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/1552?siteToken=ww01g7eknyxw3kppmcy6fhej6r"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

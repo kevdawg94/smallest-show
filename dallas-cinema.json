@@ -1,0 +1,72 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "dallas-cinema",
+ "name": "Dallas Cinema",
+ "city": "salem",
+ "area": "Dallas",
+ "region": "Polk County",
+ "url": "https://www.dallascinema.com/",
+ "films": [
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 109,
+   "url": "https://app.formovietickets.com/index.html?chain=dallas&rtn=393318&page=picktitle&showTitle=HEXED",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=dallas&rtn=393318&page=picktitle&showTitle=HEXED"
+    },
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=dallas&rtn=393318&page=picktitle&showTitle=HEXED"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=dallas&rtn=393318&page=picktitle&showTitle=HEXED"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=dallas&rtn=393318&page=picktitle&showTitle=HEXED"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=dallas&rtn=393318&page=picktitle&showTitle=HEXED"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=dallas&rtn=393318&page=picktitle&showTitle=HEXED"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=dallas&rtn=393318&page=picktitle&showTitle=HEXED"
+    },
+    {
+     "at": "2026-12-02T18:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=dallas&rtn=393318&page=picktitle&showTitle=HEXED"
+    },
+    {
+     "at": "2026-12-03T18:00",
+     "sold_out": false,
+     "url": "https://app.formovietickets.com/index.html?chain=dallas&rtn=393318&page=picktitle&showTitle=HEXED"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

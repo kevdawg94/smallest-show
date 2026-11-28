@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "garden-theater-frankfort",
+ "name": "Garden Theater",
+ "city": "traversecity",
+ "area": "Frankfort",
+ "region": "Benzie",
+ "url": "https://gardentheater.org/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": "R",
+   "runtime_min": 105,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=668882~6a3269ca-7978-417d-9903-ca1548ad1f5e&",
+   "shows": [
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=668884~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=668886~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=668887~6a3269ca-7978-417d-9903-ca1548ad1f5e&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

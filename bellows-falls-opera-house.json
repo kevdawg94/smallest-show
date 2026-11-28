@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "bellows-falls-opera-house",
+ "name": "Bellows Falls Opera House",
+ "city": "southernvt",
+ "area": "Bellows Falls",
+ "region": "Bellows Falls",
+ "url": "https://www.bellowsfallsoperahouse.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/bellowsfallsoperahouse/website/ChooseSeats.aspx?EventInstanceId=219804ABTTKJTPNCVHDJNPCMDMGMLQVHL"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/bellowsfallsoperahouse/website/ChooseSeats.aspx?EventInstanceId=219610AQQBGKTSBNPLGPVSRVCJNPGKPCQ"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/bellowsfallsoperahouse/website/ChooseSeats.aspx?EventInstanceId=219605ABDSJBTVMTPNHJHMSPHCDCTDNDK"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/bellowsfallsoperahouse/website/ChooseSeats.aspx?EventInstanceId=219606AQGCHDCQNBCNPSBRSNTVDGCJMLQ"
+    }
+   ]
+  },
+  {
+   "title": "Scrooge",
+   "rating": null,
+   "runtime_min": null,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/bellowsfallsoperahouse/website/ChooseSeats.aspx?EventInstanceId=217401ASHTDCSVMBKQJBVQCRGLKBDPSDM"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

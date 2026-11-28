@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "farris-theatre",
+ "name": "Farris Theatre",
+ "city": "kc",
+ "area": "Richmond",
+ "region": "Lexington & Richmond",
+ "url": "https://farristheatre.com/",
+ "films": [
+  {
+   "title": "EBENEZER",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://farristheatre.com/event-details/ebenezer-2026-11-28-19-00",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://farristheatre.com/event-details/ebenezer-2026-11-28-19-00"
+    }
+   ]
+  },
+  {
+   "title": "Nuncrackers The Nunsense Christmas Musical",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://farristheatre.com/event-details/nuncrackers-the-nunsense-christmas-musical-2026-12-04-19-00",
+   "shows": [
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://farristheatre.com/event-details/nuncrackers-the-nunsense-christmas-musical-2026-12-04-19-00"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

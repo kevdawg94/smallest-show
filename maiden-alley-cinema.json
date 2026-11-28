@@ -1,0 +1,83 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "maiden-alley-cinema",
+ "name": "Maiden Alley Cinema",
+ "city": "paducah",
+ "area": "Downtown, Paducah",
+ "region": "Downtown Paducah",
+ "url": "https://maidenalleycinema.org/",
+ "films": [
+  {
+   "title": "Home Alone",
+   "rating": "PG",
+   "runtime_min": 103,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=251849~3b7c9544-2d63-4f4a-87f0-344eead928a2&",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=670297~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-28T18:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=670298~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=670299~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    }
+   ]
+  },
+  {
+   "title": "The Devils",
+   "rating": "R",
+   "runtime_min": 112,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=670300~3b7c9544-2d63-4f4a-87f0-344eead928a2&",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=670301~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-28T21:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=670302~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=670303~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=670304~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    }
+   ]
+  },
+  {
+   "title": "Elf",
+   "rating": "PG",
+   "runtime_min": 97,
+   "url": "https://prod5.agileticketing.net/websales/pages/info.aspx?evtinfo=444692~3b7c9544-2d63-4f4a-87f0-344eead928a2&",
+   "shows": [
+    {
+     "at": "2026-12-03T18:30",
+     "sold_out": false,
+     "url": "https://prod5.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=670305~3b7c9544-2d63-4f4a-87f0-344eead928a2&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

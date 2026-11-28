@@ -1,0 +1,81 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "waynesboro-theatre",
+ "name": "Waynesboro Theatre",
+ "city": "hagerstown",
+ "area": "Waynesboro",
+ "region": "Hagerstown & Waynesboro",
+ "url": "https://www.waynesborotheatre.org/",
+ "films": [
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 91,
+   "url": "https://www.waynesborotheatre.org/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/the-cat-in-the-hat-saturday"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/the-cat-in-the-hat-sunday"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://www.waynesborotheatre.org/now-showing",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/hershey-saturday"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/hershey-sunday"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://www.waynesborotheatre.org/coming-soon",
+   "shows": [
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/drummer-boy-encore"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://www.waynesborotheatre.org/coming-soon",
+   "shows": [
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://www.zeffy.com/en-US/ticketing/the-hunger-games-sunrise-on-the-reaping-friday"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

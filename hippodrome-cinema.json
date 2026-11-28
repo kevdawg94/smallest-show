@@ -1,0 +1,99 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "hippodrome-cinema",
+ "name": "Hippodrome Cinema",
+ "city": "gainesville",
+ "area": "Downtown Gainesville",
+ "region": "Gainesville",
+ "url": "https://thehipp.org/cinema",
+ "films": [
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": 174,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-28T14:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=99207ATCDHMJLDKDNRMBMQMSKKMKGPSVD"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=99208ANJRBSGKNMHQTPJSBDQJJCBPQJKV"
+    }
+   ]
+  },
+  {
+   "title": "Coyote vs. Acme: HippCinema ❤ Looney Tunes!",
+   "rating": null,
+   "runtime_min": 103,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98805APQRLTQCRLNVGDKVMNKLCHQGLRMM"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=99002ACRHCPDCSJRQGKHLHNLQCDQCSPKH"
+    },
+    {
+     "at": "2026-11-29T15:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98806ARHBVNVCMBHJMNLVVJMCRTDVDKTJ"
+    }
+   ]
+  },
+  {
+   "title": "Looney Tunes Back in Action: HippCinema ❤ Looney Tunes!",
+   "rating": null,
+   "runtime_min": 91,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-11-28T20:30",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=98807ANKQBMHGVHSNNVHVLBRTRCCNJKKS"
+    }
+   ]
+  },
+  {
+   "title": "The Last Picture Shows",
+   "rating": null,
+   "runtime_min": 78,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-12-03T18:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=99801ADPNDDSCGGBKNHLRMCBHVCDVDQVG"
+    }
+   ]
+  },
+  {
+   "title": "The History Of Concrete",
+   "rating": null,
+   "runtime_min": 101,
+   "url": null,
+   "shows": [
+    {
+     "at": "2026-12-03T20:00",
+     "sold_out": false,
+     "url": "https://system.spektrix.com/hippodromestatetheatre/website/ChooseSeats.aspx?EventInstanceId=100201AHNJCLCDDMMSQNCTBGTQMRSCKJN"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,76 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "cornell-cinema",
+ "name": "Cornell Cinema",
+ "city": "ithaca",
+ "area": "Cornell (Willard Straight Hall)",
+ "region": "Ithaca",
+ "url": "https://cinema.cornell.edu/",
+ "films": [
+  {
+   "title": "National Treasure",
+   "rating": null,
+   "runtime_min": 131,
+   "url": "https://cornellcinema.eventive.org/films/6a6caba770eb667108270950",
+   "shows": [
+    {
+     "at": "2026-11-30T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a720af45271f7531c2ac878"
+    }
+   ]
+  },
+  {
+   "title": "The Odyssey",
+   "rating": null,
+   "runtime_min": 173,
+   "url": "https://cornellcinema.eventive.org/films/6a6cadfc21c0f5b1665eeaab",
+   "shows": [
+    {
+     "at": "2026-11-30T21:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6aecca1072a5344821fbbf68"
+    },
+    {
+     "at": "2026-12-02T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a720b2ff41784e7101191d2"
+    }
+   ]
+  },
+  {
+   "title": "Sound of Falling",
+   "rating": null,
+   "runtime_min": 148,
+   "url": "https://cornellcinema.eventive.org/films/6a6cac67446b0d71e9688515",
+   "shows": [
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a720b165a6c0724207b17b5"
+    }
+   ]
+  },
+  {
+   "title": "Mystery Screening",
+   "rating": null,
+   "runtime_min": 120,
+   "url": "https://cornellcinema.eventive.org/films/6a70b2fdfeef7682ce58f60d",
+   "shows": [
+    {
+     "at": "2026-12-03T18:00",
+     "sold_out": false,
+     "url": "https://cornellcinema.eventive.org/schedule/6a720b5e1dfec18070e31502"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

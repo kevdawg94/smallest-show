@@ -1,0 +1,127 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "fort-wayne-cinema-center",
+ "name": "Cinema Center",
+ "city": "fortwayne",
+ "area": "Downtown Fort Wayne",
+ "region": "Fort Wayne",
+ "url": "https://cinemacenter.org/",
+ "films": [
+  {
+   "title": "Being Heumann",
+   "rating": null,
+   "runtime_min": 127,
+   "url": "https://cinemacenter.eventive.org/films/6ae23a5048f0a994bbeb645d",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdf8f46d39d9abc21ce533"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": 82,
+   "url": "https://cinemacenter.eventive.org/films/6afdf4782875aa47f0fc2b42",
+   "shows": [
+    {
+     "at": "2026-11-28T13:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdf9fb4ab5ec04a0395a62"
+    },
+    {
+     "at": "2026-11-28T15:30",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdfa0ee9c394bd9f882859"
+    },
+    {
+     "at": "2026-11-29T14:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdfa2e56746aff8973d31a"
+    },
+    {
+     "at": "2026-11-29T16:45",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdfa5ed84bc2845ddaab3c"
+    },
+    {
+     "at": "2026-12-03T19:20",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdfce3379c50d1afee9fee"
+    }
+   ]
+  },
+  {
+   "title": "King of Hearts (Nifty Fifty)",
+   "rating": null,
+   "runtime_min": 102,
+   "url": "https://cinemacenter.eventive.org/films/69a3576306a97dc5a985aecc",
+   "shows": [
+    {
+     "at": "2026-11-28T15:30",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdf7178b245a2807402ed2"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdf73d8b245a280740368b"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://cinemacenter.eventive.org/films/6ae3e228bd53650aad197b99",
+   "shows": [
+    {
+     "at": "2026-11-28T17:45",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdf85c935977a8765d082b"
+    },
+    {
+     "at": "2026-11-28T20:15",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdf874215ba56773a5cef6"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine (Subtitles)",
+   "rating": null,
+   "runtime_min": 117,
+   "url": "https://cinemacenter.eventive.org/films/6ae3e228bd53650aad197b99",
+   "shows": [
+    {
+     "at": "2026-11-29T16:15",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afdf88ad84bc2845dd9f34d"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": null,
+   "runtime_min": 121,
+   "url": "https://cinemacenter.eventive.org/films/6aee85e19393d264d1e81846",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://cinemacenter.eventive.org/schedule/6afe0138d4642a041250d2a7"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

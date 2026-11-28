@@ -1,0 +1,83 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "savor-cinema",
+ "name": "Savor Cinema",
+ "city": "miami",
+ "area": "Fort Lauderdale",
+ "region": "Broward",
+ "url": "https://fliff.org/savor-cinema/",
+ "films": [
+  {
+   "title": "Bitter Christmas",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://fliff.org/events/bitterchristmas/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://fliff.org/events/bitterchristmas/"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://fliff.org/events/bitterchristmas/"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://fliff.org/events/bitterchristmas/"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://fliff.org/events/bitterchristmas/"
+    },
+    {
+     "at": "2026-12-01T17:30",
+     "sold_out": false,
+     "url": "https://fliff.org/events/bitterchristmas/"
+    },
+    {
+     "at": "2026-12-01T19:45",
+     "sold_out": false,
+     "url": "https://fliff.org/events/bitterchristmas/"
+    }
+   ]
+  },
+  {
+   "title": "The Royal Ballet: The Nutcracker",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://fliff.org/events/theroyalballetthenutcracker/",
+   "shows": [
+    {
+     "at": "2026-12-02T18:00",
+     "sold_out": false,
+     "url": "https://fliff.org/events/theroyalballetthenutcracker/"
+    }
+   ]
+  },
+  {
+   "title": "National Theater presents Les Liaisons Dangereuses",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://fliff.org/events/lesliaisonsdangereuses/",
+   "shows": [
+    {
+     "at": "2026-12-04T18:00",
+     "sold_out": false,
+     "url": "https://fliff.org/events/lesliaisonsdangereuses/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

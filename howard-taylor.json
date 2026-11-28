@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "howard-taylor",
+ "name": "The Howard Theatre",
+ "city": "austin",
+ "area": "Taylor",
+ "region": "North",
+ "url": "https://www.howardtheatre.com/",
+ "films": [
+  {
+   "title": "The Wizard of Oz",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.howardtheatre.com/event-details/the-wizard-of-oz-nov-28th-2-00pm",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://www.howardtheatre.com/event-details/the-wizard-of-oz-nov-28th-2-00pm"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.howardtheatre.com/event-details/the-wizard-of-oz-nov-28th-7-00pm"
+    },
+    {
+     "at": "2026-11-29T10:00",
+     "sold_out": false,
+     "url": "https://www.howardtheatre.com/event-details/the-wizard-of-oz-nov-29th-10-00am"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.howardtheatre.com/event-details/the-wizard-of-oz-nov-29th-2-00pm"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://www.howardtheatre.com/event-details/the-wizard-of-oz-nov-29th-7-00pm"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

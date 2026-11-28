@@ -1,0 +1,128 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "stowe-cinema",
+ "name": "Stowe Cinema",
+ "city": "burlington",
+ "area": "Stowe",
+ "region": "Mad River Valley & Stowe",
+ "url": "https://stowecinema.com/",
+ "films": [
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-28T15:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13257?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13254?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-29T15:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13261?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13258?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-12-01T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13264?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-12-02T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13267?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-12-03T19:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13270?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-28T16:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13256?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-29T16:45",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13260?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-12-01T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13262?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-12-02T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13265?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-12-03T17:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13268?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=vj2rd320rz8shtsprx8110dk9g",
+   "shows": [
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13255?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13259?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13263?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-12-02T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13266?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    },
+    {
+     "at": "2026-12-03T18:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/13269?siteToken=vj2rd320rz8shtsprx8110dk9g"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

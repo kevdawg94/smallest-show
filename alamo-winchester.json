@@ -1,0 +1,863 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "alamo-winchester",
+ "name": "Alamo Winchester",
+ "city": "dc",
+ "area": "Winchester",
+ "region": "Winchester & Front Royal",
+ "url": "https://drafthouse.com/winchester/theater/winchester",
+ "films": [
+  {
+   "title": "The Polar Express",
+   "rating": "G",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/winchester/show/the-polar-express?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-11-28T10:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-polar-express/0301/222642"
+    },
+    {
+     "at": "2026-11-30T16:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-polar-express/0301/224131"
+    },
+    {
+     "at": "2026-12-03T18:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-polar-express/0301/224201"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/winchester/show/the-hunger-games-sunrise-on-the-reaping?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-11-28T11:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224018"
+    },
+    {
+     "at": "2026-11-28T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224088"
+    },
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224027"
+    },
+    {
+     "at": "2026-11-28T16:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224089"
+    },
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224028"
+    },
+    {
+     "at": "2026-11-28T19:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224037"
+    },
+    {
+     "at": "2026-11-28T20:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224210"
+    },
+    {
+     "at": "2026-11-28T21:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224036"
+    },
+    {
+     "at": "2026-11-29T11:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224100"
+    },
+    {
+     "at": "2026-11-29T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224108"
+    },
+    {
+     "at": "2026-11-29T12:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224101"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224099"
+    },
+    {
+     "at": "2026-11-29T17:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224098"
+    },
+    {
+     "at": "2026-11-29T18:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224094"
+    },
+    {
+     "at": "2026-11-30T12:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224124"
+    },
+    {
+     "at": "2026-11-30T12:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224129"
+    },
+    {
+     "at": "2026-11-30T14:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224123"
+    },
+    {
+     "at": "2026-11-30T15:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224127"
+    },
+    {
+     "at": "2026-11-30T18:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224132"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224116"
+    },
+    {
+     "at": "2026-12-01T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224136"
+    },
+    {
+     "at": "2026-12-01T13:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224149"
+    },
+    {
+     "at": "2026-12-01T15:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224157"
+    },
+    {
+     "at": "2026-12-01T15:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224137"
+    },
+    {
+     "at": "2026-12-01T18:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224143"
+    },
+    {
+     "at": "2026-12-02T12:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224162"
+    },
+    {
+     "at": "2026-12-02T15:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224163"
+    },
+    {
+     "at": "2026-12-02T15:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224159"
+    },
+    {
+     "at": "2026-12-02T18:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224172"
+    },
+    {
+     "at": "2026-12-03T12:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224194"
+    },
+    {
+     "at": "2026-12-03T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224184"
+    },
+    {
+     "at": "2026-12-03T18:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/the-hunger-games-sunrise-on-the-reaping/0301/224200"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/winchester/show/ebenezer?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-11-28T11:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224023"
+    },
+    {
+     "at": "2026-11-28T16:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224025"
+    },
+    {
+     "at": "2026-11-28T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224022"
+    },
+    {
+     "at": "2026-11-28T21:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224021"
+    },
+    {
+     "at": "2026-11-29T12:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224106"
+    },
+    {
+     "at": "2026-11-29T14:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224107"
+    },
+    {
+     "at": "2026-11-29T18:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224096"
+    },
+    {
+     "at": "2026-11-30T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224126"
+    },
+    {
+     "at": "2026-11-30T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224120"
+    },
+    {
+     "at": "2026-11-30T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224114"
+    },
+    {
+     "at": "2026-12-01T12:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224150"
+    },
+    {
+     "at": "2026-12-01T15:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224140"
+    },
+    {
+     "at": "2026-12-01T18:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224152"
+    },
+    {
+     "at": "2026-12-02T12:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224160"
+    },
+    {
+     "at": "2026-12-02T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224166"
+    },
+    {
+     "at": "2026-12-02T18:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224174"
+    },
+    {
+     "at": "2026-12-03T12:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224183"
+    },
+    {
+     "at": "2026-12-03T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224190"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/ebenezer/0301/224199"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 110,
+   "url": "https://drafthouse.com/winchester/show/alamo-crafthouse-hexed?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-11-28T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/alamo-crafthouse-hexed/0301/222645"
+    },
+    {
+     "at": "2026-11-28T11:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224082"
+    },
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/222440"
+    },
+    {
+     "at": "2026-11-28T17:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/222441"
+    },
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224084"
+    },
+    {
+     "at": "2026-11-28T21:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/222438"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/222444"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/222443"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/222442"
+    },
+    {
+     "at": "2026-11-30T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224119"
+    },
+    {
+     "at": "2026-11-30T15:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224128"
+    },
+    {
+     "at": "2026-11-30T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224117"
+    },
+    {
+     "at": "2026-11-30T18:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224111"
+    },
+    {
+     "at": "2026-12-01T11:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224141"
+    },
+    {
+     "at": "2026-12-01T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224148"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224154"
+    },
+    {
+     "at": "2026-12-02T12:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224179"
+    },
+    {
+     "at": "2026-12-02T12:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224169"
+    },
+    {
+     "at": "2026-12-02T14:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224181"
+    },
+    {
+     "at": "2026-12-02T16:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224171"
+    },
+    {
+     "at": "2026-12-02T17:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224178"
+    },
+    {
+     "at": "2026-12-02T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224177"
+    },
+    {
+     "at": "2026-12-03T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224189"
+    },
+    {
+     "at": "2026-12-03T15:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224185"
+    },
+    {
+     "at": "2026-12-03T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hexed/0301/224196"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/winchester/show/i-play-rocky?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224029"
+    },
+    {
+     "at": "2026-11-28T15:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224030"
+    },
+    {
+     "at": "2026-11-28T18:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224034"
+    },
+    {
+     "at": "2026-11-28T22:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224038"
+    },
+    {
+     "at": "2026-11-29T11:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224103"
+    },
+    {
+     "at": "2026-11-29T15:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224102"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224104"
+    },
+    {
+     "at": "2026-11-29T19:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224097"
+    },
+    {
+     "at": "2026-11-30T12:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224125"
+    },
+    {
+     "at": "2026-11-30T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224122"
+    },
+    {
+     "at": "2026-11-30T19:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224113"
+    },
+    {
+     "at": "2026-12-01T12:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224151"
+    },
+    {
+     "at": "2026-12-01T15:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224138"
+    },
+    {
+     "at": "2026-12-01T19:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224153"
+    },
+    {
+     "at": "2026-12-02T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224161"
+    },
+    {
+     "at": "2026-12-02T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224164"
+    },
+    {
+     "at": "2026-12-02T19:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224175"
+    },
+    {
+     "at": "2026-12-03T12:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224182"
+    },
+    {
+     "at": "2026-12-03T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224192"
+    },
+    {
+     "at": "2026-12-03T19:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/i-play-rocky/0301/224198"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/winchester/show/focker-in-law?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-11-28T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/223545"
+    },
+    {
+     "at": "2026-11-28T14:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224083"
+    },
+    {
+     "at": "2026-11-28T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/223544"
+    },
+    {
+     "at": "2026-11-28T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/223546"
+    },
+    {
+     "at": "2026-11-28T21:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/223547"
+    },
+    {
+     "at": "2026-11-29T12:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/223550"
+    },
+    {
+     "at": "2026-11-29T15:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/223549"
+    },
+    {
+     "at": "2026-11-29T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/223548"
+    },
+    {
+     "at": "2026-11-29T19:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224109"
+    },
+    {
+     "at": "2026-11-30T11:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224133"
+    },
+    {
+     "at": "2026-11-30T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224134"
+    },
+    {
+     "at": "2026-11-30T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224118"
+    },
+    {
+     "at": "2026-11-30T18:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224110"
+    },
+    {
+     "at": "2026-12-01T12:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224147"
+    },
+    {
+     "at": "2026-12-01T15:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224146"
+    },
+    {
+     "at": "2026-12-01T16:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224142"
+    },
+    {
+     "at": "2026-12-01T18:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224156"
+    },
+    {
+     "at": "2026-12-01T18:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224155"
+    },
+    {
+     "at": "2026-12-02T12:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224170"
+    },
+    {
+     "at": "2026-12-02T15:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224180"
+    },
+    {
+     "at": "2026-12-02T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224168"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224176"
+    },
+    {
+     "at": "2026-12-03T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224188"
+    },
+    {
+     "at": "2026-12-03T18:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/focker-in-law/0301/224197"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/winchester/show/hershey?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-11-28T13:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224032"
+    },
+    {
+     "at": "2026-11-28T16:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224033"
+    },
+    {
+     "at": "2026-11-29T11:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224105"
+    },
+    {
+     "at": "2026-11-29T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224211"
+    },
+    {
+     "at": "2026-11-30T12:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224121"
+    },
+    {
+     "at": "2026-11-30T18:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224115"
+    },
+    {
+     "at": "2026-12-01T12:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224139"
+    },
+    {
+     "at": "2026-12-01T16:05",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224158"
+    },
+    {
+     "at": "2026-12-01T18:45",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224144"
+    },
+    {
+     "at": "2026-12-02T12:35",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224165"
+    },
+    {
+     "at": "2026-12-02T18:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224173"
+    },
+    {
+     "at": "2026-12-03T12:50",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224191"
+    },
+    {
+     "at": "2026-12-03T15:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/hershey/0301/224202"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/winchester/show/wild-horse-nine?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-11-28T22:20",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/wild-horse-nine/0301/224338"
+    },
+    {
+     "at": "2026-11-29T18:25",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/wild-horse-nine/0301/224339"
+    },
+    {
+     "at": "2026-11-30T12:40",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/wild-horse-nine/0301/224340"
+    },
+    {
+     "at": "2026-12-01T12:30",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/wild-horse-nine/0301/224341"
+    },
+    {
+     "at": "2026-12-02T12:55",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/wild-horse-nine/0301/224342"
+    },
+    {
+     "at": "2026-12-03T12:10",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/wild-horse-nine/0301/224343"
+    }
+   ]
+  },
+  {
+   "title": "Elf",
+   "rating": "PG",
+   "runtime_min": 102,
+   "url": "https://drafthouse.com/winchester/show/movie-party-elf-movie-party-sing-along?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/movie-party-elf-movie-party-sing-along/0301/222643"
+    }
+   ]
+  },
+  {
+   "title": "The Exorcist",
+   "rating": "R",
+   "runtime_min": 112,
+   "url": "https://drafthouse.com/winchester/show/psycho-cinema-the-exorcist?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/psycho-cinema-the-exorcist/0301/224085"
+    }
+   ]
+  },
+  {
+   "title": "Once Upon a Time in Harlem",
+   "rating": "PG-13",
+   "runtime_min": 100,
+   "url": "https://drafthouse.com/winchester/show/film-club-once-upon-a-time-in-harlem?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/film-club-once-upon-a-time-in-harlem/0301/223800"
+    }
+   ]
+  },
+  {
+   "title": "Violent Night 2",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://drafthouse.com/winchester/show/violent-night-2?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-12-03T16:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/violent-night-2/0301/223783"
+    },
+    {
+     "at": "2026-12-03T19:15",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/violent-night-2/0301/223782"
+    }
+   ]
+  },
+  {
+   "title": "Behemoth!",
+   "rating": "R",
+   "runtime_min": 127,
+   "url": "https://drafthouse.com/winchester/show/behemoth?cinemaId=0301",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://drafthouse.com/winchester/tickets/film-club-behemoth/0301/224065"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

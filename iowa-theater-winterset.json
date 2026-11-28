@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "iowa-theater-winterset",
+ "name": "The Iowa Theater",
+ "city": "desmoines",
+ "area": "Winterset",
+ "region": "Waukee & Dallas County",
+ "url": "https://www.the-iowa.com/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=589581~26c06c96-e7af-4165-ae51-4f03b78aac96&",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://prod1.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=590689~26c06c96-e7af-4165-ae51-4f03b78aac96&"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://prod1.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=590690~26c06c96-e7af-4165-ae51-4f03b78aac96&"
+    }
+   ]
+  },
+  {
+   "title": "National Lampoon's Christmas Vacation",
+   "rating": "PG-13",
+   "runtime_min": 97,
+   "url": "https://prod1.agileticketing.net/websales/pages/info.aspx?evtinfo=281081~26c06c96-e7af-4165-ae51-4f03b78aac96&",
+   "shows": [
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://prod1.agileticketing.net/websales/pages/ticketsearchcriteria.aspx?evtinfo=578613~26c06c96-e7af-4165-ae51-4f03b78aac96&"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

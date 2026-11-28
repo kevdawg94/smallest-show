@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "lewiston-community",
+ "name": "Lewiston Community Theatre",
+ "city": "logan",
+ "area": "Lewiston",
+ "region": "Lewiston & North Valley",
+ "url": "https://lewistonutah.gov/theatre/",
+ "films": [
+  {
+   "title": "Whalefall",
+   "rating": "PG-13",
+   "runtime_min": 105,
+   "url": "https://lewistonutah.gov/theatre/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://lewistonutah.gov/theatre/"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://lewistonutah.gov/theatre/"
+    }
+   ]
+  },
+  {
+   "title": "Drummer Boy",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://lewistonutah.gov/theatre/",
+   "shows": [
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://lewistonutah.gov/theatre/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

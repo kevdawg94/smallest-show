@@ -1,0 +1,105 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "salem-twin-cinema",
+ "name": "Salem Twin Cinema",
+ "city": "youngstown",
+ "area": "Salem",
+ "region": "Salem & Columbiana County",
+ "url": "http://www.salemtwincinema.com/movies",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/start?film=923",
+   "shows": [
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61907"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61908"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61909"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61910"
+    },
+    {
+     "at": "2026-12-03T15:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61911"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61912"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": null,
+   "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/start?film=920",
+   "shows": [
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61898"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61899"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61900"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61901"
+    },
+    {
+     "at": "2026-12-03T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61902"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61903"
+    },
+    {
+     "at": "2026-12-04T16:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61886"
+    },
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://www.internet-ticketing.com/websales/sales/SALSAL/book?perfcode=61887"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

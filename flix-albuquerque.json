@@ -1,0 +1,938 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "flix-albuquerque",
+ "name": "Flix Brewhouse",
+ "city": "abq",
+ "area": "Westside",
+ "region": "Albuquerque",
+ "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+ "films": [
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 108,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-28T09:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/cb4fd606-9e71-5d64-8c53-f87cf5f9971f"
+    },
+    {
+     "at": "2026-11-28T16:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/275c5d4a-44f8-56c5-9734-2f3f4b240e28"
+    },
+    {
+     "at": "2026-11-29T09:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/eb2448c7-1662-5092-9684-33fcee46d495"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/afb4e1b2-5b1f-5ea7-a864-d721be851099"
+    },
+    {
+     "at": "2026-12-01T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/414830d8-6c29-5f8d-bf0c-a8f48fb22292"
+    },
+    {
+     "at": "2026-12-01T14:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/908f6e96-36c8-53fe-adc0-83639089a1c5"
+    },
+    {
+     "at": "2026-12-02T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/5d611bac-78b9-5d77-ba5b-97be9783585e"
+    },
+    {
+     "at": "2026-12-02T14:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/f5e655e6-f606-5a6a-b025-afb2a37dfdcc"
+    },
+    {
+     "at": "2026-12-03T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/27f9c48d-d6a0-5f20-be6f-89a78beb9fb7"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-28T09:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/b031eed3-3e10-5db8-a017-95508fcdc77d"
+    },
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/3000a288-4b99-50ad-8316-13869c0456f4"
+    },
+    {
+     "at": "2026-11-29T09:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/da399d57-96b3-5652-9ddb-744d18677a96"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/62249faa-6dc1-56c9-aac4-7e980cf3852a"
+    },
+    {
+     "at": "2026-12-01T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/dc892447-3453-5c67-9019-ff7b0a27867a"
+    },
+    {
+     "at": "2026-12-01T14:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/3f0479e1-0715-5aa5-af7e-053d262b2a3a"
+    },
+    {
+     "at": "2026-12-02T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/44ac5fef-0f25-5f16-8689-df8c79326ec8"
+    },
+    {
+     "at": "2026-12-02T14:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/4709315b-0191-59fd-a819-1ad66a66f62b"
+    },
+    {
+     "at": "2026-12-03T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/4b3353aa-b1b9-521a-8816-50600468ff21"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-28T09:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/6ed92d50-f65b-5a76-bda6-bedc9aea88d0"
+    },
+    {
+     "at": "2026-11-28T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/03a44091-978c-51b3-9ff7-dee3b0e73f56"
+    },
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/91ddcdc5-0adc-594e-9d40-603c042a7fc5"
+    },
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/f1a2e956-e11e-5d51-94ce-07fbc7664d7c"
+    },
+    {
+     "at": "2026-11-28T17:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/fce74c6a-dd6e-5218-bec0-ce0b00de2de0"
+    },
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/1cfb6247-53a6-57ac-affd-67396f6c88d9"
+    },
+    {
+     "at": "2026-11-28T21:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/75deb963-98c5-5e21-8622-829f91f0c937"
+    },
+    {
+     "at": "2026-11-28T21:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/11be85fe-8977-5d5c-860d-87f04d93d120"
+    },
+    {
+     "at": "2026-11-29T09:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/d10115d4-975e-5fea-adc8-e66489972f2a"
+    },
+    {
+     "at": "2026-11-29T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/910bf26f-e9fb-5f29-a99c-95a19d4ca7e5"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/099c7460-3382-57b0-b028-527985b2e480"
+    },
+    {
+     "at": "2026-11-29T15:35",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/dd6b75d0-2223-5f0b-8e98-0cdb400667d2"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/ba5e125c-1b0c-5858-b06d-a16096e5fdcc"
+    },
+    {
+     "at": "2026-11-29T19:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/e1de3aa5-44f1-5949-97cb-94f87c1227ab"
+    },
+    {
+     "at": "2026-11-29T20:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/bdb977a8-3222-55af-a370-ad717b76c3a0"
+    },
+    {
+     "at": "2026-11-29T21:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/1c829f65-85ff-58a2-b3f1-bcb8e51b72e5"
+    },
+    {
+     "at": "2026-12-01T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/933535d6-9363-50d4-ba50-cb26403b540e"
+    },
+    {
+     "at": "2026-12-01T13:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/e7bfc06f-0022-5d43-be44-3311e989a638"
+    },
+    {
+     "at": "2026-12-01T16:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/400af456-2878-52df-bea7-efa4bec34751"
+    },
+    {
+     "at": "2026-12-01T17:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/1007e26d-f30e-54f4-89ec-5a6cb17503a0"
+    },
+    {
+     "at": "2026-12-01T19:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/8db492c5-7668-5294-a05a-0d6d9ed4c740"
+    },
+    {
+     "at": "2026-12-01T21:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/11ad56df-5482-5bc4-9ff9-f9dff7bd21e5"
+    },
+    {
+     "at": "2026-12-01T21:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/330dc7a2-c3cf-5c78-86b3-438457c9adee"
+    },
+    {
+     "at": "2026-12-02T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/1186a34c-7f6c-5335-ac7a-6fb3873a95d7"
+    },
+    {
+     "at": "2026-12-02T13:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/afde6d51-5f4a-5f9a-9c4e-29ab4f8d18f1"
+    },
+    {
+     "at": "2026-12-02T16:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/a449f156-5178-5099-bcf4-fd4170250c52"
+    },
+    {
+     "at": "2026-12-02T17:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/4da669ed-8b69-5f79-9752-3c47526865fd"
+    },
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/a785bc52-af61-5290-9eae-64510811c068"
+    },
+    {
+     "at": "2026-12-02T21:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/3edab232-3866-5ad2-869f-b63051a17a9a"
+    },
+    {
+     "at": "2026-12-02T21:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/54a717dc-1fb0-59d7-bcbb-a0ebf8983734"
+    },
+    {
+     "at": "2026-12-03T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/4544adf4-4132-5637-bded-a35703cb0677"
+    }
+   ]
+  },
+  {
+   "title": "Disney's Hexed",
+   "rating": "PG",
+   "runtime_min": 106,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-28T09:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/21a3ffdb-26c8-5eb4-a51d-cba1c6ffe0e6"
+    },
+    {
+     "at": "2026-11-28T12:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/dc30dc67-1832-50fb-a976-8a7a8bb41b0d"
+    },
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/2cfa3fb0-0516-5caf-b20a-ed13edc5b677"
+    },
+    {
+     "at": "2026-11-28T15:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/c29d2ad7-6253-5f86-b906-fd52e2f7f6d3"
+    },
+    {
+     "at": "2026-11-28T17:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/0ccdc6ac-657e-552f-9e2b-4c02d1bc33de"
+    },
+    {
+     "at": "2026-11-28T19:55",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/265b1677-5749-595f-9674-463a2e22ee3f"
+    },
+    {
+     "at": "2026-11-28T22:55",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/f980c139-0925-5301-81bb-ca35d8e55abc"
+    },
+    {
+     "at": "2026-11-29T09:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/6c1799df-e75f-5abc-83a0-8077818c6602"
+    },
+    {
+     "at": "2026-11-29T12:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/899d661e-7ca2-5d0a-838f-e8fdf456bbde"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/b62a2d05-5411-5bdf-89ec-86084a5ab746"
+    },
+    {
+     "at": "2026-11-29T15:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/19d24ece-9b52-58cf-8e8e-1d0ef7ac8d35"
+    },
+    {
+     "at": "2026-11-29T19:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/a5861959-40d6-54d2-902c-a7c5dd65f484"
+    },
+    {
+     "at": "2026-11-29T22:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/19d588ad-ab15-5288-8239-4935884969c0"
+    },
+    {
+     "at": "2026-12-01T10:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/1b96683d-264b-5709-bb66-069fcf2d7e4e"
+    },
+    {
+     "at": "2026-12-01T12:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/4e58d084-61c1-58e1-903e-f2927495a850"
+    },
+    {
+     "at": "2026-12-01T14:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/cc830c5b-7f01-5d4a-93da-64dcdee72081"
+    },
+    {
+     "at": "2026-12-01T15:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/d79971d8-da31-500b-b6c8-62b61b4cf3fb"
+    },
+    {
+     "at": "2026-12-01T17:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/126b61b1-2f21-5a87-b5b9-112dbe020c00"
+    },
+    {
+     "at": "2026-12-02T10:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/745f9097-781f-588e-a64c-7b0cb23d4b3a"
+    },
+    {
+     "at": "2026-12-02T12:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/0d26b5ac-4761-537f-92e6-a90157406663"
+    },
+    {
+     "at": "2026-12-02T14:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/4cf249c8-8308-5204-bd2b-0afa0ae16eda"
+    },
+    {
+     "at": "2026-12-02T15:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/b2a2c414-30b9-5901-9deb-a7378ef3f58f"
+    },
+    {
+     "at": "2026-12-02T17:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/519652af-94bd-5800-9279-9abecc1b4c7a"
+    },
+    {
+     "at": "2026-12-03T10:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/e2cc07f0-31a5-5707-967b-ede41210ec61"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": "R",
+   "runtime_min": 122,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-28T09:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/1827a345-ccef-5361-b1f9-81137c3a83ae"
+    },
+    {
+     "at": "2026-11-28T12:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/fc00d0bf-5b55-53f3-b52f-0f4431877c23"
+    },
+    {
+     "at": "2026-11-28T19:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/c2bcbae9-b952-5ed3-aa18-2072a7b88877"
+    },
+    {
+     "at": "2026-11-28T21:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/281714fb-db33-58cb-a7b3-6880ff1df248"
+    },
+    {
+     "at": "2026-11-29T09:05",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/ea0a056f-cbfc-5297-be92-1c1e64d7be95"
+    },
+    {
+     "at": "2026-11-29T12:20",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/5159a401-ffea-5f64-af80-df1935fb1e17"
+    },
+    {
+     "at": "2026-11-29T17:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/6a828f05-4ce1-5511-9f3a-9598554bda8f"
+    },
+    {
+     "at": "2026-11-29T21:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/76c9d1be-4b36-596a-997d-cd93f3dc4617"
+    },
+    {
+     "at": "2026-12-01T11:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/3f4ca3cf-44e2-5626-8384-5c2296042509"
+    },
+    {
+     "at": "2026-12-01T14:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/bce6a06a-6009-5ff6-b4fd-a0341d26d803"
+    },
+    {
+     "at": "2026-12-01T19:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/6e8b2489-2805-5ce3-a99e-3b65939b4538"
+    },
+    {
+     "at": "2026-12-01T21:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/9b8e6bcb-178c-5749-a0a1-f15eac0001f5"
+    },
+    {
+     "at": "2026-12-02T11:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/22ba485d-af8d-547e-87f1-fe6e5b4d4c8e"
+    },
+    {
+     "at": "2026-12-02T14:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/1037f7c4-cade-5aa5-81a7-9ae72668e12b"
+    },
+    {
+     "at": "2026-12-02T19:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/6a2c3a1f-d4ff-512e-a636-68b54f928b4a"
+    },
+    {
+     "at": "2026-12-02T21:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/019b70fe-ede1-5a18-b60b-93d499f30dec"
+    },
+    {
+     "at": "2026-12-03T11:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/238bfd12-4c2c-5eb7-8f87-34b5eb42acf6"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 116,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-28T10:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/00770a23-c1ef-5a2f-b99e-5a64dac3da91"
+    },
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/e4bf28d1-5e9e-535a-9221-0b4fa51d9c17"
+    },
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/07372cdb-f280-562c-b293-477543fc1f42"
+    },
+    {
+     "at": "2026-11-28T22:55",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/58068ce0-e4af-5ebc-8b76-d08402c1a8e7"
+    },
+    {
+     "at": "2026-11-29T10:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/2ff03f57-d916-575e-a91d-d1ac50672e0a"
+    },
+    {
+     "at": "2026-11-29T15:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/7753fb79-fec9-5e6a-87b3-03baa4a6bc70"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/13a3296c-c9c4-5a4e-a03a-d8bf9b8a73ce"
+    },
+    {
+     "at": "2026-12-01T10:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/6448cd64-b53b-5cff-89d7-1eecebe988b6"
+    },
+    {
+     "at": "2026-12-01T13:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/8b511ed8-5650-55b0-8877-ec0d11344e66"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/aa6dad15-849b-57a0-9c25-4179e5aaf01b"
+    },
+    {
+     "at": "2026-12-02T10:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/175d5334-ea7c-5b1c-a436-975d4548e81f"
+    },
+    {
+     "at": "2026-12-02T13:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/9e3f34c0-4b82-5992-8569-a4ea0f0d096f"
+    },
+    {
+     "at": "2026-12-02T19:55",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/a3317d5a-502e-5bc2-9933-ae55d647d416"
+    },
+    {
+     "at": "2026-12-03T10:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/68e79468-6435-5ed3-a071-b35134f00389"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-28T10:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/99401d61-0197-535a-999e-2c7eac9d69bf"
+    },
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/6fd92f76-5ee1-55db-85d7-23e17f9b390e"
+    },
+    {
+     "at": "2026-11-28T13:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/ccad6546-e1b4-5603-bd14-22786f5da4c1"
+    },
+    {
+     "at": "2026-11-28T15:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/b0611fe1-372b-53b0-bf48-74d48b2dc120"
+    },
+    {
+     "at": "2026-11-28T16:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/99afa607-e70d-54ba-a44c-e29dbf2a53dc"
+    },
+    {
+     "at": "2026-11-28T18:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/6f6dd518-a664-5d6e-8d85-b0cef72bbbeb"
+    },
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/f440897e-ca2d-5d7a-999b-d667f1f3fadf"
+    },
+    {
+     "at": "2026-11-28T22:55",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/fe0ac3df-33bc-5383-868a-18bdeb9e1daa"
+    },
+    {
+     "at": "2026-11-29T10:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/1e083b60-7d1f-5c01-b2da-9f6646a4e67e"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/8ec6aa4d-c45a-5426-a49b-e080a601e1e0"
+    },
+    {
+     "at": "2026-11-29T13:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/b6f60fa6-aa61-5e70-910a-54ef9430852a"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/e8d2e837-1e04-5ad5-aeb2-f9dcea265110"
+    },
+    {
+     "at": "2026-11-29T18:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/025340fb-9a1a-573c-a128-db24c63cee48"
+    },
+    {
+     "at": "2026-11-29T21:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/2c715a5d-45b5-513b-abce-f1a5fdddd3f3"
+    },
+    {
+     "at": "2026-12-01T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/f66e5caa-ef2e-5805-b939-9b09a8d3e055"
+    },
+    {
+     "at": "2026-12-01T11:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/6c396d20-1f2e-59cf-ae58-f9648a105f86"
+    },
+    {
+     "at": "2026-12-01T13:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/afd37148-a52e-5ce4-9acc-b6d1f416919d"
+    },
+    {
+     "at": "2026-12-01T16:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/a7d708c1-1dfd-5e44-b466-1fa028f53540"
+    },
+    {
+     "at": "2026-12-01T18:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/0a5cb5ad-f606-5e33-b6ea-1bb905b456f5"
+    },
+    {
+     "at": "2026-12-01T20:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/8e792f1b-994e-507e-905b-2e3434979b89"
+    },
+    {
+     "at": "2026-12-02T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/accd1dd3-d1d0-5dc4-a920-dcc5c606e0ee"
+    },
+    {
+     "at": "2026-12-02T11:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/d5f0344f-9871-513b-b455-dff8dd9de2e0"
+    },
+    {
+     "at": "2026-12-02T13:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/0819ebcf-788e-50a8-9ca0-9b9e408cdfcc"
+    },
+    {
+     "at": "2026-12-02T16:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/806d4c80-3590-5176-b288-1250b3440ba7"
+    },
+    {
+     "at": "2026-12-02T18:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/47cd1626-7d06-5d82-a60e-37b64be6e985"
+    },
+    {
+     "at": "2026-12-02T20:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/8ba655a0-1023-537f-9b7c-15d2161c1f83"
+    },
+    {
+     "at": "2026-12-03T10:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/2e5d905a-f1cc-55e2-bd30-cea575c1eab0"
+    },
+    {
+     "at": "2026-12-03T11:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/03d1aa62-1058-53d2-9788-b6984f25bf15"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 128,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/3c2b69a7-8e35-522b-809e-04b06f5f7d02"
+    },
+    {
+     "at": "2026-11-28T14:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/be85cd45-4029-50b4-9cbd-1f90b3c01a46"
+    },
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/3435baa3-43aa-5950-ac1e-0320b377f0f3"
+    },
+    {
+     "at": "2026-11-28T21:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/29d0cd60-0a9d-58ca-ab12-3833d73a5f35"
+    },
+    {
+     "at": "2026-11-29T11:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/32816292-b622-5f5e-9bac-6d5c83de4155"
+    },
+    {
+     "at": "2026-11-29T14:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/1d12d118-40c8-52a5-a30e-01ecf46acb6b"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/2d9a40a1-a80b-5521-a4ce-7401f451827c"
+    },
+    {
+     "at": "2026-11-29T21:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/f014cd9f-fa03-5d32-8a32-26bb44e8029a"
+    },
+    {
+     "at": "2026-12-01T11:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/c8c95929-d7ee-5478-9607-fa63aed17e8d"
+    },
+    {
+     "at": "2026-12-01T14:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/00f9ba08-b2a5-5aaa-abcc-cc4595819b2c"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/ed3e261e-35b4-528d-9b0d-9a0eea975c8a"
+    },
+    {
+     "at": "2026-12-01T20:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/bc48c35f-8fb9-59ca-b090-b69e41e6e8ce"
+    },
+    {
+     "at": "2026-12-01T21:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/53f9a5a7-7080-5669-8848-56bb714da892"
+    },
+    {
+     "at": "2026-12-02T11:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/648e56cd-4d2b-50f1-95a2-6cbbcb354527"
+    },
+    {
+     "at": "2026-12-02T14:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/cf3bf92f-e273-5012-9bab-ee01dfbd901e"
+    },
+    {
+     "at": "2026-12-02T18:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/78284ea1-b07e-5eb2-ac1a-0311e953a97a"
+    },
+    {
+     "at": "2026-12-02T21:30",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/557bfa4b-d528-5518-9d48-54e10789aa81"
+    },
+    {
+     "at": "2026-12-03T11:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/8db78845-acec-5792-a9a5-4c3d7b51b984"
+    }
+   ]
+  },
+  {
+   "title": "Elf",
+   "rating": "PG",
+   "runtime_min": 97,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/dae17b11-f6af-5982-94c0-e8b78426429a"
+    },
+    {
+     "at": "2026-12-01T17:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/35d0611c-910d-5437-863b-4a764e572308"
+    }
+   ]
+  },
+  {
+   "title": "Godzilla Minus Zero",
+   "rating": "R",
+   "runtime_min": 135,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-28T18:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/e1b5f66c-beb8-5edd-81f8-b13718556b0e"
+    },
+    {
+     "at": "2026-11-28T21:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/e0da0161-f444-5ab2-966a-435e5efb7c4c"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/c01be69b-4054-5603-bc2d-66b9582a269f"
+    },
+    {
+     "at": "2026-11-29T21:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/77bc83f5-f85d-5a4f-b2c1-684942b9c563"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/53494cd2-29b5-5e1c-abff-cb6d53119aad"
+    },
+    {
+     "at": "2026-12-01T21:15",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/d83e45c7-2466-56a1-9239-76c9151fbf5a"
+    },
+    {
+     "at": "2026-12-02T18:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/50748d88-8cb3-5588-8eb7-ca33600b95cf"
+    },
+    {
+     "at": "2026-12-02T21:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/9684d84b-d380-50a1-b8d3-49ba2d39a693"
+    }
+   ]
+  },
+  {
+   "title": "Meet Me in St. Louis (1944)",
+   "rating": "PG",
+   "runtime_min": 113,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/c4f8cd65-71eb-5d41-a915-cd8a94dab695"
+    }
+   ]
+  },
+  {
+   "title": "Dr. Seuss' How The Grinch Stole Christmas",
+   "rating": "PG",
+   "runtime_min": 104,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-12-02T17:00",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/bf0de8bf-f456-5807-b922-e7a69fd8039b"
+    }
+   ]
+  },
+  {
+   "title": "Bad Santa",
+   "rating": "R",
+   "runtime_min": 88,
+   "url": "https://flixbrewhouse.com/theaters/x0x2t-flix-brewhouse-albuquerque/",
+   "shows": [
+    {
+     "at": "2026-12-03T18:45",
+     "sold_out": false,
+     "url": "https://tickets.flixbrewhouse.com/launch/ticketing/d9bea8b7-7ba3-547c-8222-08f35be9cc4b"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

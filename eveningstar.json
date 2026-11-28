@@ -1,0 +1,52 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "eveningstar",
+ "name": "Eveningstar",
+ "city": "portlandme",
+ "area": "Brunswick",
+ "region": "Brunswick–Freeport",
+ "url": "https://www.eveningstarcinema.com/",
+ "films": [
+  {
+   "title": "Wild Horse Nine",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "https://ticketing.uswest.veezi.com/sessions/?siteToken=698jb7tt2hsr90r79h91t22zec",
+   "shows": [
+    {
+     "at": "2026-11-28T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4686?siteToken=698jb7tt2hsr90r79h91t22zec"
+    },
+    {
+     "at": "2026-11-28T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4687?siteToken=698jb7tt2hsr90r79h91t22zec"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4688?siteToken=698jb7tt2hsr90r79h91t22zec"
+    },
+    {
+     "at": "2026-11-29T13:30",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4689?siteToken=698jb7tt2hsr90r79h91t22zec"
+    },
+    {
+     "at": "2026-11-29T16:15",
+     "sold_out": false,
+     "url": "https://ticketing.uswest.veezi.com/purchase/4690?siteToken=698jb7tt2hsr90r79h91t22zec"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

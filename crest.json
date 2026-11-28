@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "crest",
+ "name": "Crest Theatre",
+ "city": "sacramento",
+ "area": "Downtown",
+ "region": "Downtown & Midtown",
+ "url": "https://cresttheater.com/",
+ "films": [
+  {
+   "title": "Robocop",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://www.ticketmaster.com/event/1C006557FA7B59B3"
+    }
+   ]
+  },
+  {
+   "title": "Unhoused Neighbors",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://cresttheater.com",
+   "shows": [
+    {
+     "at": "2026-12-01T18:30",
+     "sold_out": false,
+     "url": "https://events.ticketleap.com/tickets/unhousedneighbors/unhoused-neighbors-crest"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

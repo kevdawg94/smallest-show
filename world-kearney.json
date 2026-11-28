@@ -1,0 +1,63 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "world-kearney",
+ "name": "The World Theatre",
+ "city": "kearney",
+ "area": "Downtown Kearney",
+ "region": "Kearney",
+ "url": "https://www.theworldtheatre.org/",
+ "films": [
+  {
+   "title": "How to Rob a Bank",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theworldtheatre.org/movies/how-to-rob-a-bank/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://theworldtheatre.square.site/tickets-to-how-to-rob-a-bank"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://theworldtheatre.square.site/tickets-to-how-to-rob-a-bank"
+    }
+   ]
+  },
+  {
+   "title": "The Chosen Season 6 Episodes 3&4",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theworldtheatre.org/movies/the-chosen-season-6-episodes-34/",
+   "shows": [
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://www.theworldtheatre.org/movies/the-chosen-season-6-episodes-34/"
+    }
+   ]
+  },
+  {
+   "title": "Home Alone 2",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.theworldtheatre.org/movies/home-alone-2-2/",
+   "shows": [
+    {
+     "at": "2026-12-04T19:30",
+     "sold_out": false,
+     "url": "https://theworldtheatre.square.site/tickets-to-home-alone-2-lost-in-new-york"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

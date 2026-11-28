@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "acme-riverton",
+ "name": "Acme Theatre",
+ "city": "riverton",
+ "area": "Riverton",
+ "region": "Riverton",
+ "url": "https://barrycinemas.com/acme-theater-riverton",
+ "films": [
+  {
+   "title": "How the Grinch Stole Christmas",
+   "rating": "PG",
+   "runtime_min": 104,
+   "url": "https://barrycinemas.com/acme-theater-riverton/movie/21492",
+   "shows": [
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/e9ee4925-66e8-f111-91f2-002248b556ef"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer: A Christmas Carol",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://barrycinemas.com/acme-theater-riverton/movie/28146",
+   "shows": [
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/eaee4925-66e8-f111-91f2-002248b556ef"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/ecee4925-66e8-f111-91f2-002248b556ef"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://barrycinemas.com/acme-theater-riverton/tickets/ebee4925-66e8-f111-91f2-002248b556ef"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

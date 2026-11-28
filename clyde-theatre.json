@@ -1,0 +1,55 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "clyde-theatre",
+ "name": "Clyde Theatre",
+ "city": "northsound",
+ "area": "Langley",
+ "region": "Whidbey Island & Stanwood",
+ "url": "http://theclyde.net/schedule/",
+ "films": [
+  {
+   "title": "Wildwood",
+   "rating": "PG-13",
+   "runtime_min": null,
+   "url": "http://theclyde.net/schedule/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "http://theclyde.net/schedule/"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "http://theclyde.net/schedule/"
+    },
+    {
+     "at": "2026-11-30T19:30",
+     "sold_out": false,
+     "url": "http://theclyde.net/schedule/"
+    }
+   ]
+  },
+  {
+   "title": "The Only Living Pickpocket in New York",
+   "rating": "R",
+   "runtime_min": null,
+   "url": "http://theclyde.net/schedule/",
+   "shows": [
+    {
+     "at": "2026-12-04T19:30",
+     "sold_out": false,
+     "url": "http://theclyde.net/schedule/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

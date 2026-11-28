@@ -1,0 +1,580 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "loft",
+ "name": "Loft",
+ "city": "tucson",
+ "area": "Midtown",
+ "region": "Central",
+ "url": "https://loftcinema.org/showtimes/",
+ "films": [
+  {
+   "title": "The Sound of Music",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/the-sound-of-music/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-sound-of-music/"
+    }
+   ]
+  },
+  {
+   "title": "Fatherland",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/fatherland/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-11-28T15:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-11-29T11:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-11-29T16:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-11-30T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-11-30T17:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-11-30T21:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-12-01T12:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-12-01T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-12-01T21:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-12-02T15:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-12-02T18:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-12-03T14:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-12-03T18:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/",
+     "venue": "Open Air Cinema"
+    },
+    {
+     "at": "2026-12-03T21:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/fatherland/"
+    }
+   ]
+  },
+  {
+   "title": "Club Kid",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/club-kid/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-28T14:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-28T17:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-28T20:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-29T11:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-29T13:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-29T19:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-30T12:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-30T15:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-30T18:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-11-30T21:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-01T12:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-01T16:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-01T18:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-01T19:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/",
+     "venue": "Open Air Cinema"
+    },
+    {
+     "at": "2026-12-01T20:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-02T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-02T16:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-02T21:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-03T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-03T15:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-03T18:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    },
+    {
+     "at": "2026-12-03T19:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/club-kid/"
+    }
+   ]
+  },
+  {
+   "title": "Wild Horse Nine",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/wild-horse-nine/",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-28T14:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-28T17:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-28T21:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-29T11:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-29T14:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-30T12:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-30T16:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-11-30T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/",
+     "venue": "Open Air Cinema"
+    },
+    {
+     "at": "2026-12-01T12:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-12-01T15:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-12-02T12:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-12-02T16:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-12-02T21:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-12-03T12:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-12-03T16:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-12-03T17:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    },
+    {
+     "at": "2026-12-03T20:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/wild-horse-nine/"
+    }
+   ]
+  },
+  {
+   "title": "You Can See Everything",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/you-can-see-everything/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-29T11:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-29T17:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-30T15:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-12-01T14:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-12-02T12:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-12-02T17:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-12-03T12:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    },
+    {
+     "at": "2026-12-03T20:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/you-can-see-everything/"
+    }
+   ]
+  },
+  {
+   "title": "La Bola Negra",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/la-bola-negra/",
+   "shows": [
+    {
+     "at": "2026-11-28T17:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-11-28T20:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-11-29T15:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-11-29T19:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-11-30T12:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-11-30T14:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-11-30T18:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-12-01T12:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-12-01T14:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-12-01T18:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-12-02T12:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-12-02T15:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-12-02T18:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/",
+     "venue": "Open Air Cinema"
+    },
+    {
+     "at": "2026-12-03T12:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    },
+    {
+     "at": "2026-12-03T16:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/la-bola-negra/"
+    }
+   ]
+  },
+  {
+   "title": "Blade Runner: The Final Cut",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/blade-runner-the-final-cut/",
+   "shows": [
+    {
+     "at": "2026-11-28T18:45",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/blade-runner-the-final-cut/",
+     "venue": "Open Air Cinema"
+    },
+    {
+     "at": "2026-11-28T20:15",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/blade-runner-the-final-cut/"
+    },
+    {
+     "at": "2026-11-29T18:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/blade-runner-the-final-cut/",
+     "venue": "Open Air Cinema"
+    },
+    {
+     "at": "2026-11-29T20:30",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/blade-runner-the-final-cut/"
+    }
+   ]
+  },
+  {
+   "title": "Common Threads: Stories from the Quilt",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/common-threads-stories-from-the-quilt/",
+   "shows": [
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/common-threads-stories-from-the-quilt/"
+    }
+   ]
+  },
+  {
+   "title": "Tales from the Darkside: The Movie",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/tales-from-the-darkside-the-movie/",
+   "shows": [
+    {
+     "at": "2026-11-30T20:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/tales-from-the-darkside-the-movie/"
+    }
+   ]
+  },
+  {
+   "title": "The Lord of the Rings: The Fellowship of the Ring",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://loftcinema.org/film/the-lord-of-the-rings-the-fellowship-of-the-ring/",
+   "shows": [
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://loftcinema.org/film/the-lord-of-the-rings-the-fellowship-of-the-ring/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

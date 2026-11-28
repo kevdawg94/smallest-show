@@ -1,0 +1,37 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "arena-theater",
+ "name": "Arena Theater",
+ "city": "mendocino",
+ "area": "Point Arena",
+ "region": "Mendocino Coast",
+ "url": "https://arenatheater.org/",
+ "films": [
+  {
+   "title": "Wicker",
+   "rating": null,
+   "runtime_min": 105,
+   "url": "https://arenatheater.eventive.org/films/6b033d25c6581fd2a43d345f",
+   "shows": [
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule /6b033d75bea72564d44adcc7"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://arenatheater.eventive.org/schedule /6b033da651295759114c3196"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

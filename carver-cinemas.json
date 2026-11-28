@@ -1,0 +1,296 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "carver-cinemas",
+ "name": "Carver Cinemas",
+ "city": "hays",
+ "area": "McCook, NE",
+ "region": "McCook",
+ "url": "https://carvercinemas.com/",
+ "films": [
+  {
+   "title": "David",
+   "rating": "PG",
+   "runtime_min": 114,
+   "url": "https://carvercinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T10:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/8fe12ce1-ac86-56b0-8281-a04afb54cf1f"
+    },
+    {
+     "at": "2026-11-28T13:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/dc5b1921-0180-5df4-b67e-0505dac3ff5a"
+    },
+    {
+     "at": "2026-11-29T10:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/f46924c4-343e-5162-acd8-c21ba2d86449"
+    },
+    {
+     "at": "2026-11-29T13:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/6c92d78f-cb07-5b82-bb47-64161058b55c"
+    }
+   ]
+  },
+  {
+   "title": "Disney's Hexed",
+   "rating": "PG",
+   "runtime_min": 106,
+   "url": "https://carvercinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/9346ff5f-841f-5bbb-a076-2fc236f13649"
+    },
+    {
+     "at": "2026-11-28T16:15",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/f0a61c17-4b8c-5a44-ab75-0ed0c59a32a6"
+    },
+    {
+     "at": "2026-11-28T18:45",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/946b5f94-bf63-55e5-b827-9f057456351a"
+    },
+    {
+     "at": "2026-11-28T21:20",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/ee65b00d-cac7-59da-a350-25e619bfb18e"
+    },
+    {
+     "at": "2026-11-29T11:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/9cfea297-e0c8-5013-a39e-2a8de33a1be0"
+    },
+    {
+     "at": "2026-11-29T13:55",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/7c40803e-de5f-5fe2-8fa9-16bc8bb1104b"
+    },
+    {
+     "at": "2026-11-29T16:15",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/05a16762-53a0-5ae9-9973-0c21b5a8be5a"
+    },
+    {
+     "at": "2026-11-29T18:45",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/de5e50cd-f43a-5376-87e4-1b61b22d84d6"
+    },
+    {
+     "at": "2026-11-30T16:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/43dc72ed-5746-5503-9dc8-87bfe09952ac"
+    },
+    {
+     "at": "2026-11-30T18:45",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/a3153c85-ad33-5b47-8a24-68215cdcb04d"
+    },
+    {
+     "at": "2026-12-01T16:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/2854517d-ed26-5e6c-9ae1-1a0f50ef8d4d"
+    },
+    {
+     "at": "2026-12-01T18:45",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/d9fa9a5b-a227-59f6-8be4-9258eec1b969"
+    },
+    {
+     "at": "2026-12-02T16:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/65c36d34-6e7f-58ee-85d7-af77413227c4"
+    },
+    {
+     "at": "2026-12-02T18:45",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/15078939-e836-541d-aecd-cd43cfaaef9f"
+    },
+    {
+     "at": "2026-12-03T16:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/9a69e330-b686-5585-8cc6-7f9097ddf163"
+    },
+    {
+     "at": "2026-12-03T18:45",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/4d5bbdfc-57af-5558-93b2-69a3748bd228"
+    }
+   ]
+  },
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 158,
+   "url": "https://carvercinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/c67c7e70-8761-5248-8433-783d71e250cb"
+    },
+    {
+     "at": "2026-11-28T15:20",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/96b3615d-eab3-51e6-a280-99f976eb7b15"
+    },
+    {
+     "at": "2026-11-28T18:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/08eaa6da-0eac-59d3-a304-9e51ebe6f41e"
+    },
+    {
+     "at": "2026-11-28T21:40",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/be2bfc41-8713-5b26-abc3-3f4617b69d48"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/2ee7c35d-033b-590a-ae89-e5ae694cdf39"
+    },
+    {
+     "at": "2026-11-29T15:20",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/772892d8-a1c5-59db-8286-4c85b2986a25"
+    },
+    {
+     "at": "2026-11-29T18:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/c1e6ffeb-12b1-5f2d-8995-374fa913ccad"
+    },
+    {
+     "at": "2026-11-30T15:20",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/adfd13c9-7a74-59d3-b3e0-1d7ce1109e14"
+    },
+    {
+     "at": "2026-11-30T18:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/ff50f1de-3f57-5e34-9dd1-ef5130136827"
+    },
+    {
+     "at": "2026-12-01T15:20",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/2863db09-50fb-545f-bdfd-600f9a550622"
+    },
+    {
+     "at": "2026-12-01T18:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/4c9f4cf5-0cd0-5495-9dbe-f107ee5022b5"
+    },
+    {
+     "at": "2026-12-02T15:20",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/ec32f717-10e8-5aac-ad25-c3520622a6d7"
+    },
+    {
+     "at": "2026-12-02T18:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/63ab3e67-3672-50bc-a6eb-691c765f8819"
+    },
+    {
+     "at": "2026-12-03T15:20",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/da905109-d6d2-52a4-ba5a-448e2eb1f8a6"
+    },
+    {
+     "at": "2026-12-03T18:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/21533c91-789e-51cb-b613-50c71f077cc2"
+    }
+   ]
+  },
+  {
+   "title": "Focker In-Law",
+   "rating": "PG-13",
+   "runtime_min": 106,
+   "url": "https://carvercinemas.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T13:50",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/5a897f56-6c4a-5ac8-8bae-df83ab199973"
+    },
+    {
+     "at": "2026-11-28T16:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/aa398316-81c9-5790-8b91-f959d235da4c"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/0d634cd5-d25c-5b39-893d-07ae8db2cc5a"
+    },
+    {
+     "at": "2026-11-28T21:30",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/5797d089-adaa-5ea1-b521-9b7631934bd5"
+    },
+    {
+     "at": "2026-11-29T16:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/ddda94f4-5f4a-5985-b6b0-77dcc4e58716"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/b5ac082b-2e38-5749-984f-a404a21a46f6"
+    },
+    {
+     "at": "2026-11-30T15:45",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/0a242c14-6d58-5e5c-846d-ed664194b8f4"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/46766175-f623-5739-9641-ba53e302ceae"
+    },
+    {
+     "at": "2026-12-01T15:45",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/dc285191-234b-5a5a-8bc8-43593bce03a7"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/3fccf5a5-f32a-52c2-aeaf-7afd6998f7a9"
+    },
+    {
+     "at": "2026-12-02T15:45",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/8f63006a-329c-5d3d-bd11-c6c1fb1ba998"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/0585c439-2fb6-5e13-b247-1e4d7c0b91f3"
+    },
+    {
+     "at": "2026-12-03T15:45",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/4c298460-4fb4-54a2-827b-c9ca1268f063"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://booking.carvercinemas.com/launch/ticketing/7788c948-96e6-5aad-a4dc-4a235bb33523"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

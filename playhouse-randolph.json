@@ -1,0 +1,60 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "playhouse-randolph",
+ "name": "Playhouse Movie Theatre",
+ "city": "uppervalley",
+ "area": "Randolph",
+ "region": "Randolph",
+ "url": "https://playhouseflicks.com/showtimes/",
+ "films": [
+  {
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://playhouseflicks.com/showtime/the-hunger-games-6/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/the-hunger-games-6/"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/the-hunger-games-sunrise-on-the-reaping/"
+    },
+    {
+     "at": "2026-12-02T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/the-hunger-games-sunrise-on-the-reaping-2/"
+    },
+    {
+     "at": "2026-12-03T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/the-hunger-games-sunrise-on-the-reaping-3/"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://playhouseflicks.com/showtime/i-play-rocky/",
+   "shows": [
+    {
+     "at": "2026-12-04T19:30",
+     "sold_out": false,
+     "url": "https://playhouseflicks.com/showtime/i-play-rocky/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

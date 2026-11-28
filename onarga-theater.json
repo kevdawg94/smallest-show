@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "onarga-theater",
+ "name": "Onarga Theater",
+ "city": "peoria",
+ "area": "Onarga",
+ "region": "Onarga & Watseka",
+ "url": "https://www.onargatheater.com/",
+ "films": [
+  {
+   "title": "HEXED",
+   "rating": null,
+   "runtime_min": null,
+   "url": "https://www.onargatheater.com/",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.onargatheater.com/"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://www.onargatheater.com/"
+    },
+    {
+     "at": "2026-12-04T19:00",
+     "sold_out": false,
+     "url": "https://www.onargatheater.com/"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}

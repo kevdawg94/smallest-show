@@ -1,0 +1,963 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "carmel-cinemas",
+ "name": "Carmel Cinemas",
+ "city": "hudsonvalley",
+ "area": "Carmel",
+ "region": "Mid-Hudson",
+ "url": "https://carmel.boxofficecinemas.com/",
+ "films": [
+  {
+   "title": "Hunger Games: Sunrise on The Reaping",
+   "rating": "PG-13",
+   "runtime_min": 168,
+   "url": "https://carmel.boxofficecinemas.com/movie/hunger-games-sunrise-on-the-reaping/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375296"
+    },
+    {
+     "at": "2026-11-28T12:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375300"
+    },
+    {
+     "at": "2026-11-28T14:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375297"
+    },
+    {
+     "at": "2026-11-28T15:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375301"
+    },
+    {
+     "at": "2026-11-28T17:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375298"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375302"
+    },
+    {
+     "at": "2026-11-28T20:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375299"
+    },
+    {
+     "at": "2026-11-29T11:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375119"
+    },
+    {
+     "at": "2026-11-29T12:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375123"
+    },
+    {
+     "at": "2026-11-29T14:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375120"
+    },
+    {
+     "at": "2026-11-29T15:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375124"
+    },
+    {
+     "at": "2026-11-29T17:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375121"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375125"
+    },
+    {
+     "at": "2026-11-29T20:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375122"
+    },
+    {
+     "at": "2026-11-30T14:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375156"
+    },
+    {
+     "at": "2026-11-30T15:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375158"
+    },
+    {
+     "at": "2026-11-30T17:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375157"
+    },
+    {
+     "at": "2026-11-30T18:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375159"
+    },
+    {
+     "at": "2026-12-01T11:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375178"
+    },
+    {
+     "at": "2026-12-01T12:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375182"
+    },
+    {
+     "at": "2026-12-01T14:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375179"
+    },
+    {
+     "at": "2026-12-01T15:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375183"
+    },
+    {
+     "at": "2026-12-01T17:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375180"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375184"
+    },
+    {
+     "at": "2026-12-01T20:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375181"
+    },
+    {
+     "at": "2026-12-02T14:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375215"
+    },
+    {
+     "at": "2026-12-02T15:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375217"
+    },
+    {
+     "at": "2026-12-02T17:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375216"
+    },
+    {
+     "at": "2026-12-02T18:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375218"
+    },
+    {
+     "at": "2026-12-03T14:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375237"
+    },
+    {
+     "at": "2026-12-03T15:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375239"
+    },
+    {
+     "at": "2026-12-03T17:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375238"
+    },
+    {
+     "at": "2026-12-03T18:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hunger-games-sunrise-on-the-reaping/4375240"
+    }
+   ]
+  },
+  {
+   "title": "Hexed",
+   "rating": "PG",
+   "runtime_min": 120,
+   "url": "https://carmel.boxofficecinemas.com/movie/hexed/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375303"
+    },
+    {
+     "at": "2026-11-28T13:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375304"
+    },
+    {
+     "at": "2026-11-28T15:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375305"
+    },
+    {
+     "at": "2026-11-28T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375306"
+    },
+    {
+     "at": "2026-11-28T20:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375307"
+    },
+    {
+     "at": "2026-11-29T11:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375126"
+    },
+    {
+     "at": "2026-11-29T13:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375127"
+    },
+    {
+     "at": "2026-11-29T15:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375128"
+    },
+    {
+     "at": "2026-11-29T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375129"
+    },
+    {
+     "at": "2026-11-29T20:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375130"
+    },
+    {
+     "at": "2026-11-30T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375160"
+    },
+    {
+     "at": "2026-11-30T16:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375161"
+    },
+    {
+     "at": "2026-11-30T18:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375162"
+    },
+    {
+     "at": "2026-12-01T11:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375185"
+    },
+    {
+     "at": "2026-12-01T13:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375186"
+    },
+    {
+     "at": "2026-12-01T15:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375187"
+    },
+    {
+     "at": "2026-12-01T18:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375188"
+    },
+    {
+     "at": "2026-12-01T20:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375189"
+    },
+    {
+     "at": "2026-12-02T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375219"
+    },
+    {
+     "at": "2026-12-02T16:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375220"
+    },
+    {
+     "at": "2026-12-02T18:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375221"
+    },
+    {
+     "at": "2026-12-03T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375241"
+    },
+    {
+     "at": "2026-12-03T16:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375242"
+    },
+    {
+     "at": "2026-12-03T18:45",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hexed/4375243"
+    }
+   ]
+  },
+  {
+   "title": "I Play Rocky",
+   "rating": "PG-13",
+   "runtime_min": 138,
+   "url": "https://carmel.boxofficecinemas.com/movie/i-play-rocky-2/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375313"
+    },
+    {
+     "at": "2026-11-28T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375314"
+    },
+    {
+     "at": "2026-11-28T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375315"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375316"
+    },
+    {
+     "at": "2026-11-28T21:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375317"
+    },
+    {
+     "at": "2026-11-29T11:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375136"
+    },
+    {
+     "at": "2026-11-29T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375137"
+    },
+    {
+     "at": "2026-11-29T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375138"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375139"
+    },
+    {
+     "at": "2026-11-29T21:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375140"
+    },
+    {
+     "at": "2026-11-30T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375166"
+    },
+    {
+     "at": "2026-11-30T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375167"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375168"
+    },
+    {
+     "at": "2026-12-01T11:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375195"
+    },
+    {
+     "at": "2026-12-01T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375196"
+    },
+    {
+     "at": "2026-12-01T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375197"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375198"
+    },
+    {
+     "at": "2026-12-01T21:40",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375199"
+    },
+    {
+     "at": "2026-12-02T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375225"
+    },
+    {
+     "at": "2026-12-02T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375226"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375227"
+    },
+    {
+     "at": "2026-12-03T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375247"
+    },
+    {
+     "at": "2026-12-03T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375248"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/i-play-rocky-2/4375249"
+    }
+   ]
+  },
+  {
+   "title": "The Cat in the Hat",
+   "rating": "PG",
+   "runtime_min": 124,
+   "url": "https://carmel.boxofficecinemas.com/movie/the-cat-in-the-hat/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375328"
+    },
+    {
+     "at": "2026-11-28T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375329"
+    },
+    {
+     "at": "2026-11-28T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375330"
+    },
+    {
+     "at": "2026-11-28T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375331"
+    },
+    {
+     "at": "2026-11-28T21:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375332"
+    },
+    {
+     "at": "2026-11-29T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375151"
+    },
+    {
+     "at": "2026-11-29T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375152"
+    },
+    {
+     "at": "2026-11-29T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375153"
+    },
+    {
+     "at": "2026-11-30T14:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375175"
+    },
+    {
+     "at": "2026-11-30T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375176"
+    },
+    {
+     "at": "2026-11-30T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375177"
+    },
+    {
+     "at": "2026-12-01T11:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375210"
+    },
+    {
+     "at": "2026-12-01T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375211"
+    },
+    {
+     "at": "2026-12-01T16:20",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375212"
+    },
+    {
+     "at": "2026-12-01T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375213"
+    },
+    {
+     "at": "2026-12-01T21:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375214"
+    },
+    {
+     "at": "2026-12-02T14:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375234"
+    },
+    {
+     "at": "2026-12-02T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375235"
+    },
+    {
+     "at": "2026-12-02T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375236"
+    },
+    {
+     "at": "2026-12-03T14:15",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375256"
+    },
+    {
+     "at": "2026-12-03T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375257"
+    },
+    {
+     "at": "2026-12-03T18:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/the-cat-in-the-hat/4375258"
+    }
+   ]
+  },
+  {
+   "title": "Ebenezer",
+   "rating": "PG-13",
+   "runtime_min": 125,
+   "url": "https://carmel.boxofficecinemas.com/movie/ebenezer/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375318"
+    },
+    {
+     "at": "2026-11-28T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375319"
+    },
+    {
+     "at": "2026-11-28T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375320"
+    },
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375321"
+    },
+    {
+     "at": "2026-11-28T21:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375322"
+    },
+    {
+     "at": "2026-11-29T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375141"
+    },
+    {
+     "at": "2026-11-29T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375142"
+    },
+    {
+     "at": "2026-11-29T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375143"
+    },
+    {
+     "at": "2026-11-29T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375144"
+    },
+    {
+     "at": "2026-11-29T21:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375145"
+    },
+    {
+     "at": "2026-11-30T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375169"
+    },
+    {
+     "at": "2026-11-30T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375170"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375171"
+    },
+    {
+     "at": "2026-12-01T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375200"
+    },
+    {
+     "at": "2026-12-01T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375201"
+    },
+    {
+     "at": "2026-12-01T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375202"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375203"
+    },
+    {
+     "at": "2026-12-01T21:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375204"
+    },
+    {
+     "at": "2026-12-02T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375228"
+    },
+    {
+     "at": "2026-12-02T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375229"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375230"
+    },
+    {
+     "at": "2026-12-03T14:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375250"
+    },
+    {
+     "at": "2026-12-03T16:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375251"
+    },
+    {
+     "at": "2026-12-03T19:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/ebenezer/4375252"
+    }
+   ]
+  },
+  {
+   "title": "Focker-In-Law",
+   "rating": "PG-13",
+   "runtime_min": 115,
+   "url": "https://carmel.boxofficecinemas.com/movie/focker-in-law/",
+   "shows": [
+    {
+     "at": "2026-11-28T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375308"
+    },
+    {
+     "at": "2026-11-28T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375309"
+    },
+    {
+     "at": "2026-11-28T16:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375310"
+    },
+    {
+     "at": "2026-11-28T18:35",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375311"
+    },
+    {
+     "at": "2026-11-28T21:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375312"
+    },
+    {
+     "at": "2026-11-29T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375131"
+    },
+    {
+     "at": "2026-11-29T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375132"
+    },
+    {
+     "at": "2026-11-29T16:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375133"
+    },
+    {
+     "at": "2026-11-29T18:35",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375134"
+    },
+    {
+     "at": "2026-11-29T21:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375135"
+    },
+    {
+     "at": "2026-11-30T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375163"
+    },
+    {
+     "at": "2026-11-30T16:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375164"
+    },
+    {
+     "at": "2026-11-30T18:35",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375165"
+    },
+    {
+     "at": "2026-12-01T11:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375190"
+    },
+    {
+     "at": "2026-12-01T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375191"
+    },
+    {
+     "at": "2026-12-01T16:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375192"
+    },
+    {
+     "at": "2026-12-01T18:35",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375193"
+    },
+    {
+     "at": "2026-12-01T21:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375194"
+    },
+    {
+     "at": "2026-12-02T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375222"
+    },
+    {
+     "at": "2026-12-02T16:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375223"
+    },
+    {
+     "at": "2026-12-02T18:35",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375224"
+    },
+    {
+     "at": "2026-12-03T13:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375244"
+    },
+    {
+     "at": "2026-12-03T16:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375245"
+    },
+    {
+     "at": "2026-12-03T18:35",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/focker-in-law/4375246"
+    }
+   ]
+  },
+  {
+   "title": "Hershey",
+   "rating": "PG",
+   "runtime_min": 120,
+   "url": "https://carmel.boxofficecinemas.com/movie/hershey/",
+   "shows": [
+    {
+     "at": "2026-11-28T12:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375323"
+    },
+    {
+     "at": "2026-11-28T14:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375324"
+    },
+    {
+     "at": "2026-11-28T16:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375325"
+    },
+    {
+     "at": "2026-11-28T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375326"
+    },
+    {
+     "at": "2026-11-28T21:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375327"
+    },
+    {
+     "at": "2026-11-29T12:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375146"
+    },
+    {
+     "at": "2026-11-29T14:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375147"
+    },
+    {
+     "at": "2026-11-29T16:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375148"
+    },
+    {
+     "at": "2026-11-29T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375149"
+    },
+    {
+     "at": "2026-11-29T21:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375150"
+    },
+    {
+     "at": "2026-11-30T14:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375172"
+    },
+    {
+     "at": "2026-11-30T16:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375173"
+    },
+    {
+     "at": "2026-11-30T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375174"
+    },
+    {
+     "at": "2026-12-01T12:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375205"
+    },
+    {
+     "at": "2026-12-01T14:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375206"
+    },
+    {
+     "at": "2026-12-01T16:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375207"
+    },
+    {
+     "at": "2026-12-01T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375208"
+    },
+    {
+     "at": "2026-12-01T21:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375209"
+    },
+    {
+     "at": "2026-12-02T14:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375231"
+    },
+    {
+     "at": "2026-12-02T16:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375232"
+    },
+    {
+     "at": "2026-12-02T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375233"
+    },
+    {
+     "at": "2026-12-03T14:30",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375253"
+    },
+    {
+     "at": "2026-12-03T16:50",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375254"
+    },
+    {
+     "at": "2026-12-03T19:10",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/hershey/4375255"
+    }
+   ]
+  },
+  {
+   "title": "Cosmic Samson",
+   "rating": null,
+   "runtime_min": 133,
+   "url": "https://carmel.boxofficecinemas.com/movie/cosmic-samson/",
+   "shows": [
+    {
+     "at": "2026-11-29T20:00",
+     "sold_out": false,
+     "url": "https://carmel.boxofficecinemas.com/checkout/showing/cosmic-samson/4399186"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-27T20:23",
+ "error": null,
+ "warning": null
+}

@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-11-28T02:23",
+ "tz": "America/Los_Angeles",
+ "window": [
+  "2026-11-28",
+  "2026-12-05"
+ ],
+ "id": "london-state",
+ "name": "London State Theater",
+ "city": "columbus",
+ "area": "London",
+ "region": "Neighborhoods",
+ "url": "https://www.londonstatetheater.com",
+ "films": [
+  {
+   "title": "The Hunger Games Sunrise on the Reaping",
+   "rating": "PG-13",
+   "runtime_min": 38,
+   "url": "https://www.londonstatetheater.com",
+   "shows": [
+    {
+     "at": "2026-11-28T19:00",
+     "sold_out": false,
+     "url": "https://www.londonstatetheater.com"
+    },
+    {
+     "at": "2026-11-29T15:30",
+     "sold_out": false,
+     "url": "https://www.londonstatetheater.com"
+    },
+    {
+     "at": "2026-11-30T19:00",
+     "sold_out": false,
+     "url": "https://www.londonstatetheater.com"
+    },
+    {
+     "at": "2026-12-01T19:00",
+     "sold_out": false,
+     "url": "https://www.londonstatetheater.com"
+    },
+    {
+     "at": "2026-12-02T12:00",
+     "sold_out": false,
+     "url": "https://www.londonstatetheater.com"
+    },
+    {
+     "at": "2026-12-02T19:00",
+     "sold_out": false,
+     "url": "https://www.londonstatetheater.com"
+    }
+   ]
+  }
+ ],
+ "fetched_at": "2026-11-28T02:23",
+ "error": null,
+ "warning": null
+}
